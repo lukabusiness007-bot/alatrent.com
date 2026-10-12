@@ -33,3 +33,13 @@ One pair has the same normalized name: Crafter 823 and 828, Rothenberger
 Multigas 300 soldering torches. Different source references and purchase prices
 require checking the exact equipment and package before any merge. No entries
 are merged or deleted by the presentation migration or review generation.
+
+Production verification exposed cold-start contention on the database
+initialization lock. Completed instances now check the complete set of
+migration flags and required admin bootstrap credentials before acquiring that
+lock. Pending migrations still initialize and commit under the lock; ordinary
+requests still load fresh PostgreSQL snapshots, and writes retain cross-instance
+locking. The completion registry in `lib/db.ts` must include new migration and
+schema-upgrade markers. `tests/postgres-initialization.test.mjs` verifies a cold
+read while the writer lock is held, pending migrations, and first-time auth in
+an isolated PostgreSQL schema.

@@ -282,8 +282,20 @@ function initializeKits() {
 
 if (!persistentDatabase) initializeDatabase();
 
+// Keep this list in step with initializeDatabase, including any schema upgrade
+// marker added in future. A missing flag or bootstrap password still runs the
+// full initializer under its cross-instance transaction lock.
+const initializationCompletion = {
+  meta: ['seeded', 'alat-rent-contact-v1', 'alat-rent-brand-v1',
+    'photos-prices-no-deposit-v1', 'club-deposit-policy-v1',
+    catalogImport.migration, catalogExpansion.migration, catalogSourcesImport.migration,
+    catalogCrafterImport.migration, catalogNameCleanup.migration,
+    'suggested-import-prices-v1', 'commerce-kits-v1', 'commerce-kits-v2', 'commerce-merchandising-v1'],
+  requireAuth: !catalogOnly && !!process.env.ADMIN_PASSWORD,
+};
+
 export function withDatabase<T>(fn: () => T | Promise<T>, write = false): Promise<T> {
-  return withPersistentDatabase(initializeDatabase, fn, write);
+  return withPersistentDatabase(initializeDatabase, fn, write, initializationCompletion);
 }
 export function databaseComponent<A extends unknown[], T>(fn: (...args: A) => T | Promise<T>) {
   return (...args: A) => withDatabase(() => fn(...args));

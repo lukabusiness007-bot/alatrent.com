@@ -41,6 +41,14 @@ Svih 72 početnih alata ima lokalnu katalošku fotografiju proizvoda (`public/im
 
 ## Objavljivanje
 
+### Vercel: pregled kataloga
+
+Na Vercelu (`VERCEL=1`) aplikacija prikazuje početni katalog iz baze u memoriji, bez pokušaja pisanja u `/var/task/data`. Vidljivo obaveštenje označava da online rezervacije i registracija nisu dostupne. API upisi (uključujući porudžbine, prijave, upload i webhook) vraćaju 503; obračun cene ostaje dostupan. Baza je posle inicijalizacije zaključana za upise. Admin prikazuje objašnjenje umesto forme za prijavu.
+
+Ovo rešava učitavanje javnog sajta, ali **nije produkciono rešenje za porudžbine i admin**. Za njih je potrebna migracija na spoljašnju trajnu bazu i skladište fotografija ili Node server sa trajnim diskom. `DATA_DIR=/tmp/...` na Vercelu ne obezbeđuje trajnost i ne uključuje upise.
+
+### Node server sa trajnim diskom
+
 Sajt je trenutno lokalni. Potreban je Node server sa **trajnim diskom**, jednim aktivnim app procesom i HTTPS reverse proxyjem (prosleđuje originalni Host). Ne postavljati SQLite/fotografije na prolazni serverless filesystem. `DATA_DIR` može da pokaže na montirani trajni volumen. Obezbediti ograničenje tela zahteva na proxyju (npr. 6 MB), automatske rezervne kopije i nadzor procesa.
 
 ```sh

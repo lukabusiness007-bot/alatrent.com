@@ -9,10 +9,11 @@ import type { Tool, Category, Settings, RentalRequest, PublicData } from './type
 import type { Order } from './commerce/types';
 import { today } from './validation';
 import { extraKits } from './commerce/kits';
+import { catalogOnly } from './storage';
 const dir = process.env.DATA_DIR || path.join(process.cwd(), 'data');
-mkdirSync(dir, { recursive: true });
+if (!catalogOnly) mkdirSync(dir, { recursive: true });
 const globalDb = globalThis as unknown as { rentalDb?: DatabaseSync };
-export const db = globalDb.rentalDb || new DatabaseSync(path.join(dir, 'rent-tools.sqlite'));
+export const db = globalDb.rentalDb || new DatabaseSync(catalogOnly ? ':memory:' : path.join(dir, 'rent-tools.sqlite'));
 globalDb.rentalDb = db;
 db.exec(`PRAGMA busy_timeout=10000; PRAGMA journal_mode=WAL;
 CREATE TABLE IF NOT EXISTS entities (kind TEXT NOT NULL,id TEXT NOT NULL,value TEXT NOT NULL,PRIMARY KEY(kind,id));
@@ -138,3 +139,7 @@ if (!get('meta', 'commerce-kits-v2')) transaction(() => {
   }
   put('meta', 'commerce-kits-v2', true);
 });
+
+// No route may silently save orders or accounts to volatile memory, even if
+// a future endpoint is accidentally allowed through the proxy.
+if (catalogOnly) db.exec('PRAGMA query_only=ON');

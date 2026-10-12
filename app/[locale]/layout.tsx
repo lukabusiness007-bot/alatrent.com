@@ -6,6 +6,7 @@ import { Footer } from '@/components/Store';
 import { settings } from '@/lib/db';
 import '../globals.css';
 import { CartProvider } from '@/components/commerce/CartProvider';
+import CatalogNotice from '@/components/CatalogNotice';
 export const dynamic = 'force-dynamic';
 export default async function Layout({
   children,
@@ -22,6 +23,7 @@ export default async function Layout({
       <body>
         <OrganizationSchema settings={s} />
         <CartProvider locale={locale}><Header locale={locale} brand={s.brand} />
+        <CatalogNotice locale={locale} />
         <main id="main">{children}</main>
         <Footer locale={locale} settings={s} /></CartProvider>
       </body>

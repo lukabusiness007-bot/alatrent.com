@@ -3787,3 +3787,12 @@ p {
 .seo-links { display: flex; flex-wrap: wrap; gap: 12px 22px; margin-top: 24px; }
 .seo-links a { text-decoration: underline; text-underline-offset: 4px; }
 .catalog-intro .breadcrumbs { margin-bottom: 18px; }
+
+.catalog-notice {
+  padding: 12px 20px;
+  background: #fff4ce;
+  color: #433715;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}

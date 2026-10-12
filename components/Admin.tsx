@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import CommerceAdmin from './commerce/CommerceAdmin';
+import SourceOffers from './SourceOffers';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { locales, languageNames, money } from '@/lib/i18n';
@@ -171,6 +172,7 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
   const nav = [
     ['overview', 'Pregled', LayoutDashboard],
     ['tools', 'Alati', Drill],
+    ['sources', 'Cene iz izvora', Tags],
     ['categories', 'Kategorije', Tags],
     ['requests', 'Upiti za najam', ClipboardList],
     ['commerce', 'Prodaja i klub', Package],
@@ -350,6 +352,8 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
                   ? 'Pregled ponude, novih upita i sledećih koraka.'
                   : tab === 'tools'
                     ? 'Upravljaj ponudom, fotografijama, cenama i prevodima.'
+                    : tab === 'sources'
+                      ? 'Sve preuzete ponude, originalne cene i uslovi najma na jednom mestu.'
                     : tab === 'categories'
                       ? 'Organizuj alate da ih kupci lakše pronađu.'
                       : tab === 'requests'
@@ -397,6 +401,7 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
             </p>
           )}
           {tab === 'commerce' && <CommerceAdmin />}
+          {tab === 'sources' && <SourceOffers tools={data.tools} onEdit={tool => { navigate('tools'); setEditingTool(tool); setEditLocale('sr'); }} />}
           {tab === 'overview' && (
             <>
               <div className="stat-grid">
@@ -736,6 +741,7 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
                     />
                     <small>Prazno polje prikazuje „Cena na upit”.</small>
                   </label>
+                  {editingTool.id && <SourceOffers tools={data.tools} toolId={editingTool.id} onApply={price => setEditingTool({ ...editingTool, price })} />}
                   <label>
                     Ukupan broj komada
                     <input

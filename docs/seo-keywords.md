@@ -1,6 +1,6 @@
 # Mapa ključnih fraza za katalog
 
-126 vrsta alata; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.
+184 vrsta alata; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.
 
 Isključivo administrativna teritorija grada Beograda, uključujući Obrenovac, Sremčicu i Železnik.
 
@@ -136,3 +136,61 @@ Predlozi fraza zasnovani su na sadržaju kataloga i nameri korisnika. Obim pretr
 | Manometarski set za klime | iznajmljivanje manometarskog seta za klime Beograd | manifold za klime, servisni manometri | /sr/alat/manometarski-set-za-klime |
 | Presa za kablovske papučice | iznajmljivanje prese za kablovske papučice Beograd | hidraulična klešta za papučice, krimpovanje kablova | /sr/alat/presa-za-kablovske-papucice |
 | Uređaj za provlačenje kablova | iznajmljivanje uređaja za provlačenje kablova Beograd | sajla za kablove, uvlačna sonda | /sr/alat/uredjaj-za-provlacenje-kablova |
+| Teleskopske makaze za živu ogradu | iznajmljivanje teleskopske makaze za živu ogradu Beograd | Teleskopske makaze za živu ogradu, Telescopic hedge trimmer | /sr/alat/teleskopske-makaze-za-zivu-ogradu |
+| Ručna teleskopska testera za grane | iznajmljivanje ručna teleskopska testera za grane Beograd | Ručna teleskopska testera za grane, Manual telescopic pruning saw | /sr/alat/rucna-teleskopska-testera-za-grane |
+| Električna heftalica | iznajmljivanje električna heftalica Beograd | Električna heftalica, Electric staple gun | /sr/alat/elektricna-heftalica |
+| Vibraciona brusilica | iznajmljivanje vibraciona brusilica Beograd | Vibraciona brusilica, Orbital sheet sander | /sr/alat/vibraciona-brusilica |
+| Pneumatski pištolj za čišćenje | iznajmljivanje pneumatski pištolj za čišćenje Beograd | Pneumatski pištolj za čišćenje, Pneumatic cleaning gun | /sr/alat/pneumatski-pistolj-za-ciscenje |
+| Podna brusilica za beton | iznajmljivanje podna brusilica za beton Beograd | Podna brusilica za beton, Concrete floor grinder | /sr/alat/podna-brusilica-za-beton |
+| Hidraulični agregat sa čekićem | iznajmljivanje hidraulični agregat sa čekićem Beograd | Hidraulični agregat sa čekićem, Hydraulic power pack with breaker | /sr/alat/hidraulicni-agregat-sa-cekicem |
+| Pneumatski čekić za kompresor | iznajmljivanje pneumatski čekić za kompresor Beograd | Pneumatski čekić za kompresor, Pneumatic breaker | /sr/alat/pneumatski-cekic-za-kompresor |
+| Rasvetni toranj | iznajmljivanje rasvetni toranj Beograd | Rasvetni toranj, Lighting tower | /sr/alat/rasvetni-toranj |
+| Makaze za armaturu | iznajmljivanje makaze za armaturu Beograd | Makaze za armaturu, Bolt and rebar cutter | /sr/alat/makaze-za-armaturu |
+| Ručni bušač zemlje | iznajmljivanje ručni bušač zemlje Beograd | Ručni bušač zemlje, Manual earth auger | /sr/alat/rucni-busac-zemlje |
+| Separaciona freza za zemljište | iznajmljivanje separaciona freza za zemljište Beograd | Separaciona freza za zemljište, Soil separator tiller | /sr/alat/separaciona-freza-za-zemljiste |
+| Teleskopske makaze za travu | iznajmljivanje teleskopske makaze za travu Beograd | Teleskopske makaze za travu, Telescopic grass shears | /sr/alat/teleskopske-makaze-za-travu |
+| Sejalica za travu | iznajmljivanje sejalica za travu Beograd | Sejalica za travu, Lawn seed spreader | /sr/alat/sejalica-za-travu |
+| Razvodna tabla za gradilište | iznajmljivanje razvodna tabla za gradilište Beograd | Razvodna tabla za gradilište, Site power distribution board | /sr/alat/razvodna-tabla-za-gradiliste |
+| Peskara | iznajmljivanje peskara Beograd | Peskara, Sandblasting unit | /sr/alat/peskara |
+| Usisivač za pepeo | iznajmljivanje usisivač za pepeo Beograd | Usisivač za pepeo, Ash vacuum | /sr/alat/usisivac-za-pepeo |
+| Građevinska kolica | iznajmljivanje građevinska kolica Beograd | Građevinska kolica, Wheelbarrow | /sr/alat/gradjevinska-kolica |
+| Levak za šut | iznajmljivanje levak za šut Beograd | Levak za šut, Rubble chute | /sr/alat/levak-za-sut |
+| Građevinski podupirači | iznajmljivanje građevinski podupirači Beograd | Građevinski podupirači, Construction props | /sr/alat/gradjevinski-podupiraci |
+| Pištolj za farbanje kompresorom | iznajmljivanje pištolj za farbanje kompresorom Beograd | Pištolj za farbanje kompresorom, Pneumatic paint spray gun | /sr/alat/pistolj-za-farbanje-kompresorom |
+| Maska za varenje | iznajmljivanje maska za varenje Beograd | Maska za varenje, Welding helmet | /sr/alat/maska-za-varenje |
+| Zaštitne slušalice | iznajmljivanje zaštitne slušalice Beograd | Zaštitne slušalice, Hearing protectors | /sr/alat/zastitne-slusalice |
+| Burgije za drvo i metal | iznajmljivanje burgije za drvo i metal Beograd | Burgije za drvo i metal, Wood and metal drill bits | /sr/alat/burgije-za-drvo-i-metal |
+| Burgije za beton SDS | iznajmljivanje burgije za beton sds Beograd | Burgije za beton SDS, SDS concrete drill bits | /sr/alat/burgije-za-beton-sds |
+| Dijamantske ploče za beton | iznajmljivanje dijamantske ploče za beton Beograd | Dijamantske ploče za beton, Diamond concrete cutting discs | /sr/alat/dijamantske-ploce-za-beton |
+| Rezne ploče za metal | iznajmljivanje rezne ploče za metal Beograd | Rezne ploče za metal, Metal cutting discs | /sr/alat/rezne-ploce-za-metal |
+| Nastavak mikser za bušilicu | iznajmljivanje nastavak mikser za bušilicu Beograd | Nastavak mikser za bušilicu, Drill mixing paddle | /sr/alat/nastavak-mikser-za-busilicu |
+| Lanac za testeru | iznajmljivanje lanac za testeru Beograd | Lanac za testeru, Chainsaw chain | /sr/alat/lanac-za-testeru |
+| Merač vlage u materijalu | iznajmljivanje merač vlage u materijalu Beograd | Merač vlage u materijalu, Material moisture meter | /sr/alat/merac-vlage-u-materijalu |
+| Termohigrometar | iznajmljivanje termohigrometar Beograd | Termohigrometar, Thermohygrometer | /sr/alat/termohigrometar |
+| Infracrveni termometar | iznajmljivanje infracrveni termometar Beograd | Infracrveni termometar, Infrared thermometer | /sr/alat/infracrveni-termometar |
+| Digitalni multimetar | iznajmljivanje digitalni multimetar Beograd | Digitalni multimetar, Digital multimeter | /sr/alat/digitalni-multimetar |
+| Merač potrošnje struje | iznajmljivanje merač potrošnje struje Beograd | Merač potrošnje struje, Electricity consumption meter | /sr/alat/merac-potrosnje-struje |
+| Merač kvaliteta vazduha | iznajmljivanje merač kvaliteta vazduha Beograd | Merač kvaliteta vazduha, Air quality monitor | /sr/alat/merac-kvaliteta-vazduha |
+| Detektor curenja gasa | iznajmljivanje detektor curenja gasa Beograd | Detektor curenja gasa, Gas leak detector | /sr/alat/detektor-curenja-gasa |
+| Akustična kamera | iznajmljivanje akustična kamera Beograd | Akustična kamera, Acoustic imaging camera | /sr/alat/akusticna-kamera |
+| Akustični korelator | iznajmljivanje akustični korelator Beograd | Akustični korelator, Acoustic leak correlator | /sr/alat/akusticni-korelator |
+| Dimna mašina za testiranje instalacija | iznajmljivanje dimna mašina za testiranje instalacija Beograd | Dimna mašina za testiranje instalacija, Installation smoke tester | /sr/alat/dimna-masina-za-testiranje-instalacija |
+| UV set za detekciju curenja | iznajmljivanje uv set za detekciju curenja Beograd | UV set za detekciju curenja, UV leak detection kit | /sr/alat/uv-set-za-detekciju-curenja |
+| Set za detekciju traser gasom | iznajmljivanje set za detekciju traser gasom Beograd | Set za detekciju traser gasom, Tracer gas leak detection kit | /sr/alat/set-za-detekciju-traser-gasom |
+| Dron za vizuelnu inspekciju | iznajmljivanje dron za vizuelnu inspekciju Beograd | Dron za vizuelnu inspekciju, Visual inspection drone | /sr/alat/dron-za-vizuelnu-inspekciju |
+| Termalni dron | iznajmljivanje termalni dron Beograd | Termalni dron, Thermal inspection drone | /sr/alat/termalni-dron |
+| Fonometar | iznajmljivanje fonometar Beograd | Fonometar, Sound level meter | /sr/alat/fonometar |
+| EMF merač | iznajmljivanje emf merač Beograd | EMF merač, EMF meter | /sr/alat/emf-merac |
+| Anemometar | iznajmljivanje anemometar Beograd | Anemometar, Anemometer | /sr/alat/anemometar |
+| Gajgerov brojač | iznajmljivanje gajgerov brojač Beograd | Gajgerov brojač, Geiger counter | /sr/alat/gajgerov-brojac |
+| Luksmetar | iznajmljivanje luksmetar Beograd | Luksmetar, Lux meter | /sr/alat/luksmetar |
+| Tahometar | iznajmljivanje tahometar Beograd | Tahometar, Tachometer | /sr/alat/tahometar |
+| Vibrometar | iznajmljivanje vibrometar Beograd | Vibrometar, Vibration meter | /sr/alat/vibrometar |
+| Merač debljine materijala | iznajmljivanje merač debljine materijala Beograd | Merač debljine materijala, Material thickness gauge | /sr/alat/merac-debljine-materijala |
+| Ultrazvučni merač protoka vode | iznajmljivanje ultrazvučni merač protoka vode Beograd | Ultrazvučni merač protoka vode, Ultrasonic water flow meter | /sr/alat/ultrazvucni-merac-protoka-vode |
+| Alarm za detekciju poplave | iznajmljivanje alarm za detekciju poplave Beograd | Alarm za detekciju poplave, Water leak alarm | /sr/alat/alarm-za-detekciju-poplave |
+| Robotska kamera za inspekciju | iznajmljivanje robotska kamera za inspekciju Beograd | Robotska kamera za inspekciju, Robotic inspection camera | /sr/alat/robotska-kamera-za-inspekciju |
+| Merač otpora uzemljenja | iznajmljivanje merač otpora uzemljenja Beograd | Merač otpora uzemljenja, Earth resistance tester | /sr/alat/merac-otpora-uzemljenja |
+| Strujna klešta | iznajmljivanje strujna klešta Beograd | Strujna klešta, Clamp meter | /sr/alat/strujna-klesta |
+| Barometar | iznajmljivanje barometar Beograd | Barometar, Barometer | /sr/alat/barometar |
+| Diferencijalni manometar | iznajmljivanje diferencijalni manometar Beograd | Diferencijalni manometar, Differential pressure meter | /sr/alat/diferencijalni-manometar |

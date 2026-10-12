@@ -72,7 +72,7 @@ while queue:
                         'summary': a.get_text(' ', strip=True), 'category': link.split('/')[5]}
             elif '/katalog/' in link and link not in visited:
                 queue.add(link)
-for url, soup in batch(sorted(cards)).items():
+for url, soup in sorted(batch(sorted(cards)).items()):
     card = cards[url]
     body = soup.select_one('[itemprop="articleBody"]') or soup.select_one('article') or soup.select_one('main')
     text = body.get_text('\n', strip=True) if body else ''
@@ -85,7 +85,10 @@ root = fetch(base + 'rucni-alat/')
 cats = {urljoin(base, a['href']) for a in root.select('a[href]') if a.get_text(' ', strip=True) in
     ['Radovi na tlu', 'Bušenje i rušenje betona', 'Vibro mašine', 'Agregati i kompresori',
      'Rad na visini', 'Čišćenje', 'Ostalo', 'Baštenski program', 'Ručni alat', 'Potrošni materijal i sigurnosna  oprema']}
-for url, soup in batch(sorted(cats)).items():
+# Public WordPress inventory also exposes equipment pages omitted from the menu.
+wp_pages = json.loads(Path('output/catalog-scrape/rentmasina-pages.json').read_text())
+cats.update(p['link'] for p in wp_pages if p['id'] in [2435, 2356, 2291, 2222, 1750, 1407, 1345, 928, 836])
+for url, soup in sorted(batch(sorted(cats)).items()):
     for card in soup.select('.elementor-widget-wrap'):
         prices = card.select('.elementor-button-text')
         if not prices or not any(re.search('Cena|cen[a-z]*', p.get_text(), re.I) for p in prices):
@@ -97,6 +100,15 @@ for url, soup in batch(sorted(cats)).items():
         offers.append({'source': 'rentmasina.rs', 'url': url, 'name': headings[0].get_text(' ', strip=True),
             'category': url.rstrip('/').split('/')[-1], 'detail': text, 'priceEvidence': price_lines(text),
             'priceStatus': 'published' if re.search(r'\d.*€', text) else 'inquiry'})
+for page in wp_pages:
+    if page['id'] not in [2435, 2356, 2291, 1750, 1407, 1345, 928, 836]:
+        continue
+    body = BeautifulSoup(page['content']['rendered'], 'html.parser')
+    title = body.select_one('h1, h2, h3')
+    offers.append({'source': 'rentmasina.rs', 'url': page['link'],
+        'name': title.get_text(' ', strip=True) if title else page['title']['rendered'],
+        'category': 'sale', 'detail': body.get_text('\n', strip=True),
+        'priceEvidence': price_lines(body.get_text('\n', strip=True)), 'priceStatus': 'published'})
 
 # Verify every profile listing against its public detail page, including tier prices.
 profile = json.loads(Path('output/catalog-scrape/pozajmime-listings.json').read_text())
@@ -125,10 +137,20 @@ for table in pricing.select('table'):
 article = fetch(article_url)
 body = article.select_one('[itemprop="articleBody"]')
 article_text = body.get_text('\n', strip=True) if body else ''
+equipment_pages = []
+nav = article.select_one('nav')
+equipment_urls = {urljoin(base, a['href']) for a in nav.select('a[href]')
+    if a['href'].startswith(('/merenje/', '/snimanje/'))}
+for url, soup in sorted(batch(sorted(equipment_urls)).items()):
+    body = soup.select_one('[itemprop="articleBody"]') or soup.select_one('main')
+    text = body.get_text('\n', strip=True) if body else ''
+    equipment_pages.append({'url': url, 'title': PAGES[url]['title'], 'text': text,
+        'priceEvidence': price_lines(text)})
 Path('output/catalog-scrape/scraped-offers.json').write_text(json.dumps({
     'observedAt': '2026-10-12', 'profileCount': len(profile['listings']),
     'pages': sorted(PAGES.values(), key=lambda p:p['url']), 'errors': ERRORS, 'offers': offers,
     'beodetectArticle': {'url': article_url, 'priceEvidence': price_lines(article_text)},
+    'equipmentPages': equipment_pages,
 }, ensure_ascii=False, indent=2) + '\n')
 from collections import Counter
 print(json.dumps({'offers': dict(Counter(o['source'] for o in offers)), 'pages': len(PAGES), 'errors': ERRORS}, ensure_ascii=False))

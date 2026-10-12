@@ -1,0 +1,946 @@
+[
+  {
+    "toolId": "tool-127",
+    "name": "Teleskopske makaze za živu ogradu",
+    "price": null,
+    "evidence": [
+      {
+        "source": "iznajmialat.rs",
+        "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/59-stihl-km-94-rc-e-makaze",
+        "name": "STIHL KM 130 R Teleskopske kombinovane makaze za sečenje žive ograde",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-128",
+    "name": "Ručna teleskopska testera za grane",
+    "price": null,
+    "evidence": [
+      {
+        "source": "iznajmialat.rs",
+        "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/84-wolf-garten-pro-370",
+        "name": "Testera za grane sa teleskopskom drškom 4m PCS PRO 370/ZM-V4 WOLF GARTEN",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-129",
+    "name": "Električna heftalica",
+    "price": null,
+    "evidence": [
+      {
+        "source": "iznajmialat.rs",
+        "url": "https://iznajmialat.rs/index.php/katalog/obrada-drveta/110-novus-j-165-ead",
+        "name": "Električna heftalica J 165 EAD NOVUS",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-130",
+    "name": "Vibraciona brusilica",
+    "price": null,
+    "evidence": [
+      {
+        "source": "iznajmialat.rs",
+        "url": "https://iznajmialat.rs/index.php/katalog/obrada-drveta/112-bosch-gss-160-multi",
+        "name": "Vibraciona brusilica/šlajferica BOSCH GSS 160 Multi",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-131",
+    "name": "Pneumatski pištolj za čišćenje",
+    "price": null,
+    "evidence": [
+      {
+        "source": "iznajmialat.rs",
+        "url": "https://iznajmialat.rs/index.php/katalog/odrzavanje-ciscenje/140-easyclean-pistolj",
+        "name": "EASYCLEAN365+ TORNADO pištolj za čišćenje automobila",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-132",
+    "name": "Podna brusilica za beton",
+    "price": 4800,
+    "evidence": [
+      {
+        "source": "pozajmime.rs",
+        "url": "https://pozajmime.rs/oglas/komplet-podna-brusilica-za-beton-usisivac-beograd-FSTpSDzPI02NFpWgr9Qq",
+        "name": "KOMPLET: Podna brusilica za beton + usisivač",
+        "kind": "rental"
+      },
+      {
+        "source": "pozajmime.rs",
+        "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-brusilica-za-beton-podna-250m-beograd-f4E8SzFLNzM6YQ50Yhhq",
+        "name": "Najam/Iznajmljivanje Brusilica za beton podna - 250mm",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-133",
+    "name": "Hidraulični agregat sa čekićem",
+    "price": 6000,
+    "evidence": [
+      {
+        "source": "pozajmime.rs",
+        "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-hidraulicni-agregat-sa-cekice-beograd-U6FXuqA7yo8J0TCLqAls",
+        "name": "Najam/Iznajmljivanje Hidraulični agregat sa čekićem",
+        "kind": "rental"
+      },
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/busenje-i-rusenje-betona/",
+        "name": "Hidraulični čekić “Atlas Copco”,",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-134",
+    "name": "Pneumatski čekić za kompresor",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/agregate-i-kompresore/",
+        "name": "Pneumatski čekić\n\nza kompresor",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-135",
+    "name": "Rasvetni toranj",
+    "price": 7800,
+    "evidence": [
+      {
+        "source": "pozajmime.rs",
+        "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-rasvetni-toranj-beograd-bfqzBMVoonIOBG4lAN0S",
+        "name": "Najam/Iznajmljivanje Rasvetni toranj",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-136",
+    "name": "Makaze za armaturu",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/rucni-alat/",
+        "name": "Makaze za armaturu",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-137",
+    "name": "Ručni bušač zemlje",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/radovi-na-tlu/",
+        "name": "Burgija ručna",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-138",
+    "name": "Separaciona freza za zemljište",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/bastenski-program/",
+        "name": "Freza hidraulicna sa valjkom za separaciju PROFI",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-139",
+    "name": "Teleskopske makaze za travu",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/bastenski-program/",
+        "name": "Makaze za travu sa teleskopskom ručicom",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-140",
+    "name": "Sejalica za travu",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/bastenski-program/",
+        "name": "Sejalica za travu",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-141",
+    "name": "Razvodna tabla za gradilište",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/agregate-i-kompresore/",
+        "name": "Razvodnik za struju",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-142",
+    "name": "Peskara",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/agregate-i-kompresore/",
+        "name": "Peskara",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-143",
+    "name": "Usisivač za pepeo",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/ciscenje/",
+        "name": "Usisivač za pepeo",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-144",
+    "name": "Građevinska kolica",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/ostalo/",
+        "name": "Kolica",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-145",
+    "name": "Levak za šut",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/ljevak-za-sut/",
+        "name": "Ljevak za sut",
+        "kind": "sale"
+      },
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/ostalo/",
+        "name": "Levak za sut",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-146",
+    "name": "Građevinski podupirači",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/ostalo/",
+        "name": "Podupirace",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-147",
+    "name": "Pištolj za farbanje kompresorom",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+        "name": "Pištolj za farbanje kompresorom",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-148",
+    "name": "Maska za varenje",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+        "name": "Maska za varenje",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-149",
+    "name": "Zaštitne slušalice",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+        "name": "Slušalice",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-150",
+    "name": "Burgije za drvo i metal",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+        "name": "Burgiji za bušalicu",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-151",
+    "name": "Burgije za beton SDS",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+        "name": "Burgiji za hilty",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-152",
+    "name": "Dijamantske ploče za beton",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+        "name": "Ploče za beton za malu brusalicu",
+        "kind": "rental"
+      },
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+        "name": "Ploče za beton za veliku brusalicu",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-153",
+    "name": "Rezne ploče za metal",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+        "name": "Ploče za metal za malu brusalicu",
+        "kind": "rental"
+      },
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+        "name": "Ploče za metal za veliku brusalicu",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-154",
+    "name": "Nastavak mikser za bušilicu",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+        "name": "Nastavak-mikser za bušilicu",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-155",
+    "name": "Lanac za testeru",
+    "price": null,
+    "evidence": [
+      {
+        "source": "rentmasina.rs",
+        "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+        "name": "Lanac za testeru",
+        "kind": "rental"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-156",
+    "name": "Merač vlage u materijalu",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "MAP mapiranje vlage – svi zidovi Dodatak",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "MAP mapiranje vlage – svi zidovi Dodatak",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Merenje vlažnosti zida (drvo, gips, beton, pločice) Brzo",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-vlage-u-zidu-podu-materijalu",
+        "name": "Merač vlage u materijalu",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-157",
+    "name": "Termohigrometar",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-vlaznosti-vlage",
+        "name": "Termohigrometar",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-158",
+    "name": "Infracrveni termometar",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-temperature",
+        "name": "Infracrveni termometar",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-159",
+    "name": "Digitalni multimetar",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-napona",
+        "name": "Digitalni multimetar",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-160",
+    "name": "Merač potrošnje struje",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Uređaj za merenje potrošnje struje",
+        "kind": "sale"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-potrosnje",
+        "name": "Merač potrošnje struje",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-161",
+    "name": "Merač kvaliteta vazduha",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Merenje kvaliteta vazduha – PM, CO2",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Merenje prisutnosti gasova – CO2, VOC",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Uređaj za merenje kvaliteta vazduha",
+        "kind": "sale"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-kvaliteta-vazduha-co2-voc",
+        "name": "Merač kvaliteta vazduha",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-162",
+    "name": "Detektor curenja gasa",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Detekcija GAS snifferom",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Detektor curenja gasa",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-163",
+    "name": "Akustična kamera",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Akustična kamera – Acoustic imaging Pro",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/snimanje/snimanje-akusticnom-kamerom-snimanje-zvuka",
+        "name": "Akustična kamera",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-164",
+    "name": "Akustični korelator",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Akustični korelator",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-165",
+    "name": "Dimna mašina za testiranje instalacija",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Testiranje Dimnom masinom",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Dimna mašina za testiranje instalacija",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-166",
+    "name": "UV set za detekciju curenja",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Testiranje UV bojama",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "UV set za detekciju curenja",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-167",
+    "name": "Set za detekciju traser gasom",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Tracer gas Premium",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Set za detekciju traser gasom",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-168",
+    "name": "Dron za vizuelnu inspekciju",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Dron – klasično vizuelno snimanje",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Dron – termalno snimanje Premium",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/snimanje/snimanje-dronom",
+        "name": "Dron za vizuelnu inspekciju",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-169",
+    "name": "Termalni dron",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Dron – termalno snimanje Premium",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/snimanje/snimanje-dronom",
+        "name": "Termalni dron",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-170",
+    "name": "Fonometar",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Merenje jačine zvuka (dB)",
+        "kind": "service"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-jacine-zvuka-merenje-buke-db",
+        "name": "Fonometar",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-171",
+    "name": "EMF merač",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-emf",
+        "name": "EMF merač",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-172",
+    "name": "Anemometar",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-protoka-vazduha",
+        "name": "Anemometar",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-173",
+    "name": "Gajgerov brojač",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-radijacije-gajgerov-brojac",
+        "name": "Gajgerov brojač",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-174",
+    "name": "Luksmetar",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-jacine-svetlosti-luxmetri-merenje-osvetljenja",
+        "name": "Luksmetar",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-175",
+    "name": "Tahometar",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-broja-obrtaja-tahometri",
+        "name": "Tahometar",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-176",
+    "name": "Vibrometar",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-vibracije-vibracija",
+        "name": "Vibrometar",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-177",
+    "name": "Merač debljine materijala",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-debljine-materijala",
+        "name": "Merač debljine materijala",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-178",
+    "name": "Ultrazvučni merač protoka vode",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-protoka-vode",
+        "name": "Ultrazvučni merač protoka vode",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-179",
+    "name": "Alarm za detekciju poplave",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Alarm uređaj za detekciju poplave",
+        "kind": "sale"
+      },
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/kontakt/cenovnik",
+        "name": "Alarm za detekciju poplave",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-180",
+    "name": "Robotska kamera za inspekciju",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/snimanje/snimanje-robotskom-kamerom",
+        "name": "Robotska kamera za inspekciju",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-181",
+    "name": "Merač otpora uzemljenja",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-emf",
+        "name": "Merač otpora uzemljenja",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-182",
+    "name": "Strujna klešta",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-emf",
+        "name": "Strujna klešta",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-183",
+    "name": "Barometar",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-pritiska",
+        "name": "Barometar",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  },
+  {
+    "toolId": "tool-184",
+    "name": "Diferencijalni manometar",
+    "price": null,
+    "evidence": [
+      {
+        "source": "beodetect.com",
+        "url": "https://beodetect.com/merenje/merenje-kvaliteta-vazduha-co2-voc",
+        "name": "Diferencijalni manometar",
+        "kind": "equipment-type-derived-from-service-area"
+      }
+    ],
+    "note": "Oblast usluge ili izvorna ponuda; stvarne zalihe nisu potvrđene."
+  }
+]

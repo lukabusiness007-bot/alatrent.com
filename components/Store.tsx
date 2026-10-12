@@ -5,10 +5,14 @@ import { copy, href, money, locales, languageNames } from '@/lib/i18n';
 import type { Locale, Tool, Category, Settings, PublicData } from '@/lib/types';
 import ToolArt from './ToolArt';
 import { BreadcrumbSchema, CollectionSchema } from './Seo';
-import { categoryHeading, categoryDescription, categoryContent, matchesTool } from '@/lib/seo-content';
+import { categoryHeading, categoryDescription, categoryContent } from '@/lib/seo-content';
 import { pageCopy } from '@/lib/seo-pages';
 import { QuickAdd } from './commerce/CartProvider';
 import { Brand } from './Header';
+import { mt } from '@/lib/commerce/merchandising-copy';
+import type { selectCatalog, CatalogFilters } from '@/lib/commerce/catalog';
+import type { RentalJob } from '@/lib/commerce/merchandising-types';
+import type { CartItem } from '@/lib/commerce/types';
 import { ContactLinks } from './ContactLinks';
 import {
   ArrowRight,
@@ -25,19 +29,28 @@ import {
   Search,
 } from './Icons';
 
-function ToolSearch({ locale, path = 'katalog', q = '', sort, home = false }: {
+function ToolSearch({ locale, path = 'katalog', q = '', sort, home = false, jobs, filters = {} }: {
   locale: Locale;
   path?: string;
   q?: string;
   sort?: string;
   home?: boolean;
+  jobs?: RentalJob[];
+  filters?: CatalogFilters;
 }) {
   const t = copy[locale];
   return (
-    <Form className={`search-bar${home ? ' home-search' : ''}`} action={href(locale, path)}>
+    <Form className={`search-bar${home ? ' home-search' : ''}${jobs ? ' commerce-search' : ''}`} action={href(locale, path)}>
       <Search size={21} aria-hidden="true" />
       {sort && <input type="hidden" name="sort" value={sort} />}
       <input type="search" name="q" defaultValue={q} placeholder={t.search} aria-label={t.search} maxLength={150} />
+      {jobs && <div className="catalog-filter-fields">
+        <label>{mt(locale,'jobs')}<select name="job" defaultValue={filters.job || ''}><option value="">{mt(locale,'allJobs')}</option>{jobs.map(j=><option key={j.id} value={j.id}>{j.name[locale]}</option>)}</select></label>
+        <label>{mt(locale,'maxPrice')}<input type="number" name="maxPrice" min={0} max={10000000} defaultValue={filters.maxPrice || ''}/></label>
+        <label>{mt(locale,'start')}<input type="date" name="start" defaultValue={filters.start || ''}/></label>
+        <label>{mt(locale,'end')}<input type="date" name="end" defaultValue={filters.end || ''}/></label>
+        <label className="commerce-check"><input type="checkbox" name="available" value="1" defaultChecked={filters.available}/>{mt(locale,'availableOnly')}</label>
+      </div>}
       <button className="button button-lime" type="submit">
         {t.searchButton}<ArrowRight size={18} aria-hidden="true" />
       </button>
@@ -71,10 +84,14 @@ export function ToolCard({
   tool,
   category,
   locale,
+  period,
+  availability,
 }: {
   tool: Tool;
   category?: Category;
   locale: Locale;
+  period?: Pick<CartItem,'start'|'end'>;
+  availability?: 'available'|'confirmation'|'unavailable';
 }) {
   const t = copy[locale];
   return (
@@ -105,7 +122,8 @@ export function ToolCard({
             </>
           )}
         </div>
-        <QuickAdd toolId={tool.id} locale={locale} />
+        {availability && <small className={`availability-label ${availability}`}>{mt(locale,availability)}</small>}
+        <QuickAdd toolId={tool.id} locale={locale} period={period} disabled={tool.quantity===0 || availability==='unavailable'} />
       </div>
     </article>
   );
@@ -278,7 +296,7 @@ export function Footer({ locale, settings }: { locale: Locale; settings: Setting
     </footer>
   );
 }
-export function Home({ locale, data }: { locale: Locale; data: PublicData }) {
+export function Home({ locale, data, jobs }: { locale: Locale; data: PublicData; jobs: RentalJob[] }) {
   const t = copy[locale];
   const { tools, categories, settings } = data;
   return (
@@ -335,6 +353,7 @@ export function Home({ locale, data }: { locale: Locale; data: PublicData }) {
           ))}
         </div>
       </section>
+      <section className="section job-section"><div className="container"><SectionHead title={mt(locale,'jobs')} body={mt(locale,'jobHint')}/><div className="job-links">{jobs.map(j=><Link className="job-link" key={j.id} href={`${href(locale,'katalog')}?job=${encodeURIComponent(j.id)}`}><h3>{j.name[locale]}</h3><p>{j.description[locale]}</p><ArrowUpRight size={18}/></Link>)}</div></div></section>
       <section className="section category-section">
         <div className="container">
           <div className="split-head">
@@ -401,16 +420,22 @@ export function Catalog({
   category,
   q = '',
   sort = 'category',
+  filters = {},
+  jobs,
+  selection,
 }: {
   locale: Locale;
   data: PublicData;
   category?: Category;
   q?: string;
   sort?: string;
+  filters?: CatalogFilters;
+  jobs: RentalJob[];
+  selection: ReturnType<typeof selectCatalog>;
 }) {
   const t = copy[locale];
   const activeSort = ['category', 'name', 'price', 'price-desc'].includes(sort) ? sort : 'category';
-  let tools = data.tools.filter(tool => (!category || tool.categoryId === category.id) && (!q || matchesTool(tool, locale, q)));
+  let tools = selection.tools;
   const title = category ? categoryHeading(category, locale) : t.catalogTitle;
   const intro = category ? categoryDescription(category, locale) : pageCopy(locale).katalog.description;
   const path = category ? 'kategorija/' + category.slug : 'katalog';
@@ -445,7 +470,9 @@ export function Catalog({
           <nav className="breadcrumbs" aria-label={t.navigation}><Link href={href(locale)}>{t.home}</Link>{category && <><span>/</span><Link href={href(locale, 'katalog')}>{t.catalog}</Link></>}</nav>
           <h1>{title}</h1>
           <p>{intro}</p>
-          <ToolSearch locale={locale} path={path} q={q} sort={activeSort === 'category' ? undefined : activeSort} />
+          <ToolSearch locale={locale} path={path} q={q} sort={activeSort === 'category' ? undefined : activeSort} jobs={jobs} filters={filters} />
+          {selection.selectedJob && <p className="selected-job">{selection.selectedJob.name[locale]} · {selection.selectedJob.description[locale]}</p>}
+          {selection.periodError && <p className="form-error" role="alert">{mt(locale,'periodError')}</p>}
         </div>
       </section>
       <div className="container catalog-layout">
@@ -481,6 +508,7 @@ export function Catalog({
             </p>
             <Form action={href(locale, path)}>
               <input type="hidden" name="q" value={q} />
+              {Object.entries(filters).map(([key,value])=>value?<input type="hidden" key={key} name={key} value={value===true?'1':String(value)}/>:null)}
               <label className="sr-only" htmlFor="sort">
                 {t.sort}
               </label>
@@ -514,6 +542,8 @@ export function Catalog({
                         tool={tool}
                         category={data.categories.find((c) => c.id === tool.categoryId)}
                         locale={locale}
+                        availability={selection.statuses[tool.id]}
+                        period={selection.periodValid ? {start:filters.start!,end:filters.end!}:undefined}
                       />
                     ))}
                   </div>
@@ -523,7 +553,7 @@ export function Catalog({
           ) : (
             <div className="empty-state">
               <Search size={40} />
-              <h2>{t.noResults}</h2>
+              <h2>{t.noResults}</h2><p>{mt(locale,'suggestions')}</p><div className="job-links compact">{jobs.slice(0,4).map(j=><Link key={j.id} href={`${href(locale,'katalog')}?job=${encodeURIComponent(j.id)}`}>{j.name[locale]}</Link>)}</div><Link className="text-link" href={href(locale,'kontakt')}>{t.contact} →</Link>
               <Link className="button button-plain" href={href(locale, 'katalog')}>
                 {t.reset}
               </Link>

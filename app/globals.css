@@ -2861,6 +2861,68 @@ p {
   margin-left: 7px;
   font-weight: 400;
 }
+.product-club-price {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #eaf2db;
+  color: #3b5726;
+  font-size: 12px;
+}
+.product-club-price strong { font-size: 19px; }
+.product-club-price small { font-size: 12px; font-weight: 400; }
+.product-rental-prices { margin-top: 22px; }
+.product-rental-prices table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.product-rental-prices caption {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.product-rental-prices th, .product-rental-prices td {
+  padding: 11px 6px;
+  text-align: right;
+  border-bottom: 1px solid #dfe5d7;
+}
+.product-rental-prices th:first-child { text-align: left; }
+.product-rental-prices thead th { font-size: 11px; font-weight: 500; color: #65705f; }
+.product-rental-prices .club-price-column { color: #3b5726; background: #eef4e5; font-weight: 600; }
+.product-rental-prices tr.selected { background: #f0f3e9; }
+.product-rental-prices button {
+  border: 1px solid #d7dfce;
+  background: white;
+  color: #304428;
+  border-radius: 6px;
+  padding: 7px 9px;
+  font: inherit;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.product-rental-prices button[aria-pressed='true'] { background: #26371d; border-color: #26371d; color: white; }
+.product-rental-prices button:focus-visible { outline: 2px solid #688c3f; outline-offset: 3px; }
+.product-rental-prices > p { font-size: 11px; line-height: 1.6; color: #798372; margin: 10px 0 0; }
+.rental-club-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  font-size: 12px;
+  color: #3b5726;
+  margin: 10px 0 18px;
+}
+.rental-club-total strong { font-size: 18px; white-space: nowrap; }
+.rental-member-label { display: block; color: #3b5726; font-size: 11px; margin-top: 5px; }
 .rental-panel .small-muted {
   font-size: 11px;
   color: #798372;
@@ -3932,3 +3994,28 @@ p {
   .club-popup .access-panel { padding: 24px 22px; }
   .club-popup input:not([type=checkbox]) { font-size: 16px; }
 }
+/* Original source offers keep currencies and billing periods separate. */
+.source-offers { min-width: 0; }
+.source-offers .source-filters { display: flex; flex-wrap: wrap; gap: 16px; align-items: end; margin: 20px 0; }
+.source-filters label { display: grid; gap: 6px; flex: 1 1 180px; font-size: 13px; }
+.source-filters input, .source-filters select { width: 100%; padding: 12px; border: 1px solid #d8ded4; border-radius: 8px; background: white; color: #263226; }
+.source-table-scroll { overflow-x: auto; max-height: 70vh; }
+.source-table { width: 100%; border-collapse: collapse; font-size: 13px; text-align: left; }
+.source-table th { position: sticky; top: 0; background: #edf1e8; padding: 14px; z-index: 1; }
+.source-table td { padding: 16px 14px; vertical-align: top; border-bottom: 1px solid #e3e7df; min-width: 170px; overflow-wrap: anywhere; }
+.source-table td:first-child { width: 35%; }
+.source-table td:nth-child(2) { width: 28%; }
+.source-table td > a, .source-table td > small { display: block; margin-top: 8px; }
+.source-table td > a { color: #37653b; text-decoration: underline; }
+.source-table details p { margin: 10px 0; line-height: 1.6; }
+.source-table summary { cursor: pointer; }
+.source-tool-link { display: block; text-align: left; margin-top: 10px; padding: 0; background: none; border: 0; color: #37653b; text-decoration: underline; cursor: pointer; }
+.source-price-conflict { margin: 0 0 12px; padding: 10px; background: #fff2d6; color: #6d4600; border-radius: 8px; }
+.source-offers .button { margin-top: 10px; }
+
+/* Project-led rental commerce */
+.job-section{background:#f5f8f2}.job-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.job-link{display:flex;flex-direction:column;position:relative;padding:22px;background:#fff;border:1px solid #dce5d8;border-radius:16px;min-width:0}.job-link:hover{border-color:#65904b;background:#f3ffef}.job-link h3{font-size:19px;margin:0 22px 12px 0}.job-link p{font-size:13px;line-height:1.6;color:#53604e;margin:0}.job-link>svg{position:absolute;right:16px;top:24px}.job-links.compact{grid-template-columns:repeat(2,minmax(0,1fr));margin:18px 0;gap:12px}.commerce-search{display:grid;grid-template-columns:24px minmax(0,1fr) auto;align-items:center;border-radius:18px;padding:16px;max-width:100%;background:#fff}.commerce-search>input{width:100%;min-width:0}.commerce-search>button{grid-column:3;grid-row:1}.catalog-filter-fields{grid-column:1/-1;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;border-top:1px solid #e0e6da;padding-top:16px;margin-top:16px}.catalog-filter-fields label{display:flex;flex-direction:column;gap:7px;font-size:12px;line-height:1.5}.catalog-filter-fields input,.catalog-filter-fields select{width:100%;min-width:0;border:1px solid #d6dfce;border-radius:8px;padding:10px;background:white;font-size:14px}.catalog-filter-fields .commerce-check{grid-column:1/-1;display:flex;flex-direction:row;align-items:center}.catalog-filter-fields input[type=checkbox]{width:18px;height:18px}.catalog-filter-fields :focus-visible{outline:2px solid #658941;outline-offset:2px}.selected-job{font-weight:600;color:#38512a}.availability-label{display:block;font-size:11px;line-height:1.5;margin-top:12px;color:#526146}.availability-label.unavailable{color:#8d3425}.availability-label.confirmation{color:#756018}.recommendation-panel>h2{margin-bottom:22px}.recommendation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.recommendation-card{display:flex;flex-direction:column;gap:12px;min-width:0;border:1px solid #dce5d6;border-radius:13px;padding:18px;background:#fafff5}.recommendation-card h3{margin:10px 0 0;font-size:18px;line-height:1.35}.recommendation-card .eyebrow{font-size:10px;letter-spacing:.04em}.recommendation-card p{font-size:13px;line-height:1.6;color:#53614b;margin:0}.recommendation-card small{font-size:11px;color:#6c725f;line-height:1.5}.recommendation-card .tool-art{height:130px;max-width:100%;background:white}.recommendation-card img{width:100%;height:130px;object-fit:contain}.recommendation-card svg{max-height:130px;max-width:100%}.recommendation-card .button{margin-top:auto;white-space:normal;text-align:center;font-size:13px;padding:12px}.offer-price{display:flex;flex-direction:column;gap:4px;font-size:12px;margin:5px 0 12px}.offer-price strong{font-size:18px}.product-grid>.recommendation-panel{grid-column:1/-1;margin-top:25px}.checkout-grid .recommendation-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.checkout-steps{font-size:13px;font-weight:600;background:#f0f6e7;padding:12px 16px;border-radius:10px}.account-repeat-heading{padding:24px 0}.account-repeat-heading h2{font-size:28px}.repeat-rental{border:2px solid #8ca967;background:#fafff3;max-width:680px}.repeat-rental .text-link{margin:20px 0 0 18px}.repeat-rental ul{padding-left:20px;margin:20px 0}.analytics-settings{padding-top:16px;padding-bottom:22px}.analytics-settings>.text-link{font-size:12px}.analytics-panel{margin-top:16px;max-width:620px}.analytics-panel p{font-size:14px;line-height:1.6}.analytics-panel .button-row{margin-top:16px}.translation-fields,.recommendation-editor{border:1px solid #dce4d5;border-radius:12px;padding:16px;display:grid;gap:12px;min-width:0}.translation-fields legend,.recommendation-editor legend{font-size:14px;font-weight:600;padding:0 8px}.merch-admin>.admin-card{margin-bottom:22px}.merch-admin .admin-two-col{margin-bottom:25px}.merch-admin input[type=checkbox]{width:18px;height:18px}.merch-admin .commerce-check{margin-top:14px}.rental-panel .submit-request{scroll-margin-bottom:20px}.analytics-settings button:focus-visible,.recommendation-panel button:focus-visible,.job-link:focus-visible{outline:3px solid #526e2e;outline-offset:4px}
+@media(max-width:1000px){.job-links{grid-template-columns:repeat(2,minmax(0,1fr))}.catalog-filter-fields{grid-template-columns:repeat(2,minmax(0,1fr))}.recommendation-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.checkout-grid .recommendation-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.commerce-search{grid-template-columns:20px minmax(0,1fr);gap:12px;padding:14px}.commerce-search>button{grid-column:1/-1;grid-row:auto;width:100%;order:3}.catalog-filter-fields{grid-column:1/-1;grid-template-columns:repeat(2,minmax(0,1fr));order:2}.job-link{padding:16px}.job-link h3{font-size:16px}.job-link p{font-size:12px}.job-link>svg{top:18px;right:12px}.recommendation-grid{grid-template-columns:1fr}.recommendation-panel{padding:18px}.recommendation-card{padding:16px}.checkout-steps{line-height:1.8}.rental-panel .submit-request{position:sticky;bottom:12px;z-index:10;box-shadow:0 4px 22px #0002}.rental-panel{overflow:visible}.catalog-filter-fields input[type=date]{font-size:13px}.analytics-panel .button-row{display:grid;gap:10px}.analytics-panel .button{width:100%}}
+
+.catalog-filter-fields .commerce-check input[type=checkbox]{flex:0 0 18px;margin:0}

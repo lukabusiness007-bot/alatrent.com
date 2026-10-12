@@ -13,9 +13,11 @@ import type {
 import type { Tool, Category } from '@/lib/types';
 import { defaultRule } from '@/lib/commerce/pricing';
 import { money } from '@/lib/i18n';
+import MerchandisingAdmin, { type MerchandisingAdminData } from './MerchandisingAdmin';
 import ReferralAdmin, { type ReferralAdminData } from './ReferralAdmin';
 import { Plus, Save, Trash2, RefreshCw } from 'lucide-react';
-type Data = {
+type Data = MerchandisingAdminData & {
+  funnel: {sessions:number;conversion:number|null;offerExposures:number;offerAcceptance:number|null;confirmationRate:number|null;averageRental:number|null};
   referrals: ReferralAdminData;
   config: CommerceConfig;
   tools: (Tool & { options: ToolOptions })[];
@@ -248,6 +250,7 @@ export default function CommerceAdmin() {
               ['pricing', 'Tarife i klub'],
               ['referrals', 'Preporuke i računica'],
               ['tools', 'Uputstva i preporuke'],
+              ['merchandising', 'Prodajna logika'],
               ['bundles', 'Paketi'],
               ['customers', 'Članovi'],
               ['teams', 'Firme'],
@@ -269,6 +272,7 @@ export default function CommerceAdmin() {
               </button>
             ))}
           </nav>
+          {tab === 'merchandising' && <MerchandisingAdmin data={data} save={save} busy={busy} />}
           {tab === 'referrals' && <ReferralAdmin data={data.referrals} config={config} setConfig={setConfig} save={save} busy={busy} />}
           {tab === 'pricing' && (
             <form
@@ -1106,6 +1110,12 @@ export default function CommerceAdmin() {
             <>
               <div className="stat-grid">
                 {[
+                  ['Merene posete, 30 dana', data.funnel.sessions],
+                  ['Konverzija merenih poseta', data.funnel.conversion===null?'Nema podataka':data.funnel.conversion.toFixed(1)+'%'],
+                  ['Prikazane ponude, 30 dana', data.funnel.offerExposures],
+                  ['Prihvatanje ponuda', data.funnel.offerAcceptance===null?'Nema podataka':data.funnel.offerAcceptance.toFixed(1)+'%'],
+                  ['Potvrđeni zahtevi', data.funnel.confirmationRate===null?'Nema podataka':data.funnel.confirmationRate.toFixed(1)+'%'],
+                  ['Vrednost završenog plaćenog najma',data.funnel.averageRental===null?'Nema podataka':money(data.funnel.averageRental,'sr')],
                   ['Porudžbine', data.metrics.orders],
                   ['Završeni najmovi', data.metrics.completed],
                   ['Prihod od najma', money(data.metrics.revenue, 'sr')],
@@ -1127,6 +1137,7 @@ export default function CommerceAdmin() {
                 ))}
               </div>
               <p>
+                Konverzija i prihvatanje ponuda koriste samo posete sa saglasnošću u poslednjih 30 dana, po sesiji browser taba. Ostali pokazatelji koriste sve porudžbine.
                 Prihod je naplaćeni najam posle popusta i kredita, bez dostave. Procena doprinosa
                 obuhvata samo {data.metrics.costedOrders} završena najma sa upisanim troškom po danu
                 i pripremom za sve stavke. Nije neto dobit i ne uključuje opšte troškove.

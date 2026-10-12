@@ -1,5 +1,7 @@
 # Korpa, Club i WhatsApp
 
+Izbor po poslu, preporuke sa razlogom, nove akcije, ponavljanje najma i analitika: [Prodajna logika](merchandising.md). Javni paketi su sakriveni i direktna stranica vraća 404 dok je `showProjectKits` isključen.
+
 Program „Preporuči i zaradi”, uslovi puštanja i računica: [docs/referrals.md](referrals.md). Nova implementacija zamenjuje raniji predlog kredita za obe strane.
 
 Proširenje kataloga na 126 vrsta i predložene dnevne cene: [catalog-expansion.md](catalog-expansion.md). Linkovi ka „Paketima za posao” privremeno su sakriveni preko `showProjectKits`; podaci, stranica i administracija ostaju sačuvani. U katalogu „Zatraži alat” vodi na kontakt za upit o opremi koja nije navedena.

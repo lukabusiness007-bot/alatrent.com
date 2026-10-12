@@ -3,7 +3,12 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { copy, href, isLocale } from '@/lib/i18n';
 import { publicData, all } from '@/lib/db';
-import { config, options } from '@/lib/commerce/data';
+import { ToolView } from '@/components/commerce/Analytics';
+import { mt } from '@/lib/commerce/merchandising-copy';
+import { selectCatalog } from '@/lib/commerce/catalog';
+import { merchandisingConfig, publicJobs } from '@/lib/commerce/merchandising';
+import { showProjectKits } from '@/lib/commerce/features';
+import { config, member, options } from '@/lib/commerce/data';
 import { hashToken } from '@/lib/auth';
 import { currentCustomer } from '@/lib/commerce/auth';
 import { catalogOnly } from '@/lib/storage';
@@ -19,11 +24,11 @@ import Bundles from '@/components/commerce/Bundles';
 import OrderDetails from '@/components/commerce/OrderDetails';
 import { seo } from '@/lib/seo';
 import { pageCopy } from '@/lib/seo-pages';
-import { toolHeading, toolDescription, categoryHeading, categoryDescription } from '@/lib/seo-content';
+import { toolHeading, toolDescription, categoryHeading, categoryDescription, toolContent } from '@/lib/seo-content';
 import { BreadcrumbSchema, ToolSchema } from '@/components/Seo';
 import { ToolRentalContent } from '@/components/ToolRentalContent';
 import { today } from '@/lib/validation';
-import { Home, Catalog, Steps, Delivery, Faq, Cta, ToolCard } from '@/components/Store';
+import { Home, Catalog, Steps, Delivery, Faq, Cta } from '@/components/Store';
 import ToolArt from '@/components/ToolArt';
 import RentalForm from '@/components/RentalForm';
 import { ContactLinks } from '@/components/ContactLinks';
@@ -54,7 +59,7 @@ async function dbgenerateMetadata({ params, searchParams }: Props) {
   if (!valid) return { title: t.notFound, robots: { index: false, follow: true } };
   const instructions = key === 'uputstvo';
   // Operational instructions are not localized and may only contain a placeholder. Keep them out of Search.
-  const noindex = ['korpa', 'nalog', 'privatnost'].includes(key) || instructions || !!query.q || !!query.sort
+  const noindex = ['korpa', 'nalog', 'privatnost'].includes(key) || instructions || !!query.q || !!query.sort || !!query.job || !!query.maxPrice || !!query.start || !!query.end || !!query.available
     || (!!category && !data.tools.some(t => t.categoryId === category.id));
   const title = tool
     ? instructions ? `${ct(locale, 'instructions')}: ${tool.name[locale]}` : `${toolHeading(tool, locale)} — ${locale === 'sr' ? 'Beograd' : t.area}`
@@ -77,9 +82,10 @@ async function dbPage({ params, searchParams }: Props) {
   const q = await searchParams;
   if (path.length > 2) notFound();
   const cfg = config();
-  if (path.length === 1 && key === 'korpa') return <CartPage locale={locale} data={data} today={today()} referralProgram={{...cfg.referralProgram,memberIds:[]}} creditLimit={cfg.creditLimitPercent} recommendations={Object.fromEntries(data.tools.map(t => [t.id, options(t.id).relatedIds]))} />;
+  if (path.length === 1 && key === 'korpa') return <CartPage locale={locale} data={data} today={today()} referralProgram={{...cfg.referralProgram,memberIds:[]}} creditLimit={cfg.creditLimitPercent} recommendationsEnabled={merchandisingConfig().recommendationsEnabled} />;
   if (path.length === 1 && key === 'klub') return <Club locale={locale} threshold={cfg.clubThreshold} percent={cfg.clubPercent} referralProgram={{...cfg.referralProgram,memberIds:[]}} />;
   if (path.length === 1 && key === 'nalog') return <Account key={q.mode === 'register' ? 'register' : 'login'} initialMode={q.mode === 'register' ? 'register' : 'login'} claimToken={typeof q.claim === 'string' && q.claim.length === 64 ? q.claim : undefined} locale={locale} reviewUrl={cfg.reviewUrl} />;
+  if (path.length === 1 && key === 'paketi' && !showProjectKits) notFound();
   if (path.length === 1 && key === 'paketi') return <Bundles locale={locale} tools={data.tools} bundles={all<Bundle>('bundles').filter(b => b.published && b.toolIds.every(id => data.tools.some(t => t.id === id)))} />;
   if (key === 'najam' && path.length === 2) {
     const order = path[1]?.length === 64 ? all<Order>('orders').find(o => o.accessHash === hashToken(path[1])) : undefined;
@@ -87,13 +93,17 @@ async function dbPage({ params, searchParams }: Props) {
     return <section className="container commerce-page"><OrderDetails initial={publicOrder(order)} token={path[1]} locale={locale} reviewUrl={cfg.reviewUrl} /></section>;
   }
   if (!key) return <>
-    <Home locale={locale} data={data} />
+    <Home locale={locale} data={data} jobs={publicJobs()} />
     {!catalogOnly && !(await currentCustomer()) && <ClubPopup locale={locale} percent={cfg.clubPercent} threshold={cfg.clubThreshold} />}
   </>;
   if (key === 'katalog' || key === 'kategorija') {
     const category =
       key === 'kategorija' ? data.categories.find((c) => c.slug === path[1]) : undefined;
     if ((key === 'kategorija' && !category) || (key === 'katalog' && path.length !== 1)) notFound();
+    const filters = {job:typeof q.job==='string'?q.job:'',maxPrice:typeof q.maxPrice==='string'?q.maxPrice:'',start:typeof q.start==='string'?q.start:'',end:typeof q.end==='string'?q.end:'',available:q.available==='1'};
+    const jobs = publicJobs();
+    const query = typeof q.q === 'string' ? q.q.slice(0,150) : '';
+    const selection = selectCatalog(data,jobs,locale,query,category?.id,filters);
     return (
       <Catalog
         locale={locale}
@@ -101,6 +111,9 @@ async function dbPage({ params, searchParams }: Props) {
         category={category}
         q={typeof q.q === 'string' ? q.q.slice(0, 150) : ''}
         sort={typeof q.sort === 'string' ? q.sort : 'category'}
+        filters={filters}
+        jobs={jobs}
+        selection={selection}
       />
     );
   }
@@ -114,8 +127,10 @@ async function dbPage({ params, searchParams }: Props) {
     const tool = data.tools.find((t) => t.slug === path[1]);
     if (!tool) notFound();
     const category = data.categories.find((c) => c.id === tool.categoryId);
+    const customer = await currentCustomer();
     return (
       <>
+        <ToolView toolId={tool.id} />
         <ToolSchema tool={tool} data={data} locale={locale} />
         <BreadcrumbSchema settings={data.settings} locale={locale} items={[
           { name: t.home, path: '' },
@@ -147,6 +162,7 @@ async function dbPage({ params, searchParams }: Props) {
               <div className="product-copy">
                 <h2>{t.aboutTool}</h2>
                 <p>{toolDescription(tool, locale)}</p>
+                <h2>{mt(locale,'fit')}</h2><p>{locale==='sr' ? toolContent[tool.slug]?.selection || t.faq4a : t.faq4a}</p>
                 <h2>{t.specs}</h2>
                 <ul className="check-list">
                   <li>
@@ -168,29 +184,11 @@ async function dbPage({ params, searchParams }: Props) {
                 </ul>
               </div>
             </div>
-            <RentalForm tool={tool} locale={locale} settings={data.settings} today={today()} rule={options(tool.id).rule || cfg.categories[tool.categoryId] || cfg.rule} />
+            <RentalForm tool={tool} locale={locale} settings={data.settings} today={today()} rule={options(tool.id).rule || cfg.categories[tool.categoryId] || cfg.rule} clubPercent={cfg.clubPercent} memberDiscount={customer ? member(customer).discount : undefined} recommendationsEnabled={merchandisingConfig().recommendationsEnabled} />
           </div>
         </div>
         <ToolRentalContent tool={tool} locale={locale} />
-        {(['relatedIds', 'alternativeIds'] as const).map(kind => {
-          const tools = data.tools.filter(t => options(tool.id)[kind].includes(t.id));
-          return tools.length ? <section className="section service-section" key={kind}><div className="container"><h2>{ct(locale, kind === 'relatedIds' ? 'more' : 'alternatives')}</h2><div className="tool-grid">{tools.map(t => <ToolCard key={t.id} tool={t} category={data.categories.find(c => c.id === t.categoryId)} locale={locale} />)}</div></div></section> : null;
-        })}
-        {data.tools.some((x) => x.categoryId === tool.categoryId && x.id !== tool.id) && (
-          <section className="section service-section">
-            <div className="container">
-              <h2 className="related-title">{t.related}</h2>
-              <div className="tool-grid">
-                {data.tools
-                  .filter((x) => x.categoryId === tool.categoryId && x.id !== tool.id)
-                  .slice(0, 4)
-                  .map((x) => (
-                    <ToolCard key={x.id} tool={x} category={category} locale={locale} />
-                  ))}
-              </div>
-            </div>
-          </section>
-        )}
+
       </>
     );
   }
@@ -250,6 +248,7 @@ async function dbPage({ params, searchParams }: Props) {
           <h1>{t.privacyTitle}</h1>
           <p>{t.privacyText}</p>
           <p>{rt(locale,'storage')}</p>
+          <h2>{mt(locale,'analytics')}</h2><p>{mt(locale,'analyticsPolicy')}</p>
           {data.settings.email && (
             <a className="text-link" href={'mailto:' + data.settings.email}>
               {data.settings.email}

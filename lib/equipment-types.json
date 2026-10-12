@@ -1,5 +1,353 @@
 [
   {
+    "id": "tool-127",
+    "slug": "teleskopske-makaze-za-zivu-ogradu",
+    "name": "Teleskopske makaze za živu ogradu",
+    "pattern": "(teleskopsk|kombinovan).*makaz.*(ziv|ograd)"
+  },
+  {
+    "id": "tool-128",
+    "slug": "rucna-teleskopska-testera-za-grane",
+    "name": "Ručna teleskopska testera za grane",
+    "pattern": "rucn.*teleskopsk.*tester|pcs pro|wolf garten.*tester"
+  },
+  {
+    "id": "tool-129",
+    "slug": "elektricna-heftalica",
+    "name": "Električna heftalica",
+    "pattern": "heftalic|klameric"
+  },
+  {
+    "id": "tool-130",
+    "slug": "vibraciona-brusilica",
+    "name": "Vibraciona brusilica",
+    "pattern": "vibracion.*(brusilic|slajfer)|gss 160"
+  },
+  {
+    "id": "tool-131",
+    "slug": "pneumatski-pistolj-za-ciscenje",
+    "name": "Pneumatski pištolj za čišćenje",
+    "pattern": "tornado|tornador|pneumatsk.*pistolj.*cisc|easyclean"
+  },
+  {
+    "id": "tool-132",
+    "slug": "podna-brusilica-za-beton",
+    "name": "Podna brusilica za beton",
+    "pattern": "podn.*brusilic.*beton|brusilic.*beton.*podn"
+  },
+  {
+    "id": "tool-133",
+    "slug": "hidraulicni-agregat-sa-cekicem",
+    "name": "Hidraulični agregat sa čekićem",
+    "pattern": "hidraulicn.*(agregat|cekic)|atlas copco.*cekic"
+  },
+  {
+    "id": "tool-134",
+    "slug": "pneumatski-cekic-za-kompresor",
+    "name": "Pneumatski čekić za kompresor",
+    "pattern": "pneumatsk.*cekic.*kompres|cekic.*za kompres"
+  },
+  {
+    "id": "tool-135",
+    "slug": "rasvetni-toranj",
+    "name": "Rasvetni toranj",
+    "pattern": "rasvetn.*toranj|osvetlj.*toranj"
+  },
+  {
+    "id": "tool-136",
+    "slug": "makaze-za-armaturu",
+    "name": "Makaze za armaturu",
+    "pattern": "makaz.*armatur|armatur.*makaz"
+  },
+  {
+    "id": "tool-137",
+    "slug": "rucni-busac-zemlje",
+    "name": "Ručni bušač zemlje",
+    "pattern": "rucn.*busac.*zemlj|burgij.*rucn"
+  },
+  {
+    "id": "tool-138",
+    "slug": "separaciona-freza-za-zemljiste",
+    "name": "Separaciona freza za zemljište",
+    "pattern": "separacion.*frez|frez.*separacij"
+  },
+  {
+    "id": "tool-139",
+    "slug": "teleskopske-makaze-za-travu",
+    "name": "Teleskopske makaze za travu",
+    "pattern": "teleskopsk.*makaz.*trav|makaz.*trav.*teleskopsk"
+  },
+  {
+    "id": "tool-140",
+    "slug": "sejalica-za-travu",
+    "name": "Sejalica za travu",
+    "pattern": "sejalic.*trav|rasipac.*semen"
+  },
+  {
+    "id": "tool-141",
+    "slug": "razvodna-tabla-za-gradiliste",
+    "name": "Razvodna tabla za gradilište",
+    "pattern": "razvodn.*(tabl|struj)|razvodnik.*struj"
+  },
+  {
+    "id": "tool-142",
+    "slug": "peskara",
+    "name": "Peskara",
+    "pattern": "peskar|peskaren"
+  },
+  {
+    "id": "tool-143",
+    "slug": "usisivac-za-pepeo",
+    "name": "Usisivač za pepeo",
+    "pattern": "usisivac.*pepeo"
+  },
+  {
+    "id": "tool-144",
+    "slug": "gradjevinska-kolica",
+    "name": "Građevinska kolica",
+    "pattern": "gradjevinsk.*kolic|^kolica$"
+  },
+  {
+    "id": "tool-145",
+    "slug": "levak-za-sut",
+    "name": "Levak za šut",
+    "pattern": "l[eij]evak.*sut|ljevak.*sut"
+  },
+  {
+    "id": "tool-146",
+    "slug": "gradjevinski-podupiraci",
+    "name": "Građevinski podupirači",
+    "pattern": "gradjevinsk.*podupir|^podupirace$|teleskopsk.*podupir"
+  },
+  {
+    "id": "tool-147",
+    "slug": "pistolj-za-farbanje-kompresorom",
+    "name": "Pištolj za farbanje kompresorom",
+    "pattern": "pistolj.*farbanj.*kompres|pneumatsk.*pistolj.*boj"
+  },
+  {
+    "id": "tool-148",
+    "slug": "maska-za-varenje",
+    "name": "Maska za varenje",
+    "pattern": "mask.*varen|zavarivack.*mask"
+  },
+  {
+    "id": "tool-149",
+    "slug": "zastitne-slusalice",
+    "name": "Zaštitne slušalice",
+    "pattern": "zastitn.*slusalic|antifon|^slusalice$"
+  },
+  {
+    "id": "tool-150",
+    "slug": "burgije-za-drvo-i-metal",
+    "name": "Burgije za drvo i metal",
+    "pattern": "burgij.*(drvo|metal)|burgiji za busalicu"
+  },
+  {
+    "id": "tool-151",
+    "slug": "burgije-za-beton-sds",
+    "name": "Burgije za beton SDS",
+    "pattern": "burgij.*(beton|sds|hilt)|sds.*burgij"
+  },
+  {
+    "id": "tool-152",
+    "slug": "dijamantske-ploce-za-beton",
+    "name": "Dijamantske ploče za beton",
+    "pattern": "(ploc|disk).*beton.*brusal|dijamantsk.*ploc.*beton"
+  },
+  {
+    "id": "tool-153",
+    "slug": "rezne-ploce-za-metal",
+    "name": "Rezne ploče za metal",
+    "pattern": "rezn.*ploc.*metal|ploc.*metal.*brusal"
+  },
+  {
+    "id": "tool-154",
+    "slug": "nastavak-mikser-za-busilicu",
+    "name": "Nastavak mikser za bušilicu",
+    "pattern": "nastavak.*mikser|mikser.*nastavak"
+  },
+  {
+    "id": "tool-155",
+    "slug": "lanac-za-testeru",
+    "name": "Lanac za testeru",
+    "pattern": "lanac.*tester|tester.*lanac"
+  },
+  {
+    "id": "tool-156",
+    "slug": "merac-vlage-u-materijalu",
+    "name": "Merač vlage u materijalu",
+    "pattern": "merac.*vlag.*materijal|vlagomer|merac.*vlag.*zid"
+  },
+  {
+    "id": "tool-157",
+    "slug": "termohigrometar",
+    "name": "Termohigrometar",
+    "pattern": "termohigrom|higrometar|merac.*vlaznost.*vazduh"
+  },
+  {
+    "id": "tool-158",
+    "slug": "infracrveni-termometar",
+    "name": "Infracrveni termometar",
+    "pattern": "infracrven.*termomet|pirometar"
+  },
+  {
+    "id": "tool-159",
+    "slug": "digitalni-multimetar",
+    "name": "Digitalni multimetar",
+    "pattern": "multimet|merac.*napon"
+  },
+  {
+    "id": "tool-160",
+    "slug": "merac-potrosnje-struje",
+    "name": "Merač potrošnje struje",
+    "pattern": "merac.*potrosnj.*struj|vatmetar"
+  },
+  {
+    "id": "tool-161",
+    "slug": "merac-kvaliteta-vazduha",
+    "name": "Merač kvaliteta vazduha",
+    "pattern": "merac.*kvalitet.*vazduh|co2.*voc.*merac"
+  },
+  {
+    "id": "tool-162",
+    "slug": "detektor-curenja-gasa",
+    "name": "Detektor curenja gasa",
+    "pattern": "detektor.*curenj.*gas|gas.*sniffer"
+  },
+  {
+    "id": "tool-163",
+    "slug": "akusticna-kamera",
+    "name": "Akustična kamera",
+    "pattern": "akusticn.*kamer|acoustic imaging"
+  },
+  {
+    "id": "tool-164",
+    "slug": "akusticni-korelator",
+    "name": "Akustični korelator",
+    "pattern": "akusticn.*korelator|sewerin.*ac200"
+  },
+  {
+    "id": "tool-165",
+    "slug": "dimna-masina-za-testiranje-instalacija",
+    "name": "Dimna mašina za testiranje instalacija",
+    "pattern": "dimn.*masin|dimogenerator.*test"
+  },
+  {
+    "id": "tool-166",
+    "slug": "uv-set-za-detekciju-curenja",
+    "name": "UV set za detekciju curenja",
+    "pattern": "uv.*set.*detek|uv.*detek.*set"
+  },
+  {
+    "id": "tool-167",
+    "slug": "set-za-detekciju-traser-gasom",
+    "name": "Set za detekciju traser gasom",
+    "pattern": "set.*traser|tracer.*gas.*set"
+  },
+  {
+    "id": "tool-168",
+    "slug": "dron-za-vizuelnu-inspekciju",
+    "name": "Dron za vizuelnu inspekciju",
+    "pattern": "dron.*vizueln|optick.*dron"
+  },
+  {
+    "id": "tool-169",
+    "slug": "termalni-dron",
+    "name": "Termalni dron",
+    "pattern": "termaln.*dron|dron.*termal|matrice 4t"
+  },
+  {
+    "id": "tool-170",
+    "slug": "fonometar",
+    "name": "Fonometar",
+    "pattern": "fonomet|merac.*buk|merac.*jacine.*zvuk"
+  },
+  {
+    "id": "tool-171",
+    "slug": "emf-merac",
+    "name": "EMF merač",
+    "pattern": "emf.*merac|merac.*emf"
+  },
+  {
+    "id": "tool-172",
+    "slug": "anemometar",
+    "name": "Anemometar",
+    "pattern": "anemomet|merac.*protoka.*vazduh"
+  },
+  {
+    "id": "tool-173",
+    "slug": "gajgerov-brojac",
+    "name": "Gajgerov brojač",
+    "pattern": "gajger|geiger"
+  },
+  {
+    "id": "tool-174",
+    "slug": "luksmetar",
+    "name": "Luksmetar",
+    "pattern": "luksmet|luxmet"
+  },
+  {
+    "id": "tool-175",
+    "slug": "tahometar",
+    "name": "Tahometar",
+    "pattern": "tahomet|takomet"
+  },
+  {
+    "id": "tool-176",
+    "slug": "vibrometar",
+    "name": "Vibrometar",
+    "pattern": "vibromet|merac.*vibracij"
+  },
+  {
+    "id": "tool-177",
+    "slug": "merac-debljine-materijala",
+    "name": "Merač debljine materijala",
+    "pattern": "merac.*debljin.*materijal|debljinomer"
+  },
+  {
+    "id": "tool-178",
+    "slug": "ultrazvucni-merac-protoka-vode",
+    "name": "Ultrazvučni merač protoka vode",
+    "pattern": "ultrazvucn.*merac.*protoka.*vod|merac.*protoka.*vod"
+  },
+  {
+    "id": "tool-179",
+    "slug": "alarm-za-detekciju-poplave",
+    "name": "Alarm za detekciju poplave",
+    "pattern": "alarm.*poplav|alarm.*curenj.*vod"
+  },
+  {
+    "id": "tool-180",
+    "slug": "robotska-kamera-za-inspekciju",
+    "name": "Robotska kamera za inspekciju",
+    "pattern": "robotsk.*kamer|robocam"
+  },
+  {
+    "id": "tool-181",
+    "slug": "merac-otpora-uzemljenja",
+    "name": "Merač otpora uzemljenja",
+    "pattern": "merac.*(otpora.*)?uzemljen"
+  },
+  {
+    "id": "tool-182",
+    "slug": "strujna-klesta",
+    "name": "Strujna klešta",
+    "pattern": "strujn.*klest|klest.*merenje.*struj"
+  },
+  {
+    "id": "tool-183",
+    "slug": "barometar",
+    "name": "Barometar",
+    "pattern": "baromet"
+  },
+  {
+    "id": "tool-184",
+    "slug": "diferencijalni-manometar",
+    "name": "Diferencijalni manometar",
+    "pattern": "diferencijaln.*manomet|merac.*diferencijaln.*pritis"
+  },
+  {
     "id": "tool-099",
     "slug": "dijamantska-busilica-sa-stalkom",
     "name": "Dijamantska bušilica sa stalkom",

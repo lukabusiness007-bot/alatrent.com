@@ -4,6 +4,7 @@ import path from 'node:path';
 import seed from './seed.json';
 import catalogImport from './catalog-import.json';
 import catalogExpansion from './catalog-expansion.json';
+import catalogSourcesImport from './catalog-sources-import.json';
 import { equipmentType } from './equipment-type';
 import { randomBytes, scryptSync } from 'node:crypto';
 import { locales } from './types';
@@ -13,6 +14,7 @@ import type { Tool, Category, Settings, RentalRequest, PublicData } from './type
 import type { Order } from './commerce/types';
 import { today } from './validation';
 import { extraKits } from './commerce/kits';
+import { initialJobs } from './commerce/job-seed';
 import { catalogOnly, persistentDatabase } from './storage';
 import { requestDatabase, withPersistentDatabase, SQLITE_SCHEMA } from './postgres.mjs';
 import { defaultContact } from './contact';
@@ -132,7 +134,7 @@ function initializeDatabase() {
     });
   // Import new equipment types once into existing databases. Preserve edited
   // records, custom IDs, prices, quantities, photos and removed imported tools.
-  for (const importedCatalog of [catalogImport, catalogExpansion]) {
+  for (const importedCatalog of [catalogImport, catalogExpansion, catalogSourcesImport]) {
     if (!get('meta', importedCatalog.migration))
       transaction(() => {
         if (get('meta', importedCatalog.migration)) return;
@@ -172,6 +174,12 @@ function initializeDatabase() {
   }
 
   initializeKits();
+  if (!get('meta', 'commerce-merchandising-v1')) transaction(() => {
+    if (get('meta', 'commerce-merchandising-v1')) return;
+    for (const job of initialJobs) if (!get('rentalJobs',job.id)) put('rentalJobs',job.id,{...job,toolIds:job.toolIds.filter(id=>get('tools',id))});
+    if (!get('commerce','merchandising')) put('commerce','merchandising',{recommendationsEnabled:false,promotionsEnabled:false});
+    put('meta','commerce-merchandising-v1',true);
+  });
   if (catalogOnly) db.exec('PRAGMA query_only=ON');
 }
 

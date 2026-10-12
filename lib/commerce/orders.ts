@@ -8,6 +8,7 @@ import type { Customer, Order, Line } from './types';
 import { checkCapacity, config, quote, options, publicQuote } from './data';
 import { phoneNumber } from './auth';
 import { calculate, round } from './pricing';
+import { promotionalQuote, promotionSummary, assertPromotionEconomics } from './promotions';
 import { enqueueOrder } from './messages';
 import { referralLines, assertReferralEconomics, grantReferral, hasPriorRental, updateReferralDiscount } from './referrals';
 export function createOrder(b: Record<string, unknown>, customer?: Customer): Order {
@@ -68,6 +69,9 @@ export function createOrder(b: Record<string, unknown>, customer?: Customer): Or
       });
     put('orders', order.id, order);
     if (fresh) remove('draftCarts', fresh.id);
+    if (b.analyticsConsent === true && typeof b.analyticsSession === 'string' && /^[a-f0-9-]{36}$/.test(b.analyticsSession)) {
+      put('funnelEvents', order.id, { id: order.id, session: b.analyticsSession, event: 'request', surface: 'cart', at: order.createdAt });
+    }
     enqueueOrder(order, 'received');
     return order;
   });
@@ -94,12 +98,18 @@ export function extensionQuote(order: Order, end: string) {
           i.bundlePercent,
         )),
   }));
+  const baseline = items;
   if (order.referral) items = referralLines(items, order.referral.policy);
+  if (order.promotionPolicy) {
+    const candidate = promotionalQuote(baseline, [order.promotionPolicy], 0, 0, order.referral?.policy.reward || 0, order.credit);
+    if (candidate.lines.reduce((n,i)=>n+(i.total||0),0) < items.reduce((n,i)=>n+(i.total||0),0)) items = candidate.lines;
+  }
   checkCapacity(items, order.id, true);
   const total = items.some((i) => i.total === null)
     ? null
     : round(items.reduce((n, i) => n + i.total!, 0) + order.adjustment);
   return {
+    ...promotionSummary(items.some(i=>i.reason==='promotion')?order.promotionPolicy:undefined,items),
     items,
     total,
     extra:
@@ -150,6 +160,7 @@ export function updateOrder(b: Record<string, unknown>) {
         if (q.total === null)
           throw new Error('Produženje alata bez tarife zahteva novi dogovoreni upit.');
         order.items = q.items;
+        order.promotion = q.promotion;
         order.rentalTotal = Math.max(order.rentalTotal || 0, q.total);
         order.baseTotal = round(q.items.reduce((n, i) => n + (i.base || 0), 0));
         order.saving = round(Math.max(0, order.baseTotal - order.rentalTotal));
@@ -158,6 +169,7 @@ export function updateOrder(b: Record<string, unknown>) {
         if (q.extra) order.paid = false;
         updateReferralDiscount(order);
         assertReferralEconomics(order);
+        assertPromotionEconomics(order);
       } else order.extension.status = 'rejected';
       put('orders', order.id, order);
       enqueueOrder(order, 'extension-' + order.extension.end + '-' + order.extension.status);
@@ -233,6 +245,10 @@ export function updateOrder(b: Record<string, unknown>) {
       if (order.status === 'pending') order.items = order.items.map(i=>({...i,instructions:options(i.toolId)}));
       assertReferralEconomics(order);
     }
+    if (order.promotionPolicy && ['confirmed','active'].includes(status)) {
+      if (order.status === 'pending') order.items=order.items.map(i=>({...i,instructions:options(i.toolId)}));
+      assertPromotionEconomics(order);
+    }
     if (b.paid !== undefined) order.paid = b.paid === true;
     if (order.items.some(i => i.openEnded) && (status === 'completed' || order.paid))
       throw new Error('Unesi datum vraćanja da se izračuna konačna cena pre naplate i završetka.');
@@ -241,7 +257,7 @@ export function updateOrder(b: Record<string, unknown>) {
     const previous = order.status;
     order.status = status;
     if (status === 'active' && previous !== status)
-      order.items = order.items.map((i) => ({ ...i, instructions: { ...options(i.toolId), ...((order.referral || (order.referralVersion === 2 && order.credit > 0)) ? { costPerDay: i.instructions.costPerDay, preparationCost: i.instructions.preparationCost } : {}) } }));
+      order.items = order.items.map((i) => ({ ...i, instructions: { ...options(i.toolId), ...((order.referral || order.promotionPolicy || (order.referralVersion === 2 && order.credit > 0)) ? { costPerDay: i.instructions.costPerDay, preparationCost: i.instructions.preparationCost } : {}) } }));
     if (status === 'cancelled' && order.customerId && order.credit && !order.creditReturned) {
       const c = get<Customer>('customers', order.customerId)!;
       put('customers', c.id, { ...c, credit: round(c.credit + order.credit) });
@@ -273,6 +289,6 @@ export function updateOrder(b: Record<string, unknown>) {
   });
 }
 export function publicOrder(o: Order) {
-  const { accessToken: _t, accessHash: _h, idempotency: _k, referralCosts: _cost, ...safe } = o;
+  const { accessToken: _t, accessHash: _h, idempotency: _k, referralCosts: _cost, promotionPolicy: _promotion, ...safe } = o;
   return { ...safe, ...publicQuote(safe) };
 }

@@ -6,7 +6,9 @@ import type { Order, PublicCustomer, Project, ReferralSummary } from '@/lib/comm
 import { ct, type CommerceKey } from '@/lib/commerce/copy';
 import { copy, money } from '@/lib/i18n';
 import { commerce } from './CartPage';
-import { useCart } from './CartProvider';
+import RepeatRental from './RepeatRental';
+import { mt } from '@/lib/commerce/merchandising-copy';
+import type { CartItem } from '@/lib/commerce/types';
 import { Star } from 'lucide-react';
 import AccountAccess from './AccountAccess';
 import OrderDetails from './OrderDetails';
@@ -23,8 +25,7 @@ export default function Account({
   claimToken?: string;
   initialMode?: 'login' | 'register';
 }) {
-  const t = copy[locale],
-    cart = useCart();
+  const t = copy[locale];
   const [referrals, setReferrals] = useState<ReferralSummary | null>(null);
   const [customer, setCustomer] = useState<PublicCustomer | null>(null),
     [orders, setOrders] = useState<Order[]>([]),
@@ -72,6 +73,7 @@ export default function Account({
       setBusy(false);
     }
   }
+  const [repeat,setRepeat]=useState<Pick<CartItem,'toolId'|'quantity'>[]|null>(null);
   return (
     <section className="container commerce-page">
       <div className="account-heading">
@@ -163,6 +165,8 @@ export default function Account({
             <p>{membershipText(locale, customer.depositWaived ? 'depositWaived' : 'progress', { completed: customer.completed, threshold: customer.depositThreshold })}</p>
           </div>
           {referrals && <ReferralCard code={customer.referralCode} summary={referrals} locale={locale} />}
+          <section className="account-repeat-heading"><h2>{mt(locale,'repeat')}</h2><p>{mt(locale,'chooseDates')}</p><Link className="text-link" href={`/${locale}/katalog`}>{ct(locale,'keep')} →</Link></section>
+          {repeat && <RepeatRental key={JSON.stringify(repeat)} items={repeat} locale={locale} onClose={()=>setRepeat(null)}/>}
           <div className="account-grid">
             <div>
               <h2>{ct(locale, 'history')}</h2>
@@ -190,15 +194,7 @@ export default function Account({
                       <button
                         className="button button-plain"
                         onClick={() => {
-                          cart.add(
-                            o.items.map((i) => ({
-                              toolId: i.toolId,
-                              quantity: i.quantity,
-                              start: '',
-                              end: '',
-                            })),
-                          );
-                          setNotice(ct(locale, 'future'));
+                          setRepeat(o.items.map(i=>({toolId:i.toolId,quantity:i.quantity})));
                         }}
                       >
                         {ct(locale, 'again')}
@@ -214,8 +210,7 @@ export default function Account({
                     <button
                       className="button button-plain"
                       onClick={() => {
-                        cart.add(p.items.map((i) => ({ ...i, start: '', end: '' })));
-                        setNotice(ct(locale, 'future'));
+                        setRepeat(p.items.map(i=>({toolId:i.toolId,quantity:i.quantity})));
                       }}
                     >
                       {ct(locale, 'add')}

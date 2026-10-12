@@ -1,6 +1,7 @@
 import { databaseComponent } from '@/lib/db';
 import type { MetadataRoute } from 'next';
 import { publicData } from '@/lib/db';
+import { showProjectKits } from '@/lib/commerce/features';
 import { locales, href } from '@/lib/i18n';
 import { SEO_CONTENT_UPDATED_AT } from '@/lib/seo-content';
 import { siteOrigin, languageAlternates } from '@/lib/site-url';
@@ -10,7 +11,7 @@ function dbsitemap(): MetadataRoute.Sitemap {
   const base = siteOrigin(d.settings);
   if (!base) return [];
   const paths = [
-    '', 'katalog', 'paketi', 'klub', 'dostava', 'kako-funkcionise', 'kontakt',
+    '', 'katalog', ...(showProjectKits ? ['paketi'] : []), 'klub', 'dostava', 'kako-funkcionise', 'kontakt',
     ...d.categories.filter(c => d.tools.some(t => t.categoryId === c.id)).map(c => 'kategorija/' + c.slug),
     ...d.tools.map(t => 'alat/' + t.slug),
   ];

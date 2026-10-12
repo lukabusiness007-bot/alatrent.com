@@ -1,3 +1,4 @@
+import { recommendations, recordEvent } from '@/lib/commerce/merchandising';
 import { databaseRoute } from '@/lib/db';
 import { randomBytes, randomUUID, scryptSync } from 'node:crypto';
 import { all, get, put, remove, transaction } from '@/lib/db';
@@ -102,6 +103,18 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ action: string
     if (action === 'logout') {
       await logoutCustomer();
       return json({ ok: true });
+    }
+    if (action === 'recommendations' || action === 'compare') {
+      if (!rateLimit('merchandising-global', 3000, 60000)) return json({ error: 'Pokušaj kasnije.' },429);
+      if (action === 'recommendations') return json(recommendations(b,customer));
+      let before = null;
+      try { before = publicQuote(quote(b.items,b.delivery || 'pickup',customer,b.useCredit,b.teamId,b.referralCode)); } catch { /* An unavailable source can be replaced. */ }
+      return json({ before,
+        after: publicQuote(quote(b.nextItems,b.delivery || 'pickup',customer,b.useCredit,b.teamId,b.referralCode)) });
+    }
+    if (action === 'event') {
+      if (!rateLimit('funnel-global',3000,60000)) return json({error:'Pokušaj kasnije.'},429);
+      return json(recordEvent(b));
     }
     if (action === 'quote')
       return json(

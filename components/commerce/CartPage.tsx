@@ -1,7 +1,10 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { useCart, QuickAdd } from './CartProvider';
+import Recommendations from './Recommendations';
+import { mt } from '@/lib/commerce/merchandising-copy';
+import { analyticsIdentity } from '@/lib/commerce/analytics-browser';
+import { useCart } from './CartProvider';
 import { ct } from '@/lib/commerce/copy';
 import { copy, money } from '@/lib/i18n';
 import type { Locale, PublicData } from '@/lib/types';
@@ -29,14 +32,14 @@ export default function CartPage({
   data,
   today,
   creditLimit,
-  recommendations,
+  recommendationsEnabled,
   referralProgram,
 }: {
   locale: Locale;
   data: PublicData;
   today: string;
   creditLimit: number;
-  recommendations: Record<string, string[]>;
+  recommendationsEnabled: boolean;
   referralProgram: ReferralProgram;
 }) {
   const { items, setItems, ready } = useCart(),
@@ -70,11 +73,6 @@ export default function CartPage({
   const key = useRef('');
   const liveItems = useRef(items);
   liveItems.current = items;
-  const suggested = [...new Set(items.flatMap((i) => recommendations[i.toolId] || []))]
-    .filter((id) => !items.some((i) => i.toolId === id))
-    .map((id) => data.tools.find((t) => t.id === id))
-    .filter((t) => !!t)
-    .slice(0, 3);
   const hasOpenRental = items.some(i => i.openEnded);
   const fingerprint = JSON.stringify({ items, delivery, useCredit, teamId, referralCode });
   const [quotedFingerprint, setQuotedFingerprint] = useState('');
@@ -153,6 +151,7 @@ export default function CartPage({
     try {
       const r = await commerce('order', {
         ...contact,
+        ...analyticsIdentity(),
         items,
         delivery,
         useCredit,
@@ -216,7 +215,7 @@ export default function CartPage({
           {ct(locale, 'cart')}
           <span className="count-chip">{items.length}</span>
         </h1>
-        <p>{ct(locale, 'pending')}</p>
+        <p>{ct(locale, 'pending')}</p><p className="checkout-steps">{mt(locale,'steps')}</p>
       </div>
       {!items.length ? (
         <div className="commerce-empty">
@@ -277,6 +276,7 @@ export default function CartPage({
                         <Trash2 size={18} />
                       </button>
                     </div>
+                    {tool?.quantity===null && <p className="small-muted">{mt(locale,'confirmation')}</p>}
                     <RentalPeriod value={item} onChange={next => update(index, next)} locale={locale} today={today} />
                     <div className="cart-item-fields">
                       <label>
@@ -316,24 +316,7 @@ export default function CartPage({
             <Link className="text-link" href={`/${locale}/katalog`}>
               ← {ct(locale, 'keep')}
             </Link>
-            {suggested.length > 0 && (
-              <div className="commerce-card">
-                <h3>{ct(locale, 'more')}</h3>
-                <div className="cart-suggestions">
-                  {suggested.map((tool) => (
-                    <article key={tool.id}>
-                      <Link href={`/${locale}/alat/${tool.slug}`}>{tool.name[locale]}</Link>
-                      <small>
-                        {tool.price === null
-                          ? t.inquiryPrice
-                          : `${money(tool.price, locale)} ${t.perDay}`}
-                      </small>
-                      <QuickAdd toolId={tool.id} locale={locale} />
-                    </article>
-                  ))}
-                </div>
-              </div>
-            )}
+            <Recommendations locale={locale} enabled={recommendationsEnabled} items={items} onChoose={setItems} delivery={delivery} useCredit={useCredit} teamId={teamId} referralCode={referralCode}/>
             {customer && (
               <div className="commerce-card">
                 <h3>
@@ -407,6 +390,8 @@ export default function CartPage({
                   </strong>
                 </label>
               ))}
+              {delivery!=='express' && <p className="small-muted">{mt(locale,'expressHint')} {mt(locale,data.settings.expressDelivery-(delivery==='standard'?data.settings.standardDelivery:0)<0?'less':'extra')}: {money(Math.abs(data.settings.expressDelivery-(delivery==='standard'?data.settings.standardDelivery:0)),locale)}</p>}
+              {delivery!=='pickup' && <p className="small-muted">{mt(locale,'pickupHint')} {money(delivery==='express'?data.settings.expressDelivery:data.settings.standardDelivery,locale)}</p>}
             </fieldset>
             {(referralProgram.enabled || referralCode) && <div className="referral-checkout">
               <label>{rt(locale,'code')}<input maxLength={20} autoCapitalize="characters" value={referralCode} onChange={e=>{setReferralCode(e.target.value.toUpperCase());storeReferral(e.target.value);}} /></label>
@@ -416,6 +401,7 @@ export default function CartPage({
               {quote?.referral && <p className="saving-text" role="status">{quote.referral.discount>0 ? `${rt(locale,'applied')}: ${money(quote.referral.discount,locale)}` : rt(locale,'better')}</p>}
             </div>}
             {loading && <p role="status">{ct(locale, 'loading')}</p>}
+            {quote?.promotion && <p className="saving-pill">{mt(locale,'promotion')}: {quote.promotion.name[locale]}</p>}
             {quote && (
               <div className="quote-lines">
                 {quote.baseTotal !== null && <p>

@@ -1,0 +1,1513 @@
+{
+  "migration": "four-source-tool-types-2026-10-12-v1",
+  "tools": [
+    {
+      "id": "tool-127",
+      "slug": "teleskopske-makaze-za-zivu-ogradu",
+      "name": {
+        "sr": "Teleskopske makaze za živu ogradu",
+        "en": "Telescopic hedge trimmer",
+        "ru": "Телескопический кусторез",
+        "tr": "Teleskopik çit budama makası",
+        "zh": "伸缩绿篱修剪机"
+      },
+      "description": {
+        "sr": "Za sečenje visoke žive ograde sa zemlje, uz potvrdu dohvata i odgovarajućeg nastavka. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Telescopic hedge trimmer for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Телескопический кусторез в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Teleskopik çit budama makası. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "伸缩绿篱修剪机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-3",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-128",
+      "slug": "rucna-teleskopska-testera-za-grane",
+      "name": {
+        "sr": "Ručna teleskopska testera za grane",
+        "en": "Manual telescopic pruning saw",
+        "ru": "Ручная телескопическая пила",
+        "tr": "Manuel teleskopik budama testeresi",
+        "zh": "手动伸缩修枝锯"
+      },
+      "description": {
+        "sr": "Za ručno odsecanje dostupnih grana pomoću produžene drške, bez motornog pogona. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Manual telescopic pruning saw for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Ручная телескопическая пила в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Manuel teleskopik budama testeresi. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "手动伸缩修枝锯可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-3",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-129",
+      "slug": "elektricna-heftalica",
+      "name": {
+        "sr": "Električna heftalica",
+        "en": "Electric staple gun",
+        "ru": "Электрический степлер",
+        "tr": "Elektrikli zımba tabancası",
+        "zh": "电动订书枪"
+      },
+      "description": {
+        "sr": "Za pričvršćivanje tapacirunga i odgovarajućih tankih obloga klamericama izabranim prema materijalu. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Electric staple gun for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Электрический степлер в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Elektrikli zımba tabancası. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "电动订书枪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-5",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-130",
+      "slug": "vibraciona-brusilica",
+      "name": {
+        "sr": "Vibraciona brusilica",
+        "en": "Orbital sheet sander",
+        "ru": "Вибрационная шлифмашина",
+        "tr": "Titreşimli zımpara makinesi",
+        "zh": "平板振动砂光机"
+      },
+      "description": {
+        "sr": "Za ravno brušenje drveta i pripremu premaza pomoću vibracione ploče i odgovarajućeg brusnog papira. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Orbital sheet sander for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Вибрационная шлифмашина в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Titreşimli zımpara makinesi. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "平板振动砂光机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-5",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-131",
+      "slug": "pneumatski-pistolj-za-ciscenje",
+      "name": {
+        "sr": "Pneumatski pištolj za čišćenje",
+        "en": "Pneumatic cleaning gun",
+        "ru": "Пневматический пистолет для чистки",
+        "tr": "Pnömatik temizlik tabancası",
+        "zh": "气动清洁枪"
+      },
+      "description": {
+        "sr": "Za čišćenje detalja u vozilu komprimovanim vazduhom; kompresor i sredstvo za čišćenje dogovaraju se posebno. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Pneumatic cleaning gun for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Пневматический пистолет для чистки в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Pnömatik temizlik tabancası. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "气动清洁枪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-1",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-132",
+      "slug": "podna-brusilica-za-beton",
+      "name": {
+        "sr": "Podna brusilica za beton",
+        "en": "Concrete floor grinder",
+        "ru": "Шлифмашина для бетонного пола",
+        "tr": "Beton zemin taşlama makinesi",
+        "zh": "混凝土地面研磨机"
+      },
+      "description": {
+        "sr": "Za obradu većih betonskih podova vođenjem mašine po površini, uz odgovarajući abraziv i odvođenje prašine. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Concrete floor grinder for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Шлифмашина для бетонного пола в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Beton zemin taşlama makinesi. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "混凝土地面研磨机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": 4800,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-133",
+      "slug": "hidraulicni-agregat-sa-cekicem",
+      "name": {
+        "sr": "Hidraulični agregat sa čekićem",
+        "en": "Hydraulic power pack with breaker",
+        "ru": "Гидростанция с отбойным молотком",
+        "tr": "Kırıcılı hidrolik güç ünitesi",
+        "zh": "液压动力站及破碎锤"
+      },
+      "description": {
+        "sr": "Za rušenje pomoću ručnog hidrauličnog čekića napajanog zasebnim agregatom; creva i protok moraju biti usklađeni. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Hydraulic power pack with breaker for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Гидростанция с отбойным молотком в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Kırıcılı hidrolik güç ünitesi. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "液压动力站及破碎锤可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": 6000,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-134",
+      "slug": "pneumatski-cekic-za-kompresor",
+      "name": {
+        "sr": "Pneumatski čekić za kompresor",
+        "en": "Pneumatic breaker",
+        "ru": "Пневматический отбойный молоток",
+        "tr": "Pnömatik kırıcı",
+        "zh": "气动破碎锤"
+      },
+      "description": {
+        "sr": "Za razbijanje materijala uz dovod komprimovanog vazduha iz kompresora odgovarajućeg protoka i pritiska. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Pneumatic breaker for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Пневматический отбойный молоток в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Pnömatik kırıcı. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "气动破碎锤可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-135",
+      "slug": "rasvetni-toranj",
+      "name": {
+        "sr": "Rasvetni toranj",
+        "en": "Lighting tower",
+        "ru": "Осветительная мачта",
+        "tr": "Aydınlatma kulesi",
+        "zh": "照明灯塔"
+      },
+      "description": {
+        "sr": "Za osvetljavanje većeg radilišta pomoću podignutih reflektora; napajanje, postavljanje i transport potvrđuju se pre najma. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Lighting tower for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Осветительная мачта в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Aydınlatma kulesi. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "照明灯塔可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-10",
+      "price": 7800,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-136",
+      "slug": "makaze-za-armaturu",
+      "name": {
+        "sr": "Makaze za armaturu",
+        "en": "Bolt and rebar cutter",
+        "ru": "Ножницы для арматуры",
+        "tr": "İnşaat demiri kesme makası",
+        "zh": "钢筋剪"
+      },
+      "description": {
+        "sr": "Za ručno presecanje armature i odgovarajućih metalnih šipki do prečnika koji podržava konkretan alat. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Bolt and rebar cutter for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Ножницы для арматуры в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: İnşaat demiri kesme makası. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "钢筋剪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-6",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-137",
+      "slug": "rucni-busac-zemlje",
+      "name": {
+        "sr": "Ručni bušač zemlje",
+        "en": "Manual earth auger",
+        "ru": "Ручной земляной бур",
+        "tr": "Manuel toprak burgusu",
+        "zh": "手动土钻"
+      },
+      "description": {
+        "sr": "Za ručno pravljenje rupa u zemlji pri sadnji i postavljanju stubova; prečnik i stanje zemljišta određuju primenu. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Manual earth auger for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Ручной земляной бур в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Manuel toprak burgusu. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "手动土钻可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-3",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-138",
+      "slug": "separaciona-freza-za-zemljiste",
+      "name": {
+        "sr": "Separaciona freza za zemljište",
+        "en": "Soil separator tiller",
+        "ru": "Почвенная фреза-сепаратор",
+        "tr": "Toprak ayırıcı freze",
+        "zh": "土壤分离耕耘机"
+      },
+      "description": {
+        "sr": "Za pripremu zemljišta odvajanjem krupnijih delova i ravnanjem površine; razlikuje se od običnog motokultivatora. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Soil separator tiller for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Почвенная фреза-сепаратор в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Toprak ayırıcı freze. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "土壤分离耕耘机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-3",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-139",
+      "slug": "teleskopske-makaze-za-travu",
+      "name": {
+        "sr": "Teleskopske makaze za travu",
+        "en": "Telescopic grass shears",
+        "ru": "Телескопические ножницы для травы",
+        "tr": "Teleskopik çim makası",
+        "zh": "伸缩草坪剪"
+      },
+      "description": {
+        "sr": "Za uređivanje rubova travnjaka i teško dostupnih mesta pomoću produžene ručice i odgovarajuće rezne glave. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Telescopic grass shears for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Телескопические ножницы для травы в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Teleskopik çim makası. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "伸缩草坪剪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-3",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-140",
+      "slug": "sejalica-za-travu",
+      "name": {
+        "sr": "Sejalica za travu",
+        "en": "Lawn seed spreader",
+        "ru": "Сеялка для газона",
+        "tr": "Çim tohumu serpme makinesi",
+        "zh": "草坪播种机"
+      },
+      "description": {
+        "sr": "Za ravnomerno raspoređivanje semena po pripremljenom travnjaku, uz podešavanje otvora i količine po površini. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Lawn seed spreader for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Сеялка для газона в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Çim tohumu serpme makinesi. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "草坪播种机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-3",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-141",
+      "slug": "razvodna-tabla-za-gradiliste",
+      "name": {
+        "sr": "Razvodna tabla za gradilište",
+        "en": "Site power distribution board",
+        "ru": "Строительный распределительный щит",
+        "tr": "Şantiye elektrik dağıtım panosu",
+        "zh": "工地配电箱"
+      },
+      "description": {
+        "sr": "Za raspodelu privremenog napajanja na radilištu preko odgovarajućih priključaka i zaštite usklađene sa potrošačima. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Site power distribution board for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Строительный распределительный щит в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Şantiye elektrik dağıtım panosu. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "工地配电箱可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-10",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-142",
+      "slug": "peskara",
+      "name": {
+        "sr": "Peskara",
+        "en": "Sandblasting unit",
+        "ru": "Пескоструйный аппарат",
+        "tr": "Kumlama makinesi",
+        "zh": "喷砂机"
+      },
+      "description": {
+        "sr": "Za uklanjanje starih premaza i korozije abrazivnim mlazom; kompresor, medijum i zaštitna oprema potvrđuju se zasebno. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Sandblasting unit for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Пескоструйный аппарат в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Kumlama makinesi. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "喷砂机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-6",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-143",
+      "slug": "usisivac-za-pepeo",
+      "name": {
+        "sr": "Usisivač za pepeo",
+        "en": "Ash vacuum",
+        "ru": "Пылесос для золы",
+        "tr": "Kül süpürgesi",
+        "zh": "灰烬吸尘器"
+      },
+      "description": {
+        "sr": "Za sakupljanje potpuno ohlađenog pepela iz odgovarajućih ložišta; nije predviđen za žar ili vrući materijal. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Ash vacuum for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Пылесос для золы в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Kül süpürgesi. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "灰烬吸尘器可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-1",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-144",
+      "slug": "gradjevinska-kolica",
+      "name": {
+        "sr": "Građevinska kolica",
+        "en": "Wheelbarrow",
+        "ru": "Строительная тачка",
+        "tr": "İnşaat el arabası",
+        "zh": "建筑手推车"
+      },
+      "description": {
+        "sr": "Za ručni transport peska, zemlje i građevinskog materijala po prohodnoj podlozi uz proveru nosivosti. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Wheelbarrow for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Строительная тачка в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: İnşaat el arabası. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "建筑手推车可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-9",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-145",
+      "slug": "levak-za-sut",
+      "name": {
+        "sr": "Levak za šut",
+        "en": "Rubble chute",
+        "ru": "Строительный мусоропровод",
+        "tr": "Moloz şutu",
+        "zh": "建筑垃圾滑槽"
+      },
+      "description": {
+        "sr": "Za usmereno spuštanje građevinskog šuta sa visine kroz pravilno pričvršćene segmente; dužina se određuje u metrima. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Rubble chute for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Строительный мусоропровод в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Moloz şutu. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "建筑垃圾滑槽可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-9",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-146",
+      "slug": "gradjevinski-podupiraci",
+      "name": {
+        "sr": "Građevinski podupirači",
+        "en": "Construction props",
+        "ru": "Строительные стойки",
+        "tr": "İnşaat dikmeleri",
+        "zh": "建筑支撑杆"
+      },
+      "description": {
+        "sr": "Za privremeno podupiranje odgovarajuće konstrukcije; nosivost, visinu i razmak mora odrediti odgovorno stručno lice. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Construction props for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Строительные стойки в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: İnşaat dikmeleri. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "建筑支撑杆可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-9",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-147",
+      "slug": "pistolj-za-farbanje-kompresorom",
+      "name": {
+        "sr": "Pištolj za farbanje kompresorom",
+        "en": "Pneumatic paint spray gun",
+        "ru": "Пневматический краскопульт",
+        "tr": "Pnömatik boya tabancası",
+        "zh": "气动喷漆枪"
+      },
+      "description": {
+        "sr": "Za nanošenje kompatibilnih premaza uz komprimovani vazduh; dizna, pritisak i priprema boje zavise od materijala. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Pneumatic paint spray gun for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Пневматический краскопульт в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Pnömatik boya tabancası. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "气动喷漆枪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-148",
+      "slug": "maska-za-varenje",
+      "name": {
+        "sr": "Maska za varenje",
+        "en": "Welding helmet",
+        "ru": "Сварочная маска",
+        "tr": "Kaynak maskesi",
+        "zh": "焊接面罩"
+      },
+      "description": {
+        "sr": "Za zaštitu lica i očiju pri odgovarajućem postupku zavarivanja; stepen zatamnjenja bira se prema primeni. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Welding helmet for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Сварочная маска в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Kaynak maskesi. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "焊接面罩可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-6",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-149",
+      "slug": "zastitne-slusalice",
+      "name": {
+        "sr": "Zaštitne slušalice",
+        "en": "Hearing protectors",
+        "ru": "Защитные наушники",
+        "tr": "Kulak koruyucu",
+        "zh": "防噪音耳罩"
+      },
+      "description": {
+        "sr": "Za smanjenje izloženosti buci tokom rada; izaberi zaštitu prema nivou buke i kompatibilnosti sa ostalom opremom. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Hearing protectors for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Защитные наушники в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Kulak koruyucu. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "防噪音耳罩可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-150",
+      "slug": "burgije-za-drvo-i-metal",
+      "name": {
+        "sr": "Burgije za drvo i metal",
+        "en": "Wood and metal drill bits",
+        "ru": "Свёрла по дереву и металлу",
+        "tr": "Ahşap ve metal matkap uçları",
+        "zh": "木材及金属钻头"
+      },
+      "description": {
+        "sr": "Pribor za bušenje drveta i metala; materijal, prečnik i prihvat moraju odgovarati bušilici i planiranom otvoru. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Wood and metal drill bits for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Свёрла по дереву и металлу в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Ahşap ve metal matkap uçları. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "木材及金属钻头可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-5",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-151",
+      "slug": "burgije-za-beton-sds",
+      "name": {
+        "sr": "Burgije za beton SDS",
+        "en": "SDS concrete drill bits",
+        "ru": "Буры SDS по бетону",
+        "tr": "SDS beton matkap uçları",
+        "zh": "SDS混凝土钻头"
+      },
+      "description": {
+        "sr": "Pribor za udarno bušenje odgovarajućeg betona i zida; SDS Plus i SDS Max prihvati nisu međusobno zamenljivi. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "SDS concrete drill bits for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Буры SDS по бетону в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: SDS beton matkap uçları. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "SDS混凝土钻头可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-152",
+      "slug": "dijamantske-ploce-za-beton",
+      "name": {
+        "sr": "Dijamantske ploče za beton",
+        "en": "Diamond concrete cutting discs",
+        "ru": "Алмазные диски по бетону",
+        "tr": "Elmas beton kesme diskleri",
+        "zh": "混凝土金刚石切割片"
+      },
+      "description": {
+        "sr": "Rezni pribor za odgovarajući beton i mineralne podloge; prečnik, brzinu i uslove suvog ili mokrog reza proveri pre rada. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Diamond concrete cutting discs for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Алмазные диски по бетону в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Elmas beton kesme diskleri. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "混凝土金刚石切割片可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-153",
+      "slug": "rezne-ploce-za-metal",
+      "name": {
+        "sr": "Rezne ploče za metal",
+        "en": "Metal cutting discs",
+        "ru": "Отрезные диски по металлу",
+        "tr": "Metal kesme diskleri",
+        "zh": "金属切割片"
+      },
+      "description": {
+        "sr": "Pribor za sečenje metala na kompatibilnoj brusilici; potvrđuju se prečnik, debljina, prihvat i predviđena brzina. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Metal cutting discs for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Отрезные диски по металлу в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Metal kesme diskleri. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "金属切割片可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-6",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-154",
+      "slug": "nastavak-mikser-za-busilicu",
+      "name": {
+        "sr": "Nastavak mikser za bušilicu",
+        "en": "Drill mixing paddle",
+        "ru": "Насадка-миксер для дрели",
+        "tr": "Matkap karıştırıcı ucu",
+        "zh": "电钻搅拌桨"
+      },
+      "description": {
+        "sr": "Za mešanje manjih količina kompatibilnih masa pomoću odgovarajuće bušilice; prihvat i opterećenje proveravaju se unapred. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Drill mixing paddle for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Насадка-миксер для дрели в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Matkap karıştırıcı ucu. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "电钻搅拌桨可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-7",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-155",
+      "slug": "lanac-za-testeru",
+      "name": {
+        "sr": "Lanac za testeru",
+        "en": "Chainsaw chain",
+        "ru": "Цепь для пилы",
+        "tr": "Testere zinciri",
+        "zh": "链锯链条"
+      },
+      "description": {
+        "sr": "Zamenski rezni pribor za lančanu testeru; korak, širina pogonske karike i broj karika moraju odgovarati vodilici. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Chainsaw chain for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Цепь для пилы в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Testere zinciri. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "链锯链条可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-3",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-156",
+      "slug": "merac-vlage-u-materijalu",
+      "name": {
+        "sr": "Merač vlage u materijalu",
+        "en": "Material moisture meter",
+        "ru": "Влагомер материалов",
+        "tr": "Malzeme nem ölçer",
+        "zh": "材料水分仪"
+      },
+      "description": {
+        "sr": "Za proveru vlage u drvetu, malteru i odgovarajućim građevinskim podlogama; rezultat zavisi od materijala i metode merenja. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Material moisture meter for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Влагомер материалов в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Malzeme nem ölçer. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "材料水分仪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-157",
+      "slug": "termohigrometar",
+      "name": {
+        "sr": "Termohigrometar",
+        "en": "Thermohygrometer",
+        "ru": "Термогигрометр",
+        "tr": "Termohigrometre",
+        "zh": "温湿度计"
+      },
+      "description": {
+        "sr": "Za praćenje temperature i relativne vlažnosti vazduha tokom isušivanja i provere uslova u prostoru. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Thermohygrometer for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Термогигрометр в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Termohigrometre. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "温湿度计可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-158",
+      "slug": "infracrveni-termometar",
+      "name": {
+        "sr": "Infracrveni termometar",
+        "en": "Infrared thermometer",
+        "ru": "Инфракрасный термометр",
+        "tr": "Kızılötesi termometre",
+        "zh": "红外测温仪"
+      },
+      "description": {
+        "sr": "Za beskontaktno merenje površinske temperature; emisivnost i refleksije utiču na očitavanje i izbor mesta provere. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Infrared thermometer for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Инфракрасный термометр в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Kızılötesi termometre. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "红外测温仪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-159",
+      "slug": "digitalni-multimetar",
+      "name": {
+        "sr": "Digitalni multimetar",
+        "en": "Digital multimeter",
+        "ru": "Цифровой мультиметр",
+        "tr": "Dijital multimetre",
+        "zh": "数字万用表"
+      },
+      "description": {
+        "sr": "Za električna merenja u opsegu i bezbednosnoj kategoriji konkretnog instrumenta, uz odgovarajuće sonde i postupak. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Digital multimeter for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Цифровой мультиметр в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Dijital multimetre. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "数字万用表可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-160",
+      "slug": "merac-potrosnje-struje",
+      "name": {
+        "sr": "Merač potrošnje struje",
+        "en": "Electricity consumption meter",
+        "ru": "Измеритель потребления электроэнергии",
+        "tr": "Elektrik tüketim ölçer",
+        "zh": "电能功耗计"
+      },
+      "description": {
+        "sr": "Za praćenje potrošnje kompatibilnih električnih uređaja; priključak, struja i interval beleženja potvrđuju se prema zadatku. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Electricity consumption meter for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Измеритель потребления электроэнергии в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Elektrik tüketim ölçer. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "电能功耗计可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-161",
+      "slug": "merac-kvaliteta-vazduha",
+      "name": {
+        "sr": "Merač kvaliteta vazduha",
+        "en": "Air quality monitor",
+        "ru": "Измеритель качества воздуха",
+        "tr": "Hava kalitesi ölçer",
+        "zh": "空气质量检测仪"
+      },
+      "description": {
+        "sr": "Za proveru parametara vazduha koje podržavaju ugrađeni senzori, kao što su CO2, čestice ili VOC; model se bira prema cilju. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Air quality monitor for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Измеритель качества воздуха в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Hava kalitesi ölçer. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "空气质量检测仪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-162",
+      "slug": "detektor-curenja-gasa",
+      "name": {
+        "sr": "Detektor curenja gasa",
+        "en": "Gas leak detector",
+        "ru": "Детектор утечки газа",
+        "tr": "Gaz kaçak dedektörü",
+        "zh": "气体泄漏检测仪"
+      },
+      "description": {
+        "sr": "Za pronalaženje tragova određenog gasa odgovarajućim senzorom; tip gasa, opseg i uslovi primene moraju biti potvrđeni. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Gas leak detector for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Детектор утечки газа в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Gaz kaçak dedektörü. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "气体泄漏检测仪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-163",
+      "slug": "akusticna-kamera",
+      "name": {
+        "sr": "Akustična kamera",
+        "en": "Acoustic imaging camera",
+        "ru": "Акустическая камера",
+        "tr": "Akustik görüntüleme kamerası",
+        "zh": "声学成像仪"
+      },
+      "description": {
+        "sr": "Za vizuelno prikazivanje izvora zvuka i odgovarajućih curenja pomoću niza mikrofona i obrade akustičnog signala. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Acoustic imaging camera for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Акустическая камера в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Akustik görüntüleme kamerası. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "声学成像仪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-164",
+      "slug": "akusticni-korelator",
+      "name": {
+        "sr": "Akustični korelator",
+        "en": "Acoustic leak correlator",
+        "ru": "Акустический коррелятор",
+        "tr": "Akustik kaçak korelatörü",
+        "zh": "声学泄漏相关仪"
+      },
+      "description": {
+        "sr": "Za poređenje signala sa dva merna mesta radi lociranja curenja na cevima uz poznate podatke o instalaciji. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Acoustic leak correlator for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Акустический коррелятор в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Akustik kaçak korelatörü. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "声学泄漏相关仪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-165",
+      "slug": "dimna-masina-za-testiranje-instalacija",
+      "name": {
+        "sr": "Dimna mašina za testiranje instalacija",
+        "en": "Installation smoke tester",
+        "ru": "Дымогенератор для проверки систем",
+        "tr": "Tesisat duman test cihazı",
+        "zh": "管道烟雾测试机"
+      },
+      "description": {
+        "sr": "Za proveru odgovarajućih instalacija kontrolisanim uvođenjem testnog dima, uz prethodnu proveru uslova i kompatibilnosti. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Installation smoke tester for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Дымогенератор для проверки систем в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Tesisat duman test cihazı. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "管道烟雾测试机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-166",
+      "slug": "uv-set-za-detekciju-curenja",
+      "name": {
+        "sr": "UV set za detekciju curenja",
+        "en": "UV leak detection kit",
+        "ru": "УФ-комплект для поиска утечек",
+        "tr": "UV kaçak tespit seti",
+        "zh": "紫外泄漏检测套装"
+      },
+      "description": {
+        "sr": "Za praćenje odobrene fluorescentne boje pri otkrivanju curenja; kompatibilnost sredstva sa instalacijom potvrđuje se pre rada. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "UV leak detection kit for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "УФ-комплект для поиска утечек в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: UV kaçak tespit seti. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "紫外泄漏检测套装可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-167",
+      "slug": "set-za-detekciju-traser-gasom",
+      "name": {
+        "sr": "Set za detekciju traser gasom",
+        "en": "Tracer gas leak detection kit",
+        "ru": "Комплект поиска утечек трассерным газом",
+        "tr": "İzleyici gaz kaçak tespit seti",
+        "zh": "示踪气体泄漏检测套装"
+      },
+      "description": {
+        "sr": "Za specijalizovano lociranje curenja primenom odgovarajućeg traser gasa i detektora, uz potvrdu uslova konkretne instalacije. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Tracer gas leak detection kit for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Комплект поиска утечек трассерным газом в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: İzleyici gaz kaçak tespit seti. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "示踪气体泄漏检测套装可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-168",
+      "slug": "dron-za-vizuelnu-inspekciju",
+      "name": {
+        "sr": "Dron za vizuelnu inspekciju",
+        "en": "Visual inspection drone",
+        "ru": "Дрон для визуального осмотра",
+        "tr": "Görsel inceleme dronu",
+        "zh": "可视检查无人机"
+      },
+      "description": {
+        "sr": "Za snimanje dostupnih krovova, fasada i površina iz vazduha; uslove leta i potrebu za operaterom potvrđujemo prema lokaciji. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Visual inspection drone for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Дрон для визуального осмотра в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Görsel inceleme dronu. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "可视检查无人机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-169",
+      "slug": "termalni-dron",
+      "name": {
+        "sr": "Termalni dron",
+        "en": "Thermal inspection drone",
+        "ru": "Тепловизионный дрон",
+        "tr": "Termal inceleme dronu",
+        "zh": "热成像无人机"
+      },
+      "description": {
+        "sr": "Za pregled temperaturnih razlika na krovovima i fasadama iz vazduha; vremenski uslovi i način tumačenja snimka utiču na rezultat. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Thermal inspection drone for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Тепловизионный дрон в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Termal inceleme dronu. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "热成像无人机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-170",
+      "slug": "fonometar",
+      "name": {
+        "sr": "Fonometar",
+        "en": "Sound level meter",
+        "ru": "Шумомер",
+        "tr": "Ses seviyesi ölçer",
+        "zh": "声级计"
+      },
+      "description": {
+        "sr": "Za merenje nivoa zvuka u prostoru i na radnom mestu, uz izbor opsega, merne postavke i potrebne kalibracije. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Sound level meter for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Шумомер в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Ses seviyesi ölçer. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "声级计可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-171",
+      "slug": "emf-merac",
+      "name": {
+        "sr": "EMF merač",
+        "en": "EMF meter",
+        "ru": "Измеритель электромагнитного поля",
+        "tr": "EMF ölçer",
+        "zh": "电磁场测量仪"
+      },
+      "description": {
+        "sr": "Za proveru elektromagnetnog polja u frekventnom opsegu koji podržava instrument; električno i magnetno polje mere se prema modelu. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "EMF meter for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Измеритель электромагнитного поля в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: EMF ölçer. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "电磁场测量仪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-172",
+      "slug": "anemometar",
+      "name": {
+        "sr": "Anemometar",
+        "en": "Anemometer",
+        "ru": "Анемометр",
+        "tr": "Anemometre",
+        "zh": "风速仪"
+      },
+      "description": {
+        "sr": "Za proveru brzine i procenu protoka vazduha u odgovarajućim ventilacionim otvorima i kanalima. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Anemometer for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Анемометр в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Anemometre. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "风速仪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-173",
+      "slug": "gajgerov-brojac",
+      "name": {
+        "sr": "Gajgerov brojač",
+        "en": "Geiger counter",
+        "ru": "Счётчик Гейгера",
+        "tr": "Geiger sayacı",
+        "zh": "盖革计数器"
+      },
+      "description": {
+        "sr": "Za očitavanje jonizujućeg zračenja u opsegu i za vrste zračenja koje podržava instrument, uz proveru kalibracije. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Geiger counter for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Счётчик Гейгера в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Geiger sayacı. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "盖革计数器可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-174",
+      "slug": "luksmetar",
+      "name": {
+        "sr": "Luksmetar",
+        "en": "Lux meter",
+        "ru": "Люксметр",
+        "tr": "Lüksmetre",
+        "zh": "照度计"
+      },
+      "description": {
+        "sr": "Za merenje osvetljenosti radnih i drugih površina, uz dogovor o položaju senzora i potrebnom mer­nom opsegu. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Lux meter for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Люксметр в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Lüksmetre. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "照度计可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-175",
+      "slug": "tahometar",
+      "name": {
+        "sr": "Tahometar",
+        "en": "Tachometer",
+        "ru": "Тахометр",
+        "tr": "Takometre",
+        "zh": "转速计"
+      },
+      "description": {
+        "sr": "Za proveru brzine obrtanja odgovarajućih rotirajućih delova kontaktnom ili optičkom metodom konkretnog instrumenta. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Tachometer for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Тахометр в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Takometre. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "转速计可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-176",
+      "slug": "vibrometar",
+      "name": {
+        "sr": "Vibrometar",
+        "en": "Vibration meter",
+        "ru": "Виброметр",
+        "tr": "Titreşim ölçer",
+        "zh": "振动测量仪"
+      },
+      "description": {
+        "sr": "Za proveru vibracija uređaja i konstrukcija u mernom opsegu senzora; način postavljanja određuje kvalitet rezultata. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Vibration meter for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Виброметр в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Titreşim ölçer. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "振动测量仪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-177",
+      "slug": "merac-debljine-materijala",
+      "name": {
+        "sr": "Merač debljine materijala",
+        "en": "Material thickness gauge",
+        "ru": "Толщиномер материалов",
+        "tr": "Malzeme kalınlık ölçer",
+        "zh": "材料测厚仪"
+      },
+      "description": {
+        "sr": "Za proveru debljine odgovarajućeg materijala, uz potvrdu tehnologije merenja, pristupa površini i potrebnog opsega. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Material thickness gauge for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Толщиномер материалов в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Malzeme kalınlık ölçer. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "材料测厚仪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-178",
+      "slug": "ultrazvucni-merac-protoka-vode",
+      "name": {
+        "sr": "Ultrazvučni merač protoka vode",
+        "en": "Ultrasonic water flow meter",
+        "ru": "Ультразвуковой расходомер воды",
+        "tr": "Ultrasonik su debimetresi",
+        "zh": "超声波水流量计"
+      },
+      "description": {
+        "sr": "Za proveru protoka kroz kompatibilne cevi pomoću odgovarajućih senzora; dimenzije i materijal cevi potvrđuju se unapred. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Ultrasonic water flow meter for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Ультразвуковой расходомер воды в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Ultrasonik su debimetresi. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "超声波水流量计可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-179",
+      "slug": "alarm-za-detekciju-poplave",
+      "name": {
+        "sr": "Alarm za detekciju poplave",
+        "en": "Water leak alarm",
+        "ru": "Датчик протечки воды",
+        "tr": "Su kaçağı alarmı",
+        "zh": "漏水报警器"
+      },
+      "description": {
+        "sr": "Za dojavu prisustva vode na mestu postavljenog senzora; način obaveštavanja i napajanje zavise od modela. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Water leak alarm for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Датчик протечки воды в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Su kaçağı alarmı. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "漏水报警器可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-180",
+      "slug": "robotska-kamera-za-inspekciju",
+      "name": {
+        "sr": "Robotska kamera za inspekciju",
+        "en": "Robotic inspection camera",
+        "ru": "Роботизированная инспекционная камера",
+        "tr": "Robotik inceleme kamerası",
+        "zh": "机器人检查摄像头"
+      },
+      "description": {
+        "sr": "Za video pregled odgovarajućih teško dostupnih kanala pomoću pokretne kamere; dimenzije otvora i pristup određuju primenu. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Robotic inspection camera for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Роботизированная инспекционная камера в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Robotik inceleme kamerası. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "机器人检查摄像头可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-181",
+      "slug": "merac-otpora-uzemljenja",
+      "name": {
+        "sr": "Merač otpora uzemljenja",
+        "en": "Earth resistance tester",
+        "ru": "Измеритель сопротивления заземления",
+        "tr": "Topraklama direnci ölçer",
+        "zh": "接地电阻测试仪"
+      },
+      "description": {
+        "sr": "Za proveru otpora uzemljenja odgovarajućom mernom metodom, uz stručnog korisnika i potvrdu sondi i uslova ispitivanja. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Earth resistance tester for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Измеритель сопротивления заземления в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Topraklama direnci ölçer. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "接地电阻测试仪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-182",
+      "slug": "strujna-klesta",
+      "name": {
+        "sr": "Strujna klešta",
+        "en": "Clamp meter",
+        "ru": "Токоизмерительные клещи",
+        "tr": "Pens ampermetre",
+        "zh": "钳形电流表"
+      },
+      "description": {
+        "sr": "Za merenje struje kompatibilnog provodnika pomoću obuhvatnog senzora; AC i DC mogućnosti zavise od izabranog uređaja. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Clamp meter for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Токоизмерительные клещи в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Pens ampermetre. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "钳形电流表可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-183",
+      "slug": "barometar",
+      "name": {
+        "sr": "Barometar",
+        "en": "Barometer",
+        "ru": "Барометр",
+        "tr": "Barometre",
+        "zh": "气压计"
+      },
+      "description": {
+        "sr": "Za proveru atmosferskog pritiska odgovarajućim instrumentom, uz potvrdu opsega i željene tačnosti merenja. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Barometer for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Барометр в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Barometre. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "气压计可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    },
+    {
+      "id": "tool-184",
+      "slug": "diferencijalni-manometar",
+      "name": {
+        "sr": "Diferencijalni manometar",
+        "en": "Differential pressure meter",
+        "ru": "Дифференциальный манометр",
+        "tr": "Diferansiyel basınç ölçer",
+        "zh": "差压计"
+      },
+      "description": {
+        "sr": "Za proveru razlike pritiska između dve tačke u kompatibilnom sistemu, uz odgovarajuće priključke i merni opseg. Pre najma potvrđujemo odgovarajući model, dodatke i raspoloživost.",
+        "en": "Differential pressure meter for rental in Belgrade. Tell us about your job and dates to confirm the model, accessories, price and availability.",
+        "ru": "Дифференциальный манометр в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить модель, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Diferansiyel basınç ölçer. Model, aksesuarlar, fiyat ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "差压计可在贝尔格莱德租赁。请告知工作内容和日期，以便确认型号、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-8",
+      "price": null,
+      "deposit": null,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T14:30:00.000Z"
+    }
+  ]
+}

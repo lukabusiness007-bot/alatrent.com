@@ -1,4 +1,5 @@
 import type { Locale, Localized } from '../types';
+import type { RecommendationLink, Promotion } from './merchandising-types';
 export type Tier = { from: number; percent: number };
 export type PriceRule = {
   tiers: Tier[];
@@ -9,6 +10,7 @@ export type PriceRule = {
 };
 export type Team = { id: string; name: string; customerIds: string[]; discount: number };
 export type ToolOptions = {
+  recommendations?: RecommendationLink[];
   costPerDay?: number | null;
   preparationCost?: number | null;
   rule?: PriceRule;
@@ -94,6 +96,8 @@ export type Line = CartItem & {
   instructions: ToolOptions;
 };
 export type Quote = {
+  promotionPolicy?: Promotion;
+  promotion?: { id: string; name: Localized; saving: number };
   depositTotal: number | null;
   depositWaived: boolean;
   referral?: Referral;

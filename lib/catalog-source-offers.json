@@ -1,0 +1,6096 @@
+{
+  "observedAt": "2026-10-12",
+  "offers": [
+    {
+      "id": "fab1e29e60486ffd",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Akustična detekcija – u zemlji Premium",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-059"
+      ],
+      "priceText": "od 280 €",
+      "prices": [
+        {
+          "label": "od 280 €",
+          "amount": 280,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "2d594c0120403816",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Akustična detekcija – u zidu Specijalno",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-059"
+      ],
+      "priceText": "od 160 €",
+      "prices": [
+        {
+          "label": "od 160 €",
+          "amount": 160,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "094b80933597fc7a",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Akustična kamera – Acoustic imaging Pro",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-163"
+      ],
+      "priceText": "od 200 €",
+      "prices": [
+        {
+          "label": "od 200 €",
+          "amount": 200,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "98e0ff115f049222",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Alarm uređaj za detekciju poplave",
+      "category": "service",
+      "kind": "sale",
+      "toolIds": [
+        "tool-179"
+      ],
+      "priceText": "85 €",
+      "prices": [
+        {
+          "label": "85 €",
+          "amount": 85,
+          "currency": "EUR",
+          "unit": "device",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "9964dd81f893b3b1",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Detekcija GAS snifferom",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-162"
+      ],
+      "priceText": "85 €",
+      "prices": [
+        {
+          "label": "85 €",
+          "amount": 85,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "30fc3ef2d1c9786d",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Dron – klasično vizuelno snimanje",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-168"
+      ],
+      "priceText": "od 130 €",
+      "prices": [
+        {
+          "label": "od 130 €",
+          "amount": 130,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "a2ab64b4eed6d7e2",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Dron – termalno snimanje Premium",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-169",
+        "tool-168"
+      ],
+      "priceText": "od 280 €",
+      "prices": [
+        {
+          "label": "od 280 €",
+          "amount": 280,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f97b5b2a11225b2c",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Endoskop kamera – do 10m",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-057"
+      ],
+      "priceText": "140 €",
+      "prices": [
+        {
+          "label": "140 €",
+          "amount": 140,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "736964399ddea7ea",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Endoskop kamera – do 3m Brzo",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-057"
+      ],
+      "priceText": "90 €",
+      "prices": [
+        {
+          "label": "90 €",
+          "amount": 90,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "82400417640be321",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Izlazak na teren i inspekcija radova Premium Strucna inzenjerska konsultacija inspekcija i savetovanje vlasnika",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [],
+      "priceText": "140 €",
+      "prices": [
+        {
+          "label": "140 €",
+          "amount": 140,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "585bf7410a763a3c",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Izlazak na teren i preventivni pregled kuce do 100 m2 Kuca Preventivni pregled - Vizuelna inspekcija kuce",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [],
+      "priceText": "165 €",
+      "prices": [
+        {
+          "label": "165 €",
+          "amount": 165,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "5996d8a6c1ab0f83",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Izlazak na teren i preventivni pregled stana do 90 m2 Stan Preventivni pregled - Vizuelna inspekcija stana",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [],
+      "priceText": "120 €",
+      "prices": [
+        {
+          "label": "120 €",
+          "amount": 120,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "e156d9f44bb89466",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Kriogenizacija cevi – zamrzavanje cevi vode/grejanja Specijalno",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-076"
+      ],
+      "priceText": "od 280 €",
+      "prices": [
+        {
+          "label": "od 280 €",
+          "amount": 280,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "a92176244886d845",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "MAP mapiranje vlage – svi zidovi Dodatak",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-156"
+      ],
+      "priceText": "+60 €",
+      "prices": [
+        {
+          "label": "+60 €",
+          "amount": 60,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "a92176244886d845-1",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "MAP mapiranje vlage – svi zidovi Dodatak",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-156"
+      ],
+      "priceText": "+60 €",
+      "prices": [
+        {
+          "label": "+60 €",
+          "amount": 60,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "18333de75b6807e9",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Merenje jačine zvuka (dB)",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-170"
+      ],
+      "priceText": "po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "fab69000f3de91e8",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Merenje kvaliteta vazduha – PM, CO2",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-161"
+      ],
+      "priceText": "60–90 €",
+      "prices": [],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "d694529404232e27",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Merenje prisutnosti gasova – CO2, VOC",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-161"
+      ],
+      "priceText": "po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "dae78df557aad59f",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Merenje pritiska – sistema za grejanje",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-104"
+      ],
+      "priceText": "50–80 €",
+      "prices": [],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f8957842a3963163",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Merenje pritiska – vodovodnih instalacija",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-104"
+      ],
+      "priceText": "50–80 €",
+      "prices": [],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "987082497d7dd569",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Merenje vlažnosti zida (drvo, gips, beton, pločice) Brzo",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-156"
+      ],
+      "priceText": "od 55 €",
+      "prices": [
+        {
+          "label": "od 55 €",
+          "amount": 55,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "be22d83b28d496a8",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Paket 1 – Osnovna detekcija Ulazni Termovizija + pregled",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-058"
+      ],
+      "priceText": "120 €",
+      "prices": [
+        {
+          "label": "120 €",
+          "amount": 120,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "0c632457baddedb2",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Paket 2 – Napredna detekcija Najpopularnije Termovizija + Endoskop + Wall‑scanner",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-058",
+        "tool-057"
+      ],
+      "priceText": "165 €",
+      "prices": [
+        {
+          "label": "165 €",
+          "amount": 165,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "eecca6e248484d4e",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Paket 3 – Premium detekcija Premium Akustika + Gas + Termovizija + Endoskop",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-058",
+        "tool-057"
+      ],
+      "priceText": "320 €",
+      "prices": [
+        {
+          "label": "320 €",
+          "amount": 320,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "0c2d94550712aa66",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Termalna kamera – mid range (Bosch MCW Hikmikro)",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-058"
+      ],
+      "priceText": "od 120 €",
+      "prices": [
+        {
+          "label": "od 120 €",
+          "amount": 120,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "8521954e7ad2b140",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Termalna kamera – Pro FLIR E8 Pro",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-058"
+      ],
+      "priceText": "od 180 €",
+      "prices": [
+        {
+          "label": "od 180 €",
+          "amount": 180,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "0a8f7415331cad0b",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Testiranje Dimnom masinom",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-165"
+      ],
+      "priceText": "85 €",
+      "prices": [
+        {
+          "label": "85 €",
+          "amount": 85,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "2628d75bf61ded61",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Testiranje pritiskom Brzo",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-104"
+      ],
+      "priceText": "80 €",
+      "prices": [
+        {
+          "label": "80 €",
+          "amount": 80,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "39af8d2c15c7f450",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Testiranje UV bojama",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-166"
+      ],
+      "priceText": "85 €",
+      "prices": [
+        {
+          "label": "85 €",
+          "amount": 85,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "0a83cbe1a3fe216f",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Tracer gas Premium",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-167"
+      ],
+      "priceText": "od 220 €",
+      "prices": [
+        {
+          "label": "od 220 €",
+          "amount": 220,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "6eddace06f029289",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Uređaj za merenje kvaliteta vazduha",
+      "category": "service",
+      "kind": "sale",
+      "toolIds": [
+        "tool-161"
+      ],
+      "priceText": "45 €",
+      "prices": [
+        {
+          "label": "45 €",
+          "amount": 45,
+          "currency": "EUR",
+          "unit": "device",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "59003ca4344ab764",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/kontakt/cenovnik",
+      "name": "Uređaj za merenje potrošnje struje",
+      "category": "service",
+      "kind": "sale",
+      "toolIds": [
+        "tool-160"
+      ],
+      "priceText": "45 €",
+      "prices": [
+        {
+          "label": "45 €",
+          "amount": 45,
+          "currency": "EUR",
+          "unit": "device",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena usluge ili uređaja, nije dnevni najam."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "1138644c9a176c3a",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/33-oleo-mac-g-53-tk-allroad",
+      "name": "Oleo Mac G 53 TK All Road",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-016"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f090cb609af9a72e",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/43-stihl-fs-450",
+      "name": "STIHL FS 450 Trimer",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-018"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "ed9b091672f02386",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/59-stihl-km-94-rc-e-makaze",
+      "name": "STIHL KM 130 R Teleskopske kombinovane makaze za sečenje žive ograde",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-127"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "03925cc6dd1c4443",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/81-sthil-bg-86",
+      "name": "STIHL BG 86 benzinski duvač",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-021"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "02512409404a62b9",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/82-sthil-ms-361",
+      "name": "STIHL MS 361 benzinska motorna testera",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-074"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "b4b9047019f192d8",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/83-oleo-mac-tele-testera",
+      "name": "Teleskopska testera Oleo Mac",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-121"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "85f662b75c2a9015",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/84-wolf-garten-pro-370",
+      "name": "Testera za grane sa teleskopskom drškom 4m PCS PRO 370/ZM-V4 WOLF GARTEN",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-128"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "522ca147d6112064",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/85-busac-prolinetech",
+      "name": "Bušač rupa ProLineTech 62cc burgije 100+150+200 PLT/EA 333",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-020"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "68b569042951353e",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/86-shindaiwa-jednorucna-testera",
+      "name": "Shindaiwa jednoručna testera",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-074"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "ca55b0bfbf298f57",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/87-sthil-gta-26",
+      "name": "STIHL GTA 26 baterijski sekač",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-074"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "3f652fc7fa07ff21",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/88-alu-merdevine",
+      "name": "Trodelne profesionalne aluminijumske multifunkcionalne merdevine",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-097"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "0bcd60896c11ff1b",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/bastenski-program/89-sthil-sh-86",
+      "name": "STIHL SH 86 Sitnilica lišća",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-021"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "96a723a2535ca0ac",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/100-bosch-gnf-35-ca",
+      "name": "Glodalica/šlicerica za žlebove u zidovima BOSCH GNF 35 CA",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-025"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "fcbad1c12f408c2c",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/101-bosch-gsb-162-2-re",
+      "name": "Vibraciona bušilica BOSCH GSB 162-2 RE",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-078"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "2ad8171fc39e1402",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/102-bosch-gas-35-m-afc",
+      "name": "Građevinski usisivač BOSCH GAS 35 M AFC",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-004"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "753511884ff47125",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/103-bosch-gbr-15-ca",
+      "name": "Brusilica za beton Bosch GBR 15 CA",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-027"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "e972dffbe92f95be",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/104-bosch-gbh-8-45-dv",
+      "name": "Elektro-pneumatski čekić za bušenje sa SDS max prihvatom BOSCH GBH 8-45 DV",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-023"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "3f878a42e2b2caae",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/105-bosch-gsh-11-e",
+      "name": "Elektro-pneumatski čekić za štemovanje sa SDS max prihvatom BOSCH GSH 11 E",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-024"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "9e27c3eae8490b2f",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/106-bosch-gsh-5-ce",
+      "name": "Elektro-pneumatski čekić za štemovanje sa SDS max prihvatom BOSCH GSH 5 CE",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-024"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "0540918c5f821769",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/107-bosch-gsh-16-28",
+      "name": "Elektro-pneumatski čekić za razbijanje Bosch GSH 16-28",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-024"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "1cd65ddc6e084b31",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/30-sigma-4dn-95cm",
+      "name": "Sigma 4DN 95 cm mašina za sečenje keramičkih pločica",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-049"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "763f9fcc919f4cfa",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/44-hogert-ht1p680",
+      "name": "Vodoinstalaterska pegla za zavarivanje cevi Hogert HT1P680",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-042"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "fbf023c5e124ccc9",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/45-stihl-ts-420",
+      "name": "Motorni sekač STIHL TS 420",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-029"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "d93cbca8f5fcce8f",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/93-einhell-tc-pg-2500",
+      "name": "Agregat za struju (benzin) EINHELL TC-PG 2500",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-067"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "87af356ffb72ec30",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/94-mesalica-beton-150l",
+      "name": "Mešalica za beton, 150l, sklopiva",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-096"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "d68e837d60a44d09",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/96-karcher-nt-90-2-me-classic",
+      "name": "Građevinski usisivač Karcher NT 90/2 ME CLASSIC",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-004"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "d9e12de9b2ee9396",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/97-bosch-gsr-18-2-li",
+      "name": "Bosch GSR 18-2-Li akumulatorska bušilica / odvrtač",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-078"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "38ca88bac3ad74df",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/98-bosch-gbh-240",
+      "name": "Elektro-pneumatski čekić za bušenje sa SDS plus prihvatom BOSCH GBH 240",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-023"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "2e3e2e4335db9bb7",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/gradjevinski-alati/99-bosch-gtr-550",
+      "name": "Brusilica/Žirafa za suvu gradnju BOSCH GTR 550",
+      "category": "gradjevinski-alati",
+      "kind": "rental",
+      "toolIds": [
+        "tool-026"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "cc3189f7effbdde1",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/obrada-drveta/109-makita-bo5041j",
+      "name": "Ekcentar brusilica/Šlajferica Makita BO5041J",
+      "category": "obrada-drveta",
+      "kind": "rental",
+      "toolIds": [
+        "tool-079"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "6826fba185f8ad27",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/obrada-drveta/110-novus-j-165-ead",
+      "name": "Električna heftalica J 165 EAD NOVUS",
+      "category": "obrada-drveta",
+      "kind": "rental",
+      "toolIds": [
+        "tool-129"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "4c795054fba34254",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/obrada-drveta/111-bosch-gsa-1300-pce",
+      "name": "Univerzalna testera BOSCH GSA 1300 PCE",
+      "category": "obrada-drveta",
+      "kind": "rental",
+      "toolIds": [
+        "tool-035"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "30fdab96e6d75642",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/obrada-drveta/112-bosch-gss-160-multi",
+      "name": "Vibraciona brusilica/šlajferica BOSCH GSS 160 Multi",
+      "category": "obrada-drveta",
+      "kind": "rental",
+      "toolIds": [
+        "tool-130"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "fbe8f3cbff40ad94",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/obrada-drveta/46-bosch-gkt-55-gce",
+      "name": "Testera/cirkular za uranjanje BOSCH GKT 55 GCE",
+      "category": "obrada-drveta",
+      "kind": "rental",
+      "toolIds": [
+        "tool-084"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "d95e50c6408fa1ed",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/obrada-drveta/47-gcm-305-216-d",
+      "name": "BOSCH GCM 305-216 D Professional Kombinovana kružna testera/ger",
+      "category": "obrada-drveta",
+      "kind": "rental",
+      "toolIds": [
+        "tool-033"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "590c955dca1df4a9",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/obrada-metala/74-bosch-gco-14-24-j",
+      "name": "Testera za sečenje metala BOSCH GCO 14-24 J",
+      "category": "obrada-metala",
+      "kind": "rental",
+      "toolIds": [
+        "tool-041"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "c30ac53100077165",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/obrada-metala/75-bosch-gws-30-230-b",
+      "name": "Ugaona brusilica BOSCH GWS 30-230 B",
+      "category": "obrada-metala",
+      "kind": "rental",
+      "toolIds": [
+        "tool-043"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "5e9c98361082ae60",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/obrada-metala/76-bosch-gws-12-125-p",
+      "name": "Ugaona brusilica BOSCH GWS 12-125 P",
+      "category": "obrada-metala",
+      "kind": "rental",
+      "toolIds": [
+        "tool-043"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "aa912b851148a617",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/obrada-metala/77-hugong-estick-200-pfc",
+      "name": "Aparat za varenje HUGONG ESTICK 200 PFC",
+      "category": "obrada-metala",
+      "kind": "rental",
+      "toolIds": [
+        "tool-042"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "97455d67643fe6e7",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/odrzavanje-ciscenje/131-bosch-ghp-5-55",
+      "name": "Perač pod visokim pritiskom BOSCH GHP 5-55",
+      "category": "odrzavanje-ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-001"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "a58b046c3b963355",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/odrzavanje-ciscenje/136-karcher-hd-9-20-4",
+      "name": "Kompresorski čistač Karcher HD 9/20-4 Classic",
+      "category": "odrzavanje-ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-068"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "76384c71a08c22b1",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/odrzavanje-ciscenje/137-karcher-puzzi-10-1",
+      "name": "Ekstraciona mašina Karcher Puzzi 10/1",
+      "category": "odrzavanje-ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-003"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "783727a3b85bff7f",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/odrzavanje-ciscenje/138-karcher-nt-90-2-me",
+      "name": "Usisivač Karcher NT 90/2 ME CLASSIC",
+      "category": "odrzavanje-ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-004"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "273ca89e7d73acc8",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/odrzavanje-ciscenje/140-easyclean-pistolj",
+      "name": "EASYCLEAN365+ TORNADO pištolj za čišćenje automobila",
+      "category": "odrzavanje-ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-131"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "3e9590bed2228d11",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/odrzavanje-ciscenje/198-abac-pole-l20",
+      "name": "Kompresor Abac Pole Position L20, 1.5kW, 24l",
+      "category": "odrzavanje-ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-068"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "eb683d890d8d7f3a",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/odrzavanje-ciscenje/199-busch-gpo-950",
+      "name": "Brusilica za poliranje / polirka BOSCH GPO 950",
+      "category": "odrzavanje-ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-007"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "a4ae8f3d4568882e",
+      "source": "iznajmialat.rs",
+      "url": "https://iznajmialat.rs/index.php/katalog/odrzavanje-ciscenje/200-rems-cobra-22",
+      "name": "REMS Cobra 22 – mašina za odgušenje kanalizacija i cevi",
+      "category": "odrzavanje-ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-094"
+      ],
+      "priceText": "Cena na upit",
+      "prices": [],
+      "priceNotes": [
+        "Najam nema objavljen iznos. Dostava: I zona 1.000 RSD; II zona 2.000 RSD; III zona 3.000 RSD. Povratak se naplaćuje zasebno po istoj tarifi."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "19270b67da005b14",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/komplet-brusilica-zirafa-za-gips-ploce-usisivac-beograd-pBlISuAdz20yk5DVLFS6",
+      "name": "KOMPLET: Brusilica/Žirafa za gips ploče + usisivač",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-026",
+        "tool-004"
+      ],
+      "priceText": "Najam kompleta: 2.550,00 + PDV = 3.060,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3060,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam kompleta: 2.550,00 + PDV = 3.060,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "ab85dfcfa756a516",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/komplet-najam-iznajmljivanje-brusilica-za-beton-us-beograd-bkDDnBhK5DPYjaZeAYj7",
+      "name": "KOMPLET: Najam/Iznajmljivanje brusilica za beton + usisivač",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-027",
+        "tool-004"
+      ],
+      "priceText": "Najam kompleta: 3.200,00 RSD + PDV = 3.840,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3840,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam kompleta: 3.200,00 RSD + PDV = 3.840,00 RSD / dan (24h)",
+        "Depozit: 10.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Dijamantna brusna ploča: 2.000,00 RSD + PDV = 2.400,00 RSD / mm (najmanja obračunska jedinica 0,1mm)",
+        "Kese za usisivač se kupuju posebno: 800,00 + PDV = 960,00 RSD"
+      ],
+      "depositText": "Depozit: 10.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "aa2f74c270f6aab8",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/komplet-podna-brusilica-za-beton-usisivac-beograd-FSTpSDzPI02NFpWgr9Qq",
+      "name": "KOMPLET: Podna brusilica za beton + usisivač",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-132",
+        "tool-004"
+      ],
+      "priceText": "Najam kompleta: 4.900,00 RSD + PDV = 5.880,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 5880,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam kompleta: 4.900,00 RSD + PDV = 5.880,00 RSD / dan (24h)",
+        "Depozit: 20.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Dijamantna brusna ploča: 3.500,00 RSD + PDV = 4.200,00 RSD / mm (najmanja obračunska jedinica 0,1mm)",
+        "Kese za usisivač se kupuju posebno: 800,00 + PDV = 960,00 RSD"
+      ],
+      "depositText": "Depozit: 20.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "65460ee14cd6d1ea",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-agregat-40kva-32kw-beograd-2YPf9oj1h8cRfIxiQz4o",
+      "name": "Najam/Iznajmljivanje Agregat 40kVA / 32kW",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-067"
+      ],
+      "priceText": "Najam mašine: 5.300,00 + PDV = 6.360,00 RSD / dan",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 6360,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        },
+        {
+          "label": "1-6 dana",
+          "amount": 6360,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "unspecified"
+        },
+        {
+          "label": "7+ dana",
+          "amount": 4580,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "unspecified"
+        },
+        {
+          "label": "30+ dana",
+          "amount": 4261,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 5.300,00 + PDV = 6.360,00 RSD / dan",
+        "Depozit: 80.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Popusti za duže periode: 1-6 dana : 6.360 RSD/dan 7 + dana: 4.580 RSD/dan (popust 28 %) 30 + dana: 4.261 RSD/dan (popust 33 %) "
+      ],
+      "depositText": "Depozit: 80.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f64a332234439151",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-benzinska-samohodna-kosilica-beograd-ew5N1PkXs8p3k71sQmyH",
+      "name": "Najam/Iznajmljivanje Benzinska samohodna kosilica-kosačica",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-016"
+      ],
+      "priceText": "Najam mašine: 2.000,00 RSD + PDV = 2.400,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2400,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.000,00 RSD + PDV = 2.400,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "e7d91dd56731035a",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-benzinski-motokultivator-beograd-dLnrKbprEey7TreWLOzw",
+      "name": "Najam/Iznajmljivanje Benzinski motokultivator",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-090"
+      ],
+      "priceText": "Najam mašine: 2.800,00 RSD + PDV = 3.360,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3360,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.800,00 RSD + PDV = 3.360,00 RSD / dan (24h)",
+        "Depozit: 18.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 18.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "3d47c7a6f6ce0858",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-brusilica-za-beton-podna-250m-beograd-f4E8SzFLNzM6YQ50Yhhq",
+      "name": "Najam/Iznajmljivanje Brusilica za beton podna - 250mm",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-132"
+      ],
+      "priceText": "4.800 RSD / dan",
+      "prices": [
+        {
+          "label": "Kartica oglasa",
+          "amount": 4800,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Najam brusilice za beton: 4.000,00 RSD + PDV = 4.800,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Dijamantna brusna ploča: 3.500,00 RSD + PDV = 4.200,00 RSD / mm (najmanja obračunska jedinica 0,1mm)"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "266c19beb2253396",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-brusilica-za-beton-rucna-fi12-beograd-ghlj7ooj5gpuQlRMF7f9",
+      "name": "Najam/Iznajmljivanje Brusilica za beton ručna (fi125mm)",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-027"
+      ],
+      "priceText": "Najam mašine: 2.300,00 RSD + PDV = 2.760,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2760,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.300,00 RSD + PDV = 2.760,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Dijamantna brusna ploča: 2.000,00 RSD + PDV = 2.400,00 RSD / mm (najmanja obračunska jedinica 0,1mm)"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "0d5671ea1dd87c66",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-busac-busilica-za-zemlju-beograd-jiOsIXIvGKJdUglkXc2h",
+      "name": "Najam/Iznajmljivanje Bušač/Bušilica za zemlju",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-020"
+      ],
+      "priceText": "Najam mašine: 2.500,00 RSD + PDV = 3.000,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3000,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.500,00 RSD + PDV = 3.000,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "U ceni jedna burgija 90, 150, 200 ili 300mm, svaka dodatna se naplačuje 200 RSD / dan"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "5413c70083d2f6dc",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-busac-busilica-za-zemlju-beograd-tnr9sngwPtL9U96pGFQw",
+      "name": "Najam/Iznajmljivanje Bušač/Bušilica za zemlju",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-020"
+      ],
+      "priceText": "Najam mašine: 2.500,00 RSD + PDV = 3.000,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3000,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.500,00 RSD + PDV = 3.000,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "U ceni jedna burgija 90, 150, 200 ili 300mm, svaka dodatna se naplačuje 200 RSD / dan"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "0e5082291b953a7a",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-busac-busilica-za-zemlju-beograd-vYl9GqFqcorX5Tufjupr",
+      "name": "Najam/Iznajmljivanje Bušač/Bušilica za zemlju",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-020"
+      ],
+      "priceText": "Najam mašine: 2.500,00 RSD + PDV = 3.000,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3000,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.500,00 RSD + PDV = 3.000,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "U ceni jedna burgija 90, 150, 200 ili 300mm, svaka dodatna se naplačuje 200 RSD / dan"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "92702f7037933502",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-busilica-beograd-0rv17YsdvaBY9HR7VPRQ",
+      "name": "Najam/Iznajmljivanje Bušilica",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-078"
+      ],
+      "priceText": "Najam mašine: 700,00 RSD + PDV = 840,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 840,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 700,00 RSD + PDV = 840,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Burgije se iznajmljuju posebno, zavisno o prečniku burgije."
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "a6dfc2811a5560d5",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-cekic-busilica-sds-max-do-52m-beograd-P8TKsLi5KIl1M8JJF7Y6",
+      "name": "Najam/Iznajmljivanje Čekić-Bušilica SDS-MAX do 52mm",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-023"
+      ],
+      "priceText": "Najam mašine: 2.200,00 RSD + PDV = 2.640,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2640,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.200,00 RSD + PDV = 2.640,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Burgije se iznajmljuju posebno, zavisno o prečnik burgije."
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "33c7b9919ec4f8be",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-cekic-busilica-sds-max-do-52m-beograd-wGTUozYaDpjA66sBKJn2",
+      "name": "Najam/Iznajmljivanje Čekić-Bušilica SDS-MAX do 52mm",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-023"
+      ],
+      "priceText": "Najam mašine: 2.200,00 RSD + PDV = 2.640,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2640,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.200,00 RSD + PDV = 2.640,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Burgije se iznajmljuju posebno, zavisno o prečnik burgije."
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "79aee9650b81fb3a",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-cekic-busilica-sds-plus-beograd-BUQWBD1SvfHPvlJrU8c6",
+      "name": "Najam/Iznajmljivanje Čekić-Bušilica SDS-Plus",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-023"
+      ],
+      "priceText": "Najam mašine: 900,00 RSD + PDV = 1.080,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 1080,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 900,00 RSD + PDV = 1.080,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Burgije se iznajmljuju posebno, zavisno o prečniku burgije."
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "5eeca19e34ad962e",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-elektricna-rucna-testera-cirk-beograd-fRY2KVMO7cbcrvNrw2z7",
+      "name": "Najam/Iznajmljivanje Električna ručna testera / Cirkular",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-084"
+      ],
+      "priceText": "Najam mašine: 1.000,00 RSD + PDV = 1.200,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 1200,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 1.000,00 RSD + PDV = 1.200,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "d07ffdc3d4a591ba",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-elektricna-trakasta-brusilica-beograd-VbPEQgNbpFHryn9nNBdM",
+      "name": "Najam/Iznajmljivanje Električna trakasta brusilica",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-083"
+      ],
+      "priceText": "Najam mašine: 700,00 RSD + PDV = 840,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 840,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 700,00 RSD + PDV = 840,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "033dfd6992f9ee9d",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-elektricno-rende-hoblerica-11-beograd-2AEXofSu87PmJmyXSJsS",
+      "name": "Najam/Iznajmljivanje Električno rende/hoblerica 110mm",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-038"
+      ],
+      "priceText": "Najam mašine: 1.100,00 RSD + PDV = 1.320,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 1320,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 1.100,00 RSD + PDV = 1.320,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "bc1353cdab6e7453",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-elektricno-rende-hoblerica-11-beograd-zoE9KlKs7ls3b20jBQx1",
+      "name": "Najam/Iznajmljivanje Električno rende/hoblerica 110mm",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-038"
+      ],
+      "priceText": "Najam mašine: 1.100,00 RSD + PDV = 1.320,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 1320,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 1.100,00 RSD + PDV = 1.320,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f3620f3f6e59fe0f",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-elektricno-rende-hoblerica-17-beograd-FvlaI2CvgpVlsk4Lac50",
+      "name": "Najam/Iznajmljivanje Električno rende/hoblerica 170mm",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-038"
+      ],
+      "priceText": "Najam mašine: 2.000,00 RSD + PDV = 2.400,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2400,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.000,00 RSD + PDV = 2.400,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "7627b9ec79fc77f4",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-gradevinski-usisivac-beograd-7QWNo5J1kJRRYRyMaQzq",
+      "name": "Najam/Iznajmljivanje Građevinski usisivač",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-004"
+      ],
+      "priceText": "Najam mašine: 1.800,00 RSD + PDV = 2.160,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2160,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 1.800,00 RSD + PDV = 2.160,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Kese se kupuju posebno: 800,00 + PDV = 960,00 RSD"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "742b33898187f9e2",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-helikopter-za-beton-900mm-beograd-i77w2wpk5PFYaG8xflVG",
+      "name": "Najam/Iznajmljivanje Helikopter za beton 900mm",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-082"
+      ],
+      "priceText": "Najam mašine: 4.000,00 RSD + PDV = 4.800,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 4800,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 4.000,00 RSD + PDV = 4.800,00 RSD / dan (24h)",
+        "Depozit: 24.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 24.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "c949e63d2811089b",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-hidraulicni-agregat-sa-cekice-beograd-U6FXuqA7yo8J0TCLqAls",
+      "name": "Najam/Iznajmljivanje Hidraulični agregat sa čekićem",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-133"
+      ],
+      "priceText": "Najam mašine: 5.000,00 RSD + PDV = 6.000,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 6000,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 5.000,00 RSD + PDV = 6.000,00 RSD / dan (24h)",
+        "Depozit: 36.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 36.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "b278427d57469a3d",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-hoblerica-za-parket-beograd-J8ei1EJQyg15j1G1hOWU",
+      "name": "Najam/Iznajmljivanje Hoblerica za parket",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-037"
+      ],
+      "priceText": "Najam mašine: 3.000,00 RSD + PDV = 3.600,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3600,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 3.000,00 RSD + PDV = 3.600,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "9210511ff2c2f796",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-kompresor-7bar-5m3-beograd-XlmuE63I1LlORS5zp8Xw",
+      "name": "Najam/Iznajmljivanje Kompresor 7bar/5m3",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-068"
+      ],
+      "priceText": "8.400 RSD / dan",
+      "prices": [
+        {
+          "label": "Kartica oglasa",
+          "amount": 8400,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Najam kompresora: 7.000,00 + PDV = 8.400,00 RSD / dan",
+        "Najam Pikamera 10kg: 1.750 + PDV = 2.100,00 RSD",
+        "Najam Pikamera 20kg: 2.350 + PDV = 2.820,00 RSD",
+        "Depozit: 120.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 120.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "c0eaed8192ebcd2d",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-mesalica-za-beton-160l-beograd-IiXOiHlhnlU46YWzAYXt",
+      "name": "Najam/Iznajmljivanje Mešalica za beton 160l",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-096"
+      ],
+      "priceText": "Najam mašine: 1.200,00 RSD + PDV = 1.440,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 1440,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 1.200,00 RSD + PDV = 1.440,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "407eafab0d3338ef",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-monofazni-agregat-13kva-beograd-XlGxTz4ajosEH1z7SjvO",
+      "name": "Najam/Iznajmljivanje Monofazni agregat 13kVA",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-067"
+      ],
+      "priceText": "4.800 RSD / dan",
+      "prices": [
+        {
+          "label": "Kartica oglasa",
+          "amount": 4800,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Najam agregata 13kVA (10kW): 4.000,00 RSD + PDV = 4.800,00 RSD / dan (24h)",
+        "Depozit: 18.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 18.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "5faa4cced96ba435",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-monofazni-agregat-3-3kva-beograd-MTur3MITRpcC0i7JdORq",
+      "name": "Najam/Iznajmljivanje Monofazni agregat 3,3kVA",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-067"
+      ],
+      "priceText": "2.520 RSD / dan",
+      "prices": [
+        {
+          "label": "Kartica oglasa",
+          "amount": 2520,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Najam agregata 3,3kVA (2,5kW): 2.100,00 RSD + PDV = 2.520,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "b54e6573a93c37a4",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-monofazni-agregat-7kva-beograd-E9uFBs2XrADfqwe1hE1o",
+      "name": "Najam/Iznajmljivanje Monofazni agregat 7kVA",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-067"
+      ],
+      "priceText": "3.480 RSD / dan",
+      "prices": [
+        {
+          "label": "Kartica oglasa",
+          "amount": 3480,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Najam agregata 7kVA (5,6kW): 2.900,00 RSD + PDV = 3.480,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "73b8f0c82de01c7d",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-motorna-testera-za-drva-beograd-c9iL0PyB7hm1WRExbEBc",
+      "name": "Najam/Iznajmljivanje Motorna testera za drva",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-074"
+      ],
+      "priceText": "Najam mašine: 2.000,00 RSD + PDV = 2.400,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2400,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.000,00 RSD + PDV = 2.400,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "563d5041a783b6e4",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-motorna-testera-za-grane-beograd-Qev2aFPVi7EWTHeLJ8zi",
+      "name": "Najam/Iznajmljivanje Motorna testera za grane",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-074"
+      ],
+      "priceText": "Najam mašine: 1.800,00 RSD + PDV = 2.160,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2160,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 1.800,00 RSD + PDV = 2.160,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "b195681d88ab8c93",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-motorne-makaze-za-zivu-ogradu-beograd-I1dLGGbSoseF7bQXRZRL",
+      "name": "Najam/Iznajmljivanje Motorne makaze za živu ogradu / Trimer",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-019"
+      ],
+      "priceText": "Najam mašine: 2.000,00 RSD + PDV = 2.400,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2400,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.000,00 RSD + PDV = 2.400,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "992a906968700bf9",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-motorni-duvac-lisca-beograd-BtT2qWY3l7SyHzCDPsbw",
+      "name": "Najam/Iznajmljivanje Motorni duvač lišća",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-021"
+      ],
+      "priceText": "Najam mašine: 2.000,00 RSD + PDV = 2.400,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2400,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.000,00 RSD + PDV = 2.400,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "c388d84bcece7026",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-motorni-trimer-za-travu-beograd-sqVWChVdLBOxt2jwzNVB",
+      "name": "Najam/Iznajmljivanje Motorni trimer za travu",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-018"
+      ],
+      "priceText": "Najam mašine: 1.800,00 RSD + PDV = 2.160,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2160,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 1.800,00 RSD + PDV = 2.160,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "c7262e5d34e0613d",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-muljna-pumpa-za-vodu-do-320l-beograd-WLQjzKZqARBmHWKQkNBe",
+      "name": "Najam/Iznajmljivanje Muljna pumpa za vodu do 320l/min",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-013"
+      ],
+      "priceText": "Najam mašine: 2.500,00 RSD + PDV = 3.000,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3000,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.500,00 RSD + PDV = 3.000,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "76c35269dbe86a4c",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-odvlazivaca-beograd-9cTj1xahpJAkw0Krrq7J",
+      "name": "Najam/Iznajmljivanje Odvlaživača",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-011"
+      ],
+      "priceText": "Najam mašine: 1.250,00 RSD + PDV = 1.500,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 1500,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 1.250,00 RSD + PDV = 1.500,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "25551e43abb31beb",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-podni-sekac-betona-i-asfalta-beograd-CA4zcinEzVhxErzuNzb8",
+      "name": "Najam/Iznajmljivanje Podni sekač betona i asfalta",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-101"
+      ],
+      "priceText": "Najam mašine: 3.800,00 RSD + PDV = 4.560,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 4560,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 3.800,00 RSD + PDV = 4.560,00 RSD / dan (24h)",
+        "Depozit: 18.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Dijamantna rezna ploča fi450mm: 3.500,00 RSD+ PDV = 4.200,00 RSD / mm (najmanja obračunska jedinica 0,1mm)"
+      ],
+      "depositText": "Depozit: 18.000,00 RSD",
+      "discrepancy": "Kartica: 1.560 RSD/dan; opis: 4.560,00 RSD/dan. Potrebna provera kod izvora.",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "1a2c576cacfda694",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-potopna-drenazna-pumpa-za-vod-beograd-bLiRbN1dJMZlPYRNXqz0",
+      "name": "Najam/Iznajmljivanje Potopna drenažna pumpa za vodu do 1500l",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-013"
+      ],
+      "priceText": "Najam mašine: 2.500,00 RSD + PDV = 3.000,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3000,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.500,00 RSD + PDV = 3.000,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "c9fe04a487fd56f5",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-potopna-pumpa-za-nisku-vodu-beograd-EyvGonBlSM3rYSFpTJUe",
+      "name": "Najam/Iznajmljivanje Potopna pumpa za nisku vodu",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-014"
+      ],
+      "priceText": "Najam mašine: 2.100,00 RSD + PDV = 2.520,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2520,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.100,00 RSD + PDV = 2.520,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "6a60433373e71343",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-rasvetni-toranj-beograd-bfqzBMVoonIOBG4lAN0S",
+      "name": "Najam/Iznajmljivanje Rasvetni toranj",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-135"
+      ],
+      "priceText": "Najam mašine: 6.500,00 + PDV = 7.800,00 RSD / dan",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 7800,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 6.500,00 + PDV = 7.800,00 RSD / dan",
+        "Depozit: 120.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 120.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "df3cd977132c2d1f",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-rucni-sekac-betona-beograd-eVuhwZ6pSVnY6rxKAHhP",
+      "name": "Najam/Iznajmljivanje Ručni sekač betona",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-029"
+      ],
+      "priceText": "Najam mašine: 2.800,00 RSD + PDV = 3.360,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3360,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.800,00 RSD + PDV = 3.360,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Dijamantna rezna ploča fi350mm: 2.800,00 RSD + PDV = 3.360,00 RSD / mm (najmanja obračunska jedinica 0,1mm)"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "6d10bf92cd97f01f",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-slicerica-glodalica-za-zlebov-beograd-BFlhDyKuPOIUhrzbQl2X",
+      "name": "Najam/Iznajmljivanje Šlicerica / Glodalica za žlebove",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-025"
+      ],
+      "priceText": "Najam mašine: 1.600,00 RSD + PDV = 1.920,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 1920,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 1.600,00 RSD + PDV = 1.920,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "Dijamantna rezna ploča 2 x fi150mm: 2 x 1.000,00 RSD + PDV = 2.400,00 RSD / mm (najmanja obračunska jedinica 0,1mm)"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "7e8030ce2a7018a4",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-stemarica-hex-do-20kg-beograd-ip88orduK1I98RoIVFaJ",
+      "name": "Najam/Iznajmljivanje Štemarica HEX do 20kg",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-024"
+      ],
+      "priceText": "Najam mašine: 3.000,00 RSD + PDV = 3.600,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3600,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 3.000,00 RSD + PDV = 3.600,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "U ceni jedno dleto (špic ili sekač), svako dodatno se naplačuje 500 RSD / dan"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "66f918a5472c701e",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-stemarica-hex-do-30kg-beograd-dn0n83lNq2fsXgejo9LN",
+      "name": "Najam/Iznajmljivanje Štemarica HEX do 30kg",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-024"
+      ],
+      "priceText": "Najam mašine: 3.600,00 RSD + PDV = 4.320,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 4320,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 3.600,00 RSD + PDV = 4.320,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "U ceni jedno dleto (špic ili sekač), svako dodatno se naplačuje 500 RSD / dan"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "2fe9b52a027b3448",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-stemarica-sds-max-do-12kg-beograd-NHmyaDz5sAU7vANXeveb",
+      "name": "Najam/Iznajmljivanje Štemarica SDS-MAX do 12kg",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-024"
+      ],
+      "priceText": "Najam mašine: 2.200,00 RSD + PDV = 2.640,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2640,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.200,00 RSD + PDV = 2.640,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "U ceni jedno dleto (špic ili sekač), svako dodatno se naplačuje 200 RSD / dan"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "3bc9311e32107103",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-stemarica-sds-max-do-6kg-beograd-WsbDt81KdvY4FQxO1TsH",
+      "name": "Najam/Iznajmljivanje Štemarica SDS-MAX do 6kg",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-024"
+      ],
+      "priceText": "Najam mašine: 1.950,00 RSD + PDV = 2.340,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2340,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 1.950,00 RSD + PDV = 2.340,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust",
+        "U ceni jedno dleto (špic ili sekač), svako dodatno se naplačuje 200 RSD / dan"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "bf35a8dfba844689",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-stona-testera-sekacica-beograd-pARgeEP4Nu54EQlkJSjx",
+      "name": "Najam/Iznajmljivanje Stona testera / Sekačica",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-049"
+      ],
+      "priceText": "Najam mašine: 2.800,00 RSD + PDV = 3.360,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3360,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.800,00 RSD + PDV = 3.360,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "2b011c29c7ef20aa",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-stona-testera-za-drvo-cirkula-beograd-q43FiDaK6oAXV8geVmdq",
+      "name": "Najam/Iznajmljivanje Stona testera za drvo / Cirkular / Gere",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-040"
+      ],
+      "priceText": "Najam mašine: 2.200,00 RSD + PDV = 2.640,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2640,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.200,00 RSD + PDV = 2.640,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "812cc6cd6d6acae0",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-trofazni-agregat-10kva-beograd-A2JVykvfPowhdSxNd7yx",
+      "name": "Najam/Iznajmljivanje Trofazni agregat 10kVA",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-067"
+      ],
+      "priceText": "3.600 RSD / dan",
+      "prices": [
+        {
+          "label": "Kartica oglasa",
+          "amount": 3600,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Najam agregata 10kVA (8kW): 3.000 + PDV = 3.600,00 RSD (24h)",
+        "Depozit: 18.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 18.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "7bfaeffc1a7707c4",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-trofazni-agregat-15kva-beograd-umsfu59QuaJdACKoTbHa",
+      "name": "Najam/Iznajmljivanje Trofazni agregat 15kVA",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-067"
+      ],
+      "priceText": "Najam mašine: 4.000,00 RSD + PDV = 4.800,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 4800,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 4.000,00 RSD + PDV = 4.800,00 RSD / dan (24h)",
+        "Depozit: 24.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 24.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "028a3bff17eef980",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-trofazni-agregat-6-5kva-beograd-edVwuLXsTyrzE37strSJ",
+      "name": "Najam/Iznajmljivanje Trofazni agregat 6,5kVA",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-067"
+      ],
+      "priceText": "3.480 RSD / dan",
+      "prices": [
+        {
+          "label": "Kartica oglasa",
+          "amount": 3480,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Najam agregata 6,5kVA (5kW): 2.900,00 RSD + PDV = 3.480,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "ef71e7caae1a8607",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-ubodna-testera-beograd-Ss7JHgLKcVYyTXJRxIGW",
+      "name": "Najam/Iznajmljivanje Ubodna testera",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-039"
+      ],
+      "priceText": "Najam mašine: 800,00 RSD + PDV = 960,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 960,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 800,00 RSD + PDV = 960,00 RSD / dan (24h)",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "8e5e973d896ed009",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-ugaona-hoblerica-za-parket-beograd-YvcH3BGEP6JGjstspKV3",
+      "name": "Najam/Iznajmljivanje ugaona hoblerica za parket",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-107"
+      ],
+      "priceText": "Najam mašine: 2.000,00 RSD + PDV = 2.400,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2400,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.000,00 RSD + PDV = 2.400,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "5f6b547f8fb5c188",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-ventilator-beograd-C8B0Tk1uFvbFuVERp1ri",
+      "name": "Najam/Iznajmljivanje Ventilator",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-085"
+      ],
+      "priceText": "Najam mašine: 1.250,00 RSD + PDV = 1.500,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 1500,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 1.250,00 RSD + PDV = 1.500,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "80e0c7ae1756683b",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-vibro-igla-220v-beograd-l2tYRxafiZ8c2zxqJpeB",
+      "name": "Najam/Iznajmljivanje Vibro igla (220V)",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-030"
+      ],
+      "priceText": "Najam mašine: 2.800,00 RSD + PDV = 3.360,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3360,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.800,00 RSD + PDV = 3.360,00 RSD / dan (24h)",
+        "Depozit: 18.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 18.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "b7c1be7a7b11db7e",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-vibro-letva-beograd-TEJuG6mHu9yZyYQ0duqb",
+      "name": "Najam/Iznajmljivanje Vibro letva",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-086"
+      ],
+      "priceText": "Najam mašine: 2.500,00 RSD + PDV = 3.000,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3000,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.500,00 RSD + PDV = 3.000,00 RSD / dan (24h)",
+        "Depozit: 18.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 18.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "7d8ddf2c1a8932d8",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-vibro-ploca-do-200kg-beograd-ZKgn9a0KQEYNmsK9tbko",
+      "name": "Najam/Iznajmljivanje Vibro ploča do 200kg",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-075"
+      ],
+      "priceText": "Najam mašine: 3.200,00 RSD + PDV = 3.840,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3840,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 3.200,00 RSD + PDV = 3.840,00 RSD / dan (24h)",
+        "Depozit: 18.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 18.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "e0eeddfe6e599b85",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-vibro-ploca-do-450kg-beograd-pdPzYfIEhHnnhW7zT4iQ",
+      "name": "Najam/Iznajmljivanje Vibro ploča do 450kg",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-075"
+      ],
+      "priceText": "Najam mašine: 5.200,00 RSD + PDV = 6.240,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 6240,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 5.200,00 RSD + PDV = 6.240,00 RSD / dan (24h)",
+        "Depozit: 36.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 36.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "2fc3cbcf16b469db",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-vibro-ploca-do-800kg-beograd-q5ULEbrotGOrkubIoN1o",
+      "name": "Najam/Iznajmljivanje Vibro ploča do 800kg",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-075"
+      ],
+      "priceText": "Najam mašine: 8.400,00 RSD + PDV = 10.080,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 10080,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 8.400,00 RSD + PDV = 10.080,00 RSD / dan (24h)",
+        "Depozit: 48.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 48.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f24d90c8a28bd672",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-vibro-ploca-do-80kg-beograd-D6VazylRmEga452ZoGfs",
+      "name": "Najam/Iznajmljivanje Vibro ploča do 80kg",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-075"
+      ],
+      "priceText": "Najam mašine: 2.700,00 RSD + PDV = 3.240,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3240,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.700,00 RSD + PDV = 3.240,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "23a6be926f3eaa97",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-vibro-ploca-dvosmerna-do-300k-beograd-3xgVFmjMSIKWd2JNDjWe",
+      "name": "Najam/Iznajmljivanje Vibro ploča dvosmerna do 300kg",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-075"
+      ],
+      "priceText": "Najam mašine: 4.500,00 RSD + PDV = 5.400,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 5400,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 4.500,00 RSD + PDV = 5.400,00 RSD / dan (24h)",
+        "Depozit: 36.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 36.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "bbf0f06d989cb91b",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-vibro-ploca-jednosmerna-do-12-beograd-eNjo0mvKvPApZYB4jZVr",
+      "name": "Najam/Iznajmljivanje Vibro ploča jednosmerna do 120kg",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-075"
+      ],
+      "priceText": "Najam mašine: 3.000,00 RSD + PDV = 3.600,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3600,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 3.000,00 RSD + PDV = 3.600,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "0caef8c4e1fc9a64",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-vibro-zaba-do-70kg-beograd-noI0oq7sJEeITZsvYoQd",
+      "name": "Najam/Iznajmljivanje Vibro žaba do 70kg",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-089"
+      ],
+      "priceText": "Najam mašine: 3.000,00 RSD + PDV = 3.600,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 3600,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 3.000,00 RSD + PDV = 3.600,00 RSD / dan (24h)",
+        "Depozit: 18.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 18.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "a3c2019387240b2a",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-visokopritisni-perac-beograd-LFY3xRWfDJj75U0HcDpk",
+      "name": "Najam/Iznajmljivanje Visokopritisni perač",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-001"
+      ],
+      "priceText": "Najam mašine: 2.000,00 RSD + PDV = 2.500,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 2500,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 2.000,00 RSD + PDV = 2.500,00 RSD / dan (24h)",
+        "Depozit: 12.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 12.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "6de40d787e8f859b",
+      "source": "pozajmime.rs",
+      "url": "https://pozajmime.rs/oglas/najam-iznajmljivanje-zirafa-za-knauf-beograd-1QTONfciwC93AeNnT5Wv",
+      "name": "Najam/iznajmljivanje Žirafa za knauf",
+      "category": "Tenge Rent",
+      "kind": "rental",
+      "toolIds": [
+        "tool-026"
+      ],
+      "priceText": "Najam mašine: 1.650,00 RSD + PDV = 1.980,00 RSD / dan (24h)",
+      "prices": [
+        {
+          "label": "Najam sa PDV, 24h",
+          "amount": 1980,
+          "currency": "RSD",
+          "unit": "day",
+          "vat": "included"
+        }
+      ],
+      "priceNotes": [
+        "Najam mašine: 1.650,00 RSD + PDV = 1.980,00 RSD / dan (24h)",
+        "Komplet sa usisivačem: 2.550,00 + PDV = 3.060,00 RSD",
+        "Depozit: 6.000,00 RSD",
+        "Za najam više dana odobravamo dodatni popust"
+      ],
+      "depositText": "Depozit: 6.000,00 RSD",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "861b1f16e08fb5f6",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/agregate-i-kompresore/",
+      "name": "Agregat za struju",
+      "category": "agregate-i-kompresore",
+      "kind": "rental",
+      "toolIds": [
+        "tool-067"
+      ],
+      "priceText": "Cena na 1 dan: 20 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 20 €",
+          "amount": 20,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 20 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "d79f499c413088d9",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/agregate-i-kompresore/",
+      "name": "Agregat za struju",
+      "category": "agregate-i-kompresore",
+      "kind": "rental",
+      "toolIds": [
+        "tool-067"
+      ],
+      "priceText": "Cena na 1 dan: 30 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 30 €",
+          "amount": 30,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 30 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "2807f994f60b8098",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/agregate-i-kompresore/",
+      "name": "Grejalica na plin",
+      "category": "agregate-i-kompresore",
+      "kind": "rental",
+      "toolIds": [
+        "tool-072"
+      ],
+      "priceText": "Cena na 1 dan: 10 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 10 €",
+          "amount": 10,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 10 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "71c9d066ce84d2e6",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/agregate-i-kompresore/",
+      "name": "Kompresor vazduha",
+      "category": "agregate-i-kompresore",
+      "kind": "rental",
+      "toolIds": [
+        "tool-068"
+      ],
+      "priceText": "Cena na 1 dan: 20 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 20 €",
+          "amount": 20,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 20 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "7fbf0567e74e7494",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/agregate-i-kompresore/",
+      "name": "Peskara",
+      "category": "agregate-i-kompresore",
+      "kind": "rental",
+      "toolIds": [
+        "tool-142"
+      ],
+      "priceText": "Cena na 1 dan: 60 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 60 €",
+          "amount": 60,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 60 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "7d5665fe9f10f618",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/agregate-i-kompresore/",
+      "name": "Pneumatski čekić\n\nza kompresor",
+      "category": "agregate-i-kompresore",
+      "kind": "rental",
+      "toolIds": [
+        "tool-134"
+      ],
+      "priceText": "Cena na 1 dan: 19 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 19 €",
+          "amount": 19,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 19 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "d6e7994edcfced41",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/agregate-i-kompresore/",
+      "name": "Pumpa za mulj",
+      "category": "agregate-i-kompresore",
+      "kind": "rental",
+      "toolIds": [
+        "tool-013"
+      ],
+      "priceText": "Cena na 1 dan: 19 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 19 €",
+          "amount": 19,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 19 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "7fe962c941b3a772",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/agregate-i-kompresore/",
+      "name": "Pumpa za vodu",
+      "category": "agregate-i-kompresore",
+      "kind": "rental",
+      "toolIds": [
+        "tool-015"
+      ],
+      "priceText": "Cena na 1 dan: 25 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 25 €",
+          "amount": 25,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 25 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "620469264a153830",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/agregate-i-kompresore/",
+      "name": "Razvodnik za struju",
+      "category": "agregate-i-kompresore",
+      "kind": "rental",
+      "toolIds": [
+        "tool-141"
+      ],
+      "priceText": "Cena na 1 dan: 8 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 8 €",
+          "amount": 8,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 8 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f62e160f2ef71c31",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/agregate-i-kompresore/",
+      "name": "Sušač vazduha",
+      "category": "agregate-i-kompresore",
+      "kind": "rental",
+      "toolIds": [
+        "tool-011"
+      ],
+      "priceText": "Cena na 1 dan: 15 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 15 €",
+          "amount": 15,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 15 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "4e93d250ea6f8538",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/bastenski-program/",
+      "name": "Bušalica",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-020"
+      ],
+      "priceText": "Cena na 1 dan: 25 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 25 €",
+          "amount": 25,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 25 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "d1d0ed06fe708194",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/bastenski-program/",
+      "name": "Duvač za lišće",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-021"
+      ],
+      "priceText": "Cena na 1 dan: 12 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 12 €",
+          "amount": 12,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 12 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "594868caa8204f95",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/bastenski-program/",
+      "name": "Freza bastenska",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-090"
+      ],
+      "priceText": "Cena na 1 dan: 25 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 25 €",
+          "amount": 25,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Depozit za frezu: 50 eur",
+        "Cena na 1 dan: 25 €"
+      ],
+      "depositText": "Depozit za frezu: 50 eur",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "3167a36c69eba5bf",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/bastenski-program/",
+      "name": "Freza hidraulicna sa valjkom za separaciju PROFI",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-138"
+      ],
+      "priceText": "Cena na 1 dan: 65 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 65 €",
+          "amount": 65,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Depozit za frezu: 200 eur",
+        "Cena na 1 dan: 65 €"
+      ],
+      "depositText": "Depozit za frezu: 200 eur",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "4ea9f6eb8a3a2322",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/bastenski-program/",
+      "name": "Freza hidraulicna",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-090"
+      ],
+      "priceText": "Cena na 1 dan: 50 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 50 €",
+          "amount": 50,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Depozit za frezu: 200 eur",
+        "Cena na 1 dan: 50 €"
+      ],
+      "depositText": "Depozit za frezu: 200 eur",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "4a83fdacf495158c",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/bastenski-program/",
+      "name": "Kosačica za travu",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-016"
+      ],
+      "priceText": "Cena na 1 dan: 20 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 20 €",
+          "amount": 20,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 20 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "a5a9932b2915416a",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/bastenski-program/",
+      "name": "Makaze za travu sa teleskopskom ručicom",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-139"
+      ],
+      "priceText": "Cena na 1 dan: 15 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 15 €",
+          "amount": 15,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 15 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "dc365eb289ef2db0",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/bastenski-program/",
+      "name": "Makaze za živu ogradu sa teleskopskom ručicom",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-019"
+      ],
+      "priceText": "Cena na 1 dan: 10 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 10 €",
+          "amount": 10,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 10 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "e6155c858c78a29c",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/bastenski-program/",
+      "name": "Sejalica za travu",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-140"
+      ],
+      "priceText": "Cena na 1 dan: 4 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 4 €",
+          "amount": 4,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 4 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "43dffe4cc9df5e56",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/bastenski-program/",
+      "name": "Testera",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-074"
+      ],
+      "priceText": "Cena na 1 dan: 35 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 35 €",
+          "amount": 35,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Depozit za testeru: 100 eur",
+        "Cena na 1 dan: 35 €"
+      ],
+      "depositText": "Depozit za testeru: 100 eur",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "47e26bc3445d9c98",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/bastenski-program/",
+      "name": "Trimer “Stihl”",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-018"
+      ],
+      "priceText": "Cena na 1 dan: 35 €, depozit 100",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 35 €, depozit 100",
+          "amount": 35,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 35 €, depozit 100"
+      ],
+      "depositText": "depozit 100 €",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f203c14a0bc8d650",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/bastenski-program/",
+      "name": "Usisivač i duvač za lišće",
+      "category": "bastenski-program",
+      "kind": "rental",
+      "toolIds": [
+        "tool-004"
+      ],
+      "priceText": "Cena na 1 dan: 10 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 10 €",
+          "amount": 10,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 10 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "012636ad1f6d2334",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/busenje-i-rusenje-betona/",
+      "name": "Čekić elektro-pneumatski, „HILTI 1000“",
+      "category": "busenje-i-rusenje-betona",
+      "kind": "rental",
+      "toolIds": [
+        "tool-024"
+      ],
+      "priceText": "Cena na 1 dan: 35 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 35 €",
+          "amount": 35,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Depozit:",
+        "100 €",
+        "Cena na 1 dan: 35 €"
+      ],
+      "depositText": "Depozit: 100 €",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f772fe6770b5a988",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/busenje-i-rusenje-betona/",
+      "name": "Čekić elektro-pneumatski, \"HILTI 3000\"",
+      "category": "busenje-i-rusenje-betona",
+      "kind": "rental",
+      "toolIds": [
+        "tool-024"
+      ],
+      "priceText": "Cena na 1 dan: 45 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 45 €",
+          "amount": 45,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Depozit:",
+        "100 €",
+        "Cena na 1 dan: 45 €"
+      ],
+      "depositText": "Depozit: 100 €",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "20b1cdbeeb6cd603",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/busenje-i-rusenje-betona/",
+      "name": "Čekić elektro-pneumatski, „Womax“",
+      "category": "busenje-i-rusenje-betona",
+      "kind": "rental",
+      "toolIds": [
+        "tool-024"
+      ],
+      "priceText": "Cena na 1 dan: 25 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 25 €",
+          "amount": 25,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 25 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "38f2fac5e5b59b2a",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/busenje-i-rusenje-betona/",
+      "name": "Hidraulični čekić “Atlas Copco”,",
+      "category": "busenje-i-rusenje-betona",
+      "kind": "rental",
+      "toolIds": [
+        "tool-133"
+      ],
+      "priceText": "Cena na 1 dan: 50 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 50 €",
+          "amount": 50,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Depozit:",
+        "100 €",
+        "Cena na 1 dan: 50 €"
+      ],
+      "depositText": "Depozit: 100 €",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "b8f3b2259aa075bd",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/busenje-i-rusenje-betona/",
+      "name": "Sekačica betona i asfalta, izdaje se bez rezne ploce",
+      "category": "busenje-i-rusenje-betona",
+      "kind": "rental",
+      "toolIds": [
+        "tool-029"
+      ],
+      "priceText": "Cena na 1 dan: 40 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 40 €",
+          "amount": 40,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Depozit:",
+        "100 €",
+        "Cena na 1 dan: 40 €"
+      ],
+      "depositText": "Depozit: 100 €",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "bb91ec90f7b99ca7",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/busenje-i-rusenje-betona/",
+      "name": "Sekačica betona ručna “STIHL”, izdaje se bez rezne ploce",
+      "category": "busenje-i-rusenje-betona",
+      "kind": "rental",
+      "toolIds": [
+        "tool-029"
+      ],
+      "priceText": "Cena na 1 dan: 40 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 40 €",
+          "amount": 40,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Depozit:",
+        "100€",
+        "Cena na 1 dan: 40 €"
+      ],
+      "depositText": "Depozit: 100€",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "21fc92c41f63d8b5",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ciscenje/",
+      "name": "Duvač za lišće",
+      "category": "ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-021"
+      ],
+      "priceText": "Cena na 1 dan: 12 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 12 €",
+          "amount": 12,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 12 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "b16372cc02529f72",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ciscenje/",
+      "name": "Perac pod pretiskom \"Bosch\", 160 bar",
+      "category": "ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-001"
+      ],
+      "priceText": "Cena na 1 dan: 20 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 20 €",
+          "amount": 20,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 20 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "c892d61ccff94549",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ciscenje/",
+      "name": "Pumpa za mulj",
+      "category": "ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-013"
+      ],
+      "priceText": "Cena na 1 dan: 25 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 25 €",
+          "amount": 25,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 25 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "3fb3dfca1ce3d2e5",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ciscenje/",
+      "name": "Usisivač i duvač za lišće",
+      "category": "ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-004"
+      ],
+      "priceText": "Cena na 1 dan: 10 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 10 €",
+          "amount": 10,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 10 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "90ac5fee0a63ca9f",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ciscenje/",
+      "name": "Usisivač za pepeo",
+      "category": "ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-143"
+      ],
+      "priceText": "Cena na 1 dan: 10 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 10 €",
+          "amount": 10,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 10 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "a877c2ac83d7e871",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ciscenje/",
+      "name": "Usisivač za suvo, „Nilfisk“, ALTO Attix 5",
+      "category": "ciscenje",
+      "kind": "rental",
+      "toolIds": [
+        "tool-004"
+      ],
+      "priceText": "Cena na 1 dan: 25 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 25 €",
+          "amount": 25,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 25 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "1f45b25ac71bfc34",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/kolica-zipper/",
+      "name": "Kolica \"Zipper\",",
+      "category": "sale",
+      "kind": "sale",
+      "toolIds": [],
+      "priceText": "Cena: 1.700 €",
+      "prices": [
+        {
+          "label": "Cena: 1.700 €",
+          "amount": 1700,
+          "currency": "EUR",
+          "unit": "sale",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena:",
+        "1.700 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "1e86321b9950ca59",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ljevak-za-sut/",
+      "name": "Ljevak za sut",
+      "category": "sale",
+      "kind": "sale",
+      "toolIds": [
+        "tool-145"
+      ],
+      "priceText": "Cena: 760 € + PDV",
+      "prices": [
+        {
+          "label": "Cena: 760 € + PDV",
+          "amount": 760,
+          "currency": "EUR",
+          "unit": "sale",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena:",
+        "760 € + PDV"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "5baf007e0d455226",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ostalo/",
+      "name": "Električna dizalica – vrabac",
+      "category": "ostalo",
+      "kind": "rental",
+      "toolIds": [
+        "tool-062"
+      ],
+      "priceText": "Cena na 1 dan: 25 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 25 €",
+          "amount": 25,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 25 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f2299b822264d370",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ostalo/",
+      "name": "Kolica",
+      "category": "ostalo",
+      "kind": "rental",
+      "toolIds": [
+        "tool-144"
+      ],
+      "priceText": "Cena na 1 dan: 4 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 4 €",
+          "amount": 4,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 4 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "44536f6004aaf192",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ostalo/",
+      "name": "Laser Hilti PR30",
+      "category": "ostalo",
+      "kind": "rental",
+      "toolIds": [
+        "tool-055"
+      ],
+      "priceText": "Cena na 1 dan: 25 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 25 €",
+          "amount": 25,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 25 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "480c5b736d508724",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ostalo/",
+      "name": "Levak za sut",
+      "category": "ostalo",
+      "kind": "rental",
+      "toolIds": [
+        "tool-145"
+      ],
+      "priceText": "Cena na 1 dan: 3 €/m",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 3 €/m",
+          "amount": 3,
+          "currency": "EUR",
+          "unit": "day/meter",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 3 €/m"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f1f01471be88a484",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ostalo/",
+      "name": "Mešalica pokretna",
+      "category": "ostalo",
+      "kind": "rental",
+      "toolIds": [
+        "tool-096"
+      ],
+      "priceText": "Cena na 1 dan: 25 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 25 €",
+          "amount": 25,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 25 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "763b28f020c96203",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ostalo/",
+      "name": "Mešalica",
+      "category": "ostalo",
+      "kind": "rental",
+      "toolIds": [
+        "tool-096"
+      ],
+      "priceText": "Cena na 1 dan: 12 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 12 €",
+          "amount": 12,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 12 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "c343059b4ee5480a",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ostalo/",
+      "name": "Paletar do 3 tone",
+      "category": "ostalo",
+      "kind": "rental",
+      "toolIds": [
+        "tool-113"
+      ],
+      "priceText": "Cena na 1 dan: 10 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 10 €",
+          "amount": 10,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 10 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "a0c99f2bcd014eb4",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ostalo/",
+      "name": "Podupirace",
+      "category": "ostalo",
+      "kind": "rental",
+      "toolIds": [
+        "tool-146"
+      ],
+      "priceText": "Cena za 1 komad: 1.5 €/mes",
+      "prices": [
+        {
+          "label": "Cena za 1 komad: 1.5 €/mes",
+          "amount": 1.5,
+          "currency": "EUR",
+          "unit": "month/item",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena za 1 komad: 1.5 €/mes"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "7be3c8da22c0d4de",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/ostalo/",
+      "name": "Vakumska dizalica za prenos stvara",
+      "category": "ostalo",
+      "kind": "rental",
+      "toolIds": [
+        "tool-098"
+      ],
+      "priceText": "Cena na 1 dan: 15 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 15 €",
+          "amount": 15,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 15 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "ae09e45df42c3780",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+      "name": "Burgiji za bušalicu",
+      "category": "potrosni-material-i-sigurnosna-oprema",
+      "kind": "rental",
+      "toolIds": [
+        "tool-150"
+      ],
+      "priceText": "Cena na 1 dan: po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena na 1 dan: po dogovoru"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "005dc43711c83b1c",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+      "name": "Burgiji za hilty",
+      "category": "potrosni-material-i-sigurnosna-oprema",
+      "kind": "rental",
+      "toolIds": [
+        "tool-151"
+      ],
+      "priceText": "Cena na 1 dan: po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena na 1 dan: po dogovoru"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "27e209ea6263c519",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+      "name": "Lanac za testeru",
+      "category": "potrosni-material-i-sigurnosna-oprema",
+      "kind": "rental",
+      "toolIds": [
+        "tool-155"
+      ],
+      "priceText": "Cena na 1 dan: po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena na 1 dan: po dogovoru"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "4218c23f480d0fc6",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+      "name": "Maska za varenje",
+      "category": "potrosni-material-i-sigurnosna-oprema",
+      "kind": "rental",
+      "toolIds": [
+        "tool-148"
+      ],
+      "priceText": "Cena na 1 dan: po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena na 1 dan: po dogovoru"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "8fd7cbc64e8a0a9f",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+      "name": "Nastavak-mikser za bušilicu",
+      "category": "potrosni-material-i-sigurnosna-oprema",
+      "kind": "rental",
+      "toolIds": [
+        "tool-154"
+      ],
+      "priceText": "Cena na 1 dan: po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena na 1 dan: po dogovoru"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "feff7cba6fe4ec64",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+      "name": "Pištolj za farbanje kompresorom",
+      "category": "potrosni-material-i-sigurnosna-oprema",
+      "kind": "rental",
+      "toolIds": [
+        "tool-147"
+      ],
+      "priceText": "Cena na 1 dan: po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena na 1 dan: po dogovoru"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "2c7b0888d47cf3c7",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+      "name": "Ploče za beton za malu brusalicu",
+      "category": "potrosni-material-i-sigurnosna-oprema",
+      "kind": "rental",
+      "toolIds": [
+        "tool-152"
+      ],
+      "priceText": "Cena na 1 dan: po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena na 1 dan: po dogovoru"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "8df862e7eb6a04d3",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+      "name": "Ploče za beton za veliku brusalicu",
+      "category": "potrosni-material-i-sigurnosna-oprema",
+      "kind": "rental",
+      "toolIds": [
+        "tool-152"
+      ],
+      "priceText": "Cena na 1 dan: po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena na 1 dan: po dogovoru"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "7f7a377216cb5aef",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+      "name": "Ploče za metal za malu brusalicu",
+      "category": "potrosni-material-i-sigurnosna-oprema",
+      "kind": "rental",
+      "toolIds": [
+        "tool-153"
+      ],
+      "priceText": "Cena na 1 dan: po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena na 1 dan: po dogovoru"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "02fab35248a6a178",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+      "name": "Ploče za metal za veliku brusalicu",
+      "category": "potrosni-material-i-sigurnosna-oprema",
+      "kind": "rental",
+      "toolIds": [
+        "tool-153"
+      ],
+      "priceText": "Cena na 1 dan: po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena na 1 dan: po dogovoru"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "17d945959668e525",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/potrosni-material-i-sigurnosna-oprema/",
+      "name": "Slušalice",
+      "category": "potrosni-material-i-sigurnosna-oprema",
+      "kind": "rental",
+      "toolIds": [
+        "tool-149"
+      ],
+      "priceText": "Cena na 1 dan: po dogovoru",
+      "prices": [],
+      "priceNotes": [
+        "Cena na 1 dan: po dogovoru"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "6e1a6812114ba52b",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/radovi-na-tlu/",
+      "name": "Burgija ručna",
+      "category": "radovi-na-tlu",
+      "kind": "rental",
+      "toolIds": [
+        "tool-137"
+      ],
+      "priceText": "Cena na 1 dan: 25 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 25 €",
+          "amount": 25,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 25 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "5819029c680f683e",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Brusalica mala",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-043"
+      ],
+      "priceText": "Cena na 1 dan: 10 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 10 €",
+          "amount": 10,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 10 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "8a52d82a56f8515c",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Brusalica velika",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-043"
+      ],
+      "priceText": "Cena na 1 dan: 15 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 15 €",
+          "amount": 15,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 15 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "822c84531dc6c0a2",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Brusalica-zirafa za zidove",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-026"
+      ],
+      "priceText": "Cena na 1 dan: 15 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 15 €",
+          "amount": 15,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 15 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "b0cfada35552175d",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Bušilica-hilti AKU",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-078"
+      ],
+      "priceText": "Cena na 1 dan: 15 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 15 €",
+          "amount": 15,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 15 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "0074cd8dfbd21f35",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Bušilica-hilti",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-078"
+      ],
+      "priceText": "Cena na 1 dan: 20 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 20 €",
+          "amount": 20,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 20 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "d39fedbc61a09ec4",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Bušilica-hilti",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-078"
+      ],
+      "priceText": "Cena na 1 dan: 25 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 25 €",
+          "amount": 25,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 25 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "c483e51ede3b1d00",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Bušilica-hilty",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-078"
+      ],
+      "priceText": "Cena na 1 dan: 12 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 12 €",
+          "amount": 12,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 12 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "fbec45c626ef355a",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Bušilica",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-078"
+      ],
+      "priceText": "Cena na 1 dan: 8 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 8 €",
+          "amount": 8,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 8 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "472e12e27f60e34c",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Fen",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-047"
+      ],
+      "priceText": "Cena na 1 dan: 4 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 4 €",
+          "amount": 4,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 4 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "bcfa38f040d420d8",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Makaze za armaturu",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-136"
+      ],
+      "priceText": "Cena na 1 dan: 5 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 5 €",
+          "amount": 5,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 5 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "6687cc264b413845",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Mašina za poliranje",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-007"
+      ],
+      "priceText": "Cena na 1 dan: 4 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 4 €",
+          "amount": 4,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 4 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "463f7e3ee89670cc",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Mikser profesionalni",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-051"
+      ],
+      "priceText": "Cena na 1 dan: 12 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 12 €",
+          "amount": 12,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 12 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "fb54f52436ceca3f",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Set ključeva i gedora",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-080"
+      ],
+      "priceText": "Cena na 1 dan: 8 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 8 €",
+          "amount": 8,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Depozit:",
+        "40€",
+        "Cena na 1 dan: 8 €"
+      ],
+      "depositText": "Depozit: 40€",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "c4806d6eddbb8d8a",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Šlicerica",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-025"
+      ],
+      "priceText": "Cena na 1 dan: 15 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 15 €",
+          "amount": 15,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 15 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "6704931516e744fe",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Testera motorna",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-074"
+      ],
+      "priceText": "Cena na 1 dan: 35 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 35 €",
+          "amount": 35,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Depozit za testeru: 100 eur",
+        "Cena na 1 dan: 35 €"
+      ],
+      "depositText": "Depozit za testeru: 100 eur",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "3ae0cfb9aef568ab",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Testera ugaona",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-033"
+      ],
+      "priceText": "Cena na 1 dan: 13 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 13 €",
+          "amount": 13,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 13 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "606fcbe2318cb8e3",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Testera-cirkular",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-084"
+      ],
+      "priceText": "Cena na 1 dan: 12 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 12 €",
+          "amount": 12,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 12 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "0a6bb4cbccf612b6",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Testera-cirkular",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-084"
+      ],
+      "priceText": "Cena na 1 dan: 10 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 10 €",
+          "amount": 10,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 10 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "7749a2e9f933d4be",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Ubodna testera",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-039"
+      ],
+      "priceText": "Cena na 1 dan: 8 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 8 €",
+          "amount": 8,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 8 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "306f3d0f5dc4080a",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Udarna šrafilica",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-031"
+      ],
+      "priceText": "Cena na 1 dan: 10 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 10 €",
+          "amount": 10,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 10 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "bd600569b917161d",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/rucni-alat/",
+      "name": "Zavijač-odvijač",
+      "category": "rucni-alat",
+      "kind": "rental",
+      "toolIds": [
+        "tool-031"
+      ],
+      "priceText": "Cena na 1 dan: 10 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 10 €",
+          "amount": 10,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 10 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "7d17befae1a3a2ce",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/sekacica-podna/",
+      "name": "Sekacica podna \"Cedima\"",
+      "category": "sale",
+      "kind": "sale",
+      "toolIds": [
+        "tool-101"
+      ],
+      "priceText": "Cena: 590 €",
+      "prices": [
+        {
+          "label": "Cena: 590 €",
+          "amount": 590,
+          "currency": "EUR",
+          "unit": "sale",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena:",
+        "590 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "caa5fa22fcdb90b0",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/vibro-letva/",
+      "name": "VIBRO LETVA",
+      "category": "sale",
+      "kind": "sale",
+      "toolIds": [
+        "tool-086"
+      ],
+      "priceText": "Cena: 400 €",
+      "prices": [
+        {
+          "label": "Cena: 400 €",
+          "amount": 400,
+          "currency": "EUR",
+          "unit": "sale",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena:",
+        "400 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "38c6465655af78c8",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/vibro-masine/",
+      "name": "Skakavac “Wacker”",
+      "category": "vibro-masine",
+      "kind": "rental",
+      "toolIds": [
+        "tool-089"
+      ],
+      "priceText": "Cena na 1 dan: 30 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 30 €",
+          "amount": 30,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 30 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "7411b82cc93f934a",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/vibro-masine/",
+      "name": "Vibrator betona",
+      "category": "vibro-masine",
+      "kind": "rental",
+      "toolIds": [
+        "tool-030"
+      ],
+      "priceText": "Cena na 1 dan: 20 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 20 €",
+          "amount": 20,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 20 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "c89b24a782e6a990",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/vibro-masine/",
+      "name": "Vibro igla",
+      "category": "vibro-masine",
+      "kind": "rental",
+      "toolIds": [
+        "tool-030"
+      ],
+      "priceText": "Cena na 1 dan: 30 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 30 €",
+          "amount": 30,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 30 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "630b6cd8f1efa19c",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/vibro-masine/",
+      "name": "Vibro letva",
+      "category": "vibro-masine",
+      "kind": "rental",
+      "toolIds": [
+        "tool-086"
+      ],
+      "priceText": "Cena na 1 dan: 40 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 40 €",
+          "amount": 40,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 40 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "00f5253f5164bed9",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/vibro-masine/",
+      "name": "Vibro ploča - 150 kg",
+      "category": "vibro-masine",
+      "kind": "rental",
+      "toolIds": [
+        "tool-075"
+      ],
+      "priceText": "Cena na 1 dan: 35 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 35 €",
+          "amount": 35,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 35 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "103395459757632a",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/vibro-masine/",
+      "name": "Vibro ploča - 240 kg",
+      "category": "vibro-masine",
+      "kind": "rental",
+      "toolIds": [
+        "tool-075"
+      ],
+      "priceText": "Cena na 1 dan: 40 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 40 €",
+          "amount": 40,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 40 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f368a781dc3acf73",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/vibro-masine/",
+      "name": "Vibro ploča - 580 kg",
+      "category": "vibro-masine",
+      "kind": "rental",
+      "toolIds": [
+        "tool-075"
+      ],
+      "priceText": "Cena na 1 dan: 60 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 60 €",
+          "amount": 60,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 60 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "9f9dc3c61dc8f450",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/vibro-masine/",
+      "name": "Vibro ploča - 65 kg",
+      "category": "vibro-masine",
+      "kind": "rental",
+      "toolIds": [
+        "tool-075"
+      ],
+      "priceText": "Cena na 1 dan: 30 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 30 €",
+          "amount": 30,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 30 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "f1936d0bba084dba",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/vibro-masine/",
+      "name": "Vibro ploča - 85 kg",
+      "category": "vibro-masine",
+      "kind": "rental",
+      "toolIds": [
+        "tool-075"
+      ],
+      "priceText": "Cena na 1 dan: 30 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 30 €",
+          "amount": 30,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 30 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "3285505b2b4d6ae4",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/vibro-masine/",
+      "name": "Vibro ploča – 120 kg",
+      "category": "vibro-masine",
+      "kind": "rental",
+      "toolIds": [
+        "tool-075"
+      ],
+      "priceText": "Cena na 1 dan: 35 €",
+      "prices": [
+        {
+          "label": "Cena na 1 dan: 35 €",
+          "amount": 35,
+          "currency": "EUR",
+          "unit": "day",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena na 1 dan: 35 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "4f0506027e2b1eae",
+      "source": "rentmasina.rs",
+      "url": "https://rentmasina.rs/vibroigla/",
+      "name": "Vibro igla,",
+      "category": "sale",
+      "kind": "sale",
+      "toolIds": [
+        "tool-030"
+      ],
+      "priceText": "Cena: 250 €",
+      "prices": [
+        {
+          "label": "Cena: 250 €",
+          "amount": 250,
+          "currency": "EUR",
+          "unit": "sale",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Cena:",
+        "250 €"
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "beodetect-article-0",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/detekcija/detekcija-curenja-vode-beograd-profesionalno-otkrivanje-curenja-vode",
+      "name": "Termovizijska detekcija — navedeni članak",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-058"
+      ],
+      "priceText": "od 75 € / izlazak",
+      "prices": [
+        {
+          "label": "Od",
+          "amount": 75,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Članak navodi početnu cenu; aktuelni cenovnik je sačuvan kao zaseban izvor. Nije cena dnevnog najma."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    },
+    {
+      "id": "beodetect-article-1",
+      "source": "beodetect.com",
+      "url": "https://beodetect.com/detekcija/detekcija-curenja-vode-beograd-profesionalno-otkrivanje-curenja-vode",
+      "name": "Detekcija specijalnim instrumentima — navedeni članak",
+      "category": "service",
+      "kind": "service",
+      "toolIds": [
+        "tool-059"
+      ],
+      "priceText": "od 120 € / izlazak",
+      "prices": [
+        {
+          "label": "Od",
+          "amount": 120,
+          "currency": "EUR",
+          "unit": "service",
+          "vat": "unspecified"
+        }
+      ],
+      "priceNotes": [
+        "Članak navodi početnu cenu; aktuelni cenovnik je sačuvan kao zaseban izvor. Nije cena dnevnog najma."
+      ],
+      "depositText": "",
+      "discrepancy": "",
+      "observedAt": "2026-10-12"
+    }
+  ]
+}

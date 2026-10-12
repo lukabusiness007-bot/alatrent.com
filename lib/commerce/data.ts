@@ -16,6 +16,8 @@ import type {
 import { calculate, defaultRule, round } from './pricing';
 import { capacityEnd } from './period';
 import { defaultReferralProgram, referralFor, referralLines } from './referrals';
+import { promotionalQuote, promotionSummary } from './promotions';
+import type { MerchandisingConfig, Promotion } from './merchandising-types';
 export const blankOptions: ToolOptions = {
   instructions: '',
   manualUrl: '',
@@ -173,12 +175,19 @@ export function quote(
   const unknown = lines.some((l) => l.total === null);
   const referrer = referralFor(customer, referralCode, cfg.referralProgram, teamId);
   const beforeReferral = unknown ? null : round(lines.reduce((n,l)=>n+l.total!,0));
+  const baselineLines = lines;
   if (referrer) {
     if (unknown) throw new Error('Kod se može koristiti kada svi alati imaju poznatu cenu.');
     const base = round(lines.reduce((n,l)=>n+l.base!,0));
     if (base < cfg.referralProgram.minimum) throw new Error(`Za kod preporuke potreban je najam od najmanje ${cfg.referralProgram.minimum} RSD pre popusta, bez dostave.`);
     lines = referralLines(lines, cfg.referralProgram);
   }
+  const marketing = get<MerchandisingConfig>('commerce', 'merchandising');
+  const campaign = promotionalQuote(baselineLines, marketing?.promotionsEnabled ? all<Promotion>('promotions') : [],
+    !teamId && useCredit && customer ? cfg.creditLimitPercent : 0, !teamId && useCredit ? customer?.credit || 0 : 0,
+    referrer ? cfg.referralProgram.reward : 0);
+  const policy = campaign.policy && campaign.lines.reduce((n,i)=>n+(i.total||0),0) < lines.reduce((n,i)=>n+(i.total||0),0) ? campaign.policy : undefined;
+  if (policy) lines = campaign.lines;
   const rentalTotal = unknown ? null : round(lines.reduce((n, l) => n + l.total!, 0));
   const baseTotal = unknown ? null : round(lines.reduce((n, l) => n + l.base!, 0));
   const s = settings(),
@@ -189,10 +198,11 @@ export function quote(
       ? round(Math.min(Math.max(0, customer.credit), (rentalTotal * cfg.creditLimitPercent) / 100))
       : 0;
   return {
+    ...promotionSummary(policy, lines),
     ...(referrer ? { referral: {
       referrerId: referrer.id, code: referrer.referralCode,
       policy: { ...cfg.referralProgram },
-      discount: round(beforeReferral! - rentalTotal!), status: 'pending' as const,
+      discount: policy ? 0 : round(beforeReferral! - rentalTotal!), status: 'pending' as const,
     } } : {}),
     depositTotal: membership?.depositWaived ? 0 : null,
     depositWaived: membership?.depositWaived === true,
@@ -210,8 +220,9 @@ export function saveCustomer(c: Customer) {
 }
 
 export function publicQuote(q: Quote): Quote {
+  const { promotionPolicy: _policy, ...safe } = q;
   return {
-    ...q,
+    ...safe,
     ...(q.referral ? { referral: { ...q.referral, referrerId: '', policy: { ...q.referral.policy, memberIds: [] } } } : {}),
     items: q.items.map((i) => {
       const { costPerDay: _day, preparationCost: _prep, ...instructions } = i.instructions;

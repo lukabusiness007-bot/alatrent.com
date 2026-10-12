@@ -5,6 +5,7 @@ import { ReferralCapture } from './Referrals';
 import type { CartItem } from '@/lib/commerce/types';
 import type { Locale } from '@/lib/types';
 import { ct } from '@/lib/commerce/copy';
+import { track } from '@/lib/commerce/analytics-browser';
 import { ShoppingBag, Check, X } from 'lucide-react';
 type Cart = {
   items: CartItem[];
@@ -77,6 +78,7 @@ export function CartProvider({ children, locale }: { children: ReactNode; locale
       }
       return result;
     });
+    for (const item of incoming) track('cart_add','catalog',item.toolId);
     setNotice(true);
   }
   return (
@@ -116,13 +118,14 @@ export function CartLink({ locale }: { locale: Locale }) {
     </Link>
   );
 }
-export function QuickAdd({ toolId, locale }: { toolId: string; locale: Locale }) {
+export function QuickAdd({ toolId, locale, period, disabled = false }: { toolId: string; locale: Locale; period?: Pick<CartItem,'start'|'end'>; disabled?: boolean }) {
   const { add, items } = useCart();
   return (
     <button
       className="quick-add"
+      disabled={disabled}
       onClick={() =>
-        add([{ toolId, quantity: 1, start: items[0]?.start || '', end: items[0]?.end || '', ...(items[0]?.openEnded ? { openEnded: true } : {}) }])
+        add([{ toolId, quantity: 1, start: period?.start || items[0]?.start || '', end: period?.end || items[0]?.end || '', ...(!period && items[0]?.openEnded ? { openEnded: true } : {}) }])
       }
     >
       <ShoppingBag size={16} />

@@ -1134,5 +1134,527 @@
     ],
     "use": "Uređaj za provlačenje kablova pomaže pri uvođenju odgovarajućih provodnika kroz pripremljene instalacione cevi, kanale i druge prolaze.",
     "selection": "Navedi dužinu trase, dimenzije cevi i broj kolena. Dužinu sonde, nastavke i prikladnost za kablove potvrđujemo uz raspoloživ komplet."
+  },
+  "teleskopske-makaze-za-zivu-ogradu": {
+    "term": "teleskopske makaze za živu ogradu",
+    "aliases": [
+      "Teleskopske makaze za živu ogradu",
+      "Telescopic hedge trimmer"
+    ],
+    "use": "Za sečenje visoke žive ograde sa zemlje, uz potvrdu dohvata i odgovarajućeg nastavka.",
+    "selection": "Za teleskopske makaze za živu ogradu navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "rucna-teleskopska-testera-za-grane": {
+    "term": "ručna teleskopska testera za grane",
+    "aliases": [
+      "Ručna teleskopska testera za grane",
+      "Manual telescopic pruning saw"
+    ],
+    "use": "Za ručno odsecanje dostupnih grana pomoću produžene drške, bez motornog pogona.",
+    "selection": "Za ručna teleskopska testera za grane navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "elektricna-heftalica": {
+    "term": "električna heftalica",
+    "aliases": [
+      "Električna heftalica",
+      "Electric staple gun"
+    ],
+    "use": "Za pričvršćivanje tapacirunga i odgovarajućih tankih obloga klamericama izabranim prema materijalu.",
+    "selection": "Za električna heftalica navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "vibraciona-brusilica": {
+    "term": "vibraciona brusilica",
+    "aliases": [
+      "Vibraciona brusilica",
+      "Orbital sheet sander"
+    ],
+    "use": "Za ravno brušenje drveta i pripremu premaza pomoću vibracione ploče i odgovarajućeg brusnog papira.",
+    "selection": "Za vibraciona brusilica navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "pneumatski-pistolj-za-ciscenje": {
+    "term": "pneumatski pištolj za čišćenje",
+    "aliases": [
+      "Pneumatski pištolj za čišćenje",
+      "Pneumatic cleaning gun"
+    ],
+    "use": "Za čišćenje detalja u vozilu komprimovanim vazduhom; kompresor i sredstvo za čišćenje dogovaraju se posebno.",
+    "selection": "Za pneumatski pištolj za čišćenje navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "podna-brusilica-za-beton": {
+    "term": "podna brusilica za beton",
+    "aliases": [
+      "Podna brusilica za beton",
+      "Concrete floor grinder"
+    ],
+    "use": "Za obradu većih betonskih podova vođenjem mašine po površini, uz odgovarajući abraziv i odvođenje prašine.",
+    "selection": "Za podna brusilica za beton navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "hidraulicni-agregat-sa-cekicem": {
+    "term": "hidraulični agregat sa čekićem",
+    "aliases": [
+      "Hidraulični agregat sa čekićem",
+      "Hydraulic power pack with breaker"
+    ],
+    "use": "Za rušenje pomoću ručnog hidrauličnog čekića napajanog zasebnim agregatom; creva i protok moraju biti usklađeni.",
+    "selection": "Za hidraulični agregat sa čekićem navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "pneumatski-cekic-za-kompresor": {
+    "term": "pneumatski čekić za kompresor",
+    "aliases": [
+      "Pneumatski čekić za kompresor",
+      "Pneumatic breaker"
+    ],
+    "use": "Za razbijanje materijala uz dovod komprimovanog vazduha iz kompresora odgovarajućeg protoka i pritiska.",
+    "selection": "Za pneumatski čekić za kompresor navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "rasvetni-toranj": {
+    "term": "rasvetni toranj",
+    "aliases": [
+      "Rasvetni toranj",
+      "Lighting tower"
+    ],
+    "use": "Za osvetljavanje većeg radilišta pomoću podignutih reflektora; napajanje, postavljanje i transport potvrđuju se pre najma.",
+    "selection": "Za rasvetni toranj navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "makaze-za-armaturu": {
+    "term": "makaze za armaturu",
+    "aliases": [
+      "Makaze za armaturu",
+      "Bolt and rebar cutter"
+    ],
+    "use": "Za ručno presecanje armature i odgovarajućih metalnih šipki do prečnika koji podržava konkretan alat.",
+    "selection": "Za makaze za armaturu navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "rucni-busac-zemlje": {
+    "term": "ručni bušač zemlje",
+    "aliases": [
+      "Ručni bušač zemlje",
+      "Manual earth auger"
+    ],
+    "use": "Za ručno pravljenje rupa u zemlji pri sadnji i postavljanju stubova; prečnik i stanje zemljišta određuju primenu.",
+    "selection": "Za ručni bušač zemlje navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "separaciona-freza-za-zemljiste": {
+    "term": "separaciona freza za zemljište",
+    "aliases": [
+      "Separaciona freza za zemljište",
+      "Soil separator tiller"
+    ],
+    "use": "Za pripremu zemljišta odvajanjem krupnijih delova i ravnanjem površine; razlikuje se od običnog motokultivatora.",
+    "selection": "Za separaciona freza za zemljište navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "teleskopske-makaze-za-travu": {
+    "term": "teleskopske makaze za travu",
+    "aliases": [
+      "Teleskopske makaze za travu",
+      "Telescopic grass shears"
+    ],
+    "use": "Za uređivanje rubova travnjaka i teško dostupnih mesta pomoću produžene ručice i odgovarajuće rezne glave.",
+    "selection": "Za teleskopske makaze za travu navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "sejalica-za-travu": {
+    "term": "sejalica za travu",
+    "aliases": [
+      "Sejalica za travu",
+      "Lawn seed spreader"
+    ],
+    "use": "Za ravnomerno raspoređivanje semena po pripremljenom travnjaku, uz podešavanje otvora i količine po površini.",
+    "selection": "Za sejalica za travu navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "razvodna-tabla-za-gradiliste": {
+    "term": "razvodna tabla za gradilište",
+    "aliases": [
+      "Razvodna tabla za gradilište",
+      "Site power distribution board"
+    ],
+    "use": "Za raspodelu privremenog napajanja na radilištu preko odgovarajućih priključaka i zaštite usklađene sa potrošačima.",
+    "selection": "Za razvodna tabla za gradilište navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "peskara": {
+    "term": "peskara",
+    "aliases": [
+      "Peskara",
+      "Sandblasting unit"
+    ],
+    "use": "Za uklanjanje starih premaza i korozije abrazivnim mlazom; kompresor, medijum i zaštitna oprema potvrđuju se zasebno.",
+    "selection": "Za peskara navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "usisivac-za-pepeo": {
+    "term": "usisivač za pepeo",
+    "aliases": [
+      "Usisivač za pepeo",
+      "Ash vacuum"
+    ],
+    "use": "Za sakupljanje potpuno ohlađenog pepela iz odgovarajućih ložišta; nije predviđen za žar ili vrući materijal.",
+    "selection": "Za usisivač za pepeo navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "gradjevinska-kolica": {
+    "term": "građevinska kolica",
+    "aliases": [
+      "Građevinska kolica",
+      "Wheelbarrow"
+    ],
+    "use": "Za ručni transport peska, zemlje i građevinskog materijala po prohodnoj podlozi uz proveru nosivosti.",
+    "selection": "Za građevinska kolica navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "levak-za-sut": {
+    "term": "levak za šut",
+    "aliases": [
+      "Levak za šut",
+      "Rubble chute"
+    ],
+    "use": "Za usmereno spuštanje građevinskog šuta sa visine kroz pravilno pričvršćene segmente; dužina se određuje u metrima.",
+    "selection": "Za levak za šut navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "gradjevinski-podupiraci": {
+    "term": "građevinski podupirači",
+    "aliases": [
+      "Građevinski podupirači",
+      "Construction props"
+    ],
+    "use": "Za privremeno podupiranje odgovarajuće konstrukcije; nosivost, visinu i razmak mora odrediti odgovorno stručno lice.",
+    "selection": "Za građevinski podupirači navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "pistolj-za-farbanje-kompresorom": {
+    "term": "pištolj za farbanje kompresorom",
+    "aliases": [
+      "Pištolj za farbanje kompresorom",
+      "Pneumatic paint spray gun"
+    ],
+    "use": "Za nanošenje kompatibilnih premaza uz komprimovani vazduh; dizna, pritisak i priprema boje zavise od materijala.",
+    "selection": "Za pištolj za farbanje kompresorom navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "maska-za-varenje": {
+    "term": "maska za varenje",
+    "aliases": [
+      "Maska za varenje",
+      "Welding helmet"
+    ],
+    "use": "Za zaštitu lica i očiju pri odgovarajućem postupku zavarivanja; stepen zatamnjenja bira se prema primeni.",
+    "selection": "Za maska za varenje navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "zastitne-slusalice": {
+    "term": "zaštitne slušalice",
+    "aliases": [
+      "Zaštitne slušalice",
+      "Hearing protectors"
+    ],
+    "use": "Za smanjenje izloženosti buci tokom rada; izaberi zaštitu prema nivou buke i kompatibilnosti sa ostalom opremom.",
+    "selection": "Za zaštitne slušalice navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "burgije-za-drvo-i-metal": {
+    "term": "burgije za drvo i metal",
+    "aliases": [
+      "Burgije za drvo i metal",
+      "Wood and metal drill bits"
+    ],
+    "use": "Pribor za bušenje drveta i metala; materijal, prečnik i prihvat moraju odgovarati bušilici i planiranom otvoru.",
+    "selection": "Za burgije za drvo i metal navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "burgije-za-beton-sds": {
+    "term": "burgije za beton sds",
+    "aliases": [
+      "Burgije za beton SDS",
+      "SDS concrete drill bits"
+    ],
+    "use": "Pribor za udarno bušenje odgovarajućeg betona i zida; SDS Plus i SDS Max prihvati nisu međusobno zamenljivi.",
+    "selection": "Za burgije za beton sds navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "dijamantske-ploce-za-beton": {
+    "term": "dijamantske ploče za beton",
+    "aliases": [
+      "Dijamantske ploče za beton",
+      "Diamond concrete cutting discs"
+    ],
+    "use": "Rezni pribor za odgovarajući beton i mineralne podloge; prečnik, brzinu i uslove suvog ili mokrog reza proveri pre rada.",
+    "selection": "Za dijamantske ploče za beton navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "rezne-ploce-za-metal": {
+    "term": "rezne ploče za metal",
+    "aliases": [
+      "Rezne ploče za metal",
+      "Metal cutting discs"
+    ],
+    "use": "Pribor za sečenje metala na kompatibilnoj brusilici; potvrđuju se prečnik, debljina, prihvat i predviđena brzina.",
+    "selection": "Za rezne ploče za metal navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "nastavak-mikser-za-busilicu": {
+    "term": "nastavak mikser za bušilicu",
+    "aliases": [
+      "Nastavak mikser za bušilicu",
+      "Drill mixing paddle"
+    ],
+    "use": "Za mešanje manjih količina kompatibilnih masa pomoću odgovarajuće bušilice; prihvat i opterećenje proveravaju se unapred.",
+    "selection": "Za nastavak mikser za bušilicu navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "lanac-za-testeru": {
+    "term": "lanac za testeru",
+    "aliases": [
+      "Lanac za testeru",
+      "Chainsaw chain"
+    ],
+    "use": "Zamenski rezni pribor za lančanu testeru; korak, širina pogonske karike i broj karika moraju odgovarati vodilici.",
+    "selection": "Za lanac za testeru navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "merac-vlage-u-materijalu": {
+    "term": "merač vlage u materijalu",
+    "aliases": [
+      "Merač vlage u materijalu",
+      "Material moisture meter"
+    ],
+    "use": "Za proveru vlage u drvetu, malteru i odgovarajućim građevinskim podlogama; rezultat zavisi od materijala i metode merenja.",
+    "selection": "Za merač vlage u materijalu navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "termohigrometar": {
+    "term": "termohigrometar",
+    "aliases": [
+      "Termohigrometar",
+      "Thermohygrometer"
+    ],
+    "use": "Za praćenje temperature i relativne vlažnosti vazduha tokom isušivanja i provere uslova u prostoru.",
+    "selection": "Za termohigrometar navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "infracrveni-termometar": {
+    "term": "infracrveni termometar",
+    "aliases": [
+      "Infracrveni termometar",
+      "Infrared thermometer"
+    ],
+    "use": "Za beskontaktno merenje površinske temperature; emisivnost i refleksije utiču na očitavanje i izbor mesta provere.",
+    "selection": "Za infracrveni termometar navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "digitalni-multimetar": {
+    "term": "digitalni multimetar",
+    "aliases": [
+      "Digitalni multimetar",
+      "Digital multimeter"
+    ],
+    "use": "Za električna merenja u opsegu i bezbednosnoj kategoriji konkretnog instrumenta, uz odgovarajuće sonde i postupak.",
+    "selection": "Za digitalni multimetar navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "merac-potrosnje-struje": {
+    "term": "merač potrošnje struje",
+    "aliases": [
+      "Merač potrošnje struje",
+      "Electricity consumption meter"
+    ],
+    "use": "Za praćenje potrošnje kompatibilnih električnih uređaja; priključak, struja i interval beleženja potvrđuju se prema zadatku.",
+    "selection": "Za merač potrošnje struje navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "merac-kvaliteta-vazduha": {
+    "term": "merač kvaliteta vazduha",
+    "aliases": [
+      "Merač kvaliteta vazduha",
+      "Air quality monitor"
+    ],
+    "use": "Za proveru parametara vazduha koje podržavaju ugrađeni senzori, kao što su CO2, čestice ili VOC; model se bira prema cilju.",
+    "selection": "Za merač kvaliteta vazduha navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "detektor-curenja-gasa": {
+    "term": "detektor curenja gasa",
+    "aliases": [
+      "Detektor curenja gasa",
+      "Gas leak detector"
+    ],
+    "use": "Za pronalaženje tragova određenog gasa odgovarajućim senzorom; tip gasa, opseg i uslovi primene moraju biti potvrđeni.",
+    "selection": "Za detektor curenja gasa navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "akusticna-kamera": {
+    "term": "akustična kamera",
+    "aliases": [
+      "Akustična kamera",
+      "Acoustic imaging camera"
+    ],
+    "use": "Za vizuelno prikazivanje izvora zvuka i odgovarajućih curenja pomoću niza mikrofona i obrade akustičnog signala.",
+    "selection": "Za akustična kamera navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "akusticni-korelator": {
+    "term": "akustični korelator",
+    "aliases": [
+      "Akustični korelator",
+      "Acoustic leak correlator"
+    ],
+    "use": "Za poređenje signala sa dva merna mesta radi lociranja curenja na cevima uz poznate podatke o instalaciji.",
+    "selection": "Za akustični korelator navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "dimna-masina-za-testiranje-instalacija": {
+    "term": "dimna mašina za testiranje instalacija",
+    "aliases": [
+      "Dimna mašina za testiranje instalacija",
+      "Installation smoke tester"
+    ],
+    "use": "Za proveru odgovarajućih instalacija kontrolisanim uvođenjem testnog dima, uz prethodnu proveru uslova i kompatibilnosti.",
+    "selection": "Za dimna mašina za testiranje instalacija navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "uv-set-za-detekciju-curenja": {
+    "term": "uv set za detekciju curenja",
+    "aliases": [
+      "UV set za detekciju curenja",
+      "UV leak detection kit"
+    ],
+    "use": "Za praćenje odobrene fluorescentne boje pri otkrivanju curenja; kompatibilnost sredstva sa instalacijom potvrđuje se pre rada.",
+    "selection": "Za uv set za detekciju curenja navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "set-za-detekciju-traser-gasom": {
+    "term": "set za detekciju traser gasom",
+    "aliases": [
+      "Set za detekciju traser gasom",
+      "Tracer gas leak detection kit"
+    ],
+    "use": "Za specijalizovano lociranje curenja primenom odgovarajućeg traser gasa i detektora, uz potvrdu uslova konkretne instalacije.",
+    "selection": "Za set za detekciju traser gasom navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "dron-za-vizuelnu-inspekciju": {
+    "term": "dron za vizuelnu inspekciju",
+    "aliases": [
+      "Dron za vizuelnu inspekciju",
+      "Visual inspection drone"
+    ],
+    "use": "Za snimanje dostupnih krovova, fasada i površina iz vazduha; uslove leta i potrebu za operaterom potvrđujemo prema lokaciji.",
+    "selection": "Za dron za vizuelnu inspekciju navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "termalni-dron": {
+    "term": "termalni dron",
+    "aliases": [
+      "Termalni dron",
+      "Thermal inspection drone"
+    ],
+    "use": "Za pregled temperaturnih razlika na krovovima i fasadama iz vazduha; vremenski uslovi i način tumačenja snimka utiču na rezultat.",
+    "selection": "Za termalni dron navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "fonometar": {
+    "term": "fonometar",
+    "aliases": [
+      "Fonometar",
+      "Sound level meter"
+    ],
+    "use": "Za merenje nivoa zvuka u prostoru i na radnom mestu, uz izbor opsega, merne postavke i potrebne kalibracije.",
+    "selection": "Za fonometar navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "emf-merac": {
+    "term": "emf merač",
+    "aliases": [
+      "EMF merač",
+      "EMF meter"
+    ],
+    "use": "Za proveru elektromagnetnog polja u frekventnom opsegu koji podržava instrument; električno i magnetno polje mere se prema modelu.",
+    "selection": "Za emf merač navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "anemometar": {
+    "term": "anemometar",
+    "aliases": [
+      "Anemometar",
+      "Anemometer"
+    ],
+    "use": "Za proveru brzine i procenu protoka vazduha u odgovarajućim ventilacionim otvorima i kanalima.",
+    "selection": "Za anemometar navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "gajgerov-brojac": {
+    "term": "gajgerov brojač",
+    "aliases": [
+      "Gajgerov brojač",
+      "Geiger counter"
+    ],
+    "use": "Za očitavanje jonizujućeg zračenja u opsegu i za vrste zračenja koje podržava instrument, uz proveru kalibracije.",
+    "selection": "Za gajgerov brojač navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "luksmetar": {
+    "term": "luksmetar",
+    "aliases": [
+      "Luksmetar",
+      "Lux meter"
+    ],
+    "use": "Za merenje osvetljenosti radnih i drugih površina, uz dogovor o položaju senzora i potrebnom mer­nom opsegu.",
+    "selection": "Za luksmetar navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "tahometar": {
+    "term": "tahometar",
+    "aliases": [
+      "Tahometar",
+      "Tachometer"
+    ],
+    "use": "Za proveru brzine obrtanja odgovarajućih rotirajućih delova kontaktnom ili optičkom metodom konkretnog instrumenta.",
+    "selection": "Za tahometar navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "vibrometar": {
+    "term": "vibrometar",
+    "aliases": [
+      "Vibrometar",
+      "Vibration meter"
+    ],
+    "use": "Za proveru vibracija uređaja i konstrukcija u mernom opsegu senzora; način postavljanja određuje kvalitet rezultata.",
+    "selection": "Za vibrometar navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "merac-debljine-materijala": {
+    "term": "merač debljine materijala",
+    "aliases": [
+      "Merač debljine materijala",
+      "Material thickness gauge"
+    ],
+    "use": "Za proveru debljine odgovarajućeg materijala, uz potvrdu tehnologije merenja, pristupa površini i potrebnog opsega.",
+    "selection": "Za merač debljine materijala navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "ultrazvucni-merac-protoka-vode": {
+    "term": "ultrazvučni merač protoka vode",
+    "aliases": [
+      "Ultrazvučni merač protoka vode",
+      "Ultrasonic water flow meter"
+    ],
+    "use": "Za proveru protoka kroz kompatibilne cevi pomoću odgovarajućih senzora; dimenzije i materijal cevi potvrđuju se unapred.",
+    "selection": "Za ultrazvučni merač protoka vode navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "alarm-za-detekciju-poplave": {
+    "term": "alarm za detekciju poplave",
+    "aliases": [
+      "Alarm za detekciju poplave",
+      "Water leak alarm"
+    ],
+    "use": "Za dojavu prisustva vode na mestu postavljenog senzora; način obaveštavanja i napajanje zavise od modela.",
+    "selection": "Za alarm za detekciju poplave navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "robotska-kamera-za-inspekciju": {
+    "term": "robotska kamera za inspekciju",
+    "aliases": [
+      "Robotska kamera za inspekciju",
+      "Robotic inspection camera"
+    ],
+    "use": "Za video pregled odgovarajućih teško dostupnih kanala pomoću pokretne kamere; dimenzije otvora i pristup određuju primenu.",
+    "selection": "Za robotska kamera za inspekciju navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "merac-otpora-uzemljenja": {
+    "term": "merač otpora uzemljenja",
+    "aliases": [
+      "Merač otpora uzemljenja",
+      "Earth resistance tester"
+    ],
+    "use": "Za proveru otpora uzemljenja odgovarajućom mernom metodom, uz stručnog korisnika i potvrdu sondi i uslova ispitivanja.",
+    "selection": "Za merač otpora uzemljenja navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "strujna-klesta": {
+    "term": "strujna klešta",
+    "aliases": [
+      "Strujna klešta",
+      "Clamp meter"
+    ],
+    "use": "Za merenje struje kompatibilnog provodnika pomoću obuhvatnog senzora; AC i DC mogućnosti zavise od izabranog uređaja.",
+    "selection": "Za strujna klešta navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "barometar": {
+    "term": "barometar",
+    "aliases": [
+      "Barometar",
+      "Barometer"
+    ],
+    "use": "Za proveru atmosferskog pritiska odgovarajućim instrumentom, uz potvrdu opsega i željene tačnosti merenja.",
+    "selection": "Za barometar navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
+  },
+  "diferencijalni-manometar": {
+    "term": "diferencijalni manometar",
+    "aliases": [
+      "Diferencijalni manometar",
+      "Differential pressure meter"
+    ],
+    "use": "Za proveru razlike pritiska između dve tačke u kompatibilnom sistemu, uz odgovarajuće priključke i merni opseg.",
+    "selection": "Za diferencijalni manometar navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
   }
 }

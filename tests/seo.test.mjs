@@ -58,7 +58,7 @@ test('Every seeded tool has specific search intent, useful copy and an existing 
 test('Crawl every sitemap URL: 200, one H1, unique metadata, canonical, reciprocal hreflang and parseable JSON-LD', async () => {
   const { html: xml } = await get('/sitemap.xml');
   const urls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(match => match[1]);
-  assert.equal(urls.length, (7 + seed.tools.length + seed.categories.length) * locales.length);
+  assert.equal(urls.length, (6 + seed.tools.length + seed.categories.length) * locales.length);
   assert.equal(new Set(urls).size, urls.length);
   assert.match(xml, /hreflang="x-default"/);
   assert.match(xml, /<image:loc>https:\/\/seo.example\/images\/catalog\//);

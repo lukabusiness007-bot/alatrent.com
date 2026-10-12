@@ -86,6 +86,8 @@ Dodati su korpa, višednevne tarife, korisnički nalozi, Klub majstora, firme, p
 
 ## Provere
 
+Katalog ima 184 vrste alata. Prikupljeno je 237 ponuda i cena iz IznajmiAlat, RentMašina, zadatog PozajmiMe profila i BeoDetect cenovnika. U adminu su dostupni „Cene iz izvora”, izvorne valute/jedinice, PDV, doplate, depoziti i CSV izvoz. Obuhvat, nedostupna kategorija i neslaganja u izvorima opisani su u [docs/catalog-sources.md](docs/catalog-sources.md). Novi alati bez objavljene dnevne tarife prikazuju cenu na upit; postojeće administrativne cene i zalihe se ne prepisuju.
+
 ```sh
 npm run typecheck
 npm run build

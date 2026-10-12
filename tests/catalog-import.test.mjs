@@ -9,6 +9,7 @@ import { DatabaseSync } from 'node:sqlite';
 const seed = JSON.parse(readFileSync(new URL('../lib/seed.json', import.meta.url)));
 const imported = JSON.parse(readFileSync(new URL('../lib/catalog-import.json', import.meta.url)));
 const expansion = JSON.parse(readFileSync(new URL('../lib/catalog-expansion.json', import.meta.url)));
+const sourcesImport = JSON.parse(readFileSync(new URL('../lib/catalog-sources-import.json', import.meta.url)));
 const dir = mkdtempSync(join(tmpdir(), 'alat-rent-import-'));
 const base = 'http://127.0.0.1:3017';
 const password = 'import-test-secret-password';
@@ -107,6 +108,24 @@ test('Expanded types have rental prices, searchable pages and distinct identitie
   assert.match(await search.text(), /dijamantska-busilica-sa-stalkom/);
 });
 
+test('Four-source import adds distinct equipment and never fabricates a daily rate from service or EUR prices', async () => {
+  assert.equal(saved('meta', sourcesImport.migration), true);
+  for (const tool of sourcesImport.tools) {
+    assert.equal(saved('tools', tool.id).price, tool.price, tool.slug);
+    assert.equal(saved('tools', tool.id).quantity, null);
+    assert.equal(saved('tools', tool.id).deposit, null);
+  }
+  for (const slug of ['podna-brusilica-za-beton', 'pneumatski-pistolj-za-ciscenje', 'fonometar', 'rucna-teleskopska-testera-za-grane']) {
+    const tool = sourcesImport.tools.find(t => t.slug === slug);
+    const response = await fetch(base + '/sr/alat/' + slug);
+    assert.equal(response.status, 200, slug);
+    assert.match(await response.text(), tool.price === null ? /Cena na upit/ : /4\.800/);
+    const duplicate = await api('/api/admin/tools', { ...tool, id: 'source-duplicate-' + tool.id, slug: 'source-duplicate-' + slug, name: { ...tool.name, sr: tool.name.sr + ' Bosch 18V' } });
+    assert.equal(duplicate.status, 409, slug);
+    assert.equal((await duplicate.json()).existingId, tool.id);
+  }
+});
+
 test('Admin edits and deletions persist across server restart; startup never resets the password', async () => {
   const deleted = imported.tools.find(t => t.slug === 'set-gedora');
   assert.equal((await fetch(base + '/api/admin/tools?id=' + deleted.id, { method: 'DELETE', headers: { Origin: base, Cookie: cookie } })).status, 200);
@@ -114,9 +133,17 @@ test('Admin edits and deletions persist across server restart; startup never res
   assert.equal((await api('/api/admin/tools', { ...expanded, price: 2345, quantity: 3, published: false })).status, 200);
   const removed = expansion.tools.find(t => t.slug === 'freza-za-panjeve');
   assert.equal((await fetch(base + '/api/admin/tools?id=' + removed.id, { method: 'DELETE', headers: { Origin: base, Cookie: cookie } })).status, 200);
+  const sourced = sourcesImport.tools.find(t => t.slug === 'rasvetni-toranj');
+  assert.equal((await api('/api/admin/tools', { ...sourced, price: 6789, quantity: 4, published: false })).status, 200);
+  const removedSource = sourcesImport.tools.find(t => t.slug === 'fonometar');
+  assert.equal((await fetch(base + '/api/admin/tools?id=' + removedSource.id, { method: 'DELETE', headers: { Origin: base, Cookie: cookie } })).status, 200);
   await stop(); await start('another-test-password-not-used');
   assert.equal(saved('tools', deleted.id), undefined);
   assert.equal(saved('tools', removed.id), undefined);
+  assert.equal(saved('tools', removedSource.id), undefined);
+  assert.equal(saved('tools', sourced.id).price, 6789);
+  assert.equal(saved('tools', sourced.id).quantity, 4);
+  assert.equal(saved('tools', sourced.id).published, false);
   assert.equal(saved('tools', expanded.id).price, 2345);
   assert.equal(saved('tools', expanded.id).quantity, 3);
   assert.equal(saved('tools', expanded.id).published, false);

@@ -62,6 +62,7 @@ export function referralLines(lines: Line[], p: ReferralProgram) {
 }
 export function updateReferralDiscount(o: Order) {
   if (!o.referral || o.rentalTotal === null) return;
+  if (o.items.some(i=>i.reason==='promotion')) { o.referral.discount=0; return; }
   const baseline = o.items.reduce((sum,i) => sum + (i.price === null ? 0 : calculate(i.price,i.start,i.days,i.quantity,i.rule,i.clubPercent,i.bundlePercent).total),0);
   const lineDiscount = round(Math.max(0,baseline-o.items.reduce((sum,i)=>sum+(i.total||0),0)));
   o.referral.discount = round(Math.max(0,Math.min(lineDiscount,baseline-o.rentalTotal)));

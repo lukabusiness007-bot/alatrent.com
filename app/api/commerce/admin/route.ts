@@ -1,3 +1,4 @@
+import { merchandisingConfig, validateJob, validatePromotion, validateRecommendations, funnelMetrics } from '@/lib/commerce/merchandising';
 import { databaseRoute } from '@/lib/db';
 import { randomUUID } from 'node:crypto';
 import { authorized, sameOrigin } from '@/lib/auth';
@@ -81,6 +82,10 @@ async function dbGET() {
     );
   return json({
     config: config(),
+    merchandising: merchandisingConfig(),
+    jobs: all('rentalJobs'),
+    promotions: all('promotions'),
+    funnel: funnelMetrics(orders),
     tools: all<Tool>('tools').map((t) => ({ ...t, options: options(t.id) })),
     categories: all('categories'),
     bundles: all('bundles'),
@@ -125,6 +130,18 @@ async function dbPOST(r: Request) {
     const raw = await r.text();
     if (raw.length > 100000) return json({ error: 'Prevelik zahtev.' }, 413);
     const b = JSON.parse(raw);
+    if (b.action === 'merchandising') {
+      const value = {recommendationsEnabled:b.config?.recommendationsEnabled===true,promotionsEnabled:b.config?.promotionsEnabled===true};
+      put('commerce','merchandising',value); return json(value);
+    }
+    if (b.action === 'job') {
+      const value = validateJob({...b.job,id:b.job.id || randomUUID()});
+      put('rentalJobs',value.id,value); return json(value);
+    }
+    if (b.action === 'promotion') {
+      const value = validatePromotion({...b.promotion,id:b.promotion.id || randomUUID()});
+      put('promotions',value.id,value); return json(value);
+    }
     if (b.action === 'config') {
       const c = b.config;
       if (
@@ -201,6 +218,7 @@ async function dbPOST(r: Request) {
       if (!get('tools', id)) throw new Error('Alat ne postoji.');
       const o = b.options;
       const result: ToolOptions = {
+        recommendations: validateRecommendations(o.recommendations ?? options(id).recommendations ?? [],id),
         costPerDay: o.costPerDay == null ? null : amount(o.costPerDay),
         preparationCost: o.preparationCost == null ? null : amount(o.preparationCost),
         ...(o.rule ? { rule: validateRule(o.rule) } : {}),

@@ -1,6 +1,7 @@
+import { databaseRoute } from '@/lib/db';
 import { timingSafeEqual } from 'node:crypto';
 import { processMessages } from '@/lib/commerce/messages';
-export async function POST(r: Request) {
+async function dbPOST(r: Request) {
   const secret = process.env.COMMERCE_JOB_SECRET;
   const header = r.headers.get('authorization') || '';
   const expected = 'Bearer ' + secret;
@@ -12,3 +13,5 @@ export async function POST(r: Request) {
     return new Response(null, { status: 401 });
   return Response.json(await processMessages());
 }
+
+export const POST = databaseRoute(dbPOST, true);

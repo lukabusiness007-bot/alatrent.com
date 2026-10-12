@@ -1,8 +1,9 @@
+import { databaseComponent } from '@/lib/db';
 import type { MetadataRoute } from 'next';
 import { settings } from '@/lib/db';
 import { siteOrigin } from '@/lib/site-url';
 export const dynamic = 'force-dynamic';
-export default function robots(): MetadataRoute.Robots {
+function dbrobots(): MetadataRoute.Robots {
   const base = siteOrigin(settings());
   return {
     rules: {
@@ -13,3 +14,5 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: base ? base + '/sitemap.xml' : undefined,
   };
 }
+
+export default databaseComponent(dbrobots);

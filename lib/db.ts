@@ -12,17 +12,21 @@ import type { Tool, Category, Settings, RentalRequest, PublicData } from './type
 import type { Order } from './commerce/types';
 import { today } from './validation';
 import { extraKits } from './commerce/kits';
-import { catalogOnly } from './storage';
+import { catalogOnly, persistentDatabase } from './storage';
+import { requestDatabase, withPersistentDatabase, SQLITE_SCHEMA } from './postgres.mjs';
 const dir = process.env.DATA_DIR || path.join(process.cwd(), 'data');
-if (!catalogOnly) mkdirSync(dir, { recursive: true });
+if (!catalogOnly && !persistentDatabase) mkdirSync(dir, { recursive: true });
 const globalDb = globalThis as unknown as { rentalDb?: DatabaseSync };
-export const db = globalDb.rentalDb || new DatabaseSync(catalogOnly ? ':memory:' : path.join(dir, 'rent-tools.sqlite'));
-globalDb.rentalDb = db;
-db.exec(`PRAGMA busy_timeout=10000; PRAGMA journal_mode=WAL;
-CREATE TABLE IF NOT EXISTS entities (kind TEXT NOT NULL,id TEXT NOT NULL,value TEXT NOT NULL,PRIMARY KEY(kind,id));
-CREATE TABLE IF NOT EXISTS sessions (token TEXT PRIMARY KEY,expires INTEGER NOT NULL);
-CREATE TABLE IF NOT EXISTS auth (id INTEGER PRIMARY KEY CHECK(id=1),salt TEXT NOT NULL,hash TEXT NOT NULL);
-CREATE TABLE IF NOT EXISTS limits (key TEXT PRIMARY KEY,count INTEGER NOT NULL,expires INTEGER NOT NULL);`);
+const localDb = globalDb.rentalDb || new DatabaseSync(catalogOnly || persistentDatabase ? ':memory:' : path.join(dir, 'rent-tools.sqlite'));
+globalDb.rentalDb = localDb;
+// Resolve each call against the request's isolated PostgreSQL unit of work.
+export const db = new Proxy(localDb, {
+  get(_target, property) {
+    const current = requestDatabase(localDb);
+    const value = Reflect.get(current, property, current);
+    return typeof value === 'function' ? value.bind(current) : value;
+  },
+});
 export function all<T>(kind: string): T[] {
   return (
     db.prepare('SELECT value FROM entities WHERE kind=? ORDER BY rowid').all(kind) as {
@@ -54,80 +58,95 @@ export function transaction<T>(fn: () => T): T {
     throw e;
   }
 }
-if (!get('meta', 'seeded'))
-  transaction(() => {
-    if (get('meta', 'seeded')) return;
-    for (const c of seed.categories) put('categories', c.id, c);
-    for (const t of seed.tools) put('tools', t.id, t);
-    put('settings', 'main', {
-      brand: 'alat rent',
-      phone: '',
-      email: '',
-      address: '',
-      standardDelivery: 1500,
-      expressDelivery: 2500,
-      siteUrl: '',
-      deliveryNote: { sr: '', en: '', ru: '', tr: '', zh: '' },
-    });
-    put('meta', 'seeded', true);
-  });
-// Rename the original brand in existing installations as well as new catalogs.
-if (!get('meta', 'alat-rent-brand-v1'))
-  transaction(() => {
-    if (get('meta', 'alat-rent-brand-v1')) return;
-    const current = get<Settings>('settings', 'main');
-    if (current?.brand.trim().toLowerCase() === 'rent tools') {
-      put('settings', 'main', { ...current, brand: 'alat rent' });
-    }
-    put('meta', 'alat-rent-brand-v1', true);
-  });
-// One-time catalog refresh. Preserve custom prices and uploaded photographs.
-if (!get('meta', 'photos-prices-no-deposit-v1'))
-  transaction(() => {
-    if (get('meta', 'photos-prices-no-deposit-v1')) return;
-    const presets = enrichment as Record<string, { price: number; image: string }>;
-    for (const tool of all<Tool>('tools')) {
-      const preset = presets[tool.id];
-      put('tools', tool.id, {
-        ...tool,
-        price: tool.price ?? preset?.price ?? null,
-        image: tool.image || preset?.image || '',
-        deposit: 0,
+function initializeDatabase() {
+  db.exec((persistentDatabase ? '' : 'PRAGMA busy_timeout=10000; PRAGMA journal_mode=WAL;') + SQLITE_SCHEMA);
+  if (!get('meta', 'seeded'))
+    transaction(() => {
+      if (get('meta', 'seeded')) return;
+      for (const c of seed.categories) put('categories', c.id, c);
+      for (const t of seed.tools) put('tools', t.id, t);
+      put('settings', 'main', {
+        brand: 'alat rent',
+        phone: '',
+        email: '',
+        address: '',
+        standardDelivery: 1500,
+        expressDelivery: 2500,
+        siteUrl: '',
+        deliveryNote: { sr: '', en: '', ru: '', tr: '', zh: '' },
       });
-    }
-    for (const request of all<RentalRequest>('requests')) {
-      put('requests', request.id, { ...request, deposit: 0 });
-    }
-    put('meta', 'photos-prices-no-deposit-v1', true);
-  });
-// Import new equipment types once into existing databases. Preserve edited
-// records, custom IDs, prices, quantities, photos and removed imported tools.
-if (!get('meta', catalogImport.migration))
-  transaction(() => {
-    if (get('meta', catalogImport.migration)) return;
-    const existing = all<Tool>('tools');
-    const knownTypes = new Set(existing.map(tool => equipmentType(tool.name.sr)));
-    for (const tool of catalogImport.tools) {
-      const type = equipmentType(tool.name.sr);
-      if (get('tools', tool.id) || existing.some(saved => saved.slug === tool.slug) || knownTypes.has(type)) continue;
-      if (!get('categories', tool.categoryId)) {
-        const category = seed.categories.find(category => category.id === tool.categoryId);
-        if (category) put('categories', category.id, category);
+      put('meta', 'seeded', true);
+    });
+  // Rename the original brand in existing installations as well as new catalogs.
+  if (!get('meta', 'alat-rent-brand-v1'))
+    transaction(() => {
+      if (get('meta', 'alat-rent-brand-v1')) return;
+      const current = get<Settings>('settings', 'main');
+      if (current?.brand.trim().toLowerCase() === 'rent tools') {
+        put('settings', 'main', { ...current, brand: 'alat rent' });
       }
-      put('tools', tool.id, tool);
-      knownTypes.add(type);
+      put('meta', 'alat-rent-brand-v1', true);
+    });
+  // One-time catalog refresh. Preserve custom prices and uploaded photographs.
+  if (!get('meta', 'photos-prices-no-deposit-v1'))
+    transaction(() => {
+      if (get('meta', 'photos-prices-no-deposit-v1')) return;
+      const presets = enrichment as Record<string, { price: number; image: string }>;
+      for (const tool of all<Tool>('tools')) {
+        const preset = presets[tool.id];
+        put('tools', tool.id, {
+          ...tool,
+          price: tool.price ?? preset?.price ?? null,
+          image: tool.image || preset?.image || '',
+          deposit: 0,
+        });
+      }
+      for (const request of all<RentalRequest>('requests')) {
+        put('requests', request.id, { ...request, deposit: 0 });
+      }
+      put('meta', 'photos-prices-no-deposit-v1', true);
+    });
+  // Import new equipment types once into existing databases. Preserve edited
+  // records, custom IDs, prices, quantities, photos and removed imported tools.
+  if (!get('meta', catalogImport.migration))
+    transaction(() => {
+      if (get('meta', catalogImport.migration)) return;
+      const existing = all<Tool>('tools');
+      const knownTypes = new Set(existing.map(tool => equipmentType(tool.name.sr)));
+      for (const tool of catalogImport.tools) {
+        const type = equipmentType(tool.name.sr);
+        if (get('tools', tool.id) || existing.some(saved => saved.slug === tool.slug) || knownTypes.has(type)) continue;
+        if (!get('categories', tool.categoryId)) {
+          const category = seed.categories.find(category => category.id === tool.categoryId);
+          if (category) put('categories', category.id, category);
+        }
+        put('tools', tool.id, tool);
+        knownTypes.add(type);
+      }
+      put('meta', catalogImport.migration, true);
+    });
+
+  if (!get('meta', 'suggested-import-prices-v1')) transaction(() => {
+    if (get('meta', 'suggested-import-prices-v1')) return;
+    for (const tool of all<Tool>('tools')) {
+      const preset = (enrichment as Record<string, { price: number; image: string }>)[tool.id];
+      if (tool.price === null && preset) put('tools', tool.id, { ...tool, price: preset.price });
     }
-    put('meta', catalogImport.migration, true);
+    put('meta', 'suggested-import-prices-v1', true);
   });
 
-// An explicitly configured secret bootstraps first-time hosted admin access.
-// Existing password hashes are never overwritten on startup or redeploy.
-if (!catalogOnly && process.env.ADMIN_PASSWORD && !db.prepare('SELECT id FROM auth WHERE id=1').get()) {
-  if (process.env.ADMIN_PASSWORD.length < 12) throw new Error('ADMIN_PASSWORD mora imati najmanje 12 znakova.');
-  const salt = randomBytes(32).toString('hex');
-  db.prepare('INSERT OR IGNORE INTO auth VALUES(1,?,?)').run(
-    salt, scryptSync(process.env.ADMIN_PASSWORD, salt, 64).toString('hex'),
-  );
+  // An explicitly configured secret bootstraps first-time hosted admin access.
+  // Existing password hashes are never overwritten on startup or redeploy.
+  if (!catalogOnly && process.env.ADMIN_PASSWORD && !db.prepare('SELECT id FROM auth WHERE id=1').get()) {
+    if (process.env.ADMIN_PASSWORD.length < 12) throw new Error('ADMIN_PASSWORD mora imati najmanje 12 znakova.');
+    const salt = randomBytes(32).toString('hex');
+    db.prepare('INSERT OR IGNORE INTO auth VALUES(1,?,?)').run(
+      salt, scryptSync(process.env.ADMIN_PASSWORD, salt, 64).toString('hex'),
+    );
+  }
+
+  initializeKits();
+  if (catalogOnly) db.exec('PRAGMA query_only=ON');
 }
 
 export const settings = () => get<Settings>('settings', 'main')!;
@@ -161,28 +180,40 @@ export function occupied(toolId: string, start: string, end: string, exceptId = 
   );
 }
 
-// Initial project kits are editable suggestions, with prices derived from the catalog.
-if (!get('meta', 'commerce-kits-v1')) transaction(() => {
-  const kits = [
-    { id: 'kit-garden', name: 'Uređivanje dvorišta', description: 'Košenje, obrada ivica i skupljanje lišća. Izaberi termine za ceo komplet.', toolIds: ['tool-016', 'tool-018', 'tool-021'], discount: 5, published: true },
-    { id: 'kit-tiles', name: 'Postavljanje pločica', description: 'Sečenje pločica, priprema lepka i precizno nivelisanje.', toolIds: ['tool-049', 'tool-051', 'tool-055'], discount: 5, published: true },
-    { id: 'kit-clean', name: 'Dubinsko čišćenje', description: 'Komplet za usisavanje i dubinsko pranje. Prikladnost za materijal proveravamo pri potvrdi.', toolIds: ['tool-003', 'tool-004'], discount: 5, published: true },
-  ];
-  for (const kit of kits) if (kit.toolIds.every(id => get('tools', id)) && !get('bundles', kit.id)) put('bundles', kit.id, kit);
-  const recommendations: Record<string, string[]> = { 'tool-049': ['tool-051', 'tool-055'], 'tool-016': ['tool-018', 'tool-021'], 'tool-003': ['tool-004'], 'tool-028': ['tool-051', 'tool-070'] };
-  for (const [id, relatedIds] of Object.entries(recommendations)) if (get('tools', id) && !get('toolOptions', id)) put('toolOptions', id, { instructions: '', manualUrl: '', videoUrl: '', model: '', relatedIds: relatedIds.filter(id => get('tools', id)), alternativeIds: [] });
-  put('meta', 'commerce-kits-v1', true);
-});
+function initializeKits() {
+  // Initial project kits are editable suggestions, with prices derived from the catalog.
+  if (!get('meta', 'commerce-kits-v1')) transaction(() => {
+    const kits = [
+      { id: 'kit-garden', name: 'Uređivanje dvorišta', description: 'Košenje, obrada ivica i skupljanje lišća. Izaberi termine za ceo komplet.', toolIds: ['tool-016', 'tool-018', 'tool-021'], discount: 5, published: true },
+      { id: 'kit-tiles', name: 'Postavljanje pločica', description: 'Sečenje pločica, priprema lepka i precizno nivelisanje.', toolIds: ['tool-049', 'tool-051', 'tool-055'], discount: 5, published: true },
+      { id: 'kit-clean', name: 'Dubinsko čišćenje', description: 'Komplet za usisavanje i dubinsko pranje. Prikladnost za materijal proveravamo pri potvrdi.', toolIds: ['tool-003', 'tool-004'], discount: 5, published: true },
+    ];
+    for (const kit of kits) if (kit.toolIds.every(id => get('tools', id)) && !get('bundles', kit.id)) put('bundles', kit.id, kit);
+    const recommendations: Record<string, string[]> = { 'tool-049': ['tool-051', 'tool-055'], 'tool-016': ['tool-018', 'tool-021'], 'tool-003': ['tool-004'], 'tool-028': ['tool-051', 'tool-070'] };
+    for (const [id, relatedIds] of Object.entries(recommendations)) if (get('tools', id) && !get('toolOptions', id)) put('toolOptions', id, { instructions: '', manualUrl: '', videoUrl: '', model: '', relatedIds: relatedIds.filter(id => get('tools', id)), alternativeIds: [] });
+    put('meta', 'commerce-kits-v1', true);
+  });
 
-// Add new job kits once; never overwrite an administrator's edits or republish removed kits.
-if (!get('meta', 'commerce-kits-v2')) transaction(() => {
-  if (get('meta', 'commerce-kits-v2')) return;
-  for (const kit of extraKits) {
-    if (!get('bundles', kit.id) && kit.toolIds.every(id => get('tools', id))) put('bundles', kit.id, kit);
-  }
-  put('meta', 'commerce-kits-v2', true);
-});
+  // Add new job kits once; never overwrite an administrator's edits or republish removed kits.
+  if (!get('meta', 'commerce-kits-v2')) transaction(() => {
+    if (get('meta', 'commerce-kits-v2')) return;
+    for (const kit of extraKits) {
+      if (!get('bundles', kit.id) && kit.toolIds.every(id => get('tools', id))) put('bundles', kit.id, kit);
+    }
+    put('meta', 'commerce-kits-v2', true);
+  });
+}
 
-// No route may silently save orders or accounts to volatile memory, even if
-// a future endpoint is accidentally allowed through the proxy.
-if (catalogOnly) db.exec('PRAGMA query_only=ON');
+if (!persistentDatabase) initializeDatabase();
+
+export function withDatabase<T>(fn: () => T | Promise<T>, write = false): Promise<T> {
+  return withPersistentDatabase(initializeDatabase, fn, write);
+}
+export function databaseComponent<A extends unknown[], T>(fn: (...args: A) => T | Promise<T>) {
+  return (...args: A) => withDatabase(() => fn(...args));
+}
+export function databaseRoute<A extends unknown[]>(fn: (...args: A) => Response | Promise<Response>, write = false) {
+  return (...args: A): Promise<Response> => withDatabase(() => fn(...args), write).catch(() =>
+    Response.json({ error: 'Baza trenutno nije dostupna. Pokušaj ponovo.' }, { status: 503, headers: { 'Cache-Control': 'no-store' } }),
+  );
+}

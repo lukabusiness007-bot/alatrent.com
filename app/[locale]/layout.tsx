@@ -1,3 +1,4 @@
+import { databaseComponent } from '@/lib/db';
 import { notFound } from 'next/navigation';
 import { isLocale } from '@/lib/i18n';
 import Header from '@/components/Header';
@@ -8,7 +9,7 @@ import '../globals.css';
 import { CartProvider } from '@/components/commerce/CartProvider';
 import CatalogNotice from '@/components/CatalogNotice';
 export const dynamic = 'force-dynamic';
-export default async function Layout({
+async function dbLayout({
   children,
   params,
 }: {
@@ -30,3 +31,5 @@ export default async function Layout({
     </html>
   );
 }
+
+export default databaseComponent(dbLayout);

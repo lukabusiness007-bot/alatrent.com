@@ -1,3 +1,4 @@
+import { databaseRoute } from '@/lib/db';
 import { equipmentType } from '@/lib/equipment-type';
 import { randomUUID } from 'node:crypto';
 import { authorized, sameOrigin } from '@/lib/auth';
@@ -5,7 +6,7 @@ import { all, get, put, remove, settings, transaction, occupied } from '@/lib/db
 import { text, localized, amount, slug } from '@/lib/validation';
 import type { Order } from '@/lib/commerce/types';
 import type { Tool, Category, RentalRequest } from '@/lib/types';
-export async function GET(_r: Request, { params }: { params: Promise<{ resource: string }> }) {
+async function dbGET(_r: Request, { params }: { params: Promise<{ resource: string }> }) {
   if (!(await authorized())) return Response.json({ error: 'Prijavi se.' }, { status: 401 });
   const { resource } = await params;
   if (resource === 'all')
@@ -20,7 +21,7 @@ export async function GET(_r: Request, { params }: { params: Promise<{ resource:
     );
   return new Response(null, { status: 404 });
 }
-export async function POST(r: Request, { params }: { params: Promise<{ resource: string }> }) {
+async function dbPOST(r: Request, { params }: { params: Promise<{ resource: string }> }) {
   if (!sameOrigin(r) || !(await authorized()))
     return Response.json(
       { error: 'Prijava je istekla. Osveži stranicu i prijavi se.' },
@@ -143,7 +144,7 @@ export async function POST(r: Request, { params }: { params: Promise<{ resource:
     );
   }
 }
-export async function DELETE(r: Request, { params }: { params: Promise<{ resource: string }> }) {
+async function dbDELETE(r: Request, { params }: { params: Promise<{ resource: string }> }) {
   if (!sameOrigin(r) || !(await authorized())) return new Response(null, { status: 403 });
   const { resource } = await params;
   const id = new URL(r.url).searchParams.get('id');
@@ -159,3 +160,7 @@ export async function DELETE(r: Request, { params }: { params: Promise<{ resourc
   remove(resource, id);
   return Response.json({ ok: true });
 }
+
+export const GET = databaseRoute(dbGET, false);
+export const POST = databaseRoute(dbPOST, true);
+export const DELETE = databaseRoute(dbDELETE, true);

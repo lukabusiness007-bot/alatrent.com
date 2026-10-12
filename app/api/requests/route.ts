@@ -1,9 +1,10 @@
+import { databaseRoute } from '@/lib/db';
 import { randomUUID } from 'node:crypto';
 import { sameOrigin, rateLimit } from '@/lib/auth';
 import { get, put, settings, transaction, occupied } from '@/lib/db';
 import { text, date, today, rentalDays } from '@/lib/validation';
 import { locales, type Tool, type Category, type RentalRequest } from '@/lib/types';
-export async function POST(r: Request) {
+async function dbPOST(r: Request) {
   if (!sameOrigin(r)) return Response.json({ error: 'invalid' }, { status: 403 });
   if (Number(r.headers.get('content-length')) > 20000)
     return Response.json({ error: 'invalid' }, { status: 413 });
@@ -81,3 +82,5 @@ export async function POST(r: Request) {
     return Response.json({ error: 'invalid' }, { status: 400 });
   }
 }
+
+export const POST = databaseRoute(dbPOST, true);

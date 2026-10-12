@@ -286,5 +286,109 @@
   "tool-072": {
     "price": 2000,
     "image": "/images/catalog/tool-072.jpg"
+  },
+  "tool-073": {
+    "price": 4000,
+    "image": ""
+  },
+  "tool-074": {
+    "price": 2000,
+    "image": ""
+  },
+  "tool-075": {
+    "price": 3500,
+    "image": ""
+  },
+  "tool-076": {
+    "price": 4000,
+    "image": ""
+  },
+  "tool-077": {
+    "price": 2500,
+    "image": ""
+  },
+  "tool-078": {
+    "price": 1000,
+    "image": ""
+  },
+  "tool-079": {
+    "price": 1000,
+    "image": ""
+  },
+  "tool-080": {
+    "price": 600,
+    "image": ""
+  },
+  "tool-081": {
+    "price": 1200,
+    "image": ""
+  },
+  "tool-082": {
+    "price": 4000,
+    "image": ""
+  },
+  "tool-083": {
+    "price": 1200,
+    "image": ""
+  },
+  "tool-084": {
+    "price": 1500,
+    "image": ""
+  },
+  "tool-085": {
+    "price": 1200,
+    "image": ""
+  },
+  "tool-086": {
+    "price": 2500,
+    "image": ""
+  },
+  "tool-087": {
+    "price": 3000,
+    "image": ""
+  },
+  "tool-088": {
+    "price": 3000,
+    "image": ""
+  },
+  "tool-089": {
+    "price": 3500,
+    "image": ""
+  },
+  "tool-090": {
+    "price": 3000,
+    "image": ""
+  },
+  "tool-091": {
+    "price": 4500,
+    "image": ""
+  },
+  "tool-092": {
+    "price": 2000,
+    "image": ""
+  },
+  "tool-093": {
+    "price": 500,
+    "image": ""
+  },
+  "tool-094": {
+    "price": 3500,
+    "image": ""
+  },
+  "tool-095": {
+    "price": 3500,
+    "image": ""
+  },
+  "tool-096": {
+    "price": 2000,
+    "image": ""
+  },
+  "tool-097": {
+    "price": 800,
+    "image": ""
+  },
+  "tool-098": {
+    "price": 800,
+    "image": ""
   }
 }

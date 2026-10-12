@@ -26,7 +26,7 @@ const tag = (html, name) => html.match(new RegExp(`<meta name="${name}" content=
 const canonical = html => html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
 before(async () => {
   child = spawn(process.execPath, ['node_modules/next/dist/bin/next', 'start', '--hostname', '127.0.0.1', '--port', '3014'], {
-    env: { ...process.env, DATA_DIR: dir, SITE_URL: origin + '/', GOOGLE_SITE_VERIFICATION: 'seo-test-verification' }, stdio: ['ignore', 'pipe', 'pipe'],
+    env: { ...process.env, POSTGRES_URL: '', DATABASE_URL: '', POSTGRES_PRISMA_URL: '', DATA_DIR: dir, SITE_URL: origin + '/', GOOGLE_SITE_VERIFICATION: 'seo-test-verification' }, stdio: ['ignore', 'pipe', 'pipe'],
   });
   child.stdout.on('data', x => logs += x); child.stderr.on('data', x => logs += x);
   for (let attempt = 0; attempt < 80; attempt++) {

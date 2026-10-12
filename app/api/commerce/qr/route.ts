@@ -1,8 +1,9 @@
+import { databaseRoute } from '@/lib/db';
 import QRCode from 'qrcode';
 import { get, settings } from '@/lib/db';
 import { authorized } from '@/lib/auth';
 import type { Tool } from '@/lib/types';
-export async function GET(r: Request) {
+async function dbGET(r: Request) {
   if (!(await authorized())) return new Response('Prijavi se.', { status: 401 });
   const id = new URL(r.url).searchParams.get('toolId') || '';
   const tool = get<Tool>('tools', id),
@@ -25,3 +26,5 @@ export async function GET(r: Request) {
     },
   });
 }
+
+export const GET = databaseRoute(dbGET, false);

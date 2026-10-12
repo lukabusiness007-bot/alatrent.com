@@ -1,5 +1,6 @@
+import { databaseRoute } from '@/lib/db';
 import { sameOrigin, rateLimit, verifyPassword, loginCookie } from '@/lib/auth';
-export async function POST(r: Request) {
+async function dbPOST(r: Request) {
   if (!sameOrigin(r)) return Response.json({ error: 'Zahtev nije dozvoljen.' }, { status: 403 });
   if (!rateLimit('login', 20, 15 * 60_000))
     return Response.json({ error: 'Previše pokušaja. Pokušaj za 15 minuta.' }, { status: 429 });
@@ -14,3 +15,5 @@ export async function POST(r: Request) {
   await loginCookie(r);
   return Response.json({ ok: true });
 }
+
+export const POST = databaseRoute(dbPOST, true);

@@ -1,3 +1,4 @@
+import { databaseComponent } from '@/lib/db';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { copy, href, isLocale } from '@/lib/i18n';
@@ -36,7 +37,7 @@ type Props = {
   params: Promise<{ locale: string; path?: string[] }>;
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
-export async function generateMetadata({ params, searchParams }: Props) {
+async function dbgenerateMetadata({ params, searchParams }: Props) {
   const { locale, path = [] } = await params;
   if (!isLocale(locale)) return {};
   const t = copy[locale];
@@ -65,7 +66,7 @@ export async function generateMetadata({ params, searchParams }: Props) {
     tool?.image ? { url: tool.image, alt: tool.name[locale] } : undefined);
 
 }
-export default async function Page({ params, searchParams }: Props) {
+async function dbPage({ params, searchParams }: Props) {
   const { locale, path = [] } = await params;
   if (!isLocale(locale)) notFound();
   const data = publicData(),
@@ -265,3 +266,6 @@ export default async function Page({ params, searchParams }: Props) {
     );
   notFound();
 }
+
+export const generateMetadata = databaseComponent(dbgenerateMetadata);
+export default databaseComponent(dbPage);

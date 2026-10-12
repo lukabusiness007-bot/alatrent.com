@@ -2,7 +2,8 @@ import type { NextConfig } from 'next';
 const config: NextConfig = {
   devIndicators: false,
   turbopack: { root: process.cwd() },
-  serverExternalPackages: ['node:sqlite'],
+  serverExternalPackages: ['node:sqlite', 'pg'],
+  outputFileTracingIncludes: { '/*': ['./config/certs/supabase-ca.crt'] },
   async headers() {
     return [
       {

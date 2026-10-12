@@ -4,6 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 seed=json.loads((ROOT/'lib/seed.json').read_text())
 original=[t for t in seed['tools'] if int(t['id'].split('-')[1])<=72]
+enrichment=json.loads((ROOT/'lib/catalog-enrichment.json').read_text())
 source=json.loads((ROOT/'research/dajnadan/source-listings.json').read_text())
 def norm(s):
  return ''.join(c for c in unicodedata.normalize('NFKD',s.lower().replace('đ','dj')) if not unicodedata.combining(c))
@@ -43,7 +44,7 @@ for offset,row in enumerate(rows,73):
  sr,cat,en,ru,tr,zh,pattern,term,aliases,use,selection=row
  names=dict(zip(['sr','en','ru','tr','zh'],[sr,en,ru,tr,zh]))
  descriptions={'sr':use,'en':f'{en} for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.','ru':f'{ru} в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.','tr':f'Belgrad’da kiralık: {tr}. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.','zh':f'{zh}可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。'}
- new.append({'id':f'tool-{offset:03}','slug':slug(sr),'name':names,'description':descriptions,'categoryId':f'cat-{cat}','price':None,'deposit':0,'quantity':None,'image':'','published':True,'featured':False,'updatedAt':source['retrieved_at']})
+ new.append({'id':f'tool-{offset:03}','slug':slug(sr),'name':names,'description':descriptions,'categoryId':f'cat-{cat}','price':enrichment.get(f'tool-{offset:03}',{}).get('price'),'deposit':0,'quantity':None,'image':'','published':True,'featured':False,'updatedAt':source['retrieved_at']})
 patterns={
  'tool-001':r'perac|peranje pod pritiskom|puromat', 'tool-002':r'parocistac', 'tool-003':r'dubinsko|^karcer$', 'tool-004':r'usisivac|usisavanje',
  'tool-007':r'polirk|poliranje', 'tool-011':r'vlage|vlagu|vlazivac|susac vazduha', 'tool-013':r'drenazna pumpa|muljna pumpa|wacker pt|pumpa za vodu -',

@@ -1,10 +1,11 @@
+import { databaseComponent } from '@/lib/db';
 import type { MetadataRoute } from 'next';
 import { publicData } from '@/lib/db';
 import { locales, href } from '@/lib/i18n';
 import { SEO_CONTENT_UPDATED_AT } from '@/lib/seo-content';
 import { siteOrigin, languageAlternates } from '@/lib/site-url';
 export const dynamic = 'force-dynamic';
-export default function sitemap(): MetadataRoute.Sitemap {
+function dbsitemap(): MetadataRoute.Sitemap {
   const d = publicData();
   const base = siteOrigin(d.settings);
   if (!base) return [];
@@ -23,3 +24,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   }));
 }
+
+export default databaseComponent(dbsitemap);

@@ -13,7 +13,7 @@ let child, logs = '';
 
 before(async () => {
   child = spawn(process.execPath, ['node_modules/next/dist/bin/next', 'start', '--hostname', '127.0.0.1', '--port', '3016'], {
-    env: { ...process.env, VERCEL: '1', DATA_DIR: join(blocked, 'data') },
+    env: { ...process.env, POSTGRES_URL: '', DATABASE_URL: '', POSTGRES_PRISMA_URL: '', VERCEL: '1', DATA_DIR: join(blocked, 'data') },
     stdio: ['ignore', 'pipe', 'pipe'],
   });
   child.stdout.on('data', chunk => logs += chunk);

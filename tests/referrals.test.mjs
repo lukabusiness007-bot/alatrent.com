@@ -41,7 +41,7 @@ function fixture(kind,id,mutate) {
   db.close();
 }
 before(async()=>{
-  const env={...process.env,DATA_DIR:dir,ADMIN_PASSWORD:password};
+  const env={...process.env, POSTGRES_URL: '', DATABASE_URL: '', POSTGRES_PRISMA_URL: '',DATA_DIR:dir,ADMIN_PASSWORD:password};
   assert.equal(spawnSync(process.execPath,['scripts/reset-admin.mjs'],{env}).status,0);
   child=spawn(process.execPath,['node_modules/next/dist/bin/next','start','--hostname','127.0.0.1','--port','3015'],{env,stdio:['ignore','pipe','pipe']});
   child.stdout.on('data',x=>logs+=x);child.stderr.on('data',x=>logs+=x);

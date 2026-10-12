@@ -1,10 +1,11 @@
+import { databaseComponent } from '@/lib/db';
 import { authorized } from '@/lib/auth';
 import { all, settings } from '@/lib/db';
 import type { Tool, Category, RentalRequest } from '@/lib/types';
 import Admin from '@/components/Admin';
 import { catalogOnly } from '@/lib/storage';
 export const dynamic = 'force-dynamic';
-export default async function Page() {
+async function dbPage() {
   if (catalogOnly) return (
     <main className="commerce-page container">
       <h1>Administracija trenutno nije dostupna</h1>
@@ -28,3 +29,5 @@ export default async function Page() {
     />
   );
 }
+
+export default databaseComponent(dbPage);

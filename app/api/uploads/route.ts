@@ -1,8 +1,11 @@
+import { persistentDatabase } from '@/lib/storage';
+import { savePersistentMedia } from '@/lib/postgres.mjs';
+import { databaseRoute } from '@/lib/db';
 import { randomUUID } from 'node:crypto';
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { authorized, sameOrigin } from '@/lib/auth';
-export async function POST(r: Request) {
+async function dbPOST(r: Request) {
   if (!sameOrigin(r) || !(await authorized())) return new Response(null, { status: 403 });
   if (Number(r.headers.get('content-length')) > 6 * 1024 * 1024)
     return Response.json({ error: 'Maksimalna veličina je 5 MB.' }, { status: 413 });
@@ -18,6 +21,11 @@ export async function POST(r: Request) {
       ext = 'webp';
     if (!ext) throw new Error('Podržani su JPG, PNG i WebP.');
     const name = randomUUID() + '.' + ext;
+    if (persistentDatabase) {
+      const mime = ext === 'jpg' ? 'image/jpeg' : 'image/' + ext;
+      await savePersistentMedia(name, mime, bytes);
+      return Response.json({ url: '/media/' + name });
+    }
     const dir = path.join(process.env.DATA_DIR || path.join(process.cwd(), 'data'), 'uploads');
     await mkdir(dir, { recursive: true });
     await writeFile(path.join(dir, name), bytes);
@@ -29,3 +37,5 @@ export async function POST(r: Request) {
     );
   }
 }
+
+export const POST = databaseRoute(dbPOST, true);

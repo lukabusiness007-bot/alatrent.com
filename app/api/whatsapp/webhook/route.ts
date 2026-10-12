@@ -1,7 +1,8 @@
+import { databaseRoute } from '@/lib/db';
 import { createHmac, timingSafeEqual } from 'node:crypto';
 import { all, get, put } from '@/lib/db';
 import type { Message } from '@/lib/commerce/types';
-export async function GET(r: Request) {
+async function dbGET(r: Request) {
   const p = new URL(r.url).searchParams;
   if (
     process.env.WHATSAPP_VERIFY_TOKEN &&
@@ -11,7 +12,7 @@ export async function GET(r: Request) {
     return new Response(p.get('hub.challenge'));
   return new Response(null, { status: 403 });
 }
-export async function POST(r: Request) {
+async function dbPOST(r: Request) {
   const raw = await r.text(),
     secret = process.env.WHATSAPP_APP_SECRET;
   if (!secret || raw.length > 1000000) return new Response(null, { status: 403 });
@@ -62,3 +63,6 @@ export async function POST(r: Request) {
     return new Response(null, { status: 400 });
   }
 }
+
+export const GET = databaseRoute(dbGET, false);
+export const POST = databaseRoute(dbPOST, true);

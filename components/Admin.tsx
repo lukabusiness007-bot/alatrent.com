@@ -1315,7 +1315,7 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
           )}
         </main>
         <footer className="admin-footer">
-          Alat Rent · Admin panel<span>Podaci se čuvaju u lokalnoj bazi.</span>
+          Alat Rent · Admin panel<span>Podaci su sačuvani u bazi.</span>
         </footer>
       </div>
     </div>

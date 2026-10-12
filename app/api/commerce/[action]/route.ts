@@ -1,3 +1,4 @@
+import { databaseRoute } from '@/lib/db';
 import { randomBytes, randomUUID, scryptSync } from 'node:crypto';
 import { all, get, put, remove, transaction } from '@/lib/db';
 import { sameOrigin, rateLimit, hashToken } from '@/lib/auth';
@@ -18,7 +19,7 @@ import type { Order, Customer, Project, Watch, Team } from '@/lib/commerce/types
 export const dynamic = 'force-dynamic';
 const json = (data: unknown, status = 200) =>
   Response.json(data, { status, headers: { 'Cache-Control': 'no-store' } });
-export async function GET(r: Request, { params }: { params: Promise<{ action: string }> }) {
+async function dbGET(r: Request, { params }: { params: Promise<{ action: string }> }) {
   const { action } = await params;
   const customer = await currentCustomer();
   const teams = customer
@@ -52,7 +53,7 @@ export async function GET(r: Request, { params }: { params: Promise<{ action: st
   }
   return json({ error: 'Nije pronađeno.' }, 404);
 }
-export async function POST(r: Request, { params }: { params: Promise<{ action: string }> }) {
+async function dbPOST(r: Request, { params }: { params: Promise<{ action: string }> }) {
   if (!sameOrigin(r)) return json({ error: 'Osveži stranicu.' }, 403);
   try {
     const { action } = await params;
@@ -212,3 +213,6 @@ export async function POST(r: Request, { params }: { params: Promise<{ action: s
     return json({ error: e instanceof Error ? e.message : 'Proveri podatke.' }, 400);
   }
 }
+
+export const GET = databaseRoute(dbGET, false);
+export const POST = databaseRoute(dbPOST, true);

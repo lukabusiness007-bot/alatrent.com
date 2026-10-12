@@ -1,3 +1,4 @@
+import { databaseRoute } from '@/lib/db';
 import { randomUUID } from 'node:crypto';
 import { authorized, sameOrigin } from '@/lib/auth';
 import { all, get, put, settings, transaction } from '@/lib/db';
@@ -35,7 +36,7 @@ function ids(v: unknown): string[] {
     throw new Error('Izaberi postojeće alate.');
   return [...new Set(v)];
 }
-export async function GET() {
+async function dbGET() {
   if (!(await authorized())) return json({ error: 'Prijavi se.' }, 401);
   const orders = all<Order>('orders');
   const finished = orders.filter((o) => o.status === 'completed' && o.paid);
@@ -118,7 +119,7 @@ export async function GET() {
     },
   });
 }
-export async function POST(r: Request) {
+async function dbPOST(r: Request) {
   if (!sameOrigin(r) || !(await authorized())) return json({ error: 'Prijavi se.' }, 403);
   try {
     const raw = await r.text();
@@ -273,3 +274,6 @@ export async function POST(r: Request) {
     return json({ error: e instanceof Error ? e.message : 'Proveri unos.' }, 400);
   }
 }
+
+export const GET = databaseRoute(dbGET, false);
+export const POST = databaseRoute(dbPOST, true);

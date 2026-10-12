@@ -12,7 +12,7 @@ let child;
 let cookie = '';
 let logs = '';
 const env = {
-  ...process.env,
+  ...process.env, POSTGRES_URL: '', DATABASE_URL: '', POSTGRES_PRISMA_URL: '',
   DATA_DIR: dir,
   ADMIN_PASSWORD: password,
   WHATSAPP_APP_SECRET: 'test-webhook-secret',

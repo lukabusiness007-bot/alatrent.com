@@ -10,7 +10,7 @@ const password = 'local-test-password-2026';
 let child;
 let cookie = '';
 let logs = '';
-const env = { ...process.env, DATA_DIR: dir, ADMIN_PASSWORD: password };
+const env = { ...process.env, POSTGRES_URL: '', DATABASE_URL: '', POSTGRES_PRISMA_URL: '', DATA_DIR: dir, ADMIN_PASSWORD: password };
 async function api(path, body, method = 'POST', auth = true, origin = base) {
   const response = await fetch(base + path, {
     method,

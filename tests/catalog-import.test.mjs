@@ -24,7 +24,7 @@ async function stop() {
 }
 async function start(adminPassword = password) {
   child = spawn(process.execPath, ['scripts/start-production.mjs'], {
-    env: { ...process.env, VERCEL: '', DATA_DIR: dir, ADMIN_PASSWORD: adminPassword, PORT: '3017', APP_HOST: '127.0.0.1' },
+    env: { ...process.env, POSTGRES_URL: '', DATABASE_URL: '', POSTGRES_PRISMA_URL: '', VERCEL: '', DATA_DIR: dir, ADMIN_PASSWORD: adminPassword, PORT: '3017', APP_HOST: '127.0.0.1' },
     stdio: ['ignore', 'pipe', 'pipe'],
   });
   child.stdout.on('data', x => logs += x); child.stderr.on('data', x => logs += x);

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import '../globals.css';
 import './admin.css';
 export const metadata: Metadata = {
-  title: 'Administracija | Rent Tools',
+  title: 'Administracija | Alat Rent',
   robots: { index: false, follow: false },
   icons: { icon: '/favicon.svg' },
 };

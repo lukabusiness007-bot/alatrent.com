@@ -57,7 +57,7 @@ if (!get('meta', 'seeded'))
     for (const c of seed.categories) put('categories', c.id, c);
     for (const t of seed.tools) put('tools', t.id, t);
     put('settings', 'main', {
-      brand: 'rent tools',
+      brand: 'alat rent',
       phone: '',
       email: '',
       address: '',
@@ -67,6 +67,16 @@ if (!get('meta', 'seeded'))
       deliveryNote: { sr: '', en: '', ru: '', tr: '', zh: '' },
     });
     put('meta', 'seeded', true);
+  });
+// Rename the original brand in existing installations as well as new catalogs.
+if (!get('meta', 'alat-rent-brand-v1'))
+  transaction(() => {
+    if (get('meta', 'alat-rent-brand-v1')) return;
+    const current = get<Settings>('settings', 'main');
+    if (current?.brand.trim().toLowerCase() === 'rent tools') {
+      put('settings', 'main', { ...current, brand: 'alat rent' });
+    }
+    put('meta', 'alat-rent-brand-v1', true);
   });
 // One-time catalog refresh. Preserve custom prices and uploaded photographs.
 if (!get('meta', 'photos-prices-no-deposit-v1'))

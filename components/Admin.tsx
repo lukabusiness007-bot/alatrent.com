@@ -163,7 +163,7 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
             ← Nazad na sajt
           </Link>
         </div>
-        <p className="login-caption">Rent Tools · Upravljanje najmom</p>
+        <p className="login-caption">Alat Rent · Upravljanje najmom</p>
       </main>
     );
   const pending = data.requests.filter((r) => r.status === 'pending');
@@ -1315,7 +1315,7 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
           )}
         </main>
         <footer className="admin-footer">
-          Rent Tools · Admin panel<span>Podaci se čuvaju u lokalnoj bazi.</span>
+          Alat Rent · Admin panel<span>Podaci se čuvaju u lokalnoj bazi.</span>
         </footer>
       </div>
     </div>

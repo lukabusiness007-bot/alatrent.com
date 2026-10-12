@@ -268,10 +268,6 @@ export function Home({ locale, data }: { locale: Locale; data: PublicData }) {
       <section className="hero">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow">
-              <MapPin size={12} />
-              {t.area}
-            </span>
             <h1>
               {locale === 'sr' ? 'Iznajmljivanje alata' : t.hero1}
               <span>{locale === 'sr' ? 'u Beogradu.' : t.hero2}</span>

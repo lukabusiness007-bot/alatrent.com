@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 import { copy, href, languageNames, locales } from '@/lib/i18n';
 import type { Locale } from '@/lib/types';
 import { ArrowRight, ChevronDown, Globe2, Menu, X, Sparkles, Check } from './Icons';
-export function Brand({ name = 'rent tools' }: { name?: string }) {
+export function Brand({ name = 'alat rent' }: { name?: string }) {
   return (
     <span className="brand rental-brand">
       {name}

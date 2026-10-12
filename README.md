@@ -1,4 +1,4 @@
-# Rent Tools
+# Alat Rent
 
 Sajt za iznajmljivanje sopstvenih alata na teritoriji grada Beograda, sa admin panelom. Vizuelni sistem preuzet je iz postojećeg projekta `tesla men`: Google Sans, crni header, mint akcenti, limeta dugmad sa crnom senkom i isti raspored sekcija/kartica.
 

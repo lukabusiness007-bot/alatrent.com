@@ -42,7 +42,7 @@ export default function Club({ locale, threshold, percent, referralProgram }: { 
       <div className="km-card-stage">
         <div className="km-card-orbit" aria-hidden="true" />
         <div className="km-member-card">
-          <div className="km-card-brand"><strong>rent tools<Sparkles size={23} /></strong><span>{ct(locale, 'club')}</span></div>
+          <div className="km-card-brand"><strong>alat rent<Sparkles size={23} /></strong><span>{ct(locale, 'club')}</span></div>
           <p className="km-card-title">{w('cardTitle')}</p>
           <div className="km-card-rate"><strong>{percent}<span>%</span></strong><span>{w('regularRate')}</span></div>
           <div className="km-card-condition"><Check size={17} /><span>{w('condition')}: {qualifying}</span></div>

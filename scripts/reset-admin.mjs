@@ -20,7 +20,7 @@ db.close();
 const file = path.join(dir, 'admin-access.txt');
 writeFileSync(
   file,
-  'Rent Tools — lokalni admin pristup\n\nURL: http://localhost:3010/admin\nLozinka: ' +
+  'Alat Rent — lokalni admin pristup\n\nURL: http://localhost:3010/admin\nLozinka: ' +
     password +
     '\n\nReset: npm run admin:reset\nOvaj fajl nije deo Git repozitorijuma. Ne objavljivati.\n',
   { mode: 0o600 },

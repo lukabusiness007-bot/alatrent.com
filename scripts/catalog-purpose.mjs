@@ -41,6 +41,7 @@ export function rentalPurpose(tool,source={}) {
  if(/kuka za|set stopa|stabilizator za|tockovi za|platforma za.*merdevin|nastavak za|pribor za/.test(n))return excluded('Pribor uz mašinu ili merdevine; nije samostalni oglas.');
  if(/set.*alat|busilica.* i .*brusil|busilica.* i .*ubodn|udarni.*\+.*busilica|elektricni setovi|kombinovani setovi|aku setovi/.test(n+' '+normalize(c)))return excluded('Komplet više alata; dodatak paketu pojedinačnih izabranih mašina.');
  if(/hm1812|hm1802|gsh 16/.test(n))return result('podni-pikamer','Teški električni čekić za podove i beton');
+ if(/\bdhr\d|akumul.*pneumatsk.*(?:cekic|busil)/.test(n))return /sds.*max|\bdhr[45]/.test(n)?result('busilica-sds-max','SDS Max bušilica za beton'):result('busilica-sds-plus','SDS Plus bušilica za beton');
  if(/\bgbh\b/.test(n))return /gbh (?:5|8|12)/.test(n)?result('busilica-sds-max','SDS Max bušilica za beton'):result('busilica-sds-plus','SDS Plus bušilica za beton');
  if(/\bgco\b|mt150/.test(n))return result('metalne-testere','Stacionarna odsečna testera za metal');
  if(/dcs380|povratna testera/.test(n))return result('sabljasta-testera','Sabljasta testera');

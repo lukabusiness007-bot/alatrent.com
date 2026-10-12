@@ -5,6 +5,7 @@ const tool=(name,id='new-model')=>({id,name:{sr:name},catalogModel:{productId:'n
 test('Rental purposes distinguish operations and reject ordinary accessories',()=>{
  assert.equal(rentalPurpose(tool('Pneumatski čekić za kompresor')).key,'pneumatski-cekic');
  assert.equal(rentalPurpose(tool('Bosch GSH 11 E elektro-pneumatski čekić')).key,'pikamer');
+ assert.equal(rentalPurpose(tool('Makita DHR202Z akumulatorski pneumatski čekić bušilica')).key,'busilica-sds-plus');
  assert.equal(rentalPurpose(tool('Honda Mio čeona grebenasta kosačica')).key,'ceona-kosilica');
  assert.equal(rentalPurpose(tool('Honda samohodna motorna kosilica 46 cm')).key,'kosilica');
  assert.equal(rentalPurpose(tool('Makita GA9020 velika ugaona brusilica 230 mm')).key,'brusilica-velika');

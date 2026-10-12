@@ -4,6 +4,9 @@ import { sameOrigin, rateLimit } from '@/lib/auth';
 import { get, put, settings, transaction, occupied } from '@/lib/db';
 import { text, date, today, rentalDays } from '@/lib/validation';
 import { locales, type Tool, type Category, type RentalRequest } from '@/lib/types';
+import { currentCustomer } from '@/lib/commerce/auth';
+import { member } from '@/lib/commerce/data';
+import { round } from '@/lib/commerce/pricing';
 async function dbPOST(r: Request) {
   if (!sameOrigin(r)) return Response.json({ error: 'invalid' }, { status: 403 });
   if (Number(r.headers.get('content-length')) > 20000)
@@ -42,6 +45,7 @@ async function dbPOST(r: Request) {
       !rateLimit('requests-total', 100, 3600_000)
     )
       return Response.json({ error: 'invalid' }, { status: 429 });
+    const customer = await currentCustomer();
     return transaction(() => {
       const tool = get<Tool>('tools', text(b.toolId, 80));
       if (!tool || !tool.published || !get<Category>('categories', tool.categoryId)?.published)
@@ -49,7 +53,10 @@ async function dbPOST(r: Request) {
       if (tool.quantity !== null && occupied(tool.id, start, end) + b.quantity > tool.quantity)
         return Response.json({ error: 'unavailable' }, { status: 409 });
       const s = settings();
+      const membership = customer ? member(customer) : undefined;
       const record: RentalRequest = {
+        customerId: customer?.id,
+        depositWaived: membership?.depositWaived === true,
         id: 'RT-' + randomUUID().slice(0, 8).toUpperCase(),
         toolId: tool.id,
         toolName: tool.name.sr,
@@ -63,15 +70,16 @@ async function dbPOST(r: Request) {
         days,
         quantity: b.quantity,
         delivery: b.delivery,
-        rentalTotal: tool.price === null ? null : tool.price * days * b.quantity,
+        rentalTotal: tool.price === null ? null : round(tool.price * days * b.quantity * (1 - (membership?.discount || 0) / 100)),
         deliveryTotal:
           b.delivery === 'standard'
             ? s.standardDelivery
             : b.delivery === 'express'
               ? s.expressDelivery
               : 0,
-        deposit: 0,
+        deposit: membership?.depositWaived ? 0 : null,
         status: 'pending',
+        paid: false,
         locale: b.locale,
         createdAt: new Date().toISOString(),
       };

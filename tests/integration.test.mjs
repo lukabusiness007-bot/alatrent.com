@@ -131,7 +131,7 @@ test('Create, update, hide and delete categories and tools with all translations
   });
   assert.equal(r.response.status, 200);
   tool = r.result;
-  assert.equal(tool.deposit, 0, "deposits cannot be re-enabled through the API");
+  assert.equal(tool.deposit, null, "deposits are agreed per rental rather than per tool");
   assert.equal((await fetch(base + '/en/alat/test-drill')).status, 200);
   assert.equal(
     (await api('/api/admin/tools', { ...tool, id: undefined })).response.status,
@@ -206,7 +206,8 @@ test('Request is saved with server-side prices and validated dates/consent', asy
   let saved = r.result.requests.find((x) => x.id === requestOne);
   assert.equal(saved.rentalTotal, 3000);
   assert.equal(saved.deliveryTotal, 1500);
-  assert.equal(saved.deposit, 0);
+  assert.equal(saved.deposit, null);
+  assert.equal(saved.depositWaived, false);
   assert.equal(saved.days, 3);
   assert.equal(saved.status, 'pending');
   r = await api('/api/requests', { ...booking(), phone: '+381600000002' }, 'POST', false);
@@ -215,11 +216,11 @@ test('Request is saved with server-side prices and validated dates/consent', asy
 });
 test('Confirmation prevents double booking and cancellation releases capacity', async () => {
   assert.equal(
-    (await api('/api/admin/requests', { id: requestOne, status: 'confirmed' })).response.status,
+    (await api('/api/admin/requests', { id: requestOne, status: 'confirmed', deposit: 1000 })).response.status,
     200,
   );
   assert.equal(
-    (await api('/api/admin/requests', { id: requestTwo, status: 'confirmed' })).response.status,
+    (await api('/api/admin/requests', { id: requestTwo, status: 'confirmed', deposit: 1000 })).response.status,
     400,
   );
   const unavailable = await api(
@@ -232,7 +233,7 @@ test('Confirmation prevents double booking and cancellation releases capacity', 
   assert.equal(unavailable.result.error, 'unavailable');
   await api('/api/admin/requests', { id: requestOne, status: 'cancelled' });
   assert.equal(
-    (await api('/api/admin/requests', { id: requestTwo, status: 'confirmed' })).response.status,
+    (await api('/api/admin/requests', { id: requestTwo, status: 'confirmed', deposit: 1000 })).response.status,
     200,
   );
   assert.equal(

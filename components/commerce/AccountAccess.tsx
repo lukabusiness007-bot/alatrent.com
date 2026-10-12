@@ -7,6 +7,7 @@ import type { Locale } from '@/lib/types';
 import { copy } from '@/lib/i18n';
 import { ct } from '@/lib/commerce/copy';
 import { showProjectKits } from '@/lib/commerce/features';
+import { membershipText } from '@/lib/commerce/membership-copy';
 
 const words = {
   password: ['Lozinka', 'Password', 'Пароль', 'Şifre', '密码'],
@@ -63,8 +64,9 @@ export default function AccountAccess({ locale, mode, setMode, busy, error, onSu
         if (mode !== 'login' && values.get('password') !== values.get('confirmPassword')) { setValidation(w('mismatch')); return; }
         setValidation(''); await onSubmit(e);
       }}>
-        {mode === 'register' && <label>{copy[locale].name}<input name="name" required maxLength={120} autoComplete="name" /></label>}
+        {mode === 'register' && <label>{membershipText(locale, 'email')}<input name="email" type="email" required maxLength={150} autoComplete="email" /></label>}
         <label>{copy[locale].phone}<input name="phone" type="tel" required autoComplete="username" inputMode="tel" placeholder="+381 60 123 4567" /></label>
+        {mode === 'register' && <label>{copy[locale].name}<input name="name" required maxLength={120} autoComplete="name" /></label>}
         {mode === 'recover' && <label>{ct(locale, 'recovery')}<input name="recovery" required autoComplete="off" spellCheck={false} autoCapitalize="none" /></label>}
         <label>{mode === 'recover' ? w('newPassword') : w('password')}
           <span className="password-field"><input name="password" aria-label={w(mode === 'recover' ? 'newPassword' : 'password')} type={visible ? 'text' : 'password'} minLength={mode === 'login' ? undefined : 12} maxLength={200} required autoComplete={mode === 'login' ? 'current-password' : 'new-password'} aria-describedby={mode !== 'login' ? 'password-hint' : undefined} /><button type="button" onClick={() => setVisible(!visible)} aria-label={w(visible ? 'hide' : 'show')} aria-pressed={visible}>{visible ? <EyeOff size={19} /> : <Eye size={19} />}</button></span>

@@ -323,7 +323,7 @@ export default function CommerceAdmin() {
               <h2>Club</h2>
               <div className="commerce-inline">
                 <label>
-                  Broj završenih najmova za popust
+                  Broj plaćenih i završenih najmova za oslobađanje od depozita
                   <input
                     type="number"
                     min={1}
@@ -335,7 +335,7 @@ export default function CommerceAdmin() {
                   />
                 </label>
                 <label>
-                  Klupski popust (%)
+                  Klupski popust od učlanjenja (%)
                   <input
                     type="number"
                     min={0}
@@ -704,6 +704,8 @@ export default function CommerceAdmin() {
                       status: f.get('status'),
                       paid: f.get('paid') === 'on',
                       referralVerified: f.get('referralVerified') === 'on',
+                      ...(selected.status === 'pending' && !selected.depositWaived && f.get('depositTotal') !== '' && f.get('depositTotal') !== null
+                        ? { depositTotal: Number(f.get('depositTotal')) } : {}),
                       ...(selected.status === 'pending'
                         ? { deliveryTotal: Number(f.get('deliveryTotal')) }
                         : {}),
@@ -782,6 +784,12 @@ export default function CommerceAdmin() {
                       disabled={selected.status !== 'pending'}
                     />
                   </label>
+                  {selected.depositWaived ? <p className="saving-pill">Bez depozita — klupska pogodnost nakon završenih najmova.</p> : <label>
+                    Dogovoreni depozit (RSD, odvojeno od najma i dostave)
+                    <input name="depositTotal" type="number" min={1} max={10000000} step={1}
+                      defaultValue={selected.depositTotal ?? ''} disabled={selected.status !== 'pending'} />
+                    <small>Unesi iznos dogovoren sa korisnikom pre potvrde najma.</small>
+                  </label>}
                   <label>
                     Status
                     <select
@@ -950,7 +958,7 @@ export default function CommerceAdmin() {
                   <div>
                     <strong>{c.name}</strong>
                     <p>
-                      {c.phone} · {c.completed} završenih najmova · kredit {money(c.credit, 'sr')}
+                      {c.phone} · {c.email || 'Email nije unet'} · {c.completed} završenih najmova · kredit {money(c.credit, 'sr')} · {c.depositWaived ? 'Bez depozita' : 'Depozit po dogovoru'}
                     </p>
                   </div>
                   <label>

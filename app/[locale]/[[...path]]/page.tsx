@@ -5,6 +5,9 @@ import { copy, href, isLocale } from '@/lib/i18n';
 import { publicData, all } from '@/lib/db';
 import { config, options } from '@/lib/commerce/data';
 import { hashToken } from '@/lib/auth';
+import { currentCustomer } from '@/lib/commerce/auth';
+import { catalogOnly } from '@/lib/storage';
+import ClubPopup from '@/components/commerce/ClubPopup';
 import { publicOrder } from '@/lib/commerce/orders';
 import type { Bundle, Order } from '@/lib/commerce/types';
 import { ct } from '@/lib/commerce/copy';
@@ -58,7 +61,7 @@ async function dbgenerateMetadata({ params, searchParams }: Props) {
     : category ? `${categoryHeading(category, locale)} — ${locale === 'sr' ? 'Beograd' : t.area}` : pages[key].title;
   const description = tool
     ? locale === 'sr'
-      ? `${toolHeading(tool, locale)} u Beogradu, bez depozita. ${tool.price === null ? 'Zatraži cenu' : 'Pogledaj dnevnu cenu'}, proveri namenu i pošalji upit za termin i dostavu.`
+      ? `${toolHeading(tool, locale)} u Beogradu. ${tool.price === null ? 'Zatraži cenu' : 'Pogledaj dnevnu cenu'}, proveri namenu i pošalji upit za termin i dostavu. Depozit po dogovoru; klupske pogodnosti za članove.`
       : `${tool.name[locale]} — ${t.categorySeo}. ${t.depositNote} ${t.requestHint}`
     : category ? `${category.name[locale]} — ${t.categorySeo}. ${categoryDescription(category, locale)}` : pages[key].description;
   return seo(locale, path.join('/'), title, description, noindex,
@@ -83,7 +86,10 @@ async function dbPage({ params, searchParams }: Props) {
     if (!order) notFound();
     return <section className="container commerce-page"><OrderDetails initial={publicOrder(order)} token={path[1]} locale={locale} reviewUrl={cfg.reviewUrl} /></section>;
   }
-  if (!key) return <Home locale={locale} data={data} />;
+  if (!key) return <>
+    <Home locale={locale} data={data} />
+    {!catalogOnly && !(await currentCustomer()) && <ClubPopup locale={locale} percent={cfg.clubPercent} threshold={cfg.clubThreshold} />}
+  </>;
   if (key === 'katalog' || key === 'kategorija') {
     const category =
       key === 'kategorija' ? data.categories.find((c) => c.slug === path[1]) : undefined;
@@ -94,7 +100,7 @@ async function dbPage({ params, searchParams }: Props) {
         data={data}
         category={category}
         q={typeof q.q === 'string' ? q.q.slice(0, 150) : ''}
-        sort={typeof q.sort === 'string' ? q.sort : 'name'}
+        sort={typeof q.sort === 'string' ? q.sort : 'category'}
       />
     );
   }

@@ -45,13 +45,12 @@ export function config(): CommerceConfig {
 }
 export const options = (id: string) => get<ToolOptions>('toolOptions', id) || blankOptions;
 export function member(c: Customer): PublicCustomer {
-  const completed = all<Order>('orders').filter(
+  const completed = [...all<Order>('orders'), ...all<RentalRequest>('requests')].filter(
     (o) =>
       o.customerId === c.id &&
       o.status === 'completed' &&
       o.paid &&
-      o.completedAt &&
-      Date.parse(o.completedAt) >= Date.now() - 365 * 86400000,
+      o.completedAt,
   ).length;
   const cfg = config();
   const { salt: _s, hash: _h, recoveryHash: _r, ...safe } = c;
@@ -59,7 +58,9 @@ export function member(c: Customer): PublicCustomer {
     ...safe,
     completed,
     tier: c.partnerPercent > 0 ? 'partner' : completed >= cfg.clubThreshold ? 'regular' : 'member',
-    discount: Math.max(c.partnerPercent, completed >= cfg.clubThreshold ? cfg.clubPercent : 0),
+    discount: Math.max(c.partnerPercent, cfg.clubPercent),
+    depositWaived: completed >= cfg.clubThreshold,
+    depositThreshold: cfg.clubThreshold,
   };
 }
 export function cartItems(input: unknown): CartItem[] {
@@ -134,7 +135,8 @@ export function quote(
   if (teamId && (!team || !customer || !team.customerIds.includes(customer.id)))
     throw new Error('Nemaš pristup ovoj firmi.');
   const cfg = config(),
-    club = Math.max(customer ? member(customer).discount : 0, team?.discount || 0);
+    membership = customer ? member(customer) : undefined,
+    club = Math.max(membership?.discount || 0, team?.discount || 0);
   const bundles = all<Bundle>('bundles').filter((b) => b.published && b.toolIds.length > 1);
   let lines: Line[] = items.map((item) => {
     const tool = get<Tool>('tools', item.toolId)!;
@@ -192,6 +194,8 @@ export function quote(
       policy: { ...cfg.referralProgram },
       discount: round(beforeReferral! - rentalTotal!), status: 'pending' as const,
     } } : {}),
+    depositTotal: membership?.depositWaived ? 0 : null,
+    depositWaived: membership?.depositWaived === true,
     items: lines,
     rentalTotal,
     baseTotal,

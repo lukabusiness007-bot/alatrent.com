@@ -6,6 +6,7 @@ import type { Locale } from '@/lib/types';
 import { ct, type CommerceKey } from '@/lib/commerce/copy';
 import { copy, money } from '@/lib/i18n';
 import { commerce } from './CartPage';
+import { membershipText } from '@/lib/commerce/membership-copy';
 export default function OrderDetails({
   initial,
   locale,
@@ -58,6 +59,10 @@ export default function OrderDetails({
           <strong>{order.total === null ? (order.items.some(i => i.openEnded) ? ct(locale, 'finalOnReturn') : t.inquiryPrice) : money(order.total, locale)}</strong>
         </p>
         {order.status === 'pending' && <p>{ct(locale, 'pending')}</p>}
+        {order.depositWaived !== undefined && <div className="checkout-deposit">
+          <p><strong>{membershipText(locale, 'deposit')}</strong>: {order.depositWaived ? membershipText(locale, 'depositWaived') : order.depositTotal == null ? membershipText(locale, 'depositPending') : money(order.depositTotal, locale)}</p>
+          <small>{membershipText(locale, 'depositHint')}</small>
+        </div>}
       </div>
       <h2>{ct(locale, 'instructions')}</h2>
       {order.items.map((i, index) => (

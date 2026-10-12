@@ -2609,6 +2609,14 @@ p {
   color: #889080;
   flex-shrink: 0;
 }
+.search-bar:focus-within {
+  border-color: #577747;
+  box-shadow: 0 0 0 3px #57774720;
+}
+.hero-copy .home-search {
+  margin: 0 0 28px;
+  max-width: 500px;
+}
 .search-bar input {
   flex: 1;
   width: 100%;
@@ -2651,10 +2659,6 @@ p {
 .catalog-sidebar > a svg {
   flex-shrink: 0;
 }
-.catalog-sidebar > a > span:last-child,
-.catalog-sidebar > a > small {
-  margin-left: auto;
-}
 .catalog-sidebar > a.selected {
   background: #eaf3da;
   color: #162b19;
@@ -2686,6 +2690,27 @@ p {
 .catalog-tools {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
+}
+.catalog-groups {
+  display: grid;
+  gap: 40px;
+}
+.catalog-group-title {
+  font-size: clamp(19px, 2vw, 24px);
+  line-height: 1.4;
+  margin: 0 0 20px;
+}
+.catalog-group-title a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.catalog-group-title svg {
+  color: #577747;
+  flex-shrink: 0;
+}
+.catalog-group-title svg:last-child {
+  margin-left: auto;
 }
 .catalog-tools .tool-art {
   height: 195px;
@@ -3626,9 +3651,7 @@ p {
     margin: 0;
     max-width: 230px;
   }
-  .catalog-sidebar > a svg,
-  .catalog-sidebar > a small,
-  .catalog-sidebar > a > span:last-child:not(:first-child) {
+  .catalog-sidebar > a svg {
     display: none;
   }
   .catalog-sidebar > a > span {
@@ -3864,4 +3887,48 @@ p {
   .duration-days { gap: 4px; }
   .duration-options { gap: 6px; }
   .duration-options button { padding: 9px; }
+}
+
+/* Club invitation and deposit terms */
+.club-popup { width: min(1020px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); padding: 0; border: 0; border-radius: 24px; background: #fff; color: #172014; box-shadow: 0 25px 100px #0005; }
+.club-popup::backdrop { background: #102019b3; backdrop-filter: blur(4px); }
+.club-popup-close { position: absolute; right: 12px; top: 12px; z-index: 2; width: 38px; height: 38px; display: grid; place-items: center; border: 1px solid #dae2d2; border-radius: 50%; background: #fff; color: #25371e; cursor: pointer; }
+.club-popup-grid { display: grid; grid-template-columns: .9fr 1.1fr; }
+.club-popup-intro { padding: 48px 34px 34px; background: #eff4e6; }
+.club-popup-intro h2 { font-size: clamp(30px, 4vw, 44px); letter-spacing: -.04em; line-height: 1.12; margin: 20px 0; }
+.club-popup-intro > p { font-size: 15px; color: #5c684f; line-height: 1.7; }
+.club-popup-benefits { list-style: none; padding: 0; margin: 30px 0; display: grid; gap: 26px; }
+.club-popup-benefits li { display: flex; gap: 14px; align-items: flex-start; }
+.club-popup-benefits svg { flex-shrink: 0; color: #4e6e30; }
+.club-popup-benefits strong { font-size: 18px; line-height: 1.45; display: block; }
+.club-popup-benefits p { font-size: 13px; color: #647055; line-height: 1.65; margin: 8px 0 0; }
+.club-popup .account-access { display: block; border: 0; border-radius: 0; margin: 0; box-shadow: none; }
+.club-popup .access-story, .club-popup .access-guest { display: none; }
+.club-popup .access-panel { padding: 58px 32px 30px; }
+.club-popup .access-title { display: none; }
+.club-popup .access-subtitle { margin-bottom: 20px; }
+.club-popup .commerce-form { display: grid; gap: 16px; }
+.club-popup .commerce-form label:not(.commerce-check) { display: grid; gap: 7px; font-size: 13px; }
+.club-popup input:not([type=checkbox]) { width: 100%; padding: 11px 13px; border: 1px solid #dce2d3; border-radius: 8px; font: inherit; background: #fff; }
+.club-popup-later { display: block; padding: 0; border: 0; background: transparent; color: #576b43; text-decoration: underline; margin-top: 22px; cursor: pointer; font-size: 13px; }
+.club-popup-success { padding: 55px 35px 35px; max-width: 650px; margin: auto; }
+.club-popup-success h2 { margin: 22px 0; font-size: 32px; line-height: 1.2; }
+.checkout-deposit { border: 1px solid #dfe5d7; border-radius: 10px; padding: 15px; margin: 18px 0; background: #f5f8f0; }
+.checkout-deposit p { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 10px; margin: 0 0 10px; font-size: 13px; }
+.checkout-deposit small { display: block; color: #637052; font-size: 12px; line-height: 1.6; }
+.checkout-deposit a { display: inline-block; margin-top: 12px; font-size: 13px; text-decoration: underline; }
+.membership-progress { padding: 20px; background: #eff5e6; border-radius: 14px; margin-bottom: 25px; }
+.membership-progress p { margin: 10px 0 0; font-size: 14px; line-height: 1.6; color: #5c6d47; }
+@media(max-width:760px) {
+  .club-popup { width: calc(100vw - 20px); max-height: calc(100dvh - 20px); border-radius: 18px; }
+  .club-popup-grid { grid-template-columns: 1fr; }
+  .club-popup-intro { padding: 35px 22px 23px; }
+  .club-popup-intro h2 { max-width: 280px; font-size: 30px; margin: 14px 0; }
+  .club-popup-intro > p { font-size: 13px; }
+  .club-popup-benefits { margin: 22px 0 0; gap: 17px; }
+  .club-popup-benefits strong { font-size: 16px; }
+  .club-popup-benefits p, .club-popup-intro > .text-link { display: none; }
+  .club-popup-intro > .club-popup-later { margin-top: 14px; }
+  .club-popup .access-panel { padding: 24px 22px; }
+  .club-popup input:not([type=checkbox]) { font-size: 16px; }
 }

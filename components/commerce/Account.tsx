@@ -11,6 +11,7 @@ import { Star } from 'lucide-react';
 import AccountAccess from './AccountAccess';
 import OrderDetails from './OrderDetails';
 import { ReferralCard } from './Referrals';
+import { membershipText } from '@/lib/commerce/membership-copy';
 export default function Account({
   locale,
   reviewUrl,
@@ -157,6 +158,10 @@ export default function Account({
               {ct(locale, 'logout')}
             </button>
           </div>
+          <div className="membership-progress">
+            <strong>{membershipText(locale, 'discountBenefit', { percent: customer.discount })}</strong>
+            <p>{membershipText(locale, customer.depositWaived ? 'depositWaived' : 'progress', { completed: customer.completed, threshold: customer.depositThreshold })}</p>
+          </div>
           {referrals && <ReferralCard code={customer.referralCode} summary={referrals} locale={locale} />}
           <div className="account-grid">
             <div>
@@ -258,6 +263,10 @@ export default function Account({
               <label>
                 {t.address}
                 <textarea name="address" defaultValue={customer.address} maxLength={300} />
+              </label>
+              <label>
+                {membershipText(locale, 'email')}
+                <input name="email" type="email" defaultValue={customer.email || ''} required maxLength={150} autoComplete="email" />
               </label>
               <label>
                 {ct(locale, 'company')}

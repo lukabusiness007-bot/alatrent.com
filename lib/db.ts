@@ -114,13 +114,21 @@ function initializeDatabase() {
           ...tool,
           price: tool.price ?? preset?.price ?? null,
           image: tool.image || preset?.image || '',
-          deposit: 0,
+          deposit: tool.deposit,
         });
       }
-      for (const request of all<RentalRequest>('requests')) {
-        put('requests', request.id, { ...request, deposit: 0 });
-      }
       put('meta', 'photos-prices-no-deposit-v1', true);
+    });
+  // Membership benefits apply immediately; completed rentals unlock deposit-free rental.
+  if (!get('meta', 'club-deposit-policy-v1'))
+    transaction(() => {
+      if (get('meta', 'club-deposit-policy-v1')) return;
+      const cfg = get<Record<string, unknown>>('commerce', 'config');
+      if (cfg) put('commerce', 'config', { ...cfg, clubThreshold: 3, clubPercent: 5 });
+      for (const tool of all<Tool>('tools')) {
+        if (tool.deposit === 0) put('tools', tool.id, { ...tool, deposit: null });
+      }
+      put('meta', 'club-deposit-policy-v1', true);
     });
   // Import new equipment types once into existing databases. Preserve edited
   // records, custom IDs, prices, quantities, photos and removed imported tools.
@@ -137,7 +145,7 @@ function initializeDatabase() {
             const category = seed.categories.find(category => category.id === tool.categoryId);
             if (category) put('categories', category.id, category);
           }
-          put('tools', tool.id, tool);
+          put('tools', tool.id, { ...tool, deposit: null });
           knownTypes.add(type);
         }
         put('meta', importedCatalog.migration, true);

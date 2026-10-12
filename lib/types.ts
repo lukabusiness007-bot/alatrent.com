@@ -33,6 +33,10 @@ export type Settings = {
   siteUrl: string;
 };
 export type RentalRequest = {
+  customerId?: string;
+  depositWaived?: boolean;
+  paid?: boolean;
+  completedAt?: string;
   id: string;
   toolId: string;
   toolName: string;

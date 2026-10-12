@@ -32,7 +32,7 @@ const rows = {
     '继续浏览',
   ],
   account: ['Moj nalog', 'My account', 'Мой аккаунт', 'Hesabım', '我的账户'],
-  club: ['Club', 'Club', 'Club', 'Club', 'Club'],
+  club: ['Klub majstora', 'Craftsmen Club', 'Клуб мастеров', 'Ustalar Kulübü', '工匠俱乐部'],
   packages: [
     'Paketi za posao',
     'Project kits',
@@ -80,7 +80,7 @@ const rows = {
     '通过 WhatsApp 接收本次租赁的确认、说明及提醒。',
   ],
   marketing: [
-    'Želim ponude Club-a i podsetnik na sačuvanu korpu putem WhatsApp-a.',
+    'Želim ponude Kluba majstora i podsetnik na sačuvanu korpu putem WhatsApp-a.',
     'Send me Club offers and saved-cart reminders on WhatsApp.',
     'Хочу получать предложения Club и напоминания о корзине в WhatsApp.',
     'WhatsApp üzerinden Club teklifleri ve sepet hatırlatmaları istiyorum.',
@@ -258,11 +258,11 @@ const rows = {
     '减少繁琐操作，完成更多工程。',
   ],
   clubBody: [
-    'Besplatan nalog, istorija najma, sačuvane adrese i povoljnija cena za redovne majstore.',
-    'Free account, rental history, saved addresses and better rates for regular customers.',
-    'Бесплатный аккаунт, история аренды, сохранённые адреса и скидки постоянным клиентам.',
-    'Ücretsiz hesap, kiralama geçmişi, kayıtlı adresler ve düzenli müşterilere indirim.',
-    '免费账户、租赁记录、保存地址和常客优惠。',
+    'Besplatno članstvo, klupski popust od učlanjenja i najam bez depozita nakon tri plaćena i završena najma.',
+    'Free membership, a club discount from signup and no deposit after three paid, completed rentals.',
+    'Бесплатное членство, скидка с регистрации и аренда без залога после трёх оплаченных завершённых аренд.',
+    'Ücretsiz üyelik, kayıttan itibaren indirim ve üç ödenmiş, tamamlanmış kiralamadan sonra depozitosuz kiralama.',
+    '免费会员，注册即享折扣，完成并支付三次租赁后免押金。',
   ],
   clubRule: [
     'Uvek se primenjuje povoljnija tarifa, bez sabiranja popusta.',

@@ -1,7 +1,7 @@
 import { randomBytes, randomUUID } from 'node:crypto';
 import { get, put, all, remove, transaction } from '../db';
 import { hashToken } from '../auth';
-import { text, date, rentalDays, today } from '../validation';
+import { text, date, rentalDays, today, amount } from '../validation';
 import { locales } from '../types';
 import type { Locale } from '../types';
 import type { Customer, Order, Line } from './types';
@@ -196,6 +196,13 @@ export function updateOrder(b: Record<string, unknown>) {
           ? null
           : round(order.rentalTotal + order.deliveryTotal - order.credit);
     }
+    if (b.depositTotal !== undefined) {
+      if (order.status !== 'pending') throw new Error('Depozit je zaključan nakon potvrde.');
+      const deposit = amount(b.depositTotal);
+      if (order.depositWaived && deposit !== 0) throw new Error('Ovaj član kluba ne plaća depozit.');
+      if (!order.depositWaived && deposit !== null && deposit <= 0) throw new Error('Unesi dogovoreni depozit veći od nule.');
+      order.depositTotal = deposit;
+    }
     const status = b.status as Order['status'];
     const transitions: Record<string, string[]> = {
       pending: ['pending', 'confirmed', 'cancelled'],
@@ -205,6 +212,8 @@ export function updateOrder(b: Record<string, unknown>) {
     if (!transitions[order.status]?.includes(status))
       throw new Error('Nedozvoljena promena statusa.');
     if (['confirmed', 'active'].includes(status)) {
+      if (order.depositWaived === false && (order.depositTotal === null || order.depositTotal === undefined))
+        throw new Error('Dogovori i unesi depozit pre potvrde najma.');
       if (status === 'confirmed' && order.items.some((i) => !i.openEnded && i.end < today()))
         throw new Error('Termin je istekao. Potreban je novi zahtev.');
       checkCapacity(order.items, order.id, true);

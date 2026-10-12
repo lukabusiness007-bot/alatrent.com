@@ -90,7 +90,7 @@ test('Expanded types have rental prices, searchable pages and distinct identitie
   assert.equal(saved('meta', expansion.migration), true);
   for (const tool of expansion.tools) {
     assert.equal(saved('tools', tool.id).price, tool.price);
-    assert.equal(saved('tools', tool.id).deposit, 0);
+    assert.equal(saved('tools', tool.id).deposit, null);
     assert.equal(saved('tools', tool.id).quantity, null);
     assert.ok(tool.price > 0);
   }

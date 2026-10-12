@@ -2,7 +2,7 @@ import { randomBytes, randomUUID, scryptSync, timingSafeEqual } from 'node:crypt
 import { cookies } from 'next/headers';
 import { get, all, put, remove } from '../db';
 import { hashToken } from '../auth';
-import { text } from '../validation';
+import { text, emailAddress } from '../validation';
 import type { Customer } from './types';
 import { normalizeReferral } from './referrals';
 export function phoneNumber(v: unknown) {
@@ -58,7 +58,8 @@ export function authenticate(phone: string, password: string) {
 }
 export function register(b: Record<string, unknown>) {
   const phone = phoneNumber(b.phone),
-    password = credentials(b.password);
+    password = credentials(b.password),
+    email = emailAddress(b.email);
   if (all<Customer>('customers').some((c) => c.phone === phone))
     throw new Error('Nalog nije moguće napraviti. Pokušaj prijavu ili oporavak.');
   const recovery = randomBytes(24).toString('hex'),
@@ -72,6 +73,7 @@ export function register(b: Record<string, unknown>) {
   const c: Customer = {
     id: randomUUID(),
     phone,
+    email,
     name: text(b.name, 120),
     address: '',
     company: '',

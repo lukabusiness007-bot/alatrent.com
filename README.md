@@ -25,7 +25,7 @@ Admin lozinka se generiše kriptografski i čuva u **data/admin-access.txt** (do
 - Supabase/PostgreSQL trajno čuva katalog, podešavanja, najmove, naloge, admin sesije i uploadovane fotografije. Lokalni razvoj bez `POSTGRES_URL` koristi SQLite i `data/uploads/`. Fotografije se poslužuju preko `/media/`.
 - Upiti za najam računaju broj kalendarskih dana uključujući preuzimanje i vraćanje. Cene se računaju ponovo na serveru, ne prihvataju se iz browsera.
 - Slanje upita ne rezerviše opremu automatski. Admin unosi ugovorenu cenu i potvrđuje upit. Potvrda proverava količinu i najveći broj istovremeno zauzetih komada, u SQLite transakciji.
-- Za potvrdu su potrebni poznata količina i dogovorena cena. Otkazivanje oslobađa termin. Svi najmovi su bez depozita. Server postavlja depozit na 0 i za nove alate i za upite, bez obzira na poslatu vrednost.
+- Za potvrdu su potrebni poznata količina i dogovorena cena. Otkazivanje oslobađa termin. Depozit se dogovara pojedinačno i evidentira odvojeno od najma i dostave pre potvrde. Članovi Kluba majstora imaju 5% popusta od učlanjenja; nakon tri plaćena i završena najma povezana s nalogom ne plaćaju depozit. Nema vremenskog ograničenja za brojanje najmova. Registracija zahteva email i telefon.
 - Fotografije: JPG/PNG/WebP do 5 MB, provera potpisa formata; SVG/HTML se ne prihvataju.
 - Sesije od 8 sati, HttpOnly/SameSite cookie, provera porekla upisa, ograničavanje pokušaja prijave i slanja upita.
 - Responsive javni sajt i admin. Server-rendered sadržaj, metadata, canonical, hreflang, Open Graph, breadcrumb JSON-LD, robots i sitemap.

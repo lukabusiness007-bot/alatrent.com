@@ -12,6 +12,7 @@ import { ReferralTerms } from './Referrals';
 import { rt } from '@/lib/commerce/referral-copy';
 import RentalPeriod, { type RentalPeriodValue } from '../RentalPeriod';
 import { periodReady } from '@/lib/commerce/period';
+import { membershipText } from '@/lib/commerce/membership-copy';
 import { ShoppingBag, Trash2, ArrowRight, Bookmark } from 'lucide-react';
 export async function commerce(action: string, body: unknown) {
   const r = await fetch('/api/commerce/' + action, {
@@ -90,6 +91,7 @@ export default function CartPage({
             ...c,
             name: d.customer.name,
             phone: d.customer.phone,
+            email: d.customer.email || '',
             address: d.customer.address,
             company: d.customer.company,
             marketing: d.customer.marketing,
@@ -450,6 +452,11 @@ export default function CartPage({
                 </p>
               </div>
             )}
+            {quote && <div className="checkout-deposit">
+              <p><strong>{membershipText(locale, 'deposit')}</strong><strong>{quote.depositWaived ? membershipText(locale, 'depositWaived') : quote.depositTotal === null ? membershipText(locale, 'depositPending') : money(quote.depositTotal, locale)}</strong></p>
+              <small>{membershipText(locale, 'depositHint')}</small>
+              {!customer && <Link href={`/${locale}/nalog?mode=register`}>{ct(locale, 'club')} →</Link>}
+            </div>}
             {!!customer?.credit && !teamId && (
               <label className="commerce-check">
                 <input

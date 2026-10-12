@@ -4,6 +4,11 @@ export function text(v: unknown, max = 200, required = true) {
     throw new Error('Proveri obavezna polja i dužinu teksta.');
   return v.trim();
 }
+export function emailAddress(v: unknown) {
+  const email = text(v, 150).toLowerCase();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) throw new Error('Unesi ispravan email.');
+  return email;
+}
 export function localized(v: unknown, max = 200): Localized {
   if (!v || typeof v !== 'object') throw new Error('Potrebni su prevodi za svih pet jezika.');
   return Object.fromEntries(

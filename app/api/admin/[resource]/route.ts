@@ -57,7 +57,7 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
         name,
         description: localized(b.description, 5000),
         price: amount(b.price),
-        deposit: 0,
+        deposit: null,
         quantity,
         image,
         published: b.published === true,
@@ -115,7 +115,15 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
       return transaction(() => {
         const record = get<RentalRequest>('requests', id);
         if (!record) throw new Error('Upit ne postoji.');
+        const paid = b.paid !== undefined ? b.paid === true : record.paid === true;
+        if (status === 'completed' && record.status !== 'completed' && !paid)
+          throw new Error('Označi da je najam plaćen pre završetka.');
+        if (b.deposit !== undefined && b.deposit !== record.deposit && record.status !== 'pending')
+          throw new Error('Depozit je zaključan nakon potvrde.');
         if (status === 'confirmed') {
+          const deposit = b.deposit !== undefined ? amount(b.deposit) : record.deposit;
+          if (record.depositWaived === false && (deposit === null || deposit <= 0))
+            throw new Error('Unesi dogovoreni depozit pre potvrde najma.');
           const tool = get<Tool>('tools', record.toolId);
           if (!tool || tool.quantity === null)
             throw new Error('Pre potvrde upita unesi broj komada alata.');
@@ -127,10 +135,12 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
         const updated = {
           ...record,
           status: status as RentalRequest['status'],
+          paid,
+          completedAt: status === 'completed' ? record.completedAt || new Date().toISOString() : record.completedAt,
           rentalTotal: b.rentalTotal !== undefined ? amount(b.rentalTotal) : record.rentalTotal,
           deliveryTotal:
             b.deliveryTotal !== undefined ? amount(b.deliveryTotal, false)! : record.deliveryTotal,
-          deposit: 0,
+          deposit: record.depositWaived ? 0 : b.deposit !== undefined ? amount(b.deposit) : record.deposit,
         };
         put('requests', id, updated);
         return Response.json(updated);

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Form from 'next/form';
 import { copy, href, money, locales, languageNames } from '@/lib/i18n';
 import type { Locale, Tool, Category, Settings, PublicData } from '@/lib/types';
 import ToolArt from './ToolArt';
@@ -23,6 +24,27 @@ import {
   CategoryIcon,
   Search,
 } from './Icons';
+
+function ToolSearch({ locale, path = 'katalog', q = '', sort, home = false }: {
+  locale: Locale;
+  path?: string;
+  q?: string;
+  sort?: string;
+  home?: boolean;
+}) {
+  const t = copy[locale];
+  return (
+    <Form className={`search-bar${home ? ' home-search' : ''}`} action={href(locale, path)}>
+      <Search size={21} aria-hidden="true" />
+      {sort && <input type="hidden" name="sort" value={sort} />}
+      <input type="search" name="q" defaultValue={q} placeholder={t.search} aria-label={t.search} maxLength={150} />
+      <button className="button button-lime" type="submit">
+        {t.searchButton}<ArrowRight size={18} aria-hidden="true" />
+      </button>
+    </Form>
+  );
+}
+
 export function SectionHead({
   label,
   title,
@@ -269,6 +291,7 @@ export function Home({ locale, data }: { locale: Locale; data: PublicData }) {
               <span>{locale === 'sr' ? 'u Beogradu.' : t.hero2}</span>
             </h1>
             <p>{locale === 'sr' && <strong>{t.hero1} {t.hero2} </strong>}{t.heroText}</p>
+            <ToolSearch locale={locale} home />
             <div className="hero-actions">
               <Link className="button button-lime" href={href(locale, 'katalog')}>
                 {t.heroCta}
@@ -276,7 +299,7 @@ export function Home({ locale, data }: { locale: Locale; data: PublicData }) {
               </Link>
               <span className="guarantee">
                 <ShieldCheck size={24} />
-                {t.deposit}
+                <Link href={href(locale, 'klub')}>{t.deposit}</Link>
               </span>
             </div>
             <div className="hero-note">
@@ -333,7 +356,7 @@ export function Home({ locale, data }: { locale: Locale; data: PublicData }) {
                 </span>
                 <h3>{c.name[locale]}</h3>
                 <span>
-                  {tools.filter((tool) => tool.categoryId === c.id).length} {t.tools}
+                  {t.browse}
                   <ArrowUpRight size={15} />
                 </span>
               </Link>
@@ -377,7 +400,7 @@ export function Catalog({
   data,
   category,
   q = '',
-  sort = 'name',
+  sort = 'category',
 }: {
   locale: Locale;
   data: PublicData;
@@ -386,15 +409,29 @@ export function Catalog({
   sort?: string;
 }) {
   const t = copy[locale];
+  const activeSort = ['category', 'name', 'price', 'price-desc'].includes(sort) ? sort : 'category';
   let tools = data.tools.filter(tool => (!category || tool.categoryId === category.id) && (!q || matchesTool(tool, locale, q)));
   const title = category ? categoryHeading(category, locale) : t.catalogTitle;
   const intro = category ? categoryDescription(category, locale) : pageCopy(locale).katalog.description;
   const path = category ? 'kategorija/' + category.slug : 'katalog';
-  tools = tools.sort((a, b) =>
-    sort === 'price'
-      ? (a.price ?? Infinity) - (b.price ?? Infinity)
-      : a.name[locale].localeCompare(b.name[locale], locale),
-  );
+  const collator = new Intl.Collator(locale, { numeric: true, sensitivity: 'base' });
+  const categoryOrder = new Map(data.categories.map((c, i) => [c.id, i]));
+  tools = tools.sort((a, b) => {
+    const byName = collator.compare(a.name[locale], b.name[locale]);
+    if (activeSort === 'price' || activeSort === 'price-desc') {
+      if (a.price === null) return b.price === null ? byName : 1;
+      if (b.price === null) return -1;
+      return (activeSort === 'price' ? a.price - b.price : b.price - a.price) || byName;
+    }
+    if (activeSort === 'category') {
+      return (categoryOrder.get(a.categoryId) ?? Infinity) - (categoryOrder.get(b.categoryId) ?? Infinity)
+        || Number(b.featured) - Number(a.featured) || byName;
+    }
+    return byName;
+  });
+  const groups = activeSort === 'category' && !category
+    ? data.categories.map(c => ({ category: c, tools: tools.filter(tool => tool.categoryId === c.id) })).filter(group => group.tools.length)
+    : [{ category: undefined, tools }];
   return (
     <>
       <CollectionSchema data={data} locale={locale} path={path} title={title} tools={tools} />
@@ -408,23 +445,7 @@ export function Catalog({
           <nav className="breadcrumbs" aria-label={t.navigation}><Link href={href(locale)}>{t.home}</Link>{category && <><span>/</span><Link href={href(locale, 'katalog')}>{t.catalog}</Link></>}</nav>
           <h1>{title}</h1>
           <p>{intro}</p>
-          <form
-            className="search-bar"
-            action={href(locale, category ? 'kategorija/' + category.slug : 'katalog')}
-          >
-            <Search size={21} />
-            <input
-              type="search"
-              name="q"
-              defaultValue={q}
-              placeholder={t.search}
-              aria-label={t.search}
-            />
-            <button className="button button-lime" type="submit">
-              {t.searchButton}
-              <ArrowRight size={18} />
-            </button>
-          </form>
+          <ToolSearch locale={locale} path={path} q={q} sort={activeSort === 'category' ? undefined : activeSort} />
         </div>
       </section>
       <div className="container catalog-layout">
@@ -432,7 +453,6 @@ export function Catalog({
           <h2>{t.allCategories}</h2>
           <Link className={!category ? 'selected' : ''} href={href(locale, 'katalog')}>
             {t.allTools}
-            <span>{data.tools.length}</span>
           </Link>
           {data.categories.map((c) => (
             <Link
@@ -442,7 +462,6 @@ export function Catalog({
             >
               <CategoryIcon type={c.icon} size={18} />
               <span>{c.name[locale]}</span>
-              <small>{data.tools.filter((x) => x.categoryId === c.id).length}</small>
             </Link>
           ))}
           <div className="sidebar-note">
@@ -457,32 +476,48 @@ export function Catalog({
         <section className="catalog-results">
           <div className="results-toolbar">
             <p>
-              {t.results}: <strong>{tools.length}</strong>
+              {category ? category.name[locale] : t.allTools}
               {q && <> · “{q}”</>}
             </p>
-            <form action={href(locale, category ? 'kategorija/' + category.slug : 'katalog')}>
+            <Form action={href(locale, path)}>
               <input type="hidden" name="q" value={q} />
               <label className="sr-only" htmlFor="sort">
                 {t.sort}
               </label>
-              <select id="sort" name="sort" defaultValue={sort}>
+              <select id="sort" name="sort" defaultValue={activeSort}>
+                <option value="category">{t.sortCategory}</option>
                 <option value="name">{t.sortName}</option>
                 <option value="price">{t.sortPrice}</option>
+                <option value="price-desc">{t.sortPriceDesc}</option>
               </select>
               <button aria-label={t.sort} title={t.sort}>
                 <ArrowRight size={17} />
               </button>
-            </form>
+            </Form>
           </div>
           {tools.length ? (
-            <div className="tool-grid catalog-tools">
-              {tools.map((tool) => (
-                <ToolCard
-                  key={tool.id}
-                  tool={tool}
-                  category={data.categories.find((c) => c.id === tool.categoryId)}
-                  locale={locale}
-                />
+            <div className="catalog-groups">
+              {groups.map(group => (
+                <section className="catalog-group" key={group.category?.id || 'tools'}>
+                  {group.category && (
+                    <h2 className="catalog-group-title">
+                      <Link href={href(locale, 'kategorija/' + group.category.slug)}>
+                        <CategoryIcon type={group.category.icon} size={23} />
+                        {group.category.name[locale]}<ArrowUpRight size={18} />
+                      </Link>
+                    </h2>
+                  )}
+                  <div className="tool-grid catalog-tools">
+                    {group.tools.map((tool) => (
+                      <ToolCard
+                        key={tool.id}
+                        tool={tool}
+                        category={data.categories.find((c) => c.id === tool.categoryId)}
+                        locale={locale}
+                      />
+                    ))}
+                  </div>
+                </section>
               ))}
             </div>
           ) : (

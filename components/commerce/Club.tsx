@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowUpRight, ArrowRight, Bookmark, Repeat2, CalendarClock, ClipboardList, Users, Check, Plus, Sparkles } from 'lucide-react';
+import { ArrowUpRight, ArrowRight, Bookmark, Repeat2, CalendarClock, ClipboardList, Users, Check, Plus, Sparkles, BadgePercent, ShieldCheck } from 'lucide-react';
 import type { Locale } from '@/lib/types';
 import { ct } from '@/lib/commerce/copy';
 import { showProjectKits } from '@/lib/commerce/features';
@@ -7,14 +7,15 @@ import type { ReferralProgram } from '@/lib/commerce/types';
 import { ReferralTerms } from './Referrals';
 import { rt } from '@/lib/commerce/referral-copy';
 import { clubText } from '@/lib/commerce/club-copy';
+import { membershipText } from '@/lib/commerce/membership-copy';
 
 export default function Club({ locale, threshold, percent, referralProgram }: { locale: Locale; threshold: number; percent: number; referralProgram: ReferralProgram }) {
   const w = (key: Parameters<typeof clubText>[1]) => clubText(locale, key);
   const joinUrl = `/${locale}/nalog?mode=register`;
-  const plural = new Intl.PluralRules(locale).select(threshold);
-  const rentalLabel = locale === 'sr' ? (plural === 'one' ? 'plaćen i završen najam' : plural === 'few' ? 'plaćena i završena najma' : w('rentalLabel')) : w('rentalLabel');
-  const qualifying = `${threshold} ${rentalLabel} ${w('period')}`;
+  const m = (key: Parameters<typeof membershipText>[1]) => membershipText(locale, key, { percent, threshold });
   const benefits = [
+    { icon: BadgePercent, title: m('discountBenefit'), body: m('discountBody') },
+    { icon: ShieldCheck, title: m('waiverBenefit'), body: m('waiverBody') },
     { icon: Bookmark, title: ct(locale, 'projects'), body: w('projectsBody') },
     { icon: Repeat2, title: ct(locale, 'again'), body: w('repeatBody') },
     { icon: ClipboardList, title: ct(locale, 'history'), body: w('historyBody') },
@@ -23,11 +24,12 @@ export default function Club({ locale, threshold, percent, referralProgram }: { 
   const steps = [
     { title: w('stepOne'), body: w('stepOneBody') },
     { title: w('stepTwo'), body: w('stepTwoBody') },
-    { title: w('stepThree'), body: w('stepThreeBody') },
+    { title: w('stepThree'), body: m('waiverBody') },
   ];
   const questions = [
     { title: w('faqFree'), body: w('faqFreeBody') },
-    { title: w('faqDiscount'), body: `${percent}% — ${w('condition')}: ${qualifying}. ${w('stepThreeBody')}` },
+    { title: w('faqDiscount'), body: `${m('discountBenefit')}. ${m('discountBody')}` },
+    { title: m('deposit'), body: `${m('waiverBenefit')}. ${m('waiverBody')}` },
     { title: w('faqStack'), body: w('faqStackBody') },
     { title: w('faqGuest'), body: w('faqGuestBody') },
   ];
@@ -46,7 +48,7 @@ export default function Club({ locale, threshold, percent, referralProgram }: { 
           <div className="km-card-brand"><strong>alat rent<Sparkles size={23} /></strong><span>{ct(locale, 'club')}</span></div>
           <p className="km-card-title">{w('cardTitle')}</p>
           <div className="km-card-rate"><strong>{percent}<span>%</span></strong><span>{w('regularRate')}</span></div>
-          <div className="km-card-condition"><Check size={17} /><span>{w('condition')}: {qualifying}</span></div>
+          <div className="km-card-condition"><Check size={17} /><span>{m('waiverBenefit')}</span></div>
         </div>
         <div className="km-free-tag"><span>0 <small>RSD</small></span><span>{w('free')}</span></div>
       </div>

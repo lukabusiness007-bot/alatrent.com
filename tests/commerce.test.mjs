@@ -20,6 +20,13 @@ const env = {
   COMMERCE_JOB_SECRET: 'test-job-secret',
 };
 async function api(path, body, method = 'POST', auth = true, origin = base) {
+  // Existing booking scenarios agree a deposit before confirming the rental.
+  if (path === '/api/commerce/admin' && body?.action === 'order' && body.status === 'confirmed') {
+    const fixture = new DatabaseSync(join(dir, 'rent-tools.sqlite'));
+    const row = fixture.prepare('SELECT value FROM entities WHERE kind=? AND id=?').get('orders', body.id);
+    fixture.close();
+    if (row && JSON.parse(row.value).depositWaived === false) body = { depositTotal: 1000, ...body };
+  }
   const response = await fetch(base + path, {
     method,
     headers: {
@@ -152,6 +159,7 @@ test('Accounts have isolated sessions, recovery codes and no password disclosure
     'register',
     {
       phone: '+381609990001',
+      email: 'referrer@example.com',
       name: 'Preporučilac',
       password: 'long-enough-password',
       consent: true,
@@ -166,6 +174,7 @@ test('Accounts have isolated sessions, recovery codes and no password disclosure
     'register',
     {
       phone: '+381609990002',
+      email: 'member@example.com',
       name: 'Test majstor',
       password: 'long-enough-password',
       consent: true,
@@ -201,6 +210,7 @@ test('Accounts have isolated sessions, recovery codes and no password disclosure
     'register',
     {
       phone: '+381609990003',
+      email: 'other@example.com',
       name: 'Other person',
       password: 'long-enough-password',
       consent: true,

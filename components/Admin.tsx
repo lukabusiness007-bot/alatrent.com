@@ -184,7 +184,7 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
       description: emptyText(),
       categoryId: data!.categories[0]?.id || '',
       price: null,
-      deposit: 0,
+      deposit: null,
       quantity: null,
       image: '',
       published: false,
@@ -718,7 +718,7 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
               </section>
               <div>
                 <section className="admin-card">
-                  <h2>Cena i raspoloživost</h2><p className="field-note">Početne cene su probne. Izaberi predlog ili unesi svoj iznos. Svi alati se iznajmljuju bez depozita.</p><div className="price-presets" aria-label="Predlozi dnevne cene">{[500,1000,1500,2000,3000,5000].map(value=><button type="button" key={value} className={editingTool.price===value?'selected':''} onClick={()=>setEditingTool({...editingTool,price:value})}>{money(value)}</button>)}</div>
+                  <h2>Cena i raspoloživost</h2><p className="field-note">Početne cene su probne. Izaberi predlog ili unesi svoj iznos. Depozit se dogovara za svaki najam. Članovi kluba nakon tri završena najma ne plaćaju depozit.</p><div className="price-presets" aria-label="Predlozi dnevne cene">{[500,1000,1500,2000,3000,5000].map(value=><button type="button" key={value} className={editingTool.price===value?'selected':''} onClick={()=>setEditingTool({...editingTool,price:value})}>{money(value)}</button>)}</div>
                   <label>
                     Cena po danu (RSD)
                     <input
@@ -1075,7 +1075,7 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
                   <dd>{selectedRequest.address || 'Lično preuzimanje'}</dd>
                   <dt>Dostava</dt>
                   <dd>{money(selectedRequest.deliveryTotal)}</dd>
-                  <dt>Uslovi najma</dt><dd>Bez depozita</dd>
+                  <dt>Depozit</dt><dd>{selectedRequest.depositWaived ? 'Bez depozita — član kluba' : selectedRequest.deposit === null ? 'Po dogovoru' : money(selectedRequest.deposit)}</dd>
                   <dt>Jezik</dt>
                   <dd>{languageNames[selectedRequest.locale]}</dd>
                   <dt>Napomena</dt>
@@ -1111,8 +1111,13 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
                         })
                       }
                     />
-                    <small>Bez dostave. Depozit se ne naplaćuje.</small>
+                    <small>Bez dostave i depozita.</small>
                   </label>
+                  {!selectedRequest.depositWaived && <label>
+                    Dogovoreni depozit (RSD)
+                    <input type="number" min={1} max={10000000} step={1} value={selectedRequest.deposit ?? ''}
+                      onChange={e => setSelectedRequest({ ...selectedRequest, deposit: e.target.value === '' ? null : Number(e.target.value) })} />
+                  </label>}
                   <label>
                     Ugovorena dostava (RSD)
                     <input
@@ -1152,6 +1157,11 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
                     Za potvrdu moraju biti uneti cena najma i broj komada alata. Sistem proverava
                     preklapanje sa već potvrđenim terminima.
                   </p>
+                  <label className="commerce-check">
+                    <input type="checkbox" checked={selectedRequest.paid === true}
+                      onChange={e => setSelectedRequest({ ...selectedRequest, paid: e.target.checked })} />
+                    Najam je plaćen (ručna evidencija)
+                  </label>
                   <p className="field-note">
                     Promena statusa se čuva u panelu. Korisnika kontaktiraj lično; email i SMS
                     slanje nisu povezani.

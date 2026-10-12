@@ -94,6 +94,8 @@ export type Line = CartItem & {
   instructions: ToolOptions;
 };
 export type Quote = {
+  depositTotal: number | null;
+  depositWaived: boolean;
   referral?: Referral;
   items: Line[];
   rentalTotal: number | null;
@@ -106,6 +108,7 @@ export type Quote = {
 export type Customer = {
   id: string;
   phone: string;
+  email?: string;
   name: string;
   address: string;
   company: string;
@@ -126,6 +129,8 @@ export type PublicCustomer = Omit<Customer, 'salt' | 'hash' | 'recoveryHash'> & 
   completed: number;
   tier: string;
   discount: number;
+  depositWaived: boolean;
+  depositThreshold: number;
 };
 export type Order = Quote & {
   id: string;

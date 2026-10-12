@@ -2,7 +2,7 @@ import { databaseRoute } from '@/lib/db';
 import { randomBytes, randomUUID, scryptSync } from 'node:crypto';
 import { all, get, put, remove, transaction } from '@/lib/db';
 import { sameOrigin, rateLimit, hashToken } from '@/lib/auth';
-import { text } from '@/lib/validation';
+import { text, emailAddress } from '@/lib/validation';
 import {
   currentCustomer,
   customerCookie,
@@ -156,6 +156,7 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ action: string
       const c = {
         ...customer,
         name: text(b.name, 120),
+        email: emailAddress(b.email),
         address: text(b.address || '', 300, false),
         company: text(b.company || '', 200, false),
         marketing: b.marketing === true,

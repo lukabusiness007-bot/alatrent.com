@@ -17,11 +17,19 @@ async function request(path,body,cookie=admin,method='POST') {
   return {status:response.status,body:await response.json(),cookie:response.headers.get('set-cookie')?.split(';')[0]};
 }
 const api=(action,body,cookie='')=>request('/api/commerce/'+action,body,cookie);
-const manage=body=>request('/api/commerce/admin',body);
+const manage=body=>{
+  // Referral scenarios agree a separate deposit for new customers.
+  if(body.action==='order' && body.status==='confirmed') {
+    const db=new DatabaseSync(join(dir,'rent-tools.sqlite'));
+    const row=db.prepare('SELECT value FROM entities WHERE kind=? AND id=?').get('orders',body.id);db.close();
+    if(row && JSON.parse(row.value).depositWaived===false) body={depositTotal:1000,...body};
+  }
+  return request('/api/commerce/admin',body);
+};
 const data=()=>request('/api/commerce/admin',undefined,admin,'GET');
 async function member(referral='') {
   const phone='+38160788'+String(++serial).padStart(4,'0');
-  const r=await api('register',{phone,name:'Test member '+serial,password:'referral-password-long',consent:true,referral});
+  const r=await api('register',{phone,email:'member'+serial+'@example.com',name:'Test member '+serial,password:'referral-password-long',consent:true,referral});
   assert.equal(r.status,201,JSON.stringify(r.body));
   return { ...r.body.customer, cookie:r.cookie };
 }
@@ -66,7 +74,7 @@ test('Activation requires costs; defaults preserve old settings and do not inven
 });
 test('First rental gets 10%, delivery excluded, account required, code normalized',async()=>{
   const r=await api('quote',{items:items(),delivery:'standard',referralCode:' '+ref.referralCode.toLowerCase()+' '},buyer.cookie);
-  assert.equal(r.status,200,JSON.stringify(r.body));assert.equal(r.body.rentalTotal,4500);assert.equal(r.body.referral.discount,500);assert.equal(r.body.total,6000);
+  assert.equal(r.status,200,JSON.stringify(r.body));assert.equal(r.body.rentalTotal,4500);assert.equal(r.body.referral.discount,250);assert.equal(r.body.total,6000);
   assert.equal(r.body.referral.referrerId,'');assert.deepEqual(r.body.referral.policy.memberIds,[]);
   assert.equal(r.body.items[0].instructions.costPerDay,undefined);
   assert.equal((await api('quote',{items:items(),delivery:'pickup',referralCode:ref.referralCode})).status,400);
@@ -75,7 +83,7 @@ test('First rental gets 10%, delivery excluded, account required, code normalize
 });
 test('Cap is 1000 per order; duration and referral discounts do not stack',async()=>{
   const capped=await api('quote',{items:[{...items()[0],quantity:4}],delivery:'pickup',referralCode:ref.referralCode},buyer.cookie);
-  assert.equal(capped.body.rentalTotal,19000);assert.equal(capped.body.referral.discount,1000);
+  assert.equal(capped.body.rentalTotal,19000);assert.equal(capped.body.referral.discount,0,'club discount matches the capped referral rate');
   const duration=await api('quote',{items:items(5),delivery:'pickup',referralCode:ref.referralCode},buyer.cookie);
   assert.equal(duration.body.rentalTotal,22000);assert.equal(duration.body.referral.discount,0);
   assert.equal(duration.body.items[0].reason,'duration');
@@ -104,7 +112,7 @@ test('Identity confirmation and actual contribution are required; price tamperin
 });
 test('Reward only after paid completion, once, only to referrer; extension preserves cap and terms',async()=>{
   const ext=await api('extend',{id:order,end:date(11)},buyer.cookie);assert.equal(ext.status,200);assert.equal(ext.body.extra,4500);
-  const approved=await manage({action:'extension',id:order,approve:true});assert.equal(approved.status,200);assert.equal(approved.body.rentalTotal,9000);assert.equal(approved.body.referral.discount,1000);
+  const approved=await manage({action:'extension',id:order,approve:true});assert.equal(approved.status,200);assert.equal(approved.body.rentalTotal,9000);assert.equal(approved.body.referral.discount,500);
   assert.equal((await manage({action:'order',id:order,status:'active'})).status,200);
   assert.equal((await manage({action:'order',id:order,status:'completed'})).status,400);
   assert.equal((await manage({action:'order',id:order,status:'completed',paid:true})).status,200);
@@ -142,7 +150,7 @@ test('Refund reversal is audited and idempotent; spent rewards create debt witho
   const d=(await data()).body;assert.equal(d.customers.find(c=>c.id===ref.id).credit,-500);
   assert.ok(d.referrals.rewards.find(r=>r.orderId===order).reversedAt);
   const q=await api('quote',{items:items(),delivery:'pickup',useCredit:true,referralCode:''},ref.cookie);
-  assert.equal(q.status,200);assert.equal(q.body.credit,0);assert.equal(q.body.total,5000);
+  assert.equal(q.status,200);assert.equal(q.body.credit,0);assert.equal(q.body.total,4750);
   const me=await request('/api/commerce/me',undefined,ref.cookie,'GET');assert.equal(me.body.referrals.remaining,0);
 });
 test('Old guest rentals, mismatched phones, company rentals and short orders cannot claim first-rental offer',async()=>{
@@ -162,7 +170,7 @@ test('Registration attribution expires, explicit clearing works, legacy codes an
   fixture('customers',c.id,o=>({...o,referredAt:'2020-01-01T00:00:00Z'}));
   let q=await api('quote',{items:items(),delivery:'pickup'},c.cookie);assert.equal(q.body.referral,undefined);
   q=await api('quote',{items:items(),delivery:'pickup',referralCode:ref.referralCode},c.cookie);assert.equal(q.body.rentalTotal,4500);
-  q=await api('quote',{items:items(),delivery:'pickup',referralCode:''},c.cookie);assert.equal(q.body.rentalTotal,5000);
+  q=await api('quote',{items:items(),delivery:'pickup',referralCode:''},c.cookie);assert.equal(q.body.rentalTotal,4750);
   fixture('customers',ref.id,o=>({...o,referralCode:'ABCDEF123456',credit:150}));
   q=await api('quote',{items:items(),delivery:'pickup',referralCode:'abcdef123456'},c.cookie);assert.equal(q.body.rentalTotal,4500);
   assert.equal((await data()).body.customers.find(x=>x.id===ref.id).credit,150);
@@ -185,7 +193,7 @@ test('Reward redemption on a later rental also has a cost guard; missing costs c
   await manage({action:'tool',id:tool.id,options:opts(null,null)});
   assert.equal((await manage({action:'order',id:r.body.id,status:'confirmed'})).status,400);
   await manage({action:'tool',id:tool.id,options:opts(2000,1500)});
-  const denied=await manage({action:'order',id:r.body.id,status:'confirmed'});assert.equal(denied.status,400);assert.match(denied.body.error,/3200/);
+  const denied=await manage({action:'order',id:r.body.id,status:'confirmed'});assert.equal(denied.status,400);assert.match(denied.body.error,/3040/);
   await manage({action:'tool',id:tool.id,options:opts()});
   assert.equal((await manage({action:'order',id:r.body.id,status:'confirmed'})).status,200);
   await manage({action:'order',id:r.body.id,status:'cancelled'});

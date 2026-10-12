@@ -53,6 +53,8 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
       if (curated?.action==='keep' && existing && s!==existing.slug)
         throw new Error('Sačuvaj postojeći URL izabranog modela; drugi oglasi se preusmeravaju na njega.');
       if (b.published===true) {
+        if (/\bsolo\b|bez (?:baterij|akumulator|punjac)|bare tool|body only/.test(normalizedEquipmentName(name.sr)))
+          return Response.json({error:'Solo model bez potvrđenog kompleta baterija i punjača ne može biti samostalna javna ponuda.',existingId:null},{status:409});
         const purpose=curated?.purposeKey || rentalPurpose({...b,name}).key;
         const selected=curated?.replacementId ? get<Tool>('tools',curated.replacementId) : undefined;
         const samePurpose=all<Tool>('tools').find(t=>t.id!==id&&t.published&&purpose&&(mappedPurpose(t.id)||rentalPurpose(t).key)===purpose);

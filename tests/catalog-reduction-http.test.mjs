@@ -12,7 +12,7 @@ test('Same-language permanent redirects, excluded 404s, sitemap and public count
  assert.equal(get('meta',manifest.migration),true);const tools=db.prepare("SELECT value FROM entities WHERE kind='tools'").all().map(r=>JSON.parse(r.value));assert.equal(tools.length,1997);assert.equal(tools.filter(t=>t.published).length,manifest.groups.length);
 });
 test('Administration rejects archived and same-purpose publication, allows archive edits and protects redirect targets',async()=>{
- const old=get('tools','crafter-423'),chosen=get('tools','crafter-936');let r=await post('/api/admin/tools',{...old,published:true});assert.equal(r.status,409);assert.equal(r.body.existingId,chosen.id);
+ const old=get('tools','crafter-423'),chosen=get('tools','crafter-936');const solo=await post('/api/admin/tools',{...chosen,id:undefined,image:'',slug:'new-solo-specialty',name:{...chosen.name,sr:'Akumulatorski specijalizovani uređaj XYZ Solo'}});assert.equal(solo.status,409);assert.match(solo.body.error,/baterija i punjača/);let r=await post('/api/admin/tools',{...old,published:true});assert.equal(r.status,409);assert.equal(r.body.existingId,chosen.id);
  r=await post('/api/admin/tools',{...chosen,id:undefined,catalogModel:undefined,image:'',slug:'another-professional-grinder',name:{...chosen.name,sr:'Metabo profesionalna mala ugaona brusilica 125 mm 1500 W'}});assert.equal(r.status,409);assert.equal(r.body.existingId,chosen.id);
  r=await post('/api/admin/tools',{...old,published:false,quantity:2,price:3210});assert.equal(r.status,200);assert.equal(get('tools',old.id).price,3210);assert.equal(get('tools',old.id).published,false);
  assert.equal((await post('/api/admin/tools',{...chosen,slug:'changed-target-slug'})).status,400);

@@ -41,14 +41,14 @@ before(async()=>{
 });
 after(async()=>{
  await Promise.all([stop(0),stop(1)]);
- if(connection){assert.match(name,/^alat_rent_test_[a-f0-9]+$/);await connection.query(`DROP SCHEMA ${name} CASCADE`);await connection.end();}
+ if(connection){assert.match(name,/^alat_rent_test_[a-f0-9]+$/);try{await connection.query(`DROP SCHEMA IF EXISTS ${name} CASCADE`);}finally{await connection.end();}}
  rmSync(dir,{recursive:true,force:true});
 });
 
 test('Supabase enables hosted admin with the full catalog and a read-only server filesystem',{skip:!enabled},async()=>{
  const response=await fetch(bases[0]+'/api/admin/all',{headers:headers(0)});assert.equal(response.status,200);
  const data=await response.json();assert.equal(data.tools.length,seed.tools.length);assert.ok(data.tools.every(t=>t.price===seed.tools.find(preset=>preset.id===t.id)?.price));
- assert.equal(data.categories.length,10);
+ assert.equal(data.categories.length,seed.categories.length);
  assert.ok(!(await(await fetch(bases[0]+'/sr')).text()).includes('catalog-notice'));
  assert.ok(!(await(await fetch(bases[0]+'/admin',{headers:headers(0)})).text()).includes('Administracija trenutno nije dostupna'));
 });

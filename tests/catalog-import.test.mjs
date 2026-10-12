@@ -10,6 +10,7 @@ const seed = JSON.parse(readFileSync(new URL('../lib/seed.json', import.meta.url
 const imported = JSON.parse(readFileSync(new URL('../lib/catalog-import.json', import.meta.url)));
 const expansion = JSON.parse(readFileSync(new URL('../lib/catalog-expansion.json', import.meta.url)));
 const sourcesImport = JSON.parse(readFileSync(new URL('../lib/catalog-sources-import.json', import.meta.url)));
+const crafterImport = JSON.parse(readFileSync(new URL('../lib/catalog-crafter-import.json', import.meta.url)));
 const dir = mkdtempSync(join(tmpdir(), 'alat-rent-import-'));
 const base = 'http://127.0.0.1:3017';
 const password = 'import-test-secret-password';
@@ -45,7 +46,7 @@ before(async () => {
   db.exec('CREATE TABLE entities(kind TEXT,id TEXT,value TEXT,PRIMARY KEY(kind,id))');
   const put = (kind, id, value) => db.prepare('INSERT INTO entities VALUES(?,?,?)').run(kind, id, JSON.stringify(value));
   for (const category of seed.categories) put('categories', category.id, category);
-  for (const tool of seed.tools.filter(t => Number(t.id.split('-')[1]) <= 72)) {
+  for (const tool of seed.tools.filter(t => !t.catalogModel && Number(t.id.split('-')[1]) <= 72)) {
     put('tools', tool.id, tool.id === 'tool-001' ? { ...tool, price: 4321, quantity: 7, image: '/media/kept.jpg' } : tool);
   }
   const plate = imported.tools.find(t => t.slug === 'vibro-ploca');
@@ -126,7 +127,30 @@ test('Four-source import adds distinct equipment and never fabricates a daily ra
   }
 });
 
+test('Approved Crafter models import once, distinguish models and preserve trusted source identity during admin edits', async () => {
+  assert.equal(saved('meta', crafterImport.migration), true);
+  assert.equal(crafterImport.tools.length, 1813);
+  for (const tool of crafterImport.tools) {
+    assert.ok(saved('tools', tool.id), tool.id + ': ' + tool.name.sr);
+    assert.equal(saved('tools', tool.id).quantity, null);
+    assert.equal(saved('tools', tool.id).price, tool.price);
+  }
+  const tool = crafterImport.tools.find(t => t.price !== null);
+  const result = await api('/api/admin/tools', { ...tool, price: 2345, quantity: 3,
+    catalogModel: { ...tool.catalogModel, productId: 'forged', purchasePrice: 1 } });
+  assert.equal(result.status, 200);
+  assert.deepEqual((await result.json()).catalogModel, tool.catalogModel);
+  assert.equal(saved('tools', tool.id).image, tool.image);
+  assert.equal(saved('tools', tool.id).price, 2345);
+  const copy = await api('/api/admin/tools', { ...tool, id: 'copy-crafter', slug: 'copy-crafter', image: '' });
+  assert.equal(copy.status, 409);
+  assert.equal(saved('tools', 'copy-crafter'), undefined);
+});
+
 test('Admin edits and deletions persist across server restart; startup never resets the password', async () => {
+  const crafter = crafterImport.tools.find(t => t.price !== null);
+  const removedCrafter = crafterImport.tools.find(t => t.price === null);
+  assert.equal((await fetch(base + '/api/admin/tools?id=' + removedCrafter.id, { method: 'DELETE', headers: { Origin: base, Cookie: cookie } })).status, 200);
   const deleted = imported.tools.find(t => t.slug === 'set-gedora');
   assert.equal((await fetch(base + '/api/admin/tools?id=' + deleted.id, { method: 'DELETE', headers: { Origin: base, Cookie: cookie } })).status, 200);
   const expanded = expansion.tools.find(t => t.slug === 'paletar');
@@ -138,6 +162,9 @@ test('Admin edits and deletions persist across server restart; startup never res
   const removedSource = sourcesImport.tools.find(t => t.slug === 'fonometar');
   assert.equal((await fetch(base + '/api/admin/tools?id=' + removedSource.id, { method: 'DELETE', headers: { Origin: base, Cookie: cookie } })).status, 200);
   await stop(); await start('another-test-password-not-used');
+  assert.equal(saved('tools', removedCrafter.id), undefined);
+  assert.equal(saved('tools', crafter.id).price, 2345);
+  assert.equal(saved('tools', crafter.id).quantity, 3);
   assert.equal(saved('tools', deleted.id), undefined);
   assert.equal(saved('tools', removed.id), undefined);
   assert.equal(saved('tools', removedSource.id), undefined);

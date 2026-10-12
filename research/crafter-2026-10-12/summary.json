@@ -1,0 +1,21 @@
+{
+  "source": "https://www.crafter.rs/",
+  "observedDate": "2026-10-12",
+  "imported": false,
+  "products": 3426,
+  "statusCounts": {
+    "included": 1813,
+    "excluded": 1499,
+    "review": 114
+  },
+  "categoriesCrawled": 162,
+  "pages": 377,
+  "coverageGaps": [
+    {
+      "name": "Kaloriferi industrijski",
+      "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/kaloriferi-industrijski",
+      "expectedProducts": null,
+      "capturedProducts": 0
+    }
+  ]
+}

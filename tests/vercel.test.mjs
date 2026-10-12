@@ -43,7 +43,10 @@ test('Vercel renders catalog without a writable data directory', async () => {
   }
   const catalog = await fetch(base + '/sr/katalog');
   assert.equal(catalog.status, 200);
-  assert.match(await catalog.text(), /Laserski nivelator/);
+  assert.match(await catalog.text(), /catalog-pagination/);
+  const instrument = await fetch(base + '/sr/katalog?q=Laserski+nivelator');
+  assert.equal(instrument.status, 200);
+  assert.match(await instrument.text(), /Laserski nivelator/);
   assert.equal((await fetch(base + '/favicon.ico')).status, 404);
   const admin = await fetch(base + '/admin');
   assert.equal(admin.status, 200);

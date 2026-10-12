@@ -5,7 +5,9 @@ import seed from './seed.json';
 import catalogImport from './catalog-import.json';
 import catalogExpansion from './catalog-expansion.json';
 import catalogSourcesImport from './catalog-sources-import.json';
+import catalogCrafterImport from './catalog-crafter-import.json';
 import { equipmentType } from './equipment-type';
+import { normalizedEquipmentName } from './equipment-type';
 import { randomBytes, scryptSync } from 'node:crypto';
 import { locales } from './types';
 import { toolDescription } from './seo-content';
@@ -153,6 +155,26 @@ function initializeDatabase() {
         put('meta', importedCatalog.migration, true);
       });
   }
+
+  // Distinct supplier models may share a function. Import once, preserving
+  // administrator edits, custom stock, hidden records and later deletions.
+  if (!get('meta', catalogCrafterImport.migration)) transaction(() => {
+    if (get('meta', catalogCrafterImport.migration)) return;
+    const existing = all<Tool>('tools');
+    const slugs = new Set(existing.map(t => t.slug));
+    const names = new Set(existing.filter(t => !t.catalogModel).map(t => normalizedEquipmentName(t.name.sr)));
+    const models = new Set(existing.filter(t => t.catalogModel).map(t => t.catalogModel!.productId));
+    for (const category of catalogCrafterImport.categories)
+      if (!get('categories', category.id)) put('categories', category.id, category);
+    for (const imported of catalogCrafterImport.tools) {
+      if (get('tools', imported.id) || slugs.has(imported.slug)
+        || names.has(normalizedEquipmentName(imported.name.sr)) || models.has(imported.catalogModel.productId)) continue;
+      const tool = imported as Tool;
+      put('tools', tool.id, tool);
+      slugs.add(tool.slug); models.add(tool.catalogModel!.productId);
+    }
+    put('meta', catalogCrafterImport.migration, true);
+  });
 
   if (!get('meta', 'suggested-import-prices-v1')) transaction(() => {
     if (get('meta', 'suggested-import-prices-v1')) return;

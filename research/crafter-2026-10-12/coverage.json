@@ -1,0 +1,2499 @@
+[
+  {
+    "name": "Aku bušilice i odvijači, šrafilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-busilice-i-odvijaci",
+    "path": "/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-busilice-i-odvijaci",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Akumulatorske mašine i oprema",
+      "Aku bušilice i odvijači, šrafilice"
+    ],
+    "expectedProducts": 111,
+    "capturedProducts": 111,
+    "pages": 5,
+    "complete": true
+  },
+  {
+    "name": "Aku ugaone brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-ugaone-brusilice",
+    "path": "/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-ugaone-brusilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Akumulatorske mašine i oprema",
+      "Aku ugaone brusilice"
+    ],
+    "expectedProducts": 23,
+    "capturedProducts": 23,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Aku testere",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-testere",
+    "path": "/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-testere",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Akumulatorske mašine i oprema",
+      "Aku testere"
+    ],
+    "expectedProducts": 44,
+    "capturedProducts": 44,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Aku udarne bušilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-udarne-busilice",
+    "path": "/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-udarne-busilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Akumulatorske mašine i oprema",
+      "Aku udarne bušilice"
+    ],
+    "expectedProducts": 28,
+    "capturedProducts": 28,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Aku elektro pneumatski čekići",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-elektro-pneumatski-cekici",
+    "path": "/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-elektro-pneumatski-cekici",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Akumulatorske mašine i oprema",
+      "Aku elektro pneumatski čekići"
+    ],
+    "expectedProducts": 22,
+    "capturedProducts": 22,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Aku vibracione brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-vibracione-brusilice",
+    "path": "/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-vibracione-brusilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Akumulatorske mašine i oprema",
+      "Aku vibracione brusilice"
+    ],
+    "expectedProducts": 3,
+    "capturedProducts": 3,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Aku tračne brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-tracne-brusilice",
+    "path": "/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-tracne-brusilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Akumulatorske mašine i oprema",
+      "Aku tračne brusilice"
+    ],
+    "expectedProducts": 2,
+    "capturedProducts": 2,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Aku setovi alata",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/akumulatorski-setovi-alata",
+    "path": "/alati-i-masine/masine/akumulatorske-masine-i-oprema/akumulatorski-setovi-alata",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Akumulatorske mašine i oprema",
+      "Aku setovi alata"
+    ],
+    "expectedProducts": 10,
+    "capturedProducts": 10,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Baterije i punjači za aku alat",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/baterije-i-punjaci-za-akumulatorski-alat",
+    "path": "/alati-i-masine/masine/akumulatorske-masine-i-oprema/baterije-i-punjaci-za-akumulatorski-alat",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Akumulatorske mašine i oprema",
+      "Baterije i punjači za aku alat"
+    ],
+    "expectedProducts": 86,
+    "capturedProducts": 86,
+    "pages": 4,
+    "complete": true
+  },
+  {
+    "name": "Aku usisivači",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-usisivaci",
+    "path": "/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-usisivaci",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Akumulatorske mašine i oprema",
+      "Aku usisivači"
+    ],
+    "expectedProducts": 7,
+    "capturedProducts": 7,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Akumulatorski alat ostalo",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/akumulatorski-alat-ostalo",
+    "path": "/alati-i-masine/masine/akumulatorske-masine-i-oprema/akumulatorski-alat-ostalo",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Akumulatorske mašine i oprema",
+      "Akumulatorski alat ostalo"
+    ],
+    "expectedProducts": 53,
+    "capturedProducts": 53,
+    "pages": 3,
+    "complete": true
+  },
+  {
+    "name": "Ugaone brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/ugaone-brusilice",
+    "path": "/alati-i-masine/masine/elektricne-masine/ugaone-brusilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Ugaone brusilice"
+    ],
+    "expectedProducts": 54,
+    "capturedProducts": 54,
+    "pages": 3,
+    "complete": true
+  },
+  {
+    "name": "Brusilice za zidove - žirafe",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/brusilice-za-zidove-zirafe",
+    "path": "/alati-i-masine/masine/elektricne-masine/brusilice-za-zidove-zirafe",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Brusilice za zidove - žirafe"
+    ],
+    "expectedProducts": 8,
+    "capturedProducts": 8,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Električne bušilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricne-busilice",
+    "path": "/alati-i-masine/masine/elektricne-masine/elektricne-busilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Električne bušilice"
+    ],
+    "expectedProducts": 29,
+    "capturedProducts": 29,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Elektro pneumatske bušilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektro-pneumatske-busilice",
+    "path": "/alati-i-masine/masine/elektricne-masine/elektro-pneumatske-busilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Elektro pneumatske bušilice"
+    ],
+    "expectedProducts": 43,
+    "capturedProducts": 43,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Čeone brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/ceone-brusilice",
+    "path": "/alati-i-masine/masine/elektricne-masine/ceone-brusilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Čeone brusilice"
+    ],
+    "expectedProducts": 7,
+    "capturedProducts": 7,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Tračne i vibracione brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/tracne-i-vibracione-brusilice",
+    "path": "/alati-i-masine/masine/elektricne-masine/tracne-i-vibracione-brusilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Tračne i vibracione brusilice"
+    ],
+    "expectedProducts": 37,
+    "capturedProducts": 37,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Glodalice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/glodalice",
+    "path": "/alati-i-masine/masine/elektricne-masine/glodalice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Glodalice"
+    ],
+    "expectedProducts": 14,
+    "capturedProducts": 14,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Heftalice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/heftalice",
+    "path": "/alati-i-masine/masine/elektricne-masine/heftalice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Heftalice"
+    ],
+    "expectedProducts": 4,
+    "capturedProducts": 4,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Lemilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/lemilice",
+    "path": "/alati-i-masine/masine/elektricne-masine/lemilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Lemilice"
+    ],
+    "expectedProducts": 14,
+    "capturedProducts": 14,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Električni mešači",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricni-mesaci",
+    "path": "/alati-i-masine/masine/elektricne-masine/elektricni-mesaci",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Električni mešači"
+    ],
+    "expectedProducts": 11,
+    "capturedProducts": 11,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Električni odvijači",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricni-odvijaci",
+    "path": "/alati-i-masine/masine/elektricne-masine/elektricni-odvijaci",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Električni odvijači"
+    ],
+    "expectedProducts": 5,
+    "capturedProducts": 5,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Električne kekserice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricne-kekserice",
+    "path": "/alati-i-masine/masine/elektricne-masine/elektricne-kekserice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Električne kekserice"
+    ],
+    "expectedProducts": 2,
+    "capturedProducts": 2,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Industrijski fenovi",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/industrijski-fenovi",
+    "path": "/alati-i-masine/masine/elektricne-masine/industrijski-fenovi",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Industrijski fenovi"
+    ],
+    "expectedProducts": 8,
+    "capturedProducts": 8,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Električno rende",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricno-rende",
+    "path": "/alati-i-masine/masine/elektricne-masine/elektricno-rende",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Električno rende"
+    ],
+    "expectedProducts": 13,
+    "capturedProducts": 13,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Električni setovi alata",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricni-setovi-alata",
+    "path": "/alati-i-masine/masine/elektricne-masine/elektricni-setovi-alata",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Električni setovi alata"
+    ],
+    "expectedProducts": 3,
+    "capturedProducts": 3,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Električne stone testere - ger mašine",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricne-stone-testere-ger-masine",
+    "path": "/alati-i-masine/masine/elektricne-masine/elektricne-stone-testere-ger-masine",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Električne stone testere - ger mašine"
+    ],
+    "expectedProducts": 28,
+    "capturedProducts": 28,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Kružne testere",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/kruzne-testere",
+    "path": "/alati-i-masine/masine/elektricne-masine/kruzne-testere",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Kružne testere"
+    ],
+    "expectedProducts": 19,
+    "capturedProducts": 19,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Ubodne testere",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/ubodne-testere",
+    "path": "/alati-i-masine/masine/elektricne-masine/ubodne-testere",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Ubodne testere"
+    ],
+    "expectedProducts": 21,
+    "capturedProducts": 21,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Usisivači i pribor",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/usisivaci-i-pribor",
+    "path": "/alati-i-masine/masine/elektricne-masine/usisivaci-i-pribor",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Usisivači i pribor"
+    ],
+    "expectedProducts": 38,
+    "capturedProducts": 38,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Tocila",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/tocila",
+    "path": "/alati-i-masine/masine/elektricne-masine/tocila",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Tocila"
+    ],
+    "expectedProducts": 7,
+    "capturedProducts": 7,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Stubne bušilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/stubne-busilice",
+    "path": "/alati-i-masine/masine/elektricne-masine/stubne-busilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Električne mašine",
+      "Stubne bušilice"
+    ],
+    "expectedProducts": 5,
+    "capturedProducts": 5,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Pneumatski odvijači",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pneumatski-odvijaci",
+    "path": "/alati-i-masine/masine/pneumatske-masine/pneumatski-odvijaci",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Pneumatske mašine",
+      "Pneumatski odvijači"
+    ],
+    "expectedProducts": 6,
+    "capturedProducts": 6,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Pneumatske račne",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pneumatske-racne",
+    "path": "/alati-i-masine/masine/pneumatske-masine/pneumatske-racne",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Pneumatske mašine",
+      "Pneumatske račne"
+    ],
+    "expectedProducts": 2,
+    "capturedProducts": 2,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Pneumatske brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pneumatske-brusilice",
+    "path": "/alati-i-masine/masine/pneumatske-masine/pneumatske-brusilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Pneumatske mašine",
+      "Pneumatske brusilice"
+    ],
+    "expectedProducts": 3,
+    "capturedProducts": 3,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Pneumatske bušilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pneumatske-busilice",
+    "path": "/alati-i-masine/masine/pneumatske-masine/pneumatske-busilice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Pneumatske mašine",
+      "Pneumatske bušilice"
+    ],
+    "expectedProducts": 7,
+    "capturedProducts": 7,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Pneumatske heftalice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pneumatske-heftalice",
+    "path": "/alati-i-masine/masine/pneumatske-masine/pneumatske-heftalice",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Pneumatske mašine",
+      "Pneumatske heftalice"
+    ],
+    "expectedProducts": 3,
+    "capturedProducts": 3,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Pištolji za farbanje",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pistolji-za-farbanje",
+    "path": "/alati-i-masine/masine/pneumatske-masine/pistolji-za-farbanje",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Pneumatske mašine",
+      "Pištolji za farbanje"
+    ],
+    "expectedProducts": 6,
+    "capturedProducts": 6,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Pneumatski pištolji za izduvavanje",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pneumatski-pistolji-za-izduvavanje",
+    "path": "/alati-i-masine/masine/pneumatske-masine/pneumatski-pistolji-za-izduvavanje",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Pneumatske mašine",
+      "Pneumatski pištolji za izduvavanje"
+    ],
+    "expectedProducts": 7,
+    "capturedProducts": 7,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Pribor za pneumatske mašine",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pribor-za-pneumatske-masine",
+    "path": "/alati-i-masine/masine/pneumatske-masine/pribor-za-pneumatske-masine",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Pneumatske mašine",
+      "Pribor za pneumatske mašine"
+    ],
+    "expectedProducts": 46,
+    "capturedProducts": 46,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Ostali pneumatski alat",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/ostali-pneumatski-alat",
+    "path": "/alati-i-masine/masine/pneumatske-masine/ostali-pneumatski-alat",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Pneumatske mašine",
+      "Ostali pneumatski alat"
+    ],
+    "expectedProducts": 9,
+    "capturedProducts": 9,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Kompresori",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/kompresori",
+    "path": "/alati-i-masine/masine/kompresori",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Kompresori"
+    ],
+    "expectedProducts": 39,
+    "capturedProducts": 39,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Dremel alati",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/dremel-alati",
+    "path": "/alati-i-masine/masine/dremel-alati",
+    "branch": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Alati i mašine",
+      "Mašine",
+      "Dremel alati"
+    ],
+    "expectedProducts": 9,
+    "capturedProducts": 9,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Laserska merna tehinika",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/merenje-i-obelezavanje/laserska-merna-tehinika",
+    "path": "/alati-i-masine/rucni-alat/merenje-i-obelezavanje/laserska-merna-tehinika",
+    "branch": "/alati-i-masine/rucni-alat/merenje-i-obelezavanje/laserska-merna-tehinika",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Merenje i obeležavanje",
+      "Laserska merna tehinika"
+    ],
+    "expectedProducts": 30,
+    "capturedProducts": 30,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Unimeri",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/merenje-i-obelezavanje/unimeri",
+    "path": "/alati-i-masine/rucni-alat/merenje-i-obelezavanje/unimeri",
+    "branch": "/alati-i-masine/rucni-alat/merenje-i-obelezavanje/unimeri",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Merenje i obeležavanje",
+      "Unimeri"
+    ],
+    "expectedProducts": 5,
+    "capturedProducts": 5,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Kombinovani setovi alata",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/kombinovani-setovi-alata",
+    "path": "/alati-i-masine/rucni-alat/setovi-alata/kombinovani-setovi-alata",
+    "branch": "/alati-i-masine/rucni-alat/setovi-alata",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Setovi alata",
+      "Kombinovani setovi alata"
+    ],
+    "expectedProducts": 49,
+    "capturedProducts": 49,
+    "pages": 3,
+    "complete": true
+  },
+  {
+    "name": "Setovi klešta",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/setovi-klesta",
+    "path": "/alati-i-masine/rucni-alat/setovi-alata/setovi-klesta",
+    "branch": "/alati-i-masine/rucni-alat/setovi-alata",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Setovi alata",
+      "Setovi klešta"
+    ],
+    "expectedProducts": 3,
+    "capturedProducts": 3,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Setovi ključeva",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/setovi-kljuceva",
+    "path": "/alati-i-masine/rucni-alat/setovi-alata/setovi-kljuceva",
+    "branch": "/alati-i-masine/rucni-alat/setovi-alata",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Setovi alata",
+      "Setovi ključeva"
+    ],
+    "expectedProducts": 5,
+    "capturedProducts": 5,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Setovi nasadnika",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/setovi-nasadnika",
+    "path": "/alati-i-masine/rucni-alat/setovi-alata/setovi-nasadnika",
+    "branch": "/alati-i-masine/rucni-alat/setovi-alata",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Setovi alata",
+      "Setovi nasadnika"
+    ],
+    "expectedProducts": 22,
+    "capturedProducts": 22,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Setovi odvijača",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/setovi-odvijaca",
+    "path": "/alati-i-masine/rucni-alat/setovi-alata/setovi-odvijaca",
+    "branch": "/alati-i-masine/rucni-alat/setovi-alata",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Setovi alata",
+      "Setovi odvijača"
+    ],
+    "expectedProducts": 37,
+    "capturedProducts": 37,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Setovi turpija",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/setovi-turpija",
+    "path": "/alati-i-masine/rucni-alat/setovi-alata/setovi-turpija",
+    "branch": "/alati-i-masine/rucni-alat/setovi-alata",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Setovi alata",
+      "Setovi turpija"
+    ],
+    "expectedProducts": 28,
+    "capturedProducts": 28,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Setovi alata za elektroničare",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/setovi-alata-za-elektronicare",
+    "path": "/alati-i-masine/rucni-alat/setovi-alata/setovi-alata-za-elektronicare",
+    "branch": "/alati-i-masine/rucni-alat/setovi-alata",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Setovi alata",
+      "Setovi alata za elektroničare"
+    ],
+    "expectedProducts": 4,
+    "capturedProducts": 4,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Alat za vodovod",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare/alat-za-vodovod",
+    "path": "/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare/alat-za-vodovod",
+    "branch": "/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Alati za vodoinstalatere i keramičare",
+      "Alat za vodovod"
+    ],
+    "expectedProducts": 9,
+    "capturedProducts": 9,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Alati za obradu cevi",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare/alati-za-obradu-cevi",
+    "path": "/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare/alati-za-obradu-cevi",
+    "branch": "/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Alati za vodoinstalatere i keramičare",
+      "Alati za obradu cevi"
+    ],
+    "expectedProducts": 21,
+    "capturedProducts": 21,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Keramičarski alat",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare/keramicarski-alat",
+    "path": "/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare/keramicarski-alat",
+    "branch": "/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Alati za vodoinstalatere i keramičare",
+      "Keramičarski alat"
+    ],
+    "expectedProducts": 13,
+    "capturedProducts": 13,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Mašine za sečenje pločica",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare/masine-za-secenje-plocica",
+    "path": "/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare/masine-za-secenje-plocica",
+    "branch": "/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Alati za vodoinstalatere i keramičare",
+      "Mašine za sečenje pločica"
+    ],
+    "expectedProducts": 12,
+    "capturedProducts": 12,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Klešta za krimpovanje i blankiranje",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta/klesta-za-krimpovanje-i-blankiranje",
+    "path": "/alati-i-masine/rucni-alat/klesta/klesta-za-krimpovanje-i-blankiranje",
+    "branch": "/alati-i-masine/rucni-alat/klesta/klesta-za-krimpovanje-i-blankiranje",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Klešta",
+      "Klešta za krimpovanje i blankiranje"
+    ],
+    "expectedProducts": 4,
+    "capturedProducts": 4,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Klešta za sečenje armature",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta/klesta-za-secenje-armature",
+    "path": "/alati-i-masine/rucni-alat/klesta/klesta-za-secenje-armature",
+    "branch": "/alati-i-masine/rucni-alat/klesta/klesta-za-secenje-armature",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Klešta",
+      "Klešta za sečenje armature"
+    ],
+    "expectedProducts": 5,
+    "capturedProducts": 5,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Specijalni ključevi",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/kljucevi/specijalni-kljucevi",
+    "path": "/alati-i-masine/rucni-alat/kljucevi/specijalni-kljucevi",
+    "branch": "/alati-i-masine/rucni-alat/kljucevi/specijalni-kljucevi",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Ključevi",
+      "Specijalni ključevi"
+    ],
+    "expectedProducts": 56,
+    "capturedProducts": 56,
+    "pages": 3,
+    "complete": true
+  },
+  {
+    "name": "Bravarske stege",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/stege/bravarske-stege",
+    "path": "/alati-i-masine/rucni-alat/stege/bravarske-stege",
+    "branch": "/alati-i-masine/rucni-alat/stege/bravarske-stege",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Stege",
+      "Bravarske stege"
+    ],
+    "expectedProducts": 13,
+    "capturedProducts": 13,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Hvatači i držači",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucni-alat-ostalo/hvataci-i-drzaci",
+    "path": "/alati-i-masine/rucni-alat/rucni-alat-ostalo/hvataci-i-drzaci",
+    "branch": "/alati-i-masine/rucni-alat/rucni-alat-ostalo/hvataci-i-drzaci",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Ručni alat ostalo",
+      "Hvatači i držači"
+    ],
+    "expectedProducts": 25,
+    "capturedProducts": 25,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Radapcigeri",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucni-alat-ostalo/radapcigeri",
+    "path": "/alati-i-masine/rucni-alat/rucni-alat-ostalo/radapcigeri",
+    "branch": "/alati-i-masine/rucni-alat/rucni-alat-ostalo/radapcigeri",
+    "hierarchy": [
+      "Alati i mašine",
+      "Ručni alat",
+      "Ručni alat ostalo",
+      "Radapcigeri"
+    ],
+    "expectedProducts": 8,
+    "capturedProducts": 8,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Radni stolovi",
+    "url": "https://www.crafter.rs/alati-i-masine/odlaganje-i-radni-stolovi/radni-stolovi",
+    "path": "/alati-i-masine/odlaganje-i-radni-stolovi/radni-stolovi",
+    "branch": "/alati-i-masine/odlaganje-i-radni-stolovi/radni-stolovi",
+    "hierarchy": [
+      "Alati i mašine",
+      "Odlaganje i radni stolovi",
+      "Radni stolovi"
+    ],
+    "expectedProducts": 7,
+    "capturedProducts": 7,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Aparati za REL elektrolučno zavarivanje",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje/aparati-za-zavarivanje/aparati-za-rel-elektrolucno-zavarivanje",
+    "path": "/alati-i-masine/zavarivanje/aparati-za-zavarivanje/aparati-za-rel-elektrolucno-zavarivanje",
+    "branch": "/alati-i-masine/zavarivanje/aparati-za-zavarivanje",
+    "hierarchy": [
+      "Alati i mašine",
+      "Zavarivanje",
+      "Aparati za zavarivanje",
+      "Aparati za REL elektrolučno zavarivanje"
+    ],
+    "expectedProducts": 18,
+    "capturedProducts": 18,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Aparati za MIG MAG zavarivanje",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje/aparati-za-zavarivanje/aparati-za-mig-mag-zavarivanje",
+    "path": "/alati-i-masine/zavarivanje/aparati-za-zavarivanje/aparati-za-mig-mag-zavarivanje",
+    "branch": "/alati-i-masine/zavarivanje/aparati-za-zavarivanje",
+    "hierarchy": [
+      "Alati i mašine",
+      "Zavarivanje",
+      "Aparati za zavarivanje",
+      "Aparati za MIG MAG zavarivanje"
+    ],
+    "expectedProducts": 10,
+    "capturedProducts": 10,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Aparati za WIG TIG zavarivanje",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje/aparati-za-zavarivanje/aparati-za-wig-tig-zavarivanje",
+    "path": "/alati-i-masine/zavarivanje/aparati-za-zavarivanje/aparati-za-wig-tig-zavarivanje",
+    "branch": "/alati-i-masine/zavarivanje/aparati-za-zavarivanje",
+    "hierarchy": [
+      "Alati i mašine",
+      "Zavarivanje",
+      "Aparati za zavarivanje",
+      "Aparati za WIG TIG zavarivanje"
+    ],
+    "expectedProducts": 15,
+    "capturedProducts": 15,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Kosilice",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/kosilice",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/kosilice",
+    "branch": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Motorne mašine i alati",
+      "Kosilice"
+    ],
+    "expectedProducts": 173,
+    "capturedProducts": 173,
+    "pages": 8,
+    "complete": true
+  },
+  {
+    "name": "Trimeri",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/trimeri",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/trimeri",
+    "branch": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Motorne mašine i alati",
+      "Trimeri"
+    ],
+    "expectedProducts": 85,
+    "capturedProducts": 85,
+    "pages": 4,
+    "complete": true
+  },
+  {
+    "name": "Freze | Motokultivatori | Kopačice",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/freze-motokultivatori-kopacice",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/freze-motokultivatori-kopacice",
+    "branch": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Motorne mašine i alati",
+      "Freze | Motokultivatori | Kopačice"
+    ],
+    "expectedProducts": 34,
+    "capturedProducts": 34,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Električne makaze",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/elektricne-makaze",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/elektricne-makaze",
+    "branch": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Motorne mašine i alati",
+      "Električne makaze"
+    ],
+    "expectedProducts": 49,
+    "capturedProducts": 49,
+    "pages": 3,
+    "complete": true
+  },
+  {
+    "name": "Motorne testere",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/motorne-testere",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/motorne-testere",
+    "branch": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Motorne mašine i alati",
+      "Motorne testere"
+    ],
+    "expectedProducts": 74,
+    "capturedProducts": 74,
+    "pages": 4,
+    "complete": true
+  },
+  {
+    "name": "Agregati za struju",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/agregati-za-struju",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/agregati-za-struju",
+    "branch": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Motorne mašine i alati",
+      "Agregati za struju"
+    ],
+    "expectedProducts": 21,
+    "capturedProducts": 21,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Usisivači i duvači lišća",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/usisivaci-i-duvaci-lisca",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/usisivaci-i-duvaci-lisca",
+    "branch": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Motorne mašine i alati",
+      "Usisivači i duvači lišća"
+    ],
+    "expectedProducts": 38,
+    "capturedProducts": 38,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Cepači drva",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/cepaci-drva",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/cepaci-drva",
+    "branch": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Motorne mašine i alati",
+      "Cepači drva"
+    ],
+    "expectedProducts": 10,
+    "capturedProducts": 10,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Čistači snega",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/cistaci-snega",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/cistaci-snega",
+    "branch": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Motorne mašine i alati",
+      "Čistači snega"
+    ],
+    "expectedProducts": 8,
+    "capturedProducts": 8,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Delovi i ulja za motorne mašine i alate",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/delovi-i-ulja-za-motorne-masine-i-alate",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/delovi-i-ulja-za-motorne-masine-i-alate",
+    "branch": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Motorne mašine i alati",
+      "Delovi i ulja za motorne mašine i alate"
+    ],
+    "expectedProducts": 219,
+    "capturedProducts": 219,
+    "pages": 10,
+    "complete": true
+  },
+  {
+    "name": "Vertikulatori",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/vertikulatori",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/vertikulatori",
+    "branch": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Motorne mašine i alati",
+      "Vertikulatori"
+    ],
+    "expectedProducts": 7,
+    "capturedProducts": 7,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Drobilice za grane",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/drobilice-za-grane",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/drobilice-za-grane",
+    "branch": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Motorne mašine i alati",
+      "Drobilice za grane"
+    ],
+    "expectedProducts": 9,
+    "capturedProducts": 9,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Atomizeri",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/prskalice/atomizeri",
+    "path": "/basta-i-sezona/rad-u-basti/prskalice/atomizeri",
+    "branch": "/basta-i-sezona/rad-u-basti/prskalice",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Prskalice",
+      "Atomizeri"
+    ],
+    "expectedProducts": 19,
+    "capturedProducts": 19,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Ručne prskalice",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/prskalice/rucne-prskalice",
+    "path": "/basta-i-sezona/rad-u-basti/prskalice/rucne-prskalice",
+    "branch": "/basta-i-sezona/rad-u-basti/prskalice",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Prskalice",
+      "Ručne prskalice"
+    ],
+    "expectedProducts": 22,
+    "capturedProducts": 22,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Hidrofori",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/pumpe/hidrofori",
+    "path": "/basta-i-sezona/rad-u-basti/pumpe/hidrofori",
+    "branch": "/basta-i-sezona/rad-u-basti/pumpe",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Pumpe",
+      "Hidrofori"
+    ],
+    "expectedProducts": 9,
+    "capturedProducts": 9,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Oprema za pumpe za vodu",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/pumpe/oprema-za-pumpe-za-vodu",
+    "path": "/basta-i-sezona/rad-u-basti/pumpe/oprema-za-pumpe-za-vodu",
+    "branch": "/basta-i-sezona/rad-u-basti/pumpe",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Pumpe",
+      "Oprema za pumpe za vodu"
+    ],
+    "expectedProducts": 7,
+    "capturedProducts": 7,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Pumpe za vodu",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/pumpe/pumpe-za-vodu",
+    "path": "/basta-i-sezona/rad-u-basti/pumpe/pumpe-za-vodu",
+    "branch": "/basta-i-sezona/rad-u-basti/pumpe",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Rad u bašti",
+      "Pumpe",
+      "Pumpe za vodu"
+    ],
+    "expectedProducts": 109,
+    "capturedProducts": 109,
+    "pages": 5,
+    "complete": true
+  },
+  {
+    "name": "Čepilice",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/cepilice",
+    "path": "/basta-i-sezona/sezona/vino-i-rakija/cepilice",
+    "branch": "/basta-i-sezona/sezona/vino-i-rakija/cepilice",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Sezona",
+      "Vino i rakija",
+      "Čepilice"
+    ],
+    "expectedProducts": 3,
+    "capturedProducts": 3,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Muljače i sečke za voće",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/muljace-i-secke-za-voce",
+    "path": "/basta-i-sezona/sezona/vino-i-rakija/muljace-i-secke-za-voce",
+    "branch": "/basta-i-sezona/sezona/vino-i-rakija/muljace-i-secke-za-voce",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Sezona",
+      "Vino i rakija",
+      "Muljače i sečke za voće"
+    ],
+    "expectedProducts": 4,
+    "capturedProducts": 4,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Mlinovi i prese",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/mlinovi-i-prese",
+    "path": "/basta-i-sezona/sezona/vino-i-rakija/mlinovi-i-prese",
+    "branch": "/basta-i-sezona/sezona/vino-i-rakija/mlinovi-i-prese",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Sezona",
+      "Vino i rakija",
+      "Mlinovi i prese"
+    ],
+    "expectedProducts": 0,
+    "capturedProducts": 0,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Kazani",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/kazani",
+    "path": "/basta-i-sezona/sezona/vino-i-rakija/kazani",
+    "branch": "/basta-i-sezona/sezona/vino-i-rakija/kazani",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Sezona",
+      "Vino i rakija",
+      "Kazani"
+    ],
+    "expectedProducts": 3,
+    "capturedProducts": 3,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Pumpe za pretakanje",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/pumpe-za-pretakanje",
+    "path": "/basta-i-sezona/sezona/vino-i-rakija/pumpe-za-pretakanje",
+    "branch": "/basta-i-sezona/sezona/vino-i-rakija/pumpe-za-pretakanje",
+    "hierarchy": [
+      "Bašta i sezona",
+      "Sezona",
+      "Vino i rakija",
+      "Pumpe za pretakanje"
+    ],
+    "expectedProducts": 0,
+    "capturedProducts": 0,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Pokretne klime",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/klima-uredjaji/pokretne-klime",
+    "path": "/grejanje-i-klimatizacija/klima-uredjaji/pokretne-klime",
+    "branch": "/grejanje-i-klimatizacija/klima-uredjaji/pokretne-klime",
+    "hierarchy": [
+      "Grejanje i klimatizacija",
+      "Klima uredjaji",
+      "Pokretne klime"
+    ],
+    "expectedProducts": 11,
+    "capturedProducts": 11,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Stoni ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/stoni-ventilatori",
+    "path": "/grejanje-i-klimatizacija/ventilatori/stoni-ventilatori",
+    "branch": "/grejanje-i-klimatizacija/ventilatori",
+    "hierarchy": [
+      "Grejanje i klimatizacija",
+      "Ventilatori",
+      "Stoni ventilatori"
+    ],
+    "expectedProducts": 20,
+    "capturedProducts": 20,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Portabl ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/portabl-ventilatori",
+    "path": "/grejanje-i-klimatizacija/ventilatori/portabl-ventilatori",
+    "branch": "/grejanje-i-klimatizacija/ventilatori",
+    "hierarchy": [
+      "Grejanje i klimatizacija",
+      "Ventilatori",
+      "Portabl ventilatori"
+    ],
+    "expectedProducts": 5,
+    "capturedProducts": 5,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Stubni ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/stubni-ventilatori",
+    "path": "/grejanje-i-klimatizacija/ventilatori/stubni-ventilatori",
+    "branch": "/grejanje-i-klimatizacija/ventilatori",
+    "hierarchy": [
+      "Grejanje i klimatizacija",
+      "Ventilatori",
+      "Stubni ventilatori"
+    ],
+    "expectedProducts": 17,
+    "capturedProducts": 17,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Podni ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/podni-ventilatori",
+    "path": "/grejanje-i-klimatizacija/ventilatori/podni-ventilatori",
+    "branch": "/grejanje-i-klimatizacija/ventilatori",
+    "hierarchy": [
+      "Grejanje i klimatizacija",
+      "Ventilatori",
+      "Podni ventilatori"
+    ],
+    "expectedProducts": 14,
+    "capturedProducts": 14,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Ventilatori sa vodom",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/ventilatori-sa-vodom",
+    "path": "/grejanje-i-klimatizacija/ventilatori/ventilatori-sa-vodom",
+    "branch": "/grejanje-i-klimatizacija/ventilatori",
+    "hierarchy": [
+      "Grejanje i klimatizacija",
+      "Ventilatori",
+      "Ventilatori sa vodom"
+    ],
+    "expectedProducts": 17,
+    "capturedProducts": 17,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Plafonski ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/plafonski-ventilatori",
+    "path": "/grejanje-i-klimatizacija/ventilatori/plafonski-ventilatori",
+    "branch": "/grejanje-i-klimatizacija/ventilatori",
+    "hierarchy": [
+      "Grejanje i klimatizacija",
+      "Ventilatori",
+      "Plafonski ventilatori"
+    ],
+    "expectedProducts": 32,
+    "capturedProducts": 32,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Teleskopski ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/teleskopski-ventilatori",
+    "path": "/grejanje-i-klimatizacija/ventilatori/teleskopski-ventilatori",
+    "branch": "/grejanje-i-klimatizacija/ventilatori",
+    "hierarchy": [
+      "Grejanje i klimatizacija",
+      "Ventilatori",
+      "Teleskopski ventilatori"
+    ],
+    "expectedProducts": 16,
+    "capturedProducts": 16,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Kaloriferi industrijski",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/kaloriferi-industrijski",
+    "path": "/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/kaloriferi-industrijski",
+    "branch": "/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/kaloriferi-industrijski",
+    "hierarchy": [
+      "Grejanje i klimatizacija",
+      "Električno grejanje",
+      "Grejalice",
+      "Kaloriferi industrijski"
+    ],
+    "expectedProducts": null,
+    "capturedProducts": 0,
+    "pages": 1,
+    "complete": false
+  },
+  {
+    "name": "Plinske grejalice i peći unutrašnje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje/plinske-grejalice-i-peci-unutrasnje",
+    "path": "/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje/plinske-grejalice-i-peci-unutrasnje",
+    "branch": "/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje",
+    "hierarchy": [
+      "Grejanje i klimatizacija",
+      "Plinsko i dizel grejanje",
+      "Plinske grejalice i peći unutrašnje"
+    ],
+    "expectedProducts": 3,
+    "capturedProducts": 3,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Plinske grejalice spoljne pečurke",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje/plinske-grejalice-spoljne-pecurke",
+    "path": "/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje/plinske-grejalice-spoljne-pecurke",
+    "branch": "/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje",
+    "hierarchy": [
+      "Grejanje i klimatizacija",
+      "Plinsko i dizel grejanje",
+      "Plinske grejalice spoljne pečurke"
+    ],
+    "expectedProducts": 2,
+    "capturedProducts": 2,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Dizel grejalice",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje/dizel-grejalice",
+    "path": "/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje/dizel-grejalice",
+    "branch": "/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje",
+    "hierarchy": [
+      "Grejanje i klimatizacija",
+      "Plinsko i dizel grejanje",
+      "Dizel grejalice"
+    ],
+    "expectedProducts": 0,
+    "capturedProducts": 0,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Solarni LED reflektori",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/reflektori/solarni-led-reflektori",
+    "path": "/rasveta/tehnicka-rasveta/reflektori/solarni-led-reflektori",
+    "branch": "/rasveta/tehnicka-rasveta/reflektori",
+    "hierarchy": [
+      "Rasveta",
+      "Tehnička rasveta",
+      "Reflektori",
+      "Solarni LED reflektori"
+    ],
+    "expectedProducts": 0,
+    "capturedProducts": 0,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Reflektori SMD i COB",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/reflektori/reflektori-smd-i-cob",
+    "path": "/rasveta/tehnicka-rasveta/reflektori/reflektori-smd-i-cob",
+    "branch": "/rasveta/tehnicka-rasveta/reflektori",
+    "hierarchy": [
+      "Rasveta",
+      "Tehnička rasveta",
+      "Reflektori",
+      "Reflektori SMD i COB"
+    ],
+    "expectedProducts": 20,
+    "capturedProducts": 20,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "LED reflektori sa senzorom",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/reflektori/led-reflektori-sa-senzorom",
+    "path": "/rasveta/tehnicka-rasveta/reflektori/led-reflektori-sa-senzorom",
+    "branch": "/rasveta/tehnicka-rasveta/reflektori",
+    "hierarchy": [
+      "Rasveta",
+      "Tehnička rasveta",
+      "Reflektori",
+      "LED reflektori sa senzorom"
+    ],
+    "expectedProducts": 8,
+    "capturedProducts": 8,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Reflektori šinski sa opremom",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/reflektori/reflektori-sinski-sa-opremom",
+    "path": "/rasveta/tehnicka-rasveta/reflektori/reflektori-sinski-sa-opremom",
+    "branch": "/rasveta/tehnicka-rasveta/reflektori",
+    "hierarchy": [
+      "Rasveta",
+      "Tehnička rasveta",
+      "Reflektori",
+      "Reflektori šinski sa opremom"
+    ],
+    "expectedProducts": 0,
+    "capturedProducts": 0,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Reflektori LED RGB dimabilni",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/reflektori/reflektori-led-rgb-dimabilni",
+    "path": "/rasveta/tehnicka-rasveta/reflektori/reflektori-led-rgb-dimabilni",
+    "branch": "/rasveta/tehnicka-rasveta/reflektori",
+    "hierarchy": [
+      "Rasveta",
+      "Tehnička rasveta",
+      "Reflektori",
+      "Reflektori LED RGB dimabilni"
+    ],
+    "expectedProducts": 0,
+    "capturedProducts": 0,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Keramičarski alat i pribor",
+    "url": "https://www.crafter.rs/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/keramicarski-alat-i-pribor",
+    "path": "/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/keramicarski-alat-i-pribor",
+    "branch": "/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/keramicarski-alat-i-pribor",
+    "hierarchy": [
+      "Boje i lakovi",
+      "Alat i pribor za boje i lakove",
+      "Keramičarski alat i pribor"
+    ],
+    "expectedProducts": 41,
+    "capturedProducts": 41,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Pribor za krečenje i farbanje",
+    "url": "https://www.crafter.rs/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/pribor-za-krecenje-i-farbanje",
+    "path": "/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/pribor-za-krecenje-i-farbanje",
+    "branch": "/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/pribor-za-krecenje-i-farbanje",
+    "hierarchy": [
+      "Boje i lakovi",
+      "Alat i pribor za boje i lakove",
+      "Pribor za krečenje i farbanje"
+    ],
+    "expectedProducts": 77,
+    "capturedProducts": 77,
+    "pages": 4,
+    "complete": true
+  },
+  {
+    "name": "Produžni kablovi sa više utičnica",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi/produzni-kablovi-sa-vise-uticnica",
+    "path": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi/produzni-kablovi-sa-vise-uticnica",
+    "branch": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor",
+    "hierarchy": [
+      "Elektromaterijal",
+      "Produžni kablovi i priključni pribor",
+      "Produžni kablovi",
+      "Produžni kablovi sa više utičnica"
+    ],
+    "expectedProducts": 113,
+    "capturedProducts": 113,
+    "pages": 5,
+    "complete": true
+  },
+  {
+    "name": "Motalice",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi/motalice",
+    "path": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi/motalice",
+    "branch": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor",
+    "hierarchy": [
+      "Elektromaterijal",
+      "Produžni kablovi i priključni pribor",
+      "Produžni kablovi",
+      "Motalice"
+    ],
+    "expectedProducts": 31,
+    "capturedProducts": 31,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Priključni kablovi",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi/prikljucni-kablovi",
+    "path": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi/prikljucni-kablovi",
+    "branch": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor",
+    "hierarchy": [
+      "Elektromaterijal",
+      "Produžni kablovi i priključni pribor",
+      "Produžni kablovi",
+      "Priključni kablovi"
+    ],
+    "expectedProducts": 31,
+    "capturedProducts": 31,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Kablovi za kosilice",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi/kablovi-za-kosilice",
+    "path": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi/kablovi-za-kosilice",
+    "branch": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor",
+    "hierarchy": [
+      "Elektromaterijal",
+      "Produžni kablovi i priključni pribor",
+      "Produžni kablovi",
+      "Kablovi za kosilice"
+    ],
+    "expectedProducts": 24,
+    "capturedProducts": 24,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Podsklopovi",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/podsklopovi",
+    "path": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/podsklopovi",
+    "branch": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor",
+    "hierarchy": [
+      "Elektromaterijal",
+      "Produžni kablovi i priključni pribor",
+      "Utikači, razdelnici, grla",
+      "Podsklopovi"
+    ],
+    "expectedProducts": 19,
+    "capturedProducts": 19,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Sijalčna grla",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/sijalcna-grla",
+    "path": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/sijalcna-grla",
+    "branch": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor",
+    "hierarchy": [
+      "Elektromaterijal",
+      "Produžni kablovi i priključni pribor",
+      "Utikači, razdelnici, grla",
+      "Sijalčna grla"
+    ],
+    "expectedProducts": 32,
+    "capturedProducts": 32,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Utikači i međugajtanski prekidači",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/utikaci-i-medugajtanski-prekidaci",
+    "path": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/utikaci-i-medugajtanski-prekidaci",
+    "branch": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor",
+    "hierarchy": [
+      "Elektromaterijal",
+      "Produžni kablovi i priključni pribor",
+      "Utikači, razdelnici, grla",
+      "Utikači i međugajtanski prekidači"
+    ],
+    "expectedProducts": 50,
+    "capturedProducts": 50,
+    "pages": 3,
+    "complete": true
+  },
+  {
+    "name": "Utičnice i spojke",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/uticnice-i-spojke",
+    "path": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/uticnice-i-spojke",
+    "branch": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor",
+    "hierarchy": [
+      "Elektromaterijal",
+      "Produžni kablovi i priključni pribor",
+      "Utikači, razdelnici, grla",
+      "Utičnice i spojke"
+    ],
+    "expectedProducts": 6,
+    "capturedProducts": 6,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Razdelnici za struju",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/razdelnici-za-struju",
+    "path": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/razdelnici-za-struju",
+    "branch": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor",
+    "hierarchy": [
+      "Elektromaterijal",
+      "Produžni kablovi i priključni pribor",
+      "Utikači, razdelnici, grla",
+      "Razdelnici za struju"
+    ],
+    "expectedProducts": 24,
+    "capturedProducts": 24,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Kleme za akumulatore, punjači, starteri",
+    "url": "https://www.crafter.rs/auto-oprema/akumulatori/kleme-za-akumulatore-punjaci-starteri",
+    "path": "/auto-oprema/akumulatori/kleme-za-akumulatore-punjaci-starteri",
+    "branch": "/auto-oprema/akumulatori/kleme-za-akumulatore-punjaci-starteri",
+    "hierarchy": [
+      "Auto oprema",
+      "Akumulatori",
+      "Kleme za akumulatore, punjači, starteri"
+    ],
+    "expectedProducts": 25,
+    "capturedProducts": 25,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Oprema za višenamenske usisivače",
+    "url": "https://www.crafter.rs/auto-oprema/visenamenski-usisivaci-i-oprema/oprema-za-visenamenske-usisivace",
+    "path": "/auto-oprema/visenamenski-usisivaci-i-oprema/oprema-za-visenamenske-usisivace",
+    "branch": "/auto-oprema/visenamenski-usisivaci-i-oprema",
+    "hierarchy": [
+      "Auto oprema",
+      "Višenamenski usisivači i oprema",
+      "Oprema za višenamenske usisivače"
+    ],
+    "expectedProducts": 20,
+    "capturedProducts": 20,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Auto alat ostalo",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/auto-alat-ostalo",
+    "path": "/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/auto-alat-ostalo",
+    "branch": "/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila",
+    "hierarchy": [
+      "Auto oprema",
+      "Auto elektrika, rasveta i alat",
+      "Alat i pribor za vozila",
+      "Auto alat ostalo"
+    ],
+    "expectedProducts": 13,
+    "capturedProducts": 13,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Auto dizalice",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/auto-dizalice",
+    "path": "/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/auto-dizalice",
+    "branch": "/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila",
+    "hierarchy": [
+      "Auto oprema",
+      "Auto elektrika, rasveta i alat",
+      "Alat i pribor za vozila",
+      "Auto dizalice"
+    ],
+    "expectedProducts": 11,
+    "capturedProducts": 11,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Merač antifriza",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/merac-antifriza",
+    "path": "/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/merac-antifriza",
+    "branch": "/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila",
+    "hierarchy": [
+      "Auto oprema",
+      "Auto elektrika, rasveta i alat",
+      "Alat i pribor za vozila",
+      "Merač antifriza"
+    ],
+    "expectedProducts": 2,
+    "capturedProducts": 2,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Ključevi za auto svećice",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/kljucevi-za-auto-svecice",
+    "path": "/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/kljucevi-za-auto-svecice",
+    "branch": "/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila",
+    "hierarchy": [
+      "Auto oprema",
+      "Auto elektrika, rasveta i alat",
+      "Alat i pribor za vozila",
+      "Ključevi za auto svećice"
+    ],
+    "expectedProducts": 0,
+    "capturedProducts": 0,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Ključevi za auto točak",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/kljucevi-za-auto-tocak",
+    "path": "/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/kljucevi-za-auto-tocak",
+    "branch": "/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila",
+    "hierarchy": [
+      "Auto oprema",
+      "Auto elektrika, rasveta i alat",
+      "Alat i pribor za vozila",
+      "Ključevi za auto točak"
+    ],
+    "expectedProducts": 2,
+    "capturedProducts": 2,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Auto pumpe i merači pritiska nastavci",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-pumpe-i-meraci-pritiska-nastavci",
+    "path": "/auto-oprema/auto-elektrika-rasveta-i-alat/auto-pumpe-i-meraci-pritiska-nastavci",
+    "branch": "/auto-oprema/auto-elektrika-rasveta-i-alat/auto-pumpe-i-meraci-pritiska-nastavci",
+    "hierarchy": [
+      "Auto oprema",
+      "Auto elektrika, rasveta i alat",
+      "Auto pumpe i merači pritiska nastavci"
+    ],
+    "expectedProducts": 6,
+    "capturedProducts": 6,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Perači pod pritiskom",
+    "url": "https://www.crafter.rs/auto-oprema/peraci-i-oprema/peraci-pod-pritiskom",
+    "path": "/auto-oprema/peraci-i-oprema/peraci-pod-pritiskom",
+    "branch": "/auto-oprema/peraci-i-oprema",
+    "hierarchy": [
+      "Auto oprema",
+      "Perači i oprema",
+      "Perači pod pritiskom"
+    ],
+    "expectedProducts": 92,
+    "capturedProducts": 92,
+    "pages": 4,
+    "complete": true
+  },
+  {
+    "name": "Oprema za perače pod pritiskom",
+    "url": "https://www.crafter.rs/auto-oprema/peraci-i-oprema/oprema-za-perace-pod-pritiskom",
+    "path": "/auto-oprema/peraci-i-oprema/oprema-za-perace-pod-pritiskom",
+    "branch": "/auto-oprema/peraci-i-oprema",
+    "hierarchy": [
+      "Auto oprema",
+      "Perači i oprema",
+      "Oprema za perače pod pritiskom"
+    ],
+    "expectedProducts": 0,
+    "capturedProducts": 0,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Usisivači na vodu",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/ciscenje/usisivaci/usisivaci-na-vodu",
+    "path": "/mali-kucni-aparati/ciscenje/usisivaci/usisivaci-na-vodu",
+    "branch": "/mali-kucni-aparati/ciscenje/usisivaci/usisivaci-na-vodu",
+    "hierarchy": [
+      "Mali kućni aparati",
+      "Čišćenje",
+      "Usisivači",
+      "Usisivači na vodu"
+    ],
+    "expectedProducts": 5,
+    "capturedProducts": 5,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Paročistači",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/ciscenje/parocistaci",
+    "path": "/mali-kucni-aparati/ciscenje/parocistaci",
+    "branch": "/mali-kucni-aparati/ciscenje/parocistaci",
+    "hierarchy": [
+      "Mali kućni aparati",
+      "Čišćenje",
+      "Paročistači"
+    ],
+    "expectedProducts": 8,
+    "capturedProducts": 8,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Dizalice",
+    "url": "https://www.crafter.rs/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice/dizalice",
+    "path": "/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice/dizalice",
+    "branch": "/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice",
+    "hierarchy": [
+      "Logistička oprema",
+      "Kolica za teret i električne dizalice",
+      "Dizalice"
+    ],
+    "expectedProducts": 5,
+    "capturedProducts": 5,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Paletari",
+    "url": "https://www.crafter.rs/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice/paletari",
+    "path": "/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice/paletari",
+    "branch": "/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice",
+    "hierarchy": [
+      "Logistička oprema",
+      "Kolica za teret i električne dizalice",
+      "Paletari"
+    ],
+    "expectedProducts": 1,
+    "capturedProducts": 1,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Transportna kolica",
+    "url": "https://www.crafter.rs/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice/transportna-kolica",
+    "path": "/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice/transportna-kolica",
+    "branch": "/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice",
+    "hierarchy": [
+      "Logistička oprema",
+      "Kolica za teret i električne dizalice",
+      "Transportna kolica"
+    ],
+    "expectedProducts": 1,
+    "capturedProducts": 1,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Trodelne merdevine",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/aluminijumske-merdevine/trodelne-merdevine",
+    "path": "/logisticka-oprema/merdevine-i-skele/aluminijumske-merdevine/trodelne-merdevine",
+    "branch": "/logisticka-oprema/merdevine-i-skele",
+    "hierarchy": [
+      "Logistička oprema",
+      "Merdevine i skele",
+      "Aluminijumske merdevine",
+      "Trodelne merdevine"
+    ],
+    "expectedProducts": 12,
+    "capturedProducts": 12,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Jednodelne merdevine",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/aluminijumske-merdevine/jednodelne-merdevine",
+    "path": "/logisticka-oprema/merdevine-i-skele/aluminijumske-merdevine/jednodelne-merdevine",
+    "branch": "/logisticka-oprema/merdevine-i-skele",
+    "hierarchy": [
+      "Logistička oprema",
+      "Merdevine i skele",
+      "Aluminijumske merdevine",
+      "Jednodelne merdevine"
+    ],
+    "expectedProducts": 4,
+    "capturedProducts": 4,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Dvodelne merdevine",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/aluminijumske-merdevine/dvodelne-merdevine",
+    "path": "/logisticka-oprema/merdevine-i-skele/aluminijumske-merdevine/dvodelne-merdevine",
+    "branch": "/logisticka-oprema/merdevine-i-skele",
+    "hierarchy": [
+      "Logistička oprema",
+      "Merdevine i skele",
+      "Aluminijumske merdevine",
+      "Dvodelne merdevine"
+    ],
+    "expectedProducts": 11,
+    "capturedProducts": 11,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Kućne merdevine",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/kucne-merdevine",
+    "path": "/logisticka-oprema/merdevine-i-skele/kucne-merdevine",
+    "branch": "/logisticka-oprema/merdevine-i-skele",
+    "hierarchy": [
+      "Logistička oprema",
+      "Merdevine i skele",
+      "Kućne merdevine"
+    ],
+    "expectedProducts": 33,
+    "capturedProducts": 33,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Skele",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/skele",
+    "path": "/logisticka-oprema/merdevine-i-skele/skele",
+    "branch": "/logisticka-oprema/merdevine-i-skele",
+    "hierarchy": [
+      "Logistička oprema",
+      "Merdevine i skele",
+      "Skele"
+    ],
+    "expectedProducts": 13,
+    "capturedProducts": 13,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Drvene merdevine",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/drvene-merdevine",
+    "path": "/logisticka-oprema/merdevine-i-skele/drvene-merdevine",
+    "branch": "/logisticka-oprema/merdevine-i-skele",
+    "hierarchy": [
+      "Logistička oprema",
+      "Merdevine i skele",
+      "Drvene merdevine"
+    ],
+    "expectedProducts": 9,
+    "capturedProducts": 9,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Oprema za suvu gradnju",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/suva-gradnja/oprema-za-suvu-gradnju",
+    "path": "/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/suva-gradnja/oprema-za-suvu-gradnju",
+    "branch": "/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/suva-gradnja/oprema-za-suvu-gradnju",
+    "hierarchy": [
+      "Građevinski materijali",
+      "Grubi građevinski materijal, drvo i građa",
+      "Suva gradnja",
+      "Oprema za suvu gradnju"
+    ],
+    "expectedProducts": 21,
+    "capturedProducts": 21,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Oprema za zidanje",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/proizvodi-za-zidanje/oprema-za-zidanje",
+    "path": "/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/proizvodi-za-zidanje/oprema-za-zidanje",
+    "branch": "/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/proizvodi-za-zidanje/oprema-za-zidanje",
+    "hierarchy": [
+      "Građevinski materijali",
+      "Grubi građevinski materijal, drvo i građa",
+      "Proizvodi za zidanje",
+      "Oprema za zidanje"
+    ],
+    "expectedProducts": 5,
+    "capturedProducts": 5,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Okov za građevinski materijal",
+    "url": "https://www.crafter.rs/gradevinski-materijali/gradevinska-oprema-i-alat/okov-za-gradevinski-materijal",
+    "path": "/gradevinski-materijali/gradevinska-oprema-i-alat/okov-za-gradevinski-materijal",
+    "branch": "/gradevinski-materijali/gradevinska-oprema-i-alat",
+    "hierarchy": [
+      "Građevinski materijali",
+      "Građevinska oprema i alat",
+      "Okov za građevinski materijal"
+    ],
+    "expectedProducts": 36,
+    "capturedProducts": 36,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Ostala građevinska oprema",
+    "url": "https://www.crafter.rs/gradevinski-materijali/gradevinska-oprema-i-alat/ostala-gradevinska-oprema",
+    "path": "/gradevinski-materijali/gradevinska-oprema-i-alat/ostala-gradevinska-oprema",
+    "branch": "/gradevinski-materijali/gradevinska-oprema-i-alat",
+    "hierarchy": [
+      "Građevinski materijali",
+      "Građevinska oprema i alat",
+      "Ostala građevinska oprema"
+    ],
+    "expectedProducts": 32,
+    "capturedProducts": 32,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Mešalice",
+    "url": "https://www.crafter.rs/gradevinski-materijali/gradevinska-oprema-i-alat/mesalice",
+    "path": "/gradevinski-materijali/gradevinska-oprema-i-alat/mesalice",
+    "branch": "/gradevinski-materijali/gradevinska-oprema-i-alat",
+    "hierarchy": [
+      "Građevinski materijali",
+      "Građevinska oprema i alat",
+      "Mešalice"
+    ],
+    "expectedProducts": 4,
+    "capturedProducts": 4,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Građevinska kolica i delovi",
+    "url": "https://www.crafter.rs/gradevinski-materijali/gradevinska-oprema-i-alat/gradevinska-kolica-i-delovi",
+    "path": "/gradevinski-materijali/gradevinska-oprema-i-alat/gradevinska-kolica-i-delovi",
+    "branch": "/gradevinski-materijali/gradevinska-oprema-i-alat",
+    "hierarchy": [
+      "Građevinski materijali",
+      "Građevinska oprema i alat",
+      "Građevinska kolica i delovi"
+    ],
+    "expectedProducts": 6,
+    "capturedProducts": 6,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Mašine",
+    "url": "https://www.crafter.rs/alati-i-masine/masine",
+    "path": "/alati-i-masine/masine",
+    "hierarchy": [
+      "Mašine"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 988,
+    "capturedProducts": 988,
+    "pages": 42,
+    "complete": true
+  },
+  {
+    "name": "Setovi alata",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata",
+    "path": "/alati-i-masine/rucni-alat/setovi-alata",
+    "hierarchy": [
+      "Setovi alata"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 148,
+    "capturedProducts": 148,
+    "pages": 7,
+    "complete": true
+  },
+  {
+    "name": "Alati za vodoinstalatere i keramičare",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare",
+    "path": "/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare",
+    "hierarchy": [
+      "Alati za vodoinstalatere i keramičare"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 55,
+    "capturedProducts": 55,
+    "pages": 3,
+    "complete": true
+  },
+  {
+    "name": "Aparati za zavarivanje",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje/aparati-za-zavarivanje",
+    "path": "/alati-i-masine/zavarivanje/aparati-za-zavarivanje",
+    "hierarchy": [
+      "Aparati za zavarivanje"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 46,
+    "capturedProducts": 46,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Motorne mašine i alati",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "path": "/basta-i-sezona/rad-u-basti/motorne-masine-i-alati",
+    "hierarchy": [
+      "Motorne mašine i alati"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 747,
+    "capturedProducts": 747,
+    "pages": 32,
+    "complete": true
+  },
+  {
+    "name": "Prskalice",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/prskalice",
+    "path": "/basta-i-sezona/rad-u-basti/prskalice",
+    "hierarchy": [
+      "Prskalice"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 41,
+    "capturedProducts": 41,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Pumpe",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/pumpe",
+    "path": "/basta-i-sezona/rad-u-basti/pumpe",
+    "hierarchy": [
+      "Pumpe"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 125,
+    "capturedProducts": 125,
+    "pages": 6,
+    "complete": true
+  },
+  {
+    "name": "Ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori",
+    "path": "/grejanje-i-klimatizacija/ventilatori",
+    "hierarchy": [
+      "Ventilatori"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 121,
+    "capturedProducts": 121,
+    "pages": 6,
+    "complete": true
+  },
+  {
+    "name": "Plinsko i dizel grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje",
+    "path": "/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje",
+    "hierarchy": [
+      "Plinsko i dizel grejanje"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 5,
+    "capturedProducts": 5,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Reflektori",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/reflektori",
+    "path": "/rasveta/tehnicka-rasveta/reflektori",
+    "hierarchy": [
+      "Reflektori"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 28,
+    "capturedProducts": 28,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Produžni kablovi i priključni pribor",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor",
+    "path": "/elektromaterijal/produzni-kablovi-i-prikljucni-pribor",
+    "hierarchy": [
+      "Produžni kablovi i priključni pribor"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 330,
+    "capturedProducts": 330,
+    "pages": 28,
+    "complete": true
+  },
+  {
+    "name": "Višenamenski usisivači i oprema",
+    "url": "https://www.crafter.rs/auto-oprema/visenamenski-usisivaci-i-oprema",
+    "path": "/auto-oprema/visenamenski-usisivaci-i-oprema",
+    "hierarchy": [
+      "Višenamenski usisivači i oprema"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 20,
+    "capturedProducts": 20,
+    "pages": 1,
+    "complete": true
+  },
+  {
+    "name": "Alat i pribor za vozila",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila",
+    "path": "/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila",
+    "hierarchy": [
+      "Alat i pribor za vozila"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 28,
+    "capturedProducts": 28,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Perači i oprema",
+    "url": "https://www.crafter.rs/auto-oprema/peraci-i-oprema",
+    "path": "/auto-oprema/peraci-i-oprema",
+    "hierarchy": [
+      "Perači i oprema"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 92,
+    "capturedProducts": 92,
+    "pages": 4,
+    "complete": true
+  },
+  {
+    "name": "Kolica za teret i električne dizalice",
+    "url": "https://www.crafter.rs/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice",
+    "path": "/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice",
+    "hierarchy": [
+      "Kolica za teret i električne dizalice"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 31,
+    "capturedProducts": 31,
+    "pages": 2,
+    "complete": true
+  },
+  {
+    "name": "Merdevine i skele",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele",
+    "path": "/logisticka-oprema/merdevine-i-skele",
+    "hierarchy": [
+      "Merdevine i skele"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 76,
+    "capturedProducts": 76,
+    "pages": 4,
+    "complete": true
+  },
+  {
+    "name": "Građevinska oprema i alat",
+    "url": "https://www.crafter.rs/gradevinski-materijali/gradevinska-oprema-i-alat",
+    "path": "/gradevinski-materijali/gradevinska-oprema-i-alat",
+    "hierarchy": [
+      "Građevinska oprema i alat"
+    ],
+    "auditRoot": true,
+    "expectedProducts": 78,
+    "capturedProducts": 78,
+    "pages": 4,
+    "complete": true
+  },
+  {
+    "name": "Grejalice",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice",
+    "path": "/grejanje-i-klimatizacija/elektricno-grejanje/grejalice",
+    "auditRoot": true,
+    "expectedProducts": 109,
+    "capturedProducts": 109,
+    "pages": 5,
+    "complete": true
+  },
+  {
+    "name": "Kaloriferi",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/kaloriferi",
+    "path": "/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/kaloriferi",
+    "auditRoot": true,
+    "expectedProducts": 42,
+    "capturedProducts": 42,
+    "pages": 2,
+    "complete": true
+  }
+]

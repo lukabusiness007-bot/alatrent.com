@@ -4019,3 +4019,11 @@ p {
 @media(max-width:600px){.commerce-search{grid-template-columns:20px minmax(0,1fr);gap:12px;padding:14px}.commerce-search>button{grid-column:1/-1;grid-row:auto;width:100%;order:3}.catalog-filter-fields{grid-column:1/-1;grid-template-columns:repeat(2,minmax(0,1fr));order:2}.job-link{padding:16px}.job-link h3{font-size:16px}.job-link p{font-size:12px}.job-link>svg{top:18px;right:12px}.recommendation-grid{grid-template-columns:1fr}.recommendation-panel{padding:18px}.recommendation-card{padding:16px}.checkout-steps{line-height:1.8}.rental-panel .submit-request{position:sticky;bottom:12px;z-index:10;box-shadow:0 4px 22px #0002}.rental-panel{overflow:visible}.catalog-filter-fields input[type=date]{font-size:13px}.analytics-panel .button-row{display:grid;gap:10px}.analytics-panel .button{width:100%}}
 
 .catalog-filter-fields .commerce-check input[type=checkbox]{flex:0 0 18px;margin:0}
+
+/* Crawlable pagination for the expanded model catalog. */
+.catalog-count { display: block; margin-top: 4px; color: var(--muted, #60716a); font-size: 12px; }
+.catalog-pagination { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; margin: 30px 0; }
+.catalog-pagination > span { display: flex; align-items: center; gap: 8px; }
+.catalog-pagination a { display: inline-flex; min-width: 40px; min-height: 40px; justify-content: center; align-items: center; padding: 8px 12px; border: 1px solid #c5d5cc; border-radius: 6px; text-decoration: none; }
+.catalog-pagination a[aria-current="page"] { background: #18362a; border-color: #18362a; color: #fff; }
+.pagination-gap { padding: 0 4px; color: #60716a; }

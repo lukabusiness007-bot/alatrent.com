@@ -7,6 +7,7 @@ import ToolArt from './ToolArt';
 import { BreadcrumbSchema, CollectionSchema } from './Seo';
 import { categoryHeading, categoryDescription, categoryContent } from '@/lib/seo-content';
 import { pageCopy } from '@/lib/seo-pages';
+import { catalogPagination, pageLabel, paginationCopy } from '@/lib/catalog-pagination';
 import { QuickAdd } from './commerce/CartProvider';
 import { Brand } from './Header';
 import { mt } from '@/lib/commerce/merchandising-copy';
@@ -98,6 +99,7 @@ export function ToolCard({
     <article className="service-card tool-card">
       <Link
         href={href(locale, 'alat/' + tool.slug)}
+        prefetch={false}
         className="service-art-button"
         aria-label={tool.name[locale]}
       >
@@ -111,7 +113,7 @@ export function ToolCard({
           {category?.name[locale]}
         </Link>
         <h3>
-          <Link href={href(locale, 'alat/' + tool.slug)}>{tool.name[locale]}</Link>
+          <Link href={href(locale, 'alat/' + tool.slug)} prefetch={false}>{tool.name[locale]}</Link>
         </h3>
         <div className="card-price">
           {tool.price === null ? (
@@ -423,6 +425,7 @@ export function Catalog({
   filters = {},
   jobs,
   selection,
+  page = 1,
 }: {
   locale: Locale;
   data: PublicData;
@@ -432,6 +435,7 @@ export function Catalog({
   filters?: CatalogFilters;
   jobs: RentalJob[];
   selection: ReturnType<typeof selectCatalog>;
+  page?: number;
 }) {
   const t = copy[locale];
   const activeSort = ['category', 'name', 'price', 'price-desc'].includes(sort) ? sort : 'category';
@@ -450,16 +454,28 @@ export function Catalog({
     }
     if (activeSort === 'category') {
       return (categoryOrder.get(a.categoryId) ?? Infinity) - (categoryOrder.get(b.categoryId) ?? Infinity)
-        || Number(b.featured) - Number(a.featured) || byName;
+        || Number(b.featured) - Number(a.featured) || Number(!!a.catalogModel) - Number(!!b.catalogModel) || byName;
     }
     return byName;
   });
+  const paging = catalogPagination(tools.length, page);
+  const visible = tools.slice(paging.offset, paging.end);
+  const pageHref = (number: number) => {
+    const query = new URLSearchParams();
+    if (q) query.set('q', q);
+    if (activeSort !== 'category') query.set('sort', activeSort);
+    for (const [key, value] of Object.entries(filters)) if (value) query.set(key, value === true ? '1' : String(value));
+    if (number > 1) query.set('page', String(number));
+    return href(locale, path) + (query.size ? '?' + query.toString() : '');
+  };
+  const pageNumbers = Array.from(new Set([1, paging.pages, ...Array.from({ length: 5 }, (_, i) => page - 2 + i)]))
+    .filter(number => number > 0 && number <= paging.pages).sort((a, b) => a - b);
   const groups = activeSort === 'category' && !category
-    ? data.categories.map(c => ({ category: c, tools: tools.filter(tool => tool.categoryId === c.id) })).filter(group => group.tools.length)
-    : [{ category: undefined, tools }];
+    ? data.categories.map(c => ({ category: c, tools: visible.filter(tool => tool.categoryId === c.id) })).filter(group => group.tools.length)
+    : [{ category: undefined, tools: visible }];
   return (
     <>
-      <CollectionSchema data={data} locale={locale} path={path} title={title} tools={tools} />
+      <CollectionSchema data={data} locale={locale} path={path + (page > 1 ? `?page=${page}` : '')} title={title} tools={visible} />
       <BreadcrumbSchema settings={data.settings} locale={locale} items={[
         { name: t.home, path: '' }, { name: t.catalog, path: 'katalog' },
         ...(category ? [{ name: category.name[locale], path }] : []),
@@ -505,6 +521,7 @@ export function Catalog({
             <p>
               {category ? category.name[locale] : t.allTools}
               {q && <> · “{q}”</>}
+              <span className="catalog-count">{tools.length.toLocaleString(locale)} {t.results}{tools.length > 0 && ` · ${paging.offset + 1}–${paging.end}`}</span>
             </p>
             <Form action={href(locale, path)}>
               <input type="hidden" name="q" value={q} />
@@ -559,6 +576,14 @@ export function Catalog({
               </Link>
             </div>
           )}
+          {paging.pages > 1 && <nav className="catalog-pagination" aria-label={`${t.catalog} — ${t.navigation}`}>
+            {page > 1 && <Link prefetch={false} href={pageHref(page - 1)}>← {paginationCopy[locale].previous}</Link>}
+            {pageNumbers.map((number, i) => <span key={number}>
+              {i > 0 && number - pageNumbers[i - 1] > 1 && <span className="pagination-gap" aria-hidden="true">…</span>}
+              <Link prefetch={false} href={pageHref(number)} aria-label={pageLabel(locale, number)} aria-current={number === page ? 'page' : undefined}>{number}</Link>
+            </span>)}
+            {page < paging.pages && <Link prefetch={false} href={pageHref(page + 1)}>{paginationCopy[locale].next} →</Link>}
+          </nav>}
           <aside className="catalog-request">
             <div><h2>{t.toolRequestTitle}</h2><p>{t.toolRequestText}</p></div>
             <Link className="button button-plain" href={href(locale, 'kontakt')}>

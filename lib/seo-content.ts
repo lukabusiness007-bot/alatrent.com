@@ -3,11 +3,17 @@ import seed from './seed.json';
 import { copy, money } from './i18n';
 import type { Category, Locale, Tool } from './types';
 
-export const SEO_CONTENT_UPDATED_AT = '2026-10-10T20:21:19.104Z';
+export const SEO_CONTENT_UPDATED_AT = '2026-10-12T14:13:25.142Z';
+const seedBySlug = new Map(seed.tools.map(tool => [tool.slug, tool]));
 
 type ToolContent = { term: string; aliases: string[]; use: string; selection: string };
 export const toolContent = catalog as Record<string, ToolContent>;
 export const categoryContent: Record<string, { title: string; intro: string; selection: string }> = {
+  'sezonska-prerada-i-pretakanje': {
+    title: 'Iznajmljivanje opreme za sezonsku preradu i pretakanje',
+    intro: 'Muljače, kazani i oprema za pripremu i preradu plodova. Izbor zavisi od količine, načina rada, prostora i termina sezone.',
+    selection: 'Navedi vrstu i količinu plodova ili tečnosti, potreban kapacitet i napajanje. Transport, komplet, čišćenje i uslove korišćenja potvrđujemo pre najma.',
+  },
   'ciscenje-i-pranje': {
     title: 'Iznajmljivanje mašina za čišćenje i pranje',
     intro: 'Oprema za dubinsko pranje nameštaja, čišćenje parom, pranje dvorišta i sakupljanje prašine. Uporedi uređaje prema površini koju čistiš i načinu rada.',
@@ -61,6 +67,7 @@ export const categoryContent: Record<string, { title: string; intro: string; sel
 };
 
 export function toolHeading(tool: Tool, locale: Locale) {
+  if (tool.catalogModel && locale === 'sr') return `Iznajmljivanje modela ${tool.name.sr}`;
   return locale === 'sr' && toolContent[tool.slug]
     ? `Iznajmljivanje ${toolContent[tool.slug].term}`
     : `${tool.name[locale]} — ${copy[locale].rentalWord}`;
@@ -68,7 +75,8 @@ export function toolHeading(tool: Tool, locale: Locale) {
 
 // Replace only the original placeholder text; descriptions edited in the admin remain authoritative.
 export function toolDescription(tool: Tool, locale: Locale) {
-  const original = seed.tools.find(t => t.slug === tool.slug);
+  if (tool.catalogModel) return tool.description[locale];
+  const original = seedBySlug.get(tool.slug);
   if (locale === 'sr' && toolContent[tool.slug] && tool.description.sr === original?.description.sr)
     return toolContent[tool.slug].use;
   if (tool.description[locale] === original?.description[locale])

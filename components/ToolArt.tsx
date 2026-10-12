@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { isCrafterImage } from '@/lib/catalog-model';
 export default function ToolArt({
   category = '3',
   image = '',
@@ -13,7 +14,7 @@ export default function ToolArt({
   if (image)
     return (
       <div className={`tool-art uploaded ${large ? 'large' : ''}`}>
-        <Image src={image} alt={name} fill sizes={large ? "(max-width: 767px) 90vw, 550px" : "(max-width: 767px) 44vw, (max-width: 991px) 33vw, 280px"} loading={large ? 'eager' : 'lazy'} fetchPriority={large ? 'high' : 'auto'} />
+        <Image src={image} alt={name} fill unoptimized={isCrafterImage(image)} sizes={large ? "(max-width: 767px) 90vw, 550px" : "(max-width: 767px) 44vw, (max-width: 991px) 33vw, 280px"} loading={large ? 'eager' : 'lazy'} fetchPriority={large ? 'high' : 'auto'} />
       </div>
     );
   const c = Number(category);

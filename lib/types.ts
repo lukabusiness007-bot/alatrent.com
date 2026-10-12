@@ -14,6 +14,17 @@ export type Tool = {
   published: boolean;
   featured: boolean;
   updatedAt: string;
+  catalogModel?: {
+    source: 'crafter.rs';
+    productId: string;
+    sku: string;
+    url: string;
+    purchasePrice: number;
+    regularPurchasePrice: number;
+    rentalPriceBase: number;
+    observedAt: string;
+    incompleteKit: boolean;
+  };
 };
 export type Category = {
   id: string;

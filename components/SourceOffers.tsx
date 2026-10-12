@@ -16,6 +16,7 @@ export default function SourceOffers({ tools, toolId, onEdit, onApply }: {
   const [query, setQuery] = useState('');
   const [source, setSource] = useState('');
   const [kind, setKind] = useState('');
+  const [limit, setLimit] = useState(50);
   const offers = catalog.offers.filter(offer => (!toolId || offer.toolIds.includes(toolId))
     && (!source || offer.source === source) && (!kind || offer.kind === kind)
     && normalizedEquipmentName([offer.name, offer.priceText, ...offer.toolIds.map(id => tools.find(t => t.id === id)?.name.sr || '')].join(' '))
@@ -29,17 +30,17 @@ export default function SourceOffers({ tools, toolId, onEdit, onApply }: {
     const link = document.createElement('a'); link.href = url; link.download = 'cene-alata-2026-10-12.csv'; link.click(); URL.revokeObjectURL(url);
   }
   return <section className="admin-card source-offers">
-    <h2>{toolId ? 'Objavljene cene drugih ponuđača' : 'Cene i ponude iz četiri izvora'}</h2>
+    <h2>{toolId ? 'Objavljene cene drugih ponuđača' : 'Cene i ponude iz izvora'}</h2>
     <p className="field-note">Provereno 12.10.2026. Svaka varijanta i komplet imaju zaseban zapis. Iznosi u EUR, mesečne tarife, trošenje pribora i usluge prikazani su u originalnoj jedinici. Ove cene ne menjaju naš cenovnik.</p>
     {!toolId && <div className="source-filters">
-      <label>Pretraga<input type="search" value={query} onChange={e => setQuery(e.target.value)} placeholder="Alat, model ili cena" /></label>
-      <label>Izvor<select value={source} onChange={e => setSource(e.target.value)}><option value="">Svi izvori</option>{[...new Set(catalog.offers.map(o => o.source))].map(s => <option key={s} value={s}>{s}</option>)}</select></label>
-      <label>Vrsta cene<select value={kind} onChange={e => setKind(e.target.value)}><option value="">Sve vrste</option>{Object.entries(kindNames).map(([k, label]) => <option key={k} value={k}>{label}</option>)}</select></label>
+      <label>Pretraga<input type="search" value={query} onChange={e => { setQuery(e.target.value); setLimit(50); }} placeholder="Alat, model ili cena" /></label>
+      <label>Izvor<select value={source} onChange={e => { setSource(e.target.value); setLimit(50); }}><option value="">Svi izvori</option>{[...new Set(catalog.offers.map(o => o.source))].map(s => <option key={s} value={s}>{s}</option>)}</select></label>
+      <label>Vrsta cene<select value={kind} onChange={e => { setKind(e.target.value); setLimit(50); }}><option value="">Sve vrste</option>{Object.entries(kindNames).map(([k, label]) => <option key={k} value={k}>{label}</option>)}</select></label>
       <button className="button button-plain" type="button" onClick={download}>Preuzmi CSV ({offers.length})</button>
     </div>}
     <p className="field-note">{offers.length} {toolId ? 'povezanih ponuda' : 'ponuda i cena'}</p>
     <div className="source-table-scroll"><table className="source-table"><thead><tr><th>Ponuda i izvor</th><th>Objavljena cena</th><th>Uslovi i provera</th></tr></thead><tbody>
-      {offers.map(offer => {
+      {offers.slice(0, limit).map(offer => {
         const usablePrice = offer.kind === 'rental' && offer.toolIds.length === 1 && !offer.discrepancy
           ? offer.prices.find(price => price.currency === 'RSD' && price.unit === 'day' && price.vat === 'included') : undefined;
         return <tr key={offer.id}>
@@ -55,6 +56,7 @@ export default function SourceOffers({ tools, toolId, onEdit, onApply }: {
         </tr>;
       })}
     </tbody></table></div>
+    {offers.length > limit && <button className="button button-plain" type="button" onClick={() => setLimit(n => n + 50)}>Prikaži još ({limit} / {offers.length})</button>}
     {!offers.length && <p className="field-note">Nema povezanih ponuda za izabrani filter. Dnevni najam ove vrste nije objavljen u izvorima.</p>}
   </section>;
 }

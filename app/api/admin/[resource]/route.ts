@@ -1,5 +1,7 @@
 import { databaseRoute } from '@/lib/db';
 import { equipmentType } from '@/lib/equipment-type';
+import { normalizedEquipmentName } from '@/lib/equipment-type';
+import { catalogIdentity, isCrafterImage } from '@/lib/catalog-model';
 import { randomUUID } from 'node:crypto';
 import { authorized, sameOrigin } from '@/lib/auth';
 import { all, get, put, remove, settings, transaction, occupied } from '@/lib/db';
@@ -37,15 +39,18 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
       const s = slug(b.slug);
       if (all<Tool>('tools').some((t) => t.slug === s && t.id !== id))
         throw new Error('URL oznaka već postoji.');
-      let image = text(b.image, 250, false);
-      if (image && !/^\/media\/[a-f0-9-]+\.(jpg|png|webp)$/.test(image) && !/^\/images\/catalog\/tool-\d{3}\.(jpg|jpeg|png|webp)$/.test(image))
+      const existing = get<Tool>('tools', id);
+      let image = text(b.image, 2048, false);
+      if (image && !(existing?.catalogModel && image === existing.image && isCrafterImage(image)) && !/^\/media\/[a-f0-9-]+\.(jpg|png|webp)$/.test(image) && !/^\/images\/catalog\/tool-\d{3}\.(jpg|jpeg|png|webp)$/.test(image))
         throw new Error('Koristi otpremanje fotografije.');
       const quantity = b.quantity === null ? null : amount(b.quantity, false);
       if (quantity !== null && (!Number.isInteger(b.quantity) || quantity > 10000))
         throw new Error('Neispravna količina.');
       const name = localized(b.name);
-      const duplicate = all<Tool>('tools').find(tool => tool.id !== id
-        && equipmentType(tool.name.sr) === equipmentType(name.sr));
+      const duplicate = all<Tool>('tools').find(tool => tool.id !== id && (existing?.catalogModel
+        ? catalogIdentity(tool) === catalogIdentity(existing)
+        : (!tool.catalogModel && equipmentType(tool.name.sr) === equipmentType(name.sr))
+          || normalizedEquipmentName(tool.name.sr) === normalizedEquipmentName(name.sr)));
       if (duplicate) return Response.json(
         { error: `Ova vrsta alata već postoji: ${duplicate.name.sr}. Izmeni postojeći unos.`, existingId: duplicate.id },
         { status: 409 },
@@ -63,6 +68,7 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
         published: b.published === true,
         featured: b.featured === true,
         updatedAt: new Date().toISOString(),
+        ...(existing?.catalogModel ? { catalogModel: existing.catalogModel } : {}),
       };
       put('tools', id, tool);
       return Response.json(tool);

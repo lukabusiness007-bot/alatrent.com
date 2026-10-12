@@ -23,6 +23,7 @@ import Club from '@/components/commerce/Club';
 import Bundles from '@/components/commerce/Bundles';
 import OrderDetails from '@/components/commerce/OrderDetails';
 import { seo } from '@/lib/seo';
+import { catalogPage, catalogPagination, pageLabel } from '@/lib/catalog-pagination';
 import { pageCopy } from '@/lib/seo-pages';
 import { toolHeading, toolDescription, categoryHeading, categoryDescription, toolContent } from '@/lib/seo-content';
 import { BreadcrumbSchema, ToolSchema } from '@/components/Seo';
@@ -61,15 +62,17 @@ async function dbgenerateMetadata({ params, searchParams }: Props) {
   // Operational instructions are not localized and may only contain a placeholder. Keep them out of Search.
   const noindex = ['korpa', 'nalog', 'privatnost'].includes(key) || instructions || !!query.q || !!query.sort || !!query.job || !!query.maxPrice || !!query.start || !!query.end || !!query.available
     || (!!category && !data.tools.some(t => t.categoryId === category.id));
-  const title = tool
+  const page = catalogPage(query.page);
+  const paginated = ['katalog', 'kategorija'].includes(key) && page > 1;
+  const title = (tool
     ? instructions ? `${ct(locale, 'instructions')}: ${tool.name[locale]}` : `${toolHeading(tool, locale)} — ${locale === 'sr' ? 'Beograd' : t.area}`
-    : category ? `${categoryHeading(category, locale)} — ${locale === 'sr' ? 'Beograd' : t.area}` : pages[key].title;
+    : category ? `${categoryHeading(category, locale)} — ${locale === 'sr' ? 'Beograd' : t.area}` : pages[key].title) + (paginated ? ` — ${pageLabel(locale, page)}` : '');
   const description = tool
     ? locale === 'sr'
       ? `${toolHeading(tool, locale)} u Beogradu. ${tool.price === null ? 'Zatraži cenu' : 'Pogledaj dnevnu cenu'}, proveri namenu i pošalji upit za termin i dostavu. Depozit po dogovoru; klupske pogodnosti za članove.`
       : `${tool.name[locale]} — ${t.categorySeo}. ${t.depositNote} ${t.requestHint}`
     : category ? `${category.name[locale]} — ${t.categorySeo}. ${categoryDescription(category, locale)}` : pages[key].description;
-  return seo(locale, path.join('/'), title, description, noindex,
+  return seo(locale, path.join('/') + (paginated && !noindex ? `?page=${page}` : ''), title, description, noindex,
     tool?.image ? { url: tool.image, alt: tool.name[locale] } : undefined);
 
 }
@@ -104,6 +107,8 @@ async function dbPage({ params, searchParams }: Props) {
     const jobs = publicJobs();
     const query = typeof q.q === 'string' ? q.q.slice(0,150) : '';
     const selection = selectCatalog(data,jobs,locale,query,category?.id,filters);
+    const page = catalogPage(q.page);
+    if (page > catalogPagination(selection.tools.length).pages) notFound();
     return (
       <Catalog
         locale={locale}
@@ -114,6 +119,7 @@ async function dbPage({ params, searchParams }: Props) {
         filters={filters}
         jobs={jobs}
         selection={selection}
+        page={page}
       />
     );
   }
@@ -158,7 +164,7 @@ async function dbPage({ params, searchParams }: Props) {
                   large
                 />
               </div>
-              {tool.image.startsWith("/images/catalog/") ? <p className="image-caption">{t.photoNote}</p> : !tool.image && <p className="image-caption">{t.illustration}</p>}
+              {tool.image.startsWith("/images/catalog/") || tool.catalogModel ? <p className="image-caption">{t.photoNote}</p> : !tool.image && <p className="image-caption">{t.illustration}</p>}
               <div className="product-copy">
                 <h2>{t.aboutTool}</h2>
                 <p>{toolDescription(tool, locale)}</p>

@@ -1,6 +1,7 @@
 import type { NextConfig } from 'next';
 const config: NextConfig = {
   devIndicators: false,
+  images: { remotePatterns: [{ protocol: 'https', hostname: 'www.crafter.rs', pathname: '/media/catalog/product/**', search: '' }] },
   turbopack: { root: process.cwd() },
   serverExternalPackages: ['node:sqlite', 'pg'],
   outputFileTracingIncludes: { '/*': ['./config/certs/supabase-ca.crt'] },

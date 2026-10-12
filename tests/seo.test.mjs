@@ -119,6 +119,25 @@ test('Private, filtered, empty and operational pages stay out of the index; unkn
   } finally { db.prepare('DELETE FROM entities WHERE kind=? AND id=?').run('categories', category.id); }
 });
 
+test('Expanded catalog paginates with crawlable links, own canonical URLs and a complete result count', async () => {
+  const first = await get('/sr/katalog');
+  const second = await get('/sr/katalog?page=2');
+  assert.equal(first.response.status, 200);
+  assert.equal(second.response.status, 200);
+  assert.equal(canonical(second.html), origin + '/sr/katalog?page=2');
+  assert.ok(!tag(second.html, 'robots').includes('noindex'));
+  assert.match(second.html, /href="\/sr\/katalog\?page=3"/);
+  const list = jsonLd(first.html).find(n => n['@type'] === 'CollectionPage').mainEntity;
+  assert.equal(list.numberOfItems, 24);
+  assert.equal(list.itemListElement.length, 24);
+  assert.equal((await get('/sr/katalog?page=999999')).response.status, 404);
+  const filtered = await get('/sr/katalog?q=Bosch&page=2');
+  assert.equal(filtered.response.status, 200);
+  assert.match(tag(filtered.html, 'robots'), /noindex/);
+  assert.equal(canonical(filtered.html), origin + '/sr/katalog');
+  assert.match(filtered.html, /q=Bosch(?:&amp;|&)page=3/);
+});
+
 test('Rental content, Cyrillic and common aliases resolve to the right tool', async () => {
   for (const [query, slug] of [['жирафа', 'zirafa-za-brusenje-zidova'], ['stemarica', 'pikamer-stemerica'], ['fleks', 'ugaona-brusilica'], ['pegla za cevi', 'varilica-za-plasticne-vodovodne-cevi']]) {
     const { html } = await get('/sr/katalog?q=' + encodeURIComponent(query));

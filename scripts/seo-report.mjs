@@ -17,9 +17,9 @@ const tools = seed.tools.map(tool => {
   };
 });
 const report = {
-  scope: `${tools.length} vrsta alata; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.`,
+  scope: `${seed.tools.filter(t => !t.catalogModel).length} vrsta alata i ${seed.tools.filter(t => t.catalogModel).length} konkretnih modela; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.`,
   deliveryArea: 'Isključivo administrativna teritorija grada Beograda, uključujući Obrenovac, Sremčicu i Železnik.',
-  strategy: 'Jedan indeksabilan URL po vrsti alata i jeziku. Sinonimi, latinica bez dijakritike i ćirilica ne stvaraju duplikate stranica.',
+  strategy: 'Jedan indeksabilan URL po vrsti ili konkretnom modelu i jeziku. Modeli imaju stabilan ID izvora, sopstvenu stranicu i naziv. Sinonimi, latinica bez dijakritike i ćirilica ne stvaraju nove URL-ove. Stranice paginacije imaju sopstveni canonical; filteri i sortiranje su noindex.',
   tools,
 };
 writeFileSync(new URL('../docs/seo-keywords.json', import.meta.url), JSON.stringify(report, null, 2) + '\n');

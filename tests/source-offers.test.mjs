@@ -42,3 +42,20 @@ test('Gross rent, wear charges, discounts and conflicting source prices are capt
   assert.ok(generator.prices.some(p => p.label === '30+ dana' && p.amount === 4261));
   assert.ok(generator.depositText.includes('80.000'));
 });
+
+test('Crafter approval imports all selected models, keeps purchases separate and leaves solo kits inquiry-priced', () => {
+  const review = read('../research/crafter-2026-10-12/products-review.json').products;
+  const imported = read('../lib/catalog-crafter-import.json').tools;
+  const selected = review.filter(p => p.status === 'included');
+  assert.equal(imported.length, 1813);
+  assert.deepEqual(new Set(imported.map(t => 'CR-' + t.catalogModel.productId)), new Set(selected.map(p => p.id)));
+  assert.ok(imported.every(t => t.quantity === null && t.deposit === null));
+  assert.ok(imported.filter(t => t.catalogModel.incompleteKit).every(t => t.price === null));
+  assert.equal(imported.filter(t => t.price !== null).length, 1473);
+  const grinder = imported.find(t => t.name.sr.includes('GWS 750-125'));
+  assert.equal(grinder.catalogModel.rentalPriceBase, 8250);
+  assert.equal(grinder.price, 600);
+  const supplier = offers.filter(o => o.source === 'crafter.rs');
+  assert.equal(supplier.length, imported.length);
+  assert.ok(supplier.every(o => o.kind === 'sale' && o.prices.every(p => p.unit === 'sale' && p.currency === 'RSD')));
+});

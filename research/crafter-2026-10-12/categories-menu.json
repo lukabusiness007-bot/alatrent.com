@@ -1,0 +1,5290 @@
+[
+  {
+    "name": "Outlet",
+    "url": "https://www.crafter.rs/outlet"
+  },
+  {
+    "name": "Usluge",
+    "url": "https://www.crafter.rs/usluge"
+  },
+  {
+    "name": "Alati i mašine",
+    "url": "https://www.crafter.rs/alati-i-masine"
+  },
+  {
+    "name": "Mašine",
+    "url": "https://www.crafter.rs/alati-i-masine/masine"
+  },
+  {
+    "name": "Akumulatorske mašine i oprema",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema"
+  },
+  {
+    "name": "Aku bušilice i odvijači, šrafilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-busilice-i-odvijaci"
+  },
+  {
+    "name": "Aku ugaone brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-ugaone-brusilice"
+  },
+  {
+    "name": "Aku testere",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-testere"
+  },
+  {
+    "name": "Aku udarne bušilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-udarne-busilice"
+  },
+  {
+    "name": "Aku elektro pneumatski čekići",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-elektro-pneumatski-cekici"
+  },
+  {
+    "name": "Aku vibracione brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-vibracione-brusilice"
+  },
+  {
+    "name": "Aku tračne brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-tracne-brusilice"
+  },
+  {
+    "name": "Aku setovi alata",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/akumulatorski-setovi-alata"
+  },
+  {
+    "name": "Baterije i punjači za aku alat",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/baterije-i-punjaci-za-akumulatorski-alat"
+  },
+  {
+    "name": "Aku usisivači",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/aku-usisivaci"
+  },
+  {
+    "name": "Akumulatorski alat ostalo",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/akumulatorske-masine-i-oprema/akumulatorski-alat-ostalo"
+  },
+  {
+    "name": "Električne mašine",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine"
+  },
+  {
+    "name": "Ugaone brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/ugaone-brusilice"
+  },
+  {
+    "name": "Brusilice za zidove - žirafe",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/brusilice-za-zidove-zirafe"
+  },
+  {
+    "name": "Električne bušilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricne-busilice"
+  },
+  {
+    "name": "Elektro pneumatske bušilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektro-pneumatske-busilice"
+  },
+  {
+    "name": "Čeone brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/ceone-brusilice"
+  },
+  {
+    "name": "Tračne i vibracione brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/tracne-i-vibracione-brusilice"
+  },
+  {
+    "name": "Glodalice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/glodalice"
+  },
+  {
+    "name": "Heftalice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/heftalice"
+  },
+  {
+    "name": "Lemilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/lemilice"
+  },
+  {
+    "name": "Električni mešači",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricni-mesaci"
+  },
+  {
+    "name": "Električni odvijači",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricni-odvijaci"
+  },
+  {
+    "name": "Električne kekserice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricne-kekserice"
+  },
+  {
+    "name": "Industrijski fenovi",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/industrijski-fenovi"
+  },
+  {
+    "name": "Električno rende",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricno-rende"
+  },
+  {
+    "name": "Električni setovi alata",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricni-setovi-alata"
+  },
+  {
+    "name": "Električne stone testere - ger mašine",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/elektricne-stone-testere-ger-masine"
+  },
+  {
+    "name": "Kružne testere",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/kruzne-testere"
+  },
+  {
+    "name": "Ubodne testere",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/ubodne-testere"
+  },
+  {
+    "name": "Usisivači i pribor",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/usisivaci-i-pribor"
+  },
+  {
+    "name": "Tocila",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/tocila"
+  },
+  {
+    "name": "Stubne bušilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/elektricne-masine/stubne-busilice"
+  },
+  {
+    "name": "Pneumatske mašine",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine"
+  },
+  {
+    "name": "Pneumatski odvijači",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pneumatski-odvijaci"
+  },
+  {
+    "name": "Pneumatske račne",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pneumatske-racne"
+  },
+  {
+    "name": "Pneumatske brusilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pneumatske-brusilice"
+  },
+  {
+    "name": "Pneumatske bušilice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pneumatske-busilice"
+  },
+  {
+    "name": "Pneumatske heftalice",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pneumatske-heftalice"
+  },
+  {
+    "name": "Pištolji za farbanje",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pistolji-za-farbanje"
+  },
+  {
+    "name": "Pneumatski pištolji za izduvavanje",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pneumatski-pistolji-za-izduvavanje"
+  },
+  {
+    "name": "Pribor za pneumatske mašine",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/pribor-za-pneumatske-masine"
+  },
+  {
+    "name": "Ostali pneumatski alat",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/pneumatske-masine/ostali-pneumatski-alat"
+  },
+  {
+    "name": "Kompresori",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/kompresori"
+  },
+  {
+    "name": "Dremel alati",
+    "url": "https://www.crafter.rs/alati-i-masine/masine/dremel-alati"
+  },
+  {
+    "name": "Pribor za mašine",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine"
+  },
+  {
+    "name": "Burgije",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/burgije"
+  },
+  {
+    "name": "Burgije za beton, kamen i keramiku",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/burgije/burgije-za-beton-kamen-i-keramiku"
+  },
+  {
+    "name": "Burgije za drvo",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/burgije/burgije-za-drvo"
+  },
+  {
+    "name": "Burgije za metal",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/burgije/burgije-za-metal"
+  },
+  {
+    "name": "Testere",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/testere"
+  },
+  {
+    "name": "Cilindrične testere",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/testere/cilindricne-testere"
+  },
+  {
+    "name": "Testere za cirkular",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/testere/testere-za-cirkular"
+  },
+  {
+    "name": "Listovi testere za sabljarku",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/testere/listovi-testere-za-sabljarku"
+  },
+  {
+    "name": "Listovi ubodne testere",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/testere/listovi-ubodne-testere"
+  },
+  {
+    "name": "Rezne i brusne ploče",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/rezne-i-brusne-ploce"
+  },
+  {
+    "name": "Brusne ploče",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/rezne-i-brusne-ploce/brusne-ploce"
+  },
+  {
+    "name": "Rezne ploče",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/rezne-i-brusne-ploce/rezne-ploce"
+  },
+  {
+    "name": "Lamelarni diskovi",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/lamelarni-diskovi"
+  },
+  {
+    "name": "Dijamantske ploče",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/dijamantske-ploce"
+  },
+  {
+    "name": "Abrazivi - šmirgle",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/abrazivi-smirgle"
+  },
+  {
+    "name": "Brusne trake i šmirgle u rolni",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/abrazivi-smirgle/brusne-trake-i-smirgle-u-rolni"
+  },
+  {
+    "name": "Kružne šmirgle sa i bez rupa",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/abrazivi-smirgle/kruzne-smirgle-sa-i-bez-rupa"
+  },
+  {
+    "name": "Šmirgle na osovini",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/abrazivi-smirgle/smirgle-na-osovini"
+  },
+  {
+    "name": "Brusni kamen i glodala",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/brusni-kamen-i-glodala"
+  },
+  {
+    "name": "Glodalo od tvrdog metala",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/brusni-kamen-i-glodala/glodalo-od-tvrdog-metala"
+  },
+  {
+    "name": "Brusni kamen",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/brusni-kamen-i-glodala/brusni-kamen"
+  },
+  {
+    "name": "Fina obrada inoxa i čelika",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/fina-obrada-inoxa-i-celika"
+  },
+  {
+    "name": "Čelične četke",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/celicne-cetke"
+  },
+  {
+    "name": "Upuštači",
+    "url": "https://www.crafter.rs/alati-i-masine/pribor-za-masine/upustaci"
+  },
+  {
+    "name": "Ručni alat",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat"
+  },
+  {
+    "name": "Merenje i obeležavanje",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/merenje-i-obelezavanje"
+  },
+  {
+    "name": "Laserska merna tehinika",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/merenje-i-obelezavanje/laserska-merna-tehinika"
+  },
+  {
+    "name": "Libele i ravnjače",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/merenje-i-obelezavanje/libele-i-ravnjace"
+  },
+  {
+    "name": "Merne trake",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/merenje-i-obelezavanje/merne-trake"
+  },
+  {
+    "name": "Pomična merila",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/merenje-i-obelezavanje/pomicna-merila"
+  },
+  {
+    "name": "Ugaonici",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/merenje-i-obelezavanje/ugaonici"
+  },
+  {
+    "name": "Unimeri",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/merenje-i-obelezavanje/unimeri"
+  },
+  {
+    "name": "Alati za obeležavanje",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/merenje-i-obelezavanje/alati-za-obelezavanje"
+  },
+  {
+    "name": "Setovi alata",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata"
+  },
+  {
+    "name": "Kombinovani setovi alata",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/kombinovani-setovi-alata"
+  },
+  {
+    "name": "Setovi klešta",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/setovi-klesta"
+  },
+  {
+    "name": "Setovi ključeva",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/setovi-kljuceva"
+  },
+  {
+    "name": "Setovi nasadnika",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/setovi-nasadnika"
+  },
+  {
+    "name": "Setovi odvijača",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/setovi-odvijaca"
+  },
+  {
+    "name": "Setovi turpija",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/setovi-turpija"
+  },
+  {
+    "name": "Setovi alata za elektroničare",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/setovi-alata/setovi-alata-za-elektronicare"
+  },
+  {
+    "name": "Alati za vodoinstalatere i keramičare",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare"
+  },
+  {
+    "name": "Alat za vodovod",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare/alat-za-vodovod"
+  },
+  {
+    "name": "Alati za obradu cevi",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare/alati-za-obradu-cevi"
+  },
+  {
+    "name": "Keramičarski alat",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare/keramicarski-alat"
+  },
+  {
+    "name": "Mašine za sečenje pločica",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/alati-za-vodoinstalatere-i-keramicare/masine-za-secenje-plocica"
+  },
+  {
+    "name": "Čekići",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/cekici"
+  },
+  {
+    "name": "Bravarski čekići",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/cekici/bravarski-cekici"
+  },
+  {
+    "name": "Gumeni i plastični čekići",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/cekici/gumeni-i-plasticni-cekici"
+  },
+  {
+    "name": "Tesarski čekići",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/cekici/tesarski-cekici"
+  },
+  {
+    "name": "Zidarski, kovački i zavarivački čekići",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/cekici/zidarski-kovacki-i-zavarivacki-cekici"
+  },
+  {
+    "name": "Čekići za kamen i macole",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/cekici/cekici-za-kamen-i-macole"
+  },
+  {
+    "name": "Držale i pribor",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/cekici/drzale-i-pribor"
+  },
+  {
+    "name": "Klešta",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta"
+  },
+  {
+    "name": "Armiračka i stolarska klešta",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta/armiracka-i-stolarska-klesta"
+  },
+  {
+    "name": "Grip klešta",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta/grip-klesta"
+  },
+  {
+    "name": "Radionička klešta",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta/radionicka-klesta"
+  },
+  {
+    "name": "Klešta raznih namena",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta/klesta-raznih-namena"
+  },
+  {
+    "name": "Električarska VDE klešta",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta/elektricarska-vde-klesta"
+  },
+  {
+    "name": "Vodoinstalaterska klešta",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta/vodoinstalaterska-klesta"
+  },
+  {
+    "name": "Klešta za krimpovanje i blankiranje",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta/klesta-za-krimpovanje-i-blankiranje"
+  },
+  {
+    "name": "Klešta za pop nitne",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta/klesta-za-pop-nitne"
+  },
+  {
+    "name": "Zeger klešta",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta/zeger-klesta"
+  },
+  {
+    "name": "Klešta za sečenje armature",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/klesta/klesta-za-secenje-armature"
+  },
+  {
+    "name": "Ključevi",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/kljucevi"
+  },
+  {
+    "name": "Okasti ključevi",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/kljucevi/okasti-kljucevi"
+  },
+  {
+    "name": "Viljuškasti ključevi",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/kljucevi/viljuskasti-kljucevi"
+  },
+  {
+    "name": "Ključevi sa račnom",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/kljucevi/kljucevi-sa-racnom"
+  },
+  {
+    "name": "Specijalni ključevi",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/kljucevi/specijalni-kljucevi"
+  },
+  {
+    "name": "Viljuškasto-okasti ključevi",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/kljucevi/viljuskasto-okasti-kljucevi"
+  },
+  {
+    "name": "Podešavajući ključevi",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/kljucevi/podesavajuci-kljucevi"
+  },
+  {
+    "name": "Makaze",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/makaze"
+  },
+  {
+    "name": "Makaze za lim",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/makaze/makaze-za-lim"
+  },
+  {
+    "name": "Makaze ostalo",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/makaze/makaze-ostalo"
+  },
+  {
+    "name": "Nasadnici i račne",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/nasadnici-i-racne"
+  },
+  {
+    "name": "Nasadnici",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/nasadnici-i-racne/nasadnici"
+  },
+  {
+    "name": "Kardani, redukcije i ekstenzije",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/nasadnici-i-racne/kardani-redukcije-i-ekstenzije"
+  },
+  {
+    "name": "Račne",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/nasadnici-i-racne/racne"
+  },
+  {
+    "name": "Odvijači",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/odvijaci"
+  },
+  {
+    "name": "Odvijači L forma",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/odvijaci/odvijaci-l-forma"
+  },
+  {
+    "name": "Odvijači T forma",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/odvijaci/odvijaci-t-forma"
+  },
+  {
+    "name": "Mehaničarski odvijači",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/odvijaci/mehanicarski-odvijaci"
+  },
+  {
+    "name": "Odvijači za električare VDE",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/odvijaci/odvijaci-za-elektricare-vde"
+  },
+  {
+    "name": "Ispitivači napona",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/odvijaci/ispitivaci-napona"
+  },
+  {
+    "name": "Razni odvijači",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/odvijaci/razni-odvijaci"
+  },
+  {
+    "name": "Pištolji za silikon i pur penu",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/pistolji-za-silikon-i-pur-penu"
+  },
+  {
+    "name": "Pištolji za silikon",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/pistolji-za-silikon-i-pur-penu/pistolji-za-silikon"
+  },
+  {
+    "name": "Pištolji za pur penu",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/pistolji-za-silikon-i-pur-penu/pistolji-za-pur-penu"
+  },
+  {
+    "name": "Pištolji za tio git",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/pistolji-za-silikon-i-pur-penu/pistolji-za-tio-git"
+  },
+  {
+    "name": "Ureznice i nareznice",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/ureznice-i-nareznice"
+  },
+  {
+    "name": "Ručne testere",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucne-testere"
+  },
+  {
+    "name": "Testere za drvo",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucne-testere/testere-za-drvo"
+  },
+  {
+    "name": "Testere za metal",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucne-testere/testere-za-metal"
+  },
+  {
+    "name": "Razne testere",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucne-testere/razne-testere"
+  },
+  {
+    "name": "Skalpeli i noževi",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/skalpeli-i-nozevi"
+  },
+  {
+    "name": "Skalpeli",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/skalpeli-i-nozevi/skalpeli"
+  },
+  {
+    "name": "Noževi",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/skalpeli-i-nozevi/nozevi"
+  },
+  {
+    "name": "Stege",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/stege"
+  },
+  {
+    "name": "Bravarske stege",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/stege/bravarske-stege"
+  },
+  {
+    "name": "Jednoručne brze stege",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/stege/jednorucne-brze-stege"
+  },
+  {
+    "name": "Stolarske stege",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/stege/stolarske-stege"
+  },
+  {
+    "name": "Štipaljke",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/stege/stipaljke"
+  },
+  {
+    "name": "Turpije",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/turpije"
+  },
+  {
+    "name": "Turpije za drvo",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/turpije/turpije-za-drvo"
+  },
+  {
+    "name": "Turpije za metal",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/turpije/turpije-za-metal"
+  },
+  {
+    "name": "Rende i rašpe",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/turpije/rende-i-raspe"
+  },
+  {
+    "name": "Dleta",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/turpije/dleta"
+  },
+  {
+    "name": "Turpije razne",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/turpije/turpije-razne"
+  },
+  {
+    "name": "Umeci (bitovi) i držači umetaka",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/umeci-bitovi-i-drzaci-umetaka"
+  },
+  {
+    "name": "Držači umetaka",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/umeci-bitovi-i-drzaci-umetaka/drzaci-umetaka"
+  },
+  {
+    "name": "Umeci",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/umeci-bitovi-i-drzaci-umetaka/umeci"
+  },
+  {
+    "name": "Ručni alat ostalo",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucni-alat-ostalo"
+  },
+  {
+    "name": "Heftalice i pribor",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucni-alat-ostalo/heftalice-i-pribor"
+  },
+  {
+    "name": "Hvatači i držači",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucni-alat-ostalo/hvataci-i-drzaci"
+  },
+  {
+    "name": "Kantice i merice",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucni-alat-ostalo/kantice-i-merice"
+  },
+  {
+    "name": "Obeleživači",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucni-alat-ostalo/obelezivaci"
+  },
+  {
+    "name": "Pincete",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucni-alat-ostalo/pincete"
+  },
+  {
+    "name": "Poluge i pajseri",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucni-alat-ostalo/poluge-i-pajseri"
+  },
+  {
+    "name": "Radapcigeri",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucni-alat-ostalo/radapcigeri"
+  },
+  {
+    "name": "Sekači, dleta, probojci, šila",
+    "url": "https://www.crafter.rs/alati-i-masine/rucni-alat/rucni-alat-ostalo/sekaci-dleta-probojci-sila"
+  },
+  {
+    "name": "Odlaganje i radni stolovi",
+    "url": "https://www.crafter.rs/alati-i-masine/odlaganje-i-radni-stolovi"
+  },
+  {
+    "name": "Klaseri",
+    "url": "https://www.crafter.rs/alati-i-masine/odlaganje-i-radni-stolovi/klaseri"
+  },
+  {
+    "name": "Kolica za alat",
+    "url": "https://www.crafter.rs/alati-i-masine/odlaganje-i-radni-stolovi/kolica-za-alat"
+  },
+  {
+    "name": "Kutije za alat",
+    "url": "https://www.crafter.rs/alati-i-masine/odlaganje-i-radni-stolovi/kutije-za-alat"
+  },
+  {
+    "name": "Ormani za alat",
+    "url": "https://www.crafter.rs/alati-i-masine/odlaganje-i-radni-stolovi/ormani-za-alat"
+  },
+  {
+    "name": "Radni stolovi",
+    "url": "https://www.crafter.rs/alati-i-masine/odlaganje-i-radni-stolovi/radni-stolovi"
+  },
+  {
+    "name": "Stalci za alat",
+    "url": "https://www.crafter.rs/alati-i-masine/odlaganje-i-radni-stolovi/stalci-za-alat"
+  },
+  {
+    "name": "Torbe za alat",
+    "url": "https://www.crafter.rs/alati-i-masine/odlaganje-i-radni-stolovi/torbe-za-alat"
+  },
+  {
+    "name": "Zavarivanje",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje"
+  },
+  {
+    "name": "Aparati za zavarivanje",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje/aparati-za-zavarivanje"
+  },
+  {
+    "name": "Aparati za REL elektrolučno zavarivanje",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje/aparati-za-zavarivanje/aparati-za-rel-elektrolucno-zavarivanje"
+  },
+  {
+    "name": "Aparati za MIG MAG zavarivanje",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje/aparati-za-zavarivanje/aparati-za-mig-mag-zavarivanje"
+  },
+  {
+    "name": "Aparati za WIG TIG zavarivanje",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje/aparati-za-zavarivanje/aparati-za-wig-tig-zavarivanje"
+  },
+  {
+    "name": "Žica i elektrode",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje/zica-i-elektrode"
+  },
+  {
+    "name": "Elektrode",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje/zica-i-elektrode/elektrode"
+  },
+  {
+    "name": "Žice za zavarivanje",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje/zica-i-elektrode/zice-za-zavarivanje"
+  },
+  {
+    "name": "Pribor za zavarivanje",
+    "url": "https://www.crafter.rs/alati-i-masine/zavarivanje/pribor-za-zavarivanje"
+  },
+  {
+    "name": "Bašta i sezona",
+    "url": "https://www.crafter.rs/basta-i-sezona"
+  },
+  {
+    "name": "Rad u bašti",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti"
+  },
+  {
+    "name": "Motorne mašine i alati",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati"
+  },
+  {
+    "name": "Kosilice",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/kosilice"
+  },
+  {
+    "name": "Trimeri",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/trimeri"
+  },
+  {
+    "name": "Freze | Motokultivatori | Kopačice",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/freze-motokultivatori-kopacice"
+  },
+  {
+    "name": "Električne makaze",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/elektricne-makaze"
+  },
+  {
+    "name": "Motorne testere",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/motorne-testere"
+  },
+  {
+    "name": "Agregati za struju",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/agregati-za-struju"
+  },
+  {
+    "name": "Usisivači i duvači lišća",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/usisivaci-i-duvaci-lisca"
+  },
+  {
+    "name": "Cepači drva",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/cepaci-drva"
+  },
+  {
+    "name": "Čistači snega",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/cistaci-snega"
+  },
+  {
+    "name": "Delovi i ulja za motorne mašine i alate",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/delovi-i-ulja-za-motorne-masine-i-alate"
+  },
+  {
+    "name": "Vertikulatori",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/vertikulatori"
+  },
+  {
+    "name": "Drobilice za grane",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/motorne-masine-i-alati/drobilice-za-grane"
+  },
+  {
+    "name": "Baštenski alati",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati"
+  },
+  {
+    "name": "Ručni baštenski alat",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/rucni-bastenski-alat"
+  },
+  {
+    "name": "Držale za alat",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/drzale-za-alat"
+  },
+  {
+    "name": "Grabulje",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/grabulje"
+  },
+  {
+    "name": "Kose, srpovi i mačete",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/kose-srpovi-i-macete"
+  },
+  {
+    "name": "Krampovi",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/krampovi"
+  },
+  {
+    "name": "Ašovi",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/asovi"
+  },
+  {
+    "name": "Lopate",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/lopate"
+  },
+  {
+    "name": "Makaze za orezivanje",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/bastenske-makaze"
+  },
+  {
+    "name": "Baštenske metle i četke",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/bastenske-metle-i-cetke"
+  },
+  {
+    "name": "Motike",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/motike"
+  },
+  {
+    "name": "Sekire",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/sekire"
+  },
+  {
+    "name": "Vile",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/vile"
+  },
+  {
+    "name": "Kose",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/bastenski-alati/kose"
+  },
+  {
+    "name": "Prskalice",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/prskalice"
+  },
+  {
+    "name": "Atomizeri",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/prskalice/atomizeri"
+  },
+  {
+    "name": "Ručne prskalice",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/prskalice/rucne-prskalice"
+  },
+  {
+    "name": "Pumpe",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/pumpe"
+  },
+  {
+    "name": "Hidrofori",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/pumpe/hidrofori"
+  },
+  {
+    "name": "Oprema za pumpe za vodu",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/pumpe/oprema-za-pumpe-za-vodu"
+  },
+  {
+    "name": "Pumpe za vodu",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/pumpe/pumpe-za-vodu"
+  },
+  {
+    "name": "Zaštita od insekata i štetočina",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/zastita-od-insekata-i-stetocina"
+  },
+  {
+    "name": "Mreže za komarce",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/zastita-od-insekata-i-stetocina/mreze-za-komarce"
+  },
+  {
+    "name": "Sredstva za zaštitu od insekata",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/zastita-od-insekata-i-stetocina/sredstva-za-zastitu-od-insekata"
+  },
+  {
+    "name": "Zamke i aparati za glodare",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/zastita-od-insekata-i-stetocina/zamke-i-aparati-za-glodare"
+  },
+  {
+    "name": "Potporne žice",
+    "url": "https://www.crafter.rs/basta-i-sezona/rad-u-basti/zastita-od-insekata-i-stetocina/potporne-zice"
+  },
+  {
+    "name": "Odmor i rekreacija",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija"
+  },
+  {
+    "name": "Baštenski nameštaj",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-namestaj"
+  },
+  {
+    "name": "Baštenske garniture i setovi",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-namestaj/bastenske-garniture-i-setovi"
+  },
+  {
+    "name": "Baštenski stolovi",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-namestaj/bastenski-stolovi"
+  },
+  {
+    "name": "Baštenske kutije",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-namestaj/bastenske-kutije"
+  },
+  {
+    "name": "Baštenske ležaljke",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-namestaj/bastenske-lezaljke"
+  },
+  {
+    "name": "Baštenske ljuljaške",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-namestaj/bastenske-ljuljaske"
+  },
+  {
+    "name": "Baštenski jastuci",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-namestaj/bastenski-jastuci"
+  },
+  {
+    "name": "Baštenske stolice i klupe",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-namestaj/bastenske-stolice-i-klupe"
+  },
+  {
+    "name": "Baštenski mobilijar i oprema",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-mobilijar-i-oprema"
+  },
+  {
+    "name": "Baštenske kućice",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-mobilijar-i-oprema/bastenske-kucice"
+  },
+  {
+    "name": "Česme i fontane",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-mobilijar-i-oprema/cesme-i-fontane"
+  },
+  {
+    "name": "Nadstrešnice i pergole",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-mobilijar-i-oprema/nadstresnice-i-pergole"
+  },
+  {
+    "name": "Suncobrani i paviljoni",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-mobilijar-i-oprema/suncobrani-i-paviljoni"
+  },
+  {
+    "name": "Tende",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-mobilijar-i-oprema/tende"
+  },
+  {
+    "name": "Veštačka trava",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/bastenski-mobilijar-i-oprema/vestacka-trava"
+  },
+  {
+    "name": "Sport",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/sport"
+  },
+  {
+    "name": "Bicikli i oprema",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/sport/bicikli-i-oprema"
+  },
+  {
+    "name": "Nautika i sportovi na vodi",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/sport/nautika-i-sportovi-na-vodi"
+  },
+  {
+    "name": "Sprave za vežbanje",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/sport/sprave-za-vezbanje"
+  },
+  {
+    "name": "Sportski rekviziti i oprema",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/sport/sportski-rekviziti-i-oprema"
+  },
+  {
+    "name": "Trotineti",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/sport/trotineti"
+  },
+  {
+    "name": "Kućni ljubimci",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/kucni-ljubimci"
+  },
+  {
+    "name": "Program za decu",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/program-za-decu"
+  },
+  {
+    "name": "Igračke za decu",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/program-za-decu/igracke-za-decu"
+  },
+  {
+    "name": "Nameštaj za decu",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/program-za-decu/namestaj-za-decu"
+  },
+  {
+    "name": "Tramboline",
+    "url": "https://www.crafter.rs/basta-i-sezona/odmor-i-rekreacija/program-za-decu/tramboline"
+  },
+  {
+    "name": "Bazeni i oprema",
+    "url": "https://www.crafter.rs/basta-i-sezona/bazeni-i-oprema"
+  },
+  {
+    "name": "Oprema za bazene",
+    "url": "https://www.crafter.rs/basta-i-sezona/bazeni-i-oprema/oprema-za-bazene"
+  },
+  {
+    "name": "Bazeni",
+    "url": "https://www.crafter.rs/basta-i-sezona/bazeni-i-oprema/bazeni"
+  },
+  {
+    "name": "Hemija za bazene",
+    "url": "https://www.crafter.rs/basta-i-sezona/bazeni-i-oprema/hemija-za-bazene"
+  },
+  {
+    "name": "Kamp oprema",
+    "url": "https://www.crafter.rs/basta-i-sezona/kamp-oprema"
+  },
+  {
+    "name": "Šatori",
+    "url": "https://www.crafter.rs/basta-i-sezona/kamp-oprema/satori"
+  },
+  {
+    "name": "Dušeci i vreće za spavanje",
+    "url": "https://www.crafter.rs/basta-i-sezona/kamp-oprema/duseci-i-vrece-za-spavanje"
+  },
+  {
+    "name": "Kamp pribor",
+    "url": "https://www.crafter.rs/basta-i-sezona/kamp-oprema/kamp-pribor"
+  },
+  {
+    "name": "Ručni frižideri",
+    "url": "https://www.crafter.rs/basta-i-sezona/kamp-oprema/rucni-frizideri"
+  },
+  {
+    "name": "Torbe i rančevi",
+    "url": "https://www.crafter.rs/basta-i-sezona/kamp-oprema/torbe-i-rancevi"
+  },
+  {
+    "name": "Roštilji i oprema",
+    "url": "https://www.crafter.rs/basta-i-sezona/rostilji-i-oprema"
+  },
+  {
+    "name": "Roštilji na ćumur",
+    "url": "https://www.crafter.rs/basta-i-sezona/rostilji-i-oprema/rostilji-na-cumur"
+  },
+  {
+    "name": "Roštilji na plin",
+    "url": "https://www.crafter.rs/basta-i-sezona/rostilji-i-oprema/rostilji-na-plin"
+  },
+  {
+    "name": "Električni roštilji",
+    "url": "https://www.crafter.rs/basta-i-sezona/rostilji-i-oprema/elektricni-rostilji"
+  },
+  {
+    "name": "Betonski roštilji",
+    "url": "https://www.crafter.rs/basta-i-sezona/rostilji-i-oprema/betonski-rostilji"
+  },
+  {
+    "name": "Keramički roštilji i oprema",
+    "url": "https://www.crafter.rs/basta-i-sezona/rostilji-i-oprema/keramicki-rostilji-i-oprema"
+  },
+  {
+    "name": "Kotlići i sačevi",
+    "url": "https://www.crafter.rs/basta-i-sezona/rostilji-i-oprema/kotlici-i-sacevi"
+  },
+  {
+    "name": "Pizza peći",
+    "url": "https://www.crafter.rs/basta-i-sezona/rostilji-i-oprema/pizza-peci"
+  },
+  {
+    "name": "Ćumur",
+    "url": "https://www.crafter.rs/basta-i-sezona/rostilji-i-oprema/cumur"
+  },
+  {
+    "name": "Oprema i pribor za roštilj",
+    "url": "https://www.crafter.rs/basta-i-sezona/rostilji-i-oprema/oprema-i-pribor-za-rostilj"
+  },
+  {
+    "name": "Biljke, sredstva i oprema",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema"
+  },
+  {
+    "name": "Sobne biljke",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/sobne-biljke"
+  },
+  {
+    "name": "Orhideje",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/sobne-biljke/orhideje"
+  },
+  {
+    "name": "Zelene biljke",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/sobne-biljke/zelene-biljke"
+  },
+  {
+    "name": "Cvetnice",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/sobne-biljke/cvetnice"
+  },
+  {
+    "name": "Kaktusi",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/sobne-biljke/kaktusi"
+  },
+  {
+    "name": "Lukovice",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/sobne-biljke/lukovice"
+  },
+  {
+    "name": "Začinske biljke",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/sobne-biljke/zacinske-biljke"
+  },
+  {
+    "name": "Vrtne biljke",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/vrtne-biljke"
+  },
+  {
+    "name": "Četinari",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/vrtne-biljke/cetinari"
+  },
+  {
+    "name": "Listopadno drveće",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/vrtne-biljke/listopadno-drvece"
+  },
+  {
+    "name": "Mediteranske biljke",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/vrtne-biljke/mediteranske-biljke"
+  },
+  {
+    "name": "Ruže",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/vrtne-biljke/ruze"
+  },
+  {
+    "name": "Sezonsko cveće",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/vrtne-biljke/sezonsko-cvece"
+  },
+  {
+    "name": "Zemlja i supstrati za biljke",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/zemlja-i-supstrati-za-biljke"
+  },
+  {
+    "name": "Đubriva za biljke",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/dubriva-za-biljke"
+  },
+  {
+    "name": "Saksije i žardinjere",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/saksije-i-zardinjere"
+  },
+  {
+    "name": "Creva, prskalice i oprema za zalivanje",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/creva-prskalice-i-oprema-za-zalivanje"
+  },
+  {
+    "name": "Baštenska creva za zalivanje",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/creva-prskalice-i-oprema-za-zalivanje/bastenska-creva-za-zalivanje"
+  },
+  {
+    "name": "Motalice za baštenska creva",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/creva-prskalice-i-oprema-za-zalivanje/motalice-za-bastenska-creva"
+  },
+  {
+    "name": "Baštenske prskalice",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/creva-prskalice-i-oprema-za-zalivanje/bastenske-prskalice"
+  },
+  {
+    "name": "Spojnice i nastavci za creva",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/creva-prskalice-i-oprema-za-zalivanje/spojnice-i-nastavci-za-creva"
+  },
+  {
+    "name": "Tajmeri za zalivanje",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/creva-prskalice-i-oprema-za-zalivanje/tajmeri-za-zalivanje"
+  },
+  {
+    "name": "Kante za zalivanje",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/creva-prskalice-i-oprema-za-zalivanje/kante-za-zalivanje"
+  },
+  {
+    "name": "Creva kap po kap",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/creva-prskalice-i-oprema-za-zalivanje/creva-kap-po-kap"
+  },
+  {
+    "name": "Semena",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/semena"
+  },
+  {
+    "name": "Seme povrća",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/semena/seme-povrca"
+  },
+  {
+    "name": "Seme začinskog bilja",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/semena/seme-zacinskog-bilja"
+  },
+  {
+    "name": "Seme cveća",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/semena/seme-cveca"
+  },
+  {
+    "name": "Seme trave",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/semena/seme-trave"
+  },
+  {
+    "name": "Kamenje i malč",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/kamenje-i-malc"
+  },
+  {
+    "name": "Komposteri",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/komposteri"
+  },
+  {
+    "name": "Oprema za biljke i baštu",
+    "url": "https://www.crafter.rs/basta-i-sezona/biljke-sredstva-i-oprema/oprema-za-biljke-i-bastu"
+  },
+  {
+    "name": "Baštenska oprema",
+    "url": "https://www.crafter.rs/basta-i-sezona/bastenska-oprema"
+  },
+  {
+    "name": "Termometri",
+    "url": "https://www.crafter.rs/basta-i-sezona/bastenska-oprema/termometri"
+  },
+  {
+    "name": "Ograde i kapije",
+    "url": "https://www.crafter.rs/basta-i-sezona/bastenska-oprema/ograde-i-kapije"
+  },
+  {
+    "name": "Žičane ograde",
+    "url": "https://www.crafter.rs/basta-i-sezona/bastenska-oprema/ograde-i-kapije/zicane-ograde"
+  },
+  {
+    "name": "Stubovi i pribor za ogradu",
+    "url": "https://www.crafter.rs/basta-i-sezona/bastenska-oprema/ograde-i-kapije/stubovi-i-pribor-za-ogradu"
+  },
+  {
+    "name": "Metalne ograde",
+    "url": "https://www.crafter.rs/basta-i-sezona/bastenska-oprema/ograde-i-kapije/metalne-ograde"
+  },
+  {
+    "name": "PVC ograde",
+    "url": "https://www.crafter.rs/basta-i-sezona/bastenska-oprema/ograde-i-kapije/pvc-ograde"
+  },
+  {
+    "name": "Drvene ograde i trska",
+    "url": "https://www.crafter.rs/basta-i-sezona/bastenska-oprema/ograde-i-kapije/drvene-ograde-i-trska"
+  },
+  {
+    "name": "Panelne ograde",
+    "url": "https://www.crafter.rs/basta-i-sezona/bastenska-oprema/ograde-i-kapije/panelne-ograde"
+  },
+  {
+    "name": "Veštačka živa ograda",
+    "url": "https://www.crafter.rs/basta-i-sezona/bastenska-oprema/ograde-i-kapije/vestacka-ziva-ograda"
+  },
+  {
+    "name": "Baštenske figure",
+    "url": "https://www.crafter.rs/basta-i-sezona/bastenska-oprema/bastenske-figure"
+  },
+  {
+    "name": "Baštenske lampe",
+    "url": "https://www.crafter.rs/basta-i-sezona/bastenska-oprema/bastenske-lampe"
+  },
+  {
+    "name": "Sezona",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona"
+  },
+  {
+    "name": "Vino i rakija",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija"
+  },
+  {
+    "name": "Posude za vino i rakiju",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/posude-za-vino-i-rakiju"
+  },
+  {
+    "name": "Čepilice",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/cepilice"
+  },
+  {
+    "name": "Muljače i sečke za voće",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/muljace-i-secke-za-voce"
+  },
+  {
+    "name": "Mlinovi i prese",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/mlinovi-i-prese"
+  },
+  {
+    "name": "Kazani",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/kazani"
+  },
+  {
+    "name": "Pumpe za pretakanje",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/pumpe-za-pretakanje"
+  },
+  {
+    "name": "Pribor za vino i rakiju",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/pribor-za-vino-i-rakiju"
+  },
+  {
+    "name": "Enološka sredstva",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/vino-i-rakija/enoloska-sredstva"
+  },
+  {
+    "name": "Zimnica",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/zimnica"
+  },
+  {
+    "name": "Tegle i oprema za tegle",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/zimnica/tegle-i-oprema-za-tegle"
+  },
+  {
+    "name": "Posuđe i alati za pripremu zimnice",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/zimnica/posude-i-alati-za-pripremu-zimnice"
+  },
+  {
+    "name": "Kante i plastične posude",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/kante-i-plasticne-posude"
+  },
+  {
+    "name": "Kanisteri",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/kante-i-plasticne-posude/kanisteri"
+  },
+  {
+    "name": "Plastična burad i kace",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/kante-i-plasticne-posude/plasticna-burad-i-kace"
+  },
+  {
+    "name": "Kante za smeće",
+    "url": "https://www.crafter.rs/basta-i-sezona/sezona/kante-i-plasticne-posude/kante-za-smece"
+  },
+  {
+    "name": "Grejanje i klimatizacija",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija"
+  },
+  {
+    "name": "Klima uredjaji",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/klima-uredjaji"
+  },
+  {
+    "name": "Inverter klime",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/klima-uredjaji/inverter-klime"
+  },
+  {
+    "name": "Pokretne klime",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/klima-uredjaji/pokretne-klime"
+  },
+  {
+    "name": "Standardne klime",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/klima-uredjaji/standardne-klime"
+  },
+  {
+    "name": "Oprema za klima uređaje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/klima-uredjaji/oprema-za-klima-uredaje"
+  },
+  {
+    "name": "Ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori"
+  },
+  {
+    "name": "Stoni ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/stoni-ventilatori"
+  },
+  {
+    "name": "Portabl ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/portabl-ventilatori"
+  },
+  {
+    "name": "Stubni ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/stubni-ventilatori"
+  },
+  {
+    "name": "Podni ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/podni-ventilatori"
+  },
+  {
+    "name": "Ventilatori sa vodom",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/ventilatori-sa-vodom"
+  },
+  {
+    "name": "Plafonski ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/plafonski-ventilatori"
+  },
+  {
+    "name": "Teleskopski ventilatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/ventilatori/teleskopski-ventilatori"
+  },
+  {
+    "name": "Prečišćivači vazduha",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/preciscivaci-vazduha"
+  },
+  {
+    "name": "Centralno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/centralno-grejanje"
+  },
+  {
+    "name": "Oprema za centralno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/centralno-grejanje/oprema-za-centralno-grejanje"
+  },
+  {
+    "name": "Izmenjivači za centralno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/centralno-grejanje/oprema-za-centralno-grejanje/izmenjivaci-za-centralno-grejanje"
+  },
+  {
+    "name": "Pumpe za centralno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/centralno-grejanje/oprema-za-centralno-grejanje/pumpe-za-centralno-grejanje"
+  },
+  {
+    "name": "Fitinzi za centralno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/centralno-grejanje/oprema-za-centralno-grejanje/fitinzi-za-centralno-grejanje"
+  },
+  {
+    "name": "Manometri",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/centralno-grejanje/oprema-za-centralno-grejanje/manometri"
+  },
+  {
+    "name": "Cevi za centralno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/centralno-grejanje/oprema-za-centralno-grejanje/cevi-za-centralno-grejanje"
+  },
+  {
+    "name": "Centralno grejanje - tela",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/centralno-grejanje/centralno-grejanje-tela"
+  },
+  {
+    "name": "Kotlovi i peći za centralno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/centralno-grejanje/centralno-grejanje-tela/kotlovi-i-peci-za-centralno-grejanje"
+  },
+  {
+    "name": "Solarno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/centralno-grejanje/centralno-grejanje-tela/solarno-grejanje"
+  },
+  {
+    "name": "Radijatori za centralno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/centralno-grejanje/centralno-grejanje-tela/radijatori-za-centralno-grejanje"
+  },
+  {
+    "name": "Toplotne pumpe",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/centralno-grejanje/centralno-grejanje-tela/toplotne-pumpe"
+  },
+  {
+    "name": "Električno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje"
+  },
+  {
+    "name": "Grejalice",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice"
+  },
+  {
+    "name": "Kaloriferi",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/kaloriferi"
+  },
+  {
+    "name": "Infra crvene grejalice",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/infra-crvene-grejalice"
+  },
+  {
+    "name": "Zidne grejalice",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/zidne-grejalice"
+  },
+  {
+    "name": "Grejalice za kupatilo",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/grejalice-za-kupatilo"
+  },
+  {
+    "name": "Druge vrste grejalica",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/druge-vrste-grejalica"
+  },
+  {
+    "name": "Kaloriferi industrijski",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/kaloriferi-industrijski"
+  },
+  {
+    "name": "Električni kotlovi",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/elektricni-kotlovi"
+  },
+  {
+    "name": "Stubne grejalice",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/grejalice/stubne-grejalice"
+  },
+  {
+    "name": "Panelni radijatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/panelni-radijatori"
+  },
+  {
+    "name": "Električni kamini",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/elektricni-kamini"
+  },
+  {
+    "name": "Uljani radijatori",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/uljani-radijatori"
+  },
+  {
+    "name": "TA peći",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/elektricno-grejanje/ta-peci"
+  },
+  {
+    "name": "Grejanje na čvrsto gorivo",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo"
+  },
+  {
+    "name": "Oprema i održavanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/oprema-i-odrzavanje"
+  },
+  {
+    "name": "Dimovodni program",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/oprema-i-odrzavanje/dimovodni-program"
+  },
+  {
+    "name": "Usisivači za pepeo",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/oprema-i-odrzavanje/usisivaci-za-pepeo"
+  },
+  {
+    "name": "Pribor za loženje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/oprema-i-odrzavanje/pribor-za-lozenje"
+  },
+  {
+    "name": "Kamini",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/kamini"
+  },
+  {
+    "name": "Peći na drva",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/peci-na-drva"
+  },
+  {
+    "name": "Šporeti na drva",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/sporeti-na-drva"
+  },
+  {
+    "name": "Ogrev",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/ogrev"
+  },
+  {
+    "name": "Zapaljivači",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/ogrev/zapaljivaci"
+  },
+  {
+    "name": "Briketi",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/ogrev/briketi"
+  },
+  {
+    "name": "Drvo",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/ogrev/drvo"
+  },
+  {
+    "name": "Pelet",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/ogrev/pelet"
+  },
+  {
+    "name": "Peći i šporeti na pelete",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/grejanje-na-cvrsto-gorivo/peci-i-sporeti-na-pelete"
+  },
+  {
+    "name": "Plinsko i dizel grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje"
+  },
+  {
+    "name": "Plinske grejalice i peći unutrašnje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje/plinske-grejalice-i-peci-unutrasnje"
+  },
+  {
+    "name": "Plinske grejalice spoljne pečurke",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje/plinske-grejalice-spoljne-pecurke"
+  },
+  {
+    "name": "Dizel grejalice",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/plinsko-i-dizel-grejanje/dizel-grejalice"
+  },
+  {
+    "name": "Podno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/podno-grejanje"
+  },
+  {
+    "name": "Podno grejanje sistemsko",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/podno-grejanje/podno-grejanje-sistemsko"
+  },
+  {
+    "name": "Izolacija za podno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/podno-grejanje/podno-grejanje-sistemsko/izolacija-za-podno-grejanje"
+  },
+  {
+    "name": "Grejne folije za podno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/podno-grejanje/podno-grejanje-sistemsko/grejne-folije-za-podno-grejanje"
+  },
+  {
+    "name": "Cevi za podno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/podno-grejanje/podno-grejanje-sistemsko/cevi-za-podno-grejanje"
+  },
+  {
+    "name": "Podno grejanje električno",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/podno-grejanje/podno-grejanje-elektricno"
+  },
+  {
+    "name": "Mreže i kablovi za podno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/podno-grejanje/podno-grejanje-elektricno/mreze-i-kablovi-za-podno-grejanje"
+  },
+  {
+    "name": "Termostati za podno grejanje",
+    "url": "https://www.crafter.rs/grejanje-i-klimatizacija/podno-grejanje/podno-grejanje-elektricno/termostati-za-podno-grejanje"
+  },
+  {
+    "name": "Dekor",
+    "url": "https://www.crafter.rs/dekor"
+  },
+  {
+    "name": "Odlaganje i održavanje",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje"
+  },
+  {
+    "name": "Daske za peglanje",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/daske-za-peglanje"
+  },
+  {
+    "name": "Koferi i jastuci za putovanja",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/koferi-i-jastuci-za-putovanja"
+  },
+  {
+    "name": "Odlaganje odeće",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/odlaganje-odece"
+  },
+  {
+    "name": "Kutije za odlaganje",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/odlaganje-odece/kutije-za-odlaganje"
+  },
+  {
+    "name": "Ofingeri",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/odlaganje-odece/ofingeri"
+  },
+  {
+    "name": "Čiviluci",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/odlaganje-odece/civiluci"
+  },
+  {
+    "name": "Korpe za otpatke",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/korpe-za-otpatke"
+  },
+  {
+    "name": "Čišćenje podova i prozora",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/ciscenje-podova-i-prozora"
+  },
+  {
+    "name": "Metle i četke",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/ciscenje-podova-i-prozora/metle-i-cetke"
+  },
+  {
+    "name": "Oprema za pranje podova i prozora",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/ciscenje-podova-i-prozora/oprema-za-pranje-podova-i-prozora"
+  },
+  {
+    "name": "Sunđeri i krpe",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/ciscenje-podova-i-prozora/sunderi-i-krpe"
+  },
+  {
+    "name": "Kolica za pijacu",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/kolica-za-pijacu"
+  },
+  {
+    "name": "Održavanje obuće",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/odrzavanje-obuce"
+  },
+  {
+    "name": "Kese za smeće",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/kese-za-smece"
+  },
+  {
+    "name": "Sušilice za veš",
+    "url": "https://www.crafter.rs/dekor/odlaganje-i-odrzavanje/susilice-za-ves"
+  },
+  {
+    "name": "Kućni tekstil i tepisi",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi"
+  },
+  {
+    "name": "Zavese",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/zavese"
+  },
+  {
+    "name": "Gotove zavese",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/zavese/gotove-zavese"
+  },
+  {
+    "name": "Garnišne i vitraži",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/zavese/garnisne-i-vitrazi"
+  },
+  {
+    "name": "Pribor za zavese",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/zavese/pribor-za-zavese"
+  },
+  {
+    "name": "Draperije",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/zavese/draperije"
+  },
+  {
+    "name": "Alu vodilice za zavese",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/zavese/alu-vodilice-za-zavese"
+  },
+  {
+    "name": "Venecijaneri",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/zavese/venecijaneri"
+  },
+  {
+    "name": "Tepisi",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/tepisi"
+  },
+  {
+    "name": "Peškiri",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/peskiri"
+  },
+  {
+    "name": "Ukrasni jastuci",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/ukrasni-jastuci"
+  },
+  {
+    "name": "Prekrivači i frotiri",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/prekrivaci-i-frotiri"
+  },
+  {
+    "name": "Kuhinjski tekstil",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/kuhinjski-tekstil"
+  },
+  {
+    "name": "Stolnjaci",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/kuhinjski-tekstil/stolnjaci"
+  },
+  {
+    "name": "Krpe kuhinjske",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/kuhinjski-tekstil/krpe-kuhinjske"
+  },
+  {
+    "name": "Kecelje, kuhinjske rukavice, setovi",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/kuhinjski-tekstil/kecelje-kuhinjske-rukavice-setovi"
+  },
+  {
+    "name": "Jastučići za stolice",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/kuhinjski-tekstil/jastucici-za-stolice"
+  },
+  {
+    "name": "Staze",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/staze"
+  },
+  {
+    "name": "Posteljine",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/posteljine"
+  },
+  {
+    "name": "Oprema za krevete",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/oprema-za-krevete"
+  },
+  {
+    "name": "Madraci",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/oprema-za-krevete/madraci"
+  },
+  {
+    "name": "Jastuci za spavanje",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/jastuci-za-spavanje"
+  },
+  {
+    "name": "Otirači",
+    "url": "https://www.crafter.rs/dekor/kucni-tekstil-i-tepisi/otiraci"
+  },
+  {
+    "name": "Dekorativni i poklon predmeti",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti"
+  },
+  {
+    "name": "Dekorativne kutije i korpe",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/dekorativne-kutije-i-korpe"
+  },
+  {
+    "name": "Kućna dekoracija",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/kucna-dekoracija"
+  },
+  {
+    "name": "Pepeljare",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/kucna-dekoracija/pepeljare"
+  },
+  {
+    "name": "Zidna dekoracija",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/kucna-dekoracija/zidna-dekoracija"
+  },
+  {
+    "name": "Dekorativne figure i predmeti",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/kucna-dekoracija/dekorativne-figure-i-predmeti"
+  },
+  {
+    "name": "Dekorativne sveće i svećnjaci",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/kucna-dekoracija/dekorativne-svece-i-svecnjaci"
+  },
+  {
+    "name": "Satovi",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/kucna-dekoracija/satovi"
+  },
+  {
+    "name": "Dekorativna ogledala",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/kucna-dekoracija/dekorativna-ogledala"
+  },
+  {
+    "name": "Dekorativne vaze",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/kucna-dekoracija/dekorativne-vaze"
+  },
+  {
+    "name": "Slike",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/kucna-dekoracija/slike"
+  },
+  {
+    "name": "Ramovi za slike",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/kucna-dekoracija/ramovi-za-slike"
+  },
+  {
+    "name": "Pakovanje poklona",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/pakovanje-poklona"
+  },
+  {
+    "name": "Party program",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/party-program"
+  },
+  {
+    "name": "Osveživači vazduha",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/osvezivaci-vazduha"
+  },
+  {
+    "name": "Veštačko cveće",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/vestacko-cvece"
+  },
+  {
+    "name": "Upaljači",
+    "url": "https://www.crafter.rs/dekor/dekorativni-i-poklon-predmeti/upaljaci"
+  },
+  {
+    "name": "Posuđe i kuhinjski pribor",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor"
+  },
+  {
+    "name": "Posuđe za kuvanje i pečenje",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/posude-za-kuvanje-i-pecenje"
+  },
+  {
+    "name": "Kuhinjska pomagala",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/posude-za-kuvanje-i-pecenje/kuhinjska-pomagala"
+  },
+  {
+    "name": "Tiganji",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/posude-za-kuvanje-i-pecenje/tiganji"
+  },
+  {
+    "name": "Šerpe i lonci",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/posude-za-kuvanje-i-pecenje/serpe-i-lonci"
+  },
+  {
+    "name": "Modle za kolače",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/posude-za-kuvanje-i-pecenje/modle-za-kolace"
+  },
+  {
+    "name": "Posude za pečenje",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/posude-za-kuvanje-i-pecenje/posude-za-pecenje"
+  },
+  {
+    "name": "Džezve i lončići",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/posude-za-kuvanje-i-pecenje/dzezve-i-loncici"
+  },
+  {
+    "name": "Serviranje hrane",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/serviranje-hrane"
+  },
+  {
+    "name": "Termosi, bokali, flaše",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/serviranje-hrane/termosi-bokali-flase"
+  },
+  {
+    "name": "Šolje i servisi za kafu",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/serviranje-hrane/solje-i-servisi-za-kafu"
+  },
+  {
+    "name": "Poslužavnici i tacne",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/serviranje-hrane/posluzavnici-i-tacne"
+  },
+  {
+    "name": "Čaše",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/serviranje-hrane/case"
+  },
+  {
+    "name": "Tanjiri",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/serviranje-hrane/tanjiri"
+  },
+  {
+    "name": "Činije",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/serviranje-hrane/cinije"
+  },
+  {
+    "name": "Pribor za ručavanje",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/serviranje-hrane/pribor-za-rucavanje"
+  },
+  {
+    "name": "Servisi za ručavanje",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/serviranje-hrane/servisi-za-rucavanje"
+  },
+  {
+    "name": "Čuvanje hrane",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/cuvanje-hrane"
+  },
+  {
+    "name": "Posude za čuvanje hrane",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/cuvanje-hrane/posude-za-cuvanje-hrane"
+  },
+  {
+    "name": "Posude za hranu",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/cuvanje-hrane/posude-za-hranu"
+  },
+  {
+    "name": "Kutije za hleb",
+    "url": "https://www.crafter.rs/dekor/posude-i-kuhinjski-pribor/cuvanje-hrane/kutije-za-hleb"
+  },
+  {
+    "name": "Rasveta",
+    "url": "https://www.crafter.rs/rasveta"
+  },
+  {
+    "name": "Izvori svetla",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla"
+  },
+  {
+    "name": "LED sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/led-sijalice"
+  },
+  {
+    "name": "E14 LED sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/led-sijalice/e14-led-sijalice"
+  },
+  {
+    "name": "E27 LED sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/led-sijalice/e27-led-sijalice"
+  },
+  {
+    "name": "GU10 LED sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/led-sijalice/gu10-led-sijalice"
+  },
+  {
+    "name": "G4 LED sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/led-sijalice/g4-led-sijalice"
+  },
+  {
+    "name": "G9 LED sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/led-sijalice/g9-led-sijalice"
+  },
+  {
+    "name": "LED dimabilne sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/led-sijalice/led-dimabilne-sijalice"
+  },
+  {
+    "name": "LED sijalice sa senzorom",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/led-sijalice/led-sijalice-sa-senzorom"
+  },
+  {
+    "name": "LED dekorativne sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/led-sijalice/led-dekorativne-sijalice"
+  },
+  {
+    "name": "GU5.3MR16 LED sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/led-sijalice/gu5-3mr16-led-sijalice"
+  },
+  {
+    "name": "Sijalice za specijalne namene",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/sijalice-za-specijalne-namene"
+  },
+  {
+    "name": "Sijalice za specijalne namene ostalo",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/sijalice-za-specijalne-namene/sijalice-za-specijalne-namene-ostalo"
+  },
+  {
+    "name": "B15D specijalne sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/sijalice-za-specijalne-namene/b15d-specijalne-sijalice"
+  },
+  {
+    "name": "LED cevi",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/led-cevi"
+  },
+  {
+    "name": "T8 LED cevi",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/led-cevi/t8-led-cevi"
+  },
+  {
+    "name": "Fluo cevi",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/fluo-cevi"
+  },
+  {
+    "name": "Halogene sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/halogene-sijalice"
+  },
+  {
+    "name": "Standardne sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/standardne-sijalice"
+  },
+  {
+    "name": "E27 standardne sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/standardne-sijalice/e27-standardne-sijalice"
+  },
+  {
+    "name": "E14 standardne sijalice",
+    "url": "https://www.crafter.rs/rasveta/izvori-svetla/standardne-sijalice/e14-standardne-sijalice"
+  },
+  {
+    "name": "Spoljna rasveta",
+    "url": "https://www.crafter.rs/rasveta/spoljna-rasveta"
+  },
+  {
+    "name": "LED spoljna rasveta",
+    "url": "https://www.crafter.rs/rasveta/spoljna-rasveta/led-spoljna-rasveta"
+  },
+  {
+    "name": "Spoljna rasveta za dvorište i kuću",
+    "url": "https://www.crafter.rs/rasveta/spoljna-rasveta/spoljna-rasveta-za-dvoriste-i-kucu"
+  },
+  {
+    "name": "Unutrašnja rasveta",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta"
+  },
+  {
+    "name": "Spot rasveta",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/spot-rasveta"
+  },
+  {
+    "name": "Spot lampe",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/spot-rasveta/spot-lampe"
+  },
+  {
+    "name": "LED spot rasveta",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/spot-rasveta/led-spot-rasveta"
+  },
+  {
+    "name": "Plafonjere",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/plafonjere"
+  },
+  {
+    "name": "Plafonjere alabaster staklo",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/plafonjere/plafonjere-alabaster-staklo"
+  },
+  {
+    "name": "Plafonjere dekorativne",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/plafonjere/plafonjere-dekorativne"
+  },
+  {
+    "name": "Plafonjere brušeno staklo",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/plafonjere/plafonjere-bruseno-staklo"
+  },
+  {
+    "name": "Dekorativne lampe",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/dekorativne-lampe"
+  },
+  {
+    "name": "Visilice",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/visilice"
+  },
+  {
+    "name": "LED mini noćna svetla",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/led-mini-nocna-svetla"
+  },
+  {
+    "name": "Zidna rasveta",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/zidna-rasveta"
+  },
+  {
+    "name": "Zidne lampe",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/zidna-rasveta/zidne-lampe"
+  },
+  {
+    "name": "Zidne lampe za kupatilo",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/zidna-rasveta/zidne-lampe-za-kupatilo"
+  },
+  {
+    "name": "Lampe za slike",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/zidna-rasveta/lampe-za-slike"
+  },
+  {
+    "name": "Ugradna rasveta",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/ugradna-rasveta"
+  },
+  {
+    "name": "Podne lampe",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/podne-lampe"
+  },
+  {
+    "name": "Stona rasveta",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/stona-rasveta"
+  },
+  {
+    "name": "Stone lampe",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/stona-rasveta/stone-lampe"
+  },
+  {
+    "name": "Stone LED lampe",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/stona-rasveta/stone-led-lampe"
+  },
+  {
+    "name": "Lusteri",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/lusteri"
+  },
+  {
+    "name": "Dečija rasveta",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/decija-rasveta"
+  },
+  {
+    "name": "Rezervna stakla i delovi",
+    "url": "https://www.crafter.rs/rasveta/unutrasnja-rasveta/rezervna-stakla-i-delovi"
+  },
+  {
+    "name": "Tehnička rasveta",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta"
+  },
+  {
+    "name": "LED paneli",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-paneli"
+  },
+  {
+    "name": "Ugradni LED paneli",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-paneli/ugradni-led-paneli"
+  },
+  {
+    "name": "Nadgradni LED paneli",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-paneli/nadgradni-led-paneli"
+  },
+  {
+    "name": "Oprema za LED panele",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-paneli/oprema-za-led-panele"
+  },
+  {
+    "name": "Veliki LED paneli",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-paneli/veliki-led-paneli"
+  },
+  {
+    "name": "LED plafonske lampe",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-plafonske-lampe"
+  },
+  {
+    "name": "LED vodootporne svetiljke",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-vodootporne-svetiljke"
+  },
+  {
+    "name": "Vodootporne LED T8 svetiljke",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-vodootporne-svetiljke/vodootporne-led-t8-svetiljke"
+  },
+  {
+    "name": "Vodootporne integrisani smd LED",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-vodootporne-svetiljke/vodootporne-integrisani-smd-led"
+  },
+  {
+    "name": "Vodootporne sa zamenskom LED cevkom t8",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-vodootporne-svetiljke/vodootporne-sa-zamenskom-led-cevkom-t8"
+  },
+  {
+    "name": "Reflektori",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/reflektori"
+  },
+  {
+    "name": "Solarni LED reflektori",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/reflektori/solarni-led-reflektori"
+  },
+  {
+    "name": "Reflektori SMD i COB",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/reflektori/reflektori-smd-i-cob"
+  },
+  {
+    "name": "LED reflektori sa senzorom",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/reflektori/led-reflektori-sa-senzorom"
+  },
+  {
+    "name": "Reflektori šinski sa opremom",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/reflektori/reflektori-sinski-sa-opremom"
+  },
+  {
+    "name": "Reflektori LED RGB dimabilni",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/reflektori/reflektori-led-rgb-dimabilni"
+  },
+  {
+    "name": "Tehničke lampe",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/tehnicke-lampe"
+  },
+  {
+    "name": "LED trake i moduli",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-trake-i-moduli"
+  },
+  {
+    "name": "Jednobojne LED trake",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-trake-i-moduli/jednobojne-led-trake"
+  },
+  {
+    "name": "RGB LED trake",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-trake-i-moduli/rgb-led-trake"
+  },
+  {
+    "name": "Oprema za LED trake",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-trake-i-moduli/oprema-za-led-trake"
+  },
+  {
+    "name": "LED moduli",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-trake-i-moduli/led-moduli"
+  },
+  {
+    "name": "LED strele",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-strele"
+  },
+  {
+    "name": "LED strele integrisane smd",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-strele/led-strele-integrisane-smd"
+  },
+  {
+    "name": "Strele sa zamenskom LED cevkom t8",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/led-strele/strele-sa-zamenskom-led-cevkom-t8"
+  },
+  {
+    "name": "Brodske lampe",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/brodske-lampe"
+  },
+  {
+    "name": "Brodske LED lampe",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/brodske-lampe/brodske-led-lampe"
+  },
+  {
+    "name": "Nadgradne svetiljke",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/nadgradne-svetiljke"
+  },
+  {
+    "name": "Svetiljke",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/svetiljke"
+  },
+  {
+    "name": "Panik lampe",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/panik-lampe"
+  },
+  {
+    "name": "Plafonske lampe sa senzorom",
+    "url": "https://www.crafter.rs/rasveta/tehnicka-rasveta/plafonske-lampe-sa-senzorom"
+  },
+  {
+    "name": "Kupatilo",
+    "url": "https://www.crafter.rs/kupatilo"
+  },
+  {
+    "name": "Sanitarije za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo"
+  },
+  {
+    "name": "Daske za WC šolju",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/daske-za-wc-solju"
+  },
+  {
+    "name": "WC šolje",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/wc-solje"
+  },
+  {
+    "name": "Konzolne WC šolje",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/wc-solje/konzolne-wc-solje"
+  },
+  {
+    "name": "Baltik WC šolje",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/wc-solje/baltik-wc-solje"
+  },
+  {
+    "name": "Simplon WC šolje",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/wc-solje/simplon-wc-solje"
+  },
+  {
+    "name": "Bide za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/bide-za-kupatilo"
+  },
+  {
+    "name": "Umivaonici",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/umivaonici"
+  },
+  {
+    "name": "Konzolni umivaonici",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/umivaonici/konzolni-umivaonici"
+  },
+  {
+    "name": "Nadgradni umivaonici",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/umivaonici/nadgradni-umivaonici"
+  },
+  {
+    "name": "Ugradni umivaonici",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/umivaonici/ugradni-umivaonici"
+  },
+  {
+    "name": "Stubovi i maske za lavabo",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/umivaonici/stubovi-i-maske-za-lavabo"
+  },
+  {
+    "name": "Monoblok WC šolje",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/monoblok-wc-solje"
+  },
+  {
+    "name": "Pisoari",
+    "url": "https://www.crafter.rs/kupatilo/sanitarije-za-kupatilo/pisoari"
+  },
+  {
+    "name": "Slavine za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/slavine-za-kupatilo"
+  },
+  {
+    "name": "Slavine za tuš kabine",
+    "url": "https://www.crafter.rs/kupatilo/slavine-za-kupatilo/slavine-za-tus-kabine"
+  },
+  {
+    "name": "Slavine za lavabo",
+    "url": "https://www.crafter.rs/kupatilo/slavine-za-kupatilo/slavine-za-lavabo"
+  },
+  {
+    "name": "Slavine za kadu",
+    "url": "https://www.crafter.rs/kupatilo/slavine-za-kupatilo/slavine-za-kadu"
+  },
+  {
+    "name": "Slavine za bide",
+    "url": "https://www.crafter.rs/kupatilo/slavine-za-kupatilo/slavine-za-bide"
+  },
+  {
+    "name": "Kupatilski nameštaj",
+    "url": "https://www.crafter.rs/kupatilo/kupatilski-namestaj"
+  },
+  {
+    "name": "Ogledala za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/kupatilski-namestaj/ogledala-za-kupatilo"
+  },
+  {
+    "name": "Ormarići za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/kupatilski-namestaj/ormarici-za-kupatilo"
+  },
+  {
+    "name": "Ogledala sa ormarićem",
+    "url": "https://www.crafter.rs/kupatilo/kupatilski-namestaj/ogledala-sa-ormaricem"
+  },
+  {
+    "name": "Vertikale za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/kupatilski-namestaj/vertikale-za-kupatilo"
+  },
+  {
+    "name": "Oprema za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/kupatilski-namestaj/oprema-za-kupatilo"
+  },
+  {
+    "name": "Oprema i delovi za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/oprema-i-delovi-za-kupatilo"
+  },
+  {
+    "name": "Sifoni",
+    "url": "https://www.crafter.rs/kupatilo/oprema-i-delovi-za-kupatilo/sifoni"
+  },
+  {
+    "name": "Ventili za veš mašine",
+    "url": "https://www.crafter.rs/kupatilo/oprema-i-delovi-za-kupatilo/ventili-za-ves-masine"
+  },
+  {
+    "name": "Mešačke glave i virble",
+    "url": "https://www.crafter.rs/kupatilo/oprema-i-delovi-za-kupatilo/mesacke-glave-i-virble"
+  },
+  {
+    "name": "Tuš ručice i creva",
+    "url": "https://www.crafter.rs/kupatilo/oprema-i-delovi-za-kupatilo/tus-rucice-i-creva"
+  },
+  {
+    "name": "Brinoks i inox creva",
+    "url": "https://www.crafter.rs/kupatilo/oprema-i-delovi-za-kupatilo/brinoks-i-inox-creva"
+  },
+  {
+    "name": "Teflon trake",
+    "url": "https://www.crafter.rs/kupatilo/oprema-i-delovi-za-kupatilo/teflon-trake"
+  },
+  {
+    "name": "Gume i trake za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/oprema-i-delovi-za-kupatilo/gume-i-trake-za-kupatilo"
+  },
+  {
+    "name": "Dihtung gume",
+    "url": "https://www.crafter.rs/kupatilo/oprema-i-delovi-za-kupatilo/gume-i-trake-za-kupatilo/dihtung-gume"
+  },
+  {
+    "name": "Creva i delovi za creva",
+    "url": "https://www.crafter.rs/kupatilo/oprema-i-delovi-za-kupatilo/creva-i-delovi-za-creva"
+  },
+  {
+    "name": "Creva za veš mašinu",
+    "url": "https://www.crafter.rs/kupatilo/oprema-i-delovi-za-kupatilo/creva-i-delovi-za-creva/creva-za-ves-masinu"
+  },
+  {
+    "name": "Vodokotlići i oprema",
+    "url": "https://www.crafter.rs/kupatilo/vodokotlici-i-oprema"
+  },
+  {
+    "name": "Tasteri za vodokotliće",
+    "url": "https://www.crafter.rs/kupatilo/vodokotlici-i-oprema/tasteri-za-vodokotlice"
+  },
+  {
+    "name": "Ugradni vodokotlići",
+    "url": "https://www.crafter.rs/kupatilo/vodokotlici-i-oprema/ugradni-vodokotlici"
+  },
+  {
+    "name": "Prezidni vodokotlići",
+    "url": "https://www.crafter.rs/kupatilo/vodokotlici-i-oprema/prezidni-vodokotlici"
+  },
+  {
+    "name": "Plovci i zvona za vodokotlić",
+    "url": "https://www.crafter.rs/kupatilo/vodokotlici-i-oprema/plovci-i-zvona-za-vodokotlic"
+  },
+  {
+    "name": "Delovi za vodokotlić",
+    "url": "https://www.crafter.rs/kupatilo/vodokotlici-i-oprema/delovi-za-vodokotlic"
+  },
+  {
+    "name": "Tuševi i kade",
+    "url": "https://www.crafter.rs/kupatilo/tusevi-i-kade"
+  },
+  {
+    "name": "Tuš paravani",
+    "url": "https://www.crafter.rs/kupatilo/tusevi-i-kade/tus-paravani"
+  },
+  {
+    "name": "Tuš kabine",
+    "url": "https://www.crafter.rs/kupatilo/tusevi-i-kade/tus-kabine"
+  },
+  {
+    "name": "Tuš kade",
+    "url": "https://www.crafter.rs/kupatilo/tusevi-i-kade/tus-kade"
+  },
+  {
+    "name": "Kade za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/tusevi-i-kade/kade-za-kupatilo"
+  },
+  {
+    "name": "Rezervni delovi za kade i tuš kabine",
+    "url": "https://www.crafter.rs/kupatilo/tusevi-i-kade/rezervni-delovi-za-kade-i-tus-kabine"
+  },
+  {
+    "name": "Kupatilska galanterija",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija"
+  },
+  {
+    "name": "Prostirke za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/prostirke-za-kupatilo"
+  },
+  {
+    "name": "Zavese za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/zavese-za-kupatilo"
+  },
+  {
+    "name": "Sredstva za čišćenje kupatila",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/sredstva-za-ciscenje-kupatila"
+  },
+  {
+    "name": "Etažeri",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/etazeri"
+  },
+  {
+    "name": "Oprema za kupanje i telo",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/oprema-za-kupanje-i-telo"
+  },
+  {
+    "name": "Četke za WC šolju",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/cetke-za-wc-solju"
+  },
+  {
+    "name": "Držači za toalet papir",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/drzaci-za-toalet-papir"
+  },
+  {
+    "name": "Držači za sapun",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/drzaci-za-sapun"
+  },
+  {
+    "name": "Držači za peškire",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/drzaci-za-peskire"
+  },
+  {
+    "name": "Držači za četkice",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/drzaci-za-cetkice"
+  },
+  {
+    "name": "Dozeri za sapun",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/dozeri-za-sapun"
+  },
+  {
+    "name": "Korpe za veš",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/korpe-za-ves"
+  },
+  {
+    "name": "Dodaci za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/dodaci-za-kupatilo"
+  },
+  {
+    "name": "Police za kupatilo",
+    "url": "https://www.crafter.rs/kupatilo/kupatilska-galanterija/police-za-kupatilo"
+  },
+  {
+    "name": "Kuhinja i nameštaj",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj"
+  },
+  {
+    "name": "Slavine za sudoperu",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/slavine-za-sudoperu"
+  },
+  {
+    "name": "Zidne slavine",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/slavine-za-sudoperu/zidne-slavine"
+  },
+  {
+    "name": "Slavine sa dve cevi",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/slavine-za-sudoperu/slavine-sa-dve-cevi"
+  },
+  {
+    "name": "Slavine sa tri cevi",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/slavine-za-sudoperu/slavine-sa-tri-cevi"
+  },
+  {
+    "name": "Sudopere",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/sudopere"
+  },
+  {
+    "name": "Granitne sudopere",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/sudopere/granitne-sudopere"
+  },
+  {
+    "name": "Inox sudopere",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/sudopere/inox-sudopere"
+  },
+  {
+    "name": "Oprema za sudoperu",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/sudopere/oprema-za-sudoperu"
+  },
+  {
+    "name": "Ugradne kante i organizatori",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/ugradne-kante-i-organizatori"
+  },
+  {
+    "name": "Kuhinjske lajsne i cokle",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/kuhinjske-lajsne-i-cokle"
+  },
+  {
+    "name": "Kuhinje",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/kuhinje"
+  },
+  {
+    "name": "Blok kuhinje",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/kuhinje/blok-kuhinje"
+  },
+  {
+    "name": "Kuhinjski elementi",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/kuhinje/kuhinjski-elementi"
+  },
+  {
+    "name": "Pločasti materijali",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/plocasti-materijali"
+  },
+  {
+    "name": "Oplemenjena iverica",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/plocasti-materijali/oplemenjena-iverica"
+  },
+  {
+    "name": "Radne ploče",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/plocasti-materijali/radne-ploce"
+  },
+  {
+    "name": "Kant trake",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/plocasti-materijali/kant-trake"
+  },
+  {
+    "name": "Nameštaj",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj"
+  },
+  {
+    "name": "Police i ormarići",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/police-i-ormarici"
+  },
+  {
+    "name": "Predsoblja",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/predsoblja"
+  },
+  {
+    "name": "TV komode",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/tv-komode"
+  },
+  {
+    "name": "Stolovi",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/stolovi"
+  },
+  {
+    "name": "Klub stolovi",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/stolovi/klub-stolovi"
+  },
+  {
+    "name": "Trpezarijski stolovi",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/stolovi/trpezarijski-stolovi"
+  },
+  {
+    "name": "Čiviluci za hodnik",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/civiluci-za-hodnik"
+  },
+  {
+    "name": "Stolice",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/stolice"
+  },
+  {
+    "name": "Kancelarijske stolice",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/stolice/kancelarijske-stolice"
+  },
+  {
+    "name": "Trpezarijske stolice",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/stolice/trpezarijske-stolice"
+  },
+  {
+    "name": "Taburei i hoklice",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/stolice/taburei-i-hoklice"
+  },
+  {
+    "name": "Cipelarnici",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/cipelarnici"
+  },
+  {
+    "name": "Dnevne sobe",
+    "url": "https://www.crafter.rs/kuhinja-i-namestaj/namestaj/dnevne-sobe"
+  },
+  {
+    "name": "Smart home",
+    "url": "https://www.crafter.rs/smart-home"
+  },
+  {
+    "name": "Smart rasveta",
+    "url": "https://www.crafter.rs/smart-home/smart-rasveta"
+  },
+  {
+    "name": "Smart lampe",
+    "url": "https://www.crafter.rs/smart-home/smart-rasveta/smart-lampe"
+  },
+  {
+    "name": "Smart LED trake",
+    "url": "https://www.crafter.rs/smart-home/smart-rasveta/smart-led-trake"
+  },
+  {
+    "name": "Smart sijalice",
+    "url": "https://www.crafter.rs/smart-home/smart-rasveta/smart-sijalice"
+  },
+  {
+    "name": "Smart bela tehnika",
+    "url": "https://www.crafter.rs/smart-home/smart-bela-tehnika"
+  },
+  {
+    "name": "Smart veš mašine",
+    "url": "https://www.crafter.rs/smart-home/smart-bela-tehnika/smart-ves-masine"
+  },
+  {
+    "name": "Robotski usisivači",
+    "url": "https://www.crafter.rs/smart-home/smart-bela-tehnika/robotski-usisivaci"
+  },
+  {
+    "name": "Smart bojleri",
+    "url": "https://www.crafter.rs/smart-home/smart-bela-tehnika/smart-bojleri"
+  },
+  {
+    "name": "Smart bezbednost",
+    "url": "https://www.crafter.rs/smart-home/smart-bezbednost"
+  },
+  {
+    "name": "Smart kamere",
+    "url": "https://www.crafter.rs/smart-home/smart-bezbednost/smart-kamere"
+  },
+  {
+    "name": "Smart sigurnosne brave",
+    "url": "https://www.crafter.rs/smart-home/smart-bezbednost/smart-sigurnosne-brave"
+  },
+  {
+    "name": "Smart alarmni sistemi",
+    "url": "https://www.crafter.rs/smart-home/smart-bezbednost/smart-alarmni-sistemi"
+  },
+  {
+    "name": "Smart utičnice i prekidači",
+    "url": "https://www.crafter.rs/smart-home/smart-uticnice-i-prekidaci"
+  },
+  {
+    "name": "Smart prekidači",
+    "url": "https://www.crafter.rs/smart-home/smart-uticnice-i-prekidaci/smart-prekidaci"
+  },
+  {
+    "name": "Smart utičnice",
+    "url": "https://www.crafter.rs/smart-home/smart-uticnice-i-prekidaci/smart-uticnice"
+  },
+  {
+    "name": "Smart sklopke",
+    "url": "https://www.crafter.rs/smart-home/smart-uticnice-i-prekidaci/smart-sklopke"
+  },
+  {
+    "name": "Smart dodatna oprema",
+    "url": "https://www.crafter.rs/smart-home/smart-uticnice-i-prekidaci/smart-dodatna-oprema"
+  },
+  {
+    "name": "Smart senzori",
+    "url": "https://www.crafter.rs/smart-home/smart-senzori"
+  },
+  {
+    "name": "Senzori pokreta",
+    "url": "https://www.crafter.rs/smart-home/smart-senzori/senzori-pokreta"
+  },
+  {
+    "name": "Detektori dima, gasa i poplava",
+    "url": "https://www.crafter.rs/smart-home/smart-senzori/detektori-dima-gasa-i-poplava"
+  },
+  {
+    "name": "Senzori za vrata i prozore",
+    "url": "https://www.crafter.rs/smart-home/smart-senzori/senzori-za-vrata-i-prozore"
+  },
+  {
+    "name": "Smart termostati",
+    "url": "https://www.crafter.rs/smart-home/smart-senzori/smart-termostati"
+  },
+  {
+    "name": "Smart paketi",
+    "url": "https://www.crafter.rs/smart-home/smart-paketi"
+  },
+  {
+    "name": "Mrežna oprema",
+    "url": "https://www.crafter.rs/smart-home/mrezna-oprema"
+  },
+  {
+    "name": "Smart multimedija",
+    "url": "https://www.crafter.rs/smart-home/smart-multimedija"
+  },
+  {
+    "name": "Smart TV",
+    "url": "https://www.crafter.rs/smart-home/smart-multimedija/smart-tv"
+  },
+  {
+    "name": "Smart mobilni telefoni",
+    "url": "https://www.crafter.rs/smart-home/smart-multimedija/smart-mobilni-telefoni"
+  },
+  {
+    "name": "Podne i zidne obloge",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge"
+  },
+  {
+    "name": "Pločice",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/plocice"
+  },
+  {
+    "name": "Spoljne pločice",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/plocice/spoljne-plocice"
+  },
+  {
+    "name": "Unutrašnje pločice",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/plocice/unutrasnje-plocice"
+  },
+  {
+    "name": "Podne obloge",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/podne-obloge"
+  },
+  {
+    "name": "Unutrašnje podne obloge",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/podne-obloge/unutrasnje-podne-obloge"
+  },
+  {
+    "name": "Parket",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/podne-obloge/unutrasnje-podne-obloge/parket"
+  },
+  {
+    "name": "Laminat",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/podne-obloge/unutrasnje-podne-obloge/laminat"
+  },
+  {
+    "name": "Vinil",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/podne-obloge/unutrasnje-podne-obloge/vinil"
+  },
+  {
+    "name": "Podloga za podne obloge",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/podne-obloge/unutrasnje-podne-obloge/podloga-za-podne-obloge"
+  },
+  {
+    "name": "Spoljne podne obloge",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/podne-obloge/spoljne-podne-obloge"
+  },
+  {
+    "name": "Deking",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/podne-obloge/spoljne-podne-obloge/deking"
+  },
+  {
+    "name": "Zidne obloge",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/zidne-obloge"
+  },
+  {
+    "name": "Zidne obloge od gipsa",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/zidne-obloge/zidne-obloge-od-gipsa"
+  },
+  {
+    "name": "Zidne PVC obloge",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/zidne-obloge/zidne-pvc-obloge"
+  },
+  {
+    "name": "Zidne obloge od stiropora",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/zidne-obloge/zidne-obloge-od-stiropora"
+  },
+  {
+    "name": "Zidne drvene obloge",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/zidne-obloge/zidne-drvene-obloge"
+  },
+  {
+    "name": "Tapacirani paneli",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/zidne-obloge/tapacirani-paneli"
+  },
+  {
+    "name": "Lajsne",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/lajsne"
+  },
+  {
+    "name": "Stiropor lajsne",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/lajsne/stiropor-lajsne"
+  },
+  {
+    "name": "Drvene lajsne",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/lajsne/drvene-lajsne"
+  },
+  {
+    "name": "Plastične lajsne",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/lajsne/plasticne-lajsne"
+  },
+  {
+    "name": "Aluminijumske lajsne",
+    "url": "https://www.crafter.rs/podne-i-zidne-obloge/lajsne/aluminijumske-lajsne"
+  },
+  {
+    "name": "Boje i lakovi",
+    "url": "https://www.crafter.rs/boje-i-lakovi"
+  },
+  {
+    "name": "Alat i pribor za boje i lakove",
+    "url": "https://www.crafter.rs/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove"
+  },
+  {
+    "name": "Keramičarski alat i pribor",
+    "url": "https://www.crafter.rs/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/keramicarski-alat-i-pribor"
+  },
+  {
+    "name": "Gleterice, mistrije i špahtle",
+    "url": "https://www.crafter.rs/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/gleterice-mistrije-i-spahtle"
+  },
+  {
+    "name": "Valjci za krečenje i farbanje",
+    "url": "https://www.crafter.rs/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/valjci-za-krecenje-i-farbanje"
+  },
+  {
+    "name": "Pribor za krečenje i farbanje",
+    "url": "https://www.crafter.rs/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/pribor-za-krecenje-i-farbanje"
+  },
+  {
+    "name": "Četke za krečenje i farbanje",
+    "url": "https://www.crafter.rs/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/cetke-za-krecenje-i-farbanje"
+  },
+  {
+    "name": "Zaštitne folije i trake",
+    "url": "https://www.crafter.rs/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/zastitne-folije-i-trake"
+  },
+  {
+    "name": "Gleterice",
+    "url": "https://www.crafter.rs/boje-i-lakovi/alat-i-pribor-za-boje-i-lakove/gleterice"
+  },
+  {
+    "name": "Premazi za drvo i metal",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal"
+  },
+  {
+    "name": "Premazi za metal",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/premazi-za-metal"
+  },
+  {
+    "name": "Premazi za metal 3u1",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/premazi-za-metal/premazi-za-metal-3u1"
+  },
+  {
+    "name": "Akrilni premazi za metal",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/premazi-za-metal/akrilni-premazi-za-metal"
+  },
+  {
+    "name": "Uljani premazi za metal",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/premazi-za-metal/uljani-premazi-za-metal"
+  },
+  {
+    "name": "Nitro premazi za metal",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/premazi-za-metal/nitro-premazi-za-metal"
+  },
+  {
+    "name": "Razređivači",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/razredivaci"
+  },
+  {
+    "name": "Premazi za drvo",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/premazi-za-drvo"
+  },
+  {
+    "name": "Uljani premazi za drvo",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/premazi-za-drvo/uljani-premazi-za-drvo"
+  },
+  {
+    "name": "Akrilni premazi za drvo",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/premazi-za-drvo/akrilni-premazi-za-drvo"
+  },
+  {
+    "name": "Nitro premazi za drvo",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/premazi-za-drvo/nitro-premazi-za-drvo"
+  },
+  {
+    "name": "Specijalni premazi",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/specijalni-premazi"
+  },
+  {
+    "name": "Lakovi za parket",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/lakovi-za-parket"
+  },
+  {
+    "name": "Univerzalni premazi za drvo i metal",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/univerzalni-premazi-za-drvo-i-metal"
+  },
+  {
+    "name": "Antikorozivna i ostala sredstva",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/antikorozivna-i-ostala-sredstva"
+  },
+  {
+    "name": "Skidači boja",
+    "url": "https://www.crafter.rs/boje-i-lakovi/premazi-za-drvo-i-metal/skidaci-boja"
+  },
+  {
+    "name": "Boje za zidove",
+    "url": "https://www.crafter.rs/boje-i-lakovi/boje-za-zidove"
+  },
+  {
+    "name": "Glet masa",
+    "url": "https://www.crafter.rs/boje-i-lakovi/boje-za-zidove/glet-masa"
+  },
+  {
+    "name": "Boje za unutrašnje zidove",
+    "url": "https://www.crafter.rs/boje-i-lakovi/boje-za-zidove/boje-za-unutrasnje-zidove"
+  },
+  {
+    "name": "Poludisperzije",
+    "url": "https://www.crafter.rs/boje-i-lakovi/boje-za-zidove/boje-za-unutrasnje-zidove/poludisperzije"
+  },
+  {
+    "name": "Disperzije",
+    "url": "https://www.crafter.rs/boje-i-lakovi/boje-za-zidove/boje-za-unutrasnje-zidove/disperzije"
+  },
+  {
+    "name": "Boje za zidove akrilne i latex",
+    "url": "https://www.crafter.rs/boje-i-lakovi/boje-za-zidove/boje-za-unutrasnje-zidove/boje-za-zidove-akrilne-i-latex"
+  },
+  {
+    "name": "Specijalne boje za zidove",
+    "url": "https://www.crafter.rs/boje-i-lakovi/boje-za-zidove/specijalne-boje-za-zidove"
+  },
+  {
+    "name": "Toneri i prajmeri",
+    "url": "https://www.crafter.rs/boje-i-lakovi/boje-za-zidove/toneri-i-prajmeri"
+  },
+  {
+    "name": "Proizvodi za dekorativne tehnike",
+    "url": "https://www.crafter.rs/boje-i-lakovi/boje-za-zidove/proizvodi-za-dekorativne-tehnike"
+  },
+  {
+    "name": "Sprejevi",
+    "url": "https://www.crafter.rs/boje-i-lakovi/sprejevi"
+  },
+  {
+    "name": "Boje u spreju",
+    "url": "https://www.crafter.rs/boje-i-lakovi/sprejevi/boje-u-spreju"
+  },
+  {
+    "name": "Tehnički sprejevi",
+    "url": "https://www.crafter.rs/boje-i-lakovi/sprejevi/tehnicki-sprejevi"
+  },
+  {
+    "name": "Specijalni sprejevi",
+    "url": "https://www.crafter.rs/boje-i-lakovi/sprejevi/specijalni-sprejevi"
+  },
+  {
+    "name": "Lepkovi i kitovi",
+    "url": "https://www.crafter.rs/boje-i-lakovi/lepkovi-i-kitovi"
+  },
+  {
+    "name": "Lepkovi",
+    "url": "https://www.crafter.rs/boje-i-lakovi/lepkovi-i-kitovi/lepkovi"
+  },
+  {
+    "name": "Lepkovi za drvo",
+    "url": "https://www.crafter.rs/boje-i-lakovi/lepkovi-i-kitovi/lepkovi/lepkovi-za-drvo"
+  },
+  {
+    "name": "Univerzalni lepkovi",
+    "url": "https://www.crafter.rs/boje-i-lakovi/lepkovi-i-kitovi/lepkovi/univerzalni-lepkovi"
+  },
+  {
+    "name": "Montažne trake",
+    "url": "https://www.crafter.rs/boje-i-lakovi/lepkovi-i-kitovi/lepkovi/montazne-trake"
+  },
+  {
+    "name": "Specijalni lepkovi",
+    "url": "https://www.crafter.rs/boje-i-lakovi/lepkovi-i-kitovi/lepkovi/specijalni-lepkovi"
+  },
+  {
+    "name": "Montažni lepkovi",
+    "url": "https://www.crafter.rs/boje-i-lakovi/lepkovi-i-kitovi/lepkovi/montazni-lepkovi"
+  },
+  {
+    "name": "Kitovi",
+    "url": "https://www.crafter.rs/boje-i-lakovi/lepkovi-i-kitovi/kitovi"
+  },
+  {
+    "name": "Tapete",
+    "url": "https://www.crafter.rs/boje-i-lakovi/tapete"
+  },
+  {
+    "name": "Zidne tapete",
+    "url": "https://www.crafter.rs/boje-i-lakovi/tapete/zidne-tapete"
+  },
+  {
+    "name": "Lepkovi i materijali za tapete",
+    "url": "https://www.crafter.rs/boje-i-lakovi/tapete/lepkovi-i-materijali-za-tapete"
+  },
+  {
+    "name": "Sredstva za zaštitu zidova",
+    "url": "https://www.crafter.rs/boje-i-lakovi/sredstva-za-zastitu-zidova"
+  },
+  {
+    "name": "Apsorberi vlage",
+    "url": "https://www.crafter.rs/boje-i-lakovi/sredstva-za-zastitu-zidova/apsorberi-vlage"
+  },
+  {
+    "name": "Sredstva protiv buđi i kondenza",
+    "url": "https://www.crafter.rs/boje-i-lakovi/sredstva-za-zastitu-zidova/sredstva-protiv-budi-i-kondenza"
+  },
+  {
+    "name": "Elektromaterijal",
+    "url": "https://www.crafter.rs/elektromaterijal"
+  },
+  {
+    "name": "Prekidači i priključnice",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice"
+  },
+  {
+    "name": "Modularna galanterija",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/modularna-galanterija"
+  },
+  {
+    "name": "Maske i prirubnice za modularni program",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/modularna-galanterija/maske-i-prirubnice-za-modularni-program"
+  },
+  {
+    "name": "Modularni prekidači",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/modularna-galanterija/modularni-prekidaci"
+  },
+  {
+    "name": "Modularne priključnice",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/modularna-galanterija/modularne-prikljucnice"
+  },
+  {
+    "name": "Modularni tasteri",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/modularna-galanterija/modularni-tasteri"
+  },
+  {
+    "name": "Modularni PTT, LAN, audio i TV",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/modularna-galanterija/modularni-ptt-lan-audio-i-tv"
+  },
+  {
+    "name": "Modularni dimeri",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/modularna-galanterija/modularni-dimeri"
+  },
+  {
+    "name": "Kupatilski indikatori",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/kupatilski-indikatori"
+  },
+  {
+    "name": "Elektro galanterija",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/elektro-galanterija"
+  },
+  {
+    "name": "Prekidači",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/elektro-galanterija/prekidaci"
+  },
+  {
+    "name": "Priključnice",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/elektro-galanterija/prikljucnice"
+  },
+  {
+    "name": "Dimeri",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/elektro-galanterija/dimeri"
+  },
+  {
+    "name": "Pribor, kutije i maske za instalaciju",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/elektro-galanterija/pribor-kutije-i-maske-za-instalaciju"
+  },
+  {
+    "name": "Elektro tasteri",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/elektro-galanterija/elektro-tasteri"
+  },
+  {
+    "name": "PTT, LAN, audio i TV",
+    "url": "https://www.crafter.rs/elektromaterijal/prekidaci-i-prikljucnice/elektro-galanterija/ptt-lan-audio-i-tv"
+  },
+  {
+    "name": "Produžni kablovi i priključni pribor",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor"
+  },
+  {
+    "name": "Produžni kablovi",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi"
+  },
+  {
+    "name": "Produžni kablovi sa više utičnica",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi/produzni-kablovi-sa-vise-uticnica"
+  },
+  {
+    "name": "Motalice",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi/motalice"
+  },
+  {
+    "name": "Priključni kablovi",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi/prikljucni-kablovi"
+  },
+  {
+    "name": "Kablovi za kosilice",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/produzni-kablovi/kablovi-za-kosilice"
+  },
+  {
+    "name": "Utikači, razdelnici, grla",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla"
+  },
+  {
+    "name": "Podsklopovi",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/podsklopovi"
+  },
+  {
+    "name": "Sijalčna grla",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/sijalcna-grla"
+  },
+  {
+    "name": "Utikači i međugajtanski prekidači",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/utikaci-i-medugajtanski-prekidaci"
+  },
+  {
+    "name": "Utičnice i spojke",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/uticnice-i-spojke"
+  },
+  {
+    "name": "Razdelnici za struju",
+    "url": "https://www.crafter.rs/elektromaterijal/produzni-kablovi-i-prikljucni-pribor/utikaci-razdelnici-grla/razdelnici-za-struju"
+  },
+  {
+    "name": "Automatika i kontrola",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola"
+  },
+  {
+    "name": "Industrijski utikači i utičnice",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/industrijski-utikaci-i-uticnice"
+  },
+  {
+    "name": "Električna oprema za sigurnost i grejanje",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/elektricna-oprema-za-sigurnost-i-grejanje"
+  },
+  {
+    "name": "Osigurači",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/osiguraci"
+  },
+  {
+    "name": "Autimatski osigurači",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/osiguraci/autimatski-osiguraci"
+  },
+  {
+    "name": "Patroni i nožasti osigurači",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/osiguraci/patroni-i-nozasti-osiguraci"
+  },
+  {
+    "name": "Fid sklopke",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/fid-sklopke"
+  },
+  {
+    "name": "Kontaktori bimetali releji i ostalo",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/kontaktori-bimetali-releji-i-ostalo"
+  },
+  {
+    "name": "Tasteri i signalizacija",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/tasteri-i-signalizacija"
+  },
+  {
+    "name": "DM zaštitne sklopke",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/dm-zastitne-sklopke"
+  },
+  {
+    "name": "Grebenasti prekidači",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/grebenasti-prekidaci"
+  },
+  {
+    "name": "Granični i mikro prekidači",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/granicni-i-mikro-prekidaci"
+  },
+  {
+    "name": "Priključnice za DIN šinu",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/prikljucnice-za-din-sinu"
+  },
+  {
+    "name": "Bakarni češljevi",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/bakarni-cesljevi"
+  },
+  {
+    "name": "Izolatori",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/izolatori"
+  },
+  {
+    "name": "Katodni odvodnici",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/katodni-odvodnici"
+  },
+  {
+    "name": "Šine i trake",
+    "url": "https://www.crafter.rs/elektromaterijal/automatika-i-kontrola/sine-i-trake"
+  },
+  {
+    "name": "Kablovi i instalaciona oprema",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema"
+  },
+  {
+    "name": "Razvodne table",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/razvodne-table"
+  },
+  {
+    "name": "Razvodne kutije OG",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/razvodne-kutije-og"
+  },
+  {
+    "name": "PVC krute cevi i sajle za kablove",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/pvc-krute-cevi-i-sajle-za-kablove"
+  },
+  {
+    "name": "Instalaciona creva",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/instalaciona-creva"
+  },
+  {
+    "name": "Creva metalna",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/instalaciona-creva/creva-metalna"
+  },
+  {
+    "name": "Creva halogen free",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/instalaciona-creva/creva-halogen-free"
+  },
+  {
+    "name": "Creva betonska",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/instalaciona-creva/creva-betonska"
+  },
+  {
+    "name": "Creva metalna izolovana",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/instalaciona-creva/creva-metalna-izolovana"
+  },
+  {
+    "name": "Razvodni ormani",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/razvodni-ormani"
+  },
+  {
+    "name": "Ormani abs razvodni",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/razvodni-ormani/ormani-abs-razvodni"
+  },
+  {
+    "name": "Kanalice za kablove",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/kanalice-za-kablove"
+  },
+  {
+    "name": "Kablovi i žice",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/kablovi-i-zice"
+  },
+  {
+    "name": "Kablovi",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/kablovi-i-zice/kablovi"
+  },
+  {
+    "name": "Kablovi niskonaponski",
+    "url": "https://www.crafter.rs/elektromaterijal/kablovi-i-instalaciona-oprema/kablovi-i-zice/kablovi-niskonaponski"
+  },
+  {
+    "name": "Elektropribor",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor"
+  },
+  {
+    "name": "Vezice i bužiri za kablove",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/vezice-i-buziri-za-kablove"
+  },
+  {
+    "name": "Izolir i samolepljive trake",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/izolir-i-samolepljive-trake"
+  },
+  {
+    "name": "Starteri za neonke",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/starteri-za-neonke"
+  },
+  {
+    "name": "Spojnice i sabirnice struju",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/spojnice-i-sabirnice-struju"
+  },
+  {
+    "name": "Kleme",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/kleme"
+  },
+  {
+    "name": "Obujmice",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/obujmice"
+  },
+  {
+    "name": "PG uvodnice",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/pg-uvodnice"
+  },
+  {
+    "name": "Buksne i stopice za kablove",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/buksne-i-stopice-za-kablove"
+  },
+  {
+    "name": "Dozne",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/dozne"
+  },
+  {
+    "name": "Termoskupljajući bužiri",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/termoskupljajuci-buziri"
+  },
+  {
+    "name": "Baterije i punjači",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/baterije-i-punjaci"
+  },
+  {
+    "name": "Kablovski završeci",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/kablovski-zavrseci"
+  },
+  {
+    "name": "Trafoi i prigušnice",
+    "url": "https://www.crafter.rs/elektromaterijal/elektropribor/trafoi-i-prigusnice"
+  },
+  {
+    "name": "Auto oprema",
+    "url": "https://www.crafter.rs/auto-oprema"
+  },
+  {
+    "name": "Kozmetika i oprema za vozila",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila"
+  },
+  {
+    "name": "Ostala auto oprema",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/ostala-auto-oprema"
+  },
+  {
+    "name": "Auto koferi i nosači",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/ostala-auto-oprema/auto-koferi-i-nosaci"
+  },
+  {
+    "name": "Kanisteri i levci",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/ostala-auto-oprema/kanisteri-i-levci"
+  },
+  {
+    "name": "Cerade za vozila",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/ostala-auto-oprema/cerade-za-vozila"
+  },
+  {
+    "name": "Čunjevi i brave parking mesta",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/ostala-auto-oprema/cunjevi-i-brave-parking-mesta"
+  },
+  {
+    "name": "Dečija auto sedišta",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/ostala-auto-oprema/decija-auto-sedista"
+  },
+  {
+    "name": "Ramovi registarskih tablica",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/ostala-auto-oprema/ramovi-registarskih-tablica"
+  },
+  {
+    "name": "Čepovi rezervoara",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/ostala-auto-oprema/cepovi-rezervoara"
+  },
+  {
+    "name": "Levci",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/ostala-auto-oprema/levci"
+  },
+  {
+    "name": "Kozmetika za vozila unutrašnja",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-unutrasnja"
+  },
+  {
+    "name": "Pribor za prtljag u vozilima",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-unutrasnja/pribor-za-prtljag-u-vozilima"
+  },
+  {
+    "name": "Auto presvlake nasloni i masažeri",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-unutrasnja/auto-presvlake-nasloni-i-masazeri"
+  },
+  {
+    "name": "Sredstva za čišćenje i održavanje vozila",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-unutrasnja/sredstva-za-ciscenje-i-odrzavanje-vozila"
+  },
+  {
+    "name": "Auto osveživači i mirisi",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-unutrasnja/auto-osvezivaci-i-mirisi"
+  },
+  {
+    "name": "Kozmetika unutrašnja ostalo",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-unutrasnja/kozmetika-unutrasnja-ostalo"
+  },
+  {
+    "name": "Navlaka volana",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-unutrasnja/navlaka-volana"
+  },
+  {
+    "name": "Patosnice i podloge",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-unutrasnja/patosnice-i-podloge"
+  },
+  {
+    "name": "Sredstva za čišćenje i održavanje unutrašnjosti vozila",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-unutrasnja/sredstva-za-ciscenje-i-odrzavanje-unutrasnjosti-vozila"
+  },
+  {
+    "name": "Obavezna auto oprema",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/obavezna-auto-oprema"
+  },
+  {
+    "name": "Rude užad sajle i trake za vuču",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/obavezna-auto-oprema/rude-uzad-sajle-i-trake-za-vucu"
+  },
+  {
+    "name": "Bezbednosna oprema za vozila",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/obavezna-auto-oprema/bezbednosna-oprema-za-vozila"
+  },
+  {
+    "name": "Auto apoteka",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/obavezna-auto-oprema/auto-apoteka"
+  },
+  {
+    "name": "Pp aparat za auto",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/obavezna-auto-oprema/pp-aparat-za-auto"
+  },
+  {
+    "name": "Kozmetika za vozila spoljašnja",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-spoljasnja"
+  },
+  {
+    "name": "Čišćenje vozila",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-spoljasnja/ciscenje-vozila"
+  },
+  {
+    "name": "Kozmetika spoljašnja ostalo",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-spoljasnja/kozmetika-spoljasnja-ostalo"
+  },
+  {
+    "name": "Korektori i boje",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-spoljasnja/korektori-i-boje"
+  },
+  {
+    "name": "Odbojci za vrata",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-spoljasnja/odbojci-za-vrata"
+  },
+  {
+    "name": "Nalepnice za vozila",
+    "url": "https://www.crafter.rs/auto-oprema/kozmetika-i-oprema-za-vozila/kozmetika-za-vozila-spoljasnja/nalepnice-za-vozila"
+  },
+  {
+    "name": "Akumulatori",
+    "url": "https://www.crafter.rs/auto-oprema/akumulatori"
+  },
+  {
+    "name": "Kleme za akumulatore, punjači, starteri",
+    "url": "https://www.crafter.rs/auto-oprema/akumulatori/kleme-za-akumulatore-punjaci-starteri"
+  },
+  {
+    "name": "Potrošni delovi za vozila",
+    "url": "https://www.crafter.rs/auto-oprema/potrosni-delovi-za-vozila"
+  },
+  {
+    "name": "Tečnosti za vozila",
+    "url": "https://www.crafter.rs/auto-oprema/potrosni-delovi-za-vozila/tecnosti-za-vozila"
+  },
+  {
+    "name": "Maziva",
+    "url": "https://www.crafter.rs/auto-oprema/potrosni-delovi-za-vozila/tecnosti-za-vozila/maziva"
+  },
+  {
+    "name": "Sredstva za vetrobran",
+    "url": "https://www.crafter.rs/auto-oprema/potrosni-delovi-za-vozila/tecnosti-za-vozila/sredstva-za-vetrobran"
+  },
+  {
+    "name": "Ulja",
+    "url": "https://www.crafter.rs/auto-oprema/potrosni-delovi-za-vozila/tecnosti-za-vozila/ulja"
+  },
+  {
+    "name": "Aditivi",
+    "url": "https://www.crafter.rs/auto-oprema/potrosni-delovi-za-vozila/tecnosti-za-vozila/aditivi"
+  },
+  {
+    "name": "Antifriz",
+    "url": "https://www.crafter.rs/auto-oprema/potrosni-delovi-za-vozila/tecnosti-za-vozila/antifriz"
+  },
+  {
+    "name": "Destilovana voda",
+    "url": "https://www.crafter.rs/auto-oprema/potrosni-delovi-za-vozila/tecnosti-za-vozila/destilovana-voda"
+  },
+  {
+    "name": "Metlice brisača",
+    "url": "https://www.crafter.rs/auto-oprema/potrosni-delovi-za-vozila/metlice-brisaca"
+  },
+  {
+    "name": "Gume i oprema za gume",
+    "url": "https://www.crafter.rs/auto-oprema/gume-i-oprema-za-gume"
+  },
+  {
+    "name": "Gume letnje",
+    "url": "https://www.crafter.rs/auto-oprema/gume-i-oprema-za-gume/gume-letnje"
+  },
+  {
+    "name": "Gume za sve sezone",
+    "url": "https://www.crafter.rs/auto-oprema/gume-i-oprema-za-gume/gume-za-sve-sezone"
+  },
+  {
+    "name": "Torbe i vreće za odlaganje guma",
+    "url": "https://www.crafter.rs/auto-oprema/gume-i-oprema-za-gume/torbe-i-vrece-za-odlaganje-guma"
+  },
+  {
+    "name": "Setovi, torbe i ventili",
+    "url": "https://www.crafter.rs/auto-oprema/gume-i-oprema-za-gume/setovi-torbe-i-ventili"
+  },
+  {
+    "name": "Gume zimske",
+    "url": "https://www.crafter.rs/auto-oprema/gume-i-oprema-za-gume/gume-zimske"
+  },
+  {
+    "name": "Lanci i čarape za sneg",
+    "url": "https://www.crafter.rs/auto-oprema/gume-i-oprema-za-gume/lanci-i-carape-za-sneg"
+  },
+  {
+    "name": "Ratkapne",
+    "url": "https://www.crafter.rs/auto-oprema/gume-i-oprema-za-gume/ratkapne"
+  },
+  {
+    "name": "Višenamenski usisivači i oprema",
+    "url": "https://www.crafter.rs/auto-oprema/visenamenski-usisivaci-i-oprema"
+  },
+  {
+    "name": "Oprema za višenamenske usisivače",
+    "url": "https://www.crafter.rs/auto-oprema/visenamenski-usisivaci-i-oprema/oprema-za-visenamenske-usisivace"
+  },
+  {
+    "name": "Auto elektrika, rasveta i alat",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat"
+  },
+  {
+    "name": "Alat i pribor za vozila",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila"
+  },
+  {
+    "name": "Auto alat ostalo",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/auto-alat-ostalo"
+  },
+  {
+    "name": "Auto dizalice",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/auto-dizalice"
+  },
+  {
+    "name": "Merač antifriza",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/merac-antifriza"
+  },
+  {
+    "name": "Ključevi za auto svećice",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/kljucevi-za-auto-svecice"
+  },
+  {
+    "name": "Ključevi za auto točak",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/alat-i-pribor-za-vozila/kljucevi-za-auto-tocak"
+  },
+  {
+    "name": "Auto elektrika",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-elektrika"
+  },
+  {
+    "name": "Auto plejeri zvučnici i osigurači",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-elektrika/auto-plejeri-zvucnici-i-osiguraci"
+  },
+  {
+    "name": "Uređaji na auto upaljač",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-elektrika/uredaji-na-auto-upaljac"
+  },
+  {
+    "name": "Antene za vozila",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-elektrika/antene-za-vozila"
+  },
+  {
+    "name": "Kamere i parking senzori",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-elektrika/kamere-i-parking-senzori"
+  },
+  {
+    "name": "Auto USB",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-elektrika/auto-usb"
+  },
+  {
+    "name": "Držači za mobilni",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-elektrika/drzaci-za-mobilni"
+  },
+  {
+    "name": "Auto pumpe i merači pritiska nastavci",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-pumpe-i-meraci-pritiska-nastavci"
+  },
+  {
+    "name": "Auto rasveta",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-rasveta"
+  },
+  {
+    "name": "Auto sijalice",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-rasveta/auto-sijalice"
+  },
+  {
+    "name": "Baterijske lampe",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-rasveta/baterijske-lampe"
+  },
+  {
+    "name": "Farovi, reflektori i rotaciona svetla",
+    "url": "https://www.crafter.rs/auto-oprema/auto-elektrika-rasveta-i-alat/auto-rasveta/farovi-reflektori-i-rotaciona-svetla"
+  },
+  {
+    "name": "Perači i oprema",
+    "url": "https://www.crafter.rs/auto-oprema/peraci-i-oprema"
+  },
+  {
+    "name": "Perači pod pritiskom",
+    "url": "https://www.crafter.rs/auto-oprema/peraci-i-oprema/peraci-pod-pritiskom"
+  },
+  {
+    "name": "Oprema za perače pod pritiskom",
+    "url": "https://www.crafter.rs/auto-oprema/peraci-i-oprema/oprema-za-perace-pod-pritiskom"
+  },
+  {
+    "name": "Bela tehnika",
+    "url": "https://www.crafter.rs/bela-tehnika"
+  },
+  {
+    "name": "Bojleri",
+    "url": "https://www.crafter.rs/bela-tehnika/bojleri"
+  },
+  {
+    "name": "Bojleri kuhinjski",
+    "url": "https://www.crafter.rs/bela-tehnika/bojleri/bojleri-kuhinjski"
+  },
+  {
+    "name": "Bojleri standardni",
+    "url": "https://www.crafter.rs/bela-tehnika/bojleri/bojleri-standardni"
+  },
+  {
+    "name": "Bojleri protočni",
+    "url": "https://www.crafter.rs/bela-tehnika/bojleri/bojleri-protocni"
+  },
+  {
+    "name": "Mašine za veš",
+    "url": "https://www.crafter.rs/bela-tehnika/masine-za-ves"
+  },
+  {
+    "name": "Mašine za sušenje veša",
+    "url": "https://www.crafter.rs/bela-tehnika/masine-za-ves/masine-za-susenje-vesa"
+  },
+  {
+    "name": "Mašine za veš kombinovane",
+    "url": "https://www.crafter.rs/bela-tehnika/masine-za-ves/masine-za-ves-kombinovane"
+  },
+  {
+    "name": "Mašine za pranje veša",
+    "url": "https://www.crafter.rs/bela-tehnika/masine-za-ves/masine-za-pranje-vesa"
+  },
+  {
+    "name": "Oprema za mašine za veš",
+    "url": "https://www.crafter.rs/bela-tehnika/masine-za-ves/oprema-za-masine-za-ves"
+  },
+  {
+    "name": "Šporeti, rerne i ploče",
+    "url": "https://www.crafter.rs/bela-tehnika/sporeti-rerne-i-ploce"
+  },
+  {
+    "name": "Šporeti električni",
+    "url": "https://www.crafter.rs/bela-tehnika/sporeti-rerne-i-ploce/sporeti-elektricni"
+  },
+  {
+    "name": "Šporeti kombinovani",
+    "url": "https://www.crafter.rs/bela-tehnika/sporeti-rerne-i-ploce/sporeti-kombinovani"
+  },
+  {
+    "name": "Ploče ugradne",
+    "url": "https://www.crafter.rs/bela-tehnika/sporeti-rerne-i-ploce/ploce-ugradne"
+  },
+  {
+    "name": "Šporeti mini",
+    "url": "https://www.crafter.rs/bela-tehnika/sporeti-rerne-i-ploce/sporeti-mini"
+  },
+  {
+    "name": "Rerne ugradne",
+    "url": "https://www.crafter.rs/bela-tehnika/sporeti-rerne-i-ploce/rerne-ugradne"
+  },
+  {
+    "name": "Šporeti plinski",
+    "url": "https://www.crafter.rs/bela-tehnika/sporeti-rerne-i-ploce/sporeti-plinski"
+  },
+  {
+    "name": "Setovi ugradni",
+    "url": "https://www.crafter.rs/bela-tehnika/sporeti-rerne-i-ploce/setovi-ugradni"
+  },
+  {
+    "name": "Frižideri",
+    "url": "https://www.crafter.rs/bela-tehnika/frizideri"
+  },
+  {
+    "name": "Frižideri sa jednim vratima",
+    "url": "https://www.crafter.rs/bela-tehnika/frizideri/frizideri-sa-jednim-vratima"
+  },
+  {
+    "name": "Frižideri kombinovani",
+    "url": "https://www.crafter.rs/bela-tehnika/frizideri/frizideri-kombinovani"
+  },
+  {
+    "name": "Frižideri side by side",
+    "url": "https://www.crafter.rs/bela-tehnika/frizideri/frizideri-side-by-side"
+  },
+  {
+    "name": "Frižideri ugradni",
+    "url": "https://www.crafter.rs/bela-tehnika/frizideri/frizideri-ugradni"
+  },
+  {
+    "name": "Frižideri mini",
+    "url": "https://www.crafter.rs/bela-tehnika/frizideri/frizideri-mini"
+  },
+  {
+    "name": "Vinske vitrine",
+    "url": "https://www.crafter.rs/bela-tehnika/vinske-vitrine"
+  },
+  {
+    "name": "Mašine za sudove",
+    "url": "https://www.crafter.rs/bela-tehnika/masine-za-sudove"
+  },
+  {
+    "name": "Mašine za sudove samostalne",
+    "url": "https://www.crafter.rs/bela-tehnika/masine-za-sudove/masine-za-sudove-samostalne"
+  },
+  {
+    "name": "Mašine za sudove ugradne",
+    "url": "https://www.crafter.rs/bela-tehnika/masine-za-sudove/masine-za-sudove-ugradne"
+  },
+  {
+    "name": "Mikrotalasne rerne",
+    "url": "https://www.crafter.rs/bela-tehnika/mikrotalasne-rerne"
+  },
+  {
+    "name": "Mikrotalasne rerne samostalne",
+    "url": "https://www.crafter.rs/bela-tehnika/mikrotalasne-rerne/mikrotalasne-rerne-samostalne"
+  },
+  {
+    "name": "Mikrotalasne rerne ugradne",
+    "url": "https://www.crafter.rs/bela-tehnika/mikrotalasne-rerne/mikrotalasne-rerne-ugradne"
+  },
+  {
+    "name": "Aspiratori",
+    "url": "https://www.crafter.rs/bela-tehnika/aspiratori"
+  },
+  {
+    "name": "Aspiratori samostalni",
+    "url": "https://www.crafter.rs/bela-tehnika/aspiratori/aspiratori-samostalni"
+  },
+  {
+    "name": "Aspiratori ugradni",
+    "url": "https://www.crafter.rs/bela-tehnika/aspiratori/aspiratori-ugradni"
+  },
+  {
+    "name": "Zamrzivači",
+    "url": "https://www.crafter.rs/bela-tehnika/zamrzivaci"
+  },
+  {
+    "name": "Zamrzivači vertikalni",
+    "url": "https://www.crafter.rs/bela-tehnika/zamrzivaci/zamrzivaci-vertikalni"
+  },
+  {
+    "name": "Zamrzivači horizontalni",
+    "url": "https://www.crafter.rs/bela-tehnika/zamrzivaci/zamrzivaci-horizontalni"
+  },
+  {
+    "name": "Zamrzivači ugradni",
+    "url": "https://www.crafter.rs/bela-tehnika/zamrzivaci/zamrzivaci-ugradni"
+  },
+  {
+    "name": "Mali kućni aparati",
+    "url": "https://www.crafter.rs/mali-kucni-aparati"
+  },
+  {
+    "name": "Pripremanje hrane",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane"
+  },
+  {
+    "name": "Aparati za kolače",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/aparati-za-kolace"
+  },
+  {
+    "name": "Aparati za vafle",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/aparati-za-kolace/aparati-za-vafle"
+  },
+  {
+    "name": "Aparati za mafine",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/aparati-za-kolace/aparati-za-mafine"
+  },
+  {
+    "name": "Aparati za galete",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/aparati-za-kolace/aparati-za-galete"
+  },
+  {
+    "name": "Aparati za kokice",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/aparati-za-kokice"
+  },
+  {
+    "name": "Sokovnici i blenderi",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/sokovnici-i-blenderi"
+  },
+  {
+    "name": "Sokovnici standardni",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/sokovnici-i-blenderi/sokovnici-standardni"
+  },
+  {
+    "name": "Cediljke za citruse",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/sokovnici-i-blenderi/cediljke-za-citruse"
+  },
+  {
+    "name": "Blenderi standardni",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/sokovnici-i-blenderi/blenderi-standardni"
+  },
+  {
+    "name": "Blenderi nutri",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/sokovnici-i-blenderi/blenderi-nutri"
+  },
+  {
+    "name": "Blenderi smoothie",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/sokovnici-i-blenderi/blenderi-smoothie"
+  },
+  {
+    "name": "Multipraktik i oprema za multipraktik",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/sokovnici-i-blenderi/multipraktik-i-oprema-za-multipraktik"
+  },
+  {
+    "name": "Sokovnici za hladno ceđenje",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/sokovnici-i-blenderi/sokovnici-za-hladno-cedenje"
+  },
+  {
+    "name": "Mikseri i seckalice",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/mikseri-i-seckalice"
+  },
+  {
+    "name": "Ručni mikseri",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/mikseri-i-seckalice/rucni-mikseri"
+  },
+  {
+    "name": "Mikseri sa posudom",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/mikseri-i-seckalice/mikseri-sa-posudom"
+  },
+  {
+    "name": "Štapni mikseri",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/mikseri-i-seckalice/stapni-mikseri"
+  },
+  {
+    "name": "Seckalice",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/mikseri-i-seckalice/seckalice"
+  },
+  {
+    "name": "Mašine za meso",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/masine-za-meso"
+  },
+  {
+    "name": "Mašine za mlevenje mesa",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/masine-za-meso/masine-za-mlevenje-mesa"
+  },
+  {
+    "name": "Mesoreznice",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/masine-za-meso/mesoreznice"
+  },
+  {
+    "name": "Kuhinjske vage",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/pripremanje-hrane/kuhinjske-vage"
+  },
+  {
+    "name": "Čišćenje",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/ciscenje"
+  },
+  {
+    "name": "Usisivači",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/ciscenje/usisivaci"
+  },
+  {
+    "name": "Usisivači na vodu",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/ciscenje/usisivaci/usisivaci-na-vodu"
+  },
+  {
+    "name": "Usisivači sa kesom",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/ciscenje/usisivaci/usisivaci-sa-kesom"
+  },
+  {
+    "name": "Usisivači sa posudom",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/ciscenje/usisivaci/usisivaci-sa-posudom"
+  },
+  {
+    "name": "Usisivači ručni i štapni",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/ciscenje/usisivaci/usisivaci-rucni-i-stapni"
+  },
+  {
+    "name": "Paročistači",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/ciscenje/parocistaci"
+  },
+  {
+    "name": "Dodatna oprema za usisivače",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/ciscenje/dodatna-oprema-za-usisivace"
+  },
+  {
+    "name": "Kuvanje i pečenje",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/kuvanje-i-pecenje"
+  },
+  {
+    "name": "Tosteri",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/kuvanje-i-pecenje/tosteri"
+  },
+  {
+    "name": "Tosteri za sendviče",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/kuvanje-i-pecenje/tosteri/tosteri-za-sendvice"
+  },
+  {
+    "name": "Tosteri za hleb",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/kuvanje-i-pecenje/tosteri/tosteri-za-hleb"
+  },
+  {
+    "name": "Grilovi",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/kuvanje-i-pecenje/grilovi"
+  },
+  {
+    "name": "Rešoi",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/kuvanje-i-pecenje/resoi"
+  },
+  {
+    "name": "Indukcioni rešoi",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/kuvanje-i-pecenje/resoi/indukcioni-resoi"
+  },
+  {
+    "name": "Standardni rešoi",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/kuvanje-i-pecenje/resoi/standardni-resoi"
+  },
+  {
+    "name": "Mini pekare",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/kuvanje-i-pecenje/mini-pekare"
+  },
+  {
+    "name": "Friteze",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/kuvanje-i-pecenje/friteze"
+  },
+  {
+    "name": "Aparati za kafu i vodu",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/aparati-za-kafu-i-vodu"
+  },
+  {
+    "name": "Aparati za kafu",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/aparati-za-kafu-i-vodu/aparati-za-kafu"
+  },
+  {
+    "name": "Aparati za espreso",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/aparati-za-kafu-i-vodu/aparati-za-kafu/aparati-za-espreso"
+  },
+  {
+    "name": "Električne džezve",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/aparati-za-kafu-i-vodu/aparati-za-kafu/elektricne-dzezve"
+  },
+  {
+    "name": "Mutilice za nes kafu",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/aparati-za-kafu-i-vodu/aparati-za-kafu/mutilice-za-nes-kafu"
+  },
+  {
+    "name": "Mlinovi za kafu",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/aparati-za-kafu-i-vodu/aparati-za-kafu/mlinovi-za-kafu"
+  },
+  {
+    "name": "Dodatna oprema za aparate za kafu",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/aparati-za-kafu-i-vodu/aparati-za-kafu/dodatna-oprema-za-aparate-za-kafu"
+  },
+  {
+    "name": "Aparati za filter kafu",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/aparati-za-kafu-i-vodu/aparati-za-kafu/aparati-za-filter-kafu"
+  },
+  {
+    "name": "Aparati za vodu",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/aparati-za-kafu-i-vodu/aparati-za-vodu"
+  },
+  {
+    "name": "Kuvala za vodu",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/aparati-za-kafu-i-vodu/aparati-za-vodu/kuvala-za-vodu"
+  },
+  {
+    "name": "Bokali za vodu",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/aparati-za-kafu-i-vodu/aparati-za-vodu/bokali-za-vodu"
+  },
+  {
+    "name": "Filteri za bokale",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/aparati-za-kafu-i-vodu/aparati-za-vodu/filteri-za-bokale"
+  },
+  {
+    "name": "Održavanje odeće",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/odrzavanje-odece"
+  },
+  {
+    "name": "Pegle",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/odrzavanje-odece/pegle"
+  },
+  {
+    "name": "Parne stanice",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/odrzavanje-odece/parne-stanice"
+  },
+  {
+    "name": "Lepota i nega",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/lepota-i-nega"
+  },
+  {
+    "name": "Vage za merenje telesne težine",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/lepota-i-nega/vage-za-merenje-telesne-tezine"
+  },
+  {
+    "name": "Fenovi za kosu",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/lepota-i-nega/fenovi-za-kosu"
+  },
+  {
+    "name": "Mašinice za šišanje i trimeri",
+    "url": "https://www.crafter.rs/mali-kucni-aparati/lepota-i-nega/masinice-za-sisanje-i-trimeri"
+  },
+  {
+    "name": "Logistička oprema",
+    "url": "https://www.crafter.rs/logisticka-oprema"
+  },
+  {
+    "name": "Kolica za teret i električne dizalice",
+    "url": "https://www.crafter.rs/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice"
+  },
+  {
+    "name": "Dizalice",
+    "url": "https://www.crafter.rs/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice/dizalice"
+  },
+  {
+    "name": "Paletari",
+    "url": "https://www.crafter.rs/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice/paletari"
+  },
+  {
+    "name": "Transportna kolica",
+    "url": "https://www.crafter.rs/logisticka-oprema/kolica-za-teret-i-elektricne-dizalice/transportna-kolica"
+  },
+  {
+    "name": "Police",
+    "url": "https://www.crafter.rs/logisticka-oprema/police"
+  },
+  {
+    "name": "Metalne police",
+    "url": "https://www.crafter.rs/logisticka-oprema/police/metalne-police"
+  },
+  {
+    "name": "Plastične police",
+    "url": "https://www.crafter.rs/logisticka-oprema/police/plasticne-police"
+  },
+  {
+    "name": "Plastični ormari",
+    "url": "https://www.crafter.rs/logisticka-oprema/plasticni-ormari"
+  },
+  {
+    "name": "Kutije i folije za pakovanje",
+    "url": "https://www.crafter.rs/logisticka-oprema/kutije-i-folije-za-pakovanje"
+  },
+  {
+    "name": "Folije",
+    "url": "https://www.crafter.rs/logisticka-oprema/kutije-i-folije-za-pakovanje/folije"
+  },
+  {
+    "name": "Materijal za pakovanje",
+    "url": "https://www.crafter.rs/logisticka-oprema/kutije-i-folije-za-pakovanje/materijal-za-pakovanje"
+  },
+  {
+    "name": "Kartonske kutije",
+    "url": "https://www.crafter.rs/logisticka-oprema/kutije-i-folije-za-pakovanje/kartonske-kutije"
+  },
+  {
+    "name": "Plastične kutije i korpe",
+    "url": "https://www.crafter.rs/logisticka-oprema/plasticne-kutije-i-korpe"
+  },
+  {
+    "name": "Merdevine i skele",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele"
+  },
+  {
+    "name": "Aluminijumske merdevine",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/aluminijumske-merdevine"
+  },
+  {
+    "name": "Trodelne merdevine",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/aluminijumske-merdevine/trodelne-merdevine"
+  },
+  {
+    "name": "Jednodelne merdevine",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/aluminijumske-merdevine/jednodelne-merdevine"
+  },
+  {
+    "name": "Dvodelne merdevine",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/aluminijumske-merdevine/dvodelne-merdevine"
+  },
+  {
+    "name": "Kućne merdevine",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/kucne-merdevine"
+  },
+  {
+    "name": "Skele",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/skele"
+  },
+  {
+    "name": "Drvene merdevine",
+    "url": "https://www.crafter.rs/logisticka-oprema/merdevine-i-skele/drvene-merdevine"
+  },
+  {
+    "name": "Kancelarijski materijal",
+    "url": "https://www.crafter.rs/logisticka-oprema/kancelarijski-materijal"
+  },
+  {
+    "name": "Zaštita na radu",
+    "url": "https://www.crafter.rs/zastita-na-radu"
+  },
+  {
+    "name": "Zaštita glave",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave"
+  },
+  {
+    "name": "Šlemovi i kape",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave/slemovi-i-kape"
+  },
+  {
+    "name": "Kape",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave/slemovi-i-kape/kape"
+  },
+  {
+    "name": "Šlemovi",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave/slemovi-i-kape/slemovi"
+  },
+  {
+    "name": "Zaštita očiju",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave/zastita-ociju"
+  },
+  {
+    "name": "Viziri",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave/zastita-ociju/viziri"
+  },
+  {
+    "name": "Naočare",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave/zastita-ociju/naocare"
+  },
+  {
+    "name": "Maske za zavarivanje",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave/zastita-ociju/maske-za-zavarivanje"
+  },
+  {
+    "name": "Zaštitne maske i filteri",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave/zastitne-maske-i-filteri"
+  },
+  {
+    "name": "Maske",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave/zastitne-maske-i-filteri/maske"
+  },
+  {
+    "name": "Filteri",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave/zastitne-maske-i-filteri/filteri"
+  },
+  {
+    "name": "Zaštita sluha",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave/zastita-sluha"
+  },
+  {
+    "name": "Rukavice za zavarivanje",
+    "url": "https://www.crafter.rs/zastita-na-radu/zastita-glave/rukavice-za-zavarivanje"
+  },
+  {
+    "name": "Odeća",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca"
+  },
+  {
+    "name": "Prsluci",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/prsluci"
+  },
+  {
+    "name": "Pantalone",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/pantalone"
+  },
+  {
+    "name": "Kombinezoni",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/kombinezoni"
+  },
+  {
+    "name": "Duksevi i majice",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/duksevi-i-majice"
+  },
+  {
+    "name": "Duksevi",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/duksevi-i-majice/duksevi"
+  },
+  {
+    "name": "Majice",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/duksevi-i-majice/majice"
+  },
+  {
+    "name": "Jakne",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/jakne"
+  },
+  {
+    "name": "Softshell jakne",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/jakne/softshell-jakne"
+  },
+  {
+    "name": "Zimske jakne",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/jakne/zimske-jakne"
+  },
+  {
+    "name": "Jakne za slobodno vreme",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/jakne/jakne-za-slobodno-vreme"
+  },
+  {
+    "name": "Kabanice i kišna odela",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/kabanice-i-kisna-odela"
+  },
+  {
+    "name": "Odeća ostalo",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/odeca-ostalo"
+  },
+  {
+    "name": "Radna odela",
+    "url": "https://www.crafter.rs/zastita-na-radu/odeca/radna-odela"
+  },
+  {
+    "name": "Obuća",
+    "url": "https://www.crafter.rs/zastita-na-radu/obuca"
+  },
+  {
+    "name": "Čizme",
+    "url": "https://www.crafter.rs/zastita-na-radu/obuca/cizme"
+  },
+  {
+    "name": "Cipele",
+    "url": "https://www.crafter.rs/zastita-na-radu/obuca/cipele"
+  },
+  {
+    "name": "Zaštitne cipele",
+    "url": "https://www.crafter.rs/zastita-na-radu/obuca/cipele/zastitne-cipele"
+  },
+  {
+    "name": "Radne cipele",
+    "url": "https://www.crafter.rs/zastita-na-radu/obuca/cipele/radne-cipele"
+  },
+  {
+    "name": "Patike",
+    "url": "https://www.crafter.rs/zastita-na-radu/obuca/patike"
+  },
+  {
+    "name": "Ulošci za obuću",
+    "url": "https://www.crafter.rs/zastita-na-radu/obuca/ulosci-za-obucu"
+  },
+  {
+    "name": "Klompe i papuče",
+    "url": "https://www.crafter.rs/zastita-na-radu/obuca/klompe-i-papuce"
+  },
+  {
+    "name": "Rukavice",
+    "url": "https://www.crafter.rs/zastita-na-radu/rukavice"
+  },
+  {
+    "name": "Jednokratne rukavice",
+    "url": "https://www.crafter.rs/zastita-na-radu/rukavice/jednokratne-rukavice"
+  },
+  {
+    "name": "Kožne rukavice",
+    "url": "https://www.crafter.rs/zastita-na-radu/rukavice/kozne-rukavice"
+  },
+  {
+    "name": "Rukavice sa premazom",
+    "url": "https://www.crafter.rs/zastita-na-radu/rukavice/rukavice-sa-premazom"
+  },
+  {
+    "name": "Rukavice za zaštitu od prosecanja",
+    "url": "https://www.crafter.rs/zastita-na-radu/rukavice/rukavice-za-zastitu-od-prosecanja"
+  },
+  {
+    "name": "Rukavice specijalne",
+    "url": "https://www.crafter.rs/zastita-na-radu/rukavice/rukavice-specijalne"
+  },
+  {
+    "name": "Oprema za signalizaciju i upozoravanje",
+    "url": "https://www.crafter.rs/zastita-na-radu/oprema-za-signalizaciju-i-upozoravanje"
+  },
+  {
+    "name": "Signalizirajuće trake i lanci",
+    "url": "https://www.crafter.rs/zastita-na-radu/oprema-za-signalizaciju-i-upozoravanje/signalizirajuce-trake-i-lanci"
+  },
+  {
+    "name": "Čunjevi",
+    "url": "https://www.crafter.rs/zastita-na-radu/oprema-za-signalizaciju-i-upozoravanje/cunjevi"
+  },
+  {
+    "name": "Protivpadna oprema",
+    "url": "https://www.crafter.rs/zastita-na-radu/protivpadna-oprema"
+  },
+  {
+    "name": "Jednokratne rukavice i kombinezoni",
+    "url": "https://www.crafter.rs/zastita-na-radu/jednokratni-program"
+  },
+  {
+    "name": "Okovi i vijci",
+    "url": "https://www.crafter.rs/okovi-i-vijci"
+  },
+  {
+    "name": "Građevinski okov",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov"
+  },
+  {
+    "name": "Okov razni",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-razni"
+  },
+  {
+    "name": "Okov za vrata",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-vrata"
+  },
+  {
+    "name": "Šarke za vrata",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-vrata/sarke-za-vrata"
+  },
+  {
+    "name": "Reze, šnaperi, rajberi",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-vrata/reze-snaperi-rajberi"
+  },
+  {
+    "name": "Zatvarači za vrata",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-vrata/zatvaraci-za-vrata"
+  },
+  {
+    "name": "Brave prihvatnici cilindri ključevi",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-vrata/brave-prihvatnici-cilindri-kljucevi"
+  },
+  {
+    "name": "Kvake, kugle, rozete, šildovi",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-vrata/kvake-kugle-rozete-sildovi"
+  },
+  {
+    "name": "Odbojnici, špijunke",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-vrata/odbojnici-spijunke"
+  },
+  {
+    "name": "Rukohvati za vrata",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-vrata/rukohvati-za-vrata"
+  },
+  {
+    "name": "Zvekiri",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-vrata/zvekiri"
+  },
+  {
+    "name": "Okov za klizna vrata",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-vrata/okov-za-klizna-vrata"
+  },
+  {
+    "name": "Građevinski okov za staklena vrata",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-vrata/gradevinski-okov-za-staklena-vrata"
+  },
+  {
+    "name": "Okov za tuš kabine",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-vrata/okov-za-tus-kabine"
+  },
+  {
+    "name": "Okov za prozore",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-prozore"
+  },
+  {
+    "name": "Ručice za prozore",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-prozore/rucice-za-prozore"
+  },
+  {
+    "name": "Okretno nagibni okov",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-prozore/okretno-nagibni-okov"
+  },
+  {
+    "name": "Šarke za prozore",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-prozore/sarke-za-prozore"
+  },
+  {
+    "name": "Kapice za prozore",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-prozore/kapice-za-prozore"
+  },
+  {
+    "name": "Okov za metalne ormane i sanduke",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/okov-za-metalne-ormane-i-sanduke"
+  },
+  {
+    "name": "Brojevi za kuću",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/brojevi-za-kucu"
+  },
+  {
+    "name": "Točkovi za kontejnere i kolica",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/tockovi-za-kontejnere-i-kolica"
+  },
+  {
+    "name": "Klizni okov",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/klizni-okov"
+  },
+  {
+    "name": "Okov za drvena vrata",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/klizni-okov/okov-za-drvena-vrata"
+  },
+  {
+    "name": "Bravarski okov",
+    "url": "https://www.crafter.rs/okovi-i-vijci/gradevinski-okov/bravarski-okov"
+  },
+  {
+    "name": "Okov za nameštaj",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj"
+  },
+  {
+    "name": "Okov za ormare",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-ormare"
+  },
+  {
+    "name": "Šarke za ormane i kuhinje",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-ormare/sarke-za-ormane-i-kuhinje"
+  },
+  {
+    "name": "Klizači fioka",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-ormare/klizaci-fioka"
+  },
+  {
+    "name": "Bravice za ormane i fioke",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-ormare/bravice-za-ormane-i-fioke"
+  },
+  {
+    "name": "Točkići za nameštaj",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-ormare/tockici-za-namestaj"
+  },
+  {
+    "name": "Nosači polica i konzole",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-ormare/nosaci-polica-i-konzole"
+  },
+  {
+    "name": "Ručice i dugmad za ormane i fioke",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-ormare/rucice-i-dugmad-za-ormane-i-fioke"
+  },
+  {
+    "name": "Okov za kuhinje",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-kuhinje"
+  },
+  {
+    "name": "Noge i nogice za nameštaj",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/noge-i-nogice-za-namestaj"
+  },
+  {
+    "name": "Sistemi za nameštaj",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/sistemi-za-namestaj"
+  },
+  {
+    "name": "Spajanje nameštaja",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/sistemi-za-namestaj/spajanje-namestaja"
+  },
+  {
+    "name": "Štitnici za nameštaj",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/sistemi-za-namestaj/stitnici-za-namestaj"
+  },
+  {
+    "name": "Okov za staklo",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-staklo"
+  },
+  {
+    "name": "Bravice za staklo",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-staklo/bravice-za-staklo"
+  },
+  {
+    "name": "Okov za krevete",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-krevete"
+  },
+  {
+    "name": "Okov za kupatila",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-kupatila"
+  },
+  {
+    "name": "Okov za stolove",
+    "url": "https://www.crafter.rs/okovi-i-vijci/okov-za-namestaj/okov-za-stolove"
+  },
+  {
+    "name": "Sefovi",
+    "url": "https://www.crafter.rs/okovi-i-vijci/sefovi"
+  },
+  {
+    "name": "Poštanski sandučići",
+    "url": "https://www.crafter.rs/okovi-i-vijci/postanski-sanducici"
+  },
+  {
+    "name": "Vijci",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci"
+  },
+  {
+    "name": "Mašinski vijci",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/masinski-vijci"
+  },
+  {
+    "name": "Mašinski vijci sa sočivastom glavom",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/masinski-vijci/masinski-vijci-sa-socivastom-glavom"
+  },
+  {
+    "name": "Mašinski vijci sa upuštenom glavom",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/masinski-vijci/masinski-vijci-sa-upustenom-glavom"
+  },
+  {
+    "name": "Mašinski vijci sa šestougaonom glavom",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/masinski-vijci/masinski-vijci-sa-sestougaonom-glavom"
+  },
+  {
+    "name": "Mašinski vijci sa cilindričnom glavom",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/masinski-vijci/masinski-vijci-sa-cilindricnom-glavom"
+  },
+  {
+    "name": "Imbus",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/masinski-vijci/imbus"
+  },
+  {
+    "name": "Ostali mašinski vijci",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/masinski-vijci/ostali-masinski-vijci"
+  },
+  {
+    "name": "Mašinski vijci sa upušteno sočivastom glavom",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/masinski-vijci/masinski-vijci-sa-upusteno-socivastom-glavom"
+  },
+  {
+    "name": "Navrtke",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/navrtke"
+  },
+  {
+    "name": "Vijci za gips",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/vijci-za-gips"
+  },
+  {
+    "name": "Podloške",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/podloske"
+  },
+  {
+    "name": "Vijci za drvo i ivericu",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/vijci-za-drvo-i-ivericu"
+  },
+  {
+    "name": "Vijci za drvo",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/vijci-za-drvo-i-ivericu/vijci-za-drvo"
+  },
+  {
+    "name": "Vijci torban",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/vijci-za-drvo-i-ivericu/vijci-torban"
+  },
+  {
+    "name": "Vijci hangar",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/vijci-za-drvo-i-ivericu/vijci-hangar"
+  },
+  {
+    "name": "Vijci za lim",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/vijci-za-lim"
+  },
+  {
+    "name": "Vijci za lim ostalo",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/vijci-za-lim/vijci-za-lim-ostalo"
+  },
+  {
+    "name": "Vijci za lim sa upuštenom, ravnom i sočivastom glavom",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/vijci-za-lim/vijci-za-lim-sa-upustenom-ravnom-i-socivastom-glavom"
+  },
+  {
+    "name": "Samourezujući vijci",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/vijci-za-lim/samourezujuci-vijci"
+  },
+  {
+    "name": "Kuke, uvodnice, karabini",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/kuke-uvodnice-karabini"
+  },
+  {
+    "name": "Vijci za plastiku",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/vijci-za-plastiku"
+  },
+  {
+    "name": "Ukucavajući vijci",
+    "url": "https://www.crafter.rs/okovi-i-vijci/vijci/ukucavajuci-vijci"
+  },
+  {
+    "name": "Tiplovi i ankeri",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri"
+  },
+  {
+    "name": "Plastični tiplovi",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri/plasticni-tiplovi"
+  },
+  {
+    "name": "PVC tiplovi",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri/plasticni-tiplovi/pvc-tiplovi"
+  },
+  {
+    "name": "Razni plastični tiplovi",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri/plasticni-tiplovi/razni-plasticni-tiplovi"
+  },
+  {
+    "name": "Pričvršćivači razni",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri/pricvrscivaci-razni"
+  },
+  {
+    "name": "Metalni tiplovi i ankeri",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri/metalni-tiplovi-i-ankeri"
+  },
+  {
+    "name": "Tiplovi ankeri za srednja opterećenja",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri/metalni-tiplovi-i-ankeri/tiplovi-ankeri-za-srednja-opterecenja"
+  },
+  {
+    "name": "Tiplovi ankeri za niska opterećenja",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri/metalni-tiplovi-i-ankeri/tiplovi-ankeri-za-niska-opterecenja"
+  },
+  {
+    "name": "Tiplovi ankeri za visoka opterećenja",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri/metalni-tiplovi-i-ankeri/tiplovi-ankeri-za-visoka-opterecenja"
+  },
+  {
+    "name": "Hemijski ankeri",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri/hemijski-ankeri"
+  },
+  {
+    "name": "Tiplovi za šuplje prostore",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri/tiplovi-za-suplje-prostore"
+  },
+  {
+    "name": "Tiplovi ostalo",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri/tiplovi-ostalo"
+  },
+  {
+    "name": "Gužvajući tiplovi",
+    "url": "https://www.crafter.rs/okovi-i-vijci/tiplovi-i-ankeri/guzvajuci-tiplovi"
+  },
+  {
+    "name": "Navojne šipke",
+    "url": "https://www.crafter.rs/okovi-i-vijci/navojne-sipke"
+  },
+  {
+    "name": "Lanci, sajle, konopci, dihtung trake",
+    "url": "https://www.crafter.rs/okovi-i-vijci/lanci-sajle-konopci-dihtung-trake"
+  },
+  {
+    "name": "Sajle",
+    "url": "https://www.crafter.rs/okovi-i-vijci/lanci-sajle-konopci-dihtung-trake/sajle"
+  },
+  {
+    "name": "Konopci",
+    "url": "https://www.crafter.rs/okovi-i-vijci/lanci-sajle-konopci-dihtung-trake/konopci"
+  },
+  {
+    "name": "Dihtung trake",
+    "url": "https://www.crafter.rs/okovi-i-vijci/lanci-sajle-konopci-dihtung-trake/dihtung-trake"
+  },
+  {
+    "name": "Lanci",
+    "url": "https://www.crafter.rs/okovi-i-vijci/lanci-sajle-konopci-dihtung-trake/lanci"
+  },
+  {
+    "name": "Zatezne trake",
+    "url": "https://www.crafter.rs/okovi-i-vijci/lanci-sajle-konopci-dihtung-trake/zatezne-trake"
+  },
+  {
+    "name": "Metlice za vrata",
+    "url": "https://www.crafter.rs/okovi-i-vijci/lanci-sajle-konopci-dihtung-trake/metlice-za-vrata"
+  },
+  {
+    "name": "Ekseri",
+    "url": "https://www.crafter.rs/okovi-i-vijci/ekseri"
+  },
+  {
+    "name": "Zakovice i pop nitne",
+    "url": "https://www.crafter.rs/okovi-i-vijci/zakovice-i-pop-nitne"
+  },
+  {
+    "name": "Građevinski materijali",
+    "url": "https://www.crafter.rs/gradevinski-materijali"
+  },
+  {
+    "name": "Grubi građevinski materijal, drvo i građa",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada"
+  },
+  {
+    "name": "Vezivni materijali",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/vezivni-materijali"
+  },
+  {
+    "name": "Cement, malteri, gips, kreč",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/vezivni-materijali/cement-malteri-gips-krec"
+  },
+  {
+    "name": "Pesak",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/vezivni-materijali/pesak"
+  },
+  {
+    "name": "Suva gradnja",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/suva-gradnja"
+  },
+  {
+    "name": "Oprema za suvu gradnju",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/suva-gradnja/oprema-za-suvu-gradnju"
+  },
+  {
+    "name": "Gips ploče",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/suva-gradnja/gips-ploce"
+  },
+  {
+    "name": "Profili za gips",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/suva-gradnja/profili-za-gips"
+  },
+  {
+    "name": "Plafoni",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/suva-gradnja/plafoni"
+  },
+  {
+    "name": "Dimnjaci i oprema",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/dimnjaci-i-oprema"
+  },
+  {
+    "name": "Hobi drvo",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/hobi-drvo"
+  },
+  {
+    "name": "Hobi drvene lajsne",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/hobi-drvo/hobi-drvene-lajsne"
+  },
+  {
+    "name": "Hobi drvene ploče i letve",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/hobi-drvo/hobi-drvene-ploce-i-letve"
+  },
+  {
+    "name": "Krovni pokrivači",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/krovni-pokrivaci"
+  },
+  {
+    "name": "Oprema za krovne sisteme",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/krovni-pokrivaci/oprema-za-krovne-sisteme"
+  },
+  {
+    "name": "Lomovi",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/krovni-pokrivaci/lomovi"
+  },
+  {
+    "name": "Tegola",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/krovni-pokrivaci/tegola"
+  },
+  {
+    "name": "Polikarbonatne ploče",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/krovni-pokrivaci/polikarbonatne-ploce"
+  },
+  {
+    "name": "Krovne folije",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/krovni-pokrivaci/krovne-folije"
+  },
+  {
+    "name": "Crep",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/krovni-pokrivaci/crep"
+  },
+  {
+    "name": "Proizvodi za zidanje",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/proizvodi-za-zidanje"
+  },
+  {
+    "name": "Blokovi za zidanje",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/proizvodi-za-zidanje/blokovi-za-zidanje"
+  },
+  {
+    "name": "Oprema za zidanje",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/proizvodi-za-zidanje/oprema-za-zidanje"
+  },
+  {
+    "name": "Gas beton elementi",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/proizvodi-za-zidanje/gas-beton-elementi"
+  },
+  {
+    "name": "Daske, grede i letve",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/daske-grede-i-letve"
+  },
+  {
+    "name": "Daske",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/daske-grede-i-letve/daske"
+  },
+  {
+    "name": "Letve",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/daske-grede-i-letve/letve"
+  },
+  {
+    "name": "Grede",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/daske-grede-i-letve/grede"
+  },
+  {
+    "name": "Drvene ploče",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/drvene-ploce"
+  },
+  {
+    "name": "Šper ploče",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/drvene-ploce/sper-ploce"
+  },
+  {
+    "name": "OSB ploče",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/drvene-ploce/osb-ploce"
+  },
+  {
+    "name": "Zaštitne ograde",
+    "url": "https://www.crafter.rs/gradevinski-materijali/grubi-gradevinski-materijal-drvo-i-grada/zastitne-ograde"
+  },
+  {
+    "name": "Fasada, termo i hidro izolacija",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija"
+  },
+  {
+    "name": "Hidroizolacija",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/hidroizolacija"
+  },
+  {
+    "name": "Hidroizolacione mase",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/hidroizolacija/hidroizolacione-mase"
+  },
+  {
+    "name": "Hidroizolaciona oprema",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/hidroizolacija/hidroizolaciona-oprema"
+  },
+  {
+    "name": "Polimercementna hidroizolacija",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/hidroizolacija/polimercementna-hidroizolacija"
+  },
+  {
+    "name": "Bitumenska hidroizolacija",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/hidroizolacija/bitumenska-hidroizolacija"
+  },
+  {
+    "name": "Fasada",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/fasada"
+  },
+  {
+    "name": "Boje za spoljašnje zidove i fasade",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/fasada/boje-za-spoljasnje-zidove-i-fasade"
+  },
+  {
+    "name": "Fasadni malteri",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/fasada/fasadni-malteri"
+  },
+  {
+    "name": "Lepak za fasadne ploče",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/fasada/lepak-za-fasadne-ploce"
+  },
+  {
+    "name": "Termoizolacija",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/termoizolacija"
+  },
+  {
+    "name": "Polistirenske ploče",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/termoizolacija/polistirenske-ploce"
+  },
+  {
+    "name": "Lajsne, tiplovi, mrežice",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/termoizolacija/lajsne-tiplovi-mrezice"
+  },
+  {
+    "name": "Mineralna vuna",
+    "url": "https://www.crafter.rs/gradevinski-materijali/fasada-termo-i-hidro-izolacija/termoizolacija/mineralna-vuna"
+  },
+  {
+    "name": "Lepljenje i zaptivanje u građevini",
+    "url": "https://www.crafter.rs/gradevinski-materijali/lepljenje-i-zaptivanje-u-gradevini"
+  },
+  {
+    "name": "Poliuretani i hibridi",
+    "url": "https://www.crafter.rs/gradevinski-materijali/lepljenje-i-zaptivanje-u-gradevini/poliuretani-i-hibridi"
+  },
+  {
+    "name": "Pur pena",
+    "url": "https://www.crafter.rs/gradevinski-materijali/lepljenje-i-zaptivanje-u-gradevini/pur-pena"
+  },
+  {
+    "name": "Akrilni i acetat silikoni",
+    "url": "https://www.crafter.rs/gradevinski-materijali/lepljenje-i-zaptivanje-u-gradevini/akrilni-i-acetat-silikoni"
+  },
+  {
+    "name": "Građevinska oprema i alat",
+    "url": "https://www.crafter.rs/gradevinski-materijali/gradevinska-oprema-i-alat"
+  },
+  {
+    "name": "Okov za građevinski materijal",
+    "url": "https://www.crafter.rs/gradevinski-materijali/gradevinska-oprema-i-alat/okov-za-gradevinski-materijal"
+  },
+  {
+    "name": "Ostala građevinska oprema",
+    "url": "https://www.crafter.rs/gradevinski-materijali/gradevinska-oprema-i-alat/ostala-gradevinska-oprema"
+  },
+  {
+    "name": "Mešalice",
+    "url": "https://www.crafter.rs/gradevinski-materijali/gradevinska-oprema-i-alat/mesalice"
+  },
+  {
+    "name": "Građevinska kolica i delovi",
+    "url": "https://www.crafter.rs/gradevinski-materijali/gradevinska-oprema-i-alat/gradevinska-kolica-i-delovi"
+  },
+  {
+    "name": "Stolarija",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija"
+  },
+  {
+    "name": "Krovni prozori i oprema",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/krovni-prozori-i-oprema"
+  },
+  {
+    "name": "Krovni prozori",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/krovni-prozori-i-oprema/krovni-prozori"
+  },
+  {
+    "name": "Oprema za krovne prozore",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/krovni-prozori-i-oprema/oprema-za-krovne-prozore"
+  },
+  {
+    "name": "Stepenice i oprema za stepeništa",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/stepenice-i-oprema-za-stepenista"
+  },
+  {
+    "name": "Gazišta i daske",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/stepenice-i-oprema-za-stepenista/gazista-i-daske"
+  },
+  {
+    "name": "Tavanska i spiralna stepeništa",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/stepenice-i-oprema-za-stepenista/tavanska-i-spiralna-stepenista"
+  },
+  {
+    "name": "Gelenderi i lutke za ogradu",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/stepenice-i-oprema-za-stepenista/gelenderi-i-lutke-za-ogradu"
+  },
+  {
+    "name": "PVC vrata i prozori",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/pvc-vrata-i-prozori"
+  },
+  {
+    "name": "PVC prozori",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/pvc-vrata-i-prozori/pvc-prozori"
+  },
+  {
+    "name": "PVC vrata",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/pvc-vrata-i-prozori/pvc-vrata"
+  },
+  {
+    "name": "Oprema za prozore i vrata",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/oprema-za-prozore-i-vrata"
+  },
+  {
+    "name": "Roletne",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/oprema-za-prozore-i-vrata/roletne"
+  },
+  {
+    "name": "Komarnici",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/oprema-za-prozore-i-vrata/komarnici"
+  },
+  {
+    "name": "Vrata",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/vrata"
+  },
+  {
+    "name": "Ulazna vrata",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/vrata/ulazna-vrata"
+  },
+  {
+    "name": "Sobna vrata",
+    "url": "https://www.crafter.rs/gradevinski-materijali/stolarija/vrata/sobna-vrata"
+  },
+  {
+    "name": "Keramičarski i podopolagački radovi",
+    "url": "https://www.crafter.rs/gradevinski-materijali/keramicarski-i-podopolagacki-radovi"
+  },
+  {
+    "name": "Podopolagački materijal",
+    "url": "https://www.crafter.rs/gradevinski-materijali/keramicarski-i-podopolagacki-radovi/podopolagacki-materijal"
+  },
+  {
+    "name": "Lepak za parket i podne obloge",
+    "url": "https://www.crafter.rs/gradevinski-materijali/keramicarski-i-podopolagacki-radovi/podopolagacki-materijal/lepak-za-parket-i-podne-obloge"
+  },
+  {
+    "name": "Epoksidni podovi i nivelišuće mase",
+    "url": "https://www.crafter.rs/gradevinski-materijali/keramicarski-i-podopolagacki-radovi/podopolagacki-materijal/epoksidni-podovi-i-nivelisuce-mase"
+  },
+  {
+    "name": "Keramičarski proizvodi",
+    "url": "https://www.crafter.rs/gradevinski-materijali/keramicarski-i-podopolagacki-radovi/keramicarski-proizvodi"
+  },
+  {
+    "name": "Lepak za keramiku",
+    "url": "https://www.crafter.rs/gradevinski-materijali/keramicarski-i-podopolagacki-radovi/keramicarski-proizvodi/lepak-za-keramiku"
+  },
+  {
+    "name": "Fug masa",
+    "url": "https://www.crafter.rs/gradevinski-materijali/keramicarski-i-podopolagacki-radovi/keramicarski-proizvodi/fug-masa"
+  },
+  {
+    "name": "Vodovod i kanalizacija",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija"
+  },
+  {
+    "name": "Vodovod",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod"
+  },
+  {
+    "name": "Ventili za vodu",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ventili-za-vodu"
+  },
+  {
+    "name": "Rozete",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ventili-za-vodu/rozete"
+  },
+  {
+    "name": "Vodomeri",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ventili-za-vodu/vodomeri"
+  },
+  {
+    "name": "Ventili EK",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ventili-za-vodu/ventili-ek"
+  },
+  {
+    "name": "Ventili kugla",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ventili-za-vodu/ventili-kugla"
+  },
+  {
+    "name": "Ventili točak",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ventili-za-vodu/ventili-tocak"
+  },
+  {
+    "name": "Odvod",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/odvod"
+  },
+  {
+    "name": "Slivnici",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/odvod/slivnici"
+  },
+  {
+    "name": "Kanalice",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/odvod/kanalice"
+  },
+  {
+    "name": "PPR cevi i fitinzi",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ppr-cevi-i-fitinzi"
+  },
+  {
+    "name": "Cevi PPR",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ppr-cevi-i-fitinzi/cevi-ppr"
+  },
+  {
+    "name": "Kolena PPR",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ppr-cevi-i-fitinzi/kolena-ppr"
+  },
+  {
+    "name": "Mufovi PPR",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ppr-cevi-i-fitinzi/mufovi-ppr"
+  },
+  {
+    "name": "T komadi PPR",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ppr-cevi-i-fitinzi/t-komadi-ppr"
+  },
+  {
+    "name": "Redukcije PPR",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ppr-cevi-i-fitinzi/redukcije-ppr"
+  },
+  {
+    "name": "Ventili PPR",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ppr-cevi-i-fitinzi/ventili-ppr"
+  },
+  {
+    "name": "Kape PPR",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ppr-cevi-i-fitinzi/kape-ppr"
+  },
+  {
+    "name": "Šelne PPR",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ppr-cevi-i-fitinzi/selne-ppr"
+  },
+  {
+    "name": "Zaobilazni lukovi PPR",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ppr-cevi-i-fitinzi/zaobilazni-lukovi-ppr"
+  },
+  {
+    "name": "Ispusni ventili PPR",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ppr-cevi-i-fitinzi/ispusni-ventili-ppr"
+  },
+  {
+    "name": "Holenderi PPR",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/ppr-cevi-i-fitinzi/holenderi-ppr"
+  },
+  {
+    "name": "Okiten creva i fitinzi",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/okiten-creva-i-fitinzi"
+  },
+  {
+    "name": "Creva okiten",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/okiten-creva-i-fitinzi/creva-okiten"
+  },
+  {
+    "name": "Kolena PP",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/okiten-creva-i-fitinzi/kolena-pp"
+  },
+  {
+    "name": "Sponjice pp",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/okiten-creva-i-fitinzi/sponjice-pp"
+  },
+  {
+    "name": "T komadi PP",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/okiten-creva-i-fitinzi/t-komadi-pp"
+  },
+  {
+    "name": "Završne kape PP",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/okiten-creva-i-fitinzi/zavrsne-kape-pp"
+  },
+  {
+    "name": "Hromirani fiting",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/hromirani-fiting"
+  },
+  {
+    "name": "Niplovi hrom",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/hromirani-fiting/niplovi-hrom"
+  },
+  {
+    "name": "Redukcije hrom",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/hromirani-fiting/redukcije-hrom"
+  },
+  {
+    "name": "Koleno hrom",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/hromirani-fiting/koleno-hrom"
+  },
+  {
+    "name": "T komadi hrom",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/hromirani-fiting/t-komadi-hrom"
+  },
+  {
+    "name": "Mufovi hrom",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/hromirani-fiting/mufovi-hrom"
+  },
+  {
+    "name": "Pocinkovane cevi i fitinzi",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/pocinkovane-cevi-i-fitinzi"
+  },
+  {
+    "name": "Čepovi pocinkovani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/pocinkovane-cevi-i-fitinzi/cepovi-pocinkovani"
+  },
+  {
+    "name": "Kolena pocinkovana",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/pocinkovane-cevi-i-fitinzi/kolena-pocinkovana"
+  },
+  {
+    "name": "T komad pocinkovani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/pocinkovane-cevi-i-fitinzi/t-komad-pocinkovani"
+  },
+  {
+    "name": "Dupli nipl pocinkovani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/pocinkovane-cevi-i-fitinzi/dupli-nipl-pocinkovani"
+  },
+  {
+    "name": "Redukcije pocinkovane",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/pocinkovane-cevi-i-fitinzi/redukcije-pocinkovane"
+  },
+  {
+    "name": "Mufovi pocinkovani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/pocinkovane-cevi-i-fitinzi/mufovi-pocinkovani"
+  },
+  {
+    "name": "Holenderi pocinkovani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/pocinkovane-cevi-i-fitinzi/holenderi-pocinkovani"
+  },
+  {
+    "name": "Klizna spojnica pocinkovana",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/pocinkovane-cevi-i-fitinzi/klizna-spojnica-pocinkovana"
+  },
+  {
+    "name": "Cevi pocinkovane",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/pocinkovane-cevi-i-fitinzi/cevi-pocinkovane"
+  },
+  {
+    "name": "Zaobilazni luk pocinkovani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/pocinkovane-cevi-i-fitinzi/zaobilazni-luk-pocinkovani"
+  },
+  {
+    "name": "Mesingani fiting",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/mesingani-fiting"
+  },
+  {
+    "name": "Spojke mesingane",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/mesingani-fiting/spojke-mesingane"
+  },
+  {
+    "name": "Ventili nepovratni mesingani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/mesingani-fiting/ventili-nepovratni-mesingani"
+  },
+  {
+    "name": "Čepovi mesingani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/mesingani-fiting/cepovi-mesingani"
+  },
+  {
+    "name": "Mesingana kolena",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/mesingani-fiting/kolena-mesingana"
+  },
+  {
+    "name": "Niplovi dupli mesingani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/mesingani-fiting/niplovi-dupli-mesingani"
+  },
+  {
+    "name": "Niplovi reducirani mesingani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/mesingani-fiting/niplovi-reducirani-mesingani"
+  },
+  {
+    "name": "Prelazi mesingani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/mesingani-fiting/prelazi-mesingani"
+  },
+  {
+    "name": "T komadi mesingani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/mesingani-fiting/t-komadi-mesingani"
+  },
+  {
+    "name": "Mufovi mesingani",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/mesingani-fiting/mufovi-mesingani"
+  },
+  {
+    "name": "Filteri za vodu",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/vodovod/filteri-za-vodu"
+  },
+  {
+    "name": "Kanalizacija",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija"
+  },
+  {
+    "name": "Kanalizaciona oprema",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija/kanalizaciona-oprema"
+  },
+  {
+    "name": "Kanalizacione cevi",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija/kanalizaciona-oprema/kanalizacione-cevi"
+  },
+  {
+    "name": "Lukovi",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija/kanalizaciona-oprema/lukovi"
+  },
+  {
+    "name": "K račve",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija/kanalizaciona-oprema/k-racve"
+  },
+  {
+    "name": "T račve",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija/kanalizaciona-oprema/t-racve"
+  },
+  {
+    "name": "Redukcije",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija/kanalizaciona-oprema/redukcije"
+  },
+  {
+    "name": "Revizije",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija/kanalizaciona-oprema/revizije"
+  },
+  {
+    "name": "Poklopci i čepovi",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija/kanalizaciona-oprema/poklopci-i-cepovi"
+  },
+  {
+    "name": "Klizne spojke",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija/kanalizaciona-oprema/klizne-spojke"
+  },
+  {
+    "name": "Genzle za WC šolju",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija/kanalizaciona-oprema/genzle-za-wc-solju"
+  },
+  {
+    "name": "Mufovi",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija/kanalizaciona-oprema/mufovi"
+  },
+  {
+    "name": "Ventili nepovratni",
+    "url": "https://www.crafter.rs/vodovod-i-kanalizacija/kanalizacija/kanalizaciona-oprema/ventili-nepovratni"
+  }
+]

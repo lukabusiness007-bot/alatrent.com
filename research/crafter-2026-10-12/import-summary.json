@@ -1,0 +1,23 @@
+{
+  "approved": 1813,
+  "excludedFromImport": 1613,
+  "totalSeedTools": 1997,
+  "categories": {
+    "cat-10": 138,
+    "cat-4": 393,
+    "cat-5": 242,
+    "cat-3": 454,
+    "cat-6": 184,
+    "cat-1": 100,
+    "cat-2": 94,
+    "cat-8": 34,
+    "cat-7": 45,
+    "cat-9": 122,
+    "cat-11": 7
+  },
+  "priced": 1473,
+  "inquiry": 340,
+  "images": 1813,
+  "priceBasis": "Redovna prodajna cena kompletnog modela; solo modeli na upit. Prvih 15.000 / 15, sledećih 45.000 / 30, ostatak / 60; minimum 500, zaokruživanje na 100 RSD.",
+  "createdAt": "2026-10-12T14:13:25.142Z"
+}

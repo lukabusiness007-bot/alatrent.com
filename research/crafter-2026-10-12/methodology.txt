@@ -1,0 +1,11 @@
+CRAFTER — 12.10.2026. — PREGLED ZA ODOBRENJE
+
+Pregledana mapa 1.322 jedinstvena linka kategorija u glavnom meniju celog sajta. Izabrane kategorije radnih alata, mašina, baštenske, građevinske, merne, grejne, transportne i specijalizovane opreme. Obrađene 162 kategorije (potkategorije i zbirne liste) na 377 stranica. Jedna kategorija u meniju, Kaloriferi industrijski, vraća 404; industrijske grejalice pronađene i obrađene u dostupnim listama Grejalice i Kaloriferi. Sve dostupne obrađene kategorije imaju broj jedinstvenih proizvoda usklađen sa prikazanim brojačem izvora.
+
+Prikupljeno 3.426 jedinstvenih proizvoda po internom ID-u: 1.813 kandidata, 114 graničnih slučajeva za proveru, 1.499 izostavljenih proizvoda. Nije postavljen limit broja modela. Izostavljeni potrošni materijal, delovi, sitan pribor i roba van radnog asortimana za rentu. Odluke o rentabilnosti su predlog, ne potvrđena tehnička/servisna procena.
+
+Cene, nazivi, linkovi fotografija i oznake dostupnosti preuzeti su sa kartica kataloga; sadržaj pakovanja i detaljne specifikacije nisu provereni za svaki model. Izvorna cena je prodajna cena, a ne renta. Solo modeli imaju napomenu o baterijama i punjaču. Jedna cena, 2 RSD za Villager Villyvac 18 HU, označena je za proveru. Na nekim karticama nema šifre ili oznake dostupnosti; nedostajuće vrednosti ostaju prazne. Fotografije nisu preuzete niti importovane.
+
+Izvori se čuvaju u crawl.json; products-review.json sadrži sve proizvode, odluke, kategorije i opažanja; coverage.json proveru brojeva; category-scope-audit.json odluke o obuhvatu menija. build_review.py i render_review.py obnavljaju pregled iz sačuvanih opažanja. Direktan HTTP pristup je vraćao Cloudflare stranicu; javne liste čitane su kroz browser bez prijave.
+
+NIŠTA NIJE IMPORTOVANO U APLIKACIJU ILI BAZU.

@@ -10,7 +10,7 @@ export function ToolRentalContent({ tool, locale }: { tool: Tool; locale: Locale
     <div className="section-head">
       <span className="eyebrow">{t.area}</span>
       <h2>{locale === 'sr' ? 'Šta treba znati pre najma?' : t.faqTitle}</h2>
-      {locale === 'sr' && entry && <p>Drugi nazivi i povezani poslovi: {entry.aliases.join(', ')}. Pri izboru je najvažnije da nam opišeš konkretan posao.</p>}
+      {locale === 'sr' && entry && !tool.catalogModel && <p>Drugi nazivi i povezani poslovi: {entry.aliases.join(', ')}. Pri izboru je najvažnije da nam opišeš konkretan posao.</p>}
       <div className="seo-links">
         <Link href={href(locale, 'dostava')}>{t.delivery}</Link>
         <Link href={href(locale, 'kako-funkcionise')}>{t.how}</Link>

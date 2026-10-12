@@ -41,7 +41,7 @@ export function enqueueOrder(order: Order, event: string) {
   if (!order.whatsapp) return;
   const details: Record<string, string> = {
     received: 'Zahtev je primljen. Raspoloživost i cena čekaju potvrdu.',
-    confirmed: `Najam je potvrđen. Ukupno: ${order.total} RSD.`,
+    confirmed: order.items.some(i => i.openEnded) ? 'Najam bez roka je potvrđen. Konačna cena računa se po vraćanju prema dogovorenoj dnevnoj tarifi.' : `Najam je potvrđen. Ukupno: ${order.total} RSD.`,
     active: 'Oprema je preuzeta. Uputstva za vašu opremu su na linku.',
     completed: 'Najam je završen. Hvala na poverenju.',
     cancelled: 'Najam je otkazan.',
@@ -75,7 +75,7 @@ export function scheduleMessages() {
   const tomorrow = new Date(Date.parse(today()) + 86400000).toISOString().slice(0, 10);
   for (const o of all<Order>('orders')) {
     if (['confirmed', 'active'].includes(o.status)) {
-      for (const end of new Set(o.items.map((i) => i.end)))
+      for (const end of new Set(o.items.filter(i => !i.openEnded).map((i) => i.end)))
         if (end === tomorrow) enqueueOrder(o, 'reminder-' + end);
     }
   }
@@ -97,7 +97,7 @@ export function scheduleMessages() {
           params: [
             c.name,
             'Dostupnost alata',
-            `Termin ${w.item.start} – ${w.item.end} je trenutno slobodan. Potvrda je potrebna.`,
+            `Termin ${w.item.start} – ${w.item.openEnded ? 'bez datuma vraćanja' : w.item.end} je trenutno slobodan. Potvrda je potrebna.`,
             settings().siteUrl + '/sr/korpa',
           ],
         },
@@ -183,7 +183,7 @@ export async function processMessages() {
         (order.status === 'cancelled' && m.event !== 'cancelled') ||
         (m.event === 'reminder' &&
           (!['confirmed', 'active'].includes(order.status) ||
-            !order.items.some((i) => m.id.endsWith(i.end)))));
+            !order.items.some((i) => !i.openEnded && !!i.end && m.id.endsWith(i.end)))));
     if (
       get('whatsappOptOut', m.phone) ||
       (order && !order.whatsapp) ||

@@ -651,3 +651,62 @@ test('Overdue equipment blocks new reservations until the return is recorded', a
     200,
   );
 });
+
+test('Indefinite rentals keep totals unknown, reserve future stock and settle on return at the agreed rate', async () => {
+  const tool = (await api('/api/admin/tools', {
+    ...toolA, id: undefined, slug: 'open-rental-test', name: translations('Najam bez roka'),
+    quantity: 1, price: 100,
+  })).result;
+  const at = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Belgrade' }).format(new Date());
+  const open = { toolId: tool.id, quantity: 1, start: at, end: '', openEnded: true };
+  const quote = (items) => client('quote', { items, delivery: 'pickup' }, '');
+  assert.equal((await quote([{ ...open, openEnded: undefined }])).response.status, 400);
+  assert.equal((await quote([{ ...open, end: at }])).response.status, 400);
+  assert.equal((await quote([{ ...open, openEnded: 'true' }])).response.status, 400);
+  assert.equal((await quote([open, item(tool.id, future(180), future(180))])).response.status, 400);
+  let r = await quote([open]);
+  assert.equal(r.response.status, 200, JSON.stringify(r.result));
+  assert.equal(r.result.total, null);
+  assert.equal(r.result.rentalTotal, null);
+  assert.equal(r.result.items[0].end, '');
+  assert.equal(r.result.items[0].days, 0);
+  assert.equal(r.result.items[0].openEnded, true);
+
+  // A reservation far beyond 90 days also prevents promising an indefinite rental.
+  const fixed = await client('order', { ...booking([item(tool.id, future(180), future(180))]),
+    phone: '+381609990010', delivery: 'pickup', whatsapp: false }, '');
+  assert.equal(fixed.response.status, 201, JSON.stringify(fixed.result));
+  assert.equal((await api('/api/commerce/admin', { action: 'order', id: fixed.result.id, status: 'confirmed' })).response.status, 200);
+  assert.equal((await quote([open])).response.status, 400);
+  await api('/api/commerce/admin', { action: 'order', id: fixed.result.id, status: 'cancelled' });
+
+  const made = await client('order', { ...booking([open]), phone: '+381609990011', delivery: 'pickup' }, '');
+  assert.equal(made.response.status, 201, JSON.stringify(made.result));
+  const id = made.result.id;
+  r = await api('/api/commerce/admin', { action: 'order', id, status: 'confirmed', dailyRates: [120] });
+  assert.equal(r.response.status, 200, JSON.stringify(r.result));
+  assert.equal(r.result.total, null);
+  assert.equal(r.result.items[0].price, 120);
+  assert.equal((await quote([item(tool.id, future(180), future(180))])).response.status, 400);
+  assert.equal((await client('extend', { id, token: made.result.token, end: future(1) }, '')).response.status, 400);
+  const page = await (await fetch(base + '/sr/najam/' + made.result.token)).text();
+  assert.match(page, /Bez datuma vraćanja/);
+  assert.match(page, /Konačna cena po vraćanju/);
+  const messages = (await api('/api/commerce/admin', undefined, 'GET')).result.messages;
+  assert.match(messages.find(m => m.orderId === id && m.event === 'confirmed').params[2], /Konačna cena/);
+  assert.doesNotMatch(messages.find(m => m.orderId === id && m.event === 'confirmed').params[2], /null/);
+
+  await api('/api/commerce/admin', { action: 'order', id, status: 'active' });
+  assert.equal((await api('/api/commerce/admin', { action: 'order', id, status: 'completed', paid: true })).response.status, 400);
+  assert.equal((await api('/api/commerce/admin', { action: 'order', id, status: 'active', dailyRates: [1] })).response.status, 400);
+  assert.equal((await api('/api/commerce/admin', { action: 'order', id, status: 'completed', returnEnd: future(1), paid: true })).response.status, 400);
+  await api('/api/admin/tools', { ...tool, price: 900 });
+  r = await api('/api/commerce/admin', { action: 'order', id, status: 'completed', returnEnd: at, paid: true });
+  assert.equal(r.response.status, 200, JSON.stringify(r.result));
+  assert.equal(r.result.items[0].price, 120);
+  assert.equal(r.result.items[0].days, 1);
+  assert.equal(r.result.items[0].openEnded, false);
+  assert.equal(r.result.items[0].end, at);
+  assert.equal(r.result.total, 120);
+  assert.equal((await quote([item(tool.id, future(180), future(180))])).response.status, 200);
+});

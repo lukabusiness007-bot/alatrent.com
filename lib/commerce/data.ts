@@ -1,6 +1,6 @@
 import { all, get, put, occupied, settings } from '../db';
 import { date, rentalDays, today, text } from '../validation';
-import type { Tool, Category } from '../types';
+import type { Tool, Category, RentalRequest } from '../types';
 import type {
   CommerceConfig,
   ToolOptions,
@@ -14,6 +14,7 @@ import type {
   Team,
 } from './types';
 import { calculate, defaultRule, round } from './pricing';
+import { capacityEnd } from './period';
 import { defaultReferralProgram, referralFor, referralLines } from './referrals';
 export const blankOptions: ToolOptions = {
   instructions: '',
@@ -66,29 +67,36 @@ export function cartItems(input: unknown): CartItem[] {
     throw new Error('Izaberi 1–30 stavki.');
   const merged = new Map<string, CartItem>();
   for (const b of input) {
+    if (!b || typeof b !== 'object' || (b.openEnded !== undefined && typeof b.openEnded !== 'boolean'))
+      throw new Error('Proveri trajanje najma.');
+    const openEnded = b.openEnded === true;
+    if (openEnded && b.end !== '') throw new Error('Najam bez roka nema datum vraćanja.');
     const toolId = text(b.toolId, 80),
       start = date(b.start),
-      end = date(b.end),
-      days = rentalDays(start, end);
+      end = openEnded ? '' : date(b.end),
+      days = openEnded ? 0 : rentalDays(start, end);
     if (
       start < today() ||
-      days < 1 ||
-      days > 90 ||
+      (!openEnded && (days < 1 || days > 90)) ||
       Date.parse(start) > Date.now() + 366 * 86400000 ||
       !Number.isInteger(b.quantity) ||
       b.quantity < 1 ||
       b.quantity > 100
     )
       throw new Error('Proveri datume i količinu.');
-    const key = `${toolId}:${start}:${end}`;
+    const key = `${toolId}:${start}:${end}:${openEnded}`;
     const previous = merged.get(key);
-    merged.set(key, { toolId, start, end, quantity: b.quantity + (previous?.quantity || 0) });
+    merged.set(key, { toolId, start, end, ...(openEnded ? { openEnded: true } : {}), quantity: b.quantity + (previous?.quantity || 0) });
   }
   const items = [...merged.values()];
   if (items.some((i) => i.quantity > 100)) throw new Error('Najviše 100 komada po stavci.');
   return items;
 }
 export function checkCapacity(items: CartItem[], exceptId = '', requireKnown = false) {
+  const reserved = [
+    ...all<RentalRequest>('requests').filter(r => r.status === 'confirmed' && r.id !== exceptId),
+    ...all<Order>('orders').filter(o => o.id !== exceptId && ['confirmed', 'active'].includes(o.status)).flatMap(o => o.items),
+  ];
   for (const item of items) {
     const tool = get<Tool>('tools', item.toolId);
     if (!tool || !tool.published || !get<Category>('categories', tool.categoryId)?.published)
@@ -96,11 +104,15 @@ export function checkCapacity(items: CartItem[], exceptId = '', requireKnown = f
     if (requireKnown && tool.quantity === null)
       throw new Error('Unesi raspoloživu količinu za sve alate.');
     if (tool.quantity === null) continue;
-    const days = rentalDays(item.start, item.end);
-    for (let d = 0; d < days; d++) {
-      const at = new Date(Date.parse(item.start) + d * 86400000).toISOString().slice(0, 10);
+    const end = capacityEnd(item);
+    // Occupancy can only increase at a rental start. Checking these boundaries
+    // also covers indefinite periods without iterating an arbitrary end date.
+    const boundaries = new Set([item.start, ...[...items, ...reserved]
+      .filter(i => i.toolId === item.toolId && i.start >= item.start && i.start <= end)
+      .map(i => i.start)]);
+    for (const at of boundaries) {
       const wanted = items
-        .filter((i) => i.toolId === tool.id && i.start <= at && i.end >= at)
+        .filter((i) => i.toolId === tool.id && i.start <= at && capacityEnd(i) >= at)
         .reduce((n, i) => n + i.quantity, 0);
       if (occupied(tool.id, at, at, exceptId) + wanted > tool.quantity)
         throw new Error(`Nema dovoljno slobodnih komada: ${tool.name.sr} (${at}).`);
@@ -140,7 +152,7 @@ export function quote(
         )
         .map((b) => b.discount),
     );
-    const days = rentalDays(item.start, item.end);
+    const days = item.openEnded ? 0 : rentalDays(item.start, item.end);
     return {
       ...item,
       name: tool.name,
@@ -151,8 +163,8 @@ export function quote(
       clubPercent: club,
       bundlePercent,
       instructions: opts,
-      ...(tool.price === null
-        ? { base: null, total: null, saving: 0, reason: 'quote' }
+      ...(tool.price === null || item.openEnded
+        ? { base: null, total: null, saving: 0, reason: item.openEnded ? 'open-ended' : 'quote' }
         : calculate(tool.price, item.start, days, item.quantity, rule, club, bundlePercent)),
     };
   });

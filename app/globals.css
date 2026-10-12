@@ -3796,3 +3796,36 @@ p {
   font-size: 14px;
   line-height: 1.5;
 }
+
+/* One pickup date and one duration choice, shared by product and cart. */
+.rental-period { margin: 24px 0 18px; }
+.rental-period .rental-start { font-size: 14px; font-weight: 600; }
+.rental-duration { border: 0; padding: 0; margin: 20px 0 0; min-width: 0; }
+.rental-duration legend { font-size: 14px; font-weight: 600; padding: 0; margin-bottom: 10px; }
+.duration-days { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; }
+.duration-days button, .duration-options button {
+  border: 1px solid #d9dfd2; background: #fff; color: #25371e; border-radius: 8px;
+  min-height: 44px; padding: 8px 4px; font-size: 15px; font-weight: 600; cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+.duration-days button:hover, .duration-options button:hover { border-color: #426b33; background: #f0f5e7; }
+.duration-days button[aria-pressed='true'], .duration-options button[aria-pressed='true'] {
+  background: #25371e; border-color: #25371e; color: #fff;
+}
+.duration-days button:focus-visible, .duration-options button:focus-visible { outline: 2px solid #426b33; outline-offset: 3px; }
+.duration-options { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.duration-options button { font-size: 12px; font-weight: 500; padding: 9px 12px; }
+.duration-custom { margin-top: 15px; }
+.duration-custom input { max-width: 120px; }
+.rental-period-summary { padding: 13px 15px; margin-top: 16px; border-radius: 8px; background: #eef2e8; color: #53634a; font-size: 12px; line-height: 1.6; }
+.rental-period-summary span, .rental-period-summary small { display: block; }
+.rental-period-summary strong { color: #25371e; font-weight: 600; }
+.rental-period-summary small { margin-top: 6px; font-size: 11px; }
+.rental-period-summary p { margin: 0; }
+.date-batch summary { cursor: pointer; font-size: 14px; font-weight: 600; }
+.cart-item-fields { grid-template-columns: minmax(90px, 130px); }
+@media (max-width: 380px) {
+  .duration-days { gap: 4px; }
+  .duration-options { gap: 6px; }
+  .duration-options button { padding: 9px; }
+}

@@ -73,6 +73,7 @@ export function createOrder(b: Record<string, unknown>, customer?: Customer): Or
   });
 }
 export function extensionQuote(order: Order, end: string) {
+  if (order.items.some(i => i.openEnded)) throw new Error('Najam bez roka ne zahteva produženje. Datum vraćanja dogovori sa nama.');
   date(end);
   if (end < today()) throw new Error('Novi rok ne može biti u prošlosti.');
   if (order.items.some((i) => end <= i.end || rentalDays(i.start, end) > 90))
@@ -113,6 +114,35 @@ export function updateOrder(b: Record<string, unknown>) {
     if (!order) throw new Error('Najam ne postoji.');
     if (['completed', 'cancelled'].includes(order.status))
       throw new Error('Završen ili otkazan najam nije moguće menjati.');
+    if (b.dailyRates !== undefined) {
+      if (order.status !== 'pending' || !Array.isArray(b.dailyRates) || b.dailyRates.length !== order.items.length)
+        throw new Error('Dnevna tarifa se dogovara pre potvrde najma.');
+      order.items = order.items.map((i, index) => {
+        if (!i.openEnded) return i;
+        const rate = (b.dailyRates as unknown[])[index];
+        if (typeof rate !== 'number' || !Number.isFinite(rate) || rate < 0 || rate > 10000000)
+          throw new Error('Proveri dnevnu tarifu najma bez roka.');
+        return { ...i, price: round(rate) };
+      });
+    }
+    if (b.returnEnd !== undefined) {
+      if (order.status !== 'active' || !order.items.some(i => i.openEnded))
+        throw new Error('Datum vraćanja se unosi za aktivan najam bez roka.');
+      const end = date(b.returnEnd);
+      if (end > today() || order.items.some(i => i.openEnded && end < i.start))
+        throw new Error('Proveri stvarni datum vraćanja.');
+      order.items = order.items.map(i => i.openEnded ? {
+        ...i, openEnded: false, end, days: rentalDays(i.start, end),
+        ...(i.price === null ? { base: null, total: null, saving: 0, reason: 'quote' }
+          : calculate(i.price, i.start, rentalDays(i.start, end), i.quantity, i.rule, i.clubPercent, i.bundlePercent)),
+      } : i);
+      if (order.items.some(i => i.total === null)) throw new Error('Unesi dnevnu tarifu pre potvrde najma.');
+      order.rentalTotal = round(order.items.reduce((n, i) => n + i.total!, 0) + order.adjustment);
+      order.baseTotal = round(order.items.reduce((n, i) => n + i.base!, 0));
+      order.saving = round(Math.max(0, order.baseTotal - order.rentalTotal));
+      order.total = round(order.rentalTotal + order.deliveryTotal - order.credit);
+      order.paid = false;
+    }
     if (b.action === 'extension') {
       if (order.extension?.status !== 'pending') throw new Error('Nema zahteva za produženje.');
       if (b.approve === true) {
@@ -134,6 +164,7 @@ export function updateOrder(b: Record<string, unknown>) {
       return order;
     }
     if (b.rentalTotal !== undefined) {
+      if (order.items.some(i => i.openEnded)) throw new Error('Konačna cena najma bez roka računa se po vraćanju.');
       if (order.status !== 'pending') throw new Error('Cena je zaključana nakon potvrde.');
       if (
         typeof b.rentalTotal !== 'number' ||
@@ -174,10 +205,11 @@ export function updateOrder(b: Record<string, unknown>) {
     if (!transitions[order.status]?.includes(status))
       throw new Error('Nedozvoljena promena statusa.');
     if (['confirmed', 'active'].includes(status)) {
-      if (status === 'confirmed' && order.items.some((i) => i.end < today()))
+      if (status === 'confirmed' && order.items.some((i) => !i.openEnded && i.end < today()))
         throw new Error('Termin je istekao. Potreban je novi zahtev.');
       checkCapacity(order.items, order.id, true);
-      if (order.rentalTotal === null) throw new Error('Unesi dogovorenu cenu pre potvrde.');
+      if (order.rentalTotal === null && (!order.items.some(i => i.openEnded) || order.items.some(i => i.price === null)))
+        throw new Error('Unesi dogovorenu cenu ili dnevnu tarifu pre potvrde.');
     }
     if (order.referral && ['confirmed', 'active'].includes(status)) {
       if (b.referralVerified === true) order.referral.verified = true;
@@ -193,6 +225,8 @@ export function updateOrder(b: Record<string, unknown>) {
       assertReferralEconomics(order);
     }
     if (b.paid !== undefined) order.paid = b.paid === true;
+    if (order.items.some(i => i.openEnded) && (status === 'completed' || order.paid))
+      throw new Error('Unesi datum vraćanja da se izračuna konačna cena pre naplate i završetka.');
     if (status === 'completed' && !order.paid)
       throw new Error('Označi da je najam plaćen pre završetka.');
     const previous = order.status;

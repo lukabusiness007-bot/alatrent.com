@@ -78,7 +78,7 @@ export type CommerceConfig = {
   templateLanguage: string;
   enabled: boolean;
 };
-export type CartItem = { toolId: string; quantity: number; start: string; end: string };
+export type CartItem = { toolId: string; quantity: number; start: string; end: string; openEnded?: boolean };
 export type Line = CartItem & {
   name: Localized;
   slug: string;

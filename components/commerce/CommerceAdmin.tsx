@@ -684,7 +684,7 @@ export default function CommerceAdmin() {
                         {statuses[o.status]}
                         {o.extension?.status === 'pending' ? ' · PRODUŽENJE' : ''}
                         <br />
-                        {o.total === null ? 'Cena na upit' : money(o.total, 'sr')}
+                        {o.total === null ? (o.items.some(i => i.openEnded) ? 'Obračun po vraćanju' : 'Cena na upit') : money(o.total, 'sr')}
                       </span>
                     </button>
                   ))}
@@ -697,6 +697,7 @@ export default function CommerceAdmin() {
                     e.preventDefault();
                     const f = new FormData(e.currentTarget);
                     const price = f.get('rentalTotal');
+                    const hasOpenRental = selected.items.some(i => i.openEnded);
                     const result = await save({
                       action: 'order',
                       id: selected.id,
@@ -706,7 +707,12 @@ export default function CommerceAdmin() {
                       ...(selected.status === 'pending'
                         ? { deliveryTotal: Number(f.get('deliveryTotal')) }
                         : {}),
-                      ...(selected.status === 'pending' && price !== ''
+                      ...(hasOpenRental && selected.status === 'pending'
+                        ? { dailyRates: selected.items.map((i, n) => i.openEnded ? Number(f.get(`dailyRate-${n}`)) : i.price) }
+                        : {}),
+                      ...(hasOpenRental && selected.status === 'active' && f.get('returnEnd')
+                        ? { returnEnd: f.get('returnEnd') } : {}),
+                      ...(selected.status === 'pending' && !hasOpenRental && price !== '' && price !== null
                         ? { rentalTotal: Number(price) }
                         : {}),
                     });
@@ -727,11 +733,23 @@ export default function CommerceAdmin() {
                     <div className="order-line-admin" key={n}>
                       <strong>{i.name.sr}</strong>
                       <span>
-                        {i.quantity} kom. · {i.start} — {i.end}
+                        {i.quantity} kom. · {i.start} — {i.openEnded ? 'Bez datuma vraćanja' : i.end}
                       </span>
-                      <span>{i.total === null ? 'Na upit' : money(i.total, 'sr')}</span>
+                      <span>{i.openEnded && i.price !== null ? `${money(i.price * i.quantity, 'sr')} / dan` : i.total === null ? 'Na upit' : money(i.total, 'sr')}</span>
                     </div>
                   ))}
+                  {selected.items.filter(i => i.openEnded).length > 0 && <div className="recovery-box">
+                    <p>Najam bez roka. Konačna cena se računa po vraćanju, prema sačuvanoj dnevnoj tarifi i popustima.</p>
+                    {selected.status === 'pending' && selected.items.map((i, n) => i.openEnded && <label key={n}>
+                      Dnevna tarifa: {i.name.sr} (po komadu)
+                      <input type="number" name={`dailyRate-${n}`} min={0} max={10000000} step="0.01" required defaultValue={i.price ?? ''} />
+                    </label>)}
+                    {selected.status === 'active' && <label>
+                      Stvarni datum vraćanja (za sve alate bez roka u ovom najmu)
+                      <input name="returnEnd" type="date" max={new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Belgrade' }).format(new Date())}
+                        min={selected.items.filter(i => i.openEnded).map(i => i.start).sort().at(-1)} />
+                    </label>}
+                  </div>}
                   <p>
                     Dostava: {money(selected.deliveryTotal, 'sr')} · Kredit:{' '}
                     {money(selected.credit, 'sr')}
@@ -742,7 +760,7 @@ export default function CommerceAdmin() {
                     <label className="commerce-check"><input type="checkbox" name="referralVerified" defaultChecked={!!selected.referral.verified} disabled={selected.status!=='pending'}/>Proverio/la sam identitet i prethodne najmove; ovo je novi kupac.</label>
                     <p>Potvrda proverava unete troškove i računicu. Koristi dogovorenu cenu samo uz saglasnost kupca.</p>
                   </div>}
-                  <label>
+                  {!selected.items.some(i => i.openEnded) && <label>
                     Dogovorena cena najma (bez dostave)
                     <input
                       name="rentalTotal"
@@ -752,7 +770,7 @@ export default function CommerceAdmin() {
                       defaultValue={selected.rentalTotal ?? ''}
                       disabled={selected.status !== 'pending'}
                     />
-                  </label>
+                  </label>}
                   <label>
                     Dogovorena dostava i preuzimanje
                     <input

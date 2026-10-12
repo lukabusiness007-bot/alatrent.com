@@ -55,7 +55,7 @@ export default function OrderDetails({
         <p>{order.delivery === 'pickup' ? t.pickup : order.address}</p>
         <p>
           {ct(locale, 'total')}:{' '}
-          <strong>{order.total === null ? t.inquiryPrice : money(order.total, locale)}</strong>
+          <strong>{order.total === null ? (order.items.some(i => i.openEnded) ? ct(locale, 'finalOnReturn') : t.inquiryPrice) : money(order.total, locale)}</strong>
         </p>
         {order.status === 'pending' && <p>{ct(locale, 'pending')}</p>}
       </div>
@@ -64,8 +64,9 @@ export default function OrderDetails({
         <article className="commerce-card" key={index}>
           <h3>{i.name[locale]}</h3>
           <p>
-            {i.quantity} × · {i.start} — {i.end} · {ct(locale, 'returnBy')} {order.returnTime}
+            {i.quantity} × · {i.start} — {i.openEnded ? ct(locale, 'openRental') : `${i.end} · ${ct(locale, 'returnBy')} ${order.returnTime}`}
           </p>
+          {i.openEnded && <p>{i.price === null ? t.inquiryPrice : `${money(i.price * i.quantity, locale)} ${t.perDay}`} · {ct(locale, 'finalOnReturn')}</p>}
           <strong>{i.instructions.model}</strong>
           <p className="instruction-text">
             {i.instructions.instructions || ct(locale, 'noInstructions')}
@@ -94,7 +95,7 @@ export default function OrderDetails({
           </div>
         </article>
       ))}
-      {['confirmed', 'active'].includes(order.status) && (
+      {['confirmed', 'active'].includes(order.status) && !order.items.some(i => i.openEnded) && (
         <form className="commerce-card commerce-form" onSubmit={extend}>
           <h2>{ct(locale, 'extend')}</h2>
           <label>

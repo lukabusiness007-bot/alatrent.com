@@ -142,7 +142,7 @@ export function publicData(): PublicData {
   };
 }
 export function occupied(toolId: string, start: string, end: string, exceptId = ''): number {
-  const orderLines = all<Order>('orders').filter(o => o.id !== exceptId && ['confirmed', 'active'].includes(o.status)).flatMap(o => o.items.map(i => ({ ...i, end: o.status === 'active' && i.end < today() ? '9999-12-31' : i.end, id: o.id, status: 'confirmed' })));
+  const orderLines = all<Order>('orders').filter(o => o.id !== exceptId && ['confirmed', 'active'].includes(o.status)).flatMap(o => o.items.map(i => ({ ...i, end: i.openEnded || (o.status === 'active' && i.end < today()) ? '9999-12-31' : i.end, id: o.id, status: 'confirmed' })));
   const rentals = [...all<RentalRequest>('requests'), ...orderLines].filter(
     (r) =>
       r.id !== exceptId &&

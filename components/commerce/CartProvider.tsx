@@ -30,7 +30,8 @@ export function CartProvider({ children, locale }: { children: ReactNode; locale
                 Number.isInteger(i.quantity) &&
                 i.quantity > 0 &&
                 typeof i.start === 'string' &&
-                typeof i.end === 'string',
+                typeof i.end === 'string' &&
+                (i.openEnded === undefined || typeof i.openEnded === 'boolean'),
             )
             .slice(0, 30),
         );
@@ -53,7 +54,7 @@ export function CartProvider({ children, locale }: { children: ReactNode; locale
     const merged: CartItem[] = [];
     for (const item of next) {
       const match = merged.find(
-        (i) => i.toolId === item.toolId && i.start === item.start && i.end === item.end,
+        (i) => i.toolId === item.toolId && i.start === item.start && i.end === item.end && !!i.openEnded === !!item.openEnded,
       );
       if (match) match.quantity += item.quantity;
       else merged.push({ ...item });
@@ -65,7 +66,7 @@ export function CartProvider({ children, locale }: { children: ReactNode; locale
       const result = [...old];
       for (const i of incoming) {
         const idx = result.findIndex(
-          (x) => x.toolId === i.toolId && x.start === i.start && x.end === i.end,
+          (x) => x.toolId === i.toolId && x.start === i.start && x.end === i.end && !!x.openEnded === !!i.openEnded,
         );
         if (idx >= 0)
           result[idx] = {
@@ -121,7 +122,7 @@ export function QuickAdd({ toolId, locale }: { toolId: string; locale: Locale })
     <button
       className="quick-add"
       onClick={() =>
-        add([{ toolId, quantity: 1, start: items[0]?.start || '', end: items[0]?.end || '' }])
+        add([{ toolId, quantity: 1, start: items[0]?.start || '', end: items[0]?.end || '', ...(items[0]?.openEnded ? { openEnded: true } : {}) }])
       }
     >
       <ShoppingBag size={16} />

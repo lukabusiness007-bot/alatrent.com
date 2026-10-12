@@ -7,6 +7,8 @@ import type { PriceRule } from '@/lib/commerce/types';
 import { calculate, defaultRule } from '@/lib/commerce/pricing';
 import { ct } from '@/lib/commerce/copy';
 import { useCart } from './commerce/CartProvider';
+import RentalPeriod, { type RentalPeriodValue } from './RentalPeriod';
+import { durationDays, periodReady } from '@/lib/commerce/period';
 import { ShoppingBag, ShieldCheck } from 'lucide-react';
 export default function RentalForm({
   tool,
@@ -22,22 +24,18 @@ export default function RentalForm({
 }) {
   const t = copy[locale],
     cart = useCart();
-  const [start, setStart] = useState(''),
-    [end, setEnd] = useState(''),
+  const [period, setPeriod] = useState<RentalPeriodValue>({ start: today, end: today }),
     [quantity, setQuantity] = useState(1),
     [added, setAdded] = useState(false);
-  const days =
-    start && end
-      ? Math.max(0, Math.round((Date.parse(end) - Date.parse(start)) / 86400000) + 1)
-      : 0;
-  const price =
-    tool.price === null || !days ? null : calculate(tool.price, start, days, quantity, rule);
+  const days = durationDays(period.start, period.end);
+  const price = tool.price === null || period.openEnded || !days
+    ? null : calculate(tool.price, period.start, days, quantity, rule);
   return (
     <form
       className="rental-panel"
       onSubmit={(e) => {
         e.preventDefault();
-        cart.add([{ toolId: tool.id, start, end, quantity }]);
+        cart.add([{ toolId: tool.id, ...period, quantity }]);
         setAdded(true);
       }}
     >
@@ -52,64 +50,24 @@ export default function RentalForm({
           </>
         )}
       </div>
-      {tool.price !== null && (
-        <div className="rate-preview">
-          {[1, 3, 5, 7].map((days) => (
-            <div key={days}>
-              <span>
-                {days} {t.days}
-              </span>
-              <strong>{money(calculate(tool.price!, today, days, 1, rule).total, locale)}</strong>
-            </div>
-          ))}
-        </div>
-      )}
-      <h2>{t.dates}</h2>
-      <div className="form-row">
-        <label>
-          {t.start}
-          <input
-            type="date"
-            min={today}
-            required
-            value={start}
-            onChange={(e) => {
-              setStart(e.target.value);
-              if (end < e.target.value) setEnd(e.target.value);
-              setAdded(false);
-            }}
-          />
-        </label>
-        <label>
-          {t.end}
-          <input
-            type="date"
-            min={start || today}
-            required
-            value={end}
-            onChange={(e) => {
-              setEnd(e.target.value);
-              setAdded(false);
-            }}
-          />
-        </label>
-      </div>
-      <label>
+      <RentalPeriod value={period} locale={locale} today={today} required
+        onChange={next => { setPeriod(next); setAdded(false); }} />
+      <label className="quantity-field">
         {t.quantity}
         <input
           type="number"
           min={1}
           max={Math.min(tool.quantity ?? 100, 100) || 1}
           value={quantity}
-          onChange={(e) => setQuantity(Number(e.target.value))}
+          onChange={(e) => { setQuantity(Number(e.target.value)); setAdded(false); }}
           required
         />
       </label>
-      <p className="small-muted">{ct(locale, 'daysRule')}</p>
       <div className="rental-total">
-        <span>{ct(locale, 'rental')}</span>
-        <strong>{price ? money(price.total, locale) : t.inquiryPrice}</strong>
+        <span>{period.openEnded ? ct(locale, 'dailyRate') : days ? `${ct(locale, 'durationTotal')} ${days} ${days === 1 ? ct(locale, 'oneDay') : t.days}` : ct(locale, 'rental')}</span>
+        <strong>{period.openEnded && tool.price !== null ? `${money(tool.price * quantity, locale)} ${t.perDay}` : price ? money(price.total, locale) : t.inquiryPrice}</strong>
       </div>
+      {period.openEnded && <p className="small-muted">{ct(locale, 'finalOnReturn')}</p>}
       {!!price?.saving && (
         <p className="saving-pill">
           {ct(locale, 'saving')}: {money(price.saving, locale)}
@@ -117,7 +75,7 @@ export default function RentalForm({
       )}
       <button
         className="button button-lime submit-request"
-        disabled={tool.quantity === 0 || !cart.ready}
+        disabled={tool.quantity === 0 || !cart.ready || !periodReady(period)}
       >
         <ShoppingBag size={18} />
         {ct(locale, 'add')}

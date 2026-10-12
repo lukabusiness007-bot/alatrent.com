@@ -1,5 +1,18 @@
 import type { Locale } from '../types';
 const rows = {
+  whenNeeded: ['Kada ti treba alat?', 'When do you need it?', 'Когда нужен инструмент?', 'Ne zaman gerekiyor?', '什么时候需要工具？'],
+  howLong: ['Na koliko dana?', 'For how many days?', 'На сколько дней?', 'Kaç gün için?', '需要多少天？'],
+  moreDays: ['Više od 7 dana', 'More than 7 days', 'Больше 7 дней', '7 günden fazla', '超过7天'],
+  unknownDuration: ['Ne znam još', 'I don’t know yet', 'Пока не знаю', 'Henüz bilmiyorum', '还不确定'],
+  numberOfDays: ['Broj dana (8–90)', 'Number of days (8–90)', 'Количество дней (8–90)', 'Gün sayısı (8–90)', '天数（8–90）'],
+  openRental: ['Bez datuma vraćanja', 'No return date yet', 'Без даты возврата', 'İade tarihi henüz belli değil', '尚无归还日期'],
+  openHint: ['Uzmi alat, a datum vraćanja dogovaramo naknadno. Cena se računa za dane do vraćanja.', 'Take the tool and arrange the return date later. Charges cover the days until return.', 'Возьмите инструмент, дату возврата согласуем позже. Оплата за дни до возврата.', 'Aracı alın, iade tarihini sonra belirleyelim. İadeye kadar geçen günler ücretlendirilir.', '先领取工具，归还日期稍后商定。按领取至归还的天数计费。'],
+  finalOnReturn: ['Konačna cena po vraćanju', 'Final price on return', 'Итоговая цена при возврате', 'Son fiyat iadede hesaplanır', '归还时计算最终费用'],
+  pickupOn: ['Preuzimaš', 'Collect', 'Получение', 'Teslim alma', '领取'],
+  returnOn: ['Vraćaš', 'Return', 'Возврат', 'İade', '归还'],
+  durationTotal: ['Ukupno za', 'Total for', 'Итого за', 'Toplam süre', '总计天数'],
+  oneDay: ['dan', 'day', 'день', 'gün', '天'],
+  dailyRate: ['Dnevna cena', 'Daily rate', 'Цена за день', 'Günlük fiyat', '每日价格'],
   teamOrder: [
     'Najam za firmu (vidljiv članovima firme)',
     'Company rental (shared with team members)',

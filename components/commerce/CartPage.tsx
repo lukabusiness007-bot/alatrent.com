@@ -10,6 +10,8 @@ import ToolArt from '../ToolArt';
 import { savedReferral, storeReferral } from '@/lib/commerce/referral-browser';
 import { ReferralTerms } from './Referrals';
 import { rt } from '@/lib/commerce/referral-copy';
+import RentalPeriod, { type RentalPeriodValue } from '../RentalPeriod';
+import { periodReady } from '@/lib/commerce/period';
 import { ShoppingBag, Trash2, ArrowRight, Bookmark } from 'lucide-react';
 export async function commerce(action: string, body: unknown) {
   const r = await fetch('/api/commerce/' + action, {
@@ -47,8 +49,7 @@ export default function CartPage({
     [customer, setCustomer] = useState<PublicCustomer | null>(null),
     [delivery, setDelivery] = useState('pickup'),
     [useCredit, setUseCredit] = useState(false),
-    [start, setStart] = useState(''),
-    [end, setEnd] = useState(''),
+    [period, setPeriod] = useState<RentalPeriodValue>({ start: today, end: today }),
     [result, setResult] = useState<{ id: string; token: string } | null>(null),
     [notice, setNotice] = useState(''),
     [project, setProject] = useState('');
@@ -73,6 +74,7 @@ export default function CartPage({
     .map((id) => data.tools.find((t) => t.id === id))
     .filter((t) => !!t)
     .slice(0, 3);
+  const hasOpenRental = items.some(i => i.openEnded);
   const fingerprint = JSON.stringify({ items, delivery, useCredit, teamId, referralCode });
   const [quotedFingerprint, setQuotedFingerprint] = useState('');
   useEffect(() => {
@@ -103,7 +105,7 @@ export default function CartPage({
       setLoading(false);
       return;
     }
-    if (items.some((i) => !i.start || !i.end)) {
+    if (items.some((i) => !periodReady(i))) {
       setLoading(false);
       return;
     }
@@ -133,7 +135,7 @@ export default function CartPage({
     };
   }, [fingerprint, ready, customer, locale]);
   useEffect(() => {
-    if (!customer || !items.length || items.some((i) => !i.start || !i.end)) return;
+    if (!customer || !items.length || items.some((i) => !periodReady(i))) return;
     const timer = setTimeout(() => {
       commerce('draft', { items }).catch(() => {});
     }, 1500);
@@ -163,7 +165,7 @@ export default function CartPage({
         liveItems.current.flatMap((current) => {
           const submitted = items.find(
             (i) =>
-              i.toolId === current.toolId && i.start === current.start && i.end === current.end,
+              i.toolId === current.toolId && i.start === current.start && i.end === current.end && !!i.openEnded === !!current.openEnded,
           );
           const quantity = current.quantity - (submitted?.quantity || 0);
           return quantity > 0 ? [{ ...current, quantity }] : [];
@@ -225,51 +227,19 @@ export default function CartPage({
       ) : (
         <div className="checkout-grid">
           <div>
-            <div className="commerce-card date-batch">
-              <h3>{ct(locale, 'dates')}</h3>
-              <div className="form-row">
-                <label>
-                  {t.start}
-                  <input
-                    aria-label={t.start}
-                    type="date"
-                    min={today}
-                    value={start}
-                    onChange={(e) => {
-                      setStart(e.target.value);
-                      if (end < e.target.value) setEnd(e.target.value);
-                    }}
-                  />
-                </label>
-                <label>
-                  {t.end}
-                  <input
-                    aria-label={t.end}
-                    type="date"
-                    min={start || today}
-                    value={end}
-                    onChange={(e) => setEnd(e.target.value)}
-                  />
-                </label>
-                <button
-                  className="button button-plain"
-                  type="button"
-                  disabled={!start || !end || end < start}
-                  onClick={() => setItems(items.map((i) => ({ ...i, start, end })))}
-                >
-                  {ct(locale, 'apply')}
-                </button>
-              </div>
-              <p className="small-muted">{ct(locale, 'daysRule')}</p>
-              {items.some((i) => !i.start || !i.end) && (
-                <p className="saving-pill">{t.chooseDates}</p>
-              )}
-            </div>
+            {items.length > 1 && <details className="commerce-card date-batch">
+              <summary>{ct(locale, 'dates')}</summary>
+              <RentalPeriod value={period} onChange={setPeriod} locale={locale} today={today} />
+              <button className="button button-plain" type="button" disabled={!periodReady(period)}
+                onClick={() => setItems(items.map(i => ({ ...i, ...period })))}>
+                {ct(locale, 'apply')}</button>
+            </details>}
+            {items.some(i => !periodReady(i)) && <p className="saving-pill">{t.chooseDates}</p>}
             <div className="cart-items">
               {items.map((item, index) => {
                 const tool = data.tools.find((t) => t.id === item.toolId);
                 const line = quote?.items.find(
-                  (l) => l.toolId === item.toolId && l.start === item.start && l.end === item.end,
+                  (l) => l.toolId === item.toolId && l.start === item.start && l.end === item.end && !!l.openEnded === !!item.openEnded,
                 );
                 return (
                   <article className="commerce-card cart-item" key={index}>
@@ -289,7 +259,7 @@ export default function CartPage({
                           )}
                         </h3>
                         <strong>
-                          {line?.total != null ? money(line.total, locale) : t.inquiryPrice}
+                          {item.openEnded && tool?.price != null ? `${money((line?.price ?? tool.price) * item.quantity, locale)} ${t.perDay}` : line?.total != null ? money(line.total, locale) : t.inquiryPrice}
                         </strong>
                         {!!line?.saving && (
                           <small className="saving-pill">
@@ -305,30 +275,8 @@ export default function CartPage({
                         <Trash2 size={18} />
                       </button>
                     </div>
+                    <RentalPeriod value={item} onChange={next => update(index, next)} locale={locale} today={today} />
                     <div className="cart-item-fields">
-                      <label>
-                        {t.start}
-                        <input
-                          type="date"
-                          min={today}
-                          value={item.start}
-                          onChange={(e) =>
-                            update(index, {
-                              start: e.target.value,
-                              ...(item.end < e.target.value ? { end: e.target.value } : {}),
-                            })
-                          }
-                        />
-                      </label>
-                      <label>
-                        {t.end}
-                        <input
-                          type="date"
-                          min={item.start || today}
-                          value={item.end}
-                          onChange={(e) => update(index, { end: e.target.value })}
-                        />
-                      </label>
                       <label>
                         {t.quantity}
                         <input
@@ -468,24 +416,24 @@ export default function CartPage({
             {loading && <p role="status">{ct(locale, 'loading')}</p>}
             {quote && (
               <div className="quote-lines">
-                <p>
+                {quote.baseTotal !== null && <p>
                   <span>{ct(locale, 'base')}</span>
                   <b>
-                    {quote.baseTotal === null ? t.inquiryPrice : money(quote.baseTotal, locale)}
+                    {money(quote.baseTotal, locale)}
                   </b>
-                </p>
+                </p>}
                 {quote.saving > 0 && (
                   <p className="saving-text">
                     <span>{ct(locale, 'saving')}</span>
                     <b>−{money(quote.saving, locale)}</b>
                   </p>
                 )}
-                <p>
+                {(!hasOpenRental || quote.rentalTotal !== null) && <p>
                   <span>{ct(locale, 'rental')}</span>
                   <b>
                     {quote.rentalTotal === null ? t.inquiryPrice : money(quote.rentalTotal, locale)}
                   </b>
-                </p>
+                </p>}
                 <p>
                   <span>{t.deliveryCost}</span>
                   <b>{money(quote.deliveryTotal, locale)}</b>
@@ -498,7 +446,7 @@ export default function CartPage({
                 )}
                 <p className="quote-total">
                   <span>{ct(locale, 'total')}</span>
-                  <b>{quote.total === null ? t.inquiryPrice : money(quote.total, locale)}</b>
+                  <b>{quote.total === null ? (hasOpenRental ? ct(locale, 'finalOnReturn') : t.inquiryPrice) : money(quote.total, locale)}</b>
                 </p>
               </div>
             )}

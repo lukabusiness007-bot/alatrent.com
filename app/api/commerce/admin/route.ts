@@ -66,12 +66,12 @@ export async function GET() {
   const bookedDays = orders
     .filter((o) => ['confirmed', 'active', 'completed'].includes(o.status))
     .flatMap((o) => o.items)
-    .filter((i) => knownTools.some((t) => t.id === i.toolId) && i.start <= to && i.end >= from)
+    .filter((i) => knownTools.some((t) => t.id === i.toolId) && i.start <= to && (i.openEnded || i.end >= from))
     .reduce(
       (n, i) =>
         n +
         (Math.round(
-          (Date.parse(i.end < to ? i.end : to) - Date.parse(i.start > from ? i.start : from)) /
+          (Date.parse(!i.openEnded && i.end < to ? i.end : to) - Date.parse(i.start > from ? i.start : from)) /
             86400000,
         ) +
           1) *

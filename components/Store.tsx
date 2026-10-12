@@ -8,6 +8,7 @@ import { categoryHeading, categoryDescription, categoryContent, matchesTool } fr
 import { pageCopy } from '@/lib/seo-pages';
 import { QuickAdd } from './commerce/CartProvider';
 import { Brand } from './Header';
+import { ContactLinks } from './ContactLinks';
 import {
   ArrowRight,
   ArrowUpRight,
@@ -19,8 +20,6 @@ import {
   Sparkles,
   PackageCheck,
   MapPin,
-  Phone,
-  Mail,
   CategoryIcon,
   Search,
 } from './Icons';
@@ -233,10 +232,7 @@ export function Footer({ locale, settings }: { locale: Locale; settings: Setting
           <div>
             <h4>{t.support}</h4>
             <Link href={href(locale, 'kontakt')}>{t.contact}</Link>
-            {settings.phone && (
-              <a href={'tel:' + settings.phone.replace(/[^+\d]/g, '')}>{settings.phone}</a>
-            )}
-            {settings.email && <a href={'mailto:' + settings.email}>{settings.email}</a>}
+            <ContactLinks locale={locale} settings={settings} />
             <Link href={href(locale, 'privatnost')}>{t.privacy}</Link>
           </div>
           <div className="footer-languages">
@@ -498,6 +494,12 @@ export function Catalog({
               </Link>
             </div>
           )}
+          <aside className="catalog-request">
+            <div><h2>{t.toolRequestTitle}</h2><p>{t.toolRequestText}</p></div>
+            <Link className="button button-plain" href={href(locale, 'kontakt')}>
+              {t.toolRequestAction}<ArrowUpRight size={18} />
+            </Link>
+          </aside>
         </section>
       </div>
       {locale === 'sr' && category && categoryContent[category.slug] && (

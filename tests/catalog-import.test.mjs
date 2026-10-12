@@ -8,6 +8,7 @@ import { DatabaseSync } from 'node:sqlite';
 
 const seed = JSON.parse(readFileSync(new URL('../lib/seed.json', import.meta.url)));
 const imported = JSON.parse(readFileSync(new URL('../lib/catalog-import.json', import.meta.url)));
+const expansion = JSON.parse(readFileSync(new URL('../lib/catalog-expansion.json', import.meta.url)));
 const dir = mkdtempSync(join(tmpdir(), 'alat-rent-import-'));
 const base = 'http://127.0.0.1:3017';
 const password = 'import-test-secret-password';
@@ -85,11 +86,40 @@ test('Admin can edit imported tools and refuses another brand or power of the sa
   assert.equal((await cyrillic.json()).existingId, driver.id);
 });
 
+test('Expanded types have rental prices, searchable pages and distinct identities from older equipment', async () => {
+  assert.equal(saved('meta', expansion.migration), true);
+  for (const tool of expansion.tools) {
+    assert.equal(saved('tools', tool.id).price, tool.price);
+    assert.equal(saved('tools', tool.id).deposit, 0);
+    assert.equal(saved('tools', tool.id).quantity, null);
+    assert.ok(tool.price > 0);
+  }
+  for (const slug of ['teleskopska-testera', 'ivicna-hoblerka-za-parket', 'dijamantska-busilica-sa-stalkom', 'jednodiskna-masina-za-pranje-i-poliranje-podova']) {
+    const tool = expansion.tools.find(t => t.slug === slug);
+    const response = await fetch(base + '/sr/alat/' + slug);
+    assert.equal(response.status, 200);
+    assert.match(await response.text(), /Iznajmi/);
+    const duplicate = await api('/api/admin/tools', { ...tool, id: 'duplicate-' + tool.id, slug: 'duplicate-' + slug, name: { ...tool.name, sr: tool.name.sr + ' Bosch 18V' } });
+    assert.equal(duplicate.status, 409, slug);
+    assert.equal((await duplicate.json()).existingId, tool.id, slug);
+  }
+  const search = await fetch(base + '/sr/katalog?q=' + encodeURIComponent('каротирка'));
+  assert.match(await search.text(), /dijamantska-busilica-sa-stalkom/);
+});
+
 test('Admin edits and deletions persist across server restart; startup never resets the password', async () => {
   const deleted = imported.tools.find(t => t.slug === 'set-gedora');
   assert.equal((await fetch(base + '/api/admin/tools?id=' + deleted.id, { method: 'DELETE', headers: { Origin: base, Cookie: cookie } })).status, 200);
+  const expanded = expansion.tools.find(t => t.slug === 'paletar');
+  assert.equal((await api('/api/admin/tools', { ...expanded, price: 2345, quantity: 3, published: false })).status, 200);
+  const removed = expansion.tools.find(t => t.slug === 'freza-za-panjeve');
+  assert.equal((await fetch(base + '/api/admin/tools?id=' + removed.id, { method: 'DELETE', headers: { Origin: base, Cookie: cookie } })).status, 200);
   await stop(); await start('another-test-password-not-used');
   assert.equal(saved('tools', deleted.id), undefined);
+  assert.equal(saved('tools', removed.id), undefined);
+  assert.equal(saved('tools', expanded.id).price, 2345);
+  assert.equal(saved('tools', expanded.id).quantity, 3);
+  assert.equal(saved('tools', expanded.id).published, false);
   const cultivator = imported.tools.find(t => t.slug === 'motokultivator');
   assert.equal(saved('tools', cultivator.id).price, 3000);
   assert.equal(saved('tools', cultivator.id).quantity, 2);

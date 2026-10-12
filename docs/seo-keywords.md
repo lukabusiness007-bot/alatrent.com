@@ -1,6 +1,6 @@
 # Mapa ključnih fraza za katalog
 
-98 vrsta alata; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.
+126 vrsta alata; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.
 
 Isključivo administrativna teritorija grada Beograda, uključujući Obrenovac, Sremčicu i Železnik.
 
@@ -108,3 +108,31 @@ Predlozi fraza zasnovani su na sadržaju kataloga i nameri korisnika. Obim pretr
 | Mešalica za beton | iznajmljivanje mešalice za beton Beograd | betonska mešalica, mešalica za malter | /sr/alat/mesalica-za-beton |
 | Merdevine | iznajmljivanje merdevina Beograd | trodelne merdevine, radne merdevine | /sr/alat/merdevine |
 | Vakuumski nosač za staklo i ploče | iznajmljivanje vakuumskog nosača za staklo Beograd | vakuumski podizač, vakum pumpa za staklo | /sr/alat/vakuumski-nosac-za-staklo-i-ploce |
+| Dijamantska bušilica sa stalkom | iznajmljivanje dijamantske bušilice sa stalkom Beograd | karotirka, krunsko bušenje | /sr/alat/dijamantska-busilica-sa-stalkom |
+| Freza za beton | iznajmljivanje freze za beton Beograd | podna freza, frezovanje betona | /sr/alat/freza-za-beton |
+| Podni sekač betona i asfalta | iznajmljivanje podnog sekača betona i asfalta Beograd | sekač asfalta, podna testera za beton | /sr/alat/podni-sekac-betona-i-asfalta |
+| Mašina za skidanje tapeta | iznajmljivanje mašine za skidanje tapeta Beograd | parni skidač tapeta, skidanje tapeta | /sr/alat/masina-za-skidanje-tapeta |
+| Pres mašina za cevi sa čeljustima | iznajmljivanje pres mašine za cevi Beograd | presa za cevi, presovanje fitinga | /sr/alat/pres-masina-za-cevi |
+| Pumpa za ispitivanje pritiska | iznajmljivanje pumpe za ispitivanje pritiska Beograd | pumpa za probu instalacije, opres pumpa | /sr/alat/pumpa-za-ispitivanje-pritiska |
+| Mašina za narezivanje navoja na cevima | iznajmljivanje mašine za narezivanje navoja na cevima Beograd | nareznica za cevi, urezivanje navoja | /sr/alat/masina-za-narezivanje-navoja-na-cevima |
+| Kamera za kanalizaciju | iznajmljivanje kamere za kanalizaciju Beograd | kamera za cevi, inspekcija odvoda | /sr/alat/kamera-za-kanalizaciju |
+| Ivična hoblerka za parket | iznajmljivanje ivične hoblerke za parket Beograd | ugaona hoblerica, ivična brusilica za parket | /sr/alat/ivicna-hoblerka-za-parket |
+| Uranjajuća testera sa šinom | iznajmljivanje uranjajuće testere sa šinom Beograd | potapajuća testera, testera sa vođicom | /sr/alat/uranjajuca-testera-sa-sinom |
+| Stacionarna debljača | iznajmljivanje stacionarne debljače Beograd | diht mašina, debljača za drvo | /sr/alat/stacionarna-debljaca |
+| Jednodiskna mašina za pranje i poliranje podova | iznajmljivanje jednodiskne mašine za pranje i poliranje podova Beograd | podna polirka, jednodiskna mašina | /sr/alat/jednodiskna-masina-za-pranje-i-poliranje-podova |
+| Pokretna skela | iznajmljivanje pokretne skele Beograd | aluminijumska skela, skela na točkovima | /sr/alat/pokretna-skela |
+| Radna platforma | iznajmljivanje radne platforme Beograd | radni podijum, platforma za molerske radove | /sr/alat/radna-platforma |
+| Paletar | iznajmljivanje paletara Beograd | ručni paletar, paletna kolica | /sr/alat/paletar |
+| Kolica za ploče | iznajmljivanje kolica za ploče Beograd | kolica za gips ploče, transport pločastog materijala | /sr/alat/kolica-za-ploce |
+| Magnetna bušilica | iznajmljivanje magnetne bušilice Beograd | magnetna stubna bušilica, bušenje čeličnih konstrukcija | /sr/alat/magnetna-busilica |
+| Plazma sekač | iznajmljivanje plazma sekača Beograd | plazma rezanje, plazma za metal | /sr/alat/plazma-sekac |
+| Tračna testera za metal | iznajmljivanje tračne testere za metal Beograd | trakasta testera za metal, sečenje metalnih profila | /sr/alat/tracna-testera-za-metal |
+| Akumulatorski udarni ključ | iznajmljivanje akumulatorskog udarnog ključa Beograd | udarni ključ, aku odvijač za matice | /sr/alat/akumulatorski-udarni-kljuc |
+| Cepač drva | iznajmljivanje cepača drva Beograd | hidraulični cepač, cepanje drva | /sr/alat/cepac-drva |
+| Freza za panjeve | iznajmljivanje freze za panjeve Beograd | frezovanje panjeva, mašina za uklanjanje panjeva | /sr/alat/freza-za-panjeve |
+| Teleskopska testera | iznajmljivanje teleskopske testere Beograd | visinski orezivač, testera za visoke grane | /sr/alat/teleskopska-testera |
+| Valjak za travnjak | iznajmljivanje valjka za travnjak Beograd | baštenski valjak, valjanje travnjaka | /sr/alat/valjak-za-travnjak |
+| Vakuum pumpa za klime | iznajmljivanje vakuum pumpe za klime Beograd | vakum pumpa, vakuumiranje klima uređaja | /sr/alat/vakuum-pumpa-za-klime |
+| Manometarski set za klime | iznajmljivanje manometarskog seta za klime Beograd | manifold za klime, servisni manometri | /sr/alat/manometarski-set-za-klime |
+| Presa za kablovske papučice | iznajmljivanje prese za kablovske papučice Beograd | hidraulična klešta za papučice, krimpovanje kablova | /sr/alat/presa-za-kablovske-papucice |
+| Uređaj za provlačenje kablova | iznajmljivanje uređaja za provlačenje kablova Beograd | sajla za kablove, uvlačna sonda | /sr/alat/uredjaj-za-provlacenje-kablova |

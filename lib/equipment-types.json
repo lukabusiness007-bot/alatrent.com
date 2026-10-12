@@ -1,5 +1,173 @@
 [
   {
+    "id": "tool-099",
+    "slug": "dijamantska-busilica-sa-stalkom",
+    "name": "Dijamantska bušilica sa stalkom",
+    "pattern": "dijamantsk.*busilic|karotirk|krunsk.*busilic"
+  },
+  {
+    "id": "tool-100",
+    "slug": "freza-za-beton",
+    "name": "Freza za beton",
+    "pattern": "frez.*beton|beton.*frez"
+  },
+  {
+    "id": "tool-101",
+    "slug": "podni-sekac-betona-i-asfalta",
+    "name": "Podni sekač betona i asfalta",
+    "pattern": "podni sekac|sekac asfalta|svonarez"
+  },
+  {
+    "id": "tool-102",
+    "slug": "masina-za-skidanje-tapeta",
+    "name": "Mašina za skidanje tapeta",
+    "pattern": "skid.*tapet|tapet.*skid"
+  },
+  {
+    "id": "tool-103",
+    "slug": "pres-masina-za-cevi",
+    "name": "Pres mašina za cevi sa čeljustima",
+    "pattern": "pres.*(cevi|fiting)|boru pres"
+  },
+  {
+    "id": "tool-104",
+    "slug": "pumpa-za-ispitivanje-pritiska",
+    "name": "Pumpa za ispitivanje pritiska",
+    "pattern": "pump.*(ispitivanje|prob[au]|opres)|opres.*pump"
+  },
+  {
+    "id": "tool-105",
+    "slug": "masina-za-narezivanje-navoja-na-cevima",
+    "name": "Mašina za narezivanje navoja na cevima",
+    "pattern": "narez.*(navoj|cev)|nareznic.*cev"
+  },
+  {
+    "id": "tool-106",
+    "slug": "kamera-za-kanalizaciju",
+    "name": "Kamera za kanalizaciju",
+    "pattern": "kamer.*(kanaliz|cevi|odvod)"
+  },
+  {
+    "id": "tool-107",
+    "slug": "ivicna-hoblerka-za-parket",
+    "name": "Ivična hoblerka za parket",
+    "pattern": "(ivicn|ugaon).*hobler|ivicn.*brusilic.*parket"
+  },
+  {
+    "id": "tool-108",
+    "slug": "uranjajuca-testera-sa-sinom",
+    "name": "Uranjajuća testera sa šinom",
+    "pattern": "(uranjajuc|potapajuc).*tester|tester.*(sin|vodjic)"
+  },
+  {
+    "id": "tool-109",
+    "slug": "stacionarna-debljaca",
+    "name": "Stacionarna debljača",
+    "pattern": "debljac|diht.*masin"
+  },
+  {
+    "id": "tool-110",
+    "slug": "jednodiskna-masina-za-pranje-i-poliranje-podova",
+    "name": "Jednodiskna mašina za pranje i poliranje podova",
+    "pattern": "jednodiskn|podn.*polirk|polirk.*pod"
+  },
+  {
+    "id": "tool-111",
+    "slug": "pokretna-skela",
+    "name": "Pokretna skela",
+    "pattern": "(pokretn|aluminijumsk).*skel|skel.*tock"
+  },
+  {
+    "id": "tool-112",
+    "slug": "radna-platforma",
+    "name": "Radna platforma",
+    "pattern": "radn.*platform|radni podijum|platform.*molersk"
+  },
+  {
+    "id": "tool-113",
+    "slug": "paletar",
+    "name": "Paletar",
+    "pattern": "paletar|paletn.*kolic"
+  },
+  {
+    "id": "tool-114",
+    "slug": "kolica-za-ploce",
+    "name": "Kolica za ploče",
+    "pattern": "kolic.*(gips )?ploc|kolic.*plocast"
+  },
+  {
+    "id": "tool-115",
+    "slug": "magnetna-busilica",
+    "name": "Magnetna bušilica",
+    "pattern": "magnetn.*busilic"
+  },
+  {
+    "id": "tool-116",
+    "slug": "plazma-sekac",
+    "name": "Plazma sekač",
+    "pattern": "plazm.*(sekac|rezanj|metal)"
+  },
+  {
+    "id": "tool-117",
+    "slug": "tracna-testera-za-metal",
+    "name": "Tračna testera za metal",
+    "pattern": "(tracn|trakast).*tester.*metal"
+  },
+  {
+    "id": "tool-118",
+    "slug": "akumulatorski-udarni-kljuc",
+    "name": "Akumulatorski udarni ključ",
+    "pattern": "udarni kljuc|odvijac za matice"
+  },
+  {
+    "id": "tool-119",
+    "slug": "cepac-drva",
+    "name": "Cepač drva",
+    "pattern": "cepac|cepanje drva"
+  },
+  {
+    "id": "tool-120",
+    "slug": "freza-za-panjeve",
+    "name": "Freza za panjeve",
+    "pattern": "frez.*panj|uklanjanje panj"
+  },
+  {
+    "id": "tool-121",
+    "slug": "teleskopska-testera",
+    "name": "Teleskopska testera",
+    "pattern": "teleskopsk.*tester|visinski orezivac|tester.*visok.*gran"
+  },
+  {
+    "id": "tool-122",
+    "slug": "valjak-za-travnjak",
+    "name": "Valjak za travnjak",
+    "pattern": "valjak.*travnjak|bastensk.*valjak"
+  },
+  {
+    "id": "tool-123",
+    "slug": "vakuum-pumpa-za-klime",
+    "name": "Vakuum pumpa za klime",
+    "pattern": "vakuu?m.*pump|vakuumiranje klim"
+  },
+  {
+    "id": "tool-124",
+    "slug": "manometarski-set-za-klime",
+    "name": "Manometarski set za klime",
+    "pattern": "manometarsk.*set|manifold.*klim|servisni manometr"
+  },
+  {
+    "id": "tool-125",
+    "slug": "presa-za-kablovske-papucice",
+    "name": "Presa za kablovske papučice",
+    "pattern": "pres.*papucic|klest.*papucic|krimpovanje kabl"
+  },
+  {
+    "id": "tool-126",
+    "slug": "uredjaj-za-provlacenje-kablova",
+    "name": "Uređaj za provlačenje kablova",
+    "pattern": "provlacenje kablov|sajl.*kabl|uvlacn.*sond"
+  },
+  {
     "id": "tool-089",
     "slug": "vibro-zaba",
     "name": "Vibro žaba",

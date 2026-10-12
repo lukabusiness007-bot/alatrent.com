@@ -6,6 +6,7 @@ import { ArrowLeft, ArrowRight, Eye, EyeOff, LockKeyhole, ShieldCheck } from 'lu
 import type { Locale } from '@/lib/types';
 import { copy } from '@/lib/i18n';
 import { ct } from '@/lib/commerce/copy';
+import { showProjectKits } from '@/lib/commerce/features';
 
 const words = {
   password: ['Lozinka', 'Password', 'Пароль', 'Şifre', '密码'],
@@ -48,7 +49,7 @@ export default function AccountAccess({ locale, mode, setMode, busy, error, onSu
       <h2>{w('secure')}</h2>
       <p>{w('intro')}</p>
       <div className="access-mark"><ShieldCheck size={34} /><span>{w('free')}</span></div>
-      <Link href={`/${locale}/paketi`}>{ct(locale, 'packages')} <ArrowRight size={18} /></Link>
+      {showProjectKits && <Link href={`/${locale}/paketi`}>{ct(locale, 'packages')} <ArrowRight size={18} /></Link>}
     </aside>
     <div className="access-panel">
       {mode !== 'recover' ? <div className="access-tabs" aria-label={ct(locale, 'account')}>

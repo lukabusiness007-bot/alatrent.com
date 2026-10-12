@@ -10,7 +10,7 @@ export const languageNames: Record<Locale, string> = {
 export const isLocale = (v: string): v is Locale => locales.includes(v as Locale);
 const sr = {
   home: 'Početna',
-  catalog: 'Svi alati',
+  catalog: 'Izaberi alat',
   how: 'Kako funkcioniše',
   delivery: 'Dostava',
   contact: 'Kontakt',
@@ -81,6 +81,9 @@ const sr = {
   searchButton: 'Pretraži',
   results: 'Rezultata',
   noResults: 'Nema alata za ovu pretragu.',
+  toolRequestTitle: 'Nema alata koji ti treba?',
+  toolRequestText: 'Javi nam koji alat tražiš, za koji posao i kada ti je potreban.',
+  toolRequestAction: 'Zatraži alat',
   reset: 'Poništi filtere',
   sort: 'Sortiranje',
   sortName: 'Po nazivu',
@@ -145,7 +148,7 @@ const sr = {
 type Copy = { [K in keyof typeof sr]: string };
 const en: Copy = {
   home: 'Home',
-  catalog: 'All tools',
+  catalog: 'Choose a tool',
   how: 'How it works',
   delivery: 'Delivery',
   contact: 'Contact',
@@ -216,6 +219,9 @@ const en: Copy = {
   searchButton: 'Search',
   results: 'Results',
   noResults: 'No tools match this search.',
+  toolRequestTitle: 'Can’t find the tool you need?',
+  toolRequestText: 'Tell us which tool you need, what the job is and your dates.',
+  toolRequestAction: 'Request a tool',
   reset: 'Clear filters',
   sort: 'Sort by',
   sortName: 'Name',
@@ -280,7 +286,7 @@ const en: Copy = {
 };
 const ru: Copy = {
   home: 'Главная',
-  catalog: 'Все инструменты',
+  catalog: 'Выбери инструмент',
   how: 'Как это работает',
   delivery: 'Доставка',
   contact: 'Контакты',
@@ -349,6 +355,9 @@ const ru: Copy = {
   searchButton: 'Найти',
   results: 'Результаты',
   noResults: 'Инструменты не найдены.',
+  toolRequestTitle: 'Нет нужного инструмента?',
+  toolRequestText: 'Сообщите, какой инструмент нужен, для какой задачи и на какие даты.',
+  toolRequestAction: 'Запросить инструмент',
   reset: 'Сбросить фильтры',
   sort: 'Сортировка',
   sortName: 'По названию',
@@ -412,7 +421,7 @@ const ru: Copy = {
 };
 const tr: Copy = {
   home: 'Ana sayfa',
-  catalog: 'Tüm ekipmanlar',
+  catalog: 'Alet seç',
   how: 'Nasıl çalışır?',
   delivery: 'Teslimat',
   contact: 'İletişim',
@@ -481,6 +490,9 @@ const tr: Copy = {
   searchButton: 'Ara',
   results: 'Sonuçlar',
   noResults: 'Aramanıza uygun ekipman bulunamadı.',
+  toolRequestTitle: 'İhtiyacınız olan aleti bulamadınız mı?',
+  toolRequestText: 'Hangi aleti, hangi iş için ve ne zaman istediğinizi bize bildirin.',
+  toolRequestAction: 'Alet talep et',
   reset: 'Filtreleri temizle',
   sort: 'Sıralama',
   sortName: 'İsme göre',
@@ -545,7 +557,7 @@ const tr: Copy = {
 };
 const zh: Copy = {
   home: '首页',
-  catalog: '全部工具',
+  catalog: '选择工具',
   how: '租赁流程',
   delivery: '配送',
   contact: '联系我们',
@@ -612,6 +624,9 @@ const zh: Copy = {
   searchButton: '搜索',
   results: '搜索结果',
   noResults: '未找到符合条件的工具。',
+  toolRequestTitle: '找不到需要的工具？',
+  toolRequestText: '请告诉我们所需工具、工作内容和使用日期。',
+  toolRequestAction: '申请工具',
   reset: '清除筛选',
   sort: '排序',
   sortName: '按名称',

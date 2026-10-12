@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { CartLink } from './commerce/CartProvider';
 import { ct } from '@/lib/commerce/copy';
+import { showProjectKits } from '@/lib/commerce/features';
 import { useState, useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 import { copy, href, languageNames, locales } from '@/lib/i18n';
@@ -61,7 +62,7 @@ export default function Header({ locale, brand }: { locale: Locale; brand: strin
             [t.how, 'kako-funkcionise'],
             [ct(locale, 'packages'), 'paketi'],
             [ct(locale, 'club'), 'klub'],
-          ].map(([label, path]) => (
+          ].filter(([, path]) => path !== 'paketi' || showProjectKits).map(([label, path]) => (
             <Link
               key={path}
               className={pathname === href(locale, path) ? 'active' : ''}

@@ -3,6 +3,7 @@ import { mkdirSync } from 'node:fs';
 import path from 'node:path';
 import seed from './seed.json';
 import catalogImport from './catalog-import.json';
+import catalogExpansion from './catalog-expansion.json';
 import { equipmentType } from './equipment-type';
 import { randomBytes, scryptSync } from 'node:crypto';
 import { locales } from './types';
@@ -14,6 +15,7 @@ import { today } from './validation';
 import { extraKits } from './commerce/kits';
 import { catalogOnly, persistentDatabase } from './storage';
 import { requestDatabase, withPersistentDatabase, SQLITE_SCHEMA } from './postgres.mjs';
+import { defaultContact } from './contact';
 const dir = process.env.DATA_DIR || path.join(process.cwd(), 'data');
 if (!catalogOnly && !persistentDatabase) mkdirSync(dir, { recursive: true });
 const globalDb = globalThis as unknown as { rentalDb?: DatabaseSync };
@@ -67,8 +69,8 @@ function initializeDatabase() {
       for (const t of seed.tools) put('tools', t.id, t);
       put('settings', 'main', {
         brand: 'alat rent',
-        phone: '',
-        email: '',
+        phone: defaultContact.phone,
+        email: defaultContact.email,
         address: '',
         standardDelivery: 1500,
         expressDelivery: 2500,
@@ -76,6 +78,20 @@ function initializeDatabase() {
         deliveryNote: { sr: '', en: '', ru: '', tr: '', zh: '' },
       });
       put('meta', 'seeded', true);
+    });
+  // Fill missing contact details once; later edits remain under admin control.
+  if (!get('meta', 'alat-rent-contact-v1'))
+    transaction(() => {
+      if (get('meta', 'alat-rent-contact-v1')) return;
+      const current = get<Settings>('settings', 'main');
+      if (current) {
+        put('settings', 'main', {
+          ...current,
+          phone: current.phone.trim() || defaultContact.phone,
+          email: current.email.trim() || defaultContact.email,
+        });
+      }
+      put('meta', 'alat-rent-contact-v1', true);
     });
   // Rename the original brand in existing installations as well as new catalogs.
   if (!get('meta', 'alat-rent-brand-v1'))
@@ -108,23 +124,25 @@ function initializeDatabase() {
     });
   // Import new equipment types once into existing databases. Preserve edited
   // records, custom IDs, prices, quantities, photos and removed imported tools.
-  if (!get('meta', catalogImport.migration))
-    transaction(() => {
-      if (get('meta', catalogImport.migration)) return;
-      const existing = all<Tool>('tools');
-      const knownTypes = new Set(existing.map(tool => equipmentType(tool.name.sr)));
-      for (const tool of catalogImport.tools) {
-        const type = equipmentType(tool.name.sr);
-        if (get('tools', tool.id) || existing.some(saved => saved.slug === tool.slug) || knownTypes.has(type)) continue;
-        if (!get('categories', tool.categoryId)) {
-          const category = seed.categories.find(category => category.id === tool.categoryId);
-          if (category) put('categories', category.id, category);
+  for (const importedCatalog of [catalogImport, catalogExpansion]) {
+    if (!get('meta', importedCatalog.migration))
+      transaction(() => {
+        if (get('meta', importedCatalog.migration)) return;
+        const existing = all<Tool>('tools');
+        const knownTypes = new Set(existing.map(tool => equipmentType(tool.name.sr)));
+        for (const tool of importedCatalog.tools) {
+          const type = equipmentType(tool.name.sr);
+          if (get('tools', tool.id) || existing.some(saved => saved.slug === tool.slug) || knownTypes.has(type)) continue;
+          if (!get('categories', tool.categoryId)) {
+            const category = seed.categories.find(category => category.id === tool.categoryId);
+            if (category) put('categories', category.id, category);
+          }
+          put('tools', tool.id, tool);
+          knownTypes.add(type);
         }
-        put('tools', tool.id, tool);
-        knownTypes.add(type);
-      }
-      put('meta', catalogImport.migration, true);
-    });
+        put('meta', importedCatalog.migration, true);
+      });
+  }
 
   if (!get('meta', 'suggested-import-prices-v1')) transaction(() => {
     if (get('meta', 'suggested-import-prices-v1')) return;

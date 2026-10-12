@@ -1,5 +1,5 @@
 {
-  "scope": "98 vrsta alata; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.",
+  "scope": "126 vrsta alata; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.",
   "deliveryArea": "Isključivo administrativna teritorija grada Beograda, uključujući Obrenovac, Sremčicu i Železnik.",
   "strategy": "Jedan indeksabilan URL po vrsti alata i jeziku. Sinonimi, latinica bez dijakritike i ćirilica ne stvaraju duplikate stranica.",
   "tools": [
@@ -1670,6 +1670,482 @@
       "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
       "use": "Vakuumski nosač hvata odgovarajuću glatku površinu radi pozicioniranja ili prenošenja stakla i ploča. Ovo je ručni nosač sa pumpom, a ne pumpa za vodu.",
       "selection": "Navedi materijal, masu i dimenzije elementa i stanje površine. Pre najma proveravamo nosivost, prikladnost zaptivanja i plan transporta."
+    },
+    {
+      "name": "Dijamantska bušilica sa stalkom",
+      "path": "/sr/alat/dijamantska-busilica-sa-stalkom",
+      "categoryPath": "/sr/kategorija/busenje-rusenje-i-adaptacije",
+      "primary": "iznajmljivanje dijamantske bušilice sa stalkom Beograd",
+      "secondary": [
+        "najam dijamantske bušilice sa stalkom",
+        "rentiranje dijamantske bušilice sa stalkom",
+        "dijamantske bušilice sa stalkom cena po danu",
+        "karotirka iznajmljivanje",
+        "krunsko bušenje iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje dijamantske busilice sa stalkom Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Dijamantska bušilica sa stalkom namenjena je izradi kružnih otvora u odgovarajućim zidovima i betonu, uz krunu odabranu za materijal.",
+      "selection": "Navedi materijal, prečnik i dubinu otvora, položaj bušenja i pristup vodi. Krunu, pričvršćenje stalka i uslove najma potvrđujemo prema modelu."
+    },
+    {
+      "name": "Freza za beton",
+      "path": "/sr/alat/freza-za-beton",
+      "categoryPath": "/sr/kategorija/busenje-rusenje-i-adaptacije",
+      "primary": "iznajmljivanje freze za beton Beograd",
+      "secondary": [
+        "najam freze za beton",
+        "rentiranje freze za beton",
+        "freze za beton cena po danu",
+        "podna freza iznajmljivanje",
+        "frezovanje betona iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje freze za beton Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Freza za beton uklanja površinski sloj podloge pri pripremi za novu oblogu ili sanaciji neravnina. Razlikuje se od brusilice za završno brušenje.",
+      "selection": "Navedi površinu, stanje betona, sloj koji treba ukloniti i mogućnost napajanja. Radni bubanj, dubinu obrade i odsisavanje proveravamo pre najma."
+    },
+    {
+      "name": "Podni sekač betona i asfalta",
+      "path": "/sr/alat/podni-sekac-betona-i-asfalta",
+      "categoryPath": "/sr/kategorija/busenje-rusenje-i-adaptacije",
+      "primary": "iznajmljivanje podnog sekača betona i asfalta Beograd",
+      "secondary": [
+        "najam podnog sekača betona i asfalta",
+        "rentiranje podnog sekača betona i asfalta",
+        "podnog sekača betona i asfalta cena po danu",
+        "sekač asfalta iznajmljivanje",
+        "podna testera za beton iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje podnog sekaca betona i asfalta Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Podni sekač betona i asfalta služi za pravolinijsko rezanje horizontalnih površina pri popravkama, izradi spojeva i otvaranju trase.",
+      "selection": "Navedi materijal, dužinu i dubinu reza, pristup lokaciji i vodi. Odgovarajući disk, njegovo habanje i transport potvrđujemo uz izabrani model."
+    },
+    {
+      "name": "Mašina za skidanje tapeta",
+      "path": "/sr/alat/masina-za-skidanje-tapeta",
+      "categoryPath": "/sr/kategorija/busenje-rusenje-i-adaptacije",
+      "primary": "iznajmljivanje mašine za skidanje tapeta Beograd",
+      "secondary": [
+        "najam mašine za skidanje tapeta",
+        "rentiranje mašine za skidanje tapeta",
+        "mašine za skidanje tapeta cena po danu",
+        "parni skidač tapeta iznajmljivanje",
+        "skidanje tapeta iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje masine za skidanje tapeta Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Mašina za skidanje tapeta koristi paru da omekša lepak i olakša uklanjanje starih tapeta tokom pripreme zidova za novu završnu obradu.",
+      "selection": "Navedi vrstu tapeta i podlogu zida. Prikladnost za površinu, nastavke i način rada proveravamo pre najma, posebno kod podloga osetljivih na vlagu."
+    },
+    {
+      "name": "Pres mašina za cevi sa čeljustima",
+      "path": "/sr/alat/pres-masina-za-cevi",
+      "categoryPath": "/sr/kategorija/keramika-i-vodovod",
+      "primary": "iznajmljivanje pres mašine za cevi Beograd",
+      "secondary": [
+        "najam pres mašine za cevi",
+        "rentiranje pres mašine za cevi",
+        "pres mašine za cevi cena po danu",
+        "presa za cevi iznajmljivanje",
+        "presovanje fitinga iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje pres masine za cevi Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Pres mašina za cevi izvodi pres spojeve uz čeljusti odgovarajućeg profila. Kompatibilnost zavisi od sistema cevi i fitinga koji se ugrađuje.",
+      "selection": "Pošalji proizvođača sistema, materijal, prečnike i profil čeljusti. Dostupan komplet čeljusti i kompatibilnost potvrđujemo pre iznajmljivanja."
+    },
+    {
+      "name": "Pumpa za ispitivanje pritiska",
+      "path": "/sr/alat/pumpa-za-ispitivanje-pritiska",
+      "categoryPath": "/sr/kategorija/keramika-i-vodovod",
+      "primary": "iznajmljivanje pumpe za ispitivanje pritiska Beograd",
+      "secondary": [
+        "najam pumpe za ispitivanje pritiska",
+        "rentiranje pumpe za ispitivanje pritiska",
+        "pumpe za ispitivanje pritiska cena po danu",
+        "pumpa za probu instalacije iznajmljivanje",
+        "opres pumpa iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje pumpe za ispitivanje pritiska Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Pumpa za ispitivanje pritiska koristi se pri proveri odgovarajućih vodovodnih i grejnih instalacija nakon montaže ili popravke spojeva.",
+      "selection": "Navedi vrstu instalacije, priključak, ispitni medij i potreban pritisak. Opseg pumpe i pribor potvrđujemo prema proceduri za konkretnu instalaciju."
+    },
+    {
+      "name": "Mašina za narezivanje navoja na cevima",
+      "path": "/sr/alat/masina-za-narezivanje-navoja-na-cevima",
+      "categoryPath": "/sr/kategorija/keramika-i-vodovod",
+      "primary": "iznajmljivanje mašine za narezivanje navoja na cevima Beograd",
+      "secondary": [
+        "najam mašine za narezivanje navoja na cevima",
+        "rentiranje mašine za narezivanje navoja na cevima",
+        "mašine za narezivanje navoja na cevima cena po danu",
+        "nareznica za cevi iznajmljivanje",
+        "urezivanje navoja iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje masine za narezivanje navoja na cevima Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Mašina za narezivanje navoja obrađuje krajeve odgovarajućih metalnih cevi radi pripreme navojnih spojeva u montaži i održavanju instalacija.",
+      "selection": "Navedi materijal cevi, prečnik i standard navoja. Glave, noževe, ulje za rezanje i mogućnost stezanja cevi proveravamo uz konkretan model."
+    },
+    {
+      "name": "Kamera za kanalizaciju",
+      "path": "/sr/alat/kamera-za-kanalizaciju",
+      "categoryPath": "/sr/kategorija/merenje-i-detekcija",
+      "primary": "iznajmljivanje kamere za kanalizaciju Beograd",
+      "secondary": [
+        "najam kamere za kanalizaciju",
+        "rentiranje kamere za kanalizaciju",
+        "kamere za kanalizaciju cena po danu",
+        "kamera za cevi iznajmljivanje",
+        "inspekcija odvoda iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje kamere za kanalizaciju Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Kamera za kanalizaciju omogućava pregled unutrašnjosti odgovarajućih odvodnih cevi radi lociranja prepreka i provere stanja instalacije.",
+      "selection": "Navedi prečnik, očekivanu dužinu i pristup cevi. Dužinu kabla, veličinu glave, prolazak kroz kolena i mogućnost snimanja potvrđujemo prema modelu."
+    },
+    {
+      "name": "Ivična hoblerka za parket",
+      "path": "/sr/alat/ivicna-hoblerka-za-parket",
+      "categoryPath": "/sr/kategorija/obrada-drveta-i-parketa",
+      "primary": "iznajmljivanje ivične hoblerke za parket Beograd",
+      "secondary": [
+        "najam ivične hoblerke za parket",
+        "rentiranje ivične hoblerke za parket",
+        "ivične hoblerke za parket cena po danu",
+        "ugaona hoblerica iznajmljivanje",
+        "ivična brusilica za parket iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje ivicne hoblerke za parket Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Ivična hoblerka za parket obrađuje delove drvenog poda uz zidove i druge ivice do kojih velika parketna hoblerica ne može lako da priđe.",
+      "selection": "Navedi vrstu poda, stanje premaza i površinu. Brusni pribor, granulaciju i priključak za odsisavanje potvrđujemo pre preuzimanja opreme."
+    },
+    {
+      "name": "Uranjajuća testera sa šinom",
+      "path": "/sr/alat/uranjajuca-testera-sa-sinom",
+      "categoryPath": "/sr/kategorija/obrada-drveta-i-parketa",
+      "primary": "iznajmljivanje uranjajuće testere sa šinom Beograd",
+      "secondary": [
+        "najam uranjajuće testere sa šinom",
+        "rentiranje uranjajuće testere sa šinom",
+        "uranjajuće testere sa šinom cena po danu",
+        "potapajuća testera iznajmljivanje",
+        "testera sa vođicom iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje uranjajuce testere sa sinom Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Uranjajuća testera sa šinom služi za vođene pravolinijske rezove u odgovarajućim pločastim materijalima pri izradi i montaži nameštaja.",
+      "selection": "Navedi materijal, debljinu i dužinu reza. List testere, dužinu šine, spojnice i odsisavanje potvrđujemo prema potrebama konkretnog posla."
+    },
+    {
+      "name": "Stacionarna debljača",
+      "path": "/sr/alat/stacionarna-debljaca",
+      "categoryPath": "/sr/kategorija/obrada-drveta-i-parketa",
+      "primary": "iznajmljivanje stacionarne debljače Beograd",
+      "secondary": [
+        "najam stacionarne debljače",
+        "rentiranje stacionarne debljače",
+        "stacionarne debljače cena po danu",
+        "diht mašina iznajmljivanje",
+        "debljača za drvo iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje stacionarne debljace Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Stacionarna debljača obrađuje odgovarajuće drvene komade na ujednačenu debljinu, uz pravilno pripremljenu referentnu površinu drveta.",
+      "selection": "Navedi vrstu drveta i dimenzije komada. Radnu širinu, dozvoljenu dužinu, napajanje i odsisavanje proveravamo uz model koji se iznajmljuje."
+    },
+    {
+      "name": "Jednodiskna mašina za pranje i poliranje podova",
+      "path": "/sr/alat/jednodiskna-masina-za-pranje-i-poliranje-podova",
+      "categoryPath": "/sr/kategorija/ciscenje-i-pranje",
+      "primary": "iznajmljivanje jednodiskne mašine za pranje i poliranje podova Beograd",
+      "secondary": [
+        "najam jednodiskne mašine za pranje i poliranje podova",
+        "rentiranje jednodiskne mašine za pranje i poliranje podova",
+        "jednodiskne mašine za pranje i poliranje podova cena po danu",
+        "podna polirka iznajmljivanje",
+        "jednodiskna mašina iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje jednodiskne masine za pranje i poliranje podova Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Jednodiskna mašina koristi odgovarajuću četku ili pad za čišćenje i poliranje tvrdih podova. Odvojena je od mašine koja usisava vodu tokom pranja.",
+      "selection": "Navedi materijal poda, premaz i posao koji planiraš. Padove, četke i sredstvo biramo prema podlozi; sakupljanje vode dogovaramo zasebno."
+    },
+    {
+      "name": "Pokretna skela",
+      "path": "/sr/alat/pokretna-skela",
+      "categoryPath": "/sr/kategorija/podizanje-i-transport",
+      "primary": "iznajmljivanje pokretne skele Beograd",
+      "secondary": [
+        "najam pokretne skele",
+        "rentiranje pokretne skele",
+        "pokretne skele cena po danu",
+        "aluminijumska skela iznajmljivanje",
+        "skela na točkovima iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje pokretne skele Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Pokretna skela omogućava pristup pri radovima na visini kada prostor, podloga i uslovi na lokaciji odgovaraju odabranom sistemu skele.",
+      "selection": "Navedi potrebnu radnu visinu, prostor za postavljanje i stanje podloge. Komplet elemenata, transport i montažu potvrđujemo pre najma."
+    },
+    {
+      "name": "Radna platforma",
+      "path": "/sr/alat/radna-platforma",
+      "categoryPath": "/sr/kategorija/podizanje-i-transport",
+      "primary": "iznajmljivanje radne platforme Beograd",
+      "secondary": [
+        "najam radne platforme",
+        "rentiranje radne platforme",
+        "radne platforme cena po danu",
+        "radni podijum iznajmljivanje",
+        "platforma za molerske radove iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje radne platforme Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Radna platforma pruža radnu površinu za montažu i završne radove na manjim visinama. Ova stavka označava platformu bez motornog podizanja.",
+      "selection": "Navedi potrebnu visinu, prostor i namenu. Dimenzije, nosivost i oslonce potvrđujemo prema konkretnom modelu; nije makazasta dizalica."
+    },
+    {
+      "name": "Paletar",
+      "path": "/sr/alat/paletar",
+      "categoryPath": "/sr/kategorija/podizanje-i-transport",
+      "primary": "iznajmljivanje paletara Beograd",
+      "secondary": [
+        "najam paletara",
+        "rentiranje paletara",
+        "paletara cena po danu",
+        "ručni paletar iznajmljivanje",
+        "paletna kolica iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje paletara Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Paletar služi za pomeranje odgovarajućih paleta na ravnim površinama pri utovaru, organizaciji skladišta ili dopremanju materijala.",
+      "selection": "Navedi težinu tereta, tip palete i stanje podloge. Nosivost, dimenzije viljuški i uslove transporta proveravamo prema dostupnom modelu."
+    },
+    {
+      "name": "Kolica za ploče",
+      "path": "/sr/alat/kolica-za-ploce",
+      "categoryPath": "/sr/kategorija/podizanje-i-transport",
+      "primary": "iznajmljivanje kolica za ploče Beograd",
+      "secondary": [
+        "najam kolica za ploče",
+        "rentiranje kolica za ploče",
+        "kolica za ploče cena po danu",
+        "kolica za gips ploče iznajmljivanje",
+        "transport pločastog materijala iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje kolica za ploce Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Kolica za ploče namenjena su prevozu odgovarajućeg pločastog materijala kroz objekat, uz oslonac i raspored tereta prilagođen kolicima.",
+      "selection": "Navedi dimenzije i težinu ploča, širinu prolaza i stanje poda. Nosivost i način oslanjanja potvrđujemo pre najma; kolica nisu dizalica za ploče."
+    },
+    {
+      "name": "Magnetna bušilica",
+      "path": "/sr/alat/magnetna-busilica",
+      "categoryPath": "/sr/kategorija/metal-plastika-i-lemljenje",
+      "primary": "iznajmljivanje magnetne bušilice Beograd",
+      "secondary": [
+        "najam magnetne bušilice",
+        "rentiranje magnetne bušilice",
+        "magnetne bušilice cena po danu",
+        "magnetna stubna bušilica iznajmljivanje",
+        "bušenje čeličnih konstrukcija iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje magnetne busilice Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Magnetna bušilica koristi magnetno postolje za obradu odgovarajućih čeličnih elemenata pri montaži i izradi metalnih konstrukcija.",
+      "selection": "Navedi vrstu i debljinu materijala, prečnik otvora i položaj rada. Prikladnost magnetnog oslonca, alat za rezanje i dodatke potvrđujemo pre najma."
+    },
+    {
+      "name": "Plazma sekač",
+      "path": "/sr/alat/plazma-sekac",
+      "categoryPath": "/sr/kategorija/metal-plastika-i-lemljenje",
+      "primary": "iznajmljivanje plazma sekača Beograd",
+      "secondary": [
+        "najam plazma sekača",
+        "rentiranje plazma sekača",
+        "plazma sekača cena po danu",
+        "plazma rezanje iznajmljivanje",
+        "plazma za metal iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje plazma sekaca Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Plazma sekač služi za rezanje odgovarajućih električno provodljivih metala u radioničkim i montažnim poslovima, prema kapacitetu uređaja.",
+      "selection": "Navedi materijal, debljinu i dostupno napajanje. Zahtev za komprimovanim vazduhom, gorionik i potrošne delove proveravamo uz konkretan model."
+    },
+    {
+      "name": "Tračna testera za metal",
+      "path": "/sr/alat/tracna-testera-za-metal",
+      "categoryPath": "/sr/kategorija/metal-plastika-i-lemljenje",
+      "primary": "iznajmljivanje tračne testere za metal Beograd",
+      "secondary": [
+        "najam tračne testere za metal",
+        "rentiranje tračne testere za metal",
+        "tračne testere za metal cena po danu",
+        "trakasta testera za metal iznajmljivanje",
+        "sečenje metalnih profila iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje tracne testere za metal Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Tračna testera za metal namenjena je rezanju odgovarajućih metalnih profila i cevi, uz list i režim rada odabrane prema materijalu.",
+      "selection": "Navedi materijal, dimenzije profila i ugao reza. Kapacitet stezanja, list i transport potvrđujemo za konkretan model koji se iznajmljuje."
+    },
+    {
+      "name": "Akumulatorski udarni ključ",
+      "path": "/sr/alat/akumulatorski-udarni-kljuc",
+      "categoryPath": "/sr/kategorija/metal-plastika-i-lemljenje",
+      "primary": "iznajmljivanje akumulatorskog udarnog ključa Beograd",
+      "secondary": [
+        "najam akumulatorskog udarnog ključa",
+        "rentiranje akumulatorskog udarnog ključa",
+        "akumulatorskog udarnog ključa cena po danu",
+        "udarni ključ iznajmljivanje",
+        "aku odvijač za matice iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje akumulatorskog udarnog kljuca Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Akumulatorski udarni ključ koristi odgovarajuće udarne nasadne ključeve za odvrtanje i zatezanje vijaka i matica u montaži i održavanju.",
+      "selection": "Navedi dimenzije matica i posao koji planiraš. Prihvat, baterije i udarne gedore potvrđujemo uz model; završni propisani moment proverava se zasebno."
+    },
+    {
+      "name": "Cepač drva",
+      "path": "/sr/alat/cepac-drva",
+      "categoryPath": "/sr/kategorija/basta-i-dvoriste",
+      "primary": "iznajmljivanje cepača drva Beograd",
+      "secondary": [
+        "najam cepača drva",
+        "rentiranje cepača drva",
+        "cepača drva cena po danu",
+        "hidraulični cepač iznajmljivanje",
+        "cepanje drva iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje cepaca drva Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Cepač drva razdvaja odgovarajuće pripremljene komade drveta za ogrev. Izbor uređaja zavisi od dimenzija, vrste drveta i mesta rada.",
+      "selection": "Navedi dužinu i prečnik komada, količinu i dostupno napajanje. Kapacitet, položaj rada i mogućnost transporta potvrđujemo uz konkretan model."
+    },
+    {
+      "name": "Freza za panjeve",
+      "path": "/sr/alat/freza-za-panjeve",
+      "categoryPath": "/sr/kategorija/basta-i-dvoriste",
+      "primary": "iznajmljivanje freze za panjeve Beograd",
+      "secondary": [
+        "najam freze za panjeve",
+        "rentiranje freze za panjeve",
+        "freze za panjeve cena po danu",
+        "frezovanje panjeva iznajmljivanje",
+        "mašina za uklanjanje panjeva iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje freze za panjeve Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Freza za panjeve usitnjava odgovarajuće panjeve na mestu gde se nalaze, pri pripremi dvorišta za novo uređenje i uklanjanju ostataka stabala.",
+      "selection": "Navedi prečnik panjeva, pristup parceli, nagib i položaj instalacija. Dubinu obrade, model i transport potvrđujemo prema uslovima na lokaciji."
+    },
+    {
+      "name": "Teleskopska testera",
+      "path": "/sr/alat/teleskopska-testera",
+      "categoryPath": "/sr/kategorija/basta-i-dvoriste",
+      "primary": "iznajmljivanje teleskopske testere Beograd",
+      "secondary": [
+        "najam teleskopske testere",
+        "rentiranje teleskopske testere",
+        "teleskopske testere cena po danu",
+        "visinski orezivač iznajmljivanje",
+        "testera za visoke grane iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje teleskopske testere Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Teleskopska testera namenjena je orezivanju odgovarajućih grana sa zemlje, uz uslove i radni domet koje dozvoljava konkretan model.",
+      "selection": "Navedi visinu i prečnik grana, pristup i okolne prepreke. Domet, pogon i pribor potvrđujemo pre najma; nije namenjena obaranju celog stabla."
+    },
+    {
+      "name": "Valjak za travnjak",
+      "path": "/sr/alat/valjak-za-travnjak",
+      "categoryPath": "/sr/kategorija/basta-i-dvoriste",
+      "primary": "iznajmljivanje valjka za travnjak Beograd",
+      "secondary": [
+        "najam valjka za travnjak",
+        "rentiranje valjka za travnjak",
+        "valjka za travnjak cena po danu",
+        "baštenski valjak iznajmljivanje",
+        "valjanje travnjaka iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje valjka za travnjak Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Valjak za travnjak služi za odgovarajuće poslove pripreme i održavanja travnate površine, uz masu i režim rada prilagođene zemljištu.",
+      "selection": "Navedi površinu, stanje tla i planirani posao. Dimenzije, punjenje i ukupnu radnu masu proveravamo uz model, kao i uslove prevoza valjka."
+    },
+    {
+      "name": "Vakuum pumpa za klime",
+      "path": "/sr/alat/vakuum-pumpa-za-klime",
+      "categoryPath": "/sr/kategorija/struja-kompresori-i-grejanje",
+      "primary": "iznajmljivanje vakuum pumpe za klime Beograd",
+      "secondary": [
+        "najam vakuum pumpe za klime",
+        "rentiranje vakuum pumpe za klime",
+        "vakuum pumpe za klime cena po danu",
+        "vakum pumpa iznajmljivanje",
+        "vakuumiranje klima uređaja iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje vakuum pumpe za klime Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Vakuum pumpa za klime služi za evakuaciju odgovarajućih rashladnih instalacija u postupku montaže i servisa, uz pribor za konkretan sistem.",
+      "selection": "Navedi tip sistema, priključke i potreban pribor. Kompatibilnost, creva i ulje proveravamo pre najma; pumpa nije uređaj za izvlačenje rashladnog gasa."
+    },
+    {
+      "name": "Manometarski set za klime",
+      "path": "/sr/alat/manometarski-set-za-klime",
+      "categoryPath": "/sr/kategorija/struja-kompresori-i-grejanje",
+      "primary": "iznajmljivanje manometarskog seta za klime Beograd",
+      "secondary": [
+        "najam manometarskog seta za klime",
+        "rentiranje manometarskog seta za klime",
+        "manometarskog seta za klime cena po danu",
+        "manifold za klime iznajmljivanje",
+        "servisni manometri iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje manometarskog seta za klime Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Manometarski set omogućava povezivanje i merenje pritiska u odgovarajućim rashladnim sistemima, uz creva i skale prilagođene nameni.",
+      "selection": "Pošalji oznaku rashladnog sredstva i tip priključaka. Kompatibilnost manometara, creva i ventila potvrđujemo uz model pre iznajmljivanja."
+    },
+    {
+      "name": "Presa za kablovske papučice",
+      "path": "/sr/alat/presa-za-kablovske-papucice",
+      "categoryPath": "/sr/kategorija/struja-kompresori-i-grejanje",
+      "primary": "iznajmljivanje prese za kablovske papučice Beograd",
+      "secondary": [
+        "najam prese za kablovske papučice",
+        "rentiranje prese za kablovske papučice",
+        "prese za kablovske papučice cena po danu",
+        "hidraulična klešta za papučice iznajmljivanje",
+        "krimpovanje kablova iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje prese za kablovske papucice Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Presa za kablovske papučice izrađuje pres spoj odgovarajućih provodnika i papučica pomoću matrice odabrane za njihov tip i dimenziju.",
+      "selection": "Navedi materijal i presek provodnika, tip papučice i potrebnu matricu. Kompatibilnost alata i kompleta matrica potvrđujemo pre preuzimanja."
+    },
+    {
+      "name": "Uređaj za provlačenje kablova",
+      "path": "/sr/alat/uredjaj-za-provlacenje-kablova",
+      "categoryPath": "/sr/kategorija/struja-kompresori-i-grejanje",
+      "primary": "iznajmljivanje uređaja za provlačenje kablova Beograd",
+      "secondary": [
+        "najam uređaja za provlačenje kablova",
+        "rentiranje uređaja za provlačenje kablova",
+        "uređaja za provlačenje kablova cena po danu",
+        "sajla za kablove iznajmljivanje",
+        "uvlačna sonda iznajmljivanje"
+      ],
+      "ascii": "iznajmljivanje uredjaja za provlacenje kablova Beograd",
+      "intent": "Najam konkretne vrste alata; poređenje primene, cene i uslova.",
+      "use": "Uređaj za provlačenje kablova pomaže pri uvođenju odgovarajućih provodnika kroz pripremljene instalacione cevi, kanale i druge prolaze.",
+      "selection": "Navedi dužinu trase, dimenzije cevi i broj kolena. Dužinu sonde, nastavke i prikladnost za kablove potvrđujemo uz raspoloživ komplet."
     }
   ]
 }

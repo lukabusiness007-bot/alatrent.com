@@ -9,6 +9,7 @@ import pg from 'pg';
 import { readFileSync } from 'node:fs';
 
 const enabled = !!process.env.TEST_POSTGRES_URL;
+const seed = JSON.parse(readFileSync(new URL('../lib/seed.json', import.meta.url)));
 const name = 'alat_rent_test_' + randomBytes(6).toString('hex');
 const dir = mkdtempSync(join(tmpdir(), 'alat-rent-pg-'));
 const password = 'postgres-test-admin-password';
@@ -44,9 +45,9 @@ after(async()=>{
  rmSync(dir,{recursive:true,force:true});
 });
 
-test('Supabase enables hosted admin with 98 priced tools and a read-only server filesystem',{skip:!enabled},async()=>{
+test('Supabase enables hosted admin with the full priced catalog and a read-only server filesystem',{skip:!enabled},async()=>{
  const response=await fetch(bases[0]+'/api/admin/all',{headers:headers(0)});assert.equal(response.status,200);
- const data=await response.json();assert.equal(data.tools.length,98);assert.ok(data.tools.every(t=>typeof t.price==='number'&&t.price>0));
+ const data=await response.json();assert.equal(data.tools.length,seed.tools.length);assert.ok(data.tools.every(t=>typeof t.price==='number'&&t.price>0));
  assert.equal(data.categories.length,10);
  assert.ok(!(await(await fetch(bases[0]+'/sr')).text()).includes('catalog-notice'));
  assert.ok(!(await(await fetch(bases[0]+'/admin',{headers:headers(0)})).text()).includes('Administracija trenutno nije dostupna'));

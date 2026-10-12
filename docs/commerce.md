@@ -1,6 +1,8 @@
-# Korpa, Klub majstora i WhatsApp
+# Korpa, Club i WhatsApp
 
 Program „Preporuči i zaradi”, uslovi puštanja i računica: [docs/referrals.md](referrals.md). Nova implementacija zamenjuje raniji predlog kredita za obe strane.
+
+Proširenje kataloga na 126 vrsta i predložene dnevne cene: [catalog-expansion.md](catalog-expansion.md). Linkovi ka „Paketima za posao” privremeno su sakriveni preko `showProjectKits`; podaci, stranica i administracija ostaju sačuvani. U katalogu „Zatraži alat” vodi na kontakt za upit o opremi koja nije navedena.
 
 ## Korišćenje
 
@@ -65,7 +67,7 @@ Testovi pokrivaju stare upite i novi sistem: cene, ograničenja popusta, više s
 
 Čuvati redovne rezervne kopije SQLite baze i upload direktorijuma. Linkovi za najam i outbox sadrže poverljive podatke; nisu javni izveštaji. Prikaz prihoda nije neto dobit. Procena doprinosa koristi samo kompletno unete troškove po danu i pripreme. Iskorišćenost poslednjih 30 dana poredi nove porudžbine sa trenutnim količinama, pa je procena, ne istorijski knjigovodstveni obračun flote.
 
-## Plan razvoja Kluba majstora i potrošnog materijala — 10.10.2026.
+## Plan razvoja Club-a i potrošnog materijala — 10.10.2026.
 
 Cilj kluba: član brže završava posao i ređe gubi vreme na preuzimanje, izbor pribora i dogovaranje. Popust ostaje jedna od pogodnosti, ali nije jedini razlog za članstvo. Članstvo ostaje besplatno.
 

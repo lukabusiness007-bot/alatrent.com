@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ArrowUpRight, ArrowRight, Bookmark, Repeat2, CalendarClock, ClipboardList, Users, Check, Plus, Sparkles } from 'lucide-react';
 import type { Locale } from '@/lib/types';
 import { ct } from '@/lib/commerce/copy';
+import { showProjectKits } from '@/lib/commerce/features';
 import type { ReferralProgram } from '@/lib/commerce/types';
 import { ReferralTerms } from './Referrals';
 import { rt } from '@/lib/commerce/referral-copy';
@@ -50,7 +51,7 @@ export default function Club({ locale, threshold, percent, referralProgram }: { 
         <div className="km-free-tag"><span>0 <small>RSD</small></span><span>{w('free')}</span></div>
       </div>
     </section>
-    <div className="container"><div className="km-reassurance"><span><Check size={17} />{w('free')}</span><span><Check size={17} />{w('obligation')}</span><Link href={`/${locale}/paketi`}>{ct(locale, 'packages')}<ArrowUpRight size={17} /></Link></div></div>
+    <div className="container"><div className="km-reassurance"><span><Check size={17} />{w('free')}</span><span><Check size={17} />{w('obligation')}</span>{showProjectKits && <Link href={`/${locale}/paketi`}>{ct(locale, 'packages')}<ArrowUpRight size={17} /></Link>}</div></div>
     <section className="container km-benefits" aria-labelledby="club-benefits-title">
       <div className="km-section-heading"><div><span className="km-kicker">{w('benefitsTag')}</span><h2 id="club-benefits-title">{w('benefitsTitle')}</h2></div><p>{w('benefitsIntro')}</p></div>
       <div className="km-benefit-grid">{benefits.map(({ icon: Icon, title, body }, i) => <article key={title}><div className="km-benefit-top"><span className="km-icon"><Icon size={26} strokeWidth={1.6} /></span><span className="km-index">0{i + 1}</span></div><h3>{title}</h3><p>{body}</p></article>)}</div>

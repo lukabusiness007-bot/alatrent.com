@@ -22,7 +22,7 @@ const rows = {
   ],
   personal: ['Lični najam', 'Personal rental', 'Личная аренда', 'Kişisel kiralama', '个人租赁'],
   cart: ['Korpa', 'Cart', 'Корзина', 'Sepet', '购物车'],
-  add: ['Dodaj u korpu', 'Add to cart', 'В корзину', 'Sepete ekle', '加入购物车'],
+  add: ['Iznajmi', 'Rent', 'Арендовать', 'Kirala', '租用'],
   added: ['Dodato u korpu', 'Added to cart', 'Добавлено', 'Sepete eklendi', '已加入购物车'],
   keep: [
     'Nastavi izbor alata',
@@ -32,7 +32,7 @@ const rows = {
     '继续浏览',
   ],
   account: ['Moj nalog', 'My account', 'Мой аккаунт', 'Hesabım', '我的账户'],
-  club: ['Klub majstora', 'Tool Club', 'Клуб мастеров', 'Usta Kulübü', '工匠俱乐部'],
+  club: ['Club', 'Club', 'Club', 'Club', 'Club'],
   packages: [
     'Paketi za posao',
     'Project kits',
@@ -80,11 +80,11 @@ const rows = {
     '通过 WhatsApp 接收本次租赁的确认、说明及提醒。',
   ],
   marketing: [
-    'Želim ponude Kluba majstora i podsetnik na sačuvanu korpu putem WhatsApp-a.',
-    'Send me Tool Club offers and saved-cart reminders on WhatsApp.',
-    'Хочу получать предложения клуба и напоминания о корзине в WhatsApp.',
-    'WhatsApp üzerinden kulüp teklifleri ve sepet hatırlatmaları istiyorum.',
-    '通过 WhatsApp 接收会员优惠和购物车提醒。',
+    'Želim ponude Club-a i podsetnik na sačuvanu korpu putem WhatsApp-a.',
+    'Send me Club offers and saved-cart reminders on WhatsApp.',
+    'Хочу получать предложения Club и напоминания о корзине в WhatsApp.',
+    'WhatsApp üzerinden Club teklifleri ve sepet hatırlatmaları istiyorum.',
+    '通过 WhatsApp 接收 Club 优惠和购物车提醒。',
   ],
   submit: [
     'Pošalji zahtev za sve alate',

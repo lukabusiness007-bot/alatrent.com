@@ -320,7 +320,7 @@ export default function CommerceAdmin() {
                   )}
                 </>
               )}
-              <h2>Klub majstora</h2>
+              <h2>Club</h2>
               <div className="commerce-inline">
                 <label>
                   Broj završenih najmova za popust

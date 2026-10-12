@@ -882,5 +882,257 @@
     ],
     "use": "Vakuumski nosač hvata odgovarajuću glatku površinu radi pozicioniranja ili prenošenja stakla i ploča. Ovo je ručni nosač sa pumpom, a ne pumpa za vodu.",
     "selection": "Navedi materijal, masu i dimenzije elementa i stanje površine. Pre najma proveravamo nosivost, prikladnost zaptivanja i plan transporta."
+  },
+  "dijamantska-busilica-sa-stalkom": {
+    "term": "dijamantske bušilice sa stalkom",
+    "aliases": [
+      "karotirka",
+      "krunsko bušenje"
+    ],
+    "use": "Dijamantska bušilica sa stalkom namenjena je izradi kružnih otvora u odgovarajućim zidovima i betonu, uz krunu odabranu za materijal.",
+    "selection": "Navedi materijal, prečnik i dubinu otvora, položaj bušenja i pristup vodi. Krunu, pričvršćenje stalka i uslove najma potvrđujemo prema modelu."
+  },
+  "freza-za-beton": {
+    "term": "freze za beton",
+    "aliases": [
+      "podna freza",
+      "frezovanje betona"
+    ],
+    "use": "Freza za beton uklanja površinski sloj podloge pri pripremi za novu oblogu ili sanaciji neravnina. Razlikuje se od brusilice za završno brušenje.",
+    "selection": "Navedi površinu, stanje betona, sloj koji treba ukloniti i mogućnost napajanja. Radni bubanj, dubinu obrade i odsisavanje proveravamo pre najma."
+  },
+  "podni-sekac-betona-i-asfalta": {
+    "term": "podnog sekača betona i asfalta",
+    "aliases": [
+      "sekač asfalta",
+      "podna testera za beton"
+    ],
+    "use": "Podni sekač betona i asfalta služi za pravolinijsko rezanje horizontalnih površina pri popravkama, izradi spojeva i otvaranju trase.",
+    "selection": "Navedi materijal, dužinu i dubinu reza, pristup lokaciji i vodi. Odgovarajući disk, njegovo habanje i transport potvrđujemo uz izabrani model."
+  },
+  "masina-za-skidanje-tapeta": {
+    "term": "mašine za skidanje tapeta",
+    "aliases": [
+      "parni skidač tapeta",
+      "skidanje tapeta"
+    ],
+    "use": "Mašina za skidanje tapeta koristi paru da omekša lepak i olakša uklanjanje starih tapeta tokom pripreme zidova za novu završnu obradu.",
+    "selection": "Navedi vrstu tapeta i podlogu zida. Prikladnost za površinu, nastavke i način rada proveravamo pre najma, posebno kod podloga osetljivih na vlagu."
+  },
+  "pres-masina-za-cevi": {
+    "term": "pres mašine za cevi",
+    "aliases": [
+      "presa za cevi",
+      "presovanje fitinga"
+    ],
+    "use": "Pres mašina za cevi izvodi pres spojeve uz čeljusti odgovarajućeg profila. Kompatibilnost zavisi od sistema cevi i fitinga koji se ugrađuje.",
+    "selection": "Pošalji proizvođača sistema, materijal, prečnike i profil čeljusti. Dostupan komplet čeljusti i kompatibilnost potvrđujemo pre iznajmljivanja."
+  },
+  "pumpa-za-ispitivanje-pritiska": {
+    "term": "pumpe za ispitivanje pritiska",
+    "aliases": [
+      "pumpa za probu instalacije",
+      "opres pumpa"
+    ],
+    "use": "Pumpa za ispitivanje pritiska koristi se pri proveri odgovarajućih vodovodnih i grejnih instalacija nakon montaže ili popravke spojeva.",
+    "selection": "Navedi vrstu instalacije, priključak, ispitni medij i potreban pritisak. Opseg pumpe i pribor potvrđujemo prema proceduri za konkretnu instalaciju."
+  },
+  "masina-za-narezivanje-navoja-na-cevima": {
+    "term": "mašine za narezivanje navoja na cevima",
+    "aliases": [
+      "nareznica za cevi",
+      "urezivanje navoja"
+    ],
+    "use": "Mašina za narezivanje navoja obrađuje krajeve odgovarajućih metalnih cevi radi pripreme navojnih spojeva u montaži i održavanju instalacija.",
+    "selection": "Navedi materijal cevi, prečnik i standard navoja. Glave, noževe, ulje za rezanje i mogućnost stezanja cevi proveravamo uz konkretan model."
+  },
+  "kamera-za-kanalizaciju": {
+    "term": "kamere za kanalizaciju",
+    "aliases": [
+      "kamera za cevi",
+      "inspekcija odvoda"
+    ],
+    "use": "Kamera za kanalizaciju omogućava pregled unutrašnjosti odgovarajućih odvodnih cevi radi lociranja prepreka i provere stanja instalacije.",
+    "selection": "Navedi prečnik, očekivanu dužinu i pristup cevi. Dužinu kabla, veličinu glave, prolazak kroz kolena i mogućnost snimanja potvrđujemo prema modelu."
+  },
+  "ivicna-hoblerka-za-parket": {
+    "term": "ivične hoblerke za parket",
+    "aliases": [
+      "ugaona hoblerica",
+      "ivična brusilica za parket"
+    ],
+    "use": "Ivična hoblerka za parket obrađuje delove drvenog poda uz zidove i druge ivice do kojih velika parketna hoblerica ne može lako da priđe.",
+    "selection": "Navedi vrstu poda, stanje premaza i površinu. Brusni pribor, granulaciju i priključak za odsisavanje potvrđujemo pre preuzimanja opreme."
+  },
+  "uranjajuca-testera-sa-sinom": {
+    "term": "uranjajuće testere sa šinom",
+    "aliases": [
+      "potapajuća testera",
+      "testera sa vođicom"
+    ],
+    "use": "Uranjajuća testera sa šinom služi za vođene pravolinijske rezove u odgovarajućim pločastim materijalima pri izradi i montaži nameštaja.",
+    "selection": "Navedi materijal, debljinu i dužinu reza. List testere, dužinu šine, spojnice i odsisavanje potvrđujemo prema potrebama konkretnog posla."
+  },
+  "stacionarna-debljaca": {
+    "term": "stacionarne debljače",
+    "aliases": [
+      "diht mašina",
+      "debljača za drvo"
+    ],
+    "use": "Stacionarna debljača obrađuje odgovarajuće drvene komade na ujednačenu debljinu, uz pravilno pripremljenu referentnu površinu drveta.",
+    "selection": "Navedi vrstu drveta i dimenzije komada. Radnu širinu, dozvoljenu dužinu, napajanje i odsisavanje proveravamo uz model koji se iznajmljuje."
+  },
+  "jednodiskna-masina-za-pranje-i-poliranje-podova": {
+    "term": "jednodiskne mašine za pranje i poliranje podova",
+    "aliases": [
+      "podna polirka",
+      "jednodiskna mašina"
+    ],
+    "use": "Jednodiskna mašina koristi odgovarajuću četku ili pad za čišćenje i poliranje tvrdih podova. Odvojena je od mašine koja usisava vodu tokom pranja.",
+    "selection": "Navedi materijal poda, premaz i posao koji planiraš. Padove, četke i sredstvo biramo prema podlozi; sakupljanje vode dogovaramo zasebno."
+  },
+  "pokretna-skela": {
+    "term": "pokretne skele",
+    "aliases": [
+      "aluminijumska skela",
+      "skela na točkovima"
+    ],
+    "use": "Pokretna skela omogućava pristup pri radovima na visini kada prostor, podloga i uslovi na lokaciji odgovaraju odabranom sistemu skele.",
+    "selection": "Navedi potrebnu radnu visinu, prostor za postavljanje i stanje podloge. Komplet elemenata, transport i montažu potvrđujemo pre najma."
+  },
+  "radna-platforma": {
+    "term": "radne platforme",
+    "aliases": [
+      "radni podijum",
+      "platforma za molerske radove"
+    ],
+    "use": "Radna platforma pruža radnu površinu za montažu i završne radove na manjim visinama. Ova stavka označava platformu bez motornog podizanja.",
+    "selection": "Navedi potrebnu visinu, prostor i namenu. Dimenzije, nosivost i oslonce potvrđujemo prema konkretnom modelu; nije makazasta dizalica."
+  },
+  "paletar": {
+    "term": "paletara",
+    "aliases": [
+      "ručni paletar",
+      "paletna kolica"
+    ],
+    "use": "Paletar služi za pomeranje odgovarajućih paleta na ravnim površinama pri utovaru, organizaciji skladišta ili dopremanju materijala.",
+    "selection": "Navedi težinu tereta, tip palete i stanje podloge. Nosivost, dimenzije viljuški i uslove transporta proveravamo prema dostupnom modelu."
+  },
+  "kolica-za-ploce": {
+    "term": "kolica za ploče",
+    "aliases": [
+      "kolica za gips ploče",
+      "transport pločastog materijala"
+    ],
+    "use": "Kolica za ploče namenjena su prevozu odgovarajućeg pločastog materijala kroz objekat, uz oslonac i raspored tereta prilagođen kolicima.",
+    "selection": "Navedi dimenzije i težinu ploča, širinu prolaza i stanje poda. Nosivost i način oslanjanja potvrđujemo pre najma; kolica nisu dizalica za ploče."
+  },
+  "magnetna-busilica": {
+    "term": "magnetne bušilice",
+    "aliases": [
+      "magnetna stubna bušilica",
+      "bušenje čeličnih konstrukcija"
+    ],
+    "use": "Magnetna bušilica koristi magnetno postolje za obradu odgovarajućih čeličnih elemenata pri montaži i izradi metalnih konstrukcija.",
+    "selection": "Navedi vrstu i debljinu materijala, prečnik otvora i položaj rada. Prikladnost magnetnog oslonca, alat za rezanje i dodatke potvrđujemo pre najma."
+  },
+  "plazma-sekac": {
+    "term": "plazma sekača",
+    "aliases": [
+      "plazma rezanje",
+      "plazma za metal"
+    ],
+    "use": "Plazma sekač služi za rezanje odgovarajućih električno provodljivih metala u radioničkim i montažnim poslovima, prema kapacitetu uređaja.",
+    "selection": "Navedi materijal, debljinu i dostupno napajanje. Zahtev za komprimovanim vazduhom, gorionik i potrošne delove proveravamo uz konkretan model."
+  },
+  "tracna-testera-za-metal": {
+    "term": "tračne testere za metal",
+    "aliases": [
+      "trakasta testera za metal",
+      "sečenje metalnih profila"
+    ],
+    "use": "Tračna testera za metal namenjena je rezanju odgovarajućih metalnih profila i cevi, uz list i režim rada odabrane prema materijalu.",
+    "selection": "Navedi materijal, dimenzije profila i ugao reza. Kapacitet stezanja, list i transport potvrđujemo za konkretan model koji se iznajmljuje."
+  },
+  "akumulatorski-udarni-kljuc": {
+    "term": "akumulatorskog udarnog ključa",
+    "aliases": [
+      "udarni ključ",
+      "aku odvijač za matice"
+    ],
+    "use": "Akumulatorski udarni ključ koristi odgovarajuće udarne nasadne ključeve za odvrtanje i zatezanje vijaka i matica u montaži i održavanju.",
+    "selection": "Navedi dimenzije matica i posao koji planiraš. Prihvat, baterije i udarne gedore potvrđujemo uz model; završni propisani moment proverava se zasebno."
+  },
+  "cepac-drva": {
+    "term": "cepača drva",
+    "aliases": [
+      "hidraulični cepač",
+      "cepanje drva"
+    ],
+    "use": "Cepač drva razdvaja odgovarajuće pripremljene komade drveta za ogrev. Izbor uređaja zavisi od dimenzija, vrste drveta i mesta rada.",
+    "selection": "Navedi dužinu i prečnik komada, količinu i dostupno napajanje. Kapacitet, položaj rada i mogućnost transporta potvrđujemo uz konkretan model."
+  },
+  "freza-za-panjeve": {
+    "term": "freze za panjeve",
+    "aliases": [
+      "frezovanje panjeva",
+      "mašina za uklanjanje panjeva"
+    ],
+    "use": "Freza za panjeve usitnjava odgovarajuće panjeve na mestu gde se nalaze, pri pripremi dvorišta za novo uređenje i uklanjanju ostataka stabala.",
+    "selection": "Navedi prečnik panjeva, pristup parceli, nagib i položaj instalacija. Dubinu obrade, model i transport potvrđujemo prema uslovima na lokaciji."
+  },
+  "teleskopska-testera": {
+    "term": "teleskopske testere",
+    "aliases": [
+      "visinski orezivač",
+      "testera za visoke grane"
+    ],
+    "use": "Teleskopska testera namenjena je orezivanju odgovarajućih grana sa zemlje, uz uslove i radni domet koje dozvoljava konkretan model.",
+    "selection": "Navedi visinu i prečnik grana, pristup i okolne prepreke. Domet, pogon i pribor potvrđujemo pre najma; nije namenjena obaranju celog stabla."
+  },
+  "valjak-za-travnjak": {
+    "term": "valjka za travnjak",
+    "aliases": [
+      "baštenski valjak",
+      "valjanje travnjaka"
+    ],
+    "use": "Valjak za travnjak služi za odgovarajuće poslove pripreme i održavanja travnate površine, uz masu i režim rada prilagođene zemljištu.",
+    "selection": "Navedi površinu, stanje tla i planirani posao. Dimenzije, punjenje i ukupnu radnu masu proveravamo uz model, kao i uslove prevoza valjka."
+  },
+  "vakuum-pumpa-za-klime": {
+    "term": "vakuum pumpe za klime",
+    "aliases": [
+      "vakum pumpa",
+      "vakuumiranje klima uređaja"
+    ],
+    "use": "Vakuum pumpa za klime služi za evakuaciju odgovarajućih rashladnih instalacija u postupku montaže i servisa, uz pribor za konkretan sistem.",
+    "selection": "Navedi tip sistema, priključke i potreban pribor. Kompatibilnost, creva i ulje proveravamo pre najma; pumpa nije uređaj za izvlačenje rashladnog gasa."
+  },
+  "manometarski-set-za-klime": {
+    "term": "manometarskog seta za klime",
+    "aliases": [
+      "manifold za klime",
+      "servisni manometri"
+    ],
+    "use": "Manometarski set omogućava povezivanje i merenje pritiska u odgovarajućim rashladnim sistemima, uz creva i skale prilagođene nameni.",
+    "selection": "Pošalji oznaku rashladnog sredstva i tip priključaka. Kompatibilnost manometara, creva i ventila potvrđujemo uz model pre iznajmljivanja."
+  },
+  "presa-za-kablovske-papucice": {
+    "term": "prese za kablovske papučice",
+    "aliases": [
+      "hidraulična klešta za papučice",
+      "krimpovanje kablova"
+    ],
+    "use": "Presa za kablovske papučice izrađuje pres spoj odgovarajućih provodnika i papučica pomoću matrice odabrane za njihov tip i dimenziju.",
+    "selection": "Navedi materijal i presek provodnika, tip papučice i potrebnu matricu. Kompatibilnost alata i kompleta matrica potvrđujemo pre preuzimanja."
+  },
+  "uredjaj-za-provlacenje-kablova": {
+    "term": "uređaja za provlačenje kablova",
+    "aliases": [
+      "sajla za kablove",
+      "uvlačna sonda"
+    ],
+    "use": "Uređaj za provlačenje kablova pomaže pri uvođenju odgovarajućih provodnika kroz pripremljene instalacione cevi, kanale i druge prolaze.",
+    "selection": "Navedi dužinu trase, dimenzije cevi i broj kolena. Dužinu sonde, nastavke i prikladnost za kablove potvrđujemo uz raspoloživ komplet."
   }
 }

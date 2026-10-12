@@ -23,13 +23,12 @@ import { today } from '@/lib/validation';
 import { Home, Catalog, Steps, Delivery, Faq, Cta, ToolCard } from '@/components/Store';
 import ToolArt from '@/components/ToolArt';
 import RentalForm from '@/components/RentalForm';
+import { ContactLinks } from '@/components/ContactLinks';
 import {
   ArrowRight,
   Check,
   ChevronDown,
   MapPin,
-  Phone,
-  Mail,
   ShieldCheck,
   Truck,
 } from '@/components/Icons';
@@ -225,18 +224,7 @@ async function dbPage({ params, searchParams }: Props) {
               <MapPin size={30} />
               <h2>{t.area}</h2>
               <p>{data.settings.address || t.locationPending}</p>
-              {data.settings.phone && (
-                <a href={'tel:' + data.settings.phone.replace(/[^+\d]/g, '')}>
-                  <Phone size={19} />
-                  {data.settings.phone}
-                </a>
-              )}
-              {data.settings.email && (
-                <a href={'mailto:' + data.settings.email}>
-                  <Mail size={19} />
-                  {data.settings.email}
-                </a>
-              )}
+              <ContactLinks locale={locale} settings={data.settings} />
               <Link href={href(locale, 'dostava')}>
                 <Truck size={19} />
                 {t.delivery}

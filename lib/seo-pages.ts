@@ -13,7 +13,7 @@ export function pageCopy(locale: Locale): Record<string, { title: string; descri
     privatnost: { title: t.privacy, description: t.privacyText },
     korpa: { title: ct(locale, 'cart'), description: t.requestHint },
     nalog: { title: ct(locale, 'account'), description: t.privacyText },
-    klub: { title: ct(locale, 'club'), description: `${ct(locale, 'club')}. ${t.heroNote} ${t.catalogText}` },
+    klub: { title: `${ct(locale, 'club')} — ${t.rentalWord}`, description: `${ct(locale, 'club')}. ${t.heroNote} ${t.catalogText}` },
     paketi: { title: ct(locale, 'packages'), description: `${ct(locale, 'packages')}. ${t.ctaText} ${t.catalogText}` },
   };
   if (locale === 'sr') Object.assign(pages, {
@@ -22,7 +22,7 @@ export function pageCopy(locale: Locale): Record<string, { title: string; descri
     'kako-funkcionise': { title: 'Kako iznajmiti alat — uslovi najma bez depozita', description: 'Izaberi alat i datume, pošalji upit i dogovori preuzimanje ili dostavu. Saznaj kako se potvrđuju dostupnost, cena i vraćanje alata. Najam bez depozita.' },
     dostava: { title: 'Dostava alata u Beogradu — preuzimanje i cene', description: 'Dostava i preuzimanje alata isključivo na teritoriji grada Beograda, uključujući Obrenovac, Sremčicu i Železnik. Standardna i hitna dostava uz potvrdu termina.' },
     kontakt: { title: 'Kontakt za iznajmljivanje alata u Beogradu', description: 'Pošalji upit za najam alata u Beogradu. Navedi posao, željene datume i adresu dostave da potvrdimo odgovarajući alat, dostupnost i konačnu cenu.' },
-    klub: { title: 'Klub majstora — pogodnosti za najam alata', description: 'Pogledaj uslove Kluba majstora, pogodnosti za ponovne najmove i ponudu za firme. Iznajmljivanje alata bez depozita na teritoriji grada Beograda.' },
+    klub: { title: 'Club — pogodnosti za najam alata', description: 'Pogledaj uslove Club-a, pogodnosti za ponovne najmove i ponudu za firme. Iznajmljivanje alata bez depozita na teritoriji grada Beograda.' },
     paketi: { title: 'Paketi alata za iznajmljivanje — Beograd', description: 'Pogledaj pakete alata za povezane radove. Izaberi potrebnu opremu i datume najma, pa zatraži potvrdu cene i dostave na teritoriji grada Beograda.' },
   });
   return pages;

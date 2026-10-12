@@ -1,0 +1,1381 @@
+{
+  "source": "https://beorental.com/",
+  "retrieved_at": "2026-10-10T18:36:23.015824+00:00",
+  "market": "Beograd i okolina",
+  "business_model": "Iznajmljivanje sopstvene opreme; bez marketplace funkcija.",
+  "note": "Normalizovani tipovi opreme, ne pojedinačni modeli ili fizički primerci. Korisnik je naveo da ima iste alate. Cene, količine, modeli i dostupnost nisu potvrđeni. Nazivi sa slika imaju slabiji dokaz od zasebne stranice. Fotografije nisu preuzete za upotrebu na novom sajtu.",
+  "items": [
+    {
+      "id": "tool-001",
+      "name": "Perač pod pritiskom",
+      "category": "Čišćenje i pranje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-alata-za-ciscenje/iznajmljivanje-karcher-masine-za-pranje-pod-pritiskom",
+          "title": "Iznajmljivanje Karcher masine za pranje pod pritiskom"
+        }
+      ]
+    },
+    {
+      "id": "tool-002",
+      "name": "Paročistač",
+      "category": "Čišćenje i pranje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-karcher-parocistaca-beograd",
+          "title": "Iznajmljivanje Karcher parocistaca Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-003",
+      "name": "Mašina za dubinsko pranje",
+      "category": "Čišćenje i pranje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-masine-za-dubinsko-pranje-beograd",
+          "title": "Iznajmljivanje Masine za Dubinsko pranje Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-004",
+      "name": "Industrijski usisivač",
+      "category": "Čišćenje i pranje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-industrijskog-usisivaca-za-prasinu-ciklon-za-otprasivanje",
+          "title": "Iznajmljivanje industrijskog usisivaca za prasinu - Ciklon za otprasivanje"
+        }
+      ]
+    },
+    {
+      "id": "tool-005",
+      "name": "Ciklonski separator za prašinu",
+      "category": "Čišćenje i pranje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-ciklon-usisivaca-za-prasinu-uredjaja-za-odprasivanje-separator-beograd",
+          "title": "Iznajmljivanje Ciklon usisivaca za prasinu uredjaja za odprasivanje separator Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-006",
+      "name": "Set četki za šrafilicu",
+      "category": "Čišćenje i pranje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/set%20masina%20za%20ciscenje%20srafilica%20za%20srafilicu%20cetke%20za%20srafilicu%20dubinsko.jpg",
+          "label": "set masina za ciscenje srafilica za srafilicu cetke za srafilicu dubinsko"
+        }
+      ]
+    },
+    {
+      "id": "tool-007",
+      "name": "Mašina za poliranje",
+      "category": "Čišćenje i pranje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20masine%20za%20poliranje%20polirke%20beograd.jpg",
+          "label": "iznajmljivanje masine za poliranje polirke beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-008",
+      "name": "Motorna četka za velike površine",
+      "category": "Čišćenje i pranje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/motorizovana-cetka-nastavak-za-trimer-ciscenje-iznajmljivanje-alata-beograd",
+          "title": "Motorizovana cetka - Nastavak za trimer - Ciscenje - Iznajmljivanje Alata Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-009",
+      "name": "Mašina za čišćenje behatona",
+      "category": "Čišćenje i pranje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-masine-za-ciscenje-behatona-i-plocnika-od-cigli",
+          "title": "Iznajmljivanje Masine za ciscenje Behatona i plocnika od cigli"
+        }
+      ]
+    },
+    {
+      "id": "tool-010",
+      "name": "Ultrazvučna kada",
+      "category": "Čišćenje i pranje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-ultrazvucne-kade-za-ciscenje-beograd-iznajmljivanje-alata",
+          "title": "Iznajmljivanje ultrazvucne kade za ciscenje Beograd - Iznajmljivanje Alata"
+        }
+      ]
+    },
+    {
+      "id": "tool-011",
+      "name": "Odvlaživač / isušivač vazduha",
+      "category": "Isušivanje, vazduh i pumpe",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-alata-za-ciscenje/iznajmljivanje-odvlazivaca-vazduha-beograd-masina-aparat-uredjaj-za-izvlacenje-vlage",
+          "title": "Iznajmljivanje odvlazivaca vazduha Beograd Masina aparat uredjaj za izvlacenje vlage"
+        },
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-masine-za-izvlacenje-vlage",
+          "title": "Iznajmljivanje Masine za izvlacenje vlage"
+        },
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-profesionalnih-odvlazivaca-trotec-ttk",
+          "title": "Iznajmljivanje profesionalnih odvlazivaca Trotec TTK"
+        },
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/resenje-za-vlagu-i-bud-u-stanu-curenje-vode-profesionalni-isusivac-beorental",
+          "title": "Rešenje za vlagu i buđ u stanu curenje vode – Profesionalni isušivač BeoRental"
+        }
+      ]
+    },
+    {
+      "id": "tool-012",
+      "name": "Ozon generator",
+      "category": "Isušivanje, vazduh i pumpe",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-ozon-generatora-beograd-uredjaj-za-dezinfekciju-prostora",
+          "title": "Iznajmljivanje Ozon Generatora Beograd - Uredjaj za dezinfekciju prostora"
+        }
+      ]
+    },
+    {
+      "id": "tool-013",
+      "name": "Muljna / potopna pumpa",
+      "category": "Isušivanje, vazduh i pumpe",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-pumpe-za-vodu-pumpa-za-izvlacenje-vode",
+          "title": "Iznajmljivanje pumpe za vodu - pumpa za izvlacenje vode"
+        },
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/pumpa-za-vodu-muljna-pumpa-za-izbacivanje-vode",
+          "title": "Pumpa za vodu muljna pumpa za izbacivanje vode"
+        }
+      ]
+    },
+    {
+      "id": "tool-014",
+      "name": "Pumpa za vodu do nultog nivoa",
+      "category": "Isušivanje, vazduh i pumpe",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/pumpa-za-vodu-za-isusivanje-prostorija-na-nulti-nivo",
+          "title": "Iznajmljivanje Pumpi za vodu Beograd - Pumpa za vodu za isusivanje prostorija na nulti nivo"
+        }
+      ]
+    },
+    {
+      "id": "tool-015",
+      "name": "Benzinska pumpa za vodu",
+      "category": "Isušivanje, vazduh i pumpe",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-villiger-agm-benzinske-pumpe-za-vodu-beograd",
+          "title": "Iznajmljivanje Benzinske pumpe za vodu Beograd - Pumpa Villager Villiger AGM"
+        }
+      ]
+    },
+    {
+      "id": "tool-016",
+      "name": "Benzinska kosačica",
+      "category": "Bašta i dvorište",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/bastenski-alat/iznajmljivanje-benzinskih-kosilica-kosacica-za-fino-kosenje-trave-usluznokosenje-trave-beograd",
+          "title": "Iznajmljivanje Benzinskih Kosilica Kosacica za fino kosenje trave - Usluznokosenje trave Beograd"
+        },
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/bastenski-alat/iznajmljivanje-motorne-benzinske-kosilice-kosacice-za-travu-beograd",
+          "title": "Iznajmljivanje motorne benzinske kosilice kosacice za travu Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-017",
+      "name": "Čeona grebenasta kosačica",
+      "category": "Bašta i dvorište",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-ceone-grebenaste-kosacice-ceona-grebenasta-kosacica-kosilica-za-travu-beograd",
+          "title": "Iznajmljivanje Ceone Grebenaste Kosacice - Ceona Grebenasta Kosacica Kosilica za travu Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-018",
+      "name": "Benzinski trimer za travu",
+      "category": "Bašta i dvorište",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/bastenski-alat/iznajmljivanje-benzinskog-trimera-beograd-benzinski-trimer-villager-villiger-stihl",
+          "title": "Iznajmljivanje benzinskog trimera Beograd - Benzinski trimer Villager villiger Stihl"
+        },
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-benzinskih-trimera-beograd-motorni-benzinski-trimer-villiger",
+          "title": "Iznajmljivanje Benzinskih Trimera Beograd - Motorni Benzinski Trimer Villiger"
+        }
+      ]
+    },
+    {
+      "id": "tool-019",
+      "name": "Trimer za živu ogradu",
+      "category": "Bašta i dvorište",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-motornog-benzinskog-trimera-za-zivu-ogradu-beograd",
+          "title": "Iznajmljivanje Motornog Benzinskog trimera za zivu ogradu Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-020",
+      "name": "Motorni bušač rupa za zemlju",
+      "category": "Bašta i dvorište",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/bastenski-alat/iznajmljivanje-busaca-za-rupe-beograd-villiger-busac-rupa-svrdlo",
+          "title": "Iznajmljivanje busaca za rupe Beograd - Villager Villiger busac rupa Svrdlo Burgija za zemlju"
+        }
+      ]
+    },
+    {
+      "id": "tool-021",
+      "name": "Duvač / usisivač lišća",
+      "category": "Bašta i dvorište",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/bastenski-alat/iznajmljivanje-duvaca-lisca-beograd-leaf-blower-duvac-lisca-villager-5290",
+          "title": "Iznajmljivanje duvaca lisca Beograd - Leaf Blower duvac lisca Villager 5290"
+        },
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-duvaca-i-usisivac-za-lisce-lisca-villager-beograd-leaf-blower",
+          "title": "Iznajmljivanje duvaca i usisivac za lisce lisca Villager Beograd - Leaf Blower"
+        },
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-elektricnog-motornog-usisivaca-duvaca-za-lisce-beograd-iznajmljivanje-bastenskog-alata",
+          "title": "Iznajmljivanje Elektricnog Motornog Usisivaca Duvaca za lisce Beograd - Iznajmljivanje Bastenskog Alata"
+        }
+      ]
+    },
+    {
+      "id": "tool-022",
+      "name": "Seckalica za grane",
+      "category": "Bašta i dvorište",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20motorne%20seckalice%20za%20grane%20chopper%20malcher%20villager%20villiger%20beograd%20iznajmljujem%201.png",
+          "label": "iznajmljivanje motorne seckalice za grane chopper malcher villager villiger beograd iznajmljujem (1)"
+        }
+      ]
+    },
+    {
+      "id": "tool-023",
+      "name": "Udarna čekić bušilica",
+      "category": "Bušenje, rušenje i adaptacije",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-hilti-udarne-cekic-busilice-beograd",
+          "title": "Iznajmljivanje Hiltija - hilti udarne cekic busilice Beograd - Busilica za beton"
+        },
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/rucni-alat-za-adaptacije/busilica-za-beton-iznajmljivanje-udarna-cekic-busilica-sds-plus-sds-max-hilti-bosch-beograd",
+          "title": "Busilica za beton Iznajmljivanje - Udarna cekic busilica SDS PLUS - SDS MAX Hilti Bosch Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-024",
+      "name": "Pikamer / štemerica",
+      "category": "Bušenje, rušenje i adaptacije",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-pikamera-beograd-hilti-udarna-cekic-busilica",
+          "title": "Iznajmljivanje Pikamera Beograd - Hilti udarna cekic busilica"
+        }
+      ]
+    },
+    {
+      "id": "tool-025",
+      "name": "Šlicerica za kanale u zidu",
+      "category": "Bušenje, rušenje i adaptacije",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-slicerice-za-secenje-zidova-rezanje-kanala-zlebova-u-zidovima-beograd",
+          "title": "Iznajmljivanje Slicerice Slicerica za secenje zidova rezanje kanala zlebova u zidovima Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-026",
+      "name": "Žirafa za brušenje zidova",
+      "category": "Bušenje, rušenje i adaptacije",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-zirafe-sa-usisivacem-beograd-zirafa-za-smirglanje-zidova",
+          "title": "Iznajmljivanje Zirafe sa usisivacem Beograd - Zirafa za smirglanje zidova"
+        },
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-zirafe-za-smirglanje-zidova-beograd",
+          "title": "Iznajmljivanje Zirafe za smirglanje zidova Beograd - Zirafa za glacanje kreca i gleta Krecenje Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-027",
+      "name": "Brusilica za beton i zidove",
+      "category": "Bušenje, rušenje i adaptacije",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-brusilice-za-zidove-beton-sa-dijamantom-i-usisivacem-beograd",
+          "title": "Iznajmljivanje brusilice za zidove beton sa dijamantom i usisivacem Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-028",
+      "name": "Mašina za krečenje",
+      "category": "Bušenje, rušenje i adaptacije",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-masine-za-krecenje-beograd",
+          "title": "Iznajmljivanje masine za krecenje Beograd -"
+        }
+      ]
+    },
+    {
+      "id": "tool-029",
+      "name": "Motorni sekač betona",
+      "category": "Bušenje, rušenje i adaptacije",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-masine-motorne-brusilice-za-secenje-betona-beograd",
+          "title": "Iznajmljivanje Masine Motorne brusilice za secenje Betona Sekac za beton Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-030",
+      "name": "Vibrator betona / vibro-igla",
+      "category": "Bušenje, rušenje i adaptacije",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/vibrator-betona-vibro-igla-beograd-iznajmljivanje-elektricne-vibro-igle-vibraciona-elektricna-igla-armiranje-betona.png",
+          "label": "vibrator-betona-vibro-igla-beograd-iznajmljivanje-elektricne-vibro-igle-vibraciona-elektricna-igla-armiranje-betona"
+        }
+      ]
+    },
+    {
+      "id": "tool-031",
+      "name": "Akumulatorska šrafilica",
+      "category": "Bušenje, rušenje i adaptacije",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-aku-srafilice-sa-setom-bitova-beograd",
+          "title": "Iznajmljivanje AKU srafilice sa setom bitova Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-032",
+      "name": "Akumulatorski udarni odvijač",
+      "category": "Bušenje, rušenje i adaptacije",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-aku-elektro-udarnog-odvijaca-gedore-na-baterije",
+          "title": "Iznajmljivanje aku elektro udarnog odvijaca gedore na baterije"
+        }
+      ]
+    },
+    {
+      "id": "tool-033",
+      "name": "Ger testera za drvo i aluminijum",
+      "category": "Obrada drveta i parketa",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/ger-za-drvo-drvene-i-aluminijumske-lajsne-iznajmljivanje-beograd-secenje-pod-uglom",
+          "title": "Iznajmljivanje Ger poteznog cirkulara za drvo drvene i aluminijumske lajsne - Iznajmljivanje Beograd - Secenje pod uglom"
+        }
+      ]
+    },
+    {
+      "id": "tool-034",
+      "name": "Multifunkcionalni alat / renovator",
+      "category": "Obrada drveta i parketa",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20renovatora%20beograd%20uredjaj%20za%20rezanje%20secenje%20tesko%20dostupnih%20mesta%20pvc%20cevi%20bakarnih%20lajsni%20gipsa%20beograd.jpg",
+          "label": "iznajmljivanje renovatora beograd uredjaj za rezanje secenje tesko dostupnih mesta pvc cevi bakarnih lajsni gipsa beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-035",
+      "name": "Sabljasta testera / lisičarka",
+      "category": "Obrada drveta i parketa",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20ubodne%20rucne%20testere%20ubodna%20rucna%20testera%20lisicarka%20lisicarke%20beograd%20iznajmljivanje%20alata%20beorental.jpg",
+          "label": "iznajmljivanje ubodne rucne testere ubodna rucna testera lisicarka lisicarke beograd iznajmljivanje alata beorental"
+        }
+      ]
+    },
+    {
+      "id": "tool-036",
+      "name": "Glodalica za drvo",
+      "category": "Obrada drveta i parketa",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/elektricni%20frezer%20glodalica%20za%20drvo%20iznajmljivanje%20beograd%20alat%20za%20adaptaciju.jpg",
+          "label": "elektricni frezer glodalica za drvo iznajmljivanje beograd alat za adaptaciju"
+        }
+      ]
+    },
+    {
+      "id": "tool-037",
+      "name": "Hoblerica za parket",
+      "category": "Obrada drveta i parketa",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-hoblerice-za-parket-beograd-velika-hoblerica-za-brusenje-parketa-drveta",
+          "title": "Iznajmljivanje hoblerice za parket Beograd - Velika Hoblerica za Brusenje parketa drveta"
+        }
+      ]
+    },
+    {
+      "id": "tool-038",
+      "name": "Električno rende / ručna hoblerica",
+      "category": "Obrada drveta i parketa",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-rucne-hoblerice-rende-za-drvo-beograd-smirglanje-i-brusenje-drveta",
+          "title": "Iznajmljivanje rucne hoblerice rende za drvo Beograd - Smirglanje i brusenje drveta"
+        }
+      ]
+    },
+    {
+      "id": "tool-039",
+      "name": "Ubodna testera",
+      "category": "Obrada drveta i parketa",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/ubodna%20testera%20iznajmljivanje%20beograd%20testerica%20za%20drvo%20rezanje%20drveta%20pravljenje%20otvora%20u%20drvetu.png",
+          "label": "ubodna testera iznajmljivanje beograd testerica za drvo rezanje drveta pravljenje otvora u drvetu"
+        }
+      ]
+    },
+    {
+      "id": "tool-040",
+      "name": "Stoni cirkular",
+      "category": "Obrada drveta i parketa",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-stacionarnog-stonog-cirkulara-beograd-iznajmljivanje-alata-cirkular-drvo",
+          "title": "Iznajmljivanje Stacionarnog Stonog Cirkulara Beograd - Iznajmljivanje Alata - Stoni Cirkular za drvo"
+        }
+      ]
+    },
+    {
+      "id": "tool-041",
+      "name": "Ger testera za metal",
+      "category": "Metal, plastika i lemljenje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20ger%20poteznog%20cirkulara%20za%20metal%20beograd%20secenje%20metala%20pod%20uglom.jpg",
+          "label": "iznajmljivanje ger poteznog cirkulara za metal beograd secenje metala pod uglom"
+        }
+      ]
+    },
+    {
+      "id": "tool-042",
+      "name": "Aparat za varenje",
+      "category": "Metal, plastika i lemljenje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20aparata%20za%20varenje%20elektrode%20elektro%20punjena%20zica%20co2%20aparat%20za%20varenje%20beograd%20najam%20renta.jpg",
+          "label": "iznajmljivanje aparata za varenje elektrode elektro punjena zica co2 aparat za varenje beograd najam renta"
+        }
+      ]
+    },
+    {
+      "id": "tool-043",
+      "name": "Ugaona brusilica",
+      "category": "Metal, plastika i lemljenje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20male%20i%20velike%20brusilice%20beograd%20iznajmljivanje%20alata.jpg",
+          "label": "iznajmljivanje male i velike brusilice beograd iznajmljivanje alata"
+        }
+      ]
+    },
+    {
+      "id": "tool-044",
+      "name": "Tocilo / oštrač",
+      "category": "Metal, plastika i lemljenje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-tocila-ostraca-nozeva-metala-alata-tocilo-za-ostrenje-beograd",
+          "title": "Iznajmljivanje tocila ostraca nozeva metala alata - Tocilo za ostrenje Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-045",
+      "name": "Indukcioni grejač za šrafove",
+      "category": "Metal, plastika i lemljenje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/indukcioni-grejac-za-srafove-metal-vevor-brzo-odvijanje-bez-ostecenja-iznajmljivanje-beograd",
+          "title": "Indukcioni grejac za srafove (metal) VEVOR – brzo odvijanje, bez ostecenja | Iznajmljivanje Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-046",
+      "name": "Pištolj za pop nitne",
+      "category": "Metal, plastika i lemljenje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-aku-pistolja-za-pop-nitne-bosch-grg-18v-iznajmljivanje-alata-beograd",
+          "title": "Iznajmljivanje specijalnog aku pistolja za pop nitne BOSCH GRG 18v - Iznajmljivanje Alata Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-047",
+      "name": "Fen za vruć vazduh",
+      "category": "Metal, plastika i lemljenje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-pistolja-fena-za-vreli-vazduh-beograd-pistolj-fen-za-vruc-vazduh",
+          "title": "Iznajmljivanje Pistolja fena za vreli vazduh Beograd - Pistolj fen za vruc vazduh"
+        }
+      ]
+    },
+    {
+      "id": "tool-048",
+      "name": "Lemilica",
+      "category": "Metal, plastika i lemljenje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-lemilice-beograd-elektronicar-beograd",
+          "title": "Iznajmljivanje lemilice Beograd - Elektronicar Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-049",
+      "name": "Mašina za sečenje pločica",
+      "category": "Keramika i vodovod",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/masina-za-secenje-keramickih-plocica-masina-za-keramiku",
+          "title": "Masina za secenje keramickih plocica - masina za keramiku"
+        },
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/rucni-alat-za-adaptacije/iznajmljivanje-masine-za-keramiku-secenje-keramickih-plocica-beograd-iznajmljivanje-alata-beorental",
+          "title": "Iznajmljivanje masine za keramiku secenje keramickih plocica Beograd - Iznajmljivanje Alata Beorental"
+        }
+      ]
+    },
+    {
+      "id": "tool-050",
+      "name": "Vibracioni pištolj za keramiku",
+      "category": "Keramika i vodovod",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/akumulatorski%20aku%20vibracioni%20pistolj%20za%20keramiku.jpg",
+          "label": "akumulatorski aku vibracioni pistolj za keramiku"
+        }
+      ]
+    },
+    {
+      "id": "tool-051",
+      "name": "Mikser za lepak i boju",
+      "category": "Keramika i vodovod",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/mikser-za-lepak-rucni-mesac-za-lepak-boju-iznajmljivanje-miksera-za-lepak-beograd",
+          "title": "Iznajmljivanje Miksera Lepak Rucni Mesac Mikser za lepak boju - Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-052",
+      "name": "Varilica za plastične vodovodne cevi",
+      "category": "Keramika i vodovod",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-pegle-varilice-za-pvc-vodovodne-cevi-beograd",
+          "title": "Iznajmljivanje pegle varilice za PVC vodovodne cevi Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-053",
+      "name": "Vodoinstalaterska klešta",
+      "category": "Keramika i vodovod",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20iznajmljujem%20gedore%20beograd%20kljesta%20za%20vodovod%20gedore-klesta-za-vodovod-43mm-r27160009-cene.jpg",
+          "label": "iznajmljivanje iznajmljujem gedore beograd kljesta za vodovod gedore-klesta-za-vodovod-43mm-r27160009-cene"
+        }
+      ]
+    },
+    {
+      "id": "tool-054",
+      "name": "Stega za cevi",
+      "category": "Keramika i vodovod",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljujem%20stegu%20za%20cevi%20pvc%20okiten%20vodovod%20voda%20majstor%20vodoinstalater.webp",
+          "label": "iznajmljujem stegu za cevi pvc okiten vodovod voda majstor vodoinstalater beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-055",
+      "name": "Laserski nivelator",
+      "category": "Merenje i detekcija",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-3d-4d-laserskog-nivelatora-libele-linijski-laser-laserski-nivelator-libela-beograd",
+          "title": "Iznajmljivanje 3D 4D Laserskog nivelatora Libele - Linijski Laser Laserski Nivelator Libela Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-056",
+      "name": "Laserski daljinomer",
+      "category": "Merenje i detekcija",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-preciznog-laserskog-metra-40m-50m-bosch-glm-40-50-laserski-daljinomer",
+          "title": "Iznajmljivanje preciznog laserskog metra 40m 50m Bosch GLM 40 50 - Laserski daljinomer"
+        }
+      ]
+    },
+    {
+      "id": "tool-057",
+      "name": "Endoskopska / inspekciona kamera",
+      "category": "Merenje i detekcija",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/endoskop-iznajmljivanje-alata-endoskopske-kamere-bosch-gic-120-c-akumulatorska-inspekciona-kamera-beograd",
+          "title": "Endoskop - Iznajmljivanje alata endoskopske kamere Bosch GIC 120 C Akumulatorska inspekciona kamera Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-058",
+      "name": "Termalna kamera",
+      "category": "Merenje i detekcija",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-termalne-kamere-termo-detektora-beograd-iznajmljivanje-alata",
+          "title": "Iznajmljivanje Termalne kamere termo detektora Beograd - Iznajmljivanje alata"
+        }
+      ]
+    },
+    {
+      "id": "tool-059",
+      "name": "Akustični detektor curenja vode",
+      "category": "Merenje i detekcija",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-alata-za-detekciju-curenja-vode-beograd",
+          "title": "Iznajmljivanje Alata za Detekciju Curenja Vode Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-060",
+      "name": "Detektor metala",
+      "category": "Merenje i detekcija",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-detektora-metal-beograd",
+          "title": "Iznajmljivanje Detektora Metal Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-061",
+      "name": "Detektor kablova i instalacija",
+      "category": "Merenje i detekcija",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/specijalni-alat-za-detekciju/iznajmljivanje-renta-detektora-kablova-u-zidu-bosch-d-tect-200-uredjaja-za-otkrivanje-kablova-instalacija",
+          "title": "Iznajmljivanje - Renta - Detektora kablova u zidu - Bosch D-Tect 200 - Uredjaja za otkrivanje kablova instalacija"
+        }
+      ]
+    },
+    {
+      "id": "tool-062",
+      "name": "Električna dizalica „vrabac“",
+      "category": "Podizanje i transport",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20dizalice%20vrabac%20za%20dizanje%20tereta%20do%20100%20kg.jpg",
+          "label": "iznajmljivanje dizalice vrabac za dizanje tereta do 100 kg"
+        }
+      ]
+    },
+    {
+      "id": "tool-063",
+      "name": "Hidraulična dizalica „krokodilka“",
+      "category": "Podizanje i transport",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20dizalice%20krokodilke%20beograd%202t.jpg",
+          "label": "iznajmljivanje dizalice krokodilke beograd 2t"
+        }
+      ]
+    },
+    {
+      "id": "tool-064",
+      "name": "Teretna kolica za stepenice",
+      "category": "Podizanje i transport",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20teretnih%20kolica%20za%20podizanje%20uz%20stepenice%20do%20100%20kg.jpg",
+          "label": "iznajmljivanje teretnih kolica za podizanje uz stepenice do 100 kg"
+        }
+      ]
+    },
+    {
+      "id": "tool-065",
+      "name": "Ručno vitlo",
+      "category": "Podizanje i transport",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20rucnog%20vitla%20zatezaca%20sa%20polugom%20sajla%201t.jpg",
+          "label": "iznajmljivanje rucnog vitla zatezaca sa polugom sajla 1t"
+        }
+      ]
+    },
+    {
+      "id": "tool-066",
+      "name": "Podupirač / dizalica za gips ploče",
+      "category": "Podizanje i transport",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-podupiraca-dizalice-za-gips-ploce-beograd-iznajmljivanje-alata-u-beogradu",
+          "title": "Iznajmljivanje podupiraca dizalice za gips ploce Beograd - Iznajmljivanje alata u Beogradu"
+        }
+      ]
+    },
+    {
+      "id": "tool-067",
+      "name": "Agregat za struju",
+      "category": "Struja, kompresori i grejanje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-agregata-beograd-generatora-struje",
+          "title": "Iznajmljivanje Agregata za struju Beograd Generatora struje"
+        }
+      ]
+    },
+    {
+      "id": "tool-068",
+      "name": "Vazdušni kompresor",
+      "category": "Struja, kompresori i grejanje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-kompresora-beograd-iznajmljivanje-alata-besumnih-brzih-od-50l",
+          "title": "Iznajmljivanje Kompresora Beograd - Besumnih brzih od 50L - Iznajmljivanje alata Beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-069",
+      "name": "Produžni kablovi i motalice",
+      "category": "Struja, kompresori i grejanje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "page",
+          "url": "https://beorental.com/iznajmljivanje-alata/iznajmljivanje-produznih-kablova-beograd-motalica-3-x-2-5",
+          "title": "Iznajmljivanje produznih kablova Beograd Motalica 3 x 2.5"
+        }
+      ]
+    },
+    {
+      "id": "tool-070",
+      "name": "LED reflektor",
+      "category": "Struja, kompresori i grejanje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20led%20reflektora%20rasvete%20velike%20jacine%20osvetljenosti%20IP%20vodootpornih%20sijalica%20event%20organizacija%20elektro%20oprema%20beograd.png",
+          "label": "iznajmljivanje led reflektora rasvete velike jacine osvetljenosti IP vodootpornih sijalica event organizacija elektro oprema beograd"
+        }
+      ]
+    },
+    {
+      "id": "tool-071",
+      "name": "Keramička grejalica",
+      "category": "Struja, kompresori i grejanje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20prenosivih%20keramickih%20grejalica%20ptc%20grejac%20norveski%20radijator%20zagrevanje%20dogrevanje%20prostorije%20lokala%20kuce%20renta%20rentiranje%20rental%20beograd%20event%20dogadjaji%20najjeftinije%20grejanje%20na%20struju%20ekonomicno.jpg",
+          "label": "iznajmljivanje prenosivih keramickih grejalica ptc grejac norveski radijator zagrevanje dogrevanje prostorije lokala kuce renta rentiranje rental beograd event dogadjaji najjeftinije grejanje na struju ekonomicno "
+        }
+      ]
+    },
+    {
+      "id": "tool-072",
+      "name": "Plinski top",
+      "category": "Struja, kompresori i grejanje",
+      "status": "draft_needs_inventory_details",
+      "models": null,
+      "quantity": null,
+      "rental_price_rsd": null,
+      "deposit_rsd": null,
+      "availability": null,
+      "evidence": [
+        {
+          "type": "homepage_image_label",
+          "url": "https://beorental.com/",
+          "image_url_reference_only": "https://beorental.com/images/Iznajmljivanje_Alata/iznajmljivanje%20grejalica%20na%20plin%20plinski%20top%20plinskih%20topova%20beograd%20dogrevanje%20zagrevanje%20prostorija%20butan%20gas%20potrosnja%20ekonomicne%20eventi%20dogadjaji%20manifestacije%20desavanja%20plinsko%20grejno%20telo.jpg",
+          "label": "iznajmljivanje grejalica na plin plinski top plinskih topova beograd dogrevanje zagrevanje prostorija butan gas potrosnja ekonomicne eventi dogadjaji manifestacije desavanja plinsko grejno telo"
+        }
+      ]
+    }
+  ]
+}

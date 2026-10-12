@@ -1,0 +1,630 @@
+[
+  {
+    "id": "tool-004",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=industrijski+usisiva%C4%8D",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/REM%20Power_288030_80.jpg?2026-02-19-1",
+    "alt": "REM Power - Usisivač VC 803 - 3 motora",
+    "local": "/images/catalog/tool-004.jpg",
+    "bytes": 47540,
+    "sha256": "766dcc12faae80cbe52a7ba482dac7607d38ac45940d9881e8c4126280243a69"
+  },
+  {
+    "id": "tool-007",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=polirka",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_PV001GZ_584.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorska ugaona polirka PV001GZ",
+    "local": "/images/catalog/tool-007.jpg",
+    "bytes": 164139,
+    "sha256": "1b03859a62f2d386be99aab41e593d4e0632ae35680b47c2d178ed3271b82709"
+  },
+  {
+    "id": "tool-011",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=odvla%C5%BEiva%C4%8D",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/5891c8f4b44f8Secco-80-Set.jpg?2026-02-19-1",
+    "alt": "REMS - Odvlaživač vazduha/građevinska sušilica REMS Secco 80 Set",
+    "local": "/images/catalog/tool-011.jpg",
+    "bytes": 56781,
+    "sha256": "62dcd647aa79b7c64607676e23c1f9817535ec827c82e61c01233001e4c64f5f"
+  },
+  {
+    "id": "tool-013",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=potapaju%C4%87a+pumpa",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601797000_108.jpg?2026-02-19-1",
+    "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 220-35 S Inox",
+    "local": "/images/catalog/tool-013.jpg",
+    "bytes": 107093,
+    "sha256": "7db64d891216641d14b7572c85780b9febffb84a2371f485c0bb4b1e132edcc1"
+  },
+  {
+    "id": "tool-014",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=potapaju%C4%87a+pumpa",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601729850_201.jpg?2026-02-19-1",
+    "alt": "Metabo - Akumulatorska potapajuća pumpa TPF 18 LTX 2200",
+    "local": "/images/catalog/tool-014.jpg",
+    "bytes": 103818,
+    "sha256": "5148ad66d179b5aa59eea986b94bb461ef8a9acd4a01611610d7808ea4a254b3"
+  },
+  {
+    "id": "tool-015",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=motorna+pumpa",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/56d758257a4a8oleo-mac-SA-30-TLA.jpg?2026-02-19-1",
+    "alt": "Oleo Mac - Samousisna motorna pumpa za vodu SA 30 TLA",
+    "local": "/images/catalog/tool-015.jpg",
+    "bytes": 64635,
+    "sha256": "40d860bc11942d13f3e7cf0a50c2ca440c42047144746cf63f1be5da5cda0d16"
+  },
+  {
+    "id": "tool-018",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=motorni+trimer",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/92_Oleo-mac-755-master.jpg?2026-02-19-1",
+    "alt": "Oleo Mac - Profesionalni motorni trimer 755 Master",
+    "local": "/images/catalog/tool-018.jpg",
+    "bytes": 26473,
+    "sha256": "e9474f998c234ce54200a891d509a7728292d599b462bbe493b8b03373c86749"
+  },
+  {
+    "id": "tool-019",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=trimer+za+%C5%BEivu+ogradu",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDHT58262CM_769.jpg?2026-02-19-1",
+    "alt": "DCK - Akumulatorske makaze za živu ogradu KDHT58262CM sa baterijom 58V 2.5Ah i punjačem",
+    "local": "/images/catalog/tool-019.jpg",
+    "bytes": 51203,
+    "sha256": "68eca7a17619bde1a334683b025c56cef1fa6ff5ed072767d16d091fe410da06"
+  },
+  {
+    "id": "tool-021",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=duva%C4%8D",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/5760371751518bosch%20ALS%2030%20-%20Copy.jpg?2026-02-19-1",
+    "alt": "Bosch - baštenski program - Baštenski usisivač ALS 30",
+    "local": "/images/catalog/tool-021.jpg",
+    "bytes": 72758,
+    "sha256": "1c97f65c79025d219ead62a3a4c569bc441e8413fc863b3e13847c77efb081b0"
+  },
+  {
+    "id": "tool-022",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=seckalica",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/5512fa48006cabosch_axt_rapid_2000.jpg?2026-02-19-1",
+    "alt": "Bosch - baštenski program - Rapid-seckalica AXT Rapid 2000",
+    "local": "/images/catalog/tool-022.jpg",
+    "bytes": 51442,
+    "sha256": "a1b920a72def3fd12770632f144193e9f6f642c58fe291ae8c210168ad51f690"
+  },
+  {
+    "id": "tool-023",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=bu%C5%A1ilica+za+beton",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HR002GZ_581.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorska bušilica za beton SDS-Plus HR002GZ",
+    "local": "/images/catalog/tool-023.jpg",
+    "bytes": 302382,
+    "sha256": "1330b263c17275547d0cddbf1417112fd65f946123404a894e3e9eaa5f8af03c"
+  },
+  {
+    "id": "tool-024",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=%C4%8Deki%C4%87+za+ru%C5%A1enje",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_M8600B_267.jpg?2026-02-19-1",
+    "alt": "Makita - Štemarica SDS-Plus M8600B",
+    "local": "/images/catalog/tool-024.jpg",
+    "bytes": 257180,
+    "sha256": "43a5cf2fc81858015b56f8a0a6ce3a989d3a7b0c97e514a91168c290ed228bb6"
+  },
+  {
+    "id": "tool-026",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=brusilica+za+zid",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2024/Bosch_06017D4020_350.png?2026-02-19-1",
+    "alt": "Bosch - Brusilica za zidove (žirafa) GTR 550 Professional",
+    "local": "/images/catalog/tool-026.png",
+    "bytes": 59242,
+    "sha256": "4ee35a76c35b1d23dc34962afe62dc29f7fbb0115dff52d4e1e9963be4cac8c0"
+  },
+  {
+    "id": "tool-027",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=brusilica+za+beton",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-pc5000c-1_15.jpg?2026-02-19-1",
+    "alt": "Makita - Brusilica za beton PC5000C",
+    "local": "/images/catalog/tool-027.jpg",
+    "bytes": 53165,
+    "sha256": "c76e764c0a7833eef06f73f7967c1b4314089981ddd2ebb072deb981c1b3abfe"
+  },
+  {
+    "id": "tool-030",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=vibrator+za+beton",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_VR001GZ_643.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorska vibroigla za beton VR001GZ",
+    "local": "/images/catalog/tool-030.jpg",
+    "bytes": 347347,
+    "sha256": "d03f088d23c403a2169c3db97088a29562cfffe9ce182fff8f053fd9364e9574"
+  },
+  {
+    "id": "tool-031",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=DDF",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DDF487Z_805.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorska bušilica - odvijač DDF487Z",
+    "local": "/images/catalog/tool-031.jpg",
+    "bytes": 197719,
+    "sha256": "7623e83e972774a4e7427facca57a30acf0521ff26ff4f2706edb16debad7059"
+  },
+  {
+    "id": "tool-032",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=udarni+odvija%C4%8D",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_TD003GZ_374.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorski udarni odvijač TD003GZ",
+    "local": "/images/catalog/tool-032.jpg",
+    "bytes": 234257,
+    "sha256": "f804b2c29da01d1300ea1d65f44d89c039f886a3df7ad2073da997d4f30e01ee"
+  },
+  {
+    "id": "tool-033",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=potezna+testera",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601B53000_563.png?2026-02-19-1",
+    "alt": "Bosch - Potezna testera PRO GCM 254 D",
+    "local": "/images/catalog/tool-033.png",
+    "bytes": 506319,
+    "sha256": "7b2566ac5d81f4f5db8a19e8835ac4b61cf7c9e638c9d47e40c0de95d412d41d"
+  },
+  {
+    "id": "tool-034",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=multifunkcionalni+alat",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/5570b4d10f086bosch_pmf_10-8_li.jpg?2026-02-19-1",
+    "alt": "Bosch-zeleni - Akumulatorski multifunkcionalni alat PMF 10,8 LI",
+    "local": "/images/catalog/tool-034.jpg",
+    "bytes": 59641,
+    "sha256": "64754ad8cb9ef58106b98b0647bdf235fee7fca368b714dde63089d17811bc69"
+  },
+  {
+    "id": "tool-035",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=sabljasta+testera",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601617850_129.jpg?2026-02-19-1",
+    "alt": "Metabo - Akumulatorska univerzalna testera SSEP 18 LT BL",
+    "local": "/images/catalog/tool-035.jpg",
+    "bytes": 82262,
+    "sha256": "9f7f5cf8132e0eced0ff77b34decce43d9e5d7f6b5df49866a2ecdea791deeca"
+  },
+  {
+    "id": "tool-036",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=glodalica",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_RT001GZ18_79.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorska glodalica RT001GZ18",
+    "local": "/images/catalog/tool-036.jpg",
+    "bytes": 308867,
+    "sha256": "273199223ef3dbaeb0269e0fa7829715fecc2f65321973376b936b4bac5f6d98"
+  },
+  {
+    "id": "tool-038",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=rende",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_KP001GZ_724.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorske rende KP001GZ",
+    "local": "/images/catalog/tool-038.jpg",
+    "bytes": 283743,
+    "sha256": "796f290d50363d6730c95e3ae0671d11b45fe0cb7a2e32db898d5c634f7e9540"
+  },
+  {
+    "id": "tool-039",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=ubodna+testera",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_JV001GZ_671.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorska ubodna testera JV001GZ",
+    "local": "/images/catalog/tool-039.jpg",
+    "bytes": 276170,
+    "sha256": "145cf7907c5c9dc4a400981cf135c089538f1fc5b4942b50fde5b2fc61af8da5"
+  },
+  {
+    "id": "tool-040",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=stona+testera",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch%20Expert_0601B30800_758.png?2026-02-19-1",
+    "alt": "Bosch Expert - Stona testera EXPERT EXTS100-254X",
+    "local": "/images/catalog/tool-040.png",
+    "bytes": 293930,
+    "sha256": "639d04c28cbbc5eef323f21ac279834f932d2e4dd924e326bbbda38c28786cac"
+  },
+  {
+    "id": "tool-041",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=testera+za+metal",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KJG09-355_674.jpg?2026-02-19-1",
+    "alt": "DCK - Brusilica za metal KJG09-355",
+    "local": "/images/catalog/tool-041.jpg",
+    "bytes": 78562,
+    "sha256": "f0b9e49f81b78976f59428f136e7e3c90ff3c0defbe5782308b5ab156b216339"
+  },
+  {
+    "id": "tool-042",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=aparat+za+zavarivanje",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/ESAB_140170_190.jpg?2026-02-19-1",
+    "alt": "ESAB - Aparat za zavarivanje ROGUE ES 201iP PRO",
+    "local": "/images/catalog/tool-042.jpg",
+    "bytes": 48963,
+    "sha256": "4b833e89c424ea7f43cee52feef1ec6099e72b3d9b61337c6266be0926d8403a"
+  },
+  {
+    "id": "tool-043",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=ugaona+brusilica",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DGA519Z_79.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorska ugaona brusilica DGA519Z",
+    "local": "/images/catalog/tool-043.jpg",
+    "bytes": 181769,
+    "sha256": "7d2f3895808c9647b3a54130e3b7f3025c930be94e69d3811f70cd18682447cd"
+  },
+  {
+    "id": "tool-044",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=stona+brusilica",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-gb602-1_33.jpg?2026-02-19-1",
+    "alt": "Makita - Dvostrana stona brusilica GB602",
+    "local": "/images/catalog/tool-044.jpg",
+    "bytes": 63926,
+    "sha256": "4784bae75e6d6b9b838658cda220bce0b17d7b9017006ecd1c53915195b1ae17"
+  },
+  {
+    "id": "tool-046",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=zakiv",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/94_makita-DRV250Z.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorski pištolj za zakivanje DRV250Z",
+    "local": "/images/catalog/tool-046.jpg",
+    "bytes": 57510,
+    "sha256": "b3c02e243b92360220e44d0e5011f61829f4ba8f9bec816c9cb68b328c3e50c5"
+  },
+  {
+    "id": "tool-047",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=fen",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HG001GZ_802.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorski fen za vrući vazduh HG001GZ",
+    "local": "/images/catalog/tool-047.jpg",
+    "bytes": 309238,
+    "sha256": "416ce4f35dbfc73fa5f40a77daaa23f9bf713438d439a3ef63ed08ef37fee0cb"
+  },
+  {
+    "id": "tool-048",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=lemilica",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06019S8000_35.jpg?2026-02-19-1",
+    "alt": "Bosch - Akumulatorska lemilica PRO GLK12V-420",
+    "local": "/images/catalog/tool-048.jpg",
+    "bytes": 136422,
+    "sha256": "e3db12eab62999c6bc4d936bebb81d1dd980323cbc325b32d5eb46ad64af1598"
+  },
+  {
+    "id": "tool-049",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=reza%C4%8D+plo%C4%8Dica",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/574cb6b15e547ferm%20TCM1011.jpg?2026-02-19-1",
+    "alt": "FERM - Rezač pločica TCM1011",
+    "local": "/images/catalog/tool-049.jpg",
+    "bytes": 46156,
+    "sha256": "0c034a419fbce854728b6f8e97d1f4ae5322ba7ca4e3cd24e816c745932c20b9"
+  },
+  {
+    "id": "tool-051",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=me%C5%A1a%C4%8D",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/5596f9871a316makita-UT1200.jpg?2026-02-19-1",
+    "alt": "Makita - Mešač - mikse UT1200",
+    "local": "/images/catalog/tool-051.jpg",
+    "bytes": 44804,
+    "sha256": "58ae618a2009deee58e7cf685c70a63a70113d41d85a12c07c6fa42db848b30f"
+  },
+  {
+    "id": "tool-053",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=papagaj",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/92_makita-B-65492.jpg?2026-02-19-1",
+    "alt": "Makita - Papagaj klešta B-65492",
+    "local": "/images/catalog/tool-053.jpg",
+    "bytes": 36897,
+    "sha256": "e5ddd49838c71e31aed3541f1d0687dd2757433e429cfcd762aec73a08535428"
+  },
+  {
+    "id": "tool-055",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=laser",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_SK700GD_846.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorski laser sa više linija SK700GD",
+    "local": "/images/catalog/tool-055.jpg",
+    "bytes": 422584,
+    "sha256": "047d16a2d22f17cecf29787e0fde7b1b6f454ea0e1547b160a86e22ac9ea786d"
+  },
+  {
+    "id": "tool-056",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=daljinomer",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch-zeleni_0603672M00_133.png?2026-02-19-1",
+    "alt": "Bosch-zeleni - Digitalni laserski daljinomer PLM40-23",
+    "local": "/images/catalog/tool-056.png",
+    "bytes": 450184,
+    "sha256": "3e4a973d5012b7073f8efcf445f091b07753be3d5ca9e736ec21679400569a97"
+  },
+  {
+    "id": "tool-057",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=inspekcijska+kamera",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/ridgid-seesnake-micro_84.jpg?2026-02-19-1",
+    "alt": "Ridgid - SeeSnake Inspekcijska kamera 17mm",
+    "local": "/images/catalog/tool-057.jpg",
+    "bytes": 45387,
+    "sha256": "c15bac47610c94306b025817f71aa50273f2defdce6a47bb4d4c2739f6212939"
+  },
+  {
+    "id": "tool-058",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=termovizijska",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/5c3b753679e18868.jpg?2026-02-19-1",
+    "alt": "Testo - Termovizijska kamera 868",
+    "local": "/images/catalog/tool-058.jpg",
+    "bytes": 34428,
+    "sha256": "1ce5c281738eb01a11a8de84403c3ae3ee5dcc5a7258e5472a26d4f4472b1369"
+  },
+  {
+    "id": "tool-061",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=detektor",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601081800_761.png?2026-02-19-1",
+    "alt": "Bosch - Detektor metala PRO GMS 100-23",
+    "local": "/images/catalog/tool-061.png",
+    "bytes": 204461,
+    "sha256": "e0a13935e8008774be9caa82c3475fd6c44d411585625bb18e5bb749eac3a4af"
+  },
+  {
+    "id": "tool-063",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=dizalica",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/beta-3030-2t_3.jpg?2026-02-19-1",
+    "alt": "Beta - Dizalica krokodil-2t 3030/2T",
+    "local": "/images/catalog/tool-063.jpg",
+    "bytes": 36471,
+    "sha256": "2bccbdff7aa3f9d3f1086e70806377b6d3203d524247cdddd6712c5243488593"
+  },
+  {
+    "id": "tool-067",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=agregat",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/REM%20Power_39033000102_134.jpg?2026-02-19-1",
+    "alt": "REM Power - Agregat GSEm 3300 SB",
+    "local": "/images/catalog/tool-067.jpg",
+    "bytes": 75909,
+    "sha256": "2452d262b8dee4428b1a46a858f71b3718a2cb20ae5e11d48f7e96e52be315e1"
+  },
+  {
+    "id": "tool-068",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=kompresor",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/58a0d5c7ed08dMontecarlo-L20P.jpg?2026-02-19-1",
+    "alt": "ABAC - Uljni klipni kompresor Montecarlo L20 boca 50L",
+    "local": "/images/catalog/tool-068.jpg",
+    "bytes": 64207,
+    "sha256": "63b971c75bd626f74793209a2234dd55cf5c47aed5278c40bf21c9951bf2e415"
+  },
+  {
+    "id": "tool-070",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=reflektor",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/576c524e795a3makita%20DEADML805.jpg?2026-02-19-1",
+    "alt": "Makita - LED Reflektor DEADML805",
+    "local": "/images/catalog/tool-070.jpg",
+    "bytes": 62865,
+    "sha256": "823eac3989aa31c1a951fa63d839a9bb6523b297788b6f4700e323abd06a18a8"
+  },
+  {
+    "id": "tool-001",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=%C4%8Dista%C4%8D",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HW001GZ_180.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorski čistač sa visokim pritiskom HW001GZ",
+    "local": "/images/catalog/tool-001.jpg",
+    "bytes": 134799,
+    "sha256": "04c4547ab6f2a40c6b57e3d45a896934dac114fa411c4926df461c38d765d9e5"
+  },
+  {
+    "id": "tool-016",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=kosa%C4%8Dica",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/25_Oleo-mac-G-53-TK-ALLROAD-PLUS-4.jpg?2026-02-19-1",
+    "alt": "Oleo Mac - Motorna kosilica samohodna G 53 TK ALLROAD PLUS 4",
+    "local": "/images/catalog/tool-016.jpg",
+    "bytes": 83549,
+    "sha256": "5422d0e51ddb25b5b90b7976830f627230fa7b096e27e860ae0520bb8d88a725"
+  },
+  {
+    "id": "tool-025",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=kanala",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/54f4c6b76ea2amakita-SG1251J-1.jpg?2026-02-19-1",
+    "alt": "Makita - Rezač kanala SG1251J",
+    "local": "/images/catalog/tool-025.jpg",
+    "bytes": 52700,
+    "sha256": "7643db2a668d0f004b9a78e1f78521c6233d7a7a85dbaf62b2af9be49591a990"
+  },
+  {
+    "id": "tool-028",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=PFS",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_pfs_105_e_wallpaint_48.jpg?2026-02-19-1",
+    "alt": "Bosch-zeleni - Sistem za prskanje boje PFS 105 E WALLPaint",
+    "local": "/images/catalog/tool-028.jpg",
+    "bytes": 71218,
+    "sha256": "791a7198605ddc0acd5752d7c557e2398b560fc5407d18cc0e749a921620c28d"
+  },
+  {
+    "id": "tool-029",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=EK6100",
+    "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-ek6100_21.jpg?2026-02-19-1",
+    "alt": "Makita - Benzinski sekač EK6100",
+    "local": "/images/catalog/tool-029.jpg",
+    "bytes": 61012,
+    "sha256": "a3492ae80277c06eb7176c3ad723d7ecf27e948b79fc8386502098cfc590cf04"
+  },
+  {
+    "id": "tool-052",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=greja%C4%8D",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-82250_902.jpg?2026-02-19-1",
+    "alt": "Yato - Aparat za varenje PVC cevi 16-63mm",
+    "local": "/images/catalog/tool-052.jpg",
+    "bytes": 118042,
+    "sha256": "1dc4653004ca575b841f489b66142817041d7885897c66e85278ea3b4acdeb0f"
+  },
+  {
+    "id": "tool-005",
+    "page": "https://www.vevor.com/s/cyclone-dust-separator",
+    "source": "https://img.vevorstatic.com/us%2FDTXFCCQTJZXBLCKLWV0%2Fgoods_img-v1%2Fcyclone-dust-separator-m100-1.2.jpg?timestamp=1722565634000&format=webp",
+    "alt": "",
+    "local": "/images/catalog/tool-005.jpg",
+    "bytes": 23602,
+    "sha256": "afc4c19bb2cacac1a8658d59fae9ee83c707e9e6d3154ee6d23c32fd7ab8c0eb"
+  },
+  {
+    "id": "tool-009",
+    "page": "https://www.vevor.com/s/pressure-washer-surface-cleaner",
+    "source": "https://img.vevorstatic.com/us%2FGYQXJBMQJQYP32K7VV0%2Fgoods_img-v5%2Fpressure-washer-surface-cleaner-m100-1.2.jpg?timestamp=1740116177000&format=webp",
+    "alt": "",
+    "local": "/images/catalog/tool-009.jpg",
+    "bytes": 19960,
+    "sha256": "fdca6734949af833a705d0c3a8ac36dd1aa23c5c33724c192c34195c8ba7efc1"
+  },
+  {
+    "id": "tool-010",
+    "page": "https://www.vevor.com/s/ultrasonic-cleaner",
+    "source": "https://img.vevorstatic.com/us%2FJPS-100ACSBQXJX01V1%2Fgoods_img-v13%2Fultrasonic-cleaner-m100-1.2.jpg?timestamp=1730439953000&format=webp",
+    "local": "/images/catalog/tool-010.jpg",
+    "bytes": 39970,
+    "sha256": "01fae609b0e2c3d03f80381b901649ed132116a07a668a61b71b67652772d750"
+  },
+  {
+    "id": "tool-002",
+    "page": "https://www.kaercher.com/int/home-garden/steam-cleaners/sc-3-easyfix-15136500.html",
+    "source": "https://s1.kaercher-media.com/mam/15136500/mainproduct/220251/d0.jpg",
+    "local": "/images/catalog/tool-002.jpg",
+    "bytes": 322132,
+    "sha256": "95a18456cef05fceb6814a32c66a39b5dd8c8cd41ff611ab00a8832591d4e9cd"
+  },
+  {
+    "id": "tool-003",
+    "page": "https://www.kaercher.com/rs/profesionalni-asortiman/cistac-tepiha/masine-za-dubinsko-pranje/puzzi-8-1-11002400.html",
+    "source": "https://s1.kaercher-media.com/mam/11002400/mainproduct/196789/d0.jpg",
+    "local": "/images/catalog/tool-003.jpg",
+    "bytes": 325327,
+    "sha256": "e77621b39a83aacdccb3d4b5d0be5049afd826963210d102e38526ae8a59198e"
+  },
+  {
+    "id": "tool-006",
+    "page": "https://www.azijashop.com/products/set-cetki-22-kom-ribanje-busilica-kuhinja-kupatilo-auto",
+    "source": "https://www.azijashop.com/cdn/shop/files/set-cetki-sundjera-za-busilicu-ciscenje-poliranje-profesionalni.png?v=1762868192",
+    "local": "/images/catalog/tool-006.png",
+    "bytes": 165013,
+    "sha256": "7f27804dca34376ef01952a75723ba5ff13820999423f9b96046418330aa9163"
+  },
+  {
+    "id": "tool-037",
+    "page": "https://www.laegler.com/es/productos/maquinas/hummel",
+    "source": "https://www.laegler.com/fileadmin/_processed_/f/4/csm_HUMMEL__2020-10-14_d7f68220e4.png",
+    "local": "/images/catalog/tool-037.png",
+    "bytes": 714535,
+    "sha256": "99a65ae3bdb649e9da35ad6f96ca9f7d5546e92cf39596bc391f2009cbdbec1b"
+  },
+  {
+    "id": "tool-017",
+    "page": "https://alko-garden.uk/garden-tools/lawn-care/scythe-mowers/solo-by-al-ko-premium-bm-5001-r-iv-petrol-scythe-mower-102cm-cut.html",
+    "source": "https://alko-webshop-assets-prod.s3.eu-central-1.amazonaws.com/generated/product/1/540_340_90/127767-bar-mower-bm-5001-r-iv-set-webshop-00.jpg",
+    "local": "/images/catalog/tool-017.jpg",
+    "bytes": 17816,
+    "sha256": "a13407a3354db21b90af581b35927fe315579b045cb3ab4dea5361e1876e4dab"
+  },
+  {
+    "id": "tool-045",
+    "page": "https://www.sealey.co.uk/induction-heater-1000w-vs240/",
+    "source": "https://cdn11.bigcommerce.com/s-4koocm6ozh/products/116405/images/80861/VS240.V2_DFC1384281__31684.1749099183.386.513.png?c=1",
+    "local": "/images/catalog/tool-045.png",
+    "bytes": 54745,
+    "sha256": "1b8bb50a326d49ac32ca385cb96b7936fa4063b96e42aec8cc2dea1fe38c9498"
+  },
+  {
+    "id": "tool-050",
+    "page": "https://www.svezamajstore.rs/vibracioni-vakumski-pistolj-za-plocice-20v-solo-bormann-pro-bbp3250.html",
+    "source": "https://www.svezamajstore.rs/media/catalog/product/cache/1ec6b4f26be80134b388ad9e3c801c25/b/b/bbp3250-1-2_1.jpg",
+    "local": "/images/catalog/tool-050.jpg",
+    "bytes": 56278,
+    "sha256": "cfffc9e01a96856f28bce60eac1028fbd2043093940b7cc6c2f5239a4065bd20"
+  },
+  {
+    "id": "tool-060",
+    "page": "https://alitako.com/products/metal-detektor-md-3010",
+    "source": "https://alitako.com/cdn/shop/files/metal-detektor-md-3_1200x1200.jpg?v=1712800537",
+    "local": "/images/catalog/tool-060.jpg",
+    "bytes": 51594,
+    "sha256": "d11bf4d455c33ad1fc888230da1a58c45912977dd84643dc7658b23549812977"
+  },
+  {
+    "id": "tool-062",
+    "page": "https://www.einhell.rs/en/p/2255130-tc-eh-250/",
+    "source": "https://d2c5rvsfjg2eub.cloudfront.net/image/208244749100/image_5tsmngek757v79314ikv843l3s/-FJPG-FWEBP-B800",
+    "local": "/images/catalog/tool-062.webp",
+    "bytes": 23110,
+    "sha256": "6224c32c7d5b1ce5b264f415955f04007d38b382c881ce74baebf804536b531f"
+  },
+  {
+    "id": "tool-065",
+    "page": "https://www.einhell.rs/en/p/2260160-tc-wi-500/",
+    "source": "https://d2c5rvsfjg2eub.cloudfront.net/image/208244749100/image_9c929sq1up4ipbmubn6no2dp2t/-FJPG-FWEBP-B800",
+    "local": "/images/catalog/tool-065.webp",
+    "bytes": 23722,
+    "sha256": "e47da0f716730ca258de5d3004385103c079a1c37f6e1dd2bc9c982db3e4c0da"
+  },
+  {
+    "id": "tool-071",
+    "page": "https://www.eurovik.rs/prosto-ptc-prenosna-grejalica-2000w",
+    "source": "https://www.eurovik.rs/image/catalog/2025_1/PROSTO-PTC-prenosna-grejalica-2000W-Grejalice.jpg#0",
+    "local": "/images/catalog/tool-071.jpg",
+    "bytes": 106190,
+    "sha256": "66fe456c3b26888772fdae08cdd1336b976407198bc2473c1843677e357879a3"
+  },
+  {
+    "id": "tool-054",
+    "page": "https://www.alatiimasine.com/proizvod/stega-za-cevi-70mm-7266-unior/",
+    "source": "https://www.odigledolokomotive.rs/products/images/2018/10/03/70819/Stega-za-cevi-70mm-726-6-Unior-199564.webp",
+    "local": "/images/catalog/tool-054.webp",
+    "bytes": 30434,
+    "sha256": "b481333f36ba55f51764c98a8027b06e7548d40f78cae44053f1d0f924d5edc1"
+  },
+  {
+    "id": "tool-064",
+    "page": "https://www.kataloska-prodaja.com/p/kolica-za-stepenice-17789-17787",
+    "source": "https://static.ajproducts.com/cdn-cgi/image/width=770,format=jpeg/globalassets/1000081.jpg?ref=26B44B2721",
+    "local": "/images/catalog/tool-064.jpg",
+    "bytes": 29401,
+    "sha256": "1fff1136491b51b196a3ebce38e3e6c1c2934bba5990c779260e5792962cbef8"
+  },
+  {
+    "id": "tool-066",
+    "page": "https://masterprofi.rs/proizvod/dizalica-za-gips-ploce/",
+    "source": "https://masterprofi.rs/wp-content/uploads/2025/02/Dizalica-za-gips-ploce.jpg",
+    "local": "/images/catalog/tool-066.jpg",
+    "bytes": 79667,
+    "sha256": "b808f112fc42aaa99bb2c22c8de08f02472de59a0ad053b13740ea186dea7566"
+  },
+  {
+    "id": "tool-020",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=bu%C5%A1a%C4%8D",
+    "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DG001GZ05_409.jpg?2026-02-19-1",
+    "alt": "Makita - Akumulatorska bušilica za zemlju DG001GZ05",
+    "local": "/images/catalog/tool-020.jpg",
+    "bytes": 109207,
+    "sha256": "be87176c8fdc0a038144ab79925a3aafef36edda183b847b4fa52381857f4709"
+  },
+  {
+    "id": "tool-069",
+    "page": "https://www.belielektronik.rs/artikal/motalica-sa-kablom-25m-brennenstuhl",
+    "source": "https://www.belielektronik.rs/images/products/big/26570.webp",
+    "local": "/images/catalog/tool-069.webp",
+    "bytes": 24158,
+    "sha256": "5202f09c6b801b3e75e5f50c43f80aa93546aaeb80923856cbf0d9a14b36e7e3"
+  },
+  {
+    "id": "tool-008",
+    "page": "https://www.stihlusa.com/en/ap/kb-km-bristle-brush-attachment-1027119",
+    "source": "https://www.stihlusa.com/content/dam/stihl/media/pim/6607.jpg",
+    "local": "/images/catalog/tool-008.jpg",
+    "bytes": 254150,
+    "sha256": "07828e95bba982864e174eee39e5d6cdfb05845214deff707c277fd65d9609de"
+  },
+  {
+    "id": "tool-012",
+    "page": "https://contessa.rs/proizvod/prenosni-ozon-generator/",
+    "source": "https://contessa.rs/wp-content/uploads/2023/04/SANITISATION_O3_PORT_CE.jpg",
+    "local": "/images/catalog/tool-012.jpg",
+    "bytes": 30230,
+    "sha256": "240fb617c7419c31546c4afcbe75832434d8a9c26d7c81bb9c617d69d6963d47"
+  },
+  {
+    "id": "tool-072",
+    "page": "https://www.figelj.si/izdelek/plinski-top-15-kw/",
+    "source": "https://www.figelj.si/wp-content/uploads/2022/04/plinski-top-1.jpg",
+    "local": "/images/catalog/tool-072.jpg",
+    "bytes": 30651,
+    "sha256": "42ff9ca06583303472ca18aee5bb48e3b5fc3b503a00152e4be4136dcb4bb3e7"
+  },
+  {
+    "id": "tool-059",
+    "page": "https://lasermanusa.com/products/hikmicro-ad21-acoustic-leak-detector",
+    "source": "https://lasermanusa.com/cdn/shop/files/6_18d0a13c-132e-47df-b96c-8b16f5c8688f_600x600.png?v=1756282272",
+    "local": "/images/catalog/tool-059.png",
+    "bytes": 85718,
+    "sha256": "ea97bae38d9a5a9eb870caaf03d7bae65727ef4b391752686a4136478c44133f"
+  }
+]

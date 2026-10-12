@@ -1,0 +1,32 @@
+{
+  "status": "draft_placeholder_prices_user_requested",
+  "currency": "RSD",
+  "pickup_address": null,
+  "base_delivery_zone": null,
+  "requires_zone_definition_before_publication": true,
+  "packages": [
+    {
+      "id": "standard",
+      "name": "Standardna dostava i preuzimanje",
+      "price": 1500,
+      "includes": [
+        "dostava",
+        "redovno preuzimanje"
+      ],
+      "timing": "dogovoreni termin"
+    },
+    {
+      "id": "urgent",
+      "name": "Hitna dostava i redovno preuzimanje",
+      "price": 2500,
+      "includes": [
+        "hitna dostava",
+        "redovno preuzimanje"
+      ],
+      "timing": "istog dana samo uz prethodnu potvrdu",
+      "availability_requires_confirmation": true
+    }
+  ],
+  "outside_base_zone": "cena na upit, obe vožnje pre potvrde",
+  "note": "Privremene proizvoljne cene prema zahtevu korisnika. Ne predstavljaju istražene tržišne cene. Cena najma i depozit nisu uključeni. Pre objave proveriti ekonomiku ruta i poreski prikaz."
+}

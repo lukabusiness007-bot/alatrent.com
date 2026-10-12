@@ -1,0 +1,64 @@
+[
+  {
+    "id": "tool-012",
+    "page": "https://www.ozongenerator.rs/ozonizator-sa-jonizatorom-cl-c08a",
+    "error": "HTTP Error 403: Forbidden",
+    "sources": []
+  },
+  {
+    "id": "tool-017",
+    "page": "https://alko-garden.uk/garden-tools/lawn-care/scythe-mowers/solo-by-al-ko-premium-bm-5001-r-iv-petrol-scythe-mower-102cm-cut.html",
+    "sources": [
+      "https://alko-webshop-assets-prod.s3.eu-central-1.amazonaws.com/generated/product/1/540_340_90/127767-bar-mower-bm-5001-r-iv-set-webshop-00.jpg"
+    ]
+  },
+  {
+    "id": "tool-045",
+    "page": "https://www.sealey.co.uk/induction-heater-1000w-vs240/",
+    "sources": [
+      "https://cdn11.bigcommerce.com/s-4koocm6ozh/products/116405/images/80861/VS240.V2_DFC1384281__31684.1749099183.386.513.png?c=1"
+    ]
+  },
+  {
+    "id": "tool-050",
+    "page": "https://www.svezamajstore.rs/vibracioni-vakumski-pistolj-za-plocice-20v-solo-bormann-pro-bbp3250.html",
+    "sources": [
+      "https://www.svezamajstore.rs/media/catalog/product/cache/1ec6b4f26be80134b388ad9e3c801c25/b/b/bbp3250-1-2_1.jpg"
+    ]
+  },
+  {
+    "id": "tool-060",
+    "page": "https://alitako.com/products/metal-detektor-md-3010",
+    "sources": [
+      "http://alitako.com/cdn/shop/files/metal-detektor-md-3010-4_1200x1200.jpg?v=1712800537",
+      "http://alitako.com/cdn/shop/files/metal-detektor-md-3_1200x1200.jpg?v=1712800537",
+      "http://alitako.com/cdn/shop/files/metal-detektor-md-3010-2_1200x1200.jpg?v=1712800537",
+      "https://alitako.com/cdn/shop/files/metal-detektor-md-3010-4_1200x1200.jpg?v=1712800537",
+      "https://alitako.com/cdn/shop/files/metal-detektor-md-3_1200x1200.jpg?v=1712800537",
+      "https://alitako.com/cdn/shop/files/metal-detektor-md-3010-2_1200x1200.jpg?v=1712800537"
+    ]
+  },
+  {
+    "id": "tool-062",
+    "page": "https://www.einhell.rs/en/p/2255130-tc-eh-250/",
+    "sources": [
+      "https://d2c5rvsfjg2eub.cloudfront.net/image/208244749100/image_5tsmngek757v79314ikv843l3s/-FJPG-FWEBP-B800"
+    ]
+  },
+  {
+    "id": "tool-065",
+    "page": "https://www.einhell.rs/en/p/2260160-tc-wi-500/",
+    "sources": [
+      "https://d2c5rvsfjg2eub.cloudfront.net/image/208244749100/image_9c929sq1up4ipbmubn6no2dp2t/-FJPG-FWEBP-B800"
+    ]
+  },
+  {
+    "id": "tool-071",
+    "page": "https://www.eurovik.rs/prosto-ptc-prenosna-grejalica-2000w",
+    "sources": [
+      "https://www.eurovik.rs/image/catalog/2025_1/PROSTO-PTC-prenosna-grejalica-2000W-Grejalice.jpg#0",
+      "https://www.eurovik.rs/image/catalog/2025_1/PROSTO-PTC-prenosna-grejalica-2000W-Grejalice-1.jpg#0",
+      "https://www.eurovik.rs/image/catalog/2025_1/PROSTO-PTC-prenosna-grejalica-2000W-Grejalice-2.jpg#0"
+    ]
+  }
+]

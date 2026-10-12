@@ -1,0 +1,12 @@
+node_modules/
+.next/
+data/*
+!data/.gitkeep
+.env*
+!.env.example
+*.tsbuildinfo
+public/uploads/
+.DS_Store
+.playwright-cli/
+output/
+/odrzavanje groblja/

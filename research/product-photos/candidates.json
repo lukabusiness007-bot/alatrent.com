@@ -1,0 +1,3812 @@
+[
+  {
+    "id": "tool-001",
+    "query": "perač",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=pera%C4%8D",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_BO006CGZ_866.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska delta brusilica BO006CGZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_BO007CGZ_902.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska vibraciona brusilica BO007CGZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_BO004CGZ_955.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska vibraciona brusilica BO004CGZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_BO002CGZ_587.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ekscentar brusilica BO002CGZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KSM180SHS_721.jpg?2026-02-19-1",
+        "alt": "DCK - Ugaona brusilica KSM180SHS"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDBPA5801_55.jpg?2026-02-19-1",
+        "alt": "DCK - Ranac za bateriju KDBPA5801"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KSJ08-25P_707.jpg?2026-02-19-1",
+        "alt": "DCK - Brusilica čeona KSJ08-25P"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDSP75EK_718.png?2026-02-19-1",
+        "alt": "DCK - Akumulatorska polirka KDSP75EK sa baterijama 12V 2Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Proxxon_28600_150.png?2026-02-19-1",
+        "alt": "Proxxon - Stalak za čeonu brusilicu MICROMOT MB 200"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DLX2583T_960.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski set za održavanje dvorišta i okućnice"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch - baštenski program_061599262D_743.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Set perač pod visokim pritiskom UniversalAquatak 125 sa kompletom za pranje za kuću i auto"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch - baštenski program_0615992626_131.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Set perač pod visokim pritiskom UniversalAquatak 130 sa kompletom za pranje za kuću i auto"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch - baštenski program_0615992627_339.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Set perač pod visokim pritiskom UniversalAquatak 135 sa kompletom za pranje za kuću i auto"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch - baštenski program_06008A7F00_246.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Perač pod visokim pritiskom EasyAquatak 110"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch - baštenski program_06008A7901_276.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Perač pod visokim pritiskom EasyAquatak 120"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5503234c1fe61metabo-P2000G.jpg?2026-02-19-1",
+        "alt": "Metabo - Baštenska pumpa P2000G"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/dremel-940_31.jpg?2026-02-19-1",
+        "alt": "Dremel - DREMEL pištolj za lepak 940 (940-3)"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/39_makita-DF0300.jpg?2026-02-19-1",
+        "alt": "Makita - Električna bušilica-zavrtač DF0300"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-rp2301fcx_21.jpg?2026-02-19-1",
+        "alt": "Makita - Glodalica RP2301FCX"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/63_Bosch UniversalRotak 450.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Električna kosilica za travu Bosch UniversalRotak 450"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/569e8e2d256e6nemezis.jpg?2026-02-19-1",
+        "alt": "Makita - Nemesis SDS PLUS burgija 28/450mm"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/569e8ec058297nemezis.jpg?2026-02-19-1",
+        "alt": "Makita - Nemesis SDS PLUS burgija 30/450mm"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/569e8f0d47c56nemezis.jpg?2026-02-19-1",
+        "alt": "Makita - Nemesis SDS PLUS burgija 32/450mm"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/569b7c25d6fbdnemezis.jpg?2026-02-19-1",
+        "alt": "Makita - Nemesis SDS PLUS burgija 12/160mm"
+      }
+    ]
+  },
+  {
+    "id": "tool-002",
+    "query": "paročistač",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=paro%C4%8Dista%C4%8D",
+    "matches": []
+  },
+  {
+    "id": "tool-003",
+    "query": "ekstraktor",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=ekstraktor",
+    "matches": []
+  },
+  {
+    "id": "tool-004",
+    "query": "industrijski usisivač",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=industrijski+usisiva%C4%8D",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/REM Power_288030_80.jpg?2026-02-19-1",
+        "alt": "REM Power - Usisivač VC 803 - 3 motora"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-spa-1200_100.jpg?2026-02-19-1",
+        "alt": "Metabo - Usisni sistem-otprašivač SPA 1200"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-spa-1702-w_5.jpg?2026-02-19-1",
+        "alt": "Metabo - Usisni sistem-otprašivač SPA 1702 W"
+      }
+    ]
+  },
+  {
+    "id": "tool-005",
+    "query": "ciklon",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=ciklon",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DCL286FZ_814.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski usisivač DCL286FZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_CL003GZ_420.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski usisivač CL003GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DCL286FZW_560.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski usisivač DCL286FZW"
+      }
+    ]
+  },
+  {
+    "id": "tool-006",
+    "query": "četke za čišćenje",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=%C4%8Detke+za+%C4%8Di%C5%A1%C4%87enje",
+    "matches": []
+  },
+  {
+    "id": "tool-007",
+    "query": "polirka",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=polirka",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_PV001GZ_584.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ugaona polirka PV001GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-09730_989.jpg?2026-02-19-1",
+        "alt": "Yato - Pneumatska polirka YT-09730"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDSP02-180Z_624.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorska ugaona polirka KDSP02-180Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KSP05-180_733.jpg?2026-02-19-1",
+        "alt": "DCK - Polirka ugaona KSP05-180"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDSP75EK_718.png?2026-02-19-1",
+        "alt": "DCK - Akumulatorska polirka KDSP75EK sa baterijama 12V 2Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Proxxon_29837_917.png?2026-02-19-1",
+        "alt": "Proxxon - Polirka ugaona ekscentar EP/A"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Proxxon_29835_660.png?2026-02-19-1",
+        "alt": "Proxxon - Polirka ugaona ekscentar EP/A sa baterijom i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Proxxon_28680_717.png?2026-02-19-1",
+        "alt": "Proxxon - Polirka ugaona ekscentar EP/E"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Proxxon_28660_902.png?2026-02-19-1",
+        "alt": "Proxxon - Polirka ugaona WP/E"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/DeWalt_DWP849X_584.jpg?2026-02-19-1",
+        "alt": "DeWalt - Električna polirka DWP849X"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/FLEX_513.539_886.jpg?2026-02-19-1",
+        "alt": "FLEX - Akumulatorski set za polir majstore"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/46_metabo PE 15-20 RT.jpg?2026-02-19-1",
+        "alt": "Metabo - Polirka PE 15-20 RT"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57554375c97d3CP7201P.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Pneumatska mini polirka CP7201P 8941172001"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/FLEX_418.080_100.jpg?2026-02-19-1",
+        "alt": "FLEX - Orbitalno - rotaciona polirka XFE 7-15 125"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/FLEX_418.102_371.jpg?2026-02-19-1",
+        "alt": "FLEX - Akumulatorska auto polirka PXE 80 10.8 V"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-pe-12-175_14.jpg?2026-02-19-1",
+        "alt": "Metabo - Polir mašina PE 12-175"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-sa7000c-1_97.jpg?2026-02-19-1",
+        "alt": "Makita - Rotaciona brusilica - polirka SA7000C"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5a1feb75637b1AGM1084P.jpg?2026-02-19-1",
+        "alt": "FERM - Polirka AGM1084P"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/574a9a455a2f7ferm AGM1037.jpg?2026-02-19-1",
+        "alt": "FERM - Polirka AGM1037"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56ee61f269357CB-100.jpg?2026-02-19-1",
+        "alt": "Makita - Ugljene četkice CB 100 181030-1 14,8x10x6"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56edd599433a6CB-64.jpg?2026-02-19-1",
+        "alt": "Makita - Ugljene četkice CB 64 191627-8 10,8x8x5"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/551c6499aeb4emakita-SA5040C.jpg?2026-02-19-1",
+        "alt": "Makita - Ugaona brusilica polirka SA5040C"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo_pe_12-175_set_54.jpg?2026-02-19-1",
+        "alt": "Metabo - Polir mašina PE 12-175 Set"
+      }
+    ]
+  },
+  {
+    "id": "tool-008",
+    "query": "motorna četka",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=motorna+%C4%8Detka",
+    "matches": []
+  },
+  {
+    "id": "tool-009",
+    "query": "čistač",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=%C4%8Dista%C4%8D",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HW001GZ_180.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski čistač sa visokim pritiskom HW001GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-09910_195.jpg?2026-02-19-1",
+        "alt": "Yato - Pneumatski čistač površina sa 19 iglica YT-09910"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-09913_978.jpg?2026-02-19-1",
+        "alt": "Yato - Pneumatski čistač površina sa 13 iglica YT-09913"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06039G6001_903.png?2026-02-19-1",
+        "alt": "Bosch-zeleni - Akumulatorski čistač prozora GlassVAC sa bocom sa raspršivačem sa krpom od mikrofibera"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06039G6002_28.png?2026-02-19-1",
+        "alt": "Bosch-zeleni - Akumulatorski čistač prozora GlassVAC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_0601372900_273.jpg?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska ekscentar brusilica EXPERT EXEX18V-150-5 sa koferom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_MEESET005_747.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski čistač sa pritiskom DHW180Z sa baterijom 18V 2Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_VS001GZ_124.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski čistač VS001GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DHW180Z_819.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski čistač sa pritiskom DHW180Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-hw111-2_31.jpg?2026-02-19-1",
+        "alt": "Makita - Čistač pod visokim pritiskom HW111"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/58e5fb0aeea1aRidgid 41408.jpg?2026-02-19-1",
+        "alt": "Ridgid - Ručni čistač cevovoda Power Spin 57043"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-hw102-1_19.jpg?2026-02-19-1",
+        "alt": "Makita - Čistač pod pritiskom HW102"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56e547285e36aMini-Cobra-S-komplet.jpg?2026-02-19-1",
+        "alt": "REMS - Čistač cevovoda Mini-Cobra S komplet"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56e548f8302d8Mini-Cobra.jpg?2026-02-19-1",
+        "alt": "REMS - Ručni čistač cevovoda Mini-Cobra"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Makita_DHW080ZK_353.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski čistač sa visokim pritiskom DHW080ZK"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/59039b54674d5ridgid K-45 AF 5.jpg?2026-02-19-1",
+        "alt": "Ridgid - Čistač za cevi K-45 AF 5 sa samo-napredovanjem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5516f0c0ab176Ridgid-K-60SP.jpg?2026-02-19-1",
+        "alt": "Ridgid - Čistač odvoda K-60SP"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Makita_3641160_416.jpg?2026-02-19-1",
+        "alt": "Makita - Ugljene četkice 3641160 za HW102"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/59039c92a8b14ridgid-K-45-AF.jpg?2026-02-19-1",
+        "alt": "Ridgid - Čistač za cevi K-45 AF sa samo-napredovanjem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5bc06be00f0cfGRM1022.jpg?2026-02-19-1",
+        "alt": "FERM - Perač pod pritiskom GRM1022"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5af873ae6be86HW1300.jpg?2026-02-19-1",
+        "alt": "Makita - Čistač sa visokim pritiskom HW1300"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_ghp_8-15_xd_46.jpg?2026-02-19-1",
+        "alt": "Bosch - Profesionalni čistač na visoki pritisak GHP 8-15 XD"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5512fcdd15f41bosch_aqt_45-14_x.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Perač pod visokim pritiskom AQT 45-14 X"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54ef52260aac8bosch_aqt_42-13.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Perač pod visokim pritiskom AQT 42-13"
+      }
+    ]
+  },
+  {
+    "id": "tool-010",
+    "query": "ultrazvučn",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=ultrazvu%C4%8Dn",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0603684000_377.png?2026-02-19-1",
+        "alt": "Bosch-zeleni - Detektor nivoa gasa u boci Filio"
+      }
+    ]
+  },
+  {
+    "id": "tool-011",
+    "query": "odvlaživač",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=odvla%C5%BEiva%C4%8D",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5891c8f4b44f8Secco-80-Set.jpg?2026-02-19-1",
+        "alt": "REMS - Odvlaživač vazduha/građevinska sušilica REMS Secco 80 Set"
+      }
+    ]
+  },
+  {
+    "id": "tool-012",
+    "query": "ozon",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=ozon",
+    "matches": []
+  },
+  {
+    "id": "tool-013",
+    "query": "potapajuća pumpa",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=potapaju%C4%87a+pumpa",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601729850_201.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska potapajuća pumpa TPF 18 LTX 2200"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601797000_108.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 220-35 S Inox"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601796000_850.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 180-35 SI"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601795000_22.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 150-35 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601794000_126.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 120-35 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601793000_50.jpg?2026-02-19-1",
+        "alt": "Metabo - Kombinovana potapajuća pumpa KP 200-35 ASF Inox"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601792000_441.jpg?2026-02-19-1",
+        "alt": "Metabo - Kombinovana potapajuća pumpa KP 160-35 SF"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/567b13750a40fmetabo PS 7500 S.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu PS 7500 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/567b14759f903metabo-PS-18000-SN.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu PS 18000 SN"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c2a420a905aaPS 15000 S.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu PS 15000 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/552d870cec47cmetabo-TPS-14000-S.jpg?2026-02-19-1",
+        "alt": "Metabo - Kombinovana potapajuća pumpa TPS 14000 S COMBI"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/11_wilo-TMW-32-8.jpg?2026-02-19-1",
+        "alt": "wilo - Potapajuća pumpa Wilo-Drain TMW 32/8"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54eb70d57233cdolmar-EP-1680S.jpg?2026-02-19-1",
+        "alt": "Dolmar - Potapajuća pumpa za čistu vodu EP-1680S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54eb70218d1c2dolmar-EP-132.jpg?2026-02-19-1",
+        "alt": "Dolmar - Potapajuća pumpa za čistu vodu EP-132"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-pf4001-1_47.jpg?2026-02-19-1",
+        "alt": "Makita - Potapajuća pumpa PF4001"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-tdp-7501-s_40.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za čistu vodu TDP 7501 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-tp-8000-s_9.png?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za čistu vodu TP 8000 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-tp-13000-s_57.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa TP 13000 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-tp-6600_65.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za čistu vodu Metabo TP 6600"
+      }
+    ]
+  },
+  {
+    "id": "tool-014",
+    "query": "potapajuća pumpa",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=potapaju%C4%87a+pumpa",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601729850_201.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska potapajuća pumpa TPF 18 LTX 2200"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601797000_108.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 220-35 S Inox"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601796000_850.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 180-35 SI"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601795000_22.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 150-35 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601794000_126.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 120-35 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601793000_50.jpg?2026-02-19-1",
+        "alt": "Metabo - Kombinovana potapajuća pumpa KP 200-35 ASF Inox"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601792000_441.jpg?2026-02-19-1",
+        "alt": "Metabo - Kombinovana potapajuća pumpa KP 160-35 SF"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/567b13750a40fmetabo PS 7500 S.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu PS 7500 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/567b14759f903metabo-PS-18000-SN.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu PS 18000 SN"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c2a420a905aaPS 15000 S.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu PS 15000 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/552d870cec47cmetabo-TPS-14000-S.jpg?2026-02-19-1",
+        "alt": "Metabo - Kombinovana potapajuća pumpa TPS 14000 S COMBI"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/11_wilo-TMW-32-8.jpg?2026-02-19-1",
+        "alt": "wilo - Potapajuća pumpa Wilo-Drain TMW 32/8"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54eb70d57233cdolmar-EP-1680S.jpg?2026-02-19-1",
+        "alt": "Dolmar - Potapajuća pumpa za čistu vodu EP-1680S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54eb70218d1c2dolmar-EP-132.jpg?2026-02-19-1",
+        "alt": "Dolmar - Potapajuća pumpa za čistu vodu EP-132"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-pf4001-1_47.jpg?2026-02-19-1",
+        "alt": "Makita - Potapajuća pumpa PF4001"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-tdp-7501-s_40.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za čistu vodu TDP 7501 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-tp-8000-s_9.png?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za čistu vodu TP 8000 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-tp-13000-s_57.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa TP 13000 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-tp-6600_65.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za čistu vodu Metabo TP 6600"
+      }
+    ]
+  },
+  {
+    "id": "tool-015",
+    "query": "motorna pumpa",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=motorna+pumpa",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56d758257a4a8oleo-mac-SA-30-TLA.jpg?2026-02-19-1",
+        "alt": "Oleo Mac - Samousisna motorna pumpa za vodu SA 30 TLA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56ab69ee4866foleo-mac-WP-300.jpg?2026-02-19-1",
+        "alt": "Oleo Mac - Samousisna motorna pumpa za vodu WP 300"
+      }
+    ]
+  },
+  {
+    "id": "tool-016",
+    "query": "benzinska kosačica",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=benzinska+kosa%C4%8Dica",
+    "matches": []
+  },
+  {
+    "id": "tool-017",
+    "query": "strižna kosačica",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=stri%C5%BEna+kosa%C4%8Dica",
+    "matches": []
+  },
+  {
+    "id": "tool-018",
+    "query": "motorni trimer",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=motorni+trimer",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/92_Oleo-mac-755-master.jpg?2026-02-19-1",
+        "alt": "Oleo Mac - Profesionalni motorni trimer 755 Master"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/89_oleomac-753T.jpg?2026-02-19-1",
+        "alt": "Oleo Mac - Profesionalni motorni trimer 753 T"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/94_oleomac-BC-430TL.jpg?2026-02-19-1",
+        "alt": "Oleo Mac - Profesionalni motorni trimer BC 430TL"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/83_Oleo-mac-746-T.jpg?2026-02-19-1",
+        "alt": "Oleo Mac - Profesionalni motorni trimer 746 T"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/100_Oleomac-741.jpg?2026-02-19-1",
+        "alt": "Oleo Mac - Profesionalni motorni trimer 741"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/oleomac-250-t-sparta_99.jpg?2026-02-19-1",
+        "alt": "Oleo Mac - Motorni trimer SPARTA 25"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56e34639bceddoleo-mac-250-TR.jpg?2026-02-19-1",
+        "alt": "Oleo Mac - Motorni trimer 250 TR SPARTA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/oleomac-380-t-sparta_84.jpg?2026-02-19-1",
+        "alt": "Oleo Mac - Motorni trimer  SPARTA 38"
+      }
+    ]
+  },
+  {
+    "id": "tool-019",
+    "query": "trimer za živu ogradu",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=trimer+za+%C5%BEivu+ogradu",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDHT58262CM_769.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorske makaze za živu ogradu KDHT58262CM sa baterijom 58V 2.5Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDHT20221BDM_164.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorske makaze za živu ogradu KDHT20221BDM sa baterijom 20V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/FERM_HTM1001_296.jpg?2026-02-19-1",
+        "alt": "FERM - Trimer za živu ogradu HTM1001"
+      }
+    ]
+  },
+  {
+    "id": "tool-020",
+    "query": "bušač rupa",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=bu%C5%A1a%C4%8D+rupa",
+    "matches": []
+  },
+  {
+    "id": "tool-021",
+    "query": "duvač",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=duva%C4%8D",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_600798850_478.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska duvaljka BP 18 LTX BL"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDLB58211BDM_113.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorska duvaljka KDLB58211BDM sa baterijom 58V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDQF32Z_962.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorska duvaljka KDQF32Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDLB20151HK_832.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorska duvaljka KDLB20151HK sa baterijom 20V 6Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Proxxon_28092_618.png?2026-02-19-1",
+        "alt": "Proxxon - Modelarska testera DSH"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/FLEX_513.539_886.jpg?2026-02-19-1",
+        "alt": "FLEX - Akumulatorski set za polir majstore"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/58821862e6c10GKS 235 Turbo.jpg?2026-02-19-1",
+        "alt": "Bosch - Ručna kružna testera GKS 235 Turbo Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5760371751518bosch ALS 30 - Copy.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Baštenski usisivač ALS 30"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_als_25_77.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Baštenski usisavač ALS 25"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5757ffb4a5531BOSCH GST 8000 E Professional .jpg?2026-02-19-1",
+        "alt": "Bosch - Ubodna testera Bosch GST 8000 E Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/55e2dab4b33ecbosch ALB 18 LI.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Akumulatorski duvač lišća ALB 18 LI"
+      }
+    ]
+  },
+  {
+    "id": "tool-022",
+    "query": "seckalica",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=seckalica",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/55a40e354add1Skil 0795 AA.jpg?2026-02-19-1",
+        "alt": "Skil - Usisivač za baštu/ventilator Skil 0795 AA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5512fa48006cabosch_axt_rapid_2000.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Rapid-seckalica AXT Rapid 2000"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54d21b2253c06bosch-axt1600-hp_67.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Električna seckalica za grane AXT1600 HP"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_axt_22_d__53.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Tiha seckalica AXT 22 D"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_axt_25_tc_52.jpg?2026-02-19-1",
+        "alt": "Bosch - baštenski program - Tiha seckalica AXT 25 TC"
+      }
+    ]
+  },
+  {
+    "id": "tool-023",
+    "query": "bušilica za beton",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=bu%C5%A1ilica+za+beton",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DHR400ZKN_667.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica za beton SDS-Max DHR400ZKN"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HR002GZ_581.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica za beton SDS-Plus HR002GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HR009GM201_442.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica za beton SDS-Plus HR009GM201 sa baterijama 40V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HR009GZ_310.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica za beton SDS-Plus HR009GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HR008GZ_565.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica za beton SDS-Plus HR008GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HR006GZ_518.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica za beton SDS-Max HR006GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KZC45_600.jpg?2026-02-19-1",
+        "alt": "DCK - Bušilica za beton KZC45 SDS-Max"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KZC22S_130.jpg?2026-02-19-1",
+        "alt": "DCK - Bušilica za beton KZC22S SDS-Plus"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDZC04-24FK_83.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorska bušilica za beton SDS-Plus KDZC04-24FK sa baterijama 20V 5Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0611921100_687.jpg?2026-02-19-1",
+        "alt": "Bosch - Akumulatorska bušilica za beton SDS-Plus PRO GBH18V-28F"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0611917200_276.jpg?2026-02-19-1",
+        "alt": "Bosch - Akumulatorska bušilica za beton SDS-Max PRO GBH18V-40"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0611915100_246.jpg?2026-02-19-1",
+        "alt": "Bosch - Akumulatorska bušilica za beton SDS-Max PRO GBH18V-36"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0611915101_308.jpg?2026-02-19-1",
+        "alt": "Bosch - Akumulatorska bušilica za beton SDS-Max PRO GBH18V-36 sa baterijama 18V 8Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019P6000_471.png?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska bušilica za beton sa dijamantskim krunama EXPERT EXDB18V2-180 sa koferom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_0 611 922 102_232.png?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska bušilica za beton SDS-Plus EXPERT EXBH18V-32F sa baterijama 18V 8Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_0611922101_411.png?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska bušilica za beton SDS-Plus EXPERT EXBH18V-32F sa koferom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_0611922100_7.png?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska bušilica za beton SDS-Plus EXPERT EXBH18V-32F"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601715850_449.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska bušilica za beton SDS-plus KH 18 LTX BL 28 Q"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601714850_456.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska bušilica za beton SDS-plus KH 18 LTX BL 24 Q"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601712850_921.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska bušilica za beton SDS-plus KH 18 LTX 24"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_600324850_94.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska bušilica za beton SDS-Plus BH 18 LTX BL 16"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601713800_157.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska bušilica za beton SDS-plus KH 18 LTX BL 24 sa baterijama i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601712510_131.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska bušilica za beton SDS-plus KH 18 LTX 24 sa baterijama i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_685212000_439.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorski set vibraciona bušilica, ugaona brusilica i SDS-plus bušilica za beton sa baterijama 18V 5.2Ah i punjačem"
+      }
+    ]
+  },
+  {
+    "id": "tool-024",
+    "query": "čekić za rušenje",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=%C4%8Deki%C4%87+za+ru%C5%A1enje",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KZG04-15ST_828.jpg?2026-02-19-1",
+        "alt": "DCK - Štemarica KZG04-15ST"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_M8600B_267.jpg?2026-02-19-1",
+        "alt": "Makita - Štemarica SDS-Plus M8600B"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2023/Makita_HM001GZ02_116.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska štemarica HM001GZ02"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita_hm1214c_56.jpg?2026-02-19-1",
+        "alt": "Makita - Čekić za rušenje HM1214C"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Makita_HM1802_124.jpg?2026-02-19-1",
+        "alt": "Makita - Čekić za rušenje HM1802"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/564f7a6045e5emakita-HM1812.png?2026-02-19-1",
+        "alt": "Makita - Podna štemarica HM1812"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/hm1810_38.jpg?2026-02-19-1",
+        "alt": "Makita - Čekić za rušenje HM1810 AVT + SERVISNI KOMPLET 195205-6"
+      }
+    ]
+  },
+  {
+    "id": "tool-025",
+    "query": "glodalica za žlebove",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=glodalica+za+%C5%BElebove",
+    "matches": []
+  },
+  {
+    "id": "tool-026",
+    "query": "brusilica za zid",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=brusilica+za+zid",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2024/Bosch_06017D4020_350.png?2026-02-19-1",
+        "alt": "Bosch - Brusilica za zidove (žirafa) GTR 550 Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2024/FLEX_530.900_339.jpg?2026-02-19-1",
+        "alt": "FLEX - Brusilica za zidove (žirafa) GE 6 R-EC + TB-L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/59971311307d0GE5.jpg?2026-02-19-1",
+        "alt": "FLEX - Brusilica za zidove žirafa  GE5   FLEX 409316"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/FLEX_409.324_491.jpg?2026-02-19-1",
+        "alt": "FLEX - Brusilica za zidove (žirafa) GE 5 R + TB-L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/FLEX_438.340_642.jpg?2026-02-19-1",
+        "alt": "FLEX - Brusilica za zidove (žirafa) GE 7 sa izmenljivom glavom + torba TB-L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Makita_MO1401045_805.jpg?2026-02-19-1",
+        "alt": "Makita - Ugljene četkice MO1401045 za SL7000"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c20f19b78c8aWST 700 VV Plus.jpg?2026-02-19-1",
+        "alt": "FLEX - Brusilica za zidove \"žirafa\" WST 700 VV Plus"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c20ecd2bc4faGE 7.jpg?2026-02-19-1",
+        "alt": "FLEX - Brusilica za zidove \"žirafa\" GE 7 + MH-R + SH"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c20ea9a3001cGE5 R.jpg?2026-02-19-1",
+        "alt": "FLEX - Brusilica za zidove \"žirafa\" GE5 R"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c20e8562f2d2GE5.jpg?2026-02-19-1",
+        "alt": "FLEX - Brusilica za zidove \"žirafa\" GE 5"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56d4521f9cdc8LPC97S.jpg?2026-02-19-1",
+        "alt": "ostalo - Brusilica za zidove - žirafa LPC97S - Virtuex"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita_sl7000_79.jpg?2026-02-19-1",
+        "alt": "Makita - \"Žirafa\" - brusilica za zidove SL7000"
+      }
+    ]
+  },
+  {
+    "id": "tool-027",
+    "query": "brusilica za beton",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=brusilica+za+beton",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/FLEX_479.403_705.jpg?2026-02-19-1",
+        "alt": "FLEX - Brusilica za beton LDE 15-10 125"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-pc5000c-1_15.jpg?2026-02-19-1",
+        "alt": "Makita - Brusilica za beton PC5000C"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-pc5001c-1_28.jpg?2026-02-19-1",
+        "alt": "Makita - Brusilica za beton PC5001C"
+      }
+    ]
+  },
+  {
+    "id": "tool-028",
+    "query": "pištolj za farbanje",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=pi%C5%A1tolj+za+farbanje",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-2346_944.jpg?2026-02-19-1",
+        "alt": "Yato - Pištolj za farbanje YT-2346"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-2340_767.jpg?2026-02-19-1",
+        "alt": "Yato - Pištolj za farbanje YT-2340"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bahco-bphvlp01_20.jpg?2026-02-19-1",
+        "alt": "Bahco - Pištolj za farbanje BPHVLP01"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Metabo_601576000_723.jpg?2026-02-19-1",
+        "alt": "Metabo - Pištolj za farbanje FSP 1000 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/55329867b43a6metabo-FSP-600.jpg?2026-02-19-1",
+        "alt": "Metabo - Pneumatski pištolj za farbanje FSP 600"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5505ed8603a0fmetao-FSP-100.jpg?2026-02-19-1",
+        "alt": "Metabo - Pištolj za farbanje FSP 100"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5bc32d942d77cATM1039.jpg?2026-02-19-1",
+        "alt": "FERM - Pištolj za farbanje ATM1039"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/55329a02cdbadmetabo-FSP-600-HVLP.jpg?2026-02-19-1",
+        "alt": "Metabo - Pneumatski pištolj za farbanje FSP 600 HVLP"
+      }
+    ]
+  },
+  {
+    "id": "tool-029",
+    "query": "sekač betona",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=seka%C4%8D+betona",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DCE090ZX1 + BL1850B + DC18RC_528.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski rezač DCE090ZX1 sa baterijama 18V 5Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_CE004GZ + BL4050F + DC40RA_357.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski sekač za beton CE004GZ sa baterijama 40V 5Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_CE004GZ_997.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski sekač za beton CE004GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_CE002GZ01 + BL4050F + DC40RA_186.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski sekač za beton CE002GZ01 sa baterijama 40V 5Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_CE002GZ01_89.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski sekač za beton CE002GZ01"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Makita_DCE090ZX1_963.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski rezač DCE090ZX1"
+      }
+    ]
+  },
+  {
+    "id": "tool-030",
+    "query": "vibrator za beton",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=vibrator+za+beton",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_VR001GZ_643.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska vibroigla za beton VR001GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06019P9800_775.jpg?2026-02-19-1",
+        "alt": "Bosch - Akumulatorska vibroigla za beton PRO GVC18V-25-120D"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/77_makita-DVR850Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski vibrator za beton DVR850Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/58_makita-DVR450Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski vibrator za beton DVR450Z"
+      }
+    ]
+  },
+  {
+    "id": "tool-031",
+    "query": "DDF",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=DDF",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DDF490RFJ_400.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski bušilica-odvijač DDF490RFJ sa baterijama 18V 3Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DDF487RAJ_296.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF487RAJ sa baterijama 18V 2Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DDF487Z_805.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF487Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DDF485RFE_538.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF485RFE"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DDF490WVE_603.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski bušilica-odvijač DDF490WVE"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DDF490WV_218.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski bušilica-odvijač DDF490WV"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DDF490Z_125.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski bušilica-odvijač DDF490Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DLX2527TJ_950.jpg?2026-02-19-1",
+        "alt": "Makita - Set akumulatorska bušilica DDF489 i udarni odvijač DTD173 DLX2527TJ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DDF492Z_786.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica-odvijač DDF492Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2023/Makita_DDF489Z_105.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF489Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/27_makita-DDF482RFEB.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF482RFEB"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5ba6812d39910DDF453Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF453Z u koferu"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2021/Makita_DDF482ZplusMP2_905.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF482Z + Makpac 2"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DDF458RFJ_177.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF458RFJ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Makita_DDF458RF3J_768.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF458RF3J"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Bosch_DDF482RFE_270.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF482RFE"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/36_makita-DDF485Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF485Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Makita_DDF485RFJ_69.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF485RFJ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/74_Makita-DDF482RFE2.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF482RFE2"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5b8ac6ef878dbDDF083Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF083Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Makita_DDF486Z_173.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF486Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5ba682dc2fd7fDDF484Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF484Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/576c0209dec90DDF482Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF482Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c1e2c4c01035DDF458Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica - odvijač DDF458Z"
+      }
+    ]
+  },
+  {
+    "id": "tool-032",
+    "query": "udarni odvijač",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=udarni+odvija%C4%8D",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_TW010GZ + BL4050F + DC40RA_462.jpg?2026-02-19-1",
+        "alt": "Makita - Set akumulatorski udarni odvijač TW010GZ sa baterijom 40V 5Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Makita_TW010GZ_164.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski udarni odvijač TW010GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_TW001GU201_3.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski udarni odvijač TW001GU201"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DTL302Z_812.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski ugaoni udarni odvijač DTL302Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_TW011GM201_317.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski udarni odvijač TW011GM201 sa baterijama 40V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_TW002GZ_256.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski udarni odvijač TW002GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DTD173ZJX2_988.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski udarni odvijač DTD173ZJX2"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_TD003GZ_374.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski udarni odvijač TD003GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_TD002GZ01_366.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski udarni odvijač TD002GZ01"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_TD004GZ_587.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski udarni odvijač TD004GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-09515_839.jpg?2026-02-19-1",
+        "alt": "Yato - Pneumatski udarni odvrtač 1/2\" YT-09515"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDKIT25EK_987.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski set odvijača KDKIT25EK"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDKIT26EK_334.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski set odvijača KDKIT26EK"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDPB698FK_416.png?2026-02-19-1",
+        "alt": "DCK - Akumulatorski udarni odvijač KDPB698FK sa baterijama 20V 5Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDPL05-8AM_452.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski udarni odvijač KDPL05-8AM sa baterijama 20V 2Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDPL208Z_462.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski udarni odvijač KDPL208Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDPL165AM_984.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski udarni odvijač KDPL165AM sa baterijama 20V 2Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDPB1288Z_331.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski udarni odvijač KDPB1288Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDPB968Z_703.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski udarni odvijač KDPB968Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDPL208AM_461.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski udarni odvijač KDPL208AM sa baterijama 20V 2Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDPB1218Z_320.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski udarni odvijač KDPB1218Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDPB1218FK_937.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski udarni odvijač KDPB1218FK sa baterijama 20V 5Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDPL04-8EK_384.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski udarni odvijač KDPL04-8EK sa baterijama 12V 2Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDPB488Z_745.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski udarni odvijač KDPB488Z"
+      }
+    ]
+  },
+  {
+    "id": "tool-033",
+    "query": "potezna testera",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=potezna+testera",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601B53000_563.png?2026-02-19-1",
+        "alt": "Bosch - Potezna testera PRO GCM 254 D"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_LS1110F_537.jpg?2026-02-19-1",
+        "alt": "Makita - Potezna testera LS1110F"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/58_makita-LS1040N.jpg?2026-02-19-1",
+        "alt": "Makita - Potezna testera LS1040N"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/66_makita-DLW140Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska testera za metal DLW140Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5527f4404dc99metabo-KGS-305-M.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGS 305 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/16_metabo-KGT-305-M.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGT 305 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5a4f6d13cfdd3KS-305-M.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KS 305 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-kgs-216-m_74.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGS 216 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/550ee2d711a3emetabo_kgs_254_m.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGS 254 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5526e5ab7e08cmetabo-KS-216-M.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KS 216 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-kgs-315-plus_7.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGS 315 Plus"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo_kgs_254_i_plus_47.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGS 254 I Plus Induction motor"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/555f7b4b97610metabo_ks_254_plus.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KS 254 Plus"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56eee9da3aea8cb-153.jpg?2026-02-19-1",
+        "alt": "Makita - Ugljene četkice CB 153 181044-0 17,8x13,4x6,5"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56ee61f269357CB-100.jpg?2026-02-19-1",
+        "alt": "Makita - Ugljene četkice CB 100 181030-1 14,8x10x6"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo_kgs_216_plus_65.jpg?2026-02-19-1",
+        "alt": "Metabo - Stona potezna testera KGS 216 Plus"
+      }
+    ]
+  },
+  {
+    "id": "tool-034",
+    "query": "multifunkcionalni alat",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=multifunkcionalni+alat",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5570b4d10f086bosch_pmf_10-8_li.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Akumulatorski multifunkcionalni alat PMF 10,8 LI"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_pmf_190_e_66.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Multifunkcionalni alat PMF 190 E"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_pmf_250_ces_50.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Multifunkcionalni alat PMF 250 CES"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_pmf_190_e_set_21.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Multifunkcionalni alat PMF 190 E Set"
+      }
+    ]
+  },
+  {
+    "id": "tool-035",
+    "query": "sabljasta testera",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=sabljasta+testera",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601617850_129.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska univerzalna testera SSEP 18 LT BL"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_602258850_846.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska univerzalna testera SSEP 18 LTX BL MVT"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601616850_723.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska univerzalna testera SSEP 18 LT"
+      }
+    ]
+  },
+  {
+    "id": "tool-036",
+    "query": "glodalica",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=glodalica",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_RT001GZ18_79.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska glodalica RT001GZ18"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DCO181Z_101.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska glodalica DCO181Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601741000_724.jpg?2026-02-19-1",
+        "alt": "Metabo - Glodalica FM 500-6"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601049500_777.jpg?2026-02-19-1",
+        "alt": "Metabo - Lak glodalica LF 850 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601770500_883.jpg?2026-02-19-1",
+        "alt": "Metabo - Glodalica za čelik KFMV 17-15 F"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KMR06-12_764.jpg?2026-02-19-1",
+        "alt": "DCK - Glodalica KMR06-12"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDMP6Z_997.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorska glodalica KDMP6Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/90_makita-DCO180Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska glodalica DCO180Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita MT_M3602B_463.jpg?2026-02-19-1",
+        "alt": "Makita MT - Glodalica M3602B"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Makita_DRT52Z_958.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska glodalica DRT52Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Makita_M3602_639.jpg?2026-02-19-1",
+        "alt": "Makita MT - Glodalica M3602"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Makita_RP2303FC08_315.jpg?2026-02-19-1",
+        "alt": "Makita - Glodalica RP2303FC08"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita_rp0900_1_95.jpg?2026-02-19-1",
+        "alt": "Makita - Glodalica RP0900"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Makita_RT0702C_415.jpg?2026-02-19-1",
+        "alt": "Makita - Jednoručna glodalica RT0702C"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita_pj7000_60.jpg?2026-02-19-1",
+        "alt": "Makita - Glodalica za žljebove PJ7000J KEKSERICA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57cd695f50907M3601.jpg?2026-02-19-1",
+        "alt": "Makita MT - Glodalica 900W M3601"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c501fc1e201fDPJ180Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska glodalica za žljebove DPJ180Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2023/Makita_RP1803FXJ_745.jpg?2026-02-19-1",
+        "alt": "Makita - Glodalica RP1803FXJ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57cd6882cab9cM3600.jpg?2026-02-19-1",
+        "alt": "Makita MT - Glodalica 1650W M3600"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-rp2301fcx_21.jpg?2026-02-19-1",
+        "alt": "Makita - Glodalica RP2301FCX"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Makita_3711_707.jpg?2026-02-19-1",
+        "alt": "Makita - Jednoručna glodalica 3711"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Makita_RT0702CX2_322.jpg?2026-02-19-1",
+        "alt": "Makita - Jednoručna glodalica RT0702CX2"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Makita_3712_388.jpg?2026-02-19-1",
+        "alt": "Makita - Jednoručna glodalica 3712"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo_of_e_1229_signal_34.jpg?2026-02-19-1",
+        "alt": "Metabo - Glodalica OF E 1229 Signal"
+      }
+    ]
+  },
+  {
+    "id": "tool-037",
+    "query": "brusilica za parket",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=brusilica+za+parket",
+    "matches": []
+  },
+  {
+    "id": "tool-038",
+    "query": "rende",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=rende",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_KP001GZ_724.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorske rende KP001GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_602082890_351.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorske rende HO 18 LTX 20-82"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_D-07945_36.jpg?2026-02-19-1",
+        "alt": "Makita - Nož za rende 82mm"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-hc-260c_70.jpg?2026-02-19-1",
+        "alt": "Metabo - Diht abrihter HC 260 C - 2,2 WNB"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2023/Hikoki_P20SF-WAZ_941.jpg?2026-02-19-1",
+        "alt": "Hikoki - Električno rende P20SF-WAZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/88_metabo-26-82-2.jpg?2026-02-19-1",
+        "alt": "Metabo - Rende HO 26-82"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56edcf89eae67CB-51.jpg?2026-02-19-1",
+        "alt": "Makita - Ugljene četkice CB 51 181021-2 11,8x8x5"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5878dd7a96f1egho 6500.jpg?2026-02-19-1",
+        "alt": "Bosch - Električno rende GHO 6500 Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/51_Bosch PHO 1500.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Električno rende Bosch PHO 1500 (ručni abrihter)"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/574cb50c5213aferm PPM1010.jpg?2026-02-19-1",
+        "alt": "FERM - Rende PPM1010"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch-gho-15-82-1_55.jpg?2026-02-19-1",
+        "alt": "Bosch - Ručno rende GHO 15-82"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56f1a8d1a9d22cb-203.jpg?2026-02-19-1",
+        "alt": "Makita - Ugljene četkice CB 203 191953-5 (194991-6  stara šifra)15,8x17,9x6,9"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56eee9da3aea8cb-153.jpg?2026-02-19-1",
+        "alt": "Makita - Ugljene četkice CB 153 181044-0 17,8x13,4x6,5"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56ee973e14f21cb-132.jpg?2026-02-19-1",
+        "alt": "Makita - Ugljene četkice CB 132 191972-1 14,7x10x6"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56ee943f7e990cb-106.jpg?2026-02-19-1",
+        "alt": "Makita - Ugljene četkice CB 106 194976-2 14,8x10x6"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56ee61f269357CB-100.jpg?2026-02-19-1",
+        "alt": "Makita - Ugljene četkice CB 100 181030-1 14,8x10x6"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54e83ad395dc2skil_1565_aa_.jpg?2026-02-19-1",
+        "alt": "Skil - Rende Skil 1565 AA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/gho-26-82_1_97.jpg?2026-02-19-1",
+        "alt": "Bosch - Električno rende GHO 26-82 Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5519ba23a92b7skil_1565_ad.jpg?2026-02-19-1",
+        "alt": "Skil - Rende Skil 1565 AD"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-bkp180z-1_74.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorsko rende BKP180Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/skil_masters_1570_ma_19.jpg?2026-02-19-1",
+        "alt": "Skil Masters - Rende 1570 MA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/gho-40-82-c_1_75.jpg?2026-02-19-1",
+        "alt": "Bosch - GHO 40-82 C Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/gho-40-82-c_1_23.jpg?2026-02-19-1",
+        "alt": "Bosch - GHO 40-82 C Professional sa L-Boxx"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch-pho-3100_79.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Rende PHO 3100"
+      }
+    ]
+  },
+  {
+    "id": "tool-039",
+    "query": "ubodna testera",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=ubodna+testera",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_JV001GD201_143.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ubodna testera JV001GD201 sa baterijama 40V 2,5Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_JV001GZ_671.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ubodna testera JV001GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_JV002GZ_415.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ubodna testera JV002GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06015B0100_660.jpg?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska ubodna testera EXPERT EXST18V-155S sa koferom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06015B1100_605.jpg?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska ubodna testera EXPERT EXST18V-155B sa koferom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601048850_888.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska ubodna testera STB 18 L 90"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601047850_350.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska ubodna testera ST 18 L 90"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601110000_155.jpg?2026-02-19-1",
+        "alt": "Metabo - Ubodna testera STEB 100 Quick"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDMQ85EK_44.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorska ubodna testera KDMQ85EK sa baterijama 20V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDMQ85Z_547.png?2026-02-19-1",
+        "alt": "DCK - Akumulatorska ubodna testera KDMQ85Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Proxxon_28530_378.png?2026-02-19-1",
+        "alt": "Proxxon - Ubodna testera STS/E"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DJV186Z_133.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ubodna testera DJV186Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Makita MT_M4301_447.jpg?2026-02-19-1",
+        "alt": "Makita MT - Ubodna testera M4301B"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Makita_DJV185Z_862.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ubodna testera DJV185Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Makita_DJV180ZX_830.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ubodna testera DJV180ZX"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-jv0600k-1_83.jpg?2026-02-19-1",
+        "alt": "Makita - Oscilovajuća ubodna testera JV0600K"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Makita_DJV184Z_456.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ubodna testera DJV184Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-4350fct-1_57.jpg?2026-02-19-1",
+        "alt": "Makita - Ubodna testera 4350FCT"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita_4329_1_15.jpg?2026-02-19-1",
+        "alt": "Makita - Elektronska oscilovajuća ubodna testera 4329"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita_4327_1_51.jpg?2026-02-19-1",
+        "alt": "Makita - Ubodna testera 4327"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c50337d3e1afDJV180Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ubodna testera DJV180Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/61_metabo-STEB-65.jpg?2026-02-19-1",
+        "alt": "Metabo - Ubodna testera STEB 65 Quick"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2023/Hikoki_CJ90VST2-WAZ_675.jpg?2026-02-19-1",
+        "alt": "Hikoki - Ubodna testera CJ90VST2-WAZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2023/Hikoki_CJ90VAST2-WA_865.jpg?2026-02-19-1",
+        "alt": "Hikoki - Ubodna testera CJ90VAST2-WA"
+      }
+    ]
+  },
+  {
+    "id": "tool-040",
+    "query": "stona testera",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=stona+testera",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601B53000_563.png?2026-02-19-1",
+        "alt": "Bosch - Potezna testera PRO GCM 254 D"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_0601B30800_758.png?2026-02-19-1",
+        "alt": "Bosch Expert - Stona testera EXPERT EXTS100-254X"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_LS1110F_537.jpg?2026-02-19-1",
+        "alt": "Makita - Potezna testera LS1110F"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Makita_LS0816F_20.jpg?2026-02-19-1",
+        "alt": "Makita - Nagibna stona testera LS0816F"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5bddbeea17b02LH1040.jpg?2026-02-19-1",
+        "alt": "Makita - Testera nagibna stona LH1040"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/71_makita-LS1219L.jpg?2026-02-19-1",
+        "alt": "Makita - Potezno-nagibna testera LS1219L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/58_makita-LS1040N.jpg?2026-02-19-1",
+        "alt": "Makita - Potezna testera LS1040N"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2024/Makita_LS1019L_21.jpg?2026-02-19-1",
+        "alt": "Makita - Nagibna stona testera LS1019L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/66_makita-DLW140Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska testera za metal DLW140Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5527f4404dc99metabo-KGS-305-M.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGS 305 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/16_metabo-KGT-305-M.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGT 305 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5a4f6d13cfdd3KS-305-M.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KS 305 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-kgs-216-m_74.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGS 216 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/550ee2d711a3emetabo_kgs_254_m.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGS 254 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5526e5ab7e08cmetabo-KS-216-M.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KS 216 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-kgs-315-plus_7.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGS 315 Plus"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo_kgs_254_i_plus_47.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGS 254 I Plus Induction motor"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/576c4f1962225makita LH1201FL.jpg?2026-02-19-1",
+        "alt": "Makita - Nagibna stona testera LH1201FL"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/88_bosch PTS 10 T.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Stona testera PTS 10 T"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/evolution_rage5_255_72.jpg?2026-02-19-1",
+        "alt": "Evolution - Stona testera RAGE5 255"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5bc32c2eeaa03MSM1037.jpg?2026-02-19-1",
+        "alt": "FERM - Stona testera 230mm MSM1037"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/555f7b4b97610metabo_ks_254_plus.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KS 254 Plus"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo_kgs_216_plus_65.jpg?2026-02-19-1",
+        "alt": "Metabo - Stona potezna testera KGS 216 Plus"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/evolution-rage2-355_61.jpg?2026-02-19-1",
+        "alt": "Evolution - Stona kružna testera univerzalna Rage2 355"
+      }
+    ]
+  },
+  {
+    "id": "tool-041",
+    "query": "testera za metal",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=testera+za+metal",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_CS002GZ + BL4050F + DC40RA_981.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ručna kružna testera za metal CS002GZ sa baterijama 40V 5Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_CS002GZ_226.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ručna kružna testera za metal CS002GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KJG09-355_674.jpg?2026-02-19-1",
+        "alt": "DCK - Brusilica za metal KJG09-355"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/DeWalt_D28730_746.jpg?2026-02-19-1",
+        "alt": "DeWalt - Testera za metal D28730"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-lc1230-1_53.jpg?2026-02-19-1",
+        "alt": "Makita - Testera za metal LC1230N"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/66_makita-DLW140Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska testera za metal DLW140Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/FLEX_307.815_771.jpg?2026-02-19-1",
+        "alt": "FLEX - Kružna testera za metal CSM 4060"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/55b49bd7345a9bahco-204.jpg?2026-02-19-1",
+        "alt": "Bahco - Testera za metal 304"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/81_makita-mt-M2401.jpg?2026-02-19-1",
+        "alt": "Makita MT - Testera za metal M2401 stona"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/10_makita-DCS552Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska testera za metal DCS552Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita_4131_1_54.jpg?2026-02-19-1",
+        "alt": "Makita - Ručna kružna testera za metal 4131"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/20_makita-DCS553Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska testera za metal DCS553Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/evolution_evo230hdx_8.jpg?2026-02-19-1",
+        "alt": "Evolution - Ručna kružna testera za metal EVO230HDX"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c541a84b65b4DCS550Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska testera za metal DCS550Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/577c208e3bb25317.jpg?2026-02-19-1",
+        "alt": "Bahco - Testera za metal 317"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5692aa783e7cdmetabo-CS-23-355.jpg?2026-02-19-1",
+        "alt": "Metabo - Testera za metal CS 23-355 + ugaona brusilica W 12-125 Quick + rezna ploča"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5500b2d10af3ametabo-css230.jpg?2026-02-19-1",
+        "alt": "Metabo - Testera za metal CS 23-355 + ugaona brusilica W 1100-125 + rezna ploča"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/evolution_ragetwin_155_6.jpg?2026-02-19-1",
+        "alt": "Evolution - Ručna testera za metal i drvo RAGETWIN 155"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo_powermaxx_ase_19.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska univerzalna testera PowerMaxx ASE"
+      }
+    ]
+  },
+  {
+    "id": "tool-042",
+    "query": "aparat za zavarivanje",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=aparat+za+zavarivanje",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/ESAB_140170_190.jpg?2026-02-19-1",
+        "alt": "ESAB - Aparat za zavarivanje ROGUE ES 201iP PRO"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/ESAB_0700500076_691.jpg?2026-02-19-1",
+        "alt": "ESAB - Aparat za zavarivanje ROGUE ES150i CE"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/REM Power_0302003502_205.jpg?2026-02-19-1",
+        "alt": "REM Power - Aparat za zavarivanje inverter WMEm 200 Profi Lynx + senzorska maska"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Jasic_W2S42_8.jpg?2026-02-19-1",
+        "alt": "Jasic - Aparat za zavarivanje EVO 20 TIG200 PFC DC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Jasic_E2S22_750.jpg?2026-02-19-1",
+        "alt": "Jasic - Aparat za zavarivanje EVO 20 TIG200PAC/DC PFC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Jasic_N2S62_257.jpg?2026-02-19-1",
+        "alt": "Jasic - Aparat za zavarivanje EVO 20 MIG 200 PFC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Jasic_N2SB2_258.jpg?2026-02-19-1",
+        "alt": "Jasic - Aparat za zavarivanje EVO 20 MIG250 PFC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Jasic_ARC200 PFC Z2S42_352.jpg?2026-02-19-1",
+        "alt": "Jasic - Aparat za zavarivanje ARC200 PFC Z2S42"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Jasic_ARC160 PFC Z2S22_204.jpg?2026-02-19-1",
+        "alt": "Jasic - Aparat za zavarivanje EVO20 ARC160 PFC Z2S22"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Varstroj_VARTIG 201 DC_810.jpg?2026-02-19-1",
+        "alt": "Varstroj - Aparat za zavarivanje Inverter Vartig 201 DC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c41c75c12d64VARTIG-221-ACDC-V.jpg?2026-02-19-1",
+        "alt": "Varstroj - Aparat za zavarivanje VARTIG 221 AC/DC W"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Hugong_988808_985.jpg?2026-02-19-1",
+        "alt": "Hugong - Aparat za zavarivanje E-MIG 250 LCD"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Hugong_988815_213.jpg?2026-02-19-1",
+        "alt": "Hugong - Aparat za zavarivanje E-MIG 300 LCD ( MIG/STICK 300 LCD )  +  kotur žice"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56b25e882ff60REMS-MSG-63-FM.jpg?2026-02-19-1",
+        "alt": "REMS - Pegla za plastične cevi REMS MSG 63 FM komplet 20 - 25 - 32"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Hugong_988138_924.jpg?2026-02-19-1",
+        "alt": "Hugong - Aparat za zavarivanje INVERMIG 350 separate"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Hugong_988602_815.jpg?2026-02-19-1",
+        "alt": "Hugong - Aparat za zavarivanje WAVE 315 AC/DC W"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Hugong_988810_20.jpg?2026-02-19-1",
+        "alt": "Hugong - Aparat za zavarivanje WAVE 203 AC/DC PFC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Hugong_988609_67.jpg?2026-02-19-1",
+        "alt": "Hugong - Aparat za zavarivanje PMIG 200 Pulse"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5_hugong-inverdelta-300-400.jpg?2026-02-19-1",
+        "alt": "Hugong - Inverterski aparat za zavarivanje INVERDELTA 400 PROFI"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/87_hugong-inverdelta-300-400.jpg?2026-02-19-1",
+        "alt": "Hugong - Inverterski aparat za zavarivanje INVERDELTA 300 PROFI"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/84_hugong-POWERSTICK-251W-PROFI.jpg?2026-02-19-1",
+        "alt": "Hugong - Inverterski aparat za zavarivanje POWERSTICK 251W PROFI"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/98_hugong-ESTICK-160.jpg?2026-02-19-1",
+        "alt": "Hugong - Inverterski aparat za zavarivanje ESTICK 200 PFC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/29_hugong-ESTICK-160.jpg?2026-02-19-1",
+        "alt": "Hugong - Inverterski aparat za zavarivanje ESTICK 180 PFC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/11_hugong-ESTICK-160.jpg?2026-02-19-1",
+        "alt": "Hugong - Inverterski aparat za zavarivanje ESTICK 200 profi"
+      }
+    ]
+  },
+  {
+    "id": "tool-043",
+    "query": "ugaona brusilica",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=ugaona+brusilica",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DGA519Z_79.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ugaona brusilica DGA519Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DGA520ZX1_877.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ugaona brusilica DGA520ZX1"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DGA521ZX1_644.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ugaona brusilica DGA521ZX1"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_GA044GZ_179.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ugaona brusilica GA044GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_GA041GZ_706.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ugaona brusilica GA041GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_GA055GZ_303.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ugaona brusilica GA055GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_GA050GZ_459.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ugaona brusilica GA050GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-09715_65.jpg?2026-02-19-1",
+        "alt": "Yato - Pneumatska ugaona brusilica YT-09715"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDKIT31EK_165.jpg?2026-02-19-1",
+        "alt": "DCK - Set akumulatorski udarni odvrtač KDPL208 i ugaona brusilica KDSM04-125 sa baterijama 20V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KAG1400-125E_708.jpg?2026-02-19-1",
+        "alt": "DCK - Ugaona brusilica KAG1400-125E"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KCKC04EK_353.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski set vibraciona bušilica KDJZ2060i i ugaona brusilica KDSM04-125 sa baterijama 20V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06013A6101_88.png?2026-02-19-1",
+        "alt": "Bosch - Ugaona brusilica PRO GWS 12-125"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06013A6020_779.png?2026-02-19-1",
+        "alt": "Bosch - Ugaona brusilica PRO GWS 12-125 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601824806_123.png?2026-02-19-1",
+        "alt": "Bosch - Ugaona brusilica PRO GWS 1400"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019M6501_334.png?2026-02-19-1",
+        "alt": "Bosch Expert - Ugaona brusilica EXPERT EXWX18V-15PS sa baterijom 18V 8Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019M6500_546.png?2026-02-19-1",
+        "alt": "Bosch Expert - Ugaona brusilica EXPERT EXWX18V-15PS sa koferom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06018G1101_266.png?2026-02-19-1",
+        "alt": "Bosch Expert - Ugaona brusilica EXPERT EXWS30-230PB"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06018G0101_212.png?2026-02-19-1",
+        "alt": "Bosch Expert - Ugaona brusilica EXPERT EXWS30-180PB"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06018G0001_967.png?2026-02-19-1",
+        "alt": "Bosch Expert - Ugaona brusilica EXPERT EXWS30-180B"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06017D5300_563.png?2026-02-19-1",
+        "alt": "Bosch Expert - Ugaona brusilica EXPERT EXWS20-150SB"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06017D5200_601.png?2026-02-19-1",
+        "alt": "Bosch Expert - Ugaona brusilica EXPERT EXWS20-125TSB"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06017D5100_214.jpg?2026-02-19-1",
+        "alt": "Bosch Expert - Ugaona brusilica EXPERT EXWS20-125B"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019M6402_62.png?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska ugaona brusilica EXPERT EXWS18V-15PS sa baterijama18V 8Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019M6401_438.png?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska ugaona brusilica EXPERT EXWS18V-15PS sa koferom"
+      }
+    ]
+  },
+  {
+    "id": "tool-044",
+    "query": "stona brusilica",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=stona+brusilica",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-gb602-1_33.jpg?2026-02-19-1",
+        "alt": "Makita - Dvostrana stona brusilica GB602"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-gb801-1_85.png?2026-02-19-1",
+        "alt": "Makita - Dvostrana stona brusilica GB801"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-gb602w-1_17.jpg?2026-02-19-1",
+        "alt": "Makita - Dvostrana stona brusilica GB602W"
+      }
+    ]
+  },
+  {
+    "id": "tool-045",
+    "query": "indukcioni",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=indukcioni",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2024/Metabo_619010000_314.jpg?2026-02-19-1",
+        "alt": "Metabo - Tračna testera - bansek BAS 318 Precision DNB"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57f6c58e86254BAS-261-Precision.jpg?2026-02-19-1",
+        "alt": "Metabo - Tračna testera - bansek BAS 261 Precision"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2023/Hervisa Perles_H25460_362.jpg?2026-02-19-1",
+        "alt": "Hervisa Perles - Vibro igla AV 425 42mm"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Metabo_619009000_147.jpg?2026-02-19-1",
+        "alt": "Metabo - Tračna testera - bansek BAS 318 Precision WNB"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Metabo_0103153300_800.jpg?2026-02-19-1",
+        "alt": "Metabo - Stacionarna kružna testera TKHS 315 M - 4.2 DNB"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-dsd-250_46.jpg?2026-02-19-1",
+        "alt": "Metabo - Dvostrano tocilo DSD 250 (400V)"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-dsd-200_97.jpg?2026-02-19-1",
+        "alt": "Metabo - Dvostrano tocilo DSD 200 (400V)"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-tns-175_98.jpg?2026-02-19-1",
+        "alt": "Metabo - Dvostrano tocilo-oštrač TNS 175"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-ds-200_57.jpg?2026-02-19-1",
+        "alt": "Metabo - Dvostrano tocilo DS 200"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo_bs_175_45.jpg?2026-02-19-1",
+        "alt": "Metabo - Dvostrano tocilo - oštrač BS 175"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-ds-175_11.jpg?2026-02-19-1",
+        "alt": "Metabo - Dvostrano tocilo DS 175"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/55c5d761813e3makita 2712.jpg?2026-02-19-1",
+        "alt": "Makita - Stacionarna kružna testera 2712"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo_kgs_254_i_plus_47.jpg?2026-02-19-1",
+        "alt": "Metabo - Potezna testera KGS 254 I Plus Induction motor"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5b5863d08c8e9CRM1045.jpg?2026-02-19-1",
+        "alt": "FERM - Kompresor 24l CRM1045"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/574cb6b15e547ferm TCM1011.jpg?2026-02-19-1",
+        "alt": "FERM - Rezač pločica TCM1011"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_gbg_6_96.jpg?2026-02-19-1",
+        "alt": "Bosch - Dvostrano tocilo GBG 6 Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/hw112_48.jpg?2026-02-19-1",
+        "alt": "Makita - Čistač sa visokim pritiskom HW112"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_gbg_8_95.jpg?2026-02-19-1",
+        "alt": "Bosch - Dvostrano tocilo GBG 8 Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/skil_3900_ma_6.jpg?2026-02-19-1",
+        "alt": "Skil Masters - Dvostrano tocilo 3900 MA"
+      }
+    ]
+  },
+  {
+    "id": "tool-046",
+    "query": "zakiv",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=zakiv",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_AC001GZ_574.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski kompresor AC001GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DBN900ZK_317.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski pištolj za eksere DBN900ZK"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-09904_614.jpg?2026-02-19-1",
+        "alt": "Yato - Pneumatska štemarica YT-09904"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-3610_986.jpg?2026-02-19-1",
+        "alt": "Yato - Dvoručna klešta za pop nitne 525mm YT-3610"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06019K5004_993.png?2026-02-19-1",
+        "alt": "Bosch - Akumulatorski pištolj za pop nitne PRO GRG18V-16 sa beterijmo 18V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_619002840_335.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorski pištolj za pop nitne NP 18 LTX BL 5.0"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601788850_415.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorski pištolj za navojne nitne NMP 18 LTX BL M10"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/94_makita-DRV250Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski pištolj za zakivanje DRV250Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Senco_F-35XP_530.jpg?2026-02-19-1",
+        "alt": "Senco - Akumulatorski pištolj za eksere F-35XP"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Senco_F-35X_357.jpg?2026-02-19-1",
+        "alt": "Senco - Akumulatorski pištolj za eksere F-35XP 2.0 Fusion"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Makita_E-15241_206.jpg?2026-02-19-1",
+        "alt": "Makita - Torbica za električare E-15241"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Makita_E-05175_949.jpg?2026-02-19-1",
+        "alt": "Makita - Komplet kaiša za teške radove E-05175"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_E-15229_447.jpg?2026-02-19-1",
+        "alt": "Makita - Trodelna torbica za alat na kaišu E-15229"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/81_makita-DRV150Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski pištolj za zakivanje DRV150Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2024/Makita_E-05212_269.jpg?2026-02-19-1",
+        "alt": "Makita - Futrola za električare sa 4 komponente E-15279"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Makita_E-05125_519.jpg?2026-02-19-1",
+        "alt": "Makita - Univerzalna torbica za ručni alat i bušilicu E-05125"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c2a17d2690ccNP 18 LTX BL.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorski pištolj za pop nitne NP 18 LTX BL 5.0 sa baterijama 18V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2023/Makita_E-05418_733.jpg?2026-02-19-1",
+        "alt": "Makita - Torba za alat E-05418"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Makita_E-05343_559.jpg?2026-02-19-1",
+        "alt": "Makita - Kožni kaiš sa alkom E-15693"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2023/Makita_E-05256_939.jpg?2026-02-19-1",
+        "alt": "Makita - Univerzalni držač alata E-05256"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Makita_E-05262_994.jpg?2026-02-19-1",
+        "alt": "Makita - Torbica za nož, makaze i ostala sečiva E-15322 ( E-05262 )"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2023/Makita_E-05228_316.jpg?2026-02-19-1",
+        "alt": "Makita - Futrola za čekić i alat sa 3 komponente E-05228"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Makita_E-05234_149.jpg?2026-02-19-1",
+        "alt": "Makita - Držač sa kliznom kopčom za čekić i alat E-05234"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Makita_E-05240_69.jpg?2026-02-19-1",
+        "alt": "Makita - Držač čekića ili sekire E-05240"
+      }
+    ]
+  },
+  {
+    "id": "tool-047",
+    "query": "fen",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=fen",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HG001GZ_802.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski fen za vrući vazduh HG001GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KQB04-2000_502.jpg?2026-02-19-1",
+        "alt": "DCK - Fen za vreli vazduh KQB04-2000"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Proxxon_27130_910.png?2026-02-19-1",
+        "alt": "Proxxon - Fen za vreli vazduh MICRO MH 550"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2023/Makita_DHG181ZK_672.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski fen za vrući vazduh DHG181ZK"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/DeWalt_D26414_545.jpg?2026-02-19-1",
+        "alt": "DeWalt - Fen za vreli vazduh D26414"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c5acef9b7e6dHG6031VK.jpg?2026-02-19-1",
+        "alt": "Makita - Fen za vrući vazduh HG6031VK"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/68_makita-HG5030K.jpg?2026-02-19-1",
+        "alt": "Makita - Fen za vrući vazduh HG5030K"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2021/Steinel_351601_285.jpg?2026-02-19-1",
+        "alt": "Steinel - Fen za topli vazduh HG 2520 E"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/66_makita-HG6531CK.jpg?2026-02-19-1",
+        "alt": "Makita - Fen za vrući vazduh HG6531CK"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/550ee6b3da23emetabo_ts_216.jpg?2026-02-19-1",
+        "alt": "Metabo - Stoni cirkular TS 216"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Makita_DHG180ZK_635.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski fen za vrući vazduh DHG180ZK"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_604063500_645.jpg?2026-02-19-1",
+        "alt": "Metabo - Fen za vruć vazduh HGS 22-630"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Metabo_603065000_107.jpg?2026-02-19-1",
+        "alt": "Metabo - Fen za vruć vazduh  HGE 23-650 LCD"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Metabo_602066000_383.jpg?2026-02-19-1",
+        "alt": "Metabo - Fen za vruć vazduh HG 20-600"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/Metabo_601067000_990.jpg?2026-02-19-1",
+        "alt": "Metabo - Fen za vruć vazduh HG 16-500"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2021/Steinel_007386_893.jpg?2026-02-19-1",
+        "alt": "Steinel - Fen za topli vazduh HG 2320 E"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2021/Steinel_351403_294.jpg?2026-02-19-1",
+        "alt": "Steinel - Fen za topli vazduh HG 2120 E"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/akc-metabo-he-20-600_8.jpg?2026-02-19-1",
+        "alt": "Metabo - Fen za topli vazduh HE 20-600"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5509ede3c0c70metabo-HE-20-600.jpg?2026-02-19-1",
+        "alt": "Metabo - Fen za vreli vazduh sa koferom HE 20-600"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/55b667da7e33cmetabo-HE-23-650-Control.jpg?2026-02-19-1",
+        "alt": "Metabo - Fen za vruć vazduh HE 23-650 Control"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/metabo-h-16-500_61.jpg?2026-02-19-1",
+        "alt": "Metabo - Fen za vreli vazduh H 16-500"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c5c09a834aacGHG 23-66.jpg?2026-02-19-1",
+        "alt": "Bosch - Fen za vreli vazduh GHG 23-66 Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c5c08695d10fGHG 20-60.jpg?2026-02-19-1",
+        "alt": "Bosch - Fen za vreli vazduh GHG 20-60 Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/94_GHG-23-66-Kit.jpg?2026-02-19-1",
+        "alt": "Bosch - Fen za vreli vazduh GHG 23-66 Kit Professional"
+      }
+    ]
+  },
+  {
+    "id": "tool-048",
+    "query": "lemilica",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=lemilica",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06019S8000_35.jpg?2026-02-19-1",
+        "alt": "Bosch - Akumulatorska lemilica PRO GLK12V-420"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Proxxon_28144_354.png?2026-02-19-1",
+        "alt": "Proxxon - Lemilica gasna set MICROFLAM MGS"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/weller-si251_62.png?2026-02-19-1",
+        "alt": "Weller - Lemilica štapna SI251"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56f28d4dcbc97weller-05C.jpg?2026-02-19-1",
+        "alt": "Weller - Pištolj lemilica 05C 250W"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/weller-sp80_48.jpg?2026-02-19-1",
+        "alt": "Weller - Lemilica SP80"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/weller-si120_42.jpg?2026-02-19-1",
+        "alt": "Weller - Lemilica štapna SI120"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/weller-p-1k_86.jpg?2026-02-19-1",
+        "alt": "Weller - Gasna lemilica P-1K"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/weller-si175_49.png?2026-02-19-1",
+        "alt": "Weller - Lemilica štapna SI175"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/weller-9200uc_37.png?2026-02-19-1",
+        "alt": "Weller - Pištolj lemilica 9200UC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/574d577530dddferm-SGM1001.jpg?2026-02-19-1",
+        "alt": "FERM - Set lemilica SGM1001"
+      }
+    ]
+  },
+  {
+    "id": "tool-049",
+    "query": "rezač pločica",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=reza%C4%8D+plo%C4%8Dica",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2024/Cortag_62187_117.jpg?2026-02-19-1",
+        "alt": "Cortag - Rezač pločica stoni Mega 125"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/574cb6b15e547ferm TCM1011.jpg?2026-02-19-1",
+        "alt": "FERM - Rezač pločica TCM1011"
+      }
+    ]
+  },
+  {
+    "id": "tool-050",
+    "query": "vibracion",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=vibracion",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_VL001GZ_803.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska vibraciona letva za beton VL001GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_CE004GZ + BL4050F + DC40RA_357.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski sekač za beton CE004GZ sa baterijama 40V 5Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_CE004GZ_997.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski sekač za beton CE004GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DBO382Z_788.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska vibraciona brusilica DBO382Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_BO007CGZ_902.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska vibraciona brusilica BO007CGZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_BO004CGZ_955.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska vibraciona brusilica BO004CGZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_GA050GZ_459.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska ugaona brusilica GA050GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DHR400ZKN_667.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica za beton SDS-Max DHR400ZKN"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HR009GM201_442.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica za beton SDS-Plus HR009GM201 sa baterijama 40V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HR009GZ_310.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica za beton SDS-Plus HR009GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HR008GZ_565.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska bušilica za beton SDS-Plus HR008GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HM002GZ03_341.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska štemarica SDS-Max HM002GZ03"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DHP489RTJ_258.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska vibraciona bušilica-odvijač DHP489RTJ sa baterijama 18V 5Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DHP489Z_980.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska vibraciona bušilica-odvijač DHP489Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_DHP487Z_538.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska vibraciona bušilica-odvijač DHP487Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_HP003GZ_224.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska vibraciona bušilica-odvijač HP003GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KSB03-234_247.jpg?2026-02-19-1",
+        "alt": "DCK - Vibraciona brusilica KSB03-234"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KCKC04EK_353.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorski set vibraciona bušilica KDJZ2060i i ugaona brusilica KDSM04-125 sa baterijama 20V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDJZ2090iEK_983.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorska vibraciona bušilica KDJZ2090iEK sa baterijama 20V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDJZ1250iEK_180.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorska vibraciona bušilica KDJZ1250iEK sa baterijama 12V 2Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06019S6102_173.jpg?2026-02-19-1",
+        "alt": "Bosch - Akumulatorske vibraciona bušilica PRO GSB12V-31 sa baterijama 12V 2Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06019S6105_600.jpg?2026-02-19-1",
+        "alt": "Bosch - Akumulatorske vibraciona bušilica PRO GSB12V-31 sa baterijom 12V 2Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_0615A5008Z_547.png?2026-02-19-1",
+        "alt": "Bosch - Akumulatorski set vibraciona bušilica GSB 18V-65 i ugaon brusilica GWS 18V-8 sa baterijama 184Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06019K3100_964.png?2026-02-19-1",
+        "alt": "Bosch - Akumulatorske vibraciona bušilice-odvrtači PRO GSB 185-LI sa baterijama 18V 2Ah i punjačem"
+      }
+    ]
+  },
+  {
+    "id": "tool-051",
+    "query": "mešač",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=me%C5%A1a%C4%8D",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5596f9871a316makita-UT1200.jpg?2026-02-19-1",
+        "alt": "Makita - Mešač - mikse UT1200"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/551fbfd6ea061makita-UT1600.jpg?2026-02-19-1",
+        "alt": "Makita - Mešač - mikser UT1600"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/9_makita-DUT130Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski mešač - mikser DUT130Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/makita-ut1400_29.jpg?2026-02-19-1",
+        "alt": "Makita - Mešač - mikser  UT1400"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54d343fc33addakc-makita-ut1401_78.jpg?2026-02-19-1",
+        "alt": "Makita - Mešač - mikser  UT1401"
+      }
+    ]
+  },
+  {
+    "id": "tool-052",
+    "query": "varenje cevi",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=varenje+cevi",
+    "matches": []
+  },
+  {
+    "id": "tool-053",
+    "query": "papagaj",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=papagaj",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Proxxon_23650_74.png?2026-02-19-1",
+        "alt": "Proxxon - Set alata automobilski"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Irimo_602-3-C_742.jpg?2026-02-19-1",
+        "alt": "Irimo - Set klešta 602-3-C"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/11_irimo-9024-1TS1.jpg?2026-02-19-1",
+        "alt": "Irimo - Aluminijumski kofer sa 96 alata 9024-1TS1"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5a31125509eb49020F550FF10.jpg?2026-02-19-1",
+        "alt": "Irimo - Set alata 67 kom u metalnoj kutiji sa penastim uloškom 9020F550FF10"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/92_makita-B-65492.jpg?2026-02-19-1",
+        "alt": "Makita - Papagaj klešta B-65492"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/81_makita-B-65741.jpg?2026-02-19-1",
+        "alt": "Makita - Papagaj klešta B-65763"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/72_makita-B-65741.jpg?2026-02-19-1",
+        "alt": "Makita - Papagaj klešta B-65741"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/98_makita-B-65486.jpg?2026-02-19-1",
+        "alt": "Makita - Papagaj klešta B-65486"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/61_makita-B-65757.jpg?2026-02-19-1",
+        "alt": "Makita - Papagaj klešta B-65757"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c6d54cb5df6a7223.jpg?2026-02-19-1",
+        "alt": "Bahco - Papagaj klešta sa brzim podešavanjem 7224"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c6d5505a32357223.jpg?2026-02-19-1",
+        "alt": "Bahco - Papagaj klešta sa brzim podešavanjem 7225"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c6d54952c48c7223.jpg?2026-02-19-1",
+        "alt": "Bahco - Papagaj klešta sa brzim podešavanjem 7223"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c6d2a160392a8231.jpg?2026-02-19-1",
+        "alt": "Bahco - Klešta papagaj velikog kapaciteta 8231 IP"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5a3114db557f69022-3-50TS1.jpg?2026-02-19-1",
+        "alt": "Irimo - Set od 9 alata u torbi 9022-3-50TS1"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/58c92a1ee3bdd9021FTW520FF1.jpg?2026-02-19-1",
+        "alt": "Irimo - Pokretna radionica sa 60 alata 9021FTW520FF1"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/akc-knipex-cobra-xl_77.jpg?2026-02-19-1",
+        "alt": "Knipex - Papagaj - cevna klešta 400mm \"COBRA XL\""
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/573df0c34532e2056EE.jpg?2026-02-19-1",
+        "alt": "Beta - Set alata od 145 delova u aluminijumskom koferu 2056E/E"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57388e69b3d112047E-C108.jpg?2026-02-19-1",
+        "alt": "Beta - Set alata od 108 delova u plastičnom koferu 2047E/C108"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5734fb74da7f7beta-2120L-E.jpg?2026-02-19-1",
+        "alt": "Beta - Set alata 91 kom u kutiji 2120L-E/T91-E"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5738ab46e7a7d2400S-O8-E-XL.jpg?2026-02-19-1",
+        "alt": "Beta - Profesionalni set alata od 384 dela u kolicima sa 8 fioka 2400S-O8/E-XL"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5738a25da45d12400S-O7---E-L.jpg?2026-02-19-1",
+        "alt": "Beta - Profesionalni set alata od 295 delova u kolicima sa 7 fioka 2400S-O7/E-L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c6e65353c2de9031-7224.jpg?2026-02-19-1",
+        "alt": "Bahco - Set papagajke i podešavajući ključ 9031-7224"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5b56e04d02ef79897.jpg?2026-02-19-1",
+        "alt": "Bahco - Komplet klešta 9897"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5a6f289ad272187-41-250.jpg?2026-02-19-1",
+        "alt": "Knipex - Klješta ključ \"Papagajke\" Raptor 250mm"
+      }
+    ]
+  },
+  {
+    "id": "tool-054",
+    "query": "stege za cevi",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=stege+za+cevi",
+    "matches": []
+  },
+  {
+    "id": "tool-055",
+    "query": "laser",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=laser",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_SK700GD_846.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski laser sa više linija SK700GD"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_SK10GD_618.jpg?2026-02-19-1",
+        "alt": "Makita - Laser sa ukrštenim linijama SK10GD"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_SK106GDZ_418.jpg?2026-02-19-1",
+        "alt": "Makita - Laser sa ukrštenim linijama SK106GDZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch-zeleni_0603672M00_133.png?2026-02-19-1",
+        "alt": "Bosch-zeleni - Digitalni laserski daljinomer PLM40-23"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch-zeleni_0603672K00_789.png?2026-02-19-1",
+        "alt": "Bosch-zeleni - Digitalni laserski daljinomer PLM30-21"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601075700_455.png?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer PRO GLM100-36CG"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601075400_267.png?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer PRO GLM70-32"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601075001_210.jpg?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer PRO GLM60-31"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_2608628341_260.png?2026-02-19-1",
+        "alt": "Bosch - Glodalo za zaobljavanje sa ležajem, prihvat 8mm, radna dužina 15,2mm"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601B53000_563.png?2026-02-19-1",
+        "alt": "Bosch - Potezna testera PRO GCM 254 D"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601065001_1.png?2026-02-19-1",
+        "alt": "Bosch - Linijski laser PRO GLL 2-20 G sa stativom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601065000_6.png?2026-02-19-1",
+        "alt": "Bosch - Linijski laser PRO GLL 2-20 G"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601072W00_974.png?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer PRO GLM 25-23"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601072S00_178.png?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer PRO GLM 50-22"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_0601065B00_303.png?2026-02-19-1",
+        "alt": "Bosch Expert - Linijski laser sa 3 dimenzija EXPERT EXLL18V-120-33CG sa baterijom 18V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_0601065B01_664.png?2026-02-19-1",
+        "alt": "Bosch Expert - Linijski laser sa 3 dimenzija EXPERT EXLL18V-120-33CG sa koferom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601609850_360.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorske makaze za travu SGS 18 LTX Q"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601719850_632.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorske makaze za živu ogradu HS 18 LTX 65"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601718850_27.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorske makaze za živu ogradu HS 18 LTX 55"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601717850_4.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorske makaze za živu ogradu HS 18 LTX 45"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/DCK_KDHT20221BDM_164.jpg?2026-02-19-1",
+        "alt": "DCK - Akumulatorske makaze za živu ogradu KDHT20221BDM sa baterijom 20V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Kapro_K933G_588.jpg?2026-02-19-1",
+        "alt": "Kapro - Laserski nivelator 933G NUCLEO mini 3D zeleni"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Proxxon_23825_488.png?2026-02-19-1",
+        "alt": "Proxxon - Garnitura ključeva okasto vilastih SlimLine 12-delni"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Proxxon_23236_578.png?2026-02-19-1",
+        "alt": "Proxxon - Ključ četvorostruki MicroSpeeder"
+      }
+    ]
+  },
+  {
+    "id": "tool-056",
+    "query": "daljinomer",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=daljinomer",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch-zeleni_0603672M00_133.png?2026-02-19-1",
+        "alt": "Bosch-zeleni - Digitalni laserski daljinomer PLM40-23"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch-zeleni_0603672K00_789.png?2026-02-19-1",
+        "alt": "Bosch-zeleni - Digitalni laserski daljinomer PLM30-21"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601075700_455.png?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer PRO GLM100-36CG"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601075400_267.png?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer PRO GLM70-32"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601075001_210.jpg?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer PRO GLM60-31"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601072W00_974.png?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer PRO GLM 25-23"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601072S00_178.png?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer PRO GLM 50-22"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5686d502acbf6makita-LD030P.jpg?2026-02-19-1",
+        "alt": "Makita - Laserski daljinomer LD030P"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/ridgid_lm-400_89.jpg?2026-02-19-1",
+        "alt": "Ridgid - Micro LM-400 Advanced Laserski daljinomer"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/51_BOSCH zamo III.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Digitalni laserski daljinomer Zamo III"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/571b62d1b6ae7PLR 30 C.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Digitalni laserski daljinomer PLR 30 C"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5889a8fd6ccc2GLM-40.jpg?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer GLM 40 Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/ridgid_lm-100_19.jpg?2026-02-19-1",
+        "alt": "Ridgid - Micro LM-100 Laserski daljinomer"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/FLEX_447.862_942.jpg?2026-02-19-1",
+        "alt": "FLEX - Laserski daljinomer ADM 60 Li"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_glm_30_31.jpg?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer GLM 30 Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5bc5e6b43e196LD 60.jpg?2026-02-19-1",
+        "alt": "Metabo - Laserski daljinomer LD 60"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/44_BOSCH zamo set.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Digitalni laserski daljinomer Zamo III set"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c500f6b329edGLM 120 C.jpg?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer GLM 120 C Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5889abb557a69GLM 50 C.jpg?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer GLM 50 C Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c5010603fb1cGLM-120-C.jpg?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer GLM 120 C Professional + stativ BT 150"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_glm_80_87.jpg?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer GLM 80 Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5823809661d70zamo.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Digitalni laserski daljinomer Zamo II"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_glm_250_vf_66.jpg?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer GLM 250 VF Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_glm_100_c_52.jpg?2026-02-19-1",
+        "alt": "Bosch - Laserski daljinomer GLM 100 C Professional"
+      }
+    ]
+  },
+  {
+    "id": "tool-057",
+    "query": "inspekcijska kamera",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=inspekcijska+kamera",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/ridgid-seesnake-micro_84.jpg?2026-02-19-1",
+        "alt": "Ridgid - SeeSnake Inspekcijska kamera 17mm"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/ridgid-seesnake-micro_88.jpg?2026-02-19-1",
+        "alt": "Ridgid - SeeSnake micro Inspekcijska kamera 9.5mm"
+      }
+    ]
+  },
+  {
+    "id": "tool-058",
+    "query": "termovizijska",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=termovizijska",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c3b753679e18868.jpg?2026-02-19-1",
+        "alt": "Testo - Termovizijska kamera 868"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/586e4d614558ftesto 865.jpg?2026-02-19-1",
+        "alt": "Testo - Termovizijska kamera 865"
+      }
+    ]
+  },
+  {
+    "id": "tool-059",
+    "query": "curenja",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=curenja",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_628799000_248.jpg?2026-02-19-1",
+        "alt": "Metabo - Hidromat HM3"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/ridgid-micro-cd-100_5.jpg?2026-02-19-1",
+        "alt": "Ridgid - Micro CD-100 detektor gasnih isparenja"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/dremel-940_31.jpg?2026-02-19-1",
+        "alt": "Dremel - DREMEL pištolj za lepak 940 (940-3)"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/586e4d614558ftesto 865.jpg?2026-02-19-1",
+        "alt": "Testo - Termovizijska kamera 865"
+      }
+    ]
+  },
+  {
+    "id": "tool-060",
+    "query": "detektor metala",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=detektor+metala",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601081800_761.png?2026-02-19-1",
+        "alt": "Bosch - Detektor metala PRO GMS 100-23"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56ba499b98f42la-1010.jpg?2026-02-19-1",
+        "alt": "CEM - Detektor metala i kablova u zidu LA-1010"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_gms_100_m_92.jpg?2026-02-19-1",
+        "alt": "Bosch - Detektor GMS 100 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/skil_0550_aa_56.jpg?2026-02-19-1",
+        "alt": "Skil - Detektor metala i strujnih vodova 0550 AA"
+      }
+    ]
+  },
+  {
+    "id": "tool-061",
+    "query": "detektor",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=detektor",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch-zeleni_0603683300_116.png?2026-02-19-1",
+        "alt": "Bosch-zeleni - Termo detektor PTD600-25"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0603684000_377.png?2026-02-19-1",
+        "alt": "Bosch-zeleni - Detektor nivoa gasa u boci Filio"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601081800_761.png?2026-02-19-1",
+        "alt": "Bosch - Detektor metala PRO GMS 100-23"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_0601081605_274.png?2026-02-19-1",
+        "alt": "Bosch Expert - Detektor EXPERT D-tect18V-200-17C"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Wiha_45528_357.jpg?2026-02-19-1",
+        "alt": "Wiha - Električarski set alata u rancu, 28-delni 45528"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Wiha_43797_367.jpg?2026-02-19-1",
+        "alt": "Wiha - Volt detektor, 12-1,000V AC 43797"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/ridgid-micro-cd-100_5.jpg?2026-02-19-1",
+        "alt": "Ridgid - Micro CD-100 detektor gasnih isparenja"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56ba499b98f42la-1010.jpg?2026-02-19-1",
+        "alt": "CEM - Detektor metala i kablova u zidu LA-1010"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Benning_050156_142.jpg?2026-02-19-1",
+        "alt": "Benning - Dutest pro - zujalica"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57fce8c4c4e6eTruvo1.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Digitalni detektor Truvo"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/589833f6ae83dBosch GIS 1000 C.jpg?2026-02-19-1",
+        "alt": "Bosch - Termo detektor GIS 1000 C Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Kapro_K883WG_210.jpg?2026-02-19-1",
+        "alt": "Kapro - Laser za linije zeleni Prolaser® 3D 883G"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Benning_050263_808.jpg?2026-02-19-1",
+        "alt": "Benning - Tester napona Duspol DIGITAL"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Benning_020023_361.jpg?2026-02-19-1",
+        "alt": "Benning - Tester napona Profipol+"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/589835fb8b356Bosch GIS 1000 C.jpg?2026-02-19-1",
+        "alt": "Bosch - Termo detektor GIS 1000 C Professional L-BOXX"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c51a265126d9set-883.jpg?2026-02-19-1",
+        "alt": "Kapro - SET Laserski nivelator 883 Prolaser ЗD All-Lines + Stativ + Libela SPIRIТ 779 60cm"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_gms_120_94.jpg?2026-02-19-1",
+        "alt": "Bosch - GMS 120 Detektor"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54e7b6ca8d491bosch_d-tect_120.jpg?2026-02-19-1",
+        "alt": "Bosch - Detektor Wallscanner D-tect 120 Professional L-BOXX"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_gms_100_m_92.jpg?2026-02-19-1",
+        "alt": "Bosch - Detektor GMS 100 M"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/skil_0550_aa_56.jpg?2026-02-19-1",
+        "alt": "Skil - Detektor metala i strujnih vodova 0550 AA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_ptd_1_20.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Termodetektor PTD 1"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_pmd_7_74.jpg?2026-02-19-1",
+        "alt": "Bosch-zeleni - Digitalni detektor PMD 7"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54e7b61b39cc8bosch_d-tect_120.jpg?2026-02-19-1",
+        "alt": "Bosch - Detektor Wallscanner D-tect 120 Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_wallscanner_d-tect_150_42.jpg?2026-02-19-1",
+        "alt": "Bosch - Detektor Wallscanner D-tect 150"
+      }
+    ]
+  },
+  {
+    "id": "tool-062",
+    "query": "dizalica",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=dizalica",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/cp81030_50.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica 3t CP81030"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/55183d2907b67cp_cp80015.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP80015"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5755498dd02ddCP81300.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica 30t CP81300"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/cp_cp81020_87.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica 2t CP81020"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/cp80020_98.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP80020"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56804bfc6f938CP CP80030.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP80030"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56d1a952b1baaCP81120.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP81120 12t"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5755484fa7b04CP81200.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica 20t CP81200"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c6136d042349dizalica.jpg?2026-02-19-1",
+        "alt": "Beta - Hidraulična dizalica 3,5t 3011/T3,5"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c5d830d930233035.jpg?2026-02-19-1",
+        "alt": "Beta - Kolica-dizalica za gume 3035"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/551fe86dd4668beta-3025.jpg?2026-02-19-1",
+        "alt": "Beta - Kranska sklopiva hidraulična dizalica 1t 3025N"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/beta-3030-2t_3.jpg?2026-02-19-1",
+        "alt": "Beta - Dizalica krokodil-2t 3030/2T"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56b1233052e16CP81080.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP81080"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56a514fbf1cceCP81050.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP81050"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c613832c00f3dizalica.jpg?2026-02-19-1",
+        "alt": "Beta - Hidraulična dizalica 15t 3011/T15"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c6137d07b4e7dizalica.jpg?2026-02-19-1",
+        "alt": "Beta - Hidraulična dizalica 10t 3011/T10"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c613749f21badizalica.jpg?2026-02-19-1",
+        "alt": "Beta - Hidraulična dizalica 5t 3011/T5"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5815dfe02bfda3026.jpg?2026-02-19-1",
+        "alt": "Beta - Menjačka dizalica 0.5t 3026-0.5"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/58160227390173011.jpg?2026-02-19-1",
+        "alt": "Beta - Hidraulična dizalica 20t 3011/T20"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57b4cdce29d5dBH13000.jpg?2026-02-19-1",
+        "alt": "Bahco - Dizalica veoma niskog profila 3t BH13000"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57b4ccad2c7f8BH12000.jpg?2026-02-19-1",
+        "alt": "Bahco - Dizalica veoma niskog profila 2t BH12000"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57b4cb9fc479dBH11500.jpg?2026-02-19-1",
+        "alt": "Bahco - Dizalica veoma niskog profila 1,5t BH11500"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57991ccb19460bahco BH13000L.jpg?2026-02-19-1",
+        "alt": "Bahco - Dizalica 3T, duga, za visoko dizanje BH13000L"
+      }
+    ]
+  },
+  {
+    "id": "tool-063",
+    "query": "hidraulična",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=hidrauli%C4%8Dna",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/cp81030_50.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica 3t CP81030"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/55183d2907b67cp_cp80015.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP80015"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5755498dd02ddCP81300.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica 30t CP81300"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/cp_cp81020_87.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica 2t CP81020"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/cp80020_98.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP80020"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56941ddbc9adaCP86150.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Hidraulična presa 15t CP86150"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56804bfc6f938CP CP80030.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP80030"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56b1250107274CP86200.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Hidraulična presa 20t CP86200"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56d1a952b1baaCP81120.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP81120 12t"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5755484fa7b04CP81200.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica 20t CP81200"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c6136d042349dizalica.jpg?2026-02-19-1",
+        "alt": "Beta - Hidraulična dizalica 3,5t 3011/T3,5"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5815e137d77a23027-20.jpg?2026-02-19-1",
+        "alt": "Beta - Hidraulična presa 20t 3027-20"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/551fe86dd4668beta-3025.jpg?2026-02-19-1",
+        "alt": "Beta - Kranska sklopiva hidraulična dizalica 1t 3025N"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56b1233052e16CP81080.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP81080"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56a514fbf1cceCP81050.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP81050"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c613832c00f3dizalica.jpg?2026-02-19-1",
+        "alt": "Beta - Hidraulična dizalica 15t 3011/T15"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c6137d07b4e7dizalica.jpg?2026-02-19-1",
+        "alt": "Beta - Hidraulična dizalica 10t 3011/T10"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c613749f21badizalica.jpg?2026-02-19-1",
+        "alt": "Beta - Hidraulična dizalica 5t 3011/T5"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/58160227390173011.jpg?2026-02-19-1",
+        "alt": "Beta - Hidraulična dizalica 20t 3011/T20"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/577e989b49513BH720.jpg?2026-02-19-1",
+        "alt": "Bahco - Hidraulična presa 20T BH720"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/577e975074b75BH715.jpg?2026-02-19-1",
+        "alt": "Bahco - Hidraulična presa 15T BH715"
+      }
+    ]
+  },
+  {
+    "id": "tool-064",
+    "query": "kolica",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=kolica",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_199009-8_60.jpg?2026-02-19-1",
+        "alt": "Makita - Nosač za akumulatorska kolica DCU180"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-55300_171.jpg?2026-02-19-1",
+        "alt": "Yato - Kolica sa alatom 177 delova"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/REM Power_288030_80.jpg?2026-02-19-1",
+        "alt": "REM Power - Usisivač VC 803 - 3 motora"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Jasic_N2SB2_258.jpg?2026-02-19-1",
+        "alt": "Jasic - Aparat za zavarivanje EVO 20 MIG250 PFC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5a1e9dbe19db0kolica.jpg?2026-02-19-1",
+        "alt": "Irimo - Kolica za transport 300 kg 9063HT300"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c5ab05ced34eDCU180Z.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorska kolica DCU180Z"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/bosch_gsh_16-30_1_77.jpg?2026-02-19-1",
+        "alt": "Bosch - GSH 16-30 Professional"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/FLEX_513.539_886.jpg?2026-02-19-1",
+        "alt": "FLEX - Akumulatorski set za polir majstore"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Irimo_9066K7_530.jpg?2026-02-19-1",
+        "alt": "Irimo - Kolica za alat 9066K7"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Irimo_9066K6_671.jpg?2026-02-19-1",
+        "alt": "Irimo - Kolica za alat 9066K6"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/Irimo_9066K5_75.jpg?2026-02-19-1",
+        "alt": "Irimo - Kolica za alat 9066K5"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5a311699421e29063FT90.jpg?2026-02-19-1",
+        "alt": "Irimo - Sklopiva kolica za teret 90kg 9063FT90"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5a1e9d3ddb350kolica.jpg?2026-02-19-1",
+        "alt": "Irimo - Kolica za transport 150 kg 9063HT150"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5b56d4da44057bahco 1472K7.jpg?2026-02-19-1",
+        "alt": "Bahco - Kolica sa 7 fioka 1472K7"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5b56d57a040e81472K8.jpg?2026-02-19-1",
+        "alt": "Bahco - Kolica sa 8 fioka 1472K8"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5b56d361e1e67bahco 1472K6.jpg?2026-02-19-1",
+        "alt": "Bahco - Kolica sa 6 fioka 1472K6"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5b55941363ce21472K5.jpg?2026-02-19-1",
+        "alt": "Bahco - Kolica za alat sa 5 fioka 1472K5"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/beta-c24-7_14.jpg?2026-02-19-1",
+        "alt": "Beta - Kolica za alat sa 7 fioka C24S OG/7"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5c5d830d930233035.jpg?2026-02-19-1",
+        "alt": "Beta - Kolica-dizalica za gume 3035"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/573de59eb6060ABS-5970-8019.jpg?2026-02-19-1",
+        "alt": "Hepco & Becker - Kofer za alat BASIC XL ABS 5970 8019"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57a10997eed659064K-26TS1.jpg?2026-02-19-1",
+        "alt": "Irimo - Kolica sa alatom 177 kom 9064K-26TS1"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/577e7865f2a801470KC3.jpg?2026-02-19-1",
+        "alt": "Bahco - Kolica sa 3 police 1470KC3"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54d2a5df32e35akc_bahco_1470k7_8.jpg?2026-02-19-1",
+        "alt": "Bahco - Kolica za alat sa 7 fioka 1470K7"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/552589eae6b46beta-C51O.jpg?2026-02-19-1",
+        "alt": "Beta - Kolica sa 3 police C51O"
+      }
+    ]
+  },
+  {
+    "id": "tool-065",
+    "query": "vitlo",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=vitlo",
+    "matches": []
+  },
+  {
+    "id": "tool-066",
+    "query": "podizač",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=podiza%C4%8D",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601741000_724.jpg?2026-02-19-1",
+        "alt": "Metabo - Glodalica FM 500-6"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/55183d2907b67cp_cp80015.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP80015"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/cp80020_98.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP80020"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/56804bfc6f938CP CP80030.jpg?2026-02-19-1",
+        "alt": "Chicago Pneumatic - Ručna hidraulična dizalica CP80030"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/KRAUSE_124616_550.jpg?2026-02-19-1",
+        "alt": "KRAUSE - Pokretne stepenaste merdevine STABILO 4 gazišta"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57b4cdce29d5dBH13000.jpg?2026-02-19-1",
+        "alt": "Bahco - Dizalica veoma niskog profila 3t BH13000"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57b4ccad2c7f8BH12000.jpg?2026-02-19-1",
+        "alt": "Bahco - Dizalica veoma niskog profila 2t BH12000"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57b4cb9fc479dBH11500.jpg?2026-02-19-1",
+        "alt": "Bahco - Dizalica veoma niskog profila 1,5t BH11500"
+      }
+    ]
+  },
+  {
+    "id": "tool-067",
+    "query": "agregat",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=agregat",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601593000_368.jpg?2026-02-19-1",
+        "alt": "Metabo - Kompresor bezuljni Basic 220-24 OF Silent"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/REM Power_39033000102_134.jpg?2026-02-19-1",
+        "alt": "REM Power - Agregat GSEm 3300 SB"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Jasic_W2S42_8.jpg?2026-02-19-1",
+        "alt": "Jasic - Aparat za zavarivanje EVO 20 TIG200 PFC DC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Jasic_E2S22_750.jpg?2026-02-19-1",
+        "alt": "Jasic - Aparat za zavarivanje EVO 20 TIG200PAC/DC PFC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Jasic_N2S62_257.jpg?2026-02-19-1",
+        "alt": "Jasic - Aparat za zavarivanje EVO 20 MIG 200 PFC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Jasic_N2SB2_258.jpg?2026-02-19-1",
+        "alt": "Jasic - Aparat za zavarivanje EVO 20 MIG250 PFC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Jasic_ARC200 PFC Z2S42_352.jpg?2026-02-19-1",
+        "alt": "Jasic - Aparat za zavarivanje ARC200 PFC Z2S42"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/60_oleo-mac-84.jpg?2026-02-19-1",
+        "alt": "Oleo Mac - Traktorska kosilica OLEO-MAC 84L/14,5 KH"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/82_makita-EG5550A.jpg?2026-02-19-1",
+        "alt": "Makita - Agregat EG5550A"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/80_makita-EG2850A.jpg?2026-02-19-1",
+        "alt": "Makita - Agregat EG2850A"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/98_hugong-ESTICK-160.jpg?2026-02-19-1",
+        "alt": "Hugong - Inverterski aparat za zavarivanje ESTICK 200 PFC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/29_hugong-ESTICK-160.jpg?2026-02-19-1",
+        "alt": "Hugong - Inverterski aparat za zavarivanje ESTICK 180 PFC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5891c8f4b44f8Secco-80-Set.jpg?2026-02-19-1",
+        "alt": "REMS - Odvlaživač vazduha/građevinska sušilica REMS Secco 80 Set"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54d34cc7bab8aakc-eg241a_59.jpg?2026-02-19-1",
+        "alt": "Makita - Agregat EG241A 4,2kW"
+      }
+    ]
+  },
+  {
+    "id": "tool-068",
+    "query": "kompresor",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=kompresor",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/58a0d5c7ed08dMontecarlo-L20P.jpg?2026-02-19-1",
+        "alt": "ABAC - Uljni klipni kompresor Montecarlo L20 boca 50L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_AC001GZ_574.jpg?2026-02-19-1",
+        "alt": "Makita - Akumulatorski kompresor AC001GZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-07068_924.jpg?2026-02-19-1",
+        "alt": "Yato - Pneumatska dekalamit mazalica 30L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-24253_108.jpg?2026-02-19-1",
+        "alt": "Yato - Ručni kalem sa crevom za vazduh 1/4\" 8mm 30m YT-24253"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-24225_386.jpg?2026-02-19-1",
+        "alt": "Yato - Pneumatsko crevo sa spojnicama 10mm 20m YT-24225"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-24224_530.jpg?2026-02-19-1",
+        "alt": "Yato - Pneumatsko crevo sa spojnicama 10mm 10m YT-24224"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-24221_256.jpg?2026-02-19-1",
+        "alt": "Yato - Pneumatsko crevo sa spojnicama 8mm 20m YT-24221"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-24220_911.jpg?2026-02-19-1",
+        "alt": "Yato - Pneumatsko crevo sa spojnicama 8mm 10m YT-24220"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Yato_YT-07067_285.jpg?2026-02-19-1",
+        "alt": "Yato - Pneumatska dekalamit mazalica 12L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06019K5004_993.png?2026-02-19-1",
+        "alt": "Bosch - Akumulatorski pištolj za pop nitne PRO GRG18V-16 sa beterijmo 18V 4Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Fiac_AB 998_476.png?2026-02-19-1",
+        "alt": "Fiac - Kompresorska pumpa (glava) industrijska sa cilindrom od gusa AB 998"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Fiac_AB 598_485.png?2026-02-19-1",
+        "alt": "Fiac - Kompresorska pumpa (glava) industrijska sa cilindrom od gusa AB 598"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Fiac_AB 415/515_17.png?2026-02-19-1",
+        "alt": "Fiac - Kompresorska pumpa (glava) industrijska sa cilindrom od gusa AB 415/515"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Fiac_AB 360_446.png?2026-02-19-1",
+        "alt": "Fiac - Kompresorska pumpa (glava) industrijska sa cilindrom od gusa AB 360"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Panair_AB500/998 400/50_850.png?2026-02-19-1",
+        "alt": "Panair - Kompresor trofazni AB500/998 400/50 boca 500L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Panair_AB500/808 400/50_436.png?2026-02-19-1",
+        "alt": "Panair - Kompresor trofazni AB500/808 400/50 boca 500L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Panair_AB300/598 TC 400/50_305.png?2026-02-19-1",
+        "alt": "Panair - Kompresor trofazni AB300/598 TC 400/50 boca 270L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Panair_AB300/515 TC 400/50_27.png?2026-02-19-1",
+        "alt": "Panair - Kompresor trofazni AB300/515 TC 400/50 boca 270L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Panair_AB200/515 TC 400/50_366.png?2026-02-19-1",
+        "alt": "Panair - Kompresor trofazni AB200/515 TC 400/50 boca 200L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Panair_AB200/360 TC 400/50_401.png?2026-02-19-1",
+        "alt": "Panair - Kompresor trofazni AB200/360 TC 400/50 boca 200L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Panair_AB200/360 MC 230/50_894.png?2026-02-19-1",
+        "alt": "Panair - Kompresor monofazni AB200/360 MC 230/50 boca 200L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Panair_AB100/348 TC 400/50_468.png?2026-02-19-1",
+        "alt": "Panair - Kompresor trofazni AB100/348 TC 400/50 boca 100L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Panair_AB100/348 MC 230/50_953.png?2026-02-19-1",
+        "alt": "Panair - Kompresor monofazni AB100/348 MC 230/50 boca 100L"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601526000_89.jpg?2026-02-19-1",
+        "alt": "Metabo - Kompresor uljni Basic 400-50 V"
+      }
+    ]
+  },
+  {
+    "id": "tool-069",
+    "query": "kabl",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=kabl",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_SK106GDZ_418.jpg?2026-02-19-1",
+        "alt": "Makita - Laser sa ukrštenim linijama SK106GDZ"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06019S8000_35.jpg?2026-02-19-1",
+        "alt": "Bosch - Akumulatorska lemilica PRO GLK12V-420"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06019P9800_775.jpg?2026-02-19-1",
+        "alt": "Bosch - Akumulatorska vibroigla za beton PRO GVC18V-25-120D"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_06019T0000_222.jpg?2026-02-19-1",
+        "alt": "Bosch - Akumulatorske mašina za provlačenje kablova PRO GFT18V-30"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0611917200_276.jpg?2026-02-19-1",
+        "alt": "Bosch - Akumulatorska bušilica za beton SDS-Max PRO GBH18V-40"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019M6501_334.png?2026-02-19-1",
+        "alt": "Bosch Expert - Ugaona brusilica EXPERT EXWX18V-15PS sa baterijom 18V 8Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019M6500_546.png?2026-02-19-1",
+        "alt": "Bosch Expert - Ugaona brusilica EXPERT EXWX18V-15PS sa koferom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019M6402_62.png?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska ugaona brusilica EXPERT EXWS18V-15PS sa baterijama18V 8Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019M6401_438.png?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska ugaona brusilica EXPERT EXWS18V-15PS sa koferom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_0601077700_55.png?2026-02-19-1",
+        "alt": "Bosch Expert - Tester napomena EXPERT EXVT1000-17"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019M6101_118.png?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska ugaona brusilica EXPERT EXWX18V-15S baterijama 18V 8Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019M6101_858.png?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska ugaona brusilica EXPERT EXWX18V-15S sa koferom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019M6003_178.jpg?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska ugaona brusilica EXPERT EXWS18V-15S sa baberijama 18V 8Ah i punjačem"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch Expert_06019M6001_469.jpg?2026-02-19-1",
+        "alt": "Bosch Expert - Akumulatorska ugaona brusilica EXPERT EXWS18V-15S sa koferom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601729850_201.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska potapajuća pumpa TPF 18 LTX 2200"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601797000_108.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 220-35 S Inox"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601796000_850.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 180-35 SI"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601795000_22.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 150-35 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601794000_126.jpg?2026-02-19-1",
+        "alt": "Metabo - Potapajuća pumpa za prljavu vodu SP 120-35 S"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601793000_50.jpg?2026-02-19-1",
+        "alt": "Metabo - Kombinovana potapajuća pumpa KP 200-35 ASF Inox"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601792000_441.jpg?2026-02-19-1",
+        "alt": "Metabo - Kombinovana potapajuća pumpa KP 160-35 SF"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601526000_89.jpg?2026-02-19-1",
+        "alt": "Metabo - Kompresor uljni Basic 400-50 V"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601525000_952.jpg?2026-02-19-1",
+        "alt": "Metabo - Kompresor uljni Basic 300-50"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601524000_675.jpg?2026-02-19-1",
+        "alt": "Metabo - Kompresor uljni Basic 250-50"
+      }
+    ]
+  },
+  {
+    "id": "tool-070",
+    "query": "reflektor",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=reflektor",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Makita_EUAML014G_12.jpg?2026-02-19-1",
+        "alt": "Makita - Reflektor sa teleskopskim stalkom EUAML014G"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601065001_1.png?2026-02-19-1",
+        "alt": "Bosch - Linijski laser PRO GLL 2-20 G sa stativom"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Bosch_0601065000_6.png?2026-02-19-1",
+        "alt": "Bosch - Linijski laser PRO GLL 2-20 G"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601505850_621.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorski reflektor BSA 18 LED 4000"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_601506850_735.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorski reflektor BSA 18 LED 10000"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/576c524e795a3makita DEADML805.jpg?2026-02-19-1",
+        "alt": "Makita - LED Reflektor DEADML805"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2022/FLEX_513.539_886.jpg?2026-02-19-1",
+        "alt": "FLEX - Akumulatorski set za polir majstore"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2020/FLEX_472.921_693.jpg?2026-02-19-1",
+        "alt": "FLEX - Akumulatorski LED građevinski reflektor CL 2000 18.0"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/76_metabo-BSA-14.4-18-LED.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorski reflektor BSA 14.4-18 LED"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/60_makita-DEADML808.jpg?2026-02-19-1",
+        "alt": "Makita - LED lampa DEADML808"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/57600874e7bf7skil masters 2899 MD.jpg?2026-02-19-1",
+        "alt": "Skil Masters - Akumulatorska bušilica/odvijač 2899 MD"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/574f2ee3e7135skil 2431 AD.jpg?2026-02-19-1",
+        "alt": "Skil - Akumulatorska bušilica/odvijač 2431 AD"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/55d482622bb0aSkil 2330 AA.jpg?2026-02-19-1",
+        "alt": "Skil - Akumulatorska bušilica/odvijač Skil 2330 AA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/55c281d1d5e7aSkil 2320 AA.jpg?2026-02-19-1",
+        "alt": "Skil - Akumulatorska bušilica/odvijač Skil 2320 AA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/5505586a0c66dskil_8003_dc_.jpg?2026-02-19-1",
+        "alt": "Skil - Pištolj za vreli vazduh Skil 8003 DC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/54ee173cdb8a8skil_masters_4800_ma.jpg?2026-02-19-1",
+        "alt": "Skil Masters - Ubodna testera Skil Masters 4800 MA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/skil_2421_ab_56.jpg?2026-02-19-1",
+        "alt": "Skil - Akumulatorska bušilica/odvijač 2421 AB"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/skil_8004_aa__98.jpg?2026-02-19-1",
+        "alt": "Skil - Fen za vreli vazduh 8004 AA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/skil_1840_ad_81.jpg?2026-02-19-1",
+        "alt": "Skil - Glodalica 1840 AD"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/skil_2532_aa__19.jpg?2026-02-19-1",
+        "alt": "Skil - Aku vibraciona bušilica/odvijač  2532 AA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/skil_4581_ca_99.jpg?2026-02-19-1",
+        "alt": "Skil - Ubodna testera 4581 CA"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/skill-1415ac-1_63.jpg?2026-02-19-1",
+        "alt": "Skil - Multi alat 1415AC"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/skil_2532_ab_58.jpg?2026-02-19-1",
+        "alt": "Skil - Akumulatorska vibraciona bušilica/odvijač 2532 AB"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/skil_2531_ab_64.jpg?2026-02-19-1",
+        "alt": "Skil - Akumulatorska bušilica-odvijač 2531 AB"
+      }
+    ]
+  },
+  {
+    "id": "tool-071",
+    "query": "grejalica",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=grejalica",
+    "matches": []
+  },
+  {
+    "id": "tool-072",
+    "query": "gasni",
+    "page": "https://www.alatshop.rs/opsta_pretraga?tekst=gasni",
+    "matches": [
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2026/Metabo_612090840_841.jpg?2026-02-19-1",
+        "alt": "Metabo - Akumulatorska ekserica NFR 18 LTX 90 BL"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Wiha_45734_816.jpg?2026-02-19-1",
+        "alt": "Wiha - XXL set električarskog alata u koferu, 80 delova 45734"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/old/ridgid-micro-cd-100_5.jpg?2026-02-19-1",
+        "alt": "Ridgid - Micro CD-100 detektor gasnih isparenja"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Senco_PC1308P_805.jpg?2026-02-19-1",
+        "alt": "Senco - Polar Gas PC1308P"
+      },
+      {
+        "source": "https://www.alatshop.rs/pictures/proizvod/2025/Senco_GT40i-SCP_820.jpg?2026-02-19-1",
+        "alt": "Senco - Akumulatorski gasni pištolj za eksere za beton GT40i-SCP"
+      }
+    ]
+  }
+]

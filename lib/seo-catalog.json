@@ -1,0 +1,651 @@
+{
+  "perac-pod-pritiskom": {
+    "term": "perača pod pritiskom",
+    "aliases": [
+      "perač na vodu",
+      "pranje terasa"
+    ],
+    "use": "Perač pod pritiskom namenjen je pranju tvrdih spoljašnjih površina, dvorišnih staza i baštenske opreme.",
+    "selection": "Navedi površinu koju pereš i mogućnost priključka vode. Pritisak, mlaznicu i sredstvo za pranje biramo prema materijalu."
+  },
+  "parocistac": {
+    "term": "paročistača",
+    "aliases": [
+      "parni čistač",
+      "čišćenje parom"
+    ],
+    "use": "Paročistač služi za čišćenje površina koje podnose vlagu i temperaturu, naročito fuga i teško dostupnih uglova.",
+    "selection": "Opiši materijal i vrstu nečistoće kako bismo proverili odgovarajući nastavak i ograničenja primene."
+  },
+  "masina-za-dubinsko-pranje": {
+    "term": "mašine za dubinsko pranje",
+    "aliases": [
+      "mašina za pranje nameštaja",
+      "ekstraktor za pranje tepiha"
+    ],
+    "use": "Mašina za dubinsko pranje koristi se za ekstrakcijsko pranje tekstila koji je predviđen za mokro čišćenje, poput tepiha i tapaciranog nameštaja.",
+    "selection": "Navedi da li pereš garnituru, tepih ili auto-sedišta. Proveri oznaku održavanja tekstila; dogovaramo nastavke i sredstvo za pranje."
+  },
+  "industrijski-usisivac": {
+    "term": "industrijskog usisivača",
+    "aliases": [
+      "građevinski usisivač",
+      "usisivač za prašinu"
+    ],
+    "use": "Industrijski usisivač pomaže pri sakupljanju nečistoće tokom radova i završnom čišćenju radionice.",
+    "selection": "Navedi vrstu prašine i alat koji priključuješ. Klasa filtracije i mogućnost usisavanja tečnosti zavise od konkretnog modela."
+  },
+  "ciklonski-separator-za-prasinu": {
+    "term": "ciklonskog separatora",
+    "aliases": [
+      "separator prašine",
+      "ciklon za usisivač"
+    ],
+    "use": "Ciklonski separator odvaja deo čestica pre nego što vazduh stigne do usisivača, što olakšava rad pri obradi drveta i sličnim poslovima.",
+    "selection": "Pošalji prečnik creva i model usisivača. Separator nije zamena za odgovarajući filter i ne određuje klasu zaštite od prašine."
+  },
+  "set-cetki-za-srafilicu": {
+    "term": "četki za šrafilicu",
+    "aliases": [
+      "četke za bušilicu",
+      "rotacione četke za čišćenje"
+    ],
+    "use": "Set četki za šrafilicu namenjen je mehaničkom čišćenju površina uz odgovarajući aku alat.",
+    "selection": "Navedi površinu koju čistiš i alat koji već imaš kako bismo proverili prihvat i tvrdoću četki."
+  },
+  "masina-za-poliranje": {
+    "term": "mašine za poliranje",
+    "aliases": [
+      "polirka",
+      "polir mašina"
+    ],
+    "use": "Mašina za poliranje koristi se za završnu obradu površina sa odgovarajućim polirnim sunđerom i pastom.",
+    "selection": "Opiši podlogu i željeni rezultat. Tip mašine, nastavak i potrošni materijal potvrđujemo pre najma."
+  },
+  "motorna-cetka-za-velike-povrsine": {
+    "term": "motorne četke",
+    "aliases": [
+      "motorna četka za čišćenje",
+      "četka za dvorište"
+    ],
+    "use": "Motorna četka pomaže pri uklanjanju nečistoće sa većih spoljašnjih površina i staza.",
+    "selection": "Navedi površinu, materijal podloge i pristup lokaciji. Potvrđujemo vrstu četke prikladnu za taj posao."
+  },
+  "masina-za-ciscenje-behatona": {
+    "term": "mašine za čišćenje behatona",
+    "aliases": [
+      "čistač behatona",
+      "čišćenje popločanih staza"
+    ],
+    "use": "Mašina za čišćenje behatona namenjena je održavanju popločanih dvorišta, prilaza i pešačkih staza.",
+    "selection": "Navedi kvadraturu, stanje fuga i vrstu naslaga kako bismo proverili način čišćenja i potrebne dodatke."
+  },
+  "ultrazvucna-kada": {
+    "term": "ultrazvučne kade",
+    "aliases": [
+      "ultrazvučni čistač",
+      "kada za čišćenje delova"
+    ],
+    "use": "Ultrazvučna kada koristi se za čišćenje sitnih predmeta i delova koji su kompatibilni sa ultrazvučnim postupkom.",
+    "selection": "Pošalji dimenzije, materijal i vrstu zaprljanja. Zapreminu kade i odgovarajuću tečnost proveravamo pre dogovora."
+  },
+  "odvlazivac-isusivac-vazduha": {
+    "term": "isušivača vazduha",
+    "aliases": [
+      "odvlaživač vazduha",
+      "isušivač vlage"
+    ],
+    "use": "Isušivač vazduha uklanja vlagu iz vazduha tokom sušenja prostora nakon radova ili sanacije prodora vode.",
+    "selection": "Navedi zapreminu prostora, temperaturu i izvor vlage. Potreban kapacitet i trajanje najma zavise od uslova na lokaciji."
+  },
+  "ozon-generator": {
+    "term": "ozon generatora",
+    "aliases": [
+      "ozonator",
+      "generator ozona"
+    ],
+    "use": "Ozon generator je specijalizovana oprema za tretman praznih prostora uz strogo poštovanje uputstva proizvođača.",
+    "selection": "Pre dogovora navedi zapreminu i namenu prostora. Tokom tretmana ljudi i životinje ne smeju biti prisutni; uslove ponovnog ulaska određuje uputstvo konkretnog uređaja."
+  },
+  "muljna-potopna-pumpa": {
+    "term": "potopne pumpe",
+    "aliases": [
+      "muljna pumpa",
+      "pumpa za prljavu vodu"
+    ],
+    "use": "Muljna ili potopna pumpa služi za prebacivanje vode iz šahtova, rezervoara i sličnih prostora, prema dozvoljenim karakteristikama vode.",
+    "selection": "Navedi dubinu, visinu izbacivanja i prisustvo čestica. Dozvoljenu veličinu čestica, crevo i protok potvrđujemo za model."
+  },
+  "pumpa-za-vodu-do-nultog-nivoa": {
+    "term": "pumpe za ispumpavanje vode",
+    "aliases": [
+      "pumpa do nultog nivoa",
+      "pumpa za plitku vodu"
+    ],
+    "use": "Pumpa za nizak nivo vode namenjena je uklanjanju plitkog sloja vode sa ravnih površina.",
+    "selection": "Navedi preostalu dubinu vode i visinsku razliku do odvoda. Minimalni usisni nivo zavisi od modela i ne znači potpuno suvu podlogu."
+  },
+  "benzinska-pumpa-za-vodu": {
+    "term": "benzinske pumpe za vodu",
+    "aliases": [
+      "motorna pumpa",
+      "pumpa za navodnjavanje"
+    ],
+    "use": "Benzinska pumpa omogućava prebacivanje vode na otvorenom kada električni priključak nije dostupan.",
+    "selection": "Potrebni su podaci o usisnoj visini, dužini creva i vrsti vode. Dogovaramo odgovarajuća creva i kapacitet pumpe."
+  },
+  "benzinska-kosacica": {
+    "term": "benzinske kosačice",
+    "aliases": [
+      "kosačica za travu",
+      "košenje travnjaka"
+    ],
+    "use": "Benzinska kosačica namenjena je redovnom košenju travnjaka i održavanju dvorišta.",
+    "selection": "Navedi kvadraturu, nagib i visinu trave. Za veoma visoku travu može biti prikladnija druga vrsta opreme."
+  },
+  "ceona-grebenasta-kosacica": {
+    "term": "grebenaste kosačice",
+    "aliases": [
+      "čeona kosačica",
+      "kosačica za visoku travu"
+    ],
+    "use": "Čeona grebenasta kosačica koristi se za košenje višeg rastinja na terenu pogodnom za ovu vrstu mašine.",
+    "selection": "Opiši visinu trave, nagib i prepreke na parceli kako bismo proverili izbor mašine i mogućnost transporta."
+  },
+  "benzinski-trimer-za-travu": {
+    "term": "trimera za travu",
+    "aliases": [
+      "motorni trimer",
+      "benzinski trimer"
+    ],
+    "use": "Benzinski trimer koristi se za košenje ivica travnjaka i rastinja na mestima kojima kosačica teško prilazi.",
+    "selection": "Navedi vrstu rastinja i teren. Odgovarajuću reznu glavu i potrošni materijal dogovaramo pre preuzimanja."
+  },
+  "trimer-za-zivu-ogradu": {
+    "term": "trimera za živu ogradu",
+    "aliases": [
+      "makaze za živu ogradu",
+      "šišač žive ograde"
+    ],
+    "use": "Trimer za živu ogradu namenjen je oblikovanju i održavanju ukrasnog žbunja i živih ograda.",
+    "selection": "Navedi visinu ograde i približnu debljinu grana. Domet i dozvoljeni prečnik reza zavise od konkretnog modela."
+  },
+  "motorni-busac-rupa-za-zemlju": {
+    "term": "bušača rupa za zemlju",
+    "aliases": [
+      "motorni bušač zemlje",
+      "burgija za zemlju"
+    ],
+    "use": "Motorni bušač rupa za zemlju koristi se za pripremu rupa za stubove, sadnju i slične radove na odgovarajućem tlu.",
+    "selection": "Navedi prečnik i dubinu rupa, tip zemlje i pristup parceli. Burgiju i pogodnost za kamenito tlo proveravamo posebno."
+  },
+  "duvac-usisivac-lisca": {
+    "term": "duvača lišća",
+    "aliases": [
+      "usisivač lišća",
+      "duvač za dvorište"
+    ],
+    "use": "Duvač lišća pomaže pri sakupljanju suvog lišća i lakše nečistoće na stazama i u dvorištu.",
+    "selection": "Navedi veličinu površine i da li ti je potrebna funkcija usisavanja. Dostupne režime potvrđujemo za konkretan uređaj."
+  },
+  "seckalica-za-grane": {
+    "term": "seckalice za grane",
+    "aliases": [
+      "drobilica za grane",
+      "usitnjivač granja"
+    ],
+    "use": "Seckalica za grane usitnjava orezani biljni materijal radi lakšeg odlaganja ili dalje obrade.",
+    "selection": "Navedi najveći prečnik grana, vrstu drveta i količinu. Kapacitet uređaja i pristup mestu rada proveravamo pre najma."
+  },
+  "udarna-cekic-busilica": {
+    "term": "udarne bušilice",
+    "aliases": [
+      "čekić bušilica",
+      "bušilica za beton"
+    ],
+    "use": "Udarna čekić bušilica koristi se za bušenje zidova i betona uz burgiju i režim prilagođen podlozi.",
+    "selection": "Navedi materijal, prečnik i dubinu rupe. Prihvat burgije i mogućnost štemovanja proveravamo za ponuđeni model."
+  },
+  "pikamer-stemerica": {
+    "term": "pikamera",
+    "aliases": [
+      "štemarica",
+      "štemerica",
+      "čekić za rušenje"
+    ],
+    "use": "Pikamer, odnosno štemarica, služi za razbijanje i uklanjanje tvrdih građevinskih slojeva tokom adaptacije.",
+    "selection": "Navedi da li skidaš pločice, malter ili beton i da li radiš na zidu ili podu. Masa uređaja i vrsta dleta utiču na izbor."
+  },
+  "slicerica-za-kanale-u-zidu": {
+    "term": "šlicerice",
+    "aliases": [
+      "kanalica za zid",
+      "freza za kanale"
+    ],
+    "use": "Šlicerica pravi kanale u zidovima za postavljanje instalacija uz odgovarajuće rezne diskove.",
+    "selection": "Navedi podlogu, širinu i dubinu kanala. Dogovaramo diskove i kompatibilan usisivač za odvođenje prašine."
+  },
+  "zirafa-za-brusenje-zidova": {
+    "term": "žirafe za brušenje",
+    "aliases": [
+      "žirafa za zidove",
+      "šlajferica za zidove"
+    ],
+    "use": "Žirafa za brušenje zidova koristi se za obradu osušenog gleta i pripremu zidova ili plafona za završno bojenje.",
+    "selection": "Navedi kvadraturu, visinu plafona i vrstu podloge. Proveravamo brusni papir, domet i povezivanje sa usisivačem."
+  },
+  "brusilica-za-beton-i-zidove": {
+    "term": "brusilice za beton",
+    "aliases": [
+      "brusilica za zidove",
+      "brušenje betonske podloge"
+    ],
+    "use": "Brusilica za beton koristi se za obradu mineralnih podloga i uklanjanje odgovarajućih površinskih slojeva.",
+    "selection": "Navedi vrstu premaza, površinu i cilj obrade. Izbor dijamantskog alata i sistema za prašinu zavisi od posla."
+  },
+  "masina-za-krecenje": {
+    "term": "mašine za krečenje",
+    "aliases": [
+      "mašina za farbanje",
+      "raspršivač boje"
+    ],
+    "use": "Mašina za krečenje namenjena je nanošenju kompatibilnih premaza raspršivanjem na pripremljene površine.",
+    "selection": "Pošalji naziv premaza i kvadraturu. Potvrđujemo tip sistema, mlaznicu i uslove čišćenja uređaja po završetku."
+  },
+  "motorni-sekac-betona": {
+    "term": "sekača betona",
+    "aliases": [
+      "motorni rezač betona",
+      "testera za beton"
+    ],
+    "use": "Motorni sekač betona služi za rezanje odgovarajućih građevinskih materijala na otvorenom.",
+    "selection": "Navedi materijal i dubinu reza. Disk, mogućnost dovoda vode i način obračuna potrošnog materijala dogovaramo unapred."
+  },
+  "vibrator-betona-vibro-igla": {
+    "term": "vibratora za beton",
+    "aliases": [
+      "vibro igla",
+      "igla za beton"
+    ],
+    "use": "Vibrator betona, poznat i kao vibro igla, koristi se za zbijanje sveže ugrađenog betona.",
+    "selection": "Navedi element koji betoniraš i pristup armaturi. Prečnik igle, dužinu creva i napajanje proveravamo pre najma."
+  },
+  "akumulatorska-srafilica": {
+    "term": "akumulatorske šrafilice",
+    "aliases": [
+      "aku šrafilica",
+      "aku bušilica"
+    ],
+    "use": "Akumulatorska šrafilica koristi se za zavrtanje šrafova i poslove montaže, a mogućnost bušenja zavisi od modela.",
+    "selection": "Navedi materijal i trajanje rada. Dogovaramo prihvat nastavaka, baterije i punjač potrebne za posao."
+  },
+  "akumulatorski-udarni-odvijac": {
+    "term": "udarnog odvijača",
+    "aliases": [
+      "aku udarni odvijač",
+      "udarna šrafilica"
+    ],
+    "use": "Akumulatorski udarni odvijač namenjen je zavrtanju odgovarajućih vijčanih spojeva uz udarni režim.",
+    "selection": "Navedi vrstu spoja i nastavka. Prihvat i obrtni moment proveravamo posebno; odvijač i udarni ključ nisu uvek zamenljivi."
+  },
+  "ger-testera-za-drvo-i-aluminijum": {
+    "term": "ger testere za drvo",
+    "aliases": [
+      "ger testera za aluminijum",
+      "potezna testera"
+    ],
+    "use": "Ger testera za drvo i aluminijum koristi se za poprečno i ugaono sečenje uz list predviđen za konkretan materijal.",
+    "selection": "Navedi dimenzije profila i ugao reza. List, kapacitet sečenja i radni oslonac potvrđujemo pre najma."
+  },
+  "multifunkcionalni-alat-renovator": {
+    "term": "multifunkcionalnog alata",
+    "aliases": [
+      "renovator",
+      "oscilacioni alat"
+    ],
+    "use": "Multifunkcionalni alat, odnosno renovator, pomaže pri manjim rezovima, skidanju materijala i obradi teško dostupnih mesta.",
+    "selection": "Opiši posao i podlogu kako bismo proverili odgovarajući nastavak i njegovu dostupnost."
+  },
+  "sabljasta-testera-lisicarka": {
+    "term": "sabljaste testere",
+    "aliases": [
+      "lisičarka",
+      "recipro testera"
+    ],
+    "use": "Sabljasta testera ili lisičarka namenjena je rezanju odgovarajućih materijala na mestima gde je pristup drugim testerama otežan.",
+    "selection": "Navedi materijal i debljinu predmeta. Potreban list za drvo, metal ili kombinovane materijale dogovaramo unapred."
+  },
+  "glodalica-za-drvo": {
+    "term": "glodalice za drvo",
+    "aliases": [
+      "frezer za drvo",
+      "ručna glodalica"
+    ],
+    "use": "Glodalica za drvo koristi se za izradu žlebova, profilisanje ivica i druge stolarske obrade.",
+    "selection": "Navedi željeni profil, dimenzije i vrstu drveta. Proveravamo prihvat glodala i potrebne vođice."
+  },
+  "hoblerica-za-parket": {
+    "term": "hoblerice za parket",
+    "aliases": [
+      "mašina za hoblovanje parketa",
+      "brusilica za parket"
+    ],
+    "use": "Hoblerica za parket namenjena je obradi drvenih podova kada stanje i debljina poda dozvoljavaju brušenje.",
+    "selection": "Navedi kvadraturu, vrstu parketa i stanje premaza. Dogovaramo abrazive i opremu potrebnu za ivice i uglove."
+  },
+  "elektricno-rende-rucna-hoblerica": {
+    "term": "električnog rendeta",
+    "aliases": [
+      "ručna hoblerica",
+      "rende za drvo"
+    ],
+    "use": "Električno rende ili ručna hoblerica koristi se za skidanje tankog sloja drveta sa obradivih površina.",
+    "selection": "Navedi širinu obrade i količinu materijala koju treba skinuti. Ovo je druga vrsta alata od mašine za obradu celog parketa."
+  },
+  "ubodna-testera": {
+    "term": "ubodne testere",
+    "aliases": [
+      "testera za krivolinijsko sečenje",
+      "električna ubodna testera"
+    ],
+    "use": "Ubodna testera koristi se za ravne i krivolinijske rezove uz list prilagođen materijalu.",
+    "selection": "Navedi materijal, debljinu i oblik reza. Biramo odgovarajući list i proveravamo kapacitet konkretnog modela."
+  },
+  "stoni-cirkular": {
+    "term": "stonog cirkulara",
+    "aliases": [
+      "stona testera",
+      "cirkular za drvo"
+    ],
+    "use": "Stoni cirkular služi za sečenje drveta i pločastih materijala uz odgovarajući list i oslonac.",
+    "selection": "Navedi dimenzije ploča, debljinu materijala i raspoloživ prostor. Potvrđujemo kapacitet reza i mogućnosti transporta."
+  },
+  "ger-testera-za-metal": {
+    "term": "ger testere za metal",
+    "aliases": [
+      "testera za metal",
+      "sekač metalnih profila"
+    ],
+    "use": "Ger testera za metal koristi se za rezanje metalnih profila uz rezni alat primeren materijalu.",
+    "selection": "Navedi vrstu metala, presek profila i ugao reza. Potvrđujemo tip reznog alata i uslove njegovog korišćenja."
+  },
+  "aparat-za-varenje": {
+    "term": "aparata za varenje",
+    "aliases": [
+      "aparat za zavarivanje",
+      "inverter za varenje"
+    ],
+    "use": "Aparat za varenje koristi se za spajanje kompatibilnih metala odgovarajućim postupkom zavarivanja.",
+    "selection": "Navedi materijal, debljinu i dostupno napajanje. Postupak, dodatnu opremu i potrošni materijal potvrđujemo za model."
+  },
+  "ugaona-brusilica": {
+    "term": "ugaone brusilice",
+    "aliases": [
+      "fleks",
+      "brusilica za metal"
+    ],
+    "use": "Ugaona brusilica, često zvana fleks, koristi se za sečenje ili brušenje uz disk namenjen konkretnoj podlozi.",
+    "selection": "Navedi materijal i vrstu rada. Prečnik diska, zaštitni poklopac i prihvat moraju odgovarati uređaju i poslu."
+  },
+  "tocilo-ostrac": {
+    "term": "tocila",
+    "aliases": [
+      "oštrač alata",
+      "stona brusilica"
+    ],
+    "use": "Tocilo ili stoni oštrač koristi se za obradu i oštrenje odgovarajućih metalnih predmeta.",
+    "selection": "Navedi predmet i materijal koji obrađuješ. Vrstu brusnog kamena i pogodnost uređaja proveravamo pre dogovora."
+  },
+  "indukcioni-grejac-za-srafove": {
+    "term": "indukcionog grejača",
+    "aliases": [
+      "grejač za šrafove",
+      "indukcioni alat"
+    ],
+    "use": "Indukcioni grejač služi za lokalno zagrevanje odgovarajućih metalnih spojeva tokom servisnih radova.",
+    "selection": "Navedi dimenzije spoja i prostor oko njega. Potrebnu zavojnicu i ograničenja primene potvrđujemo za konkretan uređaj."
+  },
+  "pistolj-za-pop-nitne": {
+    "term": "pištolja za pop nitne",
+    "aliases": [
+      "nitnarica",
+      "alat za nitovanje"
+    ],
+    "use": "Pištolj za pop nitne koristi se za spajanje delova slepim zakovicama odgovarajuće vrste.",
+    "selection": "Navedi materijal i prečnik zakovica. Tip pogona, nastavke i dozvoljene dimenzije potvrđujemo pre najma."
+  },
+  "fen-za-vruc-vazduh": {
+    "term": "fena za vruć vazduh",
+    "aliases": [
+      "industrijski fen",
+      "pištolj za vruć vazduh"
+    ],
+    "use": "Fen za vruć vazduh služi za kontrolisano zagrevanje materijala u poslovima koji dozvoljavaju takvu obradu.",
+    "selection": "Navedi materijal i namenu. Temperaturni opseg i potrebnu mlaznicu proveravamo prema konkretnom zadatku."
+  },
+  "lemilica": {
+    "term": "lemilice",
+    "aliases": [
+      "alat za lemljenje",
+      "električna lemilica"
+    ],
+    "use": "Lemilica se koristi za spajanje odgovarajućih metalnih delova pomoću lemnog materijala.",
+    "selection": "Navedi da li radiš na elektronici ili drugom tipu spoja. Snaga, vrh i potrošni materijal zavise od primene."
+  },
+  "masina-za-secenje-plocica": {
+    "term": "mašine za sečenje pločica",
+    "aliases": [
+      "sekač pločica",
+      "rezač keramike"
+    ],
+    "use": "Mašina za sečenje pločica namenjena je pripremi keramičkih i drugih kompatibilnih ploča za ugradnju.",
+    "selection": "Navedi materijal, dužinu i debljinu pločice, kao i vrstu reza. Ručni ili električni način sečenja biramo prema poslu."
+  },
+  "vibracioni-pistolj-za-keramiku": {
+    "term": "vibracionog pištolja za keramiku",
+    "aliases": [
+      "vibrator za pločice",
+      "alat za postavljanje keramike"
+    ],
+    "use": "Vibracioni pištolj za keramiku pomaže pri pozicioniranju i naleganju odgovarajućih pločica u lepak.",
+    "selection": "Navedi format i površinu pločice. Kompatibilnost vakuumskog prihvata i nosivost proveravamo za konkretan model."
+  },
+  "mikser-za-lepak-i-boju": {
+    "term": "miksera za lepak",
+    "aliases": [
+      "mešač za boju",
+      "mikser za malter"
+    ],
+    "use": "Mikser za lepak i boju koristi se za mešanje kompatibilnih građevinskih masa u odgovarajućoj posudi.",
+    "selection": "Navedi proizvod koji mešaš i količinu po turi. Snagu uređaja, prihvat i oblik mešača prilagođavamo masi."
+  },
+  "varilica-za-plasticne-vodovodne-cevi": {
+    "term": "varilice za plastične cevi",
+    "aliases": [
+      "pegla za cevi",
+      "varilica za PPR cevi"
+    ],
+    "use": "Varilica za plastične vodovodne cevi koristi se za termičko spajanje cevi predviđenih za taj postupak.",
+    "selection": "Navedi materijal i prečnike cevi. Kompatibilnost postupka i potrebne nastavke potvrđujemo pre preuzimanja."
+  },
+  "vodoinstalaterska-klesta": {
+    "term": "vodoinstalaterskih klešta",
+    "aliases": [
+      "klešta za cevi",
+      "cevna klešta"
+    ],
+    "use": "Vodoinstalaterska klešta služe za prihvatanje i okretanje odgovarajućih cevnih spojeva.",
+    "selection": "Navedi prečnik cevi i materijal spoja kako bismo proverili raspon čeljusti i odgovarajući oblik alata."
+  },
+  "stega-za-cevi": {
+    "term": "stege za cevi",
+    "aliases": [
+      "cevna stega",
+      "držač cevi"
+    ],
+    "use": "Stega za cevi koristi se za pridržavanje cevi tokom odgovarajućih radioničkih i instalaterskih radova.",
+    "selection": "Navedi prečnik, materijal cevi i način montaže stege. Raspon prihvata i oslonac dogovaramo pre najma."
+  },
+  "laserski-nivelator": {
+    "term": "laserskog nivelatora",
+    "aliases": [
+      "laser za pločice",
+      "laser za nivelaciju"
+    ],
+    "use": "Laserski nivelator koristi se za postavljanje referentnih linija pri montaži, postavljanju pločica i uređenju enterijera.",
+    "selection": "Navedi da li radiš unutra ili napolju, potreban domet i način oslanjanja. Stativ, prijemnik i broj ravni zavise od modela."
+  },
+  "laserski-daljinomer": {
+    "term": "laserskog daljinomera",
+    "aliases": [
+      "laserski metar",
+      "digitalni metar"
+    ],
+    "use": "Laserski daljinomer namenjen je merenju rastojanja pri planiranju i proveri dimenzija prostora.",
+    "selection": "Navedi očekivano rastojanje i uslove rada. Domet, preciznost i funkcije proračuna proveravamo za uređaj."
+  },
+  "endoskopska-inspekciona-kamera": {
+    "term": "inspekcione kamere",
+    "aliases": [
+      "endoskopska kamera",
+      "kamera za cevi"
+    ],
+    "use": "Endoskopska ili inspekciona kamera pomaže pri vizuelnom pregledu teško dostupnih šupljina i prostora.",
+    "selection": "Navedi prečnik otvora, dužinu pristupa i prisustvo vode. Obična endoskopska kamera nije automatski pogodna za kanalizaciju."
+  },
+  "termalna-kamera": {
+    "term": "termalne kamere",
+    "aliases": [
+      "termovizijska kamera",
+      "kamera za toplotne gubitke"
+    ],
+    "use": "Termalna kamera prikazuje temperaturne razlike na površinama i pomaže pri pregledu izolacije ili opreme.",
+    "selection": "Opiši šta pregledaš i očekivani temperaturni opseg. Nalaz zavisi od uslova merenja; kamera ne prikazuje direktno unutrašnjost zida."
+  },
+  "akusticni-detektor-curenja-vode": {
+    "term": "detektora curenja vode",
+    "aliases": [
+      "akustični detektor",
+      "uređaj za traženje curenja"
+    ],
+    "use": "Akustični detektor curenja vode koristi se za osluškivanje i upoređivanje zvukova na instalacijama.",
+    "selection": "Navedi materijal cevi, pritisak i pristup instalaciji. Uspeh detekcije zavisi od uslova, buke i načina korišćenja opreme."
+  },
+  "detektor-metala": {
+    "term": "detektora metala",
+    "aliases": [
+      "metal detektor",
+      "uređaj za pronalaženje metala"
+    ],
+    "use": "Detektor metala služi za pronalaženje metalnih predmeta u uslovima za koje je konkretan uređaj predviđen.",
+    "selection": "Navedi podlogu i cilj pretrage. Domet zavisi od veličine predmeta i uslova; namenu uređaja potvrđujemo pre najma."
+  },
+  "detektor-kablova-i-instalacija": {
+    "term": "detektora instalacija",
+    "aliases": [
+      "detektor kablova",
+      "detektor cevi u zidu"
+    ],
+    "use": "Detektor kablova i instalacija pomaže u proveri položaja određenih skrivenih elemenata u zidu.",
+    "selection": "Navedi vrstu zida i instalacije koju tražiš. Mogućnosti detekcije zavise od modela i podloge; odsustvo signala nije garancija da instalacije nema."
+  },
+  "elektricna-dizalica-vrabac": {
+    "term": "električne dizalice",
+    "aliases": [
+      "dizalica vrabac",
+      "električno vitlo"
+    ],
+    "use": "Električna dizalica, poznata kao vrabac, koristi se za podizanje materijala na odgovarajuće pripremljenom mestu.",
+    "selection": "Navedi masu tereta, visinu dizanja i način pričvršćivanja. Nosivost, oslonac i opremu za vezivanje proveravamo pre dogovora."
+  },
+  "hidraulicna-dizalica-krokodilka": {
+    "term": "hidraulične dizalice",
+    "aliases": [
+      "krokodilka",
+      "dizalica za auto"
+    ],
+    "use": "Hidraulična dizalica krokodilka namenjena je podizanju odgovarajućih tereta pri servisnim radovima.",
+    "selection": "Navedi masu, potrebnu visinu i pristup tački oslonca. Dizalica nije zamena za odgovarajuće sigurnosne nosače tereta."
+  },
+  "teretna-kolica-za-stepenice": {
+    "term": "kolica za stepenice",
+    "aliases": [
+      "teretna kolica",
+      "transportna kolica"
+    ],
+    "use": "Teretna kolica za stepenice olakšavaju prenošenje odgovarajućih predmeta preko stepenika i pragova.",
+    "selection": "Navedi masu i dimenzije predmeta, širinu stepeništa i oblik stepenika. Nosivost i pogodnost kolica potvrđujemo pre najma."
+  },
+  "rucno-vitlo": {
+    "term": "ručnog vitla",
+    "aliases": [
+      "vitlo za povlačenje",
+      "potezač tereta"
+    ],
+    "use": "Ručno vitlo koristi se za kontrolisano povlačenje tereta u granicama deklarisane namene.",
+    "selection": "Navedi masu tereta, pravac sile i tačku vezivanja. Mogućnost podizanja ne podrazumeva se i mora biti izričito dozvoljena za model."
+  },
+  "podupirac-dizalica-za-gips-ploce": {
+    "term": "dizalice za gips ploče",
+    "aliases": [
+      "podupirač za gips ploče",
+      "podizač knauf ploča"
+    ],
+    "use": "Dizalica za gips ploče pomaže pri pozicioniranju ploča tokom montaže plafona i kosih površina.",
+    "selection": "Navedi dimenzije i masu ploče, visinu rada i pristup prostoriji. Radni opseg i nosivost proveravamo pre najma."
+  },
+  "agregat-za-struju": {
+    "term": "agregata za struju",
+    "aliases": [
+      "generator struje",
+      "benzinski agregat"
+    ],
+    "use": "Agregat za struju obezbeđuje privremeno napajanje opreme na otvorenom kada nema odgovarajućeg mrežnog priključka.",
+    "selection": "Pošalji spisak potrošača i njihove nazivne i startne snage. Potrebne faze, izlaze i trajanje rada proveravamo pre izbora modela."
+  },
+  "vazdusni-kompresor": {
+    "term": "vazdušnog kompresora",
+    "aliases": [
+      "kompresor za vazduh",
+      "kompresor za alat"
+    ],
+    "use": "Vazdušni kompresor napaja kompatibilnu pneumatsku opremu i druge potrošače komprimovanog vazduha.",
+    "selection": "Navedi traženi pritisak i potrošnju vazduha priključenog alata. Protok, zapreminu rezervoara i spojnice proveravamo zajedno."
+  },
+  "produzni-kablovi-i-motalice": {
+    "term": "produžnih kablova",
+    "aliases": [
+      "kabl na motalici",
+      "produžni kabl za gradilište"
+    ],
+    "use": "Produžni kablovi i motalice služe za povezivanje opreme sa odgovarajućim napajanjem na radnom mestu.",
+    "selection": "Navedi dužinu, snagu potrošača i uslove korišćenja. Presek kabla i zaštita moraju odgovarati opterećenju i prostoru."
+  },
+  "led-reflektor": {
+    "term": "LED reflektora",
+    "aliases": [
+      "radni reflektor",
+      "osvetljenje gradilišta"
+    ],
+    "use": "LED reflektor obezbeđuje dodatno radno osvetljenje tokom montaže, renoviranja i drugih poslova.",
+    "selection": "Navedi veličinu prostora, dostupno napajanje i da li radiš na otvorenom. Zaštitu uređaja i oslonac potvrđujemo pre najma."
+  },
+  "keramicka-grejalica": {
+    "term": "keramičke grejalice",
+    "aliases": [
+      "električna grejalica",
+      "grejalica za radionicu"
+    ],
+    "use": "Keramička grejalica koristi se za dopunsko zagrevanje odgovarajućih zatvorenih prostora.",
+    "selection": "Navedi zapreminu prostora i dostupnu električnu snagu. Izbor zavisi od izolacije, ventilacije i uslova rada."
+  },
+  "plinski-top": {
+    "term": "plinskog topa",
+    "aliases": [
+      "gasni grejač",
+      "top za grejanje"
+    ],
+    "use": "Plinski top je oprema za zagrevanje prostora koji ispunjava uslove ventilacije i upotrebe propisane za uređaj.",
+    "selection": "Navedi zapreminu, namenu i provetravanje prostora. Tip grejača, priključak gasa i potrebnu opremu potvrđujemo pre najma."
+  }
+}

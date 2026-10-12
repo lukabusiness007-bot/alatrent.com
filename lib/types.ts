@@ -1,0 +1,56 @@
+export const locales = ['sr', 'en', 'ru', 'tr', 'zh'] as const;
+export type Locale = (typeof locales)[number];
+export type Localized = Record<Locale, string>;
+export type Tool = {
+  id: string;
+  slug: string;
+  name: Localized;
+  description: Localized;
+  categoryId: string;
+  price: number | null;
+  deposit: number | null;
+  quantity: number | null;
+  image: string;
+  published: boolean;
+  featured: boolean;
+  updatedAt: string;
+};
+export type Category = {
+  id: string;
+  slug: string;
+  name: Localized;
+  icon: string;
+  published: boolean;
+};
+export type Settings = {
+  brand: string;
+  phone: string;
+  email: string;
+  address: string;
+  standardDelivery: number;
+  expressDelivery: number;
+  deliveryNote: Localized;
+  siteUrl: string;
+};
+export type RentalRequest = {
+  id: string;
+  toolId: string;
+  toolName: string;
+  name: string;
+  phone: string;
+  email: string;
+  address: string;
+  note: string;
+  start: string;
+  end: string;
+  days: number;
+  quantity: number;
+  delivery: 'pickup' | 'standard' | 'express';
+  rentalTotal: number | null;
+  deliveryTotal: number;
+  deposit: number | null;
+  status: 'pending' | 'confirmed' | 'completed' | 'cancelled';
+  locale: Locale;
+  createdAt: string;
+};
+export type PublicData = { tools: Tool[]; categories: Category[]; settings: Settings };

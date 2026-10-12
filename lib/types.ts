@@ -24,6 +24,7 @@ export type Tool = {
     rentalPriceBase: number;
     observedAt: string;
     incompleteKit: boolean;
+    supplierReferences?: string[];
   };
 };
 export type Category = {

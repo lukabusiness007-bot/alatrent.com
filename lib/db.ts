@@ -6,6 +6,7 @@ import catalogImport from './catalog-import.json';
 import catalogExpansion from './catalog-expansion.json';
 import catalogSourcesImport from './catalog-sources-import.json';
 import catalogCrafterImport from './catalog-crafter-import.json';
+import catalogNameCleanup from './catalog-name-cleanup.json';
 import { equipmentType } from './equipment-type';
 import { normalizedEquipmentName } from './equipment-type';
 import { randomBytes, scryptSync } from 'node:crypto';
@@ -174,6 +175,25 @@ function initializeDatabase() {
       slugs.add(tool.slug); models.add(tool.catalogModel!.productId);
     }
     put('meta', catalogCrafterImport.migration, true);
+  });
+
+  if (!get('meta', catalogNameCleanup.migration)) transaction(() => {
+    if (get('meta', catalogNameCleanup.migration)) return;
+    for (const entry of catalogNameCleanup.entries) {
+      const tool = get<Tool>('tools', entry.id);
+      if (!tool) continue;
+      const name = { ...tool.name }, description = { ...tool.description };
+      let changed = false;
+      for (const locale of locales) if (name[locale] === entry.before[locale] && name[locale] !== entry.after[locale]) {
+        description[locale] = description[locale].replace(name[locale], entry.after[locale]);
+        name[locale] = entry.after[locale]; changed = true;
+      }
+      if (changed) put('tools', tool.id, { ...tool, name, description, updatedAt: catalogNameCleanup.createdAt,
+        ...(tool.catalogModel && entry.references.length ? { catalogModel: { ...tool.catalogModel,
+          supplierReferences: [...new Set([...(tool.catalogModel.supplierReferences || []), ...entry.references])] } } : {}),
+      });
+    }
+    put('meta', catalogNameCleanup.migration, true);
   });
 
   if (!get('meta', 'suggested-import-prices-v1')) transaction(() => {

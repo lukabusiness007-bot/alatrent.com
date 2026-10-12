@@ -11,6 +11,7 @@ const imported = JSON.parse(readFileSync(new URL('../lib/catalog-import.json', i
 const expansion = JSON.parse(readFileSync(new URL('../lib/catalog-expansion.json', import.meta.url)));
 const sourcesImport = JSON.parse(readFileSync(new URL('../lib/catalog-sources-import.json', import.meta.url)));
 const crafterImport = JSON.parse(readFileSync(new URL('../lib/catalog-crafter-import.json', import.meta.url)));
+const nameCleanup = JSON.parse(readFileSync(new URL('../lib/catalog-name-cleanup.json', import.meta.url)));
 const dir = mkdtempSync(join(tmpdir(), 'alat-rent-import-'));
 const base = 'http://127.0.0.1:3017';
 const password = 'import-test-secret-password';
@@ -57,6 +58,20 @@ before(async () => {
   const login = await api('/api/login', { password });
   assert.equal(login.status, 200);
   cookie = login.headers.get('set-cookie').split(';')[0];
+  // The presentation migration upgrades a catalog whose earlier functional
+  // and model imports have already completed, as on production.
+  const oldModel = seed.tools.find(t => t.id === 'crafter-423');
+  const oldName = nameCleanup.entries.find(e => e.id === oldModel.id).before;
+  const { supplierReferences, ...oldSource } = oldModel.catalogModel;
+  const update = (id, value) => db.prepare("UPDATE entities SET value=? WHERE kind='tools' AND id=?").run(JSON.stringify(value), id);
+  update(oldModel.id, { ...oldModel, name: oldName, catalogModel: oldSource,
+    description: Object.fromEntries(Object.entries(oldModel.description).map(([locale, description]) => [locale, description.replace(oldModel.name[locale], oldName[locale])])) });
+  const customized = seed.tools.find(t => t.id === 'crafter-63539');
+  const customizedBefore = nameCleanup.entries.find(e => e.id === customized.id).before;
+  update(customized.id, { ...customized, name: { ...customizedBefore, sr: 'Moja ručno nazvana bušilica' },
+    description: { ...customized.description, sr: 'Moj ručno unet opis i uputstvo.' } });
+  db.prepare("DELETE FROM entities WHERE kind='meta' AND id=?").run(nameCleanup.migration);
+  await stop(); await start();
 });
 after(async () => { await stop(); db?.close(); rmSync(dir, { recursive: true, force: true }); });
 
@@ -145,6 +160,19 @@ test('Approved Crafter models import once, distinguish models and preserve trust
   const copy = await api('/api/admin/tools', { ...tool, id: 'copy-crafter', slug: 'copy-crafter', image: '' });
   assert.equal(copy.status, 409);
   assert.equal(saved('tools', 'copy-crafter'), undefined);
+});
+
+test('Name cleanup updates old titles and their references without replacing custom names, descriptions or rental data', () => {
+  const preset = seed.tools.find(t => t.id === 'crafter-423');
+  const savedModel = saved('tools', preset.id);
+  assert.deepEqual(savedModel.name, preset.name);
+  assert.deepEqual(savedModel.description, preset.description);
+  assert.deepEqual(savedModel.catalogModel.supplierReferences, ['0601394001']);
+  assert.equal(savedModel.price, preset.price);
+  assert.equal(savedModel.slug, preset.slug);
+  assert.equal(saved('tools', 'crafter-63539').name.sr, 'Moja ručno nazvana bušilica');
+  assert.equal(saved('tools', 'crafter-63539').description.sr, 'Moj ručno unet opis i uputstvo.');
+  assert.equal(saved('meta', nameCleanup.migration), true);
 });
 
 test('Admin edits and deletions persist across server restart; startup never resets the password', async () => {

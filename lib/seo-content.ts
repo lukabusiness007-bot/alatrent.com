@@ -1,9 +1,10 @@
 import catalog from './seo-catalog.json';
 import seed from './seed.json';
+import nameCleanup from './catalog-name-cleanup.json';
 import { copy, money } from './i18n';
 import type { Category, Locale, Tool } from './types';
 
-export const SEO_CONTENT_UPDATED_AT = '2026-10-12T14:13:25.142Z';
+export const SEO_CONTENT_UPDATED_AT = nameCleanup.createdAt;
 const seedBySlug = new Map(seed.tools.map(tool => [tool.slug, tool]));
 
 type ToolContent = { term: string; aliases: string[]; use: string; selection: string };

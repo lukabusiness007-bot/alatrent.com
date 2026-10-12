@@ -1,4 +1,4 @@
-import { all, get, put, occupied, settings } from '../db';
+import { all, get, put, occupied, settings, historicalTool } from '../db';
 import { reductionEntry } from '../catalog-reduction';
 import { date, rentalDays, today, text } from '../validation';
 import type { Tool, Category, RentalRequest } from '../types';
@@ -46,7 +46,7 @@ export function config(): CommerceConfig {
     referralProgram: { ...defaultReferralProgram, ...saved?.referralProgram },
   };
 }
-export const options = (id: string) => get<ToolOptions>('toolOptions', id) || blankOptions;
+export const options = (id: string) => get<ToolOptions>('toolOptions', id) || get<ToolOptions>('archivedToolOptions', id) || blankOptions;
 export function member(c: Customer): PublicCustomer {
   const completed = [...all<Order>('orders'), ...all<RentalRequest>('requests')].filter(
     (o) =>
@@ -102,7 +102,7 @@ export function checkCapacity(items: CartItem[], exceptId = '', requireKnown = f
     ...all<Order>('orders').filter(o => o.id !== exceptId && ['confirmed', 'active'].includes(o.status)).flatMap(o => o.items),
   ];
   for (const item of items) {
-    const tool = get<Tool>('tools', item.toolId);
+    const tool = allowRetired ? historicalTool(item.toolId) : get<Tool>('tools', item.toolId);
     const archived = allowRetired && reductionEntry(item.toolId)?.action !== 'keep' && !!reductionEntry(item.toolId);
     if (!tool || (!tool.published && !archived) || !get<Category>('categories', tool.categoryId)?.published)
       throw new Error('Alat više nije u ponudi.');

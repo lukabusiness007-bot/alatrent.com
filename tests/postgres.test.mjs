@@ -47,7 +47,7 @@ after(async()=>{
 
 test('Supabase enables hosted admin with the full catalog and a read-only server filesystem',{skip:!enabled},async()=>{
  const response=await fetch(bases[0]+'/api/admin/all',{headers:headers(0)});assert.equal(response.status,200);
- const data=await response.json();assert.equal(data.tools.length,seed.tools.length);assert.ok(data.tools.every(t=>t.price===seed.tools.find(preset=>preset.id===t.id)?.price));
+ const data=await response.json();assert.equal(data.tools.length,seed.tools.filter(t=>t.published).length);assert.ok(data.tools.every(t=>t.price===seed.tools.find(preset=>preset.id===t.id)?.price));
  assert.equal(data.categories.length,seed.categories.length);
  assert.ok(!(await(await fetch(bases[0]+'/sr')).text()).includes('catalog-notice'));
  assert.ok(!(await(await fetch(bases[0]+'/admin',{headers:headers(0)})).text()).includes('Administracija trenutno nije dostupna'));

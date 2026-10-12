@@ -9,6 +9,7 @@ import catalogCrafterImport from './catalog-crafter-import.json';
 import catalogNameCleanup from './catalog-name-cleanup.json';
 import catalogReduction from './catalog-reduction.json';
 import { applyCatalogReduction } from './catalog-reduction-apply.mjs';
+import { applyCatalogAdminCleanup, catalogAdminCleanupMigration } from './catalog-admin-cleanup.mjs';
 import { equipmentType } from './equipment-type';
 import { normalizedEquipmentName } from './equipment-type';
 import { randomBytes, scryptSync } from 'node:crypto';
@@ -48,6 +49,8 @@ export function get<T>(kind: string, id: string): T | undefined {
     { value: string } | undefined;
   return r ? JSON.parse(r.value) : undefined;
 }
+// Historical agreements can still resolve their original model after inventory cleanup.
+export const historicalTool = (id: string) => get<Tool>('tools', id) || get<Tool>('archivedTools', id);
 export function put(kind: string, id: string, value: unknown) {
   db.prepare(
     'INSERT INTO entities(kind,id,value) VALUES(?,?,?) ON CONFLICT(kind,id) DO UPDATE SET value=excluded.value',
@@ -147,7 +150,7 @@ function initializeDatabase() {
         const knownTypes = new Set(existing.map(tool => equipmentType(tool.name.sr)));
         for (const tool of importedCatalog.tools) {
           const type = equipmentType(tool.name.sr);
-          if (get('tools', tool.id) || existing.some(saved => saved.slug === tool.slug) || knownTypes.has(type)) continue;
+          if (get('tools', tool.id) || get('archivedTools', tool.id) || existing.some(saved => saved.slug === tool.slug) || knownTypes.has(type)) continue;
           if (!get('categories', tool.categoryId)) {
             const category = seed.categories.find(category => category.id === tool.categoryId);
             if (category) put('categories', category.id, category);
@@ -170,7 +173,7 @@ function initializeDatabase() {
     for (const category of catalogCrafterImport.categories)
       if (!get('categories', category.id)) put('categories', category.id, category);
     for (const imported of catalogCrafterImport.tools) {
-      if (get('tools', imported.id) || slugs.has(imported.slug)
+      if (get('tools', imported.id) || get('archivedTools', imported.id) || slugs.has(imported.slug)
         || names.has(normalizedEquipmentName(imported.name.sr)) || models.has(imported.catalogModel.productId)) continue;
       const tool = imported as Tool;
       put('tools', tool.id, { ...tool, published: tool.published && catalogReduction.entries.some(e=>e.id===tool.id&&e.action==='keep') });
@@ -225,6 +228,7 @@ function initializeDatabase() {
     put('meta','commerce-merchandising-v1',true);
   });
   applyCatalogReduction(db, catalogReduction);
+  applyCatalogAdminCleanup(db, catalogReduction);
   if (catalogOnly) db.exec('PRAGMA query_only=ON');
 }
 
@@ -293,7 +297,7 @@ const initializationCompletion = {
     'photos-prices-no-deposit-v1', 'club-deposit-policy-v1',
     catalogImport.migration, catalogExpansion.migration, catalogSourcesImport.migration,
     catalogCrafterImport.migration, catalogNameCleanup.migration,
-    'suggested-import-prices-v1', 'commerce-kits-v1', 'commerce-kits-v2', 'commerce-merchandising-v1', catalogReduction.migration],
+    'suggested-import-prices-v1', 'commerce-kits-v1', 'commerce-kits-v2', 'commerce-merchandising-v1', catalogReduction.migration, catalogAdminCleanupMigration],
   requireAuth: !catalogOnly && !!process.env.ADMIN_PASSWORD,
 };
 

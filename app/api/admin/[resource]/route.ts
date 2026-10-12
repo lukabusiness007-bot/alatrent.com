@@ -6,7 +6,7 @@ import { reductionEntry, mappedPurpose } from '@/lib/catalog-reduction';
 import { rentalPurpose } from '../../../../scripts/catalog-purpose.mjs';
 import { randomUUID } from 'node:crypto';
 import { authorized, sameOrigin } from '@/lib/auth';
-import { all, get, put, remove, settings, transaction, occupied } from '@/lib/db';
+import { all, get, put, remove, settings, transaction, occupied, historicalTool } from '@/lib/db';
 import { text, localized, amount, slug } from '@/lib/validation';
 import type { Order } from '@/lib/commerce/types';
 import type { Tool, Category, RentalRequest } from '@/lib/types';
@@ -42,6 +42,9 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
       if (all<Tool>('tools').some((t) => t.slug === s && t.id !== id))
         throw new Error('URL oznaka već postoji.');
       const existing = get<Tool>('tools', id);
+      const curated = reductionEntry(id);
+      if (!existing && curated && curated.action !== 'keep')
+        return Response.json({ error: 'Ovaj model je uklonjen iz administracije. Izmeni izabrani model.', existingId: curated.replacementId }, { status: 409 });
       let image = text(b.image, 2048, false);
       if (image && !(existing?.catalogModel && image === existing.image && isCrafterImage(image)) && !/^\/media\/[a-f0-9-]+\.(jpg|png|webp)$/.test(image) && !/^\/images\/catalog\/tool-\d{3}\.(jpg|jpeg|png|webp)$/.test(image))
         throw new Error('Koristi otpremanje fotografije.');
@@ -49,7 +52,6 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
       if (quantity !== null && (!Number.isInteger(b.quantity) || quantity > 10000))
         throw new Error('Neispravna količina.');
       const name = localized(b.name);
-      const curated = reductionEntry(id);
       if (curated?.action==='keep' && existing && s!==existing.slug)
         throw new Error('Sačuvaj postojeći URL izabranog modela; drugi oglasi se preusmeravaju na njega.');
       if (b.published===true) {
@@ -144,7 +146,7 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
           const deposit = b.deposit !== undefined ? amount(b.deposit) : record.deposit;
           if (record.depositWaived === false && (deposit === null || deposit <= 0))
             throw new Error('Unesi dogovoreni depozit pre potvrde najma.');
-          const tool = get<Tool>('tools', record.toolId);
+          const tool = historicalTool(record.toolId);
           if (!tool || tool.quantity === null)
             throw new Error('Pre potvrde upita unesi broj komada alata.');
           if (occupied(tool.id, record.start, record.end, id) + record.quantity > tool.quantity)

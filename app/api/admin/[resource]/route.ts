@@ -2,6 +2,8 @@ import { databaseRoute } from '@/lib/db';
 import { equipmentType } from '@/lib/equipment-type';
 import { normalizedEquipmentName } from '@/lib/equipment-type';
 import { catalogIdentity, isCrafterImage } from '@/lib/catalog-model';
+import { reductionEntry, mappedPurpose } from '@/lib/catalog-reduction';
+import { rentalPurpose } from '../../../../scripts/catalog-purpose.mjs';
 import { randomUUID } from 'node:crypto';
 import { authorized, sameOrigin } from '@/lib/auth';
 import { all, get, put, remove, settings, transaction, occupied } from '@/lib/db';
@@ -47,6 +49,16 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
       if (quantity !== null && (!Number.isInteger(b.quantity) || quantity > 10000))
         throw new Error('Neispravna količina.');
       const name = localized(b.name);
+      const curated = reductionEntry(id);
+      if (curated?.action==='keep' && existing && s!==existing.slug)
+        throw new Error('Sačuvaj postojeći URL izabranog modela; drugi oglasi se preusmeravaju na njega.');
+      if (b.published===true) {
+        const purpose=curated?.purposeKey || rentalPurpose({...b,name}).key;
+        const selected=curated?.replacementId ? get<Tool>('tools',curated.replacementId) : undefined;
+        const samePurpose=all<Tool>('tools').find(t=>t.id!==id&&t.published&&purpose&&(mappedPurpose(t.id)||rentalPurpose(t).key)===purpose);
+        if (curated?.action==='exclude' || curated?.action==='replace' || rentalPurpose({...b,name}).excluded || samePurpose)
+          return Response.json({error:'Za ovu namenu zadržan je jedan model. Izmeni izabrani model umesto objavljivanja dodatnog oglasa.',existingId:selected?.id||samePurpose?.id||null},{status:409});
+      }
       const duplicate = all<Tool>('tools').find(tool => tool.id !== id && (existing?.catalogModel
         ? catalogIdentity(tool) === catalogIdentity(existing)
         : (!tool.catalogModel && equipmentType(tool.name.sr) === equipmentType(name.sr))

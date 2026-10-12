@@ -104,7 +104,7 @@ export function extensionQuote(order: Order, end: string) {
     const candidate = promotionalQuote(baseline, [order.promotionPolicy], 0, 0, order.referral?.policy.reward || 0, order.credit);
     if (candidate.lines.reduce((n,i)=>n+(i.total||0),0) < items.reduce((n,i)=>n+(i.total||0),0)) items = candidate.lines;
   }
-  checkCapacity(items, order.id, true);
+  checkCapacity(items, order.id, true, true);
   const total = items.some((i) => i.total === null)
     ? null
     : round(items.reduce((n, i) => n + i.total!, 0) + order.adjustment);
@@ -228,7 +228,7 @@ export function updateOrder(b: Record<string, unknown>) {
         throw new Error('Dogovori i unesi depozit pre potvrde najma.');
       if (status === 'confirmed' && order.items.some((i) => !i.openEnded && i.end < today()))
         throw new Error('Termin je istekao. Potreban je novi zahtev.');
-      checkCapacity(order.items, order.id, true);
+      checkCapacity(order.items, order.id, true, true);
       if (order.rentalTotal === null && (!order.items.some(i => i.openEnded) || order.items.some(i => i.price === null)))
         throw new Error('Unesi dogovorenu cenu ili dnevnu tarifu pre potvrde.');
     }

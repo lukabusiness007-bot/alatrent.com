@@ -66,7 +66,7 @@ test('Activation requires costs; defaults preserve old settings and do not inven
   const blocked=await manage({action:'config',config:cfg});assert.equal(blocked.status,400);assert.match(blocked.body.error,/trošak/);
   for(const t of d.tools) fixture('toolOptions',t.id,o=>({...opts(100,100),...o,costPerDay:100,preparationCost:100}));
   const t=d.tools[0];
-  const result=await request('/api/admin/tools',{...t,id:undefined,slug:'referral-test-tool',price:5000,quantity:50,name:{sr:'Referral tool',en:'Referral tool',ru:'Referral tool',tr:'Referral tool',zh:'Referral tool'}});
+  const result=await request('/api/admin/tools',{...t,id:undefined,slug:'referral-test-tool',published:true,image:'',catalogModel:undefined,price:5000,quantity:50,name:{sr:'Referral tool',en:'Referral tool',ru:'Referral tool',tr:'Referral tool',zh:'Referral tool'}});
   assert.equal(result.status,200);tool=result.body;
   assert.equal((await manage({action:'tool',id:tool.id,options:opts()})).status,200);
   assert.equal((await manage({action:'config',config:cfg})).status,200);

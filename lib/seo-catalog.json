@@ -75,7 +75,8 @@
     "term": "mašine za čišćenje behatona",
     "aliases": [
       "čistač behatona",
-      "čišćenje popločanih staza"
+      "čišćenje popločanih staza",
+      "Mašina za čišćenje behatona"
     ],
     "use": "Mašina za čišćenje behatona namenjena je održavanju popločanih dvorišta, prilaza i pešačkih staza.",
     "selection": "Navedi kvadraturu, stanje fuga i vrstu naslaga kako bismo proverili način čišćenja i potrebne dodatke."
@@ -84,7 +85,8 @@
     "term": "ultrazvučne kade",
     "aliases": [
       "ultrazvučni čistač",
-      "kada za čišćenje delova"
+      "kada za čišćenje delova",
+      "Ultrazvučna kada"
     ],
     "use": "Ultrazvučna kada koristi se za čišćenje sitnih predmeta i delova koji su kompatibilni sa ultrazvučnim postupkom.",
     "selection": "Pošalji dimenzije, materijal i vrstu zaprljanja. Zapreminu kade i odgovarajuću tečnost proveravamo pre dogovora."
@@ -93,7 +95,8 @@
     "term": "isušivača vazduha",
     "aliases": [
       "odvlaživač vazduha",
-      "isušivač vlage"
+      "isušivač vlage",
+      "Odvlaživač / isušivač vazduha"
     ],
     "use": "Isušivač vazduha uklanja vlagu iz vazduha tokom sušenja prostora nakon radova ili sanacije prodora vode.",
     "selection": "Navedi zapreminu prostora, temperaturu i izvor vlage. Potreban kapacitet i trajanje najma zavise od uslova na lokaciji."
@@ -102,7 +105,8 @@
     "term": "ozon generatora",
     "aliases": [
       "ozonator",
-      "generator ozona"
+      "generator ozona",
+      "Ozon generator"
     ],
     "use": "Ozon generator je specijalizovana oprema za tretman praznih prostora uz strogo poštovanje uputstva proizvođača.",
     "selection": "Pre dogovora navedi zapreminu i namenu prostora. Tokom tretmana ljudi i životinje ne smeju biti prisutni; uslove ponovnog ulaska određuje uputstvo konkretnog uređaja."
@@ -120,7 +124,8 @@
     "term": "pumpe za ispumpavanje vode",
     "aliases": [
       "pumpa do nultog nivoa",
-      "pumpa za plitku vodu"
+      "pumpa za plitku vodu",
+      "Pumpa za vodu do nultog nivoa"
     ],
     "use": "Pumpa za nizak nivo vode namenjena je uklanjanju plitkog sloja vode sa ravnih površina.",
     "selection": "Navedi preostalu dubinu vode i visinsku razliku do odvoda. Minimalni usisni nivo zavisi od modela i ne znači potpuno suvu podlogu."
@@ -174,7 +179,9 @@
     "term": "bušača rupa za zemlju",
     "aliases": [
       "motorni bušač zemlje",
-      "burgija za zemlju"
+      "burgija za zemlju",
+      "Motorni bušač zemlje",
+      "Motorni bušač rupa za zemlju"
     ],
     "use": "Motorni bušač rupa za zemlju koristi se za pripremu rupa za stubove, sadnju i slične radove na odgovarajućem tlu.",
     "selection": "Navedi prečnik i dubinu rupa, tip zemlje i pristup parceli. Burgiju i pogodnost za kamenito tlo proveravamo posebno."
@@ -238,7 +245,11 @@
     "term": "brusilice za beton",
     "aliases": [
       "brusilica za zidove",
-      "brušenje betonske podloge"
+      "brušenje betonske podloge",
+      "Ručna brusilica za beton",
+      "Brusilica za beton i zidove",
+      "Podna brusilica za beton",
+      "Concrete floor grinder"
     ],
     "use": "Brusilica za beton koristi se za obradu mineralnih podloga i uklanjanje odgovarajućih površinskih slojeva.",
     "selection": "Navedi vrstu premaza, površinu i cilj obrade. Izbor dijamantskog alata i sistema za prašinu zavisi od posla."
@@ -265,7 +276,9 @@
     "term": "vibratora za beton",
     "aliases": [
       "vibro igla",
-      "igla za beton"
+      "igla za beton",
+      "Vibratori za beton",
+      "Vibrator betona / vibro-igla"
     ],
     "use": "Vibrator betona, poznat i kao vibro igla, koristi se za zbijanje sveže ugrađenog betona.",
     "selection": "Navedi element koji betoniraš i pristup armaturi. Prečnik igle, dužinu creva i napajanje proveravamo pre najma."
@@ -283,7 +296,9 @@
     "term": "udarnog odvijača",
     "aliases": [
       "aku udarni odvijač",
-      "udarna šrafilica"
+      "udarna šrafilica",
+      "Udarni odvijač",
+      "Akumulatorski udarni odvijač"
     ],
     "use": "Akumulatorski udarni odvijač namenjen je zavrtanju odgovarajućih vijčanih spojeva uz udarni režim.",
     "selection": "Navedi vrstu spoja i nastavka. Prihvat i obrtni moment proveravamo posebno; odvijač i udarni ključ nisu uvek zamenljivi."
@@ -328,7 +343,9 @@
     "term": "hoblerice za parket",
     "aliases": [
       "mašina za hoblovanje parketa",
-      "brusilica za parket"
+      "brusilica za parket",
+      "Hoblerice za parket",
+      "Hoblerica za parket"
     ],
     "use": "Hoblerica za parket namenjena je obradi drvenih podova kada stanje i debljina poda dozvoljavaju brušenje.",
     "selection": "Navedi kvadraturu, vrstu parketa i stanje premaza. Dogovaramo abrazive i opremu potrebnu za ivice i uglove."
@@ -400,7 +417,8 @@
     "term": "indukcionog grejača",
     "aliases": [
       "grejač za šrafove",
-      "indukcioni alat"
+      "indukcioni alat",
+      "Indukcioni grejač za šrafove"
     ],
     "use": "Indukcioni grejač služi za lokalno zagrevanje odgovarajućih metalnih spojeva tokom servisnih radova.",
     "selection": "Navedi dimenzije spoja i prostor oko njega. Potrebnu zavojnicu i ograničenja primene potvrđujemo za konkretan uređaj."
@@ -445,7 +463,8 @@
     "term": "vibracionog pištolja za keramiku",
     "aliases": [
       "vibrator za pločice",
-      "alat za postavljanje keramike"
+      "alat za postavljanje keramike",
+      "Vibracioni pištolj za keramiku"
     ],
     "use": "Vibracioni pištolj za keramiku pomaže pri pozicioniranju i naleganju odgovarajućih pločica u lepak.",
     "selection": "Navedi format i površinu pločice. Kompatibilnost vakuumskog prihvata i nosivost proveravamo za konkretan model."
@@ -490,7 +509,8 @@
     "term": "laserskog nivelatora",
     "aliases": [
       "laser za pločice",
-      "laser za nivelaciju"
+      "laser za nivelaciju",
+      "Laserski nivelator"
     ],
     "use": "Laserski nivelator koristi se za postavljanje referentnih linija pri montaži, postavljanju pločica i uređenju enterijera.",
     "selection": "Navedi da li radiš unutra ili napolju, potreban domet i način oslanjanja. Stativ, prijemnik i broj ravni zavise od modela."
@@ -508,7 +528,8 @@
     "term": "inspekcione kamere",
     "aliases": [
       "endoskopska kamera",
-      "kamera za cevi"
+      "kamera za cevi",
+      "Endoskopska / inspekciona kamera"
     ],
     "use": "Endoskopska ili inspekciona kamera pomaže pri vizuelnom pregledu teško dostupnih šupljina i prostora.",
     "selection": "Navedi prečnik otvora, dužinu pristupa i prisustvo vode. Obična endoskopska kamera nije automatski pogodna za kanalizaciju."
@@ -517,7 +538,8 @@
     "term": "termalne kamere",
     "aliases": [
       "termovizijska kamera",
-      "kamera za toplotne gubitke"
+      "kamera za toplotne gubitke",
+      "Termalna kamera"
     ],
     "use": "Termalna kamera prikazuje temperaturne razlike na površinama i pomaže pri pregledu izolacije ili opreme.",
     "selection": "Opiši šta pregledaš i očekivani temperaturni opseg. Nalaz zavisi od uslova merenja; kamera ne prikazuje direktno unutrašnjost zida."
@@ -526,7 +548,8 @@
     "term": "detektora curenja vode",
     "aliases": [
       "akustični detektor",
-      "uređaj za traženje curenja"
+      "uređaj za traženje curenja",
+      "Akustični detektor curenja vode"
     ],
     "use": "Akustični detektor curenja vode koristi se za osluškivanje i upoređivanje zvukova na instalacijama.",
     "selection": "Navedi materijal cevi, pritisak i pristup instalaciji. Uspeh detekcije zavisi od uslova, buke i načina korišćenja opreme."
@@ -535,7 +558,8 @@
     "term": "detektora metala",
     "aliases": [
       "metal detektor",
-      "uređaj za pronalaženje metala"
+      "uređaj za pronalaženje metala",
+      "Detektor metala"
     ],
     "use": "Detektor metala služi za pronalaženje metalnih predmeta u uslovima za koje je konkretan uređaj predviđen.",
     "selection": "Navedi podlogu i cilj pretrage. Domet zavisi od veličine predmeta i uslova; namenu uređaja potvrđujemo pre najma."
@@ -580,7 +604,8 @@
     "term": "ručnog vitla",
     "aliases": [
       "vitlo za povlačenje",
-      "potezač tereta"
+      "potezač tereta",
+      "Ručno vitlo"
     ],
     "use": "Ručno vitlo koristi se za kontrolisano povlačenje tereta u granicama deklarisane namene.",
     "selection": "Navedi masu tereta, pravac sile i tačku vezivanja. Mogućnost podizanja ne podrazumeva se i mora biti izričito dozvoljena za model."
@@ -589,7 +614,9 @@
     "term": "dizalice za gips ploče",
     "aliases": [
       "podupirač za gips ploče",
-      "podizač knauf ploča"
+      "podizač knauf ploča",
+      "Podizač gips ploča",
+      "Podupirač / dizalica za gips ploče"
     ],
     "use": "Dizalica za gips ploče pomaže pri pozicioniranju ploča tokom montaže plafona i kosih površina.",
     "selection": "Navedi dimenzije i masu ploče, visinu rada i pristup prostoriji. Radni opseg i nosivost proveravamo pre najma."
@@ -652,7 +679,8 @@
     "term": "mašine za skidanje parketa",
     "aliases": [
       "skidač parketa",
-      "floor stripper"
+      "floor stripper",
+      "Mašina za skidanje parketa"
     ],
     "use": "Mašina odvaja stari parket i zalepljene podne obloge od podloge tokom renoviranja. Izbor noža i postupka zavisi od vrste obloge i lepka.",
     "selection": "Navedi vrstu poda, površinu, način lepljenja i pristup prostoru. Pre najma proveravamo odgovarajući nož, stanje podloge i uslove transporta."
@@ -679,7 +707,8 @@
     "term": "uređaja za zamrzavanje cevi",
     "aliases": [
       "zamrzivač cevi",
-      "pipe freezer"
+      "pipe freezer",
+      "Uređaj za zamrzavanje cevi"
     ],
     "use": "Uređaj lokalno zamrzava vodu u odgovarajućoj cevi kako bi se omogućila određena intervencija na instalaciji. Prikladnost se proverava za konkretan sistem.",
     "selection": "Navedi materijal i prečnik cevi, vrstu tečnosti i uslove instalacije. Pre najma potvrđujemo odgovarajuće nastavke i zahteve za zaustavljanje protoka."
@@ -725,7 +754,9 @@
     "term": "glodalice za gips",
     "aliases": [
       "gips rotacija",
-      "rezač gips ploča"
+      "rezač gips ploča",
+      "Glodalica za gips i otvore",
+      "Glodalica za gips"
     ],
     "use": "Rotaciona glodalica pravi otvore i obrađuje ivice gipsanih ploča odgovarajućim nastavkom. Namenjena je preciznim izrezima tokom suvomontažnih radova.",
     "selection": "Navedi debljinu i tip ploče, dimenzije otvora i broj izreza. Pre najma proveravamo nastavak, podešavanje dubine i odvođenje prašine."
@@ -734,7 +765,8 @@
     "term": "helikoptera za beton",
     "aliases": [
       "perdaška za beton",
-      "mašina za ravnanje betona"
+      "mašina za ravnanje betona",
+      "Helikopter za beton"
     ],
     "use": "Helikopter služi za obradu i ravnanje odgovarajuće betonske površine u fazi završne obrade. Konfiguracija se bira prema pristupu i stanju betona.",
     "selection": "Navedi površinu, oblik prostora, pristup i planirani termin betoniranja. Pre najma potvrđujemo disk ili lopatice i zahteve konkretnog modela."
@@ -761,7 +793,8 @@
     "term": "ventilatora",
     "aliases": [
       "industrijski ventilator",
-      "ventilator sa raspršivačem"
+      "ventilator sa raspršivačem",
+      "Ventilator"
     ],
     "use": "Ventilator pokreće vazduh u prostoru ili na radnoj površini. Industrijski i modeli sa raspršivačem objedinjeni su, a odgovarajući tip se potvrđuje prema nameni.",
     "selection": "Navedi zapreminu prostora, temperaturu, napajanje i cilj korišćenja. Proveravamo potrebni protok, položaj uređaja i da li je raspršivanje vode prikladno."
@@ -770,7 +803,8 @@
     "term": "vibro letve",
     "aliases": [
       "vibraciona letva",
-      "letva za beton"
+      "letva za beton",
+      "Vibro letva"
     ],
     "use": "Vibro letva raspoređuje i poravnava odgovarajući sveži beton tokom izrade ploča i drugih površina. Radna širina i konfiguracija biraju se prema zadatku.",
     "selection": "Navedi širinu i površinu betoniranja, oslonce i uslove pristupa. Pre najma potvrđujemo prikladnu letvu i potrebnu opremu za konkretan model."
@@ -779,7 +813,9 @@
     "term": "pištolja za vezivanje armature",
     "aliases": [
       "vezač armature",
-      "pištolj za vezanje armature"
+      "pištolj za vezanje armature",
+      "Alat za vezivanje armature",
+      "Pištolj za vezivanje armature"
     ],
     "use": "Pištolj vezuje ukrštanja odgovarajuće armature žicom tokom pripreme konstrukcije. Pre najma proverava se kompatibilnost žice i dimenzija spojeva.",
     "selection": "Navedi prečnike šipki, broj vezova i uslove gradilišta. Proveravamo podržani opseg vezivanja, potrošni materijal i raspoloživo napajanje."
@@ -788,7 +824,8 @@
     "term": "sušilice za košuljicu",
     "aliases": [
       "sistem za sušenje podova",
-      "sušenje košuljice"
+      "sušenje košuljice",
+      "Sušilica za košuljicu"
     ],
     "use": "Sistem usmerava vazduh u odgovarajuće podne slojeve tokom isušivanja. Primenjuje se prema strukturi poda i ne zamenjuje proveru izvora vlage.",
     "selection": "Navedi slojeve poda, površinu, stanje vlage i pristup priključcima. Pre najma dogovaramo creva, nastavke i zahteve za napajanje konkretnog uređaja."
@@ -815,7 +852,8 @@
     "term": "malcera",
     "aliases": [
       "malčer za krčenje",
-      "usitnjivač rastinja"
+      "usitnjivač rastinja",
+      "Malčer"
     ],
     "use": "Malčer usitnjava odgovarajuću travu i nisko rastinje pri održavanju parcela. Objedinjene su varijante ove vrste mašine, a konkretan model se potvrđuje prema zadatku.",
     "selection": "Navedi površinu, gustinu i vrstu rastinja, nagib i pristup. Pre najma potvrđujemo radni opseg uređaja i da li posao zahteva poseban način rukovanja."
@@ -824,7 +862,9 @@
     "term": "prozračivača travnjaka",
     "aliases": [
       "vertikuler",
-      "provetrivač travnjaka"
+      "provetrivač travnjaka",
+      "Aeratori i vertikulatori",
+      "Prozračivač travnjaka"
     ],
     "use": "Prozračivač obrađuje površinski sloj travnjaka i uklanja odgovarajuće naslage pomoću namenskih nastavaka. Izbor postupka zavisi od stanja trave i podloge.",
     "selection": "Navedi površinu, stanje travnjaka i željeni rezultat. Pre najma dogovaramo nastavak i podešavanje radne dubine za konkretnu površinu."
@@ -842,7 +882,8 @@
     "term": "mašine za odgušenje cevi",
     "aliases": [
       "sajla za odgušenje",
-      "mašina za čišćenje kanalizacije"
+      "mašina za čišćenje kanalizacije",
+      "Mašina za odgušenje cevi"
     ],
     "use": "Mašina pokreće odgovarajuću sajlu i nastavak za čišćenje dostupnih odvodnih cevi. Opremu biramo prema prečniku, dužini i poznatom uzroku začepljenja.",
     "selection": "Navedi materijal, prečnik i trasu cevi, pristup reviziji i znakove začepljenja. Pre najma proveravamo sajlu i nastavke primerene instalaciji."
@@ -878,7 +919,9 @@
     "term": "vakuumskog nosača za staklo",
     "aliases": [
       "vakuumski podizač",
-      "vakum pumpa za staklo"
+      "vakum pumpa za staklo",
+      "Vakuumski nosač za ploče",
+      "Vakuumski nosač za staklo i ploče"
     ],
     "use": "Vakuumski nosač hvata odgovarajuću glatku površinu radi pozicioniranja ili prenošenja stakla i ploča. Ovo je ručni nosač sa pumpom, a ne pumpa za vodu.",
     "selection": "Navedi materijal, masu i dimenzije elementa i stanje površine. Pre najma proveravamo nosivost, prikladnost zaptivanja i plan transporta."
@@ -896,7 +939,8 @@
     "term": "freze za beton",
     "aliases": [
       "podna freza",
-      "frezovanje betona"
+      "frezovanje betona",
+      "Freza za beton"
     ],
     "use": "Freza za beton uklanja površinski sloj podloge pri pripremi za novu oblogu ili sanaciji neravnina. Razlikuje se od brusilice za završno brušenje.",
     "selection": "Navedi površinu, stanje betona, sloj koji treba ukloniti i mogućnost napajanja. Radni bubanj, dubinu obrade i odsisavanje proveravamo pre najma."
@@ -905,7 +949,8 @@
     "term": "podnog sekača betona i asfalta",
     "aliases": [
       "sekač asfalta",
-      "podna testera za beton"
+      "podna testera za beton",
+      "Podni sekač betona i asfalta"
     ],
     "use": "Podni sekač betona i asfalta služi za pravolinijsko rezanje horizontalnih površina pri popravkama, izradi spojeva i otvaranju trase.",
     "selection": "Navedi materijal, dužinu i dubinu reza, pristup lokaciji i vodi. Odgovarajući disk, njegovo habanje i transport potvrđujemo uz izabrani model."
@@ -914,7 +959,8 @@
     "term": "mašine za skidanje tapeta",
     "aliases": [
       "parni skidač tapeta",
-      "skidanje tapeta"
+      "skidanje tapeta",
+      "Mašina za skidanje tapeta"
     ],
     "use": "Mašina za skidanje tapeta koristi paru da omekša lepak i olakša uklanjanje starih tapeta tokom pripreme zidova za novu završnu obradu.",
     "selection": "Navedi vrstu tapeta i podlogu zida. Prikladnost za površinu, nastavke i način rada proveravamo pre najma, posebno kod podloga osetljivih na vlagu."
@@ -923,7 +969,9 @@
     "term": "pres mašine za cevi",
     "aliases": [
       "presa za cevi",
-      "presovanje fitinga"
+      "presovanje fitinga",
+      "Pres mašina za cevi",
+      "Pres mašina za cevi sa čeljustima"
     ],
     "use": "Pres mašina za cevi izvodi pres spojeve uz čeljusti odgovarajućeg profila. Kompatibilnost zavisi od sistema cevi i fitinga koji se ugrađuje.",
     "selection": "Pošalji proizvođača sistema, materijal, prečnike i profil čeljusti. Dostupan komplet čeljusti i kompatibilnost potvrđujemo pre iznajmljivanja."
@@ -932,7 +980,9 @@
     "term": "pumpe za ispitivanje pritiska",
     "aliases": [
       "pumpa za probu instalacije",
-      "opres pumpa"
+      "opres pumpa",
+      "Pumpa za ispitivanje instalacija",
+      "Pumpa za ispitivanje pritiska"
     ],
     "use": "Pumpa za ispitivanje pritiska koristi se pri proveri odgovarajućih vodovodnih i grejnih instalacija nakon montaže ili popravke spojeva.",
     "selection": "Navedi vrstu instalacije, priključak, ispitni medij i potreban pritisak. Opseg pumpe i pribor potvrđujemo prema proceduri za konkretnu instalaciju."
@@ -941,7 +991,8 @@
     "term": "mašine za narezivanje navoja na cevima",
     "aliases": [
       "nareznica za cevi",
-      "urezivanje navoja"
+      "urezivanje navoja",
+      "Mašina za narezivanje navoja na cevima"
     ],
     "use": "Mašina za narezivanje navoja obrađuje krajeve odgovarajućih metalnih cevi radi pripreme navojnih spojeva u montaži i održavanju instalacija.",
     "selection": "Navedi materijal cevi, prečnik i standard navoja. Glave, noževe, ulje za rezanje i mogućnost stezanja cevi proveravamo uz konkretan model."
@@ -950,7 +1001,8 @@
     "term": "kamere za kanalizaciju",
     "aliases": [
       "kamera za cevi",
-      "inspekcija odvoda"
+      "inspekcija odvoda",
+      "Kamera za kanalizaciju"
     ],
     "use": "Kamera za kanalizaciju omogućava pregled unutrašnjosti odgovarajućih odvodnih cevi radi lociranja prepreka i provere stanja instalacije.",
     "selection": "Navedi prečnik, očekivanu dužinu i pristup cevi. Dužinu kabla, veličinu glave, prolazak kroz kolena i mogućnost snimanja potvrđujemo prema modelu."
@@ -959,7 +1011,8 @@
     "term": "ivične hoblerke za parket",
     "aliases": [
       "ugaona hoblerica",
-      "ivična brusilica za parket"
+      "ivična brusilica za parket",
+      "Ivična hoblerka za parket"
     ],
     "use": "Ivična hoblerka za parket obrađuje delove drvenog poda uz zidove i druge ivice do kojih velika parketna hoblerica ne može lako da priđe.",
     "selection": "Navedi vrstu poda, stanje premaza i površinu. Brusni pribor, granulaciju i priključak za odsisavanje potvrđujemo pre preuzimanja opreme."
@@ -986,7 +1039,12 @@
     "term": "jednodiskne mašine za pranje i poliranje podova",
     "aliases": [
       "podna polirka",
-      "jednodiskna mašina"
+      "jednodiskna mašina",
+      "Mašina za pranje i poliranje podova",
+      "Mašina za pranje podova",
+      "podna mašina",
+      "scrubber dryer",
+      "Jednodiskna mašina za pranje i poliranje podova"
     ],
     "use": "Jednodiskna mašina koristi odgovarajuću četku ili pad za čišćenje i poliranje tvrdih podova. Odvojena je od mašine koja usisava vodu tokom pranja.",
     "selection": "Navedi materijal poda, premaz i posao koji planiraš. Padove, četke i sredstvo biramo prema podlozi; sakupljanje vode dogovaramo zasebno."
@@ -1004,7 +1062,8 @@
     "term": "radne platforme",
     "aliases": [
       "radni podijum",
-      "platforma za molerske radove"
+      "platforma za molerske radove",
+      "Radna platforma"
     ],
     "use": "Radna platforma pruža radnu površinu za montažu i završne radove na manjim visinama. Ova stavka označava platformu bez motornog podizanja.",
     "selection": "Navedi potrebnu visinu, prostor i namenu. Dimenzije, nosivost i oslonce potvrđujemo prema konkretnom modelu; nije makazasta dizalica."
@@ -1022,7 +1081,8 @@
     "term": "kolica za ploče",
     "aliases": [
       "kolica za gips ploče",
-      "transport pločastog materijala"
+      "transport pločastog materijala",
+      "Kolica za ploče"
     ],
     "use": "Kolica za ploče namenjena su prevozu odgovarajućeg pločastog materijala kroz objekat, uz oslonac i raspored tereta prilagođen kolicima.",
     "selection": "Navedi dimenzije i težinu ploča, širinu prolaza i stanje poda. Nosivost i način oslanjanja potvrđujemo pre najma; kolica nisu dizalica za ploče."
@@ -1031,7 +1091,8 @@
     "term": "magnetne bušilice",
     "aliases": [
       "magnetna stubna bušilica",
-      "bušenje čeličnih konstrukcija"
+      "bušenje čeličnih konstrukcija",
+      "Magnetna bušilica"
     ],
     "use": "Magnetna bušilica koristi magnetno postolje za obradu odgovarajućih čeličnih elemenata pri montaži i izradi metalnih konstrukcija.",
     "selection": "Navedi vrstu i debljinu materijala, prečnik otvora i položaj rada. Prikladnost magnetnog oslonca, alat za rezanje i dodatke potvrđujemo pre najma."
@@ -1040,7 +1101,8 @@
     "term": "plazma sekača",
     "aliases": [
       "plazma rezanje",
-      "plazma za metal"
+      "plazma za metal",
+      "Plazma sekač"
     ],
     "use": "Plazma sekač služi za rezanje odgovarajućih električno provodljivih metala u radioničkim i montažnim poslovima, prema kapacitetu uređaja.",
     "selection": "Navedi materijal, debljinu i dostupno napajanje. Zahtev za komprimovanim vazduhom, gorionik i potrošne delove proveravamo uz konkretan model."
@@ -1076,7 +1138,8 @@
     "term": "freze za panjeve",
     "aliases": [
       "frezovanje panjeva",
-      "mašina za uklanjanje panjeva"
+      "mašina za uklanjanje panjeva",
+      "Freza za panjeve"
     ],
     "use": "Freza za panjeve usitnjava odgovarajuće panjeve na mestu gde se nalaze, pri pripremi dvorišta za novo uređenje i uklanjanju ostataka stabala.",
     "selection": "Navedi prečnik panjeva, pristup parceli, nagib i položaj instalacija. Dubinu obrade, model i transport potvrđujemo prema uslovima na lokaciji."
@@ -1085,7 +1148,9 @@
     "term": "teleskopske testere",
     "aliases": [
       "visinski orezivač",
-      "testera za visoke grane"
+      "testera za visoke grane",
+      "Teleskopska motorna testera",
+      "Teleskopska testera"
     ],
     "use": "Teleskopska testera namenjena je orezivanju odgovarajućih grana sa zemlje, uz uslove i radni domet koje dozvoljava konkretan model.",
     "selection": "Navedi visinu i prečnik grana, pristup i okolne prepreke. Domet, pogon i pribor potvrđujemo pre najma; nije namenjena obaranju celog stabla."
@@ -1094,7 +1159,8 @@
     "term": "valjka za travnjak",
     "aliases": [
       "baštenski valjak",
-      "valjanje travnjaka"
+      "valjanje travnjaka",
+      "Valjak za travnjak"
     ],
     "use": "Valjak za travnjak služi za odgovarajuće poslove pripreme i održavanja travnate površine, uz masu i režim rada prilagođene zemljištu.",
     "selection": "Navedi površinu, stanje tla i planirani posao. Dimenzije, punjenje i ukupnu radnu masu proveravamo uz model, kao i uslove prevoza valjka."
@@ -1103,7 +1169,8 @@
     "term": "vakuum pumpe za klime",
     "aliases": [
       "vakum pumpa",
-      "vakuumiranje klima uređaja"
+      "vakuumiranje klima uređaja",
+      "Vakuum pumpa za klime"
     ],
     "use": "Vakuum pumpa za klime služi za evakuaciju odgovarajućih rashladnih instalacija u postupku montaže i servisa, uz pribor za konkretan sistem.",
     "selection": "Navedi tip sistema, priključke i potreban pribor. Kompatibilnost, creva i ulje proveravamo pre najma; pumpa nije uređaj za izvlačenje rashladnog gasa."
@@ -1112,7 +1179,8 @@
     "term": "manometarskog seta za klime",
     "aliases": [
       "manifold za klime",
-      "servisni manometri"
+      "servisni manometri",
+      "Manometarski set za klime"
     ],
     "use": "Manometarski set omogućava povezivanje i merenje pritiska u odgovarajućim rashladnim sistemima, uz creva i skale prilagođene nameni.",
     "selection": "Pošalji oznaku rashladnog sredstva i tip priključaka. Kompatibilnost manometara, creva i ventila potvrđujemo uz model pre iznajmljivanja."
@@ -1121,7 +1189,8 @@
     "term": "prese za kablovske papučice",
     "aliases": [
       "hidraulična klešta za papučice",
-      "krimpovanje kablova"
+      "krimpovanje kablova",
+      "Presa za kablovske papučice"
     ],
     "use": "Presa za kablovske papučice izrađuje pres spoj odgovarajućih provodnika i papučica pomoću matrice odabrane za njihov tip i dimenziju.",
     "selection": "Navedi materijal i presek provodnika, tip papučice i potrebnu matricu. Kompatibilnost alata i kompleta matrica potvrđujemo pre preuzimanja."
@@ -1130,7 +1199,8 @@
     "term": "uređaja za provlačenje kablova",
     "aliases": [
       "sajla za kablove",
-      "uvlačna sonda"
+      "uvlačna sonda",
+      "Uređaj za provlačenje kablova"
     ],
     "use": "Uređaj za provlačenje kablova pomaže pri uvođenju odgovarajućih provodnika kroz pripremljene instalacione cevi, kanale i druge prolaze.",
     "selection": "Navedi dužinu trase, dimenzije cevi i broj kolena. Dužinu sonde, nastavke i prikladnost za kablove potvrđujemo uz raspoloživ komplet."
@@ -1202,7 +1272,8 @@
     "term": "pneumatski čekić za kompresor",
     "aliases": [
       "Pneumatski čekić za kompresor",
-      "Pneumatic breaker"
+      "Pneumatic breaker",
+      "Pneumatski čekić za rušenje"
     ],
     "use": "Za razbijanje materijala uz dovod komprimovanog vazduha iz kompresora odgovarajućeg protoka i pritiska.",
     "selection": "Za pneumatski čekić za kompresor navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
@@ -1247,7 +1318,8 @@
     "term": "teleskopske makaze za travu",
     "aliases": [
       "Teleskopske makaze za travu",
-      "Telescopic grass shears"
+      "Telescopic grass shears",
+      "Makaze za travu"
     ],
     "use": "Za uređivanje rubova travnjaka i teško dostupnih mesta pomoću produžene ručice i odgovarajuće rezne glave.",
     "selection": "Za teleskopske makaze za travu navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
@@ -1283,7 +1355,8 @@
     "term": "usisivač za pepeo",
     "aliases": [
       "Usisivač za pepeo",
-      "Ash vacuum"
+      "Ash vacuum",
+      "Usisivači za pepeo"
     ],
     "use": "Za sakupljanje potpuno ohlađenog pepela iz odgovarajućih ložišta; nije predviđen za žar ili vrući materijal.",
     "selection": "Za usisivač za pepeo navedi konkretan posao, materijal ili uslove merenja i željene datume. Pre najma potvrđujemo model, potreban pribor, cenu i raspoloživost."
@@ -1682,7 +1755,11 @@
     "aliases": [
       "Agregat 1-fazni Honda 5,5 kW EG5500CL GW Honda",
       "Agregati za struju",
-      "Generator za struju"
+      "Generator za struju",
+      "Monofazni agregat",
+      "Agregat za struju",
+      "generator struje",
+      "benzinski agregat"
     ],
     "use": "Najam modela Agregat 1-fazni Honda 5,5 kW EG5500CL GW Honda. Oprema za privremeno napajanje, vazduh, osvetljenje ili grejanje. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Agregat 1-fazni Honda 5,5 kW EG5500CL GW Honda: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -1692,7 +1769,8 @@
     "aliases": [
       "Agregat Honda 1-3 Fazni ECT7500 4/7 kW",
       "Agregati za struju",
-      "Generator za struju"
+      "Generator za struju",
+      "Trofazni agregat"
     ],
     "use": "Najam modela Agregat Honda 1-3 Fazni ECT7500 4/7 kW. Oprema za privremeno napajanje, vazduh, osvetljenje ili grejanje. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Agregat Honda 1-3 Fazni ECT7500 4/7 kW: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -1752,7 +1830,8 @@
     "aliases": [
       "Honda EU22ITE agregat 1-fazni 2,2 kW",
       "Agregati za struju",
-      "Generator za struju"
+      "Generator za struju",
+      "Inverterski agregat"
     ],
     "use": "Najam modela Honda EU22ITE agregat 1-fazni 2,2 kW. Oprema za privremeno napajanje, vazduh, osvetljenje ili grejanje. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Honda EU22ITE agregat 1-fazni 2,2 kW: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -1995,7 +2074,14 @@
     "term": "modela Bosch akumulatorska bušilica-odvrtač GSR 18V-65 18 V 2 x 2 Ah sa koferom",
     "aliases": [
       "Bosch akumulatorska bušilica-odvrtač GSR 18V-65 18 V 2 x 2 Ah sa koferom",
-      "Aku bušilice i odvijači, šrafilice"
+      "Aku bušilice i odvijači, šrafilice",
+      "Bušilica i šrafilica",
+      "Akumulatorska šrafilica",
+      "aku šrafilica",
+      "aku bušilica",
+      "Bušilica",
+      "električna bušilica",
+      "dvobrzinska bušilica"
     ],
     "use": "Najam modela Bosch akumulatorska bušilica-odvrtač GSR 18V-65 18 V 2 x 2 Ah sa koferom. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch akumulatorska bušilica-odvrtač GSR 18V-65 18 V 2 x 2 Ah sa koferom: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -4405,7 +4491,9 @@
     "term": "modela Bosch digitalni termo-higrometar GDH 1-17",
     "aliases": [
       "Bosch digitalni termo-higrometar GDH 1-17",
-      "Akumulatorski alat ostalo"
+      "Akumulatorski alat ostalo",
+      "Termohigrometar",
+      "Thermohygrometer"
     ],
     "use": "Najam modela Bosch digitalni termo-higrometar GDH 1-17. Instrument za merenje ili proveru uslova tokom radova. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch digitalni termo-higrometar GDH 1-17: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -4832,7 +4920,11 @@
     "aliases": [
       "Pegla za PVC cevi 800 W",
       "Alati za obradu cevi",
-      "Pegla za cevi"
+      "Pegla za cevi",
+      "Varilica za plastične cevi",
+      "Varilica za plastične vodovodne cevi",
+      "pegla za cevi",
+      "varilica za PPR cevi"
     ],
     "use": "Najam modela Pegla za PVC cevi 800 W. Alat za rad sa pločicama, cevima i materijalima za ugradnju. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Pegla za PVC cevi 800 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -4960,7 +5052,8 @@
     "term": "modela Varstroj Varmig 1605D Profimig",
     "aliases": [
       "Varstroj Varmig 1605D Profimig",
-      "Aparati za MIG MAG zavarivanje"
+      "Aparati za MIG MAG zavarivanje",
+      "MIG/MAG aparati za zavarivanje"
     ],
     "use": "Najam modela Varstroj Varmig 1605D Profimig. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Varstroj Varmig 1605D Profimig: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -5095,7 +5188,13 @@
     "term": "modela Varstroj Varin 1605 LCD aparat za zavarivanje",
     "aliases": [
       "Varstroj Varin 1605 LCD aparat za zavarivanje",
-      "Aparati za REL elektrolučno zavarivanje"
+      "Aparati za REL elektrolučno zavarivanje",
+      "REL aparat za zavarivanje",
+      "Aparat za varenje",
+      "aparat za zavarivanje",
+      "inverter za varenje",
+      "Maska za varenje",
+      "Welding helmet"
     ],
     "use": "Najam modela Varstroj Varin 1605 LCD aparat za zavarivanje. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Varstroj Varin 1605 LCD aparat za zavarivanje: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -5257,7 +5356,8 @@
     "term": "modela Walmer aparat za zavarivanje tig 200 p ac/dc dig",
     "aliases": [
       "Walmer aparat za zavarivanje tig 200 p ac/dc dig",
-      "Aparati za WIG TIG zavarivanje"
+      "Aparati za WIG TIG zavarivanje",
+      "TIG aparat za zavarivanje"
     ],
     "use": "Najam modela Walmer aparat za zavarivanje tig 200 p ac/dc dig. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Walmer aparat za zavarivanje tig 200 p ac/dc dig: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -5357,7 +5457,8 @@
     "term": "modela Stihl benzinska prskalica SR 200",
     "aliases": [
       "Stihl benzinska prskalica SR 200",
-      "Atomizeri"
+      "Atomizeri",
+      "Prskalice"
     ],
     "use": "Najam modela Stihl benzinska prskalica SR 200. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Stihl benzinska prskalica SR 200: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -5501,7 +5602,10 @@
     "term": "modela Praxis dizalica 1 t",
     "aliases": [
       "Praxis dizalica 1 t",
-      "Auto dizalice"
+      "Auto dizalice",
+      "Hidraulična dizalica „krokodilka“",
+      "krokodilka",
+      "dizalica za auto"
     ],
     "use": "Najam modela Praxis dizalica 1 t. Oprema za pristup visini, pozicioniranje ili transport tereta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Praxis dizalica 1 t: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -5582,7 +5686,11 @@
       "Mirka žirafa za zidove Leros 950cv 225 mm",
       "Brusilice za zidove - žirafe",
       "Žirafa",
-      "Šlajferica za zidove"
+      "Šlajferica za zidove",
+      "Žirafe i brusilice za zidove",
+      "Žirafa za brušenje zidova",
+      "žirafa za zidove",
+      "šlajferica za zidove"
     ],
     "use": "Najam modela Mirka žirafa za zidove Leros 950cv 225 mm. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Mirka žirafa za zidove Leros 950cv 225 mm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -5640,7 +5748,8 @@
     "term": "modela Dremel alat višenamenski 3000-1/25",
     "aliases": [
       "Dremel alat višenamenski 3000-1/25",
-      "Čeone brusilice"
+      "Čeone brusilice",
+      "Mini rotacioni alati"
     ],
     "use": "Najam modela Dremel alat višenamenski 3000-1/25. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Dremel alat višenamenski 3000-1/25: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -5677,7 +5786,8 @@
     "term": "modela Makita brusilica ravna GD0601",
     "aliases": [
       "Makita brusilica ravna GD0601",
-      "Čeone brusilice"
+      "Čeone brusilice",
+      "Čeona brusilica i bijaks"
     ],
     "use": "Najam modela Makita brusilica ravna GD0601. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita brusilica ravna GD0601: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -5686,7 +5796,11 @@
     "term": "modela Scheppach univerzalna brusilica za renoviranje MRS1300",
     "aliases": [
       "Scheppach univerzalna brusilica za renoviranje MRS1300",
-      "Čeone brusilice"
+      "Čeone brusilice",
+      "Motorna četka za renoviranje površina",
+      "Motorna četka za velike površine",
+      "motorna četka za čišćenje",
+      "četka za dvorište"
     ],
     "use": "Najam modela Scheppach univerzalna brusilica za renoviranje MRS1300. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Scheppach univerzalna brusilica za renoviranje MRS1300: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -5758,7 +5872,10 @@
     "term": "modela Villager HLS 55 t horizontalni cepač drva",
     "aliases": [
       "Villager HLS 55 t horizontalni cepač drva",
-      "Cepači drva"
+      "Cepači drva",
+      "Cepač drva",
+      "hidraulični cepač",
+      "cepanje drva"
     ],
     "use": "Najam modela Villager HLS 55 t horizontalni cepač drva. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Villager HLS 55 t horizontalni cepač drva: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -5876,7 +5993,8 @@
     "term": "modela Dremel alat za graviranje 290jm",
     "aliases": [
       "Dremel alat za graviranje 290jm",
-      "Dremel alati"
+      "Dremel alati",
+      "Mini rotacioni alati"
     ],
     "use": "Najam modela Dremel alat za graviranje 290jm. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Dremel alat za graviranje 290jm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -5912,7 +6030,11 @@
     "term": "modela Bosch AXT 25 D seckalica za grane 2500 W",
     "aliases": [
       "Bosch AXT 25 D seckalica za grane 2500 W",
-      "Drobilice za grane"
+      "Drobilice za grane",
+      "Drobilice i seckalice grana",
+      "Seckalica za grane",
+      "drobilica za grane",
+      "usitnjivač granja"
     ],
     "use": "Najam modela Bosch AXT 25 D seckalica za grane 2500 W. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch AXT 25 D seckalica za grane 2500 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -6209,7 +6331,11 @@
     "term": "modela Bušilica dijamantske krune DBM 131 Makita",
     "aliases": [
       "Bušilica dijamantske krune DBM 131 Makita",
-      "Električne bušilice"
+      "Električne bušilice",
+      "Dijamantska bušilica",
+      "Dijamantska bušilica sa stalkom",
+      "karotirka",
+      "krunsko bušenje"
     ],
     "use": "Najam modela Bušilica dijamantske krune DBM 131 Makita. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bušilica dijamantske krune DBM 131 Makita: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -6272,7 +6398,14 @@
     "term": "modela Makita 6413 električna bušilica 450 W 10 mm",
     "aliases": [
       "Makita 6413 električna bušilica 450 W 10 mm",
-      "Električne bušilice"
+      "Električne bušilice",
+      "Bušilica i šrafilica",
+      "Akumulatorska šrafilica",
+      "aku šrafilica",
+      "aku bušilica",
+      "Bušilica",
+      "električna bušilica",
+      "dvobrzinska bušilica"
     ],
     "use": "Najam modela Makita 6413 električna bušilica 450 W 10 mm. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita 6413 električna bušilica 450 W 10 mm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -6427,7 +6560,8 @@
     "term": "modela DeWalt Kekserica DW682K 600 W",
     "aliases": [
       "DeWalt Kekserica DW682K 600 W",
-      "Električne kekserice"
+      "Električne kekserice",
+      "Kekserice"
     ],
     "use": "Najam modela DeWalt Kekserica DW682K 600 W. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model DeWalt Kekserica DW682K 600 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -6500,7 +6634,8 @@
     "term": "modela Bosch Pro Pruner makaze za orezivanje set sa baterijama 2X3AH i punjačem",
     "aliases": [
       "Bosch Pro Pruner makaze za orezivanje set sa baterijama 2X3AH i punjačem",
-      "Električne makaze"
+      "Električne makaze",
+      "Motorne makaze za orezivanje"
     ],
     "use": "Najam modela Bosch Pro Pruner makaze za orezivanje set sa baterijama 2X3AH i punjačem. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch Pro Pruner makaze za orezivanje set sa baterijama 2X3AH i punjačem: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -6509,7 +6644,11 @@
     "term": "modela Echo HC-2020 motorni trimer za živu ogradu",
     "aliases": [
       "Echo HC-2020 motorni trimer za živu ogradu",
-      "Električne makaze"
+      "Električne makaze",
+      "Makaze za živu ogradu",
+      "Trimer za živu ogradu",
+      "makaze za živu ogradu",
+      "šišač žive ograde"
     ],
     "use": "Najam modela Echo HC-2020 motorni trimer za živu ogradu. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Echo HC-2020 motorni trimer za živu ogradu: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -6809,7 +6948,9 @@
     "term": "modela Scheppach električni teleskopski trimer za živu ogradu ETHT500",
     "aliases": [
       "Scheppach električni teleskopski trimer za živu ogradu ETHT500",
-      "Električne makaze"
+      "Električne makaze",
+      "Teleskopske makaze za živu ogradu",
+      "Telescopic hedge trimmer"
     ],
     "use": "Najam modela Scheppach električni teleskopski trimer za živu ogradu ETHT500. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Scheppach električni teleskopski trimer za živu ogradu ETHT500: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -6899,7 +7040,11 @@
     "term": "modela Bosch brusilica stacionarna GCO 14-24 J",
     "aliases": [
       "Bosch brusilica stacionarna GCO 14-24 J",
-      "Električne stone testere - ger mašine"
+      "Električne stone testere - ger mašine",
+      "Testere za metal",
+      "Ger testera za metal",
+      "testera za metal",
+      "sekač metalnih profila"
     ],
     "use": "Najam modela Bosch brusilica stacionarna GCO 14-24 J. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch brusilica stacionarna GCO 14-24 J: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -6989,7 +7134,11 @@
     "term": "modela Einhell TE-TC 620 U rezač pločica 200X25,4 mm 900 W",
     "aliases": [
       "Einhell TE-TC 620 U rezač pločica 200X25,4 mm 900 W",
-      "Električne stone testere - ger mašine"
+      "Električne stone testere - ger mašine",
+      "Električni sekač pločica i kamena",
+      "Mašina za sečenje pločica",
+      "sekač pločica",
+      "rezač keramike"
     ],
     "use": "Najam modela Einhell TE-TC 620 U rezač pločica 200X25,4 mm 900 W. Alat za rad sa pločicama, cevima i materijalima za ugradnju. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Einhell TE-TC 620 U rezač pločica 200X25,4 mm 900 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -6998,7 +7147,11 @@
     "term": "modela Einhell TE-TC 920 UL radijalni rezač pločica",
     "aliases": [
       "Einhell TE-TC 920 UL radijalni rezač pločica",
-      "Električne stone testere - ger mašine"
+      "Električne stone testere - ger mašine",
+      "Električni sekač pločica i kamena",
+      "Mašina za sečenje pločica",
+      "sekač pločica",
+      "rezač keramike"
     ],
     "use": "Najam modela Einhell TE-TC 920 UL radijalni rezač pločica. Alat za rad sa pločicama, cevima i materijalima za ugradnju. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Einhell TE-TC 920 UL radijalni rezač pločica: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -7016,7 +7169,11 @@
     "term": "modela Makita testera potezno - nagibna LS1018LN",
     "aliases": [
       "Makita testera potezno - nagibna LS1018LN",
-      "Električne stone testere - ger mašine"
+      "Električne stone testere - ger mašine",
+      "Ger testere za drvo",
+      "Ger testera za drvo i aluminijum",
+      "ger testera za aluminijum",
+      "potezna testera"
     ],
     "use": "Najam modela Makita testera potezno - nagibna LS1018LN. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita testera potezno - nagibna LS1018LN: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -7097,7 +7254,11 @@
     "term": "modela Scheppach MT150 testera za metal",
     "aliases": [
       "Scheppach MT150 testera za metal",
-      "Električne stone testere - ger mašine"
+      "Električne stone testere - ger mašine",
+      "Testere za metal",
+      "Ger testera za metal",
+      "testera za metal",
+      "sekač metalnih profila"
     ],
     "use": "Najam modela Scheppach MT150 testera za metal. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Scheppach MT150 testera za metal: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -7196,7 +7357,11 @@
     "term": "modela Makita mešač UT1200",
     "aliases": [
       "Makita mešač UT1200",
-      "Električni mešači"
+      "Električni mešači",
+      "Mešači boje i maltera",
+      "Mikser za lepak i boju",
+      "mešač za boju",
+      "mikser za malter"
     ],
     "use": "Najam modela Makita mešač UT1200. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita mešač UT1200: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -7250,7 +7415,8 @@
     "term": "modela DeWalt Brzi odvijač Za Suvu Gradnju-Gips DW274 540 W",
     "aliases": [
       "DeWalt Brzi odvijač Za Suvu Gradnju-Gips DW274 540 W",
-      "Električni odvijači"
+      "Električni odvijači",
+      "Odvijač za gips ploče"
     ],
     "use": "Najam modela DeWalt Brzi odvijač Za Suvu Gradnju-Gips DW274 540 W. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model DeWalt Brzi odvijač Za Suvu Gradnju-Gips DW274 540 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -7278,7 +7444,11 @@
     "term": "modela Makita odvijač udarni TW0350",
     "aliases": [
       "Makita odvijač udarni TW0350",
-      "Električni odvijači"
+      "Električni odvijači",
+      "Udarni ključ za odvrtanje",
+      "Akumulatorski udarni ključ",
+      "udarni ključ",
+      "aku odvijač za matice"
     ],
     "use": "Najam modela Makita odvijač udarni TW0350. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita odvijač udarni TW0350: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -7361,7 +7531,11 @@
     "term": "modela Makita KP0800 rende",
     "aliases": [
       "Makita KP0800 rende",
-      "Električno rende"
+      "Električno rende",
+      "Električno ručno rende",
+      "Električno rende / ručna hoblerica",
+      "ručna hoblerica",
+      "rende za drvo"
     ],
     "use": "Najam modela Makita KP0800 rende. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita KP0800 rende: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -7379,7 +7553,11 @@
     "term": "modela Scheppach kombinovana abriht i debljača HMS1080",
     "aliases": [
       "Scheppach kombinovana abriht i debljača HMS1080",
-      "Električno rende"
+      "Električno rende",
+      "Stacionarna debljača i abrihter",
+      "Stacionarna debljača",
+      "diht mašina",
+      "debljača za drvo"
     ],
     "use": "Najam modela Scheppach kombinovana abriht i debljača HMS1080. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Scheppach kombinovana abriht i debljača HMS1080: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -7474,7 +7652,12 @@
       "Bosch elektro-pneumatski čekić za rušenje GSH 11 EV",
       "Elektro pneumatske bušilice",
       "Pikamer",
-      "Štemarica"
+      "Štemarica",
+      "Pikamer za rušenje",
+      "Pikamer / štemerica",
+      "štemarica",
+      "štemerica",
+      "čekić za rušenje"
     ],
     "use": "Najam modela Bosch elektro-pneumatski čekić za rušenje GSH 11 EV. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch elektro-pneumatski čekić za rušenje GSH 11 EV: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -7483,7 +7666,11 @@
     "term": "modela Bosch GBH 2 28 F SDS + elektro pneumatski čekić, 880 W",
     "aliases": [
       "Bosch GBH 2 28 F SDS + elektro pneumatski čekić, 880 W",
-      "Elektro pneumatske bušilice"
+      "Elektro pneumatske bušilice",
+      "SDS Plus bušilica za beton",
+      "Udarna čekić bušilica",
+      "čekić bušilica",
+      "bušilica za beton"
     ],
     "use": "Najam modela Bosch GBH 2 28 F SDS + elektro pneumatski čekić, 880 W. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch GBH 2 28 F SDS + elektro pneumatski čekić, 880 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -7510,7 +7697,8 @@
     "term": "modela Bosch GBH 5 - 40 DCE elektro - pneumatski čekić 1150 W",
     "aliases": [
       "Bosch GBH 5 - 40 DCE elektro - pneumatski čekić 1150 W",
-      "Elektro pneumatske bušilice"
+      "Elektro pneumatske bušilice",
+      "SDS Max bušilica za beton"
     ],
     "use": "Najam modela Bosch GBH 5 - 40 DCE elektro - pneumatski čekić 1150 W. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch GBH 5 - 40 DCE elektro - pneumatski čekić 1150 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -7677,15 +7865,16 @@
     "selection": "Za model Makita HM1203C elektro - pneumatski čekić za štemovanje SDS - max 1510 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
   },
   "makita-hm1812-pneumatski-cekic-za-rusenje-cr-839": {
-    "term": "modela Makita HM1812 pneumatski čekić za rušenje",
+    "term": "modela Makita HM1812 teški električni čekić za rušenje",
     "aliases": [
-      "Makita HM1812 pneumatski čekić za rušenje",
+      "Makita HM1812 teški električni čekić za rušenje",
       "Elektro pneumatske bušilice",
       "pikamer",
-      "štemarica"
+      "štemarica",
+      "Teški električni čekić za podove i beton"
     ],
-    "use": "Najam modela Makita HM1812 pneumatski čekić za rušenje. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
-    "selection": "Za model Makita HM1812 pneumatski čekić za rušenje: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
+    "use": "Najam modela Makita HM1812 teški električni čekić za rušenje. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
+    "selection": "Za model Makita HM1812 teški električni čekić za rušenje: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
   },
   "makita-hr2810-elektro-pneumatski-cekic-800w-cr-620": {
     "term": "modela Makita HR2810 elektro - pneumatski čekić 800 W",
@@ -7700,7 +7889,8 @@
     "term": "modela Makita HR4002 elektro - pneumatski čekić 1050 W",
     "aliases": [
       "Makita HR4002 elektro - pneumatski čekić 1050 W",
-      "Elektro pneumatske bušilice"
+      "Elektro pneumatske bušilice",
+      "SDS Max bušilica za beton"
     ],
     "use": "Najam modela Makita HR4002 elektro - pneumatski čekić 1050 W. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita HR4002 elektro - pneumatski čekić 1050 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -7931,7 +8121,11 @@
     "term": "modela Honda FG201 kopačica",
     "aliases": [
       "Honda FG201 kopačica",
-      "Freze | Motokultivatori | Kopačice"
+      "Freze | Motokultivatori | Kopačice",
+      "Freze i motokultivatori",
+      "Motokultivator",
+      "freza za zemlju",
+      "motorna freza"
     ],
     "use": "Najam modela Honda FG201 kopačica. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Honda FG201 kopačica: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -8084,7 +8278,10 @@
     "term": "modela Bosch površinska glodalica GOF 20-12 2000 W",
     "aliases": [
       "Bosch površinska glodalica GOF 20-12 2000 W",
-      "Glodalice"
+      "Glodalice",
+      "Glodalica za drvo",
+      "frezer za drvo",
+      "ručna glodalica"
     ],
     "use": "Najam modela Bosch površinska glodalica GOF 20-12 2000 W. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch površinska glodalica GOF 20-12 2000 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -8138,7 +8335,10 @@
     "term": "modela Makita SG1251J rezač kanala šlicerica",
     "aliases": [
       "Makita SG1251J rezač kanala šlicerica",
-      "Glodalice"
+      "Glodalice",
+      "Šlicerica za kanale u zidu",
+      "kanalica za zid",
+      "freza za kanale"
     ],
     "use": "Najam modela Makita SG1251J rezač kanala šlicerica. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita SG1251J rezač kanala šlicerica: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -8183,7 +8383,9 @@
     "term": "modela Muta građevinska kolica",
     "aliases": [
       "Muta građevinska kolica",
-      "Građevinska kolica i delovi"
+      "Građevinska kolica i delovi",
+      "Građevinska kolica",
+      "Wheelbarrow"
     ],
     "use": "Najam modela Muta građevinska kolica. Oprema za pristup visini, pozicioniranje ili transport tereta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Muta građevinska kolica: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -8336,7 +8538,11 @@
     "term": "modela Makita fen za vrući vazduh HG5030K",
     "aliases": [
       "Makita fen za vrući vazduh HG5030K",
-      "Industrijski fenovi"
+      "Industrijski fenovi",
+      "Fenovi i pištolji za vruć vazduh",
+      "Fen za vruć vazduh",
+      "industrijski fen",
+      "pištolj za vruć vazduh"
     ],
     "use": "Najam modela Makita fen za vrući vazduh HG5030K. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita fen za vrući vazduh HG5030K: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -8417,7 +8623,11 @@
     "term": "modela Magnum grejalica prenosna fan 3000 W crvena",
     "aliases": [
       "Magnum grejalica prenosna fan 3000 W crvena",
-      "Kaloriferi"
+      "Kaloriferi",
+      "Električna grejalica",
+      "Keramička grejalica",
+      "električna grejalica",
+      "grejalica za radionicu"
     ],
     "use": "Najam modela Magnum grejalica prenosna fan 3000 W crvena. Oprema za privremeno napajanje, vazduh, osvetljenje ili grejanje. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Magnum grejalica prenosna fan 3000 W crvena: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -8525,7 +8735,8 @@
     "term": "modela Bihui ručni sekač za keramiku velikog formata",
     "aliases": [
       "Bihui ručni sekač za keramiku velikog formata",
-      "Keramičarski alat"
+      "Keramičarski alat",
+      "Ručni sekač pločica"
     ],
     "use": "Najam modela Bihui ručni sekač za keramiku velikog formata. Alat za rad sa pločicama, cevima i materijalima za ugradnju. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bihui ručni sekač za keramiku velikog formata: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -8633,7 +8844,11 @@
     "term": "modela Dabel kolica za transport EURO Plava 600X400MM OPD",
     "aliases": [
       "Dabel kolica za transport EURO Plava 600X400MM OPD",
-      "Kolica za teret i električne dizalice"
+      "Kolica za teret i električne dizalice",
+      "Transportna kolica",
+      "Teretna kolica za stepenice",
+      "teretna kolica",
+      "transportna kolica"
     ],
     "use": "Najam modela Dabel kolica za transport EURO Plava 600X400MM OPD. Oprema za pristup visini, pozicioniranje ili transport tereta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Dabel kolica za transport EURO Plava 600X400MM OPD: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -8678,7 +8893,11 @@
     "term": "modela Einhell TC-EH 500 dizalica sa sajlom",
     "aliases": [
       "Einhell TC-EH 500 dizalica sa sajlom",
-      "Kolica za teret i električne dizalice"
+      "Kolica za teret i električne dizalice",
+      "Dizalice i vitla",
+      "Električna dizalica „vrabac“",
+      "dizalica vrabac",
+      "električno vitlo"
     ],
     "use": "Najam modela Einhell TC-EH 500 dizalica sa sajlom. Oprema za pristup visini, pozicioniranje ili transport tereta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Einhell TC-EH 500 dizalica sa sajlom: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -8786,7 +9005,10 @@
     "term": "modela ABAC Export A39B 90 CM3 kompresor 90L",
     "aliases": [
       "ABAC Export A39B 90 CM3 kompresor 90L",
-      "Kompresori"
+      "Kompresori",
+      "Vazdušni kompresor",
+      "kompresor za vazduh",
+      "kompresor za alat"
     ],
     "use": "Najam modela ABAC Export A39B 90 CM3 kompresor 90L. Oprema za privremeno napajanje, vazduh, osvetljenje ili grejanje. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model ABAC Export A39B 90 CM3 kompresor 90L: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -9995,7 +10217,11 @@
       "Honda HRG466 SKEP samohodna motorna kosilica 3,1 kW, 46 cm",
       "Kosilice",
       "kosilica",
-      "kosačica"
+      "kosačica",
+      "Samohodna rotaciona kosilica",
+      "Benzinska kosačica",
+      "kosačica za travu",
+      "košenje travnjaka"
     ],
     "use": "Najam modela Honda HRG466 SKEP samohodna motorna kosilica 3,1 kW, 46 cm. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Honda HRG466 SKEP samohodna motorna kosilica 3,1 kW, 46 cm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -10057,7 +10283,11 @@
     "term": "modela Honda Mio standard čeona kosa MS-M90",
     "aliases": [
       "Honda Mio standard čeona kosa MS-M90",
-      "Kosilice"
+      "Kosilice",
+      "Čeona kosačica za visoku travu",
+      "Čeona grebenasta kosačica",
+      "čeona kosačica",
+      "kosačica za visoku travu"
     ],
     "use": "Najam modela Honda Mio standard čeona kosa MS-M90. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Honda Mio standard čeona kosa MS-M90: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -10079,7 +10309,8 @@
       "Honda traktorska kosačica HF2317HME",
       "Kosilice",
       "kosilica",
-      "kosačica"
+      "kosačica",
+      "Traktorska kosilica"
     ],
     "use": "Najam modela Honda traktorska kosačica HF2317HME. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Honda traktorska kosačica HF2317HME: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -10123,7 +10354,11 @@
       "INGCO kosačica GLM141182 3 kW samohodna",
       "Kosilice",
       "Kosilica",
-      "Kosačica"
+      "Kosačica",
+      "Testere za metal",
+      "Ger testera za metal",
+      "testera za metal",
+      "sekač metalnih profila"
     ],
     "use": "Najam modela INGCO kosačica GLM141182 3 kW samohodna. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model INGCO kosačica GLM141182 3 kW samohodna: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -10904,7 +11139,8 @@
       "Villager Quix XS robotska kosilica",
       "Kosilice",
       "kosilica",
-      "kosačica"
+      "kosačica",
+      "Robotska kosilica"
     ],
     "use": "Najam modela Villager Quix XS robotska kosilica. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Villager Quix XS robotska kosilica: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -11034,7 +11270,10 @@
     "term": "modela Bosch stona testera GTS 254 Professional",
     "aliases": [
       "Bosch stona testera GTS 254 Professional",
-      "Kružne testere"
+      "Kružne testere",
+      "Stoni cirkular",
+      "stona testera",
+      "cirkular za drvo"
     ],
     "use": "Najam modela Bosch stona testera GTS 254 Professional. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch stona testera GTS 254 Professional: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -11124,7 +11363,10 @@
     "term": "modela Makita HS7601 ručna kružna testera",
     "aliases": [
       "Makita HS7601 ručna kružna testera",
-      "Kružne testere"
+      "Kružne testere",
+      "Ručni cirkular",
+      "ručna kružna testera",
+      "cirkular za drvo"
     ],
     "use": "Najam modela Makita HS7601 ručna kružna testera. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita HS7601 ručna kružna testera: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -11133,7 +11375,10 @@
     "term": "modela Makita SP6000J testera s upuštanjem",
     "aliases": [
       "Makita SP6000J testera s upuštanjem",
-      "Kružne testere"
+      "Kružne testere",
+      "Uranjajuća testera sa šinom",
+      "potapajuća testera",
+      "testera sa vođicom"
     ],
     "use": "Najam modela Makita SP6000J testera s upuštanjem. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita SP6000J testera s upuštanjem: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -11151,7 +11396,10 @@
     "term": "modela Scheppach benzinski sekač betona PTS400",
     "aliases": [
       "Scheppach benzinski sekač betona PTS400",
-      "Kružne testere"
+      "Kružne testere",
+      "Motorni sekač betona",
+      "motorni rezač betona",
+      "testera za beton"
     ],
     "use": "Najam modela Scheppach benzinski sekač betona PTS400. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Scheppach benzinski sekač betona PTS400: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -11412,7 +11660,11 @@
     "term": "modela Bosch GLM 50 27 CG laserski daljinomer",
     "aliases": [
       "Bosch GLM 50 27 CG laserski daljinomer",
-      "Laserska merna tehinika"
+      "Laserska merna tehinika",
+      "Daljinomeri",
+      "Laserski daljinomer",
+      "laserski metar",
+      "digitalni metar"
     ],
     "use": "Najam modela Bosch GLM 50 27 CG laserski daljinomer. Instrument za merenje ili proveru uslova tokom radova. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch GLM 50 27 CG laserski daljinomer: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -11421,7 +11673,10 @@
     "term": "modela Bosch GMS120-27 detektor struje kablova pod naponom",
     "aliases": [
       "Bosch GMS120-27 detektor struje kablova pod naponom",
-      "Laserska merna tehinika"
+      "Laserska merna tehinika",
+      "Detektor kablova i instalacija",
+      "detektor kablova",
+      "detektor cevi u zidu"
     ],
     "use": "Najam modela Bosch GMS120-27 detektor struje kablova pod naponom. Instrument za merenje ili proveru uslova tokom radova. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch GMS120-27 detektor struje kablova pod naponom: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -11484,7 +11739,9 @@
     "term": "modela Bosch merač vlage universal humid",
     "aliases": [
       "Bosch merač vlage universal humid",
-      "Laserska merna tehinika"
+      "Laserska merna tehinika",
+      "Merač vlage u materijalu",
+      "Material moisture meter"
     ],
     "use": "Najam modela Bosch merač vlage universal humid. Instrument za merenje ili proveru uslova tokom radova. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch merač vlage universal humid: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -11493,7 +11750,8 @@
     "term": "modela Bosch rotacioni laser GRL 400 H + LR1 + kofer",
     "aliases": [
       "Bosch rotacioni laser GRL 400 H + LR1 + kofer",
-      "Laserska merna tehinika"
+      "Laserska merna tehinika",
+      "Rotacioni laser za nivelaciju terena"
     ],
     "use": "Najam modela Bosch rotacioni laser GRL 400 H + LR1 + kofer. Instrument za merenje ili proveru uslova tokom radova. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch rotacioni laser GRL 400 H + LR1 + kofer: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -11511,7 +11769,9 @@
     "term": "modela Bosch termometar ic universal temp",
     "aliases": [
       "Bosch termometar ic universal temp",
-      "Laserska merna tehinika"
+      "Laserska merna tehinika",
+      "Infracrveni termometar",
+      "Infrared thermometer"
     ],
     "use": "Najam modela Bosch termometar ic universal temp. Instrument za merenje ili proveru uslova tokom radova. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch termometar ic universal temp: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -12355,7 +12615,11 @@
     "term": "modela Milwaukee M12BPRT-201X akumulatorski pištolj za pop nitne 12 V 2 Ah",
     "aliases": [
       "Milwaukee M12BPRT-201X akumulatorski pištolj za pop nitne 12 V 2 Ah",
-      "Mašine"
+      "Mašine",
+      "Pištolji za zakivanje",
+      "Pištolj za pop nitne",
+      "nitnarica",
+      "alat za nitovanje"
     ],
     "use": "Najam modela Milwaukee M12BPRT-201X akumulatorski pištolj za pop nitne 12 V 2 Ah. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Milwaukee M12BPRT-201X akumulatorski pištolj za pop nitne 12 V 2 Ah: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -12490,7 +12754,10 @@
     "term": "modela Scheppach MBS1200 Tračna testera za metal 1200 W",
     "aliases": [
       "Scheppach MBS1200 Tračna testera za metal 1200 W",
-      "Mašine"
+      "Mašine",
+      "Tračna testera za metal",
+      "trakasta testera za metal",
+      "sečenje metalnih profila"
     ],
     "use": "Najam modela Scheppach MBS1200 Tračna testera za metal 1200 W. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Scheppach MBS1200 Tračna testera za metal 1200 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -12640,7 +12907,8 @@
     "term": "modela Bihui mašina za rezanje pod uglom Jolly Edge 125 mm",
     "aliases": [
       "Bihui mašina za rezanje pod uglom Jolly Edge 125 mm",
-      "Mašine za sečenje pločica"
+      "Mašine za sečenje pločica",
+      "Mašina za obradu ivica pločica"
     ],
     "use": "Najam modela Bihui mašina za rezanje pod uglom Jolly Edge 125 mm. Alat za rad sa pločicama, cevima i materijalima za ugradnju. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bihui mašina za rezanje pod uglom Jolly Edge 125 mm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -12784,7 +13052,11 @@
     "term": "modela Magnum Mixmaster mešalica za beton 125l",
     "aliases": [
       "Magnum Mixmaster mešalica za beton 125l",
-      "Mešalice"
+      "Mešalice",
+      "Mešalice za beton",
+      "Mešalica za beton",
+      "betonska mešalica",
+      "mešalica za malter"
     ],
     "use": "Najam modela Magnum Mixmaster mešalica za beton 125l. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Magnum Mixmaster mešalica za beton 125l: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -13141,7 +13413,10 @@
     "term": "modela Einhell Picobella uređaj za čišćenje",
     "aliases": [
       "Einhell Picobella uređaj za čišćenje",
-      "Motorne mašine i alati"
+      "Motorne mašine i alati",
+      "Mašina za čišćenje behatona",
+      "čistač behatona",
+      "čišćenje popločanih staza"
     ],
     "use": "Najam modela Einhell Picobella uređaj za čišćenje. Oprema za čišćenje i održavanje površina. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Einhell Picobella uređaj za čišćenje: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -13327,7 +13602,11 @@
     "term": "modela Echo testera motorna CS-590/45",
     "aliases": [
       "Echo testera motorna CS-590/45",
-      "Motorne testere"
+      "Motorne testere",
+      "Motorna lančana testera",
+      "Lančana testera",
+      "motorna testera",
+      "testera za grane"
     ],
     "use": "Najam modela Echo testera motorna CS-590/45. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Echo testera motorna CS-590/45: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -13777,13 +14056,17 @@
     "selection": "Za model Stihl MS 230 benzinska motorna testera 2,7 ks, 40 cm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
   },
   "stihl-ms-260-benzinska-mororna-testera-3-5-ks-40cm-cr-33128": {
-    "term": "modela Stihl MS 260 benzinska mororna testera 3,5 ks, 40 cm",
+    "term": "modela Stihl MS 260 benzinska motorna testera 3,5 ks, 40 cm",
     "aliases": [
-      "Stihl MS 260 benzinska mororna testera 3,5 ks, 40 cm",
-      "Motorne testere"
+      "Stihl MS 260 benzinska motorna testera 3,5 ks, 40 cm",
+      "Motorne testere",
+      "Motorna lančana testera",
+      "Lančana testera",
+      "motorna testera",
+      "testera za grane"
     ],
-    "use": "Najam modela Stihl MS 260 benzinska mororna testera 3,5 ks, 40 cm. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
-    "selection": "Za model Stihl MS 260 benzinska mororna testera 3,5 ks, 40 cm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
+    "use": "Najam modela Stihl MS 260 benzinska motorna testera 3,5 ks, 40 cm. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
+    "selection": "Za model Stihl MS 260 benzinska motorna testera 3,5 ks, 40 cm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
   },
   "stihl-msa-60-c-b-aku-testera-set-sa-baterijom-i-punjacem-cr-32930": {
     "term": "modela Stihl MSA 60 C-B akumulatorska testera, set sa baterijom i punjačem",
@@ -13906,7 +14189,8 @@
     "term": "modela Magnum ručna muljača za grožđe 15l, 35X45CM",
     "aliases": [
       "Magnum ručna muljača za grožđe 15l, 35X45CM",
-      "Muljače i sečke za voće"
+      "Muljače i sečke za voće",
+      "Muljače i oprema za voće"
     ],
     "use": "Najam modela Magnum ručna muljača za grožđe 15l, 35X45CM. Sezonska oprema za preradu plodova i pretakanje tečnosti. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Magnum ručna muljača za grožđe 15l, 35X45CM: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -13951,7 +14235,11 @@
     "term": "modela Scheppach vibro nabijač VS1000",
     "aliases": [
       "Scheppach vibro nabijač VS1000",
-      "Ostala građevinska oprema"
+      "Ostala građevinska oprema",
+      "Vibro nabijači",
+      "Vibro žaba",
+      "vibro skakavac",
+      "nabijač zemlje"
     ],
     "use": "Najam modela Scheppach vibro nabijač VS1000. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Scheppach vibro nabijač VS1000: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -13960,7 +14248,11 @@
     "term": "modela Scheppach vibro ploča HP1800S",
     "aliases": [
       "Scheppach vibro ploča HP1800S",
-      "Ostala građevinska oprema"
+      "Ostala građevinska oprema",
+      "Vibro ploče",
+      "Vibro ploča",
+      "vibro ploča",
+      "mašina za sabijanje"
     ],
     "use": "Najam modela Scheppach vibro ploča HP1800S. Alat za rad sa pločicama, cevima i materijalima za ugradnju. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Scheppach vibro ploča HP1800S: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -13969,7 +14261,8 @@
     "term": "modela ABAC Pro pneumatski skidač rđe 19 iglica",
     "aliases": [
       "ABAC Pro pneumatski skidač rđe 19 iglica",
-      "Ostali pneumatski alat"
+      "Ostali pneumatski alat",
+      "Pneumatski skidač rđe"
     ],
     "use": "Najam modela ABAC Pro pneumatski skidač rđe 19 iglica. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model ABAC Pro pneumatski skidač rđe 19 iglica: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -13987,7 +14280,12 @@
     "term": "modela Makita AF506 pneumatski zabijač eksera u redeniku",
     "aliases": [
       "Makita AF506 pneumatski zabijač eksera u redeniku",
-      "Ostali pneumatski alat"
+      "Ostali pneumatski alat",
+      "Heftalice i pištolji za eksere",
+      "Pištolj za eksere",
+      "zabijač eksera",
+      "nailer",
+      "pištolj za gipsare"
     ],
     "use": "Najam modela Makita AF506 pneumatski zabijač eksera u redeniku. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita AF506 pneumatski zabijač eksera u redeniku: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -13996,7 +14294,9 @@
     "term": "modela Scheppach pneumatski pištolj za peskarenje",
     "aliases": [
       "Scheppach pneumatski pištolj za peskarenje",
-      "Ostali pneumatski alat"
+      "Ostali pneumatski alat",
+      "Peskara",
+      "Sandblasting unit"
     ],
     "use": "Najam modela Scheppach pneumatski pištolj za peskarenje. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Scheppach pneumatski pištolj za peskarenje: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14032,7 +14332,10 @@
     "term": "modela Workshopr ručni paletar 2 t",
     "aliases": [
       "Workshopr ručni paletar 2 t",
-      "Paletari"
+      "Paletari",
+      "Paletar",
+      "ručni paletar",
+      "paletna kolica"
     ],
     "use": "Najam modela Workshopr ručni paletar 2 t. Oprema za pristup visini, pozicioniranje ili transport tereta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Workshopr ručni paletar 2 t: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14104,7 +14407,10 @@
     "term": "modela Karcher SC 3 EasyFix paročistač",
     "aliases": [
       "Karcher SC 3 EasyFix paročistač",
-      "Paročistači"
+      "Paročistači",
+      "Paročistač",
+      "parni čistač",
+      "čišćenje parom"
     ],
     "use": "Najam modela Karcher SC 3 EasyFix paročistač. Oprema za čišćenje i održavanje površina. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Karcher SC 3 EasyFix paročistač: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14212,7 +14518,11 @@
     "term": "modela Karcher HD 4/10 X Plus Classic perač pod pritiskom, 145 bar, 400 l/h, 1800 W",
     "aliases": [
       "Karcher HD 4/10 X Plus Classic perač pod pritiskom, 145 bar, 400 l/h, 1800 W",
-      "Perači pod pritiskom"
+      "Perači pod pritiskom",
+      "Profesionalni perač pod pritiskom",
+      "Perač pod pritiskom",
+      "perač na vodu",
+      "pranje terasa"
     ],
     "use": "Najam modela Karcher HD 4/10 X Plus Classic perač pod pritiskom, 145 bar, 400 l/h, 1800 W. Oprema za čišćenje i održavanje površina. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Karcher HD 4/10 X Plus Classic perač pod pritiskom, 145 bar, 400 l/h, 1800 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14392,7 +14702,8 @@
     "term": "modela Scheppach benzinski visokopritisni perač HCP5000",
     "aliases": [
       "Scheppach benzinski visokopritisni perač HCP5000",
-      "Perači pod pritiskom"
+      "Perači pod pritiskom",
+      "Benzinski perač pod pritiskom"
     ],
     "use": "Najam modela Scheppach benzinski visokopritisni perač HCP5000. Oprema za čišćenje i održavanje površina. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Scheppach benzinski visokopritisni perač HCP5000: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14500,7 +14811,9 @@
     "term": "modela Bosch PFS5000E mašina za krečenje 1200 W",
     "aliases": [
       "Bosch PFS5000E mašina za krečenje 1200 W",
-      "Pištolji za farbanje"
+      "Pištolji za farbanje",
+      "Pištolj za farbanje kompresorom",
+      "Pneumatic paint spray gun"
     ],
     "use": "Najam modela Bosch PFS5000E mašina za krečenje 1200 W. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch PFS5000E mašina za krečenje 1200 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14509,7 +14822,9 @@
     "term": "modela Einhell EFPF 2005 pištolj za boju sa gornj. posudom",
     "aliases": [
       "Einhell EFPF 2005 pištolj za boju sa gornj. posudom",
-      "Pištolji za farbanje"
+      "Pištolji za farbanje",
+      "Pištolj za farbanje kompresorom",
+      "Pneumatic paint spray gun"
     ],
     "use": "Najam modela Einhell EFPF 2005 pištolj za boju sa gornj. posudom. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Einhell EFPF 2005 pištolj za boju sa gornj. posudom: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14563,7 +14878,11 @@
     "term": "modela Tesy plinska grejalica LD 168 D",
     "aliases": [
       "Tesy plinska grejalica LD 168 D",
-      "Plinske grejalice i peći unutrašnje"
+      "Plinske grejalice i peći unutrašnje",
+      "Plinsko grejanje",
+      "Plinski top",
+      "gasni grejač",
+      "top za grejanje"
     ],
     "use": "Najam modela Tesy plinska grejalica LD 168 D. Oprema za privremeno napajanje, vazduh, osvetljenje ili grejanje. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Tesy plinska grejalica LD 168 D: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14599,7 +14918,8 @@
     "term": "modela ABAC Pro pneumatska čeona brusilica Bijaks, 25,000 o/min",
     "aliases": [
       "ABAC Pro pneumatska čeona brusilica Bijaks, 25,000 o/min",
-      "Pneumatske brusilice"
+      "Pneumatske brusilice",
+      "Pneumatska brusilica"
     ],
     "use": "Najam modela ABAC Pro pneumatska čeona brusilica Bijaks, 25,000 o/min. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model ABAC Pro pneumatska čeona brusilica Bijaks, 25,000 o/min: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14617,7 +14937,8 @@
     "term": "modela ABAC PRO pneumatska bušilica 1 — 10 mm",
     "aliases": [
       "ABAC PRO pneumatska bušilica 1 — 10 mm",
-      "Pneumatske bušilice"
+      "Pneumatske bušilice",
+      "Pneumatska bušilica"
     ],
     "use": "Najam modela ABAC PRO pneumatska bušilica 1 — 10 mm. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model ABAC PRO pneumatska bušilica 1 — 10 mm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14704,7 +15025,8 @@
     "term": "modela Villager pneumatska heftalica VAT 8016 1/4”",
     "aliases": [
       "Villager pneumatska heftalica VAT 8016 1/4”",
-      "Pneumatske heftalice"
+      "Pneumatske heftalice",
+      "Pneumatska heftalica"
     ],
     "use": "Najam modela Villager pneumatska heftalica VAT 8016 1/4”. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Villager pneumatska heftalica VAT 8016 1/4”: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14713,7 +15035,8 @@
     "term": "modela ABAC PRO pneumatska rač­na 1/2\" 68 Nm",
     "aliases": [
       "ABAC PRO pneumatska rač­na 1/2\" 68 Nm",
-      "Pneumatske račne"
+      "Pneumatske račne",
+      "Pneumatska rač­na"
     ],
     "use": "Najam modela ABAC PRO pneumatska rač­na 1/2\" 68 Nm. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model ABAC PRO pneumatska rač­na 1/2\" 68 Nm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14794,7 +15117,8 @@
     "term": "modela ABAC Pro Mini pneumatski pištolj 1/2\", 440 Nm",
     "aliases": [
       "ABAC Pro Mini pneumatski pištolj 1/2\", 440 Nm",
-      "Pneumatski pištolji za izduvavanje"
+      "Pneumatski pištolji za izduvavanje",
+      "Pneumatski udarni ključ"
     ],
     "use": "Najam modela ABAC Pro Mini pneumatski pištolj 1/2\", 440 Nm. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model ABAC Pro Mini pneumatski pištolj 1/2\", 440 Nm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -14938,7 +15262,10 @@
     "term": "modela Wagner Control Pro 250 M mašina za krečenje",
     "aliases": [
       "Wagner Control Pro 250 M mašina za krečenje",
-      "Pribor za krečenje i farbanje"
+      "Pribor za krečenje i farbanje",
+      "Mašina za krečenje",
+      "mašina za farbanje",
+      "raspršivač boje"
     ],
     "use": "Najam modela Wagner Control Pro 250 M mašina za krečenje. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Wagner Control Pro 250 M mašina za krečenje: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -15284,7 +15611,8 @@
     "term": "modela Farm potapajuća pumpa sa plovkom za čistu vodu 400 W",
     "aliases": [
       "Farm potapajuća pumpa sa plovkom za čistu vodu 400 W",
-      "Pumpe za vodu"
+      "Pumpe za vodu",
+      "Potapajuća pumpa za čistu vodu"
     ],
     "use": "Najam modela Farm potapajuća pumpa sa plovkom za čistu vodu 400 W. Oprema za prebacivanje vode i kontrolu uslova u prostoru. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Farm potapajuća pumpa sa plovkom za čistu vodu 400 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -15455,7 +15783,8 @@
     "term": "modela Magnum potapajuća pumpa za čistu vodu 900 W 14000 l/h",
     "aliases": [
       "Magnum potapajuća pumpa za čistu vodu 900 W 14000 l/h",
-      "Pumpe za vodu"
+      "Pumpe za vodu",
+      "Potapajuća pumpa za čistu vodu"
     ],
     "use": "Najam modela Magnum potapajuća pumpa za čistu vodu 900 W 14000 l/h. Oprema za prebacivanje vode i kontrolu uslova u prostoru. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Magnum potapajuća pumpa za čistu vodu 900 W 14000 l/h: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -15527,7 +15856,8 @@
     "term": "modela Pedrollo CPm 132 površinska centrifugalna pumpa za vodu",
     "aliases": [
       "Pedrollo CPm 132 površinska centrifugalna pumpa za vodu",
-      "Pumpe za vodu"
+      "Pumpe za vodu",
+      "Površinska pumpa za vodu"
     ],
     "use": "Najam modela Pedrollo CPm 132 površinska centrifugalna pumpa za vodu. Oprema za prebacivanje vode i kontrolu uslova u prostoru. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Pedrollo CPm 132 površinska centrifugalna pumpa za vodu: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -15581,7 +15911,11 @@
     "term": "modela Pumpa za prljavu vodu potapajuća DM 10 Pedrollo",
     "aliases": [
       "Pumpa za prljavu vodu potapajuća DM 10 Pedrollo",
-      "Pumpe za vodu"
+      "Pumpe za vodu",
+      "Potapajuća pumpa za prljavu vodu",
+      "Muljna / potopna pumpa",
+      "muljna pumpa",
+      "pumpa za prljavu vodu"
     ],
     "use": "Najam modela Pumpa za prljavu vodu potapajuća DM 10 Pedrollo. Oprema za prebacivanje vode i kontrolu uslova u prostoru. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Pumpa za prljavu vodu potapajuća DM 10 Pedrollo: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -15599,7 +15933,10 @@
     "term": "modela Pumpa za vodu Honda WB20XT4DRX",
     "aliases": [
       "Pumpa za vodu Honda WB20XT4DRX",
-      "Pumpe za vodu"
+      "Pumpe za vodu",
+      "Benzinska pumpa za vodu",
+      "motorna pumpa",
+      "pumpa za navodnjavanje"
     ],
     "use": "Najam modela Pumpa za vodu Honda WB20XT4DRX. Oprema za prebacivanje vode i kontrolu uslova u prostoru. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Pumpa za vodu Honda WB20XT4DRX: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -15608,7 +15945,8 @@
     "term": "modela Pumpa za vodu potapajuća Top multi ii Pedrollo",
     "aliases": [
       "Pumpa za vodu potapajuća Top multi ii Pedrollo",
-      "Pumpe za vodu"
+      "Pumpe za vodu",
+      "Potapajuća pumpa za čistu vodu"
     ],
     "use": "Najam modela Pumpa za vodu potapajuća Top multi ii Pedrollo. Oprema za prebacivanje vode i kontrolu uslova u prostoru. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Pumpa za vodu potapajuća Top multi ii Pedrollo: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -15869,7 +16207,11 @@
     "term": "modela Ledvance portabl radni reflektor S-Stalak 20 W 4000K",
     "aliases": [
       "Ledvance portabl radni reflektor S-Stalak 20 W 4000K",
-      "Reflektori SMD i COB"
+      "Reflektori SMD i COB",
+      "Radni LED reflektor",
+      "LED reflektor",
+      "radni reflektor",
+      "osvetljenje gradilišta"
     ],
     "use": "Najam modela Ledvance portabl radni reflektor S-Stalak 20 W 4000K. Oprema za privremeno napajanje, vazduh, osvetljenje ili grejanje. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Ledvance portabl radni reflektor S-Stalak 20 W 4000K: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -15915,7 +16257,10 @@
     "term": "modela Krause Climtec skela osnovni paket 3m",
     "aliases": [
       "Krause Climtec skela osnovni paket 3m",
-      "Skele"
+      "Skele",
+      "Pokretna skela",
+      "aluminijumska skela",
+      "skela na točkovima"
     ],
     "use": "Najam modela Krause Climtec skela osnovni paket 3m. Oprema za pristup visini, pozicioniranje ili transport tereta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Krause Climtec skela osnovni paket 3m: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -16095,7 +16440,8 @@
     "term": "modela Bosch PBD 40 stubna bušilica 710 W 13 mm",
     "aliases": [
       "Bosch PBD 40 stubna bušilica 710 W 13 mm",
-      "Stubne bušilice"
+      "Stubne bušilice",
+      "Stubna bušilica"
     ],
     "use": "Najam modela Bosch PBD 40 stubna bušilica 710 W 13 mm. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch PBD 40 stubna bušilica 710 W 13 mm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -16159,7 +16505,11 @@
     "term": "modela Makita brusilica dvostrana stona GB602",
     "aliases": [
       "Makita brusilica dvostrana stona GB602",
-      "Tocila"
+      "Tocila",
+      "Tocilo i oštrač",
+      "Tocilo / oštrač",
+      "oštrač alata",
+      "stona brusilica"
     ],
     "use": "Najam modela Makita brusilica dvostrana stona GB602. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita brusilica dvostrana stona GB602: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -16195,7 +16545,8 @@
     "term": "modela Scheppach strug za drvo DM1100T",
     "aliases": [
       "Scheppach strug za drvo DM1100T",
-      "Tocila"
+      "Tocila",
+      "Strug za drvo"
     ],
     "use": "Najam modela Scheppach strug za drvo DM1100T. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Scheppach strug za drvo DM1100T: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -16222,7 +16573,11 @@
     "term": "modela Bosch GEX 125 - 1 AE ekscentar brusilica 250 W 115 mm",
     "aliases": [
       "Bosch GEX 125 - 1 AE ekscentar brusilica 250 W 115 mm",
-      "Tračne i vibracione brusilice"
+      "Tračne i vibracione brusilice",
+      "Ekscentrične brusilice",
+      "Ekscentrična brusilica",
+      "ekscentar brusilica",
+      "orbitalna brusilica"
     ],
     "use": "Najam modela Bosch GEX 125 - 1 AE ekscentar brusilica 250 W 115 mm. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch GEX 125 - 1 AE ekscentar brusilica 250 W 115 mm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -16303,7 +16658,11 @@
     "term": "modela DeWalt DWE315KT višenamenski alat renovator",
     "aliases": [
       "DeWalt DWE315KT višenamenski alat renovator",
-      "Tračne i vibracione brusilice"
+      "Tračne i vibracione brusilice",
+      "Višenamenski alati",
+      "Multifunkcionalni alat / renovator",
+      "renovator",
+      "oscilacioni alat"
     ],
     "use": "Najam modela DeWalt DWE315KT višenamenski alat renovator. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model DeWalt DWE315KT višenamenski alat renovator: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -16385,7 +16744,11 @@
     "term": "modela Makita 9237CB polirka 1200 W 180 mm",
     "aliases": [
       "Makita 9237CB polirka 1200 W 180 mm",
-      "Tračne i vibracione brusilice"
+      "Tračne i vibracione brusilice",
+      "Polirke",
+      "Mašina za poliranje",
+      "polirka",
+      "polir mašina"
     ],
     "use": "Najam modela Makita 9237CB polirka 1200 W 180 mm. Oprema za čišćenje i održavanje površina. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita 9237CB polirka 1200 W 180 mm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -16394,7 +16757,11 @@
     "term": "modela Makita 9910 tračna brusilica 650 W 457X76MM",
     "aliases": [
       "Makita 9910 tračna brusilica 650 W 457X76MM",
-      "Tračne i vibracione brusilice"
+      "Tračne i vibracione brusilice",
+      "Tračna brusilica",
+      "Trakasta brusilica",
+      "tračna brusilica",
+      "belt sander"
     ],
     "use": "Najam modela Makita 9910 tračna brusilica 650 W 457X76MM. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita 9910 tračna brusilica 650 W 457X76MM: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -16403,7 +16770,10 @@
     "term": "modela Makita BO3710 brusilica vibraciona 190 W 93X185MM",
     "aliases": [
       "Makita BO3710 brusilica vibraciona 190 W 93X185MM",
-      "Tračne i vibracione brusilice"
+      "Tračne i vibracione brusilice",
+      "Vibracione brusilice",
+      "Vibraciona brusilica",
+      "Orbital sheet sander"
     ],
     "use": "Najam modela Makita BO3710 brusilica vibraciona 190 W 93X185MM. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita BO3710 brusilica vibraciona 190 W 93X185MM: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -16421,7 +16791,11 @@
     "term": "modela Makita BO5041 ekscentrična brusilica 300 W 125 mm",
     "aliases": [
       "Makita BO5041 ekscentrična brusilica 300 W 125 mm",
-      "Tračne i vibracione brusilice"
+      "Tračne i vibracione brusilice",
+      "Ekscentrične brusilice",
+      "Ekscentrična brusilica",
+      "ekscentar brusilica",
+      "orbitalna brusilica"
     ],
     "use": "Najam modela Makita BO5041 ekscentrična brusilica 300 W 125 mm. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita BO5041 ekscentrična brusilica 300 W 125 mm: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -17209,7 +17583,11 @@
     "term": "modela Stihl FS 120 benzinski trimer 1,3 kW",
     "aliases": [
       "Stihl FS 120 benzinski trimer 1,3 kW",
-      "Trimeri"
+      "Trimeri",
+      "Trimeri za travu",
+      "Benzinski trimer za travu",
+      "motorni trimer",
+      "benzinski trimer"
     ],
     "use": "Najam modela Stihl FS 120 benzinski trimer 1,3 kW. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Stihl FS 120 benzinski trimer 1,3 kW: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -17326,7 +17704,11 @@
     "term": "modela Cagsan merdevine aluminijumske trodelne 3X10 pro",
     "aliases": [
       "Cagsan merdevine aluminijumske trodelne 3X10 pro",
-      "Trodelne merdevine"
+      "Trodelne merdevine",
+      "Višenamenske merdevine",
+      "Merdevine",
+      "trodelne merdevine",
+      "radne merdevine"
     ],
     "use": "Najam modela Cagsan merdevine aluminijumske trodelne 3X10 pro. Oprema za pristup visini, pozicioniranje ili transport tereta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Cagsan merdevine aluminijumske trodelne 3X10 pro: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -17488,7 +17870,11 @@
     "term": "modela Bosch univerzalna testera-recipro GSA 12-30 1250 W",
     "aliases": [
       "Bosch univerzalna testera-recipro GSA 12-30 1250 W",
-      "Ubodne testere"
+      "Ubodne testere",
+      "Sabljasta testera",
+      "Sabljasta testera / lisičarka",
+      "lisičarka",
+      "recipro testera"
     ],
     "use": "Najam modela Bosch univerzalna testera-recipro GSA 12-30 1250 W. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch univerzalna testera-recipro GSA 12-30 1250 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -17497,7 +17883,10 @@
     "term": "modela DeWalt Ubodna Testera DW331K 701 W",
     "aliases": [
       "DeWalt Ubodna Testera DW331K 701 W",
-      "Ubodne testere"
+      "Ubodne testere",
+      "Ubodna testera",
+      "testera za krivolinijsko sečenje",
+      "električna ubodna testera"
     ],
     "use": "Najam modela DeWalt Ubodna Testera DW331K 701 W. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model DeWalt Ubodna Testera DW331K 701 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -17569,7 +17958,8 @@
     "term": "modela Villager SSV 7050 RS električna modelarska testera 125 W",
     "aliases": [
       "Villager SSV 7050 RS električna modelarska testera 125 W",
-      "Ubodne testere"
+      "Ubodne testere",
+      "Modelarska testera"
     ],
     "use": "Najam modela Villager SSV 7050 RS električna modelarska testera 125 W. Alat za rezanje, obradu i pripremu materijala u radionici. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Villager SSV 7050 RS električna modelarska testera 125 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -17647,7 +18037,10 @@
       "Bosch GWS 14 125 S mala ugaona brusilica 125 mm 1400 W (06017D0100)",
       "Ugaone brusilice",
       "Fleks",
-      "Ugaona brusilica"
+      "Ugaona brusilica",
+      "Mala ugaona brusilica 125 mm",
+      "fleks",
+      "brusilica za metal"
     ],
     "use": "Najam modela Bosch GWS 14 125 S mala ugaona brusilica 125 mm 1400 W (06017D0100). Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch GWS 14 125 S mala ugaona brusilica 125 mm 1400 W (06017D0100): Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -18019,7 +18412,8 @@
       "Makita GA9020 velika ugaona brusilica 230 mm 2200 W",
       "Ugaone brusilice",
       "Fleks",
-      "Ugaona brusilica"
+      "Ugaona brusilica",
+      "Velika ugaona brusilica 230 mm"
     ],
     "use": "Najam modela Makita GA9020 velika ugaona brusilica 230 mm 2200 W. Oprema za obradu materijala, spajanje i radioničke poslove. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita GA9020 velika ugaona brusilica 230 mm 2200 W: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -18211,7 +18605,12 @@
     "term": "modela Bosch Professional GMC 600-15 amper klešta unimer 600 A",
     "aliases": [
       "Bosch Professional GMC 600-15 amper klešta unimer 600 A",
-      "Unimeri"
+      "Unimeri",
+      "Digitalni multimetar",
+      "Digital multimeter",
+      "Multimetar i strujna klešta",
+      "Strujna klešta",
+      "Clamp meter"
     ],
     "use": "Najam modela Bosch Professional GMC 600-15 amper klešta unimer 600 A. Instrument za merenje ili proveru uslova tokom radova. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch Professional GMC 600-15 amper klešta unimer 600 A: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -18220,7 +18619,8 @@
     "term": "modela Bosch Professional GVT 1000-15 tester napona 1000 V",
     "aliases": [
       "Bosch Professional GVT 1000-15 tester napona 1000 V",
-      "Unimeri"
+      "Unimeri",
+      "Tester napona"
     ],
     "use": "Najam modela Bosch Professional GVT 1000-15 tester napona 1000 V. Instrument za merenje ili proveru uslova tokom radova. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Bosch Professional GVT 1000-15 tester napona 1000 V: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -18259,7 +18659,11 @@
     "aliases": [
       "Echo duvač lišća motorni PB-770EUK5",
       "Usisivači i duvači lišća",
-      "duvač lišća"
+      "duvač lišća",
+      "Duvač lišća",
+      "Duvač / usisivač lišća",
+      "usisivač lišća",
+      "duvač za dvorište"
     ],
     "use": "Najam modela Echo duvač lišća motorni PB-770EUK5. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Echo duvač lišća motorni PB-770EUK5: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -18585,7 +18989,11 @@
     "aliases": [
       "Stihl duvač BR 550",
       "Usisivači i duvači lišća",
-      "duvač lišća"
+      "duvač lišća",
+      "Duvač lišća",
+      "Duvač / usisivač lišća",
+      "usisivač lišća",
+      "duvač za dvorište"
     ],
     "use": "Najam modela Stihl duvač BR 550. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Stihl duvač BR 550: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -18715,7 +19123,11 @@
     "term": "modela Makita usisivač VC2512L",
     "aliases": [
       "Makita usisivač VC2512L",
-      "Usisivači i pribor"
+      "Usisivači i pribor",
+      "Usisivači",
+      "Industrijski usisivač",
+      "građevinski usisivač",
+      "usisivač za prašinu"
     ],
     "use": "Najam modela Makita usisivač VC2512L. Oprema za čišćenje i održavanje površina. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Makita usisivač VC2512L: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -18742,7 +19154,11 @@
     "term": "modela Mašina za dubinsko pranje Puzzi 8/1",
     "aliases": [
       "Mašina za dubinsko pranje Puzzi 8/1",
-      "Usisivači i pribor"
+      "Usisivači i pribor",
+      "Mašine za dubinsko pranje",
+      "Mašina za dubinsko pranje",
+      "mašina za pranje nameštaja",
+      "ekstraktor za pranje tepiha"
     ],
     "use": "Najam modela Mašina za dubinsko pranje Puzzi 8/1. Oprema za čišćenje i održavanje površina. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Mašina za dubinsko pranje Puzzi 8/1: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
@@ -18886,7 +19302,11 @@
     "term": "modela Einhell GC-SA 1231/1 električni prozračivač trave",
     "aliases": [
       "Einhell GC-SA 1231/1 električni prozračivač trave",
-      "Vertikulatori"
+      "Vertikulatori",
+      "Aeratori i vertikulatori",
+      "Prozračivač travnjaka",
+      "vertikuler",
+      "provetrivač travnjaka"
     ],
     "use": "Najam modela Einhell GC-SA 1231/1 električni prozračivač trave. Oprema za sezonsko održavanje travnjaka, rastinja i dvorišta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
     "selection": "Za model Einhell GC-SA 1231/1 električni prozračivač trave: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."

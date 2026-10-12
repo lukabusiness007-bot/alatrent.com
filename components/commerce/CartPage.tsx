@@ -16,6 +16,8 @@ import { rt } from '@/lib/commerce/referral-copy';
 import RentalPeriod, { type RentalPeriodValue } from '../RentalPeriod';
 import { periodReady } from '@/lib/commerce/period';
 import { membershipText } from '@/lib/commerce/membership-copy';
+import type { RetiredTool } from '@/lib/catalog-reduction';
+import { replacementCopy } from '@/lib/commerce/catalog-reduction-copy';
 import { ShoppingBag, Trash2, ArrowRight, Bookmark } from 'lucide-react';
 export async function commerce(action: string, body: unknown) {
   const r = await fetch('/api/commerce/' + action, {
@@ -34,6 +36,7 @@ export default function CartPage({
   creditLimit,
   recommendationsEnabled,
   referralProgram,
+  retiredTools = [],
 }: {
   locale: Locale;
   data: PublicData;
@@ -41,6 +44,7 @@ export default function CartPage({
   creditLimit: number;
   recommendationsEnabled: boolean;
   referralProgram: ReferralProgram;
+  retiredTools?: RetiredTool[];
 }) {
   const { items, setItems, ready } = useCart(),
     t = copy[locale];
@@ -74,6 +78,7 @@ export default function CartPage({
   const liveItems = useRef(items);
   liveItems.current = items;
   const hasOpenRental = items.some(i => i.openEnded);
+  const obsoleteItems = items.some(i => !data.tools.some(t=>t.id===i.toolId));
   const fingerprint = JSON.stringify({ items, delivery, useCredit, teamId, referralCode });
   const [quotedFingerprint, setQuotedFingerprint] = useState('');
   useEffect(() => {
@@ -101,7 +106,7 @@ export default function CartPage({
     key.current = crypto.randomUUID();
     setQuote(null);
     setError('');
-    if (!ready || !items.length) {
+    if (!ready || !items.length || obsoleteItems) {
       setLoading(false);
       return;
     }
@@ -239,6 +244,9 @@ export default function CartPage({
             <div className="cart-items">
               {items.map((item, index) => {
                 const tool = data.tools.find((t) => t.id === item.toolId);
+                const retired = retiredTools.find(t=>t.id===item.toolId);
+                const replacement = retired?.replacementId ? data.tools.find(t=>t.id===retired.replacementId) : undefined;
+                const rc = replacementCopy[locale];
                 const line = quote?.items.find(
                   (l) => l.toolId === item.toolId && l.start === item.start && l.end === item.end && !!l.openEnded === !!item.openEnded,
                 );
@@ -248,7 +256,7 @@ export default function CartPage({
                       <div className="cart-art">
                         <ToolArt
                           image={tool?.image || ''}
-                          name={tool?.name[locale] || item.toolId}
+                          name={tool?.name[locale] || retired?.name[locale] || item.toolId}
                         />
                       </div>
                       <div>
@@ -256,7 +264,7 @@ export default function CartPage({
                           {tool ? (
                             <Link href={`/${locale}/alat/${tool.slug}`}>{tool.name[locale]}</Link>
                           ) : (
-                            item.toolId
+                            retired?.name[locale] || item.toolId
                           )}
                         </h3>
                         <strong>
@@ -276,6 +284,13 @@ export default function CartPage({
                         <Trash2 size={18} />
                       </button>
                     </div>
+                    {!tool && <div role="status" className="catalog-replacement">
+                      <p>{rc.retired}</p>
+                      {replacement ? <><p>{rc.replacement} <Link href={`/${locale}/alat/${replacement.slug}`}>{replacement.name[locale]}</Link></p>
+                        <strong>{replacement.price===null?t.inquiryPrice:money(replacement.price,locale)+' '+t.perDay}</strong><p>{rc.price}</p>
+                        <button type="button" className="button button-lime" onClick={()=>update(index,{toolId:replacement.id})}>{rc.accept}</button></>
+                        :<p>{rc.removed}</p>}
+                    </div>}
                     {tool?.quantity===null && <p className="small-muted">{mt(locale,'confirmation')}</p>}
                     <RentalPeriod value={item} onChange={next => update(index, next)} locale={locale} today={today} />
                     <div className="cart-item-fields">

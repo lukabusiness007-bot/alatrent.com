@@ -1,0 +1,38 @@
+{
+  "models": {
+    "crafter-936": {
+      "url": "https://www.bosch-professional.com/pl/pl/products/gws-14-125-s-06017D0100",
+      "note": "Bosch Professional GWS 14-125 S, 230 V, 125 mm. Lokalna ponuda potvrđuje dršku, štitnik, prirubnicu i ključ."
+    },
+    "crafter-31501": {
+      "url": "https://www.kaercher.com/au/professional/high-pressure-cleaners/cold-water-high-pressure-cleaners/compact-class/hd-4-10-x-plus-classic-15209290.html",
+      "note": "Profesionalna Compact serija, indukcioni motor; maksimalni pritisak u naslovu dobavljača razlikuje se od radnog pritiska."
+    },
+    "crafter-839": {
+      "url": "https://www.makita.co.nz/library/productsheets/all/20",
+      "note": "HM1812 je električni čekić za rušenje, 2000 W, 31,3 kg, 72,8 J. Pogrešan naziv pneumatskog čekića kod dobavljača je ispravljen."
+    },
+    "crafter-622": {
+      "url": "https://makitauae.com/wp-content/uploads/2022/06/TW0350_EN.pdf",
+      "note": "TW0350 koristi četvrtasti prihvat 12,7 mm i maksimalni moment zatezanja 350 Nm. U opisu dobavljača navedeni su protivrečni podaci; oni nisu prepisani u ponudu."
+    },
+    "crafter-21755": {
+      "url": "https://www.pedrollo.com/wp-content/uploads/2024/04/TOP-MULTI_EN_50Hz.pdf",
+      "note": "TOP MULTI je za čistu vodu, sa kablom i plovkom. Dobavljačev opis prljave vode protivreči dokumentaciji proizvođača; uređaj je grupisan za čistu vodu. Pre nabavke potvrditi lokalnu oznaku TOP MULTI II / 2."
+    },
+    "crafter-35684": {
+      "url": "https://www.echo-tools.co.uk/products/blower-pb-770",
+      "note": "Profesionalni leđni duvač za intenzivan rad, motor 63,3 cm³. Dostupnost lokalne izvedbe PB-770EUK5 je na upit; ne prepisujemo nepouzdanu masu iz opisa dobavljača."
+    },
+    "crafter-35687": {
+      "url": "https://www.echo-usa.com/technical-documentation?category=Chainsaws&filter_model=CS-590",
+      "note": "Serija CS-590 koristi motor 59,8 cm³ i konstrukciju za zahtevne poslove. Lokalna ponuda navodi mač 45 cm; snaga iz dobavljačevog opisa nije prepisana zbog protivrečnih podataka."
+    }
+  },
+  "service": {
+    "Bosch": "https://www.bosch-professional.com/rs/sr/usluga/postprodajni-servis/faq/",
+    "Makita": "https://www.makita.rs/dealer-locator.html",
+    "STIHL": "https://www.stihl.rs/sr/prodavci",
+    "ECHO": "https://echo-srbija.rs/rezervni-delovi/"
+  }
+}

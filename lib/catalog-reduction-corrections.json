@@ -1,0 +1,38 @@
+[
+  {
+    "id": "crafter-839",
+    "before": {
+      "en": "Makita HM1812 pneumatic hammer za rušenje",
+      "ru": "Makita HM1812 пневматический молоток za rušenje",
+      "sr": "Makita HM1812 pneumatski čekić za rušenje",
+      "tr": "Makita HM1812 pnömatik çekiç za rušenje",
+      "zh": "Makita HM1812 气动 锤 za rušenje"
+    },
+    "after": {
+      "sr": "Makita HM1812 teški električni čekić za rušenje",
+      "en": "Makita HM1812 heavy electric demolition breaker",
+      "ru": "Makita HM1812 тяжёлый электрический отбойный молоток",
+      "tr": "Makita HM1812 ağır elektrikli kırıcı",
+      "zh": "Makita HM1812 重型电动破碎锤"
+    },
+    "reason": "Proverena namena u tehničkoj dokumentaciji i ispravka slovne greške."
+  },
+  {
+    "id": "crafter-33128",
+    "before": {
+      "en": "Stihl MS 260 petrol mororna saw 3,5 ks, 40 cm",
+      "ru": "Stihl MS 260 бензиновая mororna пила 3,5 ks, 40 cm",
+      "sr": "Stihl MS 260 benzinska mororna testera 3,5 ks, 40 cm",
+      "tr": "Stihl MS 260 benzinli mororna testere 3,5 ks, 40 cm",
+      "zh": "Stihl MS 260 汽油 mororna 锯 3,5 ks, 40 cm"
+    },
+    "after": {
+      "sr": "Stihl MS 260 benzinska motorna testera 3,5 ks, 40 cm",
+      "en": "Stihl MS 260 petrol motorna saw 3,5 ks, 40 cm",
+      "ru": "Stihl MS 260 бензиновая motorna пила 3,5 ks, 40 cm",
+      "tr": "Stihl MS 260 benzinli motorna testere 3,5 ks, 40 cm",
+      "zh": "Stihl MS 260 汽油 motorna 锯 3,5 ks, 40 cm"
+    },
+    "reason": "Proverena namena u tehničkoj dokumentaciji i ispravka slovne greške."
+  }
+]

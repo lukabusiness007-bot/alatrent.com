@@ -7,6 +7,8 @@ import catalogExpansion from './catalog-expansion.json';
 import catalogSourcesImport from './catalog-sources-import.json';
 import catalogCrafterImport from './catalog-crafter-import.json';
 import catalogNameCleanup from './catalog-name-cleanup.json';
+import catalogReduction from './catalog-reduction.json';
+import { applyCatalogReduction } from './catalog-reduction-apply.mjs';
 import { equipmentType } from './equipment-type';
 import { normalizedEquipmentName } from './equipment-type';
 import { randomBytes, scryptSync } from 'node:crypto';
@@ -131,7 +133,7 @@ function initializeDatabase() {
       const cfg = get<Record<string, unknown>>('commerce', 'config');
       if (cfg) put('commerce', 'config', { ...cfg, clubThreshold: 3, clubPercent: 5 });
       for (const tool of all<Tool>('tools')) {
-        if (tool.deposit === 0) put('tools', tool.id, { ...tool, deposit: null });
+        if (tool.deposit === 0) put('tools', tool.id, { ...tool, deposit: null, published: tool.published && catalogReduction.entries.some(e=>e.id===tool.id&&e.action==='keep') });
       }
       put('meta', 'club-deposit-policy-v1', true);
     });
@@ -150,7 +152,7 @@ function initializeDatabase() {
             const category = seed.categories.find(category => category.id === tool.categoryId);
             if (category) put('categories', category.id, category);
           }
-          put('tools', tool.id, { ...tool, deposit: null });
+          put('tools', tool.id, { ...tool, deposit: null, published: tool.published && catalogReduction.entries.some(e=>e.id===tool.id&&e.action==='keep') });
           knownTypes.add(type);
         }
         put('meta', importedCatalog.migration, true);
@@ -171,7 +173,7 @@ function initializeDatabase() {
       if (get('tools', imported.id) || slugs.has(imported.slug)
         || names.has(normalizedEquipmentName(imported.name.sr)) || models.has(imported.catalogModel.productId)) continue;
       const tool = imported as Tool;
-      put('tools', tool.id, tool);
+      put('tools', tool.id, { ...tool, published: tool.published && catalogReduction.entries.some(e=>e.id===tool.id&&e.action==='keep') });
       slugs.add(tool.slug); models.add(tool.catalogModel!.productId);
     }
     put('meta', catalogCrafterImport.migration, true);
@@ -222,6 +224,7 @@ function initializeDatabase() {
     if (!get('commerce','merchandising')) put('commerce','merchandising',{recommendationsEnabled:false,promotionsEnabled:false});
     put('meta','commerce-merchandising-v1',true);
   });
+  applyCatalogReduction(db, catalogReduction);
   if (catalogOnly) db.exec('PRAGMA query_only=ON');
 }
 
@@ -290,7 +293,7 @@ const initializationCompletion = {
     'photos-prices-no-deposit-v1', 'club-deposit-policy-v1',
     catalogImport.migration, catalogExpansion.migration, catalogSourcesImport.migration,
     catalogCrafterImport.migration, catalogNameCleanup.migration,
-    'suggested-import-prices-v1', 'commerce-kits-v1', 'commerce-kits-v2', 'commerce-merchandising-v1'],
+    'suggested-import-prices-v1', 'commerce-kits-v1', 'commerce-kits-v2', 'commerce-merchandising-v1', catalogReduction.migration],
   requireAuth: !catalogOnly && !!process.env.ADMIN_PASSWORD,
 };
 

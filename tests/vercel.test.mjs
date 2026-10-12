@@ -76,7 +76,7 @@ test('Vercel still calculates prices without saving data', async () => {
   const response = await fetch(base + '/api/commerce/quote', {
     method: 'POST',
     headers: { Origin: base, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ items: [{ toolId: 'tool-001', start, end: start, quantity: 1 }], delivery: 'pickup' }),
+    body: JSON.stringify({ items: [{ toolId: 'crafter-31501', start, end: start, quantity: 1 }], delivery: 'pickup' }),
   });
   assert.equal(response.status, 200, await response.text());
 });

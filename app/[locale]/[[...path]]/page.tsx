@@ -12,6 +12,7 @@ import { config, member, options } from '@/lib/commerce/data';
 import { hashToken } from '@/lib/auth';
 import { currentCustomer } from '@/lib/commerce/auth';
 import { catalogOnly } from '@/lib/storage';
+import { retiredTools } from '@/lib/catalog-reduction';
 import ClubPopup from '@/components/commerce/ClubPopup';
 import { publicOrder } from '@/lib/commerce/orders';
 import type { Bundle, Order } from '@/lib/commerce/types';
@@ -85,7 +86,7 @@ async function dbPage({ params, searchParams }: Props) {
   const q = await searchParams;
   if (path.length > 2) notFound();
   const cfg = config();
-  if (path.length === 1 && key === 'korpa') return <CartPage locale={locale} data={data} today={today()} referralProgram={{...cfg.referralProgram,memberIds:[]}} creditLimit={cfg.creditLimitPercent} recommendationsEnabled={merchandisingConfig().recommendationsEnabled} />;
+  if (path.length === 1 && key === 'korpa') return <CartPage locale={locale} data={data} retiredTools={retiredTools(all('tools'))} today={today()} referralProgram={{...cfg.referralProgram,memberIds:[]}} creditLimit={cfg.creditLimitPercent} recommendationsEnabled={merchandisingConfig().recommendationsEnabled} />;
   if (path.length === 1 && key === 'klub') return <Club locale={locale} threshold={cfg.clubThreshold} percent={cfg.clubPercent} referralProgram={{...cfg.referralProgram,memberIds:[]}} />;
   if (path.length === 1 && key === 'nalog') return <Account key={q.mode === 'register' ? 'register' : 'login'} initialMode={q.mode === 'register' ? 'register' : 'login'} claimToken={typeof q.claim === 'string' && q.claim.length === 64 ? q.claim : undefined} locale={locale} reviewUrl={cfg.reviewUrl} />;
   if (path.length === 1 && key === 'paketi' && !showProjectKits) notFound();

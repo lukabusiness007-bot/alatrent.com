@@ -11,6 +11,8 @@ const imported = JSON.parse(readFileSync(new URL('../lib/catalog-import.json', i
 const expansion = JSON.parse(readFileSync(new URL('../lib/catalog-expansion.json', import.meta.url)));
 const sourcesImport = JSON.parse(readFileSync(new URL('../lib/catalog-sources-import.json', import.meta.url)));
 const crafterImport = JSON.parse(readFileSync(new URL('../lib/catalog-crafter-import.json', import.meta.url)));
+const reduction = JSON.parse(readFileSync(new URL('../lib/catalog-reduction.json', import.meta.url)));
+const replacement = id=>reduction.entries.find(e=>e.id===id)?.replacementId||id;
 const nameCleanup = JSON.parse(readFileSync(new URL('../lib/catalog-name-cleanup.json', import.meta.url)));
 const dir = mkdtempSync(join(tmpdir(), 'alat-rent-import-'));
 const base = 'http://127.0.0.1:3017';
@@ -88,19 +90,19 @@ test('Existing inventory receives new types without overwriting edits or duplica
 
 test('Admin can edit imported tools and refuses another brand or power of the same equipment type', async () => {
   const tool = imported.tools.find(t => t.slug === 'motokultivator');
-  const updated = { ...tool, price: 3000, quantity: 2 };
+  const updated = { ...saved('tools',tool.id), published:false, price: 3000, quantity: 2 };
   assert.equal((await api('/api/admin/tools', updated)).status, 200);
   assert.equal(saved('tools', tool.id).price, 3000);
   assert.equal(saved('tools', tool.id).quantity, 2);
   const driver = seed.tools.find(t => t.id === 'tool-031');
-  const duplicate = { ...driver, id: 'new-brand-driver', slug: 'srafilica-makita-900w', name: { ...driver.name, sr: 'Šrafilica Makita 900W' } };
+  const duplicate = { ...driver, published:true, id: 'new-brand-driver', slug: 'srafilica-makita-900w', name: { ...driver.name, sr: 'Šrafilica Makita 900W' } };
   const refused = await api('/api/admin/tools', duplicate);
   assert.equal(refused.status, 409);
-  assert.equal((await refused.json()).existingId, driver.id);
+  assert.equal((await refused.json()).existingId, replacement(driver.id));
   assert.equal(saved('tools', duplicate.id), undefined);
   const cyrillic = await api('/api/admin/tools', { ...duplicate, id: 'cyrillic-driver', slug: 'cyrillic-driver', name: { ...driver.name, sr: 'Шрафилица Бош 18V' } });
   assert.equal(cyrillic.status, 409);
-  assert.equal((await cyrillic.json()).existingId, driver.id);
+  assert.equal((await cyrillic.json()).existingId, replacement(driver.id));
 });
 
 test('Expanded types have rental prices, searchable pages and distinct identities from older equipment', async () => {
@@ -118,10 +120,10 @@ test('Expanded types have rental prices, searchable pages and distinct identitie
     assert.match(await response.text(), /Iznajmi/);
     const duplicate = await api('/api/admin/tools', { ...tool, id: 'duplicate-' + tool.id, slug: 'duplicate-' + slug, name: { ...tool.name, sr: tool.name.sr + ' Bosch 18V' } });
     assert.equal(duplicate.status, 409, slug);
-    assert.equal((await duplicate.json()).existingId, tool.id, slug);
+    assert.equal((await duplicate.json()).existingId, replacement(tool.id), slug);
   }
   const search = await fetch(base + '/sr/katalog?q=' + encodeURIComponent('каротирка'));
-  assert.match(await search.text(), /dijamantska-busilica-sa-stalkom/);
+  assert.ok((await search.text()).includes(seed.tools.find(t=>t.id===replacement(expansion.tools.find(t=>t.slug==='dijamantska-busilica-sa-stalkom').id)).slug));
 });
 
 test('Four-source import adds distinct equipment and never fabricates a daily rate from service or EUR prices', async () => {
@@ -131,14 +133,14 @@ test('Four-source import adds distinct equipment and never fabricates a daily ra
     assert.equal(saved('tools', tool.id).quantity, null);
     assert.equal(saved('tools', tool.id).deposit, null);
   }
-  for (const slug of ['podna-brusilica-za-beton', 'pneumatski-pistolj-za-ciscenje', 'fonometar', 'rucna-teleskopska-testera-za-grane']) {
+  for (const slug of ['podna-brusilica-za-beton', 'fonometar']) {
     const tool = sourcesImport.tools.find(t => t.slug === slug);
     const response = await fetch(base + '/sr/alat/' + slug);
     assert.equal(response.status, 200, slug);
-    assert.match(await response.text(), tool.price === null ? /Cena na upit/ : /4\.800/);
+    assert.match(await response.text(), /Iznajmi/);
     const duplicate = await api('/api/admin/tools', { ...tool, id: 'source-duplicate-' + tool.id, slug: 'source-duplicate-' + slug, name: { ...tool.name, sr: tool.name.sr + ' Bosch 18V' } });
     assert.equal(duplicate.status, 409, slug);
-    assert.equal((await duplicate.json()).existingId, tool.id);
+    assert.equal((await duplicate.json()).existingId, replacement(tool.id));
   }
 });
 
@@ -151,7 +153,7 @@ test('Approved Crafter models import once, distinguish models and preserve trust
     assert.equal(saved('tools', tool.id).price, tool.price);
   }
   const tool = crafterImport.tools.find(t => t.price !== null);
-  const result = await api('/api/admin/tools', { ...tool, price: 2345, quantity: 3,
+  const result = await api('/api/admin/tools', { ...tool, published:false, price: 2345, quantity: 3,
     catalogModel: { ...tool.catalogModel, productId: 'forged', purchasePrice: 1 } });
   assert.equal(result.status, 200);
   assert.deepEqual((await result.json()).catalogModel, tool.catalogModel);

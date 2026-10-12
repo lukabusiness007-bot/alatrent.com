@@ -1,4 +1,5 @@
 import { all, get, put, occupied, settings } from '../db';
+import { reductionEntry } from '../catalog-reduction';
 import { date, rentalDays, today, text } from '../validation';
 import type { Tool, Category, RentalRequest } from '../types';
 import type {
@@ -95,14 +96,15 @@ export function cartItems(input: unknown): CartItem[] {
   if (items.some((i) => i.quantity > 100)) throw new Error('Najviše 100 komada po stavci.');
   return items;
 }
-export function checkCapacity(items: CartItem[], exceptId = '', requireKnown = false) {
+export function checkCapacity(items: CartItem[], exceptId = '', requireKnown = false, allowRetired = false) {
   const reserved = [
     ...all<RentalRequest>('requests').filter(r => r.status === 'confirmed' && r.id !== exceptId),
     ...all<Order>('orders').filter(o => o.id !== exceptId && ['confirmed', 'active'].includes(o.status)).flatMap(o => o.items),
   ];
   for (const item of items) {
     const tool = get<Tool>('tools', item.toolId);
-    if (!tool || !tool.published || !get<Category>('categories', tool.categoryId)?.published)
+    const archived = allowRetired && reductionEntry(item.toolId)?.action !== 'keep' && !!reductionEntry(item.toolId);
+    if (!tool || (!tool.published && !archived) || !get<Category>('categories', tool.categoryId)?.published)
       throw new Error('Alat više nije u ponudi.');
     if (requireKnown && tool.quantity === null)
       throw new Error('Unesi raspoloživu količinu za sve alate.');

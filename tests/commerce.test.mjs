@@ -80,7 +80,7 @@ let toolA,
   order,
   token,
   referrer;
-const future = (n) => new Date(Date.now() + n * 86400000).toISOString().slice(0, 10);
+const future = n => { const at=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Belgrade'}).format(new Date()); return new Date(Date.parse(at+'T12:00:00Z')+n*86400000).toISOString().slice(0,10); };
 const translations = (s) => ({ sr: s, en: s, ru: s, tr: s, zh: s });
 async function client(action, body, session = customerCookie, method = 'POST') {
   const response = await fetch(base + '/api/commerce/' + action, {

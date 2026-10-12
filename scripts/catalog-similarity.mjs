@@ -1,5 +1,6 @@
-import fs from 'node:fs';
-export const normalize=value=>value.toLowerCase().replace(/đ/g,'dj').normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+import types from '../lib/equipment-types.json' with { type: 'json' };
+const cyrillic=Object.fromEntries([...'абвгдђежзијклљмнњопрстћуфхцчџш'].map((letter,i)=>[letter,['a','b','v','g','d','dj','e','z','z','i','j','k','l','lj','m','n','nj','o','p','r','s','t','c','u','f','h','c','c','dz','s'][i]]));
+export const normalize=value=>value.toLowerCase().replace(/[а-яђјљњћџ]/g,letter=>cyrillic[letter]||letter).replace(/đ/g,'dj').normalize('NFD').replace(/[\u0300-\u036f]/g,'');
 const definitions=[
  ['mobilni-peraci','Mobilni akumulatorski perači','mobiln.*perac|\boc 3\b','Pritisak, način dopune vode, baterija i prenosivost.'],
  ['peraci-stakla','Perači i usisivači za stakla','glassvac|perac.*stakl','Namena za staklo, širina usisavanja, baterija i komplet.'],
@@ -101,7 +102,7 @@ const definitions=[
  ['kazani','Kazani','kazan','Zapremina, grejanje i sadržaj kompleta.'],
  ['muljace','Muljače i oprema za voće','muljac|seck.*voc','Kapacitet, odvajanje peteljke i napajanje.'],
 ];
-const types=JSON.parse(fs.readFileSync(new URL('../lib/equipment-types.json',import.meta.url),'utf8'));
+
 const genericCategories=new Set(['Mašine','Akumulatorski alat ostalo','Motorne mašine i alati','Auto alat ostalo','Ostala građevinska oprema','Pribor za pneumatske mašine','Merdevine i skele']);
 
 /** Groups are comparison families, never a deletion or product-identity key. */
@@ -118,7 +119,7 @@ export function catalogFamily(tool,sourceCategory='') {
   if(id==='pneumatske-busilice'&&/akumul|elektro.?pneumat|gbh|sds/.test(n))continue;
   if(id==='busilice-cekici'&&/(?:stem|rusenj|gsh)/.test(n)&&!/(?:busil|busenje)/.test(n))continue;
   if(id==='laser'&&/daljinomer/.test(n))continue;
-  if(new RegExp(pattern).test(n))return {id,name,criteria};
+  if(new RegExp(pattern.replace(/\u0008/g,'\\b')).test(n))return {id,name,criteria};
  }
  const hinted={'Perači pod pritiskom':'peraci-pritisak','Kosilice':'kosilice','Trimeri':'trimeri','Motorne testere':'lancane-testere','Pumpe za vodu':'pumpe-voda','Aparati za REL elektrolučno zavarivanje':'rel-varenje','Aparati za WIG TIG zavarivanje':'tig-varenje','Aparati za MIG MAG zavarivanje':'mig-varenje'}[sourceCategory];
  if(hinted){const [id,name,,criteria]=definitions.find(d=>d[0]===hinted);return {id,name,criteria};}

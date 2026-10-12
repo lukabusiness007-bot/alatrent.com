@@ -1,10 +1,11 @@
 import catalog from './seo-catalog.json';
 import seed from './seed.json';
 import nameCleanup from './catalog-name-cleanup.json';
+import catalogReduction from './catalog-reduction.json';
 import { copy, money } from './i18n';
 import type { Category, Locale, Tool } from './types';
 
-export const SEO_CONTENT_UPDATED_AT = nameCleanup.createdAt;
+export const SEO_CONTENT_UPDATED_AT = catalogReduction.createdAt > nameCleanup.createdAt ? catalogReduction.createdAt : nameCleanup.createdAt;
 const seedBySlug = new Map(seed.tools.map(tool => [tool.slug, tool]));
 
 type ToolContent = { term: string; aliases: string[]; use: string; selection: string };

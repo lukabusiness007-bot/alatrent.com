@@ -150,3 +150,6 @@ write('lib/catalog-source-offers.json',{**offers,'offers':base_offers+new_offers
 write('research/crafter-2026-10-12/import-summary.json',{'approved':len(models),'excludedFromImport':len(source)-len(models),'totalSeedTools':len(seed['tools']),'categories':dict(Counter(x['categoryId'] for x in models)),'priced':sum(x['price'] is not None for x in models),'inquiry':sum(x['price'] is None for x in models),'images':sum(bool(x['image']) for x in models),'priceBasis':'Redovna prodajna cena kompletnog modela; solo modeli na upit. Prvih 15.000 / 15, sledećih 45.000 / 30, ostatak / 60; minimum 500, zaokruživanje na 100 RSD.','createdAt':created})
 print(json.dumps(read('research/crafter-2026-10-12/import-summary.json'),ensure_ascii=False,indent=2))
 subprocess.run(['node','scripts/prepare-catalog-presentation.mjs'],cwd=ROOT,check=True)
+
+if (ROOT/'lib/catalog-reduction.json').exists():
+ subprocess.run(['node','scripts/prepare-catalog-reduction.mjs'],cwd=ROOT,check=True)

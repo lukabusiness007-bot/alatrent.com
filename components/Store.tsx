@@ -319,7 +319,7 @@ export function Home({ locale, data }: { locale: Locale; data: PublicData }) {
       <section className="section category-section">
         <div className="container">
           <div className="split-head">
-            <SectionHead label={t.categoriesSub} title={t.categories} />
+            <SectionHead title={t.categories} />
             <Link className="text-link" href={href(locale, 'katalog')}>
               {t.allCategories}
               <ArrowRight size={17} />

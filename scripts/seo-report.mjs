@@ -17,7 +17,7 @@ const tools = seed.tools.map(tool => {
   };
 });
 const report = {
-  scope: '72 originalne vrste alata; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.',
+  scope: `${tools.length} vrsta alata; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.`,
   deliveryArea: 'Isključivo administrativna teritorija grada Beograda, uključujući Obrenovac, Sremčicu i Železnik.',
   strategy: 'Jedan indeksabilan URL po vrsti alata i jeziku. Sinonimi, latinica bez dijakritike i ćirilica ne stvaraju duplikate stranica.',
   tools,

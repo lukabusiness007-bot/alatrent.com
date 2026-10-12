@@ -2,6 +2,9 @@ import { DatabaseSync } from 'node:sqlite';
 import { mkdirSync } from 'node:fs';
 import path from 'node:path';
 import seed from './seed.json';
+import catalogImport from './catalog-import.json';
+import { equipmentType } from './equipment-type';
+import { randomBytes, scryptSync } from 'node:crypto';
 import { locales } from './types';
 import { toolDescription } from './seo-content';
 import enrichment from './catalog-enrichment.json';
@@ -97,6 +100,36 @@ if (!get('meta', 'photos-prices-no-deposit-v1'))
     }
     put('meta', 'photos-prices-no-deposit-v1', true);
   });
+// Import new equipment types once into existing databases. Preserve edited
+// records, custom IDs, prices, quantities, photos and removed imported tools.
+if (!get('meta', catalogImport.migration))
+  transaction(() => {
+    if (get('meta', catalogImport.migration)) return;
+    const existing = all<Tool>('tools');
+    const knownTypes = new Set(existing.map(tool => equipmentType(tool.name.sr)));
+    for (const tool of catalogImport.tools) {
+      const type = equipmentType(tool.name.sr);
+      if (get('tools', tool.id) || existing.some(saved => saved.slug === tool.slug) || knownTypes.has(type)) continue;
+      if (!get('categories', tool.categoryId)) {
+        const category = seed.categories.find(category => category.id === tool.categoryId);
+        if (category) put('categories', category.id, category);
+      }
+      put('tools', tool.id, tool);
+      knownTypes.add(type);
+    }
+    put('meta', catalogImport.migration, true);
+  });
+
+// An explicitly configured secret bootstraps first-time hosted admin access.
+// Existing password hashes are never overwritten on startup or redeploy.
+if (!catalogOnly && process.env.ADMIN_PASSWORD && !db.prepare('SELECT id FROM auth WHERE id=1').get()) {
+  if (process.env.ADMIN_PASSWORD.length < 12) throw new Error('ADMIN_PASSWORD mora imati najmanje 12 znakova.');
+  const salt = randomBytes(32).toString('hex');
+  db.prepare('INSERT OR IGNORE INTO auth VALUES(1,?,?)').run(
+    salt, scryptSync(process.env.ADMIN_PASSWORD, salt, 64).toString('hex'),
+  );
+}
+
 export const settings = () => get<Settings>('settings', 'main')!;
 export function publicData(): PublicData {
   const categories = all<Category>('categories').filter((c) => c.published);

@@ -89,7 +89,7 @@ test('Crawl every sitemap URL: 200, one H1, unique metadata, canonical, reciproc
         assert.equal(service.aggregateRating, undefined);
         assert.ok(nodes.some(node => node['@type'] === 'BreadcrumbList'));
         const image = html.match(/<meta property="og:image" content="([^"]+)"/)?.[1];
-        assert.equal(image, service.image);
+        assert.equal(image, service.image || origin + '/images/equipment-hero.png');
       }
     }
   }

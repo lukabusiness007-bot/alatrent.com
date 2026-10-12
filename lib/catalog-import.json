@@ -1,0 +1,681 @@
+{
+  "migration": "dajnadan-tool-types-2026-10-12-v1",
+  "tools": [
+    {
+      "id": "tool-073",
+      "slug": "masina-za-skidanje-parketa",
+      "name": {
+        "sr": "Mašina za skidanje parketa",
+        "en": "Floor stripping machine",
+        "ru": "Машина для снятия напольных покрытий",
+        "tr": "Zemin sökme makinesi",
+        "zh": "地板铲除机"
+      },
+      "description": {
+        "sr": "Mašina odvaja stari parket i zalepljene podne obloge od podloge tokom renoviranja. Izbor noža i postupka zavisi od vrste obloge i lepka.",
+        "en": "Floor stripping machine for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Машина для снятия напольных покрытий в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Zemin sökme makinesi. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "地板铲除机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-5",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-074",
+      "slug": "lancana-testera",
+      "name": {
+        "sr": "Lančana testera",
+        "en": "Chainsaw",
+        "ru": "Цепная пила",
+        "tr": "Zincirli testere",
+        "zh": "链锯"
+      },
+      "description": {
+        "sr": "Lančana testera služi za sečenje drveta i grana. U ovom unosu objedinjene su motorne, električne i teleskopske varijante; model se bira prema poslu.",
+        "en": "Chainsaw for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Цепная пила в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Zincirli testere. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "链锯可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-3",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-075",
+      "slug": "vibro-ploca",
+      "name": {
+        "sr": "Vibro ploča",
+        "en": "Plate compactor",
+        "ru": "Виброплита",
+        "tr": "Titreşimli kompaktör",
+        "zh": "平板夯"
+      },
+      "description": {
+        "sr": "Vibro ploča sabija odgovarajuće slojeve nasutog materijala pri pripremi staza, prilaza i podloga. Jednosmerni i reverzibilni modeli ostaju jedna vrsta alata.",
+        "en": "Plate compactor for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Виброплита в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Titreşimli kompaktör. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "平板夯可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-076",
+      "slug": "uredjaj-za-zamrzavanje-cevi",
+      "name": {
+        "sr": "Uređaj za zamrzavanje cevi",
+        "en": "Pipe freezing machine",
+        "ru": "Аппарат для замораживания труб",
+        "tr": "Boru dondurma cihazı",
+        "zh": "管道冷冻机"
+      },
+      "description": {
+        "sr": "Uređaj lokalno zamrzava vodu u odgovarajućoj cevi kako bi se omogućila određena intervencija na instalaciji. Prikladnost se proverava za konkretan sistem.",
+        "en": "Pipe freezing machine for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Аппарат для замораживания труб в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Boru dondurma cihazı. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "管道冷冻机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-7",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-077",
+      "slug": "pistolj-za-eksere",
+      "name": {
+        "sr": "Pištolj za eksere",
+        "en": "Nail gun",
+        "ru": "Гвоздезабивной пистолет",
+        "tr": "Çivi tabancası",
+        "zh": "射钉枪"
+      },
+      "description": {
+        "sr": "Pištolj za eksere pričvršćuje elemente odgovarajućim ekserima tokom montaže. Akumulatorski, gasni i drugi modeli objedinjeni su u ovu vrstu alata.",
+        "en": "Nail gun for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Гвоздезабивной пистолет в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Çivi tabancası. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "射钉枪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-078",
+      "slug": "busilica",
+      "name": {
+        "sr": "Bušilica",
+        "en": "Drill",
+        "ru": "Дрель",
+        "tr": "Matkap",
+        "zh": "电钻"
+      },
+      "description": {
+        "sr": "Bušilica je namenjena bušenju odgovarajućih rupa u drvetu, metalu i drugim podlogama prema izabranom modelu. Marka i snaga ne stvaraju dodatne unose.",
+        "en": "Drill for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Дрель в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Matkap. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "电钻可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-079",
+      "slug": "ekscentricna-brusilica",
+      "name": {
+        "sr": "Ekscentrična brusilica",
+        "en": "Random orbital sander",
+        "ru": "Эксцентриковая шлифмашина",
+        "tr": "Eksantrik zımpara",
+        "zh": "偏心砂光机"
+      },
+      "description": {
+        "sr": "Ekscentrična brusilica obrađuje ravne i blago zakrivljene površine uz odgovarajući abraziv. Koristi se za pripremu i završnu obradu drveta i premaza.",
+        "en": "Random orbital sander for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Эксцентриковая шлифмашина в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Eksantrik zımpara. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "偏心砂光机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-5",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-080",
+      "slug": "set-gedora",
+      "name": {
+        "sr": "Set gedora",
+        "en": "Socket wrench set",
+        "ru": "Набор торцевых ключей",
+        "tr": "Lokma anahtar seti",
+        "zh": "套筒扳手组"
+      },
+      "description": {
+        "sr": "Set gedora služi za odvrtanje i zatezanje odgovarajućih šrafova i matica. Sadržaj kompleta, prihvati i dimenzije ključeva potvrđuju se prema poslu.",
+        "en": "Socket wrench set for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Набор торцевых ключей в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Lokma anahtar seti. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "套筒扳手组可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-6",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-081",
+      "slug": "glodalica-za-gips",
+      "name": {
+        "sr": "Glodalica za gips",
+        "en": "Drywall cut-out tool",
+        "ru": "Фрезер для гипсокартона",
+        "tr": "Alçıpan kesme frezesi",
+        "zh": "石膏板开孔机"
+      },
+      "description": {
+        "sr": "Rotaciona glodalica pravi otvore i obrađuje ivice gipsanih ploča odgovarajućim nastavkom. Namenjena je preciznim izrezima tokom suvomontažnih radova.",
+        "en": "Drywall cut-out tool for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Фрезер для гипсокартона в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Alçıpan kesme frezesi. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "石膏板开孔机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-082",
+      "slug": "helikopter-za-beton",
+      "name": {
+        "sr": "Helikopter za beton",
+        "en": "Concrete power trowel",
+        "ru": "Затирочная машина по бетону",
+        "tr": "Beton perdah makinesi",
+        "zh": "混凝土抹光机"
+      },
+      "description": {
+        "sr": "Helikopter služi za obradu i ravnanje odgovarajuće betonske površine u fazi završne obrade. Konfiguracija se bira prema pristupu i stanju betona.",
+        "en": "Concrete power trowel for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Затирочная машина по бетону в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Beton perdah makinesi. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "混凝土抹光机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-083",
+      "slug": "trakasta-brusilica",
+      "name": {
+        "sr": "Trakasta brusilica",
+        "en": "Belt sander",
+        "ru": "Ленточная шлифмашина",
+        "tr": "Bant zımpara",
+        "zh": "带式砂光机"
+      },
+      "description": {
+        "sr": "Trakasta brusilica skida materijal i obrađuje odgovarajuće drvene površine pomoću brusne trake. Koristi se kada je potrebno ravnomerno uklanjanje sloja.",
+        "en": "Belt sander for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Ленточная шлифмашина в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Bant zımpara. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "带式砂光机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-5",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-084",
+      "slug": "rucni-cirkular",
+      "name": {
+        "sr": "Ručni cirkular",
+        "en": "Handheld circular saw",
+        "ru": "Ручная циркулярная пила",
+        "tr": "El tipi daire testere",
+        "zh": "手持圆锯"
+      },
+      "description": {
+        "sr": "Ručni cirkular pravi pravolinijske rezove u odgovarajućem drvetu i pločastim materijalima. Izbor lista, oslonca i dubine reza prilagođava se poslu.",
+        "en": "Handheld circular saw for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Ручная циркулярная пила в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: El tipi daire testere. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "手持圆锯可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-5",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-085",
+      "slug": "ventilator",
+      "name": {
+        "sr": "Ventilator",
+        "en": "Ventilation fan",
+        "ru": "Вентилятор",
+        "tr": "Havalandırma fanı",
+        "zh": "通风风扇"
+      },
+      "description": {
+        "sr": "Ventilator pokreće vazduh u prostoru ili na radnoj površini. Industrijski i modeli sa raspršivačem objedinjeni su, a odgovarajući tip se potvrđuje prema nameni.",
+        "en": "Ventilation fan for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Вентилятор в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Havalandırma fanı. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "通风风扇可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-2",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-086",
+      "slug": "vibro-letva",
+      "name": {
+        "sr": "Vibro letva",
+        "en": "Vibrating concrete screed",
+        "ru": "Виброрейка",
+        "tr": "Beton vibrasyon mastarı",
+        "zh": "混凝土振动尺"
+      },
+      "description": {
+        "sr": "Vibro letva raspoređuje i poravnava odgovarajući sveži beton tokom izrade ploča i drugih površina. Radna širina i konfiguracija biraju se prema zadatku.",
+        "en": "Vibrating concrete screed for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Виброрейка в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Beton vibrasyon mastarı. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "混凝土振动尺可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-087",
+      "slug": "pistolj-za-vezivanje-armature",
+      "name": {
+        "sr": "Pištolj za vezivanje armature",
+        "en": "Rebar tying gun",
+        "ru": "Пистолет для вязки арматуры",
+        "tr": "Demir bağlama tabancası",
+        "zh": "钢筋绑扎枪"
+      },
+      "description": {
+        "sr": "Pištolj vezuje ukrštanja odgovarajuće armature žicom tokom pripreme konstrukcije. Pre najma proverava se kompatibilnost žice i dimenzija spojeva.",
+        "en": "Rebar tying gun for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Пистолет для вязки арматуры в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Demir bağlama tabancası. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "钢筋绑扎枪可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-088",
+      "slug": "susilica-za-kosuljicu",
+      "name": {
+        "sr": "Sušilica za košuljicu",
+        "en": "Screed drying system",
+        "ru": "Система сушки стяжки",
+        "tr": "Şap kurutma sistemi",
+        "zh": "地坪干燥系统"
+      },
+      "description": {
+        "sr": "Sistem usmerava vazduh u odgovarajuće podne slojeve tokom isušivanja. Primenjuje se prema strukturi poda i ne zamenjuje proveru izvora vlage.",
+        "en": "Screed drying system for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Система сушки стяжки в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Şap kurutma sistemi. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "地坪干燥系统可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-2",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-089",
+      "slug": "vibro-zaba",
+      "name": {
+        "sr": "Vibro žaba",
+        "en": "Tamping rammer",
+        "ru": "Вибротрамбовка",
+        "tr": "Zıplamalı kompaktör",
+        "zh": "冲击夯"
+      },
+      "description": {
+        "sr": "Vibro žaba sabija odgovarajući materijal na manjim površinama i u rovovima. Razlikuje se po načinu rada od vibro ploče, a veličina i marka ne stvaraju nove unose.",
+        "en": "Tamping rammer for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Вибротрамбовка в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Zıplamalı kompaktör. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "冲击夯可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-090",
+      "slug": "motokultivator",
+      "name": {
+        "sr": "Motokultivator",
+        "en": "Rotary tiller",
+        "ru": "Мотокультиватор",
+        "tr": "Motorlu çapa makinesi",
+        "zh": "旋耕机"
+      },
+      "description": {
+        "sr": "Motokultivator usitnjava i priprema odgovarajuće zemljište za baštenske radove. Radni zahvat i dodaci biraju se prema parceli i stanju podloge.",
+        "en": "Rotary tiller for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Мотокультиватор в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Motorlu çapa makinesi. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "旋耕机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-3",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-091",
+      "slug": "malcer",
+      "name": {
+        "sr": "Malčer",
+        "en": "Brush mulcher",
+        "ru": "Мульчер",
+        "tr": "Ot parçalama makinesi",
+        "zh": "碎草机"
+      },
+      "description": {
+        "sr": "Malčer usitnjava odgovarajuću travu i nisko rastinje pri održavanju parcela. Objedinjene su varijante ove vrste mašine, a konkretan model se potvrđuje prema zadatku.",
+        "en": "Brush mulcher for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Мульчер в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Ot parçalama makinesi. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "碎草机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-3",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-092",
+      "slug": "prozracivac-travnjaka",
+      "name": {
+        "sr": "Prozračivač travnjaka",
+        "en": "Lawn scarifier",
+        "ru": "Скарификатор газона",
+        "tr": "Çim havalandırma makinesi",
+        "zh": "草坪梳草机"
+      },
+      "description": {
+        "sr": "Prozračivač obrađuje površinski sloj travnjaka i uklanja odgovarajuće naslage pomoću namenskih nastavaka. Izbor postupka zavisi od stanja trave i podloge.",
+        "en": "Lawn scarifier for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Скарификатор газона в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Çim havalandırma makinesi. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "草坪梳草机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-3",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-093",
+      "slug": "set-rucnog-bastenskog-alata",
+      "name": {
+        "sr": "Set ručnog baštenskog alata",
+        "en": "Hand garden tool set",
+        "ru": "Набор ручного садового инструмента",
+        "tr": "El bahçe aletleri seti",
+        "zh": "手动园艺工具组"
+      },
+      "description": {
+        "sr": "Set ručnog baštenskog alata namenjen je skupljanju lišća i manjim radovima na zemljištu. Sadržaj kompleta, drške i nastavke biramo prema planiranom poslu.",
+        "en": "Hand garden tool set for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Набор ручного садового инструмента в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: El bahçe aletleri seti. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "手动园艺工具组可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-3",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-094",
+      "slug": "masina-za-odgusenje-cevi",
+      "name": {
+        "sr": "Mašina za odgušenje cevi",
+        "en": "Drain cleaning machine",
+        "ru": "Машина для прочистки труб",
+        "tr": "Boru açma makinesi",
+        "zh": "管道疏通机"
+      },
+      "description": {
+        "sr": "Mašina pokreće odgovarajuću sajlu i nastavak za čišćenje dostupnih odvodnih cevi. Opremu biramo prema prečniku, dužini i poznatom uzroku začepljenja.",
+        "en": "Drain cleaning machine for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Машина для прочистки труб в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Boru açma makinesi. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "管道疏通机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-7",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-095",
+      "slug": "masina-za-pranje-podova",
+      "name": {
+        "sr": "Mašina za pranje podova",
+        "en": "Floor scrubber dryer",
+        "ru": "Поломоечная машина",
+        "tr": "Zemin yıkama makinesi",
+        "zh": "洗地机"
+      },
+      "description": {
+        "sr": "Mašina za pranje podova čisti odgovarajuće tvrde podloge i sakuplja vodu prema konfiguraciji modela. Razlikuje se od ekstrakcijske mašine za tekstil.",
+        "en": "Floor scrubber dryer for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Поломоечная машина в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Zemin yıkama makinesi. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "洗地机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-1",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-096",
+      "slug": "mesalica-za-beton",
+      "name": {
+        "sr": "Mešalica za beton",
+        "en": "Concrete mixer",
+        "ru": "Бетономешалка",
+        "tr": "Beton mikseri",
+        "zh": "混凝土搅拌机"
+      },
+      "description": {
+        "sr": "Mešalica u bubnju priprema odgovarajuće količine betona ili maltera na gradilištu. Zapremina i napajanje potvrđuju se prema planiranom tempu rada.",
+        "en": "Concrete mixer for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Бетономешалка в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Beton mikseri. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "混凝土搅拌机可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-4",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-097",
+      "slug": "merdevine",
+      "name": {
+        "sr": "Merdevine",
+        "en": "Ladder",
+        "ru": "Лестница",
+        "tr": "Merdiven",
+        "zh": "梯子"
+      },
+      "description": {
+        "sr": "Merdevine omogućavaju pristup odgovarajućoj radnoj visini. Drvene, aluminijumske i višedelne varijante ostaju jedan unos; model se bira prema poslu.",
+        "en": "Ladder for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Лестница в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Merdiven. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "梯子可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-9",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    },
+    {
+      "id": "tool-098",
+      "slug": "vakuumski-nosac-za-staklo-i-ploce",
+      "name": {
+        "sr": "Vakuumski nosač za staklo i ploče",
+        "en": "Vacuum glass lifter",
+        "ru": "Вакуумный держатель для стекла",
+        "tr": "Vakumlu cam taşıma aparatı",
+        "zh": "玻璃真空吸盘搬运器"
+      },
+      "description": {
+        "sr": "Vakuumski nosač hvata odgovarajuću glatku površinu radi pozicioniranja ili prenošenja stakla i ploča. Ovo je ručni nosač sa pumpom, a ne pumpa za vodu.",
+        "en": "Vacuum glass lifter for rental in Belgrade. Tell us about the job and dates to confirm the suitable equipment, accessories, price and availability.",
+        "ru": "Вакуумный держатель для стекла в аренду в Белграде. Сообщите задачу и даты, чтобы подтвердить оборудование, принадлежности, цену и наличие.",
+        "tr": "Belgrad’da kiralık: Vakumlu cam taşıma aparatı. Ekipmanı, aksesuarları, fiyatı ve uygunluğu teyit etmek için işi ve tarihleri belirtin.",
+        "zh": "玻璃真空吸盘搬运器可在贝尔格莱德租赁。请告知工作内容和日期，以便确认设备、配件、价格及可用情况。"
+      },
+      "categoryId": "cat-9",
+      "price": null,
+      "deposit": 0,
+      "quantity": null,
+      "image": "",
+      "published": true,
+      "featured": false,
+      "updatedAt": "2026-10-12T10:57:47.232772+00:00"
+    }
+  ]
+}

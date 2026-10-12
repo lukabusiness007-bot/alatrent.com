@@ -25,4 +25,9 @@ enrichment=json.loads(Path('lib/catalog-enrichment.json').read_text())
 for tool in tools:
  tool.update(enrichment.get(tool['id'],{}))
  tool['deposit']=0
+# Include the deduplicated additions when rebuilding the original reference seed.
+imported=json.loads(Path('lib/catalog-import.json').read_text())
+known={tool['slug'] for tool in tools}
+for tool in imported['tools']:
+ if tool['slug'] not in known: tools.append(tool); known.add(tool['slug'])
 Path('lib/seed.json').write_text(json.dumps({'tools':tools,'categories':categories},ensure_ascii=False,indent=2))

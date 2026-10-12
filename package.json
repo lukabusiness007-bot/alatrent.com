@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1 --port 3010",
     "build": "next build",
-    "start": "next start --hostname 127.0.0.1 --port 3010",
+    "start": "node scripts/start-production.mjs",
     "typecheck": "tsc --noEmit",
     "test": "node --test --test-concurrency=1 tests/*.test.mjs",
     "admin:reset": "node scripts/reset-admin.mjs",

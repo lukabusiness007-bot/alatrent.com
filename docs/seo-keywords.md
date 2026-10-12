@@ -1,6 +1,6 @@
 # Mapa ključnih fraza za katalog
 
-72 originalne vrste alata; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.
+98 vrsta alata; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.
 
 Isključivo administrativna teritorija grada Beograda, uključujući Obrenovac, Sremčicu i Železnik.
 
@@ -82,3 +82,29 @@ Predlozi fraza zasnovani su na sadržaju kataloga i nameri korisnika. Obim pretr
 | LED reflektor | iznajmljivanje LED reflektora Beograd | radni reflektor, osvetljenje gradilišta | /sr/alat/led-reflektor |
 | Keramička grejalica | iznajmljivanje keramičke grejalice Beograd | električna grejalica, grejalica za radionicu | /sr/alat/keramicka-grejalica |
 | Plinski top | iznajmljivanje plinskog topa Beograd | gasni grejač, top za grejanje | /sr/alat/plinski-top |
+| Mašina za skidanje parketa | iznajmljivanje mašine za skidanje parketa Beograd | skidač parketa, floor stripper | /sr/alat/masina-za-skidanje-parketa |
+| Lančana testera | iznajmljivanje lančane testere Beograd | motorna testera, testera za grane | /sr/alat/lancana-testera |
+| Vibro ploča | iznajmljivanje vibro ploče Beograd | vibro ploča, mašina za sabijanje | /sr/alat/vibro-ploca |
+| Uređaj za zamrzavanje cevi | iznajmljivanje uređaja za zamrzavanje cevi Beograd | zamrzivač cevi, pipe freezer | /sr/alat/uredjaj-za-zamrzavanje-cevi |
+| Pištolj za eksere | iznajmljivanje pištolja za eksere Beograd | zabijač eksera, nailer, pištolj za gipsare | /sr/alat/pistolj-za-eksere |
+| Bušilica | iznajmljivanje bušilice Beograd | električna bušilica, dvobrzinska bušilica | /sr/alat/busilica |
+| Ekscentrična brusilica | iznajmljivanje ekscentrične brusilice Beograd | ekscentar brusilica, orbitalna brusilica | /sr/alat/ekscentricna-brusilica |
+| Set gedora | iznajmljivanje seta gedora Beograd | nasadni ključevi, set gedora | /sr/alat/set-gedora |
+| Glodalica za gips | iznajmljivanje glodalice za gips Beograd | gips rotacija, rezač gips ploča | /sr/alat/glodalica-za-gips |
+| Helikopter za beton | iznajmljivanje helikoptera za beton Beograd | perdaška za beton, mašina za ravnanje betona | /sr/alat/helikopter-za-beton |
+| Trakasta brusilica | iznajmljivanje trakaste brusilice Beograd | tračna brusilica, belt sander | /sr/alat/trakasta-brusilica |
+| Ručni cirkular | iznajmljivanje ručnog cirkulara Beograd | ručna kružna testera, cirkular za drvo | /sr/alat/rucni-cirkular |
+| Ventilator | iznajmljivanje ventilatora Beograd | industrijski ventilator, ventilator sa raspršivačem | /sr/alat/ventilator |
+| Vibro letva | iznajmljivanje vibro letve Beograd | vibraciona letva, letva za beton | /sr/alat/vibro-letva |
+| Pištolj za vezivanje armature | iznajmljivanje pištolja za vezivanje armature Beograd | vezač armature, pištolj za vezanje armature | /sr/alat/pistolj-za-vezivanje-armature |
+| Sušilica za košuljicu | iznajmljivanje sušilice za košuljicu Beograd | sistem za sušenje podova, sušenje košuljice | /sr/alat/susilica-za-kosuljicu |
+| Vibro žaba | iznajmljivanje vibro žabe Beograd | vibro skakavac, nabijač zemlje | /sr/alat/vibro-zaba |
+| Motokultivator | iznajmljivanje motokultivatora Beograd | freza za zemlju, motorna freza | /sr/alat/motokultivator |
+| Malčer | iznajmljivanje malcera Beograd | malčer za krčenje, usitnjivač rastinja | /sr/alat/malcer |
+| Prozračivač travnjaka | iznajmljivanje prozračivača travnjaka Beograd | vertikuler, provetrivač travnjaka | /sr/alat/prozracivac-travnjaka |
+| Set ručnog baštenskog alata | iznajmljivanje seta ručnog baštenskog alata Beograd | grabulje, ručni kultivator | /sr/alat/set-rucnog-bastenskog-alata |
+| Mašina za odgušenje cevi | iznajmljivanje mašine za odgušenje cevi Beograd | sajla za odgušenje, mašina za čišćenje kanalizacije | /sr/alat/masina-za-odgusenje-cevi |
+| Mašina za pranje podova | iznajmljivanje mašine za pranje podova Beograd | podna mašina, scrubber dryer | /sr/alat/masina-za-pranje-podova |
+| Mešalica za beton | iznajmljivanje mešalice za beton Beograd | betonska mešalica, mešalica za malter | /sr/alat/mesalica-za-beton |
+| Merdevine | iznajmljivanje merdevina Beograd | trodelne merdevine, radne merdevine | /sr/alat/merdevine |
+| Vakuumski nosač za staklo i ploče | iznajmljivanje vakuumskog nosača za staklo Beograd | vakuumski podizač, vakum pumpa za staklo | /sr/alat/vakuumski-nosac-za-staklo-i-ploce |

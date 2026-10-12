@@ -119,7 +119,7 @@ test('Create, update, hide and delete categories and tools with all translations
   category = r.result;
   r = await api('/api/admin/tools', {
     slug: 'test-drill',
-    name: translations('Test bušilica'),
+    name: translations('Test inventar'),
     description: translations('Opis alata'),
     categoryId: category.id,
     price: 1000,
@@ -151,7 +151,8 @@ test('Create, update, hide and delete categories and tools with all translations
   assert.equal(r.response.status, 200);
   assert.equal((await fetch(base + '/en/alat/test-drill')).status, 404);
   await api('/api/admin/categories', category);
-  const extra = await api('/api/admin/tools', { ...tool, id: undefined, slug: 'disposable-tool' });
+  assert.equal((await api('/api/admin/tools', { ...tool, id: undefined, slug: 'duplicate-type' })).response.status, 409, 'same equipment type cannot use a new slug');
+  const extra = await api('/api/admin/tools', { ...tool, id: undefined, slug: 'disposable-tool', name: translations('Disposable alat') });
   assert.equal(extra.response.status, 200);
   assert.equal(
     (await api('/api/admin/tools?id=' + extra.result.id, undefined, 'DELETE')).response.status,

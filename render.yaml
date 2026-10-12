@@ -1,0 +1,25 @@
+# Optional deployment with a persistent SQLite database and uploaded photos.
+# A paid service and disk are required; this file does not provision anything.
+services:
+  - type: web
+    name: alat-rent
+    runtime: node
+    plan: starter
+    region: frankfurt
+    branch: main
+    buildCommand: npm ci && DATA_DIR=/tmp/alat-rent-build npm run build
+    startCommand: npm start
+    healthCheckPath: /sr
+    disk:
+      name: alat-rent-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: 24.15.0
+      - key: DATA_DIR
+        value: /var/data
+      - key: ADMIN_PASSWORD
+        generateValue: true
+      - key: SITE_URL
+        sync: false

@@ -20,7 +20,7 @@ Admin lozinka se generiše kriptografski i čuva u **data/admin-access.txt** (do
 ## Šta radi
 
 - Javni sajt na srpskom, engleskom, ruskom, turskom i pojednostavljenom kineskom; srpski je podrazumevani jezik na `/sr`.
-- Početna, katalog sa pretragom/sortiranjem, 10 kategorija, 72 početne vrste alata, pojedinačne stranice alata, dostava, proces najma, kontakt i privatnost.
+- Početna, katalog sa pretragom/sortiranjem, 10 kategorija, 98 vrsta alata, pojedinačne stranice alata, dostava, proces najma, kontakt i privatnost.
 - Admin za dodavanje, menjanje i brisanje alata/kategorija, 5 prevoda naziva i opisa, fotografije, cene sa brzim izborom predloga, broj komada, objavljivanje i izdvajanje na početnoj.
 - SQLite baza trajno čuva katalog, podešavanja, upite, admin sesije i ograničenja zahteva. Fotografije se čuvaju u `data/uploads/` i poslužuju preko `/media/`.
 - Upiti za najam računaju broj kalendarskih dana uključujući preuzimanje i vraćanje. Cene se računaju ponovo na serveru, ne prihvataju se iz browsera.
@@ -32,12 +32,18 @@ Admin lozinka se generiše kriptografski i čuva u **data/admin-access.txt** (do
 
 ## Početni podaci
 
-Inventar je izveden iz `research/beorental/catalog-draft.json`. Katalog sadrži **72 vrste** opreme. Po zahtevu korisnika postavljene su probne dnevne cene od **500 do 5.000 RSD**, promenljive u adminu. Dugmad nude 500, 1.000, 1.500, 2.000, 3.000 i 5.000 RSD; može se uneti i bilo koji drugi iznos. Količine ostaju prazne dok se ne potvrdi stvarni inventar. Depozit se ne naplaćuje.
+Inventar je izveden iz `research/beorental/catalog-draft.json`. Katalog sadrži **98 vrsta** opreme: 72 početne i 26 dodatih iz javnih DajNaDan oglasa, bez duplikata po marki, snazi ili napajanju. Po zahtevu korisnika postavljene su probne dnevne cene od **500 do 5.000 RSD**, promenljive u adminu. Dugmad nude 500, 1.000, 1.500, 2.000, 3.000 i 5.000 RSD; može se uneti i bilo koji drugi iznos. Količine ostaju prazne dok se ne potvrdi stvarni inventar. Depozit se ne naplaćuje.
 
 `lib/catalog-enrichment.json` sadrži početne fotografije i cene. Jednokratna migracija dopunjava postojeću bazu: čuva ranije unete cene i fotografije, a depozite postavlja na nulu. Novi seed već sadrži iste podatke.
 Standardna dostava + preuzimanje: **1.500 RSD**. Hitna dostava + redovno preuzimanje: **2.500 RSD**. To su početne ilustrativne cene po zahtevu korisnika i menjaju se u Podešavanjima. Adresa, telefon, email i javni domen čekaju unos.
 
-Svih 72 početnih alata ima lokalnu katalošku fotografiju proizvoda (`public/images/catalog/`); početna sekcija koristi iste stvarne fotografije. To nisu fotografije korisnikove flote. Na stranicama alata prikazuje se napomena da su slike reprezentativne za tip opreme i da se model potvrđuje pri najmu. Izvori i SHA-256 svake datoteke su u `docs/product-photo-sources.json`. Beorental reklamne fotografije i kontakti nisu upotrebljeni. Fotografije se mogu zameniti sopstvenim u adminu. Pre javne upotrebe potvrditi prava za kataloške fotografije ili zameniti svojim. Prevodi novih alata unose se ručno u 5 jezičkih kartica.
+Svih 72 početnih alata ima lokalnu katalošku fotografiju proizvoda (`public/images/catalog/`); početna sekcija koristi iste stvarne fotografije. To nisu fotografije korisnikove flote. Na stranicama alata prikazuje se napomena da su slike reprezentativne za tip opreme i da se model potvrđuje pri najmu. Izvori i SHA-256 svake datoteke su u `docs/product-photo-sources.json`. Beorental reklamne fotografije i kontakti nisu upotrebljeni. Fotografije se mogu zameniti sopstvenim u adminu. Pre javne upotrebe potvrditi prava za kataloške fotografije ili zameniti svojim. Novih 26 vrsta ima nazive i opise na svih pet jezika; koriste postojeće ilustracije dok se ne unesu sopstvene fotografije. Njihove cene i količine su prazne i prikazuju se kao cena na upit. Oglasi drugih vlasnika nisu evidencija naše dostupnosti.
+
+## Uvoz DajNaDan alata — 12.10.2026.
+
+Pregledano je 349 javnih oglasa sa 17 stranica kategorija građevinskog i baštenskog alata, čišćenja i građevinske opreme. Iz poslednje su uzeti samo alati i prenosiva radna oprema; vozila, bageri, platforme, skele i uslužni oglasi nisu uvezeni. Nazivi su normalizovani po funkciji, a marka, snaga, dimenzije i napajanje ne stvaraju nove unose. Trag svake odluke je u `research/dajnadan/import-review.json`.
+
+`lib/catalog-import.json` i jednokratna migracija u `lib/db.ts` dopunjavaju postojeću SQLite bazu. Migracija čuva izmenjene alate, cene, količine, fotografije, skrivene unose i već postojeće tipove pod drugim ID-em. Kasnije obrisan uvezeni alat ne vraća se pri restartu. Admin odbija novi duplikat prepoznate vrste (npr. novu šrafilicu druge marke), sa porukom koji unos treba izmeniti.
 
 ## Objavljivanje
 
@@ -46,6 +52,12 @@ Svih 72 početnih alata ima lokalnu katalošku fotografiju proizvoda (`public/im
 Na Vercelu (`VERCEL=1`) aplikacija prikazuje početni katalog iz baze u memoriji, bez pokušaja pisanja u `/var/task/data`. Vidljivo obaveštenje označava da online rezervacije i registracija nisu dostupne. API upisi (uključujući porudžbine, prijave, upload i webhook) vraćaju 503; obračun cene ostaje dostupan. Baza je posle inicijalizacije zaključana za upise. Admin prikazuje objašnjenje umesto forme za prijavu.
 
 Ovo rešava učitavanje javnog sajta, ali **nije produkciono rešenje za porudžbine i admin**. Za njih je potrebna migracija na spoljašnju trajnu bazu i skladište fotografija ili Node server sa trajnim diskom. `DATA_DIR=/tmp/...` na Vercelu ne obezbeđuje trajnost i ne uključuje upise.
+
+### Pripremljen Render deploy
+
+`render.yaml` priprema jednu Node uslugu sa trajnim diskom na `/var/data`, gde se čuvaju SQLite baza i uploadovane fotografije. Render veza i aktiviranje usluge još nisu podešeni; usluga sa trajnim diskom je plaćena. Build koristi odvojen privremeni direktorijum, a runtime `npm start` sluša na dodeljenom `PORT` portu.
+
+Na prvom startu `ADMIN_PASSWORD` (tajna generisana u hostingu) pravi admin hash ako pristup još ne postoji. Restart i deploy ne menjaju postojeću lozinku. Promenljiva ne sme imati `NEXT_PUBLIC` prefiks; lozinku vlasnik preuzima iz bezbednog hosting okruženja. `npm run admin:reset` ostaje lokalni postupak za nameran reset. Jedan primerak servera i trajni disk potrebni su za SQLite i fotografije. Vercel preview ostaje katalog bez upisa dok se ne poveže trajno skladište.
 
 ### Node server sa trajnim diskom
 
@@ -78,4 +90,4 @@ Integracioni testovi pokreću produkcioni server na portu 3011 sa zasebnom privr
 
 ## SEO sadržaj i indeksiranje
 
-Detalji optimizacije, mapa ključnih fraza za svih 72 alata, provera domena i koraci javnog puštanja nalaze se u [docs/seo.md](docs/seo.md). Dostava je isključivo na teritoriji grada Beograda, uključujući Obrenovac, Sremčicu i Železnik. `npm run seo:report` obnavlja mapu fraza iz uredničkog kataloga. Telefon i adresa se naknadno unose u admin; javni domen se uključuje tek nakon registracije i postavljanja sajta.
+Detalji optimizacije, mapa ključnih fraza za svih 98 alata, provera domena i koraci javnog puštanja nalaze se u [docs/seo.md](docs/seo.md). Dostava je isključivo na teritoriji grada Beograda, uključujući Obrenovac, Sremčicu i Železnik. `npm run seo:report` obnavlja mapu fraza iz uredničkog kataloga. Telefon i adresa se naknadno unose u admin; javni domen se uključuje tek nakon registracije i postavljanja sajta.

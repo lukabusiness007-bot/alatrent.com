@@ -1,3 +1,4 @@
+import { equipmentType } from '@/lib/equipment-type';
 import { randomUUID } from 'node:crypto';
 import { authorized, sameOrigin } from '@/lib/auth';
 import { all, get, put, remove, settings, transaction, occupied } from '@/lib/db';
@@ -41,11 +42,18 @@ export async function POST(r: Request, { params }: { params: Promise<{ resource:
       const quantity = b.quantity === null ? null : amount(b.quantity, false);
       if (quantity !== null && (!Number.isInteger(b.quantity) || quantity > 10000))
         throw new Error('Neispravna količina.');
+      const name = localized(b.name);
+      const duplicate = all<Tool>('tools').find(tool => tool.id !== id
+        && equipmentType(tool.name.sr) === equipmentType(name.sr));
+      if (duplicate) return Response.json(
+        { error: `Ova vrsta alata već postoji: ${duplicate.name.sr}. Izmeni postojeći unos.`, existingId: duplicate.id },
+        { status: 409 },
+      );
       const tool: Tool = {
         id,
         slug: s,
         categoryId,
-        name: localized(b.name),
+        name,
         description: localized(b.description, 5000),
         price: amount(b.price),
         deposit: 0,

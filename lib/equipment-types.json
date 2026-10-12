@@ -1,0 +1,590 @@
+[
+  {
+    "id": "tool-089",
+    "slug": "vibro-zaba",
+    "name": "Vibro žaba",
+    "pattern": "vibro zaba|sabijanje/skakavac|stampfer atr"
+  },
+  {
+    "id": "tool-073",
+    "slug": "masina-za-skidanje-parketa",
+    "name": "Mašina za skidanje parketa",
+    "pattern": "skidanje parketa"
+  },
+  {
+    "id": "tool-074",
+    "slug": "lancana-testera",
+    "name": "Lančana testera",
+    "pattern": "(motorna|lancana|teleskopska) testera"
+  },
+  {
+    "id": "tool-075",
+    "slug": "vibro-ploca",
+    "name": "Vibro ploča",
+    "pattern": "vibro (ploc|masin)|reverzibilna vibro"
+  },
+  {
+    "id": "tool-076",
+    "slug": "uredjaj-za-zamrzavanje-cevi",
+    "name": "Uređaj za zamrzavanje cevi",
+    "pattern": "zamrzavanje cevi"
+  },
+  {
+    "id": "tool-077",
+    "slug": "pistolj-za-eksere",
+    "name": "Pištolj za eksere",
+    "pattern": "zabijac za eksere|pistolj za (eksere|gipsare)"
+  },
+  {
+    "id": "tool-078",
+    "slug": "busilica",
+    "name": "Bušilica",
+    "pattern": "busilica elektricna|dvobrzinska busilica|iznajmljivanje busilica$"
+  },
+  {
+    "id": "tool-079",
+    "slug": "ekscentricna-brusilica",
+    "name": "Ekscentrična brusilica",
+    "pattern": "ekscent(ar|ric)"
+  },
+  {
+    "id": "tool-080",
+    "slug": "set-gedora",
+    "name": "Set gedora",
+    "pattern": "^gedore$"
+  },
+  {
+    "id": "tool-081",
+    "slug": "glodalica-za-gips",
+    "name": "Glodalica za gips",
+    "pattern": "gips rotacija"
+  },
+  {
+    "id": "tool-082",
+    "slug": "helikopter-za-beton",
+    "name": "Helikopter za beton",
+    "pattern": "helikopter za (beton|ravnjanje)"
+  },
+  {
+    "id": "tool-083",
+    "slug": "trakasta-brusilica",
+    "name": "Trakasta brusilica",
+    "pattern": "trakasta brusilica"
+  },
+  {
+    "id": "tool-084",
+    "slug": "rucni-cirkular",
+    "name": "Ručni cirkular",
+    "pattern": "rucna testera / cirkular|testera/cirkular"
+  },
+  {
+    "id": "tool-085",
+    "slug": "ventilator",
+    "name": "Ventilator",
+    "pattern": "ventilator"
+  },
+  {
+    "id": "tool-086",
+    "slug": "vibro-letva",
+    "name": "Vibro letva",
+    "pattern": "vibro letva"
+  },
+  {
+    "id": "tool-087",
+    "slug": "pistolj-za-vezivanje-armature",
+    "name": "Pištolj za vezivanje armature",
+    "pattern": "pistolj za vezanje armature"
+  },
+  {
+    "id": "tool-088",
+    "slug": "susilica-za-kosuljicu",
+    "name": "Sušilica za košuljicu",
+    "pattern": "susilica za kosuljicu"
+  },
+  {
+    "id": "tool-090",
+    "slug": "motokultivator",
+    "name": "Motokultivator",
+    "pattern": "motokultivator"
+  },
+  {
+    "id": "tool-091",
+    "slug": "malcer",
+    "name": "Malčer",
+    "pattern": "malcer za krcenje"
+  },
+  {
+    "id": "tool-092",
+    "slug": "prozracivac-travnjaka",
+    "name": "Prozračivač travnjaka",
+    "pattern": "vertikuler|provetrivac za travu"
+  },
+  {
+    "id": "tool-093",
+    "slug": "set-rucnog-bastenskog-alata",
+    "name": "Set ručnog baštenskog alata",
+    "pattern": "wolf garthen grabulja"
+  },
+  {
+    "id": "tool-094",
+    "slug": "masina-za-odgusenje-cevi",
+    "name": "Mašina za odgušenje cevi",
+    "pattern": "ciscenje cevi rems cobra"
+  },
+  {
+    "id": "tool-095",
+    "slug": "masina-za-pranje-podova",
+    "name": "Mašina za pranje podova",
+    "pattern": "masina za pranje podova"
+  },
+  {
+    "id": "tool-096",
+    "slug": "mesalica-za-beton",
+    "name": "Mešalica za beton",
+    "pattern": "mesalic(a|e|u) (za beton|za malter|\\d)|scheppach mix"
+  },
+  {
+    "id": "tool-097",
+    "slug": "merdevine",
+    "name": "Merdevine",
+    "pattern": "merdevine"
+  },
+  {
+    "id": "tool-098",
+    "slug": "vakuumski-nosac-za-staklo-i-ploce",
+    "name": "Vakuumski nosač za staklo i ploče",
+    "pattern": "vakum pumpa veribor"
+  },
+  {
+    "id": "tool-032",
+    "slug": "akumulatorski-udarni-odvijac",
+    "name": "Akumulatorski udarni odvijač",
+    "pattern": "udarni odvijac|udarn(i|ih) zavijac"
+  },
+  {
+    "id": "tool-031",
+    "slug": "akumulatorska-srafilica",
+    "name": "Akumulatorska šrafilica",
+    "pattern": "srafilic|sauberic|zavrtac"
+  },
+  {
+    "id": "tool-019",
+    "slug": "trimer-za-zivu-ogradu",
+    "name": "Trimer za živu ogradu",
+    "pattern": "zivu ogradu|makaze za rezanje"
+  },
+  {
+    "id": "tool-020",
+    "slug": "motorni-busac-rupa-za-zemlju",
+    "name": "Motorni bušač rupa za zemlju",
+    "pattern": "busac.*rup|busac/busilica za zemlju|busilica za zemlju"
+  },
+  {
+    "id": "tool-023",
+    "slug": "udarna-cekic-busilica",
+    "name": "Udarna čekić bušilica",
+    "pattern": "udarna busilica|busilica/cekic|cekic.busilica|cekic/busilica|elektro.pneumatski cekic.*gbh|udarni cekic hilti|wurth bmh"
+  },
+  {
+    "id": "tool-024",
+    "slug": "pikamer-stemerica",
+    "name": "Pikamer / štemerica",
+    "pattern": "pikamer|stemaric|hilti te (700|800|1000|1500|2000|3000)|gsh|udarni elektro.pneumatski|hidraulicni agregat sa"
+  },
+  {
+    "id": "tool-025",
+    "slug": "slicerica-za-kanale-u-zidu",
+    "name": "Šlicerica za kanale u zidu",
+    "pattern": "slicerica"
+  },
+  {
+    "id": "tool-029",
+    "slug": "motorni-sekac-betona",
+    "name": "Motorni sekač betona",
+    "pattern": "(sekac|rezac|testera|secenje).*beton|husqvarna k970|motorni sekac|benzinski sekac|stona testera / sekacica"
+  },
+  {
+    "id": "tool-014",
+    "slug": "pumpa-za-vodu-do-nultog-nivoa",
+    "name": "Pumpa za vodu do nultog nivoa",
+    "pattern": "pumpa za nisku vodu"
+  },
+  {
+    "id": "tool-015",
+    "slug": "benzinska-pumpa-za-vodu",
+    "name": "Benzinska pumpa za vodu",
+    "pattern": "wacker pg"
+  },
+  {
+    "id": "tool-013",
+    "slug": "muljna-potopna-pumpa",
+    "name": "Muljna / potopna pumpa",
+    "pattern": "drenazna pumpa|muljna pumpa|wacker pt|pumpa za vodu -"
+  },
+  {
+    "id": "tool-033",
+    "slug": "ger-testera-za-drvo-i-aluminijum",
+    "name": "Ger testera za drvo i aluminijum",
+    "pattern": "secenje pod uglom|ugaona testera|cirkular / gere"
+  },
+  {
+    "id": "tool-041",
+    "slug": "ger-testera-za-metal",
+    "name": "Ger testera za metal",
+    "pattern": "cirkular za metal"
+  },
+  {
+    "id": "tool-037",
+    "slug": "hoblerica-za-parket",
+    "name": "Hoblerica za parket",
+    "pattern": "hobleric.*parket|hoblaric.*parket"
+  },
+  {
+    "id": "tool-038",
+    "slug": "elektricno-rende-rucna-hoblerica",
+    "name": "Električno rende / ručna hoblerica",
+    "pattern": "rende/hoblerica"
+  },
+  {
+    "id": "tool-004",
+    "slug": "industrijski-usisivac",
+    "name": "Industrijski usisivač",
+    "pattern": "usisivac|usisavanje"
+  },
+  {
+    "id": "tool-011",
+    "slug": "odvlazivac-isusivac-vazduha",
+    "name": "Odvlaživač / isušivač vazduha",
+    "pattern": "vlage|vlagu|vlazivac|susac vazduha"
+  },
+  {
+    "id": "tool-068",
+    "slug": "vazdusni-kompresor",
+    "name": "Vazdušni kompresor",
+    "pattern": "kompresor"
+  },
+  {
+    "id": "tool-001",
+    "slug": "perac-pod-pritiskom",
+    "name": "Perač pod pritiskom",
+    "pattern": "perac|peranje pod pritiskom|puromat"
+  },
+  {
+    "id": "tool-002",
+    "slug": "parocistac",
+    "name": "Paročistač",
+    "pattern": "parocistac"
+  },
+  {
+    "id": "tool-003",
+    "slug": "masina-za-dubinsko-pranje",
+    "name": "Mašina za dubinsko pranje",
+    "pattern": "dubinsko|^karcer$"
+  },
+  {
+    "id": "tool-005",
+    "slug": "ciklonski-separator-za-prasinu",
+    "name": "Ciklonski separator za prašinu",
+    "pattern": ""
+  },
+  {
+    "id": "tool-006",
+    "slug": "set-cetki-za-srafilicu",
+    "name": "Set četki za šrafilicu",
+    "pattern": ""
+  },
+  {
+    "id": "tool-007",
+    "slug": "masina-za-poliranje",
+    "name": "Mašina za poliranje",
+    "pattern": "polirk|poliranje"
+  },
+  {
+    "id": "tool-008",
+    "slug": "motorna-cetka-za-velike-povrsine",
+    "name": "Motorna četka za velike površine",
+    "pattern": ""
+  },
+  {
+    "id": "tool-009",
+    "slug": "masina-za-ciscenje-behatona",
+    "name": "Mašina za čišćenje behatona",
+    "pattern": ""
+  },
+  {
+    "id": "tool-010",
+    "slug": "ultrazvucna-kada",
+    "name": "Ultrazvučna kada",
+    "pattern": ""
+  },
+  {
+    "id": "tool-012",
+    "slug": "ozon-generator",
+    "name": "Ozon generator",
+    "pattern": ""
+  },
+  {
+    "id": "tool-016",
+    "slug": "benzinska-kosacica",
+    "name": "Benzinska kosačica",
+    "pattern": "kosilica|kosacica"
+  },
+  {
+    "id": "tool-017",
+    "slug": "ceona-grebenasta-kosacica",
+    "name": "Čeona grebenasta kosačica",
+    "pattern": ""
+  },
+  {
+    "id": "tool-018",
+    "slug": "benzinski-trimer-za-travu",
+    "name": "Benzinski trimer za travu",
+    "pattern": "trimer.*(trav|fs |demon|4 u 1)|benzinski trimer"
+  },
+  {
+    "id": "tool-021",
+    "slug": "duvac-usisivac-lisca",
+    "name": "Duvač / usisivač lišća",
+    "pattern": "duvac.*lisc"
+  },
+  {
+    "id": "tool-022",
+    "slug": "seckalica-za-grane",
+    "name": "Seckalica za grane",
+    "pattern": "drobilica.*grane"
+  },
+  {
+    "id": "tool-026",
+    "slug": "zirafa-za-brusenje-zidova",
+    "name": "Žirafa za brušenje zidova",
+    "pattern": "zirafa|flex wst"
+  },
+  {
+    "id": "tool-027",
+    "slug": "brusilica-za-beton-i-zidove",
+    "name": "Brusilica za beton i zidove",
+    "pattern": "brusilica za beton|podna brusilica za beton"
+  },
+  {
+    "id": "tool-028",
+    "slug": "masina-za-krecenje",
+    "name": "Mašina za krečenje",
+    "pattern": "farbanje|airless"
+  },
+  {
+    "id": "tool-030",
+    "slug": "vibrator-betona-vibro-igla",
+    "name": "Vibrator betona / vibro-igla",
+    "pattern": "vibro igla|vibrator za beton"
+  },
+  {
+    "id": "tool-034",
+    "slug": "multifunkcionalni-alat-renovator",
+    "name": "Multifunkcionalni alat / renovator",
+    "pattern": ""
+  },
+  {
+    "id": "tool-035",
+    "slug": "sabljasta-testera-lisicarka",
+    "name": "Sabljasta testera / lisičarka",
+    "pattern": "povratna testera|testera makita djr"
+  },
+  {
+    "id": "tool-036",
+    "slug": "glodalica-za-drvo",
+    "name": "Glodalica za drvo",
+    "pattern": "frezer/glodalica"
+  },
+  {
+    "id": "tool-039",
+    "slug": "ubodna-testera",
+    "name": "Ubodna testera",
+    "pattern": "ubodna testera"
+  },
+  {
+    "id": "tool-040",
+    "slug": "stoni-cirkular",
+    "name": "Stoni cirkular",
+    "pattern": "^cirkular einhell|stona testera za drvo"
+  },
+  {
+    "id": "tool-042",
+    "slug": "aparat-za-varenje",
+    "name": "Aparat za varenje",
+    "pattern": "zavarivanj"
+  },
+  {
+    "id": "tool-043",
+    "slug": "ugaona-brusilica",
+    "name": "Ugaona brusilica",
+    "pattern": "ugaona brusilica|^brusilica bosch|baterijska ugaona"
+  },
+  {
+    "id": "tool-044",
+    "slug": "tocilo-ostrac",
+    "name": "Tocilo / oštrač",
+    "pattern": "ostrilica"
+  },
+  {
+    "id": "tool-045",
+    "slug": "indukcioni-grejac-za-srafove",
+    "name": "Indukcioni grejač za šrafove",
+    "pattern": ""
+  },
+  {
+    "id": "tool-046",
+    "slug": "pistolj-za-pop-nitne",
+    "name": "Pištolj za pop nitne",
+    "pattern": ""
+  },
+  {
+    "id": "tool-047",
+    "slug": "fen-za-vruc-vazduh",
+    "name": "Fen za vruć vazduh",
+    "pattern": "toplotni pistolj|vruc vazduh"
+  },
+  {
+    "id": "tool-048",
+    "slug": "lemilica",
+    "name": "Lemilica",
+    "pattern": ""
+  },
+  {
+    "id": "tool-049",
+    "slug": "masina-za-secenje-plocica",
+    "name": "Mašina za sečenje pločica",
+    "pattern": ""
+  },
+  {
+    "id": "tool-050",
+    "slug": "vibracioni-pistolj-za-keramiku",
+    "name": "Vibracioni pištolj za keramiku",
+    "pattern": ""
+  },
+  {
+    "id": "tool-051",
+    "slug": "mikser-za-lepak-i-boju",
+    "name": "Mikser za lepak i boju",
+    "pattern": "mikser za boju"
+  },
+  {
+    "id": "tool-052",
+    "slug": "varilica-za-plasticne-vodovodne-cevi",
+    "name": "Varilica za plastične vodovodne cevi",
+    "pattern": "pegla.varilica"
+  },
+  {
+    "id": "tool-053",
+    "slug": "vodoinstalaterska-klesta",
+    "name": "Vodoinstalaterska klešta",
+    "pattern": ""
+  },
+  {
+    "id": "tool-054",
+    "slug": "stega-za-cevi",
+    "name": "Stega za cevi",
+    "pattern": ""
+  },
+  {
+    "id": "tool-055",
+    "slug": "laserski-nivelator",
+    "name": "Laserski nivelator",
+    "pattern": "^laser bosch|hilti pm"
+  },
+  {
+    "id": "tool-056",
+    "slug": "laserski-daljinomer",
+    "name": "Laserski daljinomer",
+    "pattern": ""
+  },
+  {
+    "id": "tool-057",
+    "slug": "endoskopska-inspekciona-kamera",
+    "name": "Endoskopska / inspekciona kamera",
+    "pattern": ""
+  },
+  {
+    "id": "tool-058",
+    "slug": "termalna-kamera",
+    "name": "Termalna kamera",
+    "pattern": ""
+  },
+  {
+    "id": "tool-059",
+    "slug": "akusticni-detektor-curenja-vode",
+    "name": "Akustični detektor curenja vode",
+    "pattern": ""
+  },
+  {
+    "id": "tool-060",
+    "slug": "detektor-metala",
+    "name": "Detektor metala",
+    "pattern": ""
+  },
+  {
+    "id": "tool-061",
+    "slug": "detektor-kablova-i-instalacija",
+    "name": "Detektor kablova i instalacija",
+    "pattern": ""
+  },
+  {
+    "id": "tool-062",
+    "slug": "elektricna-dizalica-vrabac",
+    "name": "Električna dizalica „vrabac“",
+    "pattern": ""
+  },
+  {
+    "id": "tool-063",
+    "slug": "hidraulicna-dizalica-krokodilka",
+    "name": "Hidraulična dizalica „krokodilka“",
+    "pattern": ""
+  },
+  {
+    "id": "tool-064",
+    "slug": "teretna-kolica-za-stepenice",
+    "name": "Teretna kolica za stepenice",
+    "pattern": ""
+  },
+  {
+    "id": "tool-065",
+    "slug": "rucno-vitlo",
+    "name": "Ručno vitlo",
+    "pattern": ""
+  },
+  {
+    "id": "tool-066",
+    "slug": "podupirac-dizalica-za-gips-ploce",
+    "name": "Podupirač / dizalica za gips ploče",
+    "pattern": ""
+  },
+  {
+    "id": "tool-067",
+    "slug": "agregat-za-struju",
+    "name": "Agregat za struju",
+    "pattern": "agregat"
+  },
+  {
+    "id": "tool-069",
+    "slug": "produzni-kablovi-i-motalice",
+    "name": "Produžni kablovi i motalice",
+    "pattern": "motalica|produzni kabl"
+  },
+  {
+    "id": "tool-070",
+    "slug": "led-reflektor",
+    "name": "LED reflektor",
+    "pattern": "led.*lamp|rasvetni toranj"
+  },
+  {
+    "id": "tool-071",
+    "slug": "keramicka-grejalica",
+    "name": "Keramička grejalica",
+    "pattern": "kalorifer"
+  },
+  {
+    "id": "tool-072",
+    "slug": "plinski-top",
+    "name": "Plinski top",
+    "pattern": ""
+  }
+]

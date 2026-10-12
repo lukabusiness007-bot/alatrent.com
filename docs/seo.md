@@ -4,11 +4,11 @@
 
 Optimizovan je lokalni Next.js projekat za najam alata. Domena još nije registrovana/povezana, javno indeksiranje nije uključeno, a telefon i adresa čekaju unos. Poslovanje i dostava su ograničeni na administrativnu teritoriju grada Beograda, uključujući Obrenovac, Sremčicu i Železnik, prema potvrdi vlasnika.
 
-Katalog ima 72 vrste alata i 10 kategorija. [Mapa fraza](seo-keywords.md) sadrži glavnu frazu, dodatne nazive i odredišnu stranicu za svaki alat. [JSON izvoz](seo-keywords.json) uključuje sekundarne fraze, varijante bez dijakritike, namenu i pitanja za izbor. Mapa se obnavlja komandom `npm run seo:report`. Ne sadrži izmišljene mesečne obime pretrage, pozicije ili procene konkurencije.
+Katalog posle dopune od 12.10.2026. ima 98 vrsta alata i 10 kategorija. [Mapa fraza](seo-keywords.md) sadrži glavnu frazu, dodatne nazive i odredišnu stranicu za svaki alat. [JSON izvoz](seo-keywords.json) uključuje sekundarne fraze, varijante bez dijakritike, namenu i pitanja za izbor. Mapa se obnavlja komandom `npm run seo:report`. Ne sadrži izmišljene mesečne obime pretrage, pozicije ili procene konkurencije.
 
 ## Šta je sprovedeno
 
-- Ručno pripremljena posebna namena i kriterijumi izbora za svih 72 vrste alata u `lib/seo-catalog.json`. Srpski tekst nije samo zamena imena alata u istom pasusu.
+- Ručno pripremljena posebna namena i kriterijumi izbora za svih 98 vrsta alata u `lib/seo-catalog.json`. Srpski tekst nije samo zamena imena alata u istom pasusu.
 - Posebni naslovi, opisi i smernice za 10 kategorija; primarne fraze u H1 i title elementima. Naslov početne stranice jasno navodi iznajmljivanje alata u Beogradu.
 - Dinamični title i description za sve javne stranice na pet jezika, uključujući posebne opise za kontakt, dostavu, proces najma, pakete i klub. Detaljne smernice o nameni svakog alata napisane su na srpskom; strani jezici koriste svoje nazive i lokalizovan tekst usluge.
 - Osnovna cena u odgovorima o najmu dolazi iz aktivnog kataloga; formular i dalje računa trajanje najma. Nikakve brojke o snazi, nosivosti, kapacitetu, zalihama ili potvrđenom modelu nisu izmišljene.
@@ -17,7 +17,7 @@ Katalog ima 72 vrste alata i 10 kategorija. [Mapa fraza](seo-keywords.md) sadrž
 - Pretraga razume sinonime, latinične upite bez dijakritike i srpsku ćirilicu. Sve te varijante vode na isti URL alata.
 - Canonical bez parametara; usaglašeni `sr-Latn`, `en`, `ru`, `tr`, `zh-Hans` i `x-default` u metapodacima i sitemap-u. Neispravne putanje i skriveni alati daju 404.
 - Korpa, nalog, privatnost, privatni najmovi, interna pretraga/sortiranje, prazne kategorije i operativna uputstva nisu za indeksiranje. Za neindeksabilne stranice ne generišu se jezičke alternative. Uputstva ostaju dostupna za QR kodove i korisnike.
-- Sitemap obuhvata 445 javnih URL-ova početnog kataloga: 89 stranica × 5 jezika. Koristi fotografije alata, stvarne datume izmena uz datum SEO revizije sadržaja, i izostavlja neobjavljene alate/prazne kategorije. Nema izmišljenog ažuriranja datuma pri svakom zahtevu.
+- Sitemap obuhvata 575 javnih URL-ova proširenog kataloga: 115 stranica × 5 jezika. Koristi fotografije alata, stvarne datume izmena uz datum SEO revizije sadržaja, i izostavlja neobjavljene alate/prazne kategorije. Nema izmišljenog ažuriranja datuma pri svakom zahtevu.
 - `Organization`, `WebSite`, `BreadcrumbList`, `CollectionPage`/`ItemList` i rental `Service` JSON-LD. Kada se unese adresa, poslovni entitet postaje `LocalBusiness`. Kontakt, koordinate, recenzije i radno vreme se ne izmišljaju. Ponude i stanje zaliha nisu označeni kao potvrđeni dok su cene okvirne i model/dostupnost se potvrđuju kroz upit. Ovo ne obećava prikaz Product/FAQ rich results.
 - Deljenje stranice alata koristi njegovu fotografiju kroz Open Graph i Twitter kartice. Fotografije imaju alt tekst i responsive sizes; glavna slika dobija viši prioritet učitavanja. Uklonjena je zastarela Next Image `priority` upotreba.
 - HTTPS domen se normalizuje centralno. Nedostajući ili neispravan domen ostavlja preview noindex, blokiran robots-om i bez URL-ova u sitemap-u.
@@ -31,7 +31,7 @@ Preporuka: `rentajalat.rs` za jasno, lako pamtljivo lokalno ime; `renttools.rs` 
 
 ## Provere
 
-`npm run build`, `npm run typecheck` i `npm test`. Posebna SEO integraciona provera koristi privremenu bazu, testni domen i server na portu 3014. Prolazi kroz svih 445 sitemap URL-ova i proverava status, jedan H1, jedinstvene metapodatke, canonical, hreflang i ispravan JSON-LD. Dodatno proverava skrivene stranice, prazne kategorije, sinonime/ćirilicu, bezbedno kodiranje JSON-LD i čuvanje administratorskih izmena.
+`npm run build`, `npm run typecheck` i `npm test`. Posebna SEO integraciona provera koristi privremenu bazu, testni domen i server na portu 3014. Prolazi kroz svih 575 sitemap URL-ova i proverava status, jedan H1, jedinstvene metapodatke, canonical, hreflang i ispravan JSON-LD. Dodatno proverava skrivene stranice, prazne kategorije, sinonime/ćirilicu, bezbedno kodiranje JSON-LD i čuvanje administratorskih izmena.
 
 Vizuelna provera u browseru obuhvata početnu stranicu, alat, kategoriju i mobilni prikaz. Produkciona brzina i Core Web Vitals moraju se meriti nakon postavljanja stvarnog domena; lokalno renderovanje nije terensko merenje.
 

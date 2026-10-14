@@ -12,6 +12,7 @@ import catalogPhotos from './catalog-photos.json';
 import { applyCatalogPhotos } from './catalog-photos-apply.mjs';
 import { applyCatalogReduction } from './catalog-reduction-apply.mjs';
 import { applyCatalogAdminCleanup, catalogAdminCleanupMigration } from './catalog-admin-cleanup.mjs';
+import { repairCatalogSelection, catalogSelectionRepairMigration } from './catalog-selection-repair.mjs';
 import { equipmentType } from './equipment-type';
 import { normalizedEquipmentName } from './equipment-type';
 import { randomBytes, scryptSync } from 'node:crypto';
@@ -230,6 +231,7 @@ function initializeDatabase() {
     put('meta','commerce-merchandising-v1',true);
   });
   applyCatalogReduction(db, catalogReduction);
+  repairCatalogSelection(db, catalogReduction);
   applyCatalogAdminCleanup(db, catalogReduction);
   applyCatalogPhotos(db, catalogPhotos, seed.tools);
   if (catalogOnly) db.exec('PRAGMA query_only=ON');
@@ -300,7 +302,7 @@ const initializationCompletion = {
     'photos-prices-no-deposit-v1', 'club-deposit-policy-v1',
     catalogImport.migration, catalogExpansion.migration, catalogSourcesImport.migration,
     catalogCrafterImport.migration, catalogNameCleanup.migration,
-    'suggested-import-prices-v1', 'commerce-kits-v1', 'commerce-kits-v2', 'commerce-merchandising-v1', catalogReduction.migration, catalogAdminCleanupMigration, catalogPhotos.migration],
+    'suggested-import-prices-v1', 'commerce-kits-v1', 'commerce-kits-v2', 'commerce-merchandising-v1', catalogReduction.migration, catalogSelectionRepairMigration, catalogAdminCleanupMigration, catalogPhotos.migration],
   requireAuth: !catalogOnly && !!process.env.ADMIN_PASSWORD,
 };
 

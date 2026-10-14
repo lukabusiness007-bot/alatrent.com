@@ -32,3 +32,21 @@ test('New quotes reject retired models while existing rentals confirm and extend
  const preview=await post('/api/commerce/extend',{id:made.body.id,token:made.body.token,end:extended});assert.equal(preview.status,200,JSON.stringify(preview.body));assert.equal(preview.body.extra,987.2);const approved=await post('/api/commerce/admin',{action:'extension',id:made.body.id,approve:true});assert.equal(approved.status,200,JSON.stringify(approved.body));const after=get('orders',made.body.id);assert.equal(after.items[0].price,1234);assert.equal(after.items[0].toolId,original.id);assert.equal(after.items[0].end,extended);
  put('archivedTools',original.id,original);
 });
+
+test('Pruning unused database archives keeps old browser cart labels and replacement redirects working', async () => {
+ const archived=db.prepare("SELECT kind,id,value FROM entities WHERE kind IN ('archivedTools','archivedToolOptions')").all();
+ const original=JSON.parse(archived.find(r=>r.kind==='archivedTools'&&r.id==='crafter-423').value);
+ try {
+  db.prepare("DELETE FROM entities WHERE kind IN ('archivedTools','archivedToolOptions')").run();
+  const cart=await(await fetch(base+'/sr/korpa')).text();
+  assert.ok(cart.includes('crafter-423'));
+  assert.ok(cart.includes(original.name.sr));
+  assert.ok(cart.includes('crafter-936'));
+  assert.equal((await fetch(base+'/sr/alat/'+original.slug,{redirect:'manual'})).status,308);
+  assert.equal((await post('/api/commerce/quote',{items:[{toolId:original.id,start:'2026-11-01',end:'2026-11-02',quantity:1}],delivery:'pickup'})).status,400);
+ } finally {
+  const insert=db.prepare('INSERT INTO entities(kind,id,value) VALUES(?,?,?)');
+  db.exec('BEGIN');
+  try {for(const row of archived)insert.run(row.kind,row.id,row.value);db.exec('COMMIT');}catch(error){db.exec('ROLLBACK');throw error;}
+ }
+});

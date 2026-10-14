@@ -38,7 +38,7 @@ export function config(): CommerceConfig {
       referralCredit: 0,
       creditLimitPercent: 20,
       returnTime: '17:00',
-      reviewUrl: '',
+      reviewUrl: 'https://g.page/r/CbJeMhbeExW6EAI/review',
       templates: {},
       templateLanguage: 'sr',
       enabled: false,

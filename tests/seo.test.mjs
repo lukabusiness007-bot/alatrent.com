@@ -61,7 +61,7 @@ test('Every seeded tool has specific search intent, useful copy and an existing 
 test('Crawl every sitemap URL: 200, one H1, unique metadata, canonical, reciprocal hreflang and parseable JSON-LD', async () => {
   const { html: xml } = await get('/sitemap.xml');
   const urls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(match => match[1]);
-  assert.equal(urls.length, (6 + active.length + seed.categories.length) * locales.length);
+  assert.equal(urls.length, (6 + active.length + seed.categories.length) * locales.length + 6);
   assert.equal(new Set(urls).size, urls.length);
   assert.match(xml, /hreflang="x-default"/);
   assert.match(xml, /<image:loc>https:\/\/seo.example\/images\/catalog\//);
@@ -74,7 +74,7 @@ test('Crawl every sitemap URL: 200, one H1, unique metadata, canonical, reciproc
       assert.equal(canonical(html), url, url);
       assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, url);
       assert.ok(!tag(html, 'robots')?.includes('noindex'), url);
-      assert.equal((html.match(/rel="alternate" hrefLang=/g) || []).length, 6, url);
+      assert.equal((html.match(/rel="alternate" hrefLang=/g) || []).length, url.includes('/saveti') ? 2 : 6, url);
       assert.equal(tag(html, 'google-site-verification'), 'seo-test-verification');
       const title = html.match(/<title>(.*?)<\/title>/)?.[1];
       const description = tag(html, 'description');
@@ -147,7 +147,8 @@ test('Rental content, Cyrillic and common aliases resolve to the right tool', as
     assert.ok(html.includes('href="/sr/alat/' + selectedSlug(slug) + '"'), query);
   }
   const { html } = await get('/sr/alat/zirafa-za-brusenje-zidova');
-  assert.ok(html.includes(content[selectedSlug('zirafa-za-brusenje-zidova')].selection));
+  assert.ok(html.includes('Opiši sloj koji brusiš, površinu i visinu plafona.'));
+  assert.ok(html.includes('href="/sr/saveti/zirafa-i-usisivac-za-zidove"'));
   assert.ok(html.includes('Obrenovac, Sremčicu i Železnik'));
   assert.ok(!html.includes('Beogradu i okolini'));
 });
@@ -183,4 +184,42 @@ test('Missing or invalid public origins keep previews noindex; configured busine
     assert.match(robots, /Sitemap: https:\/\/seo.example\/sitemap.xml/);
     assert.ok(!robots.includes('/nalog'), 'Crawlers need access to read noindex');
   } finally { write('settings', 'main', original); }
+});
+
+
+test('Guides publish only real Serbian pages and link to published equipment with current prices', async () => {
+  const { html: hub } = await get('/sr/saveti');
+  const paths = [...new Set([...hub.matchAll(/href="(\/sr\/saveti\/[^"?]+)"/g)].map(m => m[1]))];
+  assert.equal(paths.length, 5);
+  for (const path of paths) {
+    const { response, html } = await get(path);
+    assert.equal(response.status, 200);
+    const article = jsonLd(html).find(n => n['@type'] === 'Article');
+    assert.equal(article.url, origin + path);
+    assert.equal(article.inLanguage, 'sr-Latn');
+    const links = [...new Set([...html.matchAll(/href="(\/sr\/alat\/[^"?]+)"/g)].map(m => m[1]))];
+    assert.ok(links.length > 0, path);
+    for (const link of links) assert.equal((await get(link)).response.status, 200, link);
+    assert.equal((await get(path.replace('/sr/', '/en/'))).response.status, 404);
+  }
+  assert.equal((await get('/sr/saveti/nepoznato')).response.status, 404);
+  const original = read('settings', 'main');
+  try {
+    write('settings', 'main', { ...original, standardDelivery: 1234, expressDelivery: 3456 });
+    const html = (await get('/sr/saveti/cena-najma-alata-i-dostave')).html;
+    assert.match(html, /1[.\s]234/);
+    assert.match(html, /3[.\s]456/);
+  } finally { write('settings', 'main', original); }
+});
+
+test('Priority content preserves a custom model name and custom description', async () => {
+  const original = read('tools', 'crafter-20586');
+  const name = 'Naše posebne merdevine';
+  const description = 'Tačan opis koji je vlasnik uneo u administratoru.';
+  try {
+    write('tools', original.id, { ...original, name: { ...original.name, sr: name }, description: { ...original.description, sr: description } });
+    const html = (await get('/sr/alat/' + original.slug)).html;
+    assert.ok(html.includes(name));
+    assert.equal(jsonLd(html).find(n => n['@type'] === 'Service').description, description);
+  } finally { write('tools', original.id, original); }
 });

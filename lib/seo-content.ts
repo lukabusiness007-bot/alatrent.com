@@ -1,15 +1,17 @@
 import catalog from './seo-catalog.json';
 import seed from './seed.json';
-import nameCleanup from './catalog-name-cleanup.json';
-import catalogReduction from './catalog-reduction.json';
+import priority from './priority-tool-content.json';
+import photos from './catalog-photos.json';
 import { copy, money } from './i18n';
 import type { Category, Locale, Tool } from './types';
 
-export const SEO_CONTENT_UPDATED_AT = catalogReduction.createdAt > nameCleanup.createdAt ? catalogReduction.createdAt : nameCleanup.createdAt;
+export const SEO_CONTENT_UPDATED_AT = '2026-10-14T12:00:00.000Z';
 const seedBySlug = new Map(seed.tools.map(tool => [tool.slug, tool]));
 
 type ToolContent = { term: string; aliases: string[]; use: string; selection: string };
 export const toolContent = catalog as Record<string, ToolContent>;
+export const priorityContent = priority as Record<string, { heading: string; intro: string; selection: string; guide: string }>;
+export function toolSelection(tool: Tool) { return priorityContent[tool.id]?.selection || toolContent[tool.slug]?.selection || copy.sr.faq4a; }
 export const categoryContent: Record<string, { title: string; intro: string; selection: string }> = {
   'sezonska-prerada-i-pretakanje': {
     title: 'Iznajmljivanje opreme za sezonsku preradu i pretakanje',
@@ -69,6 +71,7 @@ export const categoryContent: Record<string, { title: string; intro: string; sel
 };
 
 export function toolHeading(tool: Tool, locale: Locale) {
+  if (locale === 'sr' && priorityContent[tool.id] && tool.name.sr === seedBySlug.get(tool.slug)?.name.sr) return priorityContent[tool.id].heading;
   if (tool.catalogModel && locale === 'sr') return `Iznajmljivanje modela ${tool.name.sr}`;
   return locale === 'sr' && toolContent[tool.slug]
     ? `Iznajmljivanje ${toolContent[tool.slug].term}`
@@ -77,6 +80,8 @@ export function toolHeading(tool: Tool, locale: Locale) {
 
 // Replace only the original placeholder text; descriptions edited in the admin remain authoritative.
 export function toolDescription(tool: Tool, locale: Locale) {
+  const replacement = photos.entries.find(e => e.id === tool.id && 'descriptionUpdate' in e) as { descriptionUpdate?: { after: string } } | undefined;
+  if (locale === 'sr' && priorityContent[tool.id] && (tool.description.sr === seedBySlug.get(tool.slug)?.description.sr || tool.description.sr === replacement?.descriptionUpdate?.after)) return priorityContent[tool.id].intro;
   if (tool.catalogModel) return tool.description[locale];
   const original = seedBySlug.get(tool.slug);
   if (locale === 'sr' && toolContent[tool.slug] && tool.description.sr === original?.description.sr)
@@ -106,7 +111,7 @@ export function rentalQuestions(tool: Tool, locale: Locale) {
     { question: `Koliko košta najam${entry ? ' ' + entry.term : ': ' + tool.name.sr}?`, answer: tool.price === null
       ? 'Cena se određuje na upit prema trajanju najma i potrebnoj opremi. Pošalji željene datume za konkretnu ponudu.'
       : `Prikazana osnovna dnevna cena je ${money(tool.price, locale)}. Obračun za izabrane datume vidiš u formularu; konačnu cenu i dodatke potvrđujemo pre najma. Dostava se obračunava posebno.` },
-    { question: 'Šta treba navesti pre iznajmljivanja?', answer: entry?.selection || t.faq4a },
+    { question: 'Šta treba navesti pre iznajmljivanja?', answer: toolSelection(tool) },
     { question: 'Da li je potrebna uplata depozita?', answer: t.depositNote },
     { question: 'Gde dostavljate i kako potvrđujem termin?', answer: `${t.faq2a} ${t.faq1a}` },
   ];

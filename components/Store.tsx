@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { GuidesHomeSection } from './RentalGuides';
 import Image from 'next/image';
 import Form from 'next/form';
 import { copy, href, money, locales, languageNames } from '@/lib/i18n';
@@ -277,6 +278,7 @@ export function Footer({ locale, settings }: { locale: Locale; settings: Setting
             <Link href={href(locale, 'katalog')}>{t.catalog}</Link>
             <Link href={href(locale, 'kako-funkcionise')}>{t.how}</Link>
             <Link href={href(locale, 'dostava')}>{t.delivery}</Link>
+            {locale === 'sr' && <Link href="/sr/saveti">Saveti za izbor alata</Link>}
           </div>
           <div>
             <h4>{t.support}</h4>
@@ -424,6 +426,7 @@ export function Home({ locale, data, jobs }: { locale: Locale; data: PublicData;
         </div>
       </section>
       <Steps locale={locale} />
+      {locale === 'sr' && <GuidesHomeSection />}
       <Delivery locale={locale} settings={settings} />
       <Faq locale={locale} />
       <Cta locale={locale} />

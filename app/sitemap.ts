@@ -4,6 +4,7 @@ import { publicData } from '@/lib/db';
 import { showProjectKits } from '@/lib/commerce/features';
 import { locales, href } from '@/lib/i18n';
 import { SEO_CONTENT_UPDATED_AT } from '@/lib/seo-content';
+import { GUIDES_UPDATED_AT, rentalGuides } from '@/lib/rental-guides';
 import { siteOrigin, languageAlternates } from '@/lib/site-url';
 export const dynamic = 'force-dynamic';
 function dbsitemap(): MetadataRoute.Sitemap {
@@ -23,7 +24,10 @@ function dbsitemap(): MetadataRoute.Sitemap {
       ...(tool?.image ? { images: [new URL(tool.image, base).href] } : {}),
       alternates: { languages: languageAlternates(base, path) },
     };
-  }));
+  })).concat(['saveti', ...rentalGuides.map(g => 'saveti/' + g.slug)].map(path => ({
+    url: base + href('sr', path), lastModified: GUIDES_UPDATED_AT,
+    alternates: { languages: { 'sr-Latn': base + href('sr', path), 'x-default': base + href('sr', path) } },
+  })));
 }
 
 export default databaseComponent(dbsitemap);

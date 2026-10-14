@@ -1,0 +1,62 @@
+{
+  "crafter-20586": {
+    "heading": "Iznajmljivanje trodelnih merdevina Cagsan 3×10",
+    "intro": "Trodelne aluminijumske merdevine za pristup visini pri montaži, krečenju i održavanju. Izbor zavisi od potrebne radne visine, oslonca i prostora za postavljanje, a ne samo od broja prečki.",
+    "selection": "Navedi visinu mesta rada, da li postoji ravan i čvrst oslonac i kako se prilazi objektu. Dozvoljene položaje i nosivost proveravamo za konkretne merdevine; radna visina nije isto što i dužina merdevina.",
+    "guide": "kako-izabrati-merdevine"
+  },
+  "crafter-62855": {
+    "heading": "Iznajmljivanje vibro ploče Scheppach HP1800S",
+    "intro": "Vibro ploča za sabijanje odgovarajuće podloge od peska i šljunka pre izrade poda, staze ili prilaza. Za rad preko behatona treba proveriti odgovarajući zaštitni dodatak.",
+    "selection": "Navedi materijal podloge, površinu, širinu pristupa i planiranu debljinu slojeva. Vibro ploča sabija pripremljenu podlogu; za ravnanje ili obradu već izlivenog betonskog poda potreban je drugi uređaj.",
+    "guide": "vibro-ploca-ili-vibro-zaba"
+  },
+  "crafter-62858": {
+    "heading": "Iznajmljivanje vibro žabe Scheppach VS1000",
+    "intro": "Vibro nabijač, često nazvan vibro žaba, za sabijanje odgovarajućeg zemljišta u uskim rovovima i oko temelja. Izbor između nabijača i ploče zavisi od materijala i pristupa.",
+    "selection": "Pošalji širinu rova, vrstu zemljišta i uslove prilaza. Proveri da li ima dovoljno prostora za upravljanje. Benzinski uređaj nije predviđen za rad u zatvorenom prostoru.",
+    "guide": "vibro-ploca-ili-vibro-zaba"
+  },
+  "crafter-35551": {
+    "heading": "Iznajmljivanje mašine za dubinsko pranje Kärcher Puzzi 8/1",
+    "intro": "Ekstrakcijska mašina za pranje tekstilnog nameštaja koji dozvoljava mokro čišćenje. Rastvor se nanosi na tekstil i zatim izvlači zajedno sa rastvorenom nečistoćom.",
+    "selection": "Navedi da li pereš garnituru, dušek ili auto-sedišta i proveri oznaku održavanja materijala. Dogovaramo nastavak i odgovarajuće sredstvo; vreme sušenja zavisi od tekstila, vlage i ventilacije.",
+    "guide": "dubinsko-pranje-namestaja-izbor-masine"
+  },
+  "crafter-62581": {
+    "heading": "Iznajmljivanje žirafe Mirka LEROS 950CV",
+    "intro": "Žirafa za brušenje zidova i plafona sa brusnom pločom prečnika 225 mm. Namenjena je pripremi odgovarajućih površina pre završnog premaza, uz planirano odvođenje prašine.",
+    "selection": "Opiši sloj koji brusiš, površinu i visinu plafona. Proveravamo granulaciju abraziva, usisivač i priključak. Za skidanje betona ili debelih tvrdih slojeva potreban je drugi alat.",
+    "guide": "zirafa-i-usisivac-za-zidove"
+  },
+  "crafter-30354": {
+    "heading": "Iznajmljivanje udarne bušilice Bosch GBH 2-28 F",
+    "intro": "Elektropneumatski čekić sa SDS-plus prihvatom i motorom od 880 W za odgovarajuće radove bušenja i lakšeg štemovanja. Vrsta i dimenzije burgije biraju se prema podlozi.",
+    "selection": "Navedi materijal, prečnik i dubinu rupa ili obim štemovanja. SDS-plus nastavak nije kompatibilan sa SDS-max prihvatom. Pre bušenja proveri položaj instalacija.",
+    "guide": "cena-najma-alata-i-dostave"
+  },
+  "crafter-63590": {
+    "heading": "Iznajmljivanje pikamera Bosch GSH 11 EV",
+    "intro": "Čekić za rušenje sa SDS-max prihvatom i motorom od 1500 W. Namenjen je štemovanju i uklanjanju odgovarajućeg materijala; nije bušilica za izradu rupa.",
+    "selection": "Navedi da li uklanjaš pločice, estrih ili zid i koliki je obim posla. Dleto biramo prema materijalu. Noseće elemente i skrivene instalacije proveri pre radova.",
+    "guide": "cena-najma-alata-i-dostave"
+  },
+  "crafter-63082": {
+    "heading": "Iznajmljivanje aku bušilice Bosch GSR 18V-65",
+    "intro": "Akumulatorska bušilica-odvrtač na platformi 18 V za montažu, zavrtanje i odgovarajuće bušenje drveta ili metala. Ne zamenjuje elektropneumatski čekić za beton.",
+    "selection": "Navedi materijal, dimenzije rupa ili vijaka i trajanje rada. Baterije, punjač, burgije i bitove potvrđujemo kao deo konkretnog kompleta pre najma.",
+    "guide": "cena-najma-alata-i-dostave"
+  },
+  "crafter-31501": {
+    "heading": "Iznajmljivanje perača Kärcher HD 4/10 X Plus Classic",
+    "intro": "Perač pod pritiskom za čišćenje odgovarajućih tvrdih spoljašnjih površina. Mlaz i dodatak biraju se prema podlozi kako bi se smanjila mogućnost oštećenja.",
+    "selection": "Navedi vrstu površine i dostupnost vode, struje i odvoda. Proveravamo priključke i dodatke. Osetljive premaze, fuge i drvo ne tretiraj jakim mlazom bez provere proizvođača podloge.",
+    "guide": "cena-najma-alata-i-dostave"
+  },
+  "tool-055": {
+    "heading": "Iznajmljivanje laserskog nivelatora",
+    "intro": "Laserski nivelator za postavljanje referentnih linija pri montaži, oblaganju i nivelisanju u prostoru. Ne meri rastojanje kao laserski daljinomer.",
+    "selection": "Navedi da li radiš unutra ili napolju, približno rastojanje i potrebne linije. Konkretan model, prijemnik, stativ i deklarisanu tačnost proveravamo pre potvrde termina.",
+    "guide": "cena-najma-alata-i-dostave"
+  }
+}

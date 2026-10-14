@@ -60,6 +60,7 @@ export default function Header({ locale, brand }: { locale: Locale; brand: strin
             [t.home, ''],
             [t.catalog, 'katalog'],
             [t.how, 'kako-funkcionise'],
+            ...(locale === 'sr' ? [['Saveti', 'saveti']] : []),
             [ct(locale, 'packages'), 'paketi'],
             [ct(locale, 'club'), 'klub'],
           ].filter(([, path]) => path !== 'paketi' || showProjectKits).map(([label, path]) => (
@@ -99,7 +100,7 @@ export default function Header({ locale, brand }: { locale: Locale; brand: strin
               <div className="language-options">
                 {locales.map((l) => (
                   <Link
-                    href={pathname.replace(/^\/(sr|en|ru|tr|zh)(?=\/|$)/, '/' + l)}
+                    href={pathname.startsWith('/sr/saveti') && l !== 'sr' ? href(l) : pathname.replace(/^\/(sr|en|ru|tr|zh)(?=\/|$)/, '/' + l)}
                     key={l}
                     lang={l}
                     hrefLang={l === 'zh' ? 'zh-Hans' : l}

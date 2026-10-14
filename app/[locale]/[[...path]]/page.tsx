@@ -26,7 +26,9 @@ import OrderDetails from '@/components/commerce/OrderDetails';
 import { seo } from '@/lib/seo';
 import { catalogPage, catalogPagination, pageLabel } from '@/lib/catalog-pagination';
 import { pageCopy } from '@/lib/seo-pages';
-import { toolHeading, toolDescription, categoryHeading, categoryDescription, toolContent } from '@/lib/seo-content';
+import { toolHeading, toolDescription, categoryHeading, categoryDescription, toolSelection } from '@/lib/seo-content';
+import { guideHub, rentalGuides } from '@/lib/rental-guides';
+import { RentalGuidesPage } from '@/components/RentalGuides';
 import { BreadcrumbSchema, ToolSchema } from '@/components/Seo';
 import { ToolRentalContent } from '@/components/ToolRentalContent';
 import { today } from '@/lib/validation';
@@ -52,6 +54,11 @@ async function dbgenerateMetadata({ params, searchParams }: Props) {
   const t = copy[locale];
   const data = publicData();
   const key = path[0] || '';
+  if (key === 'saveti') {
+    const guide = path.length === 2 ? rentalGuides.find(g => g.slug === path[1]) : undefined;
+    if (locale !== 'sr' || path.length > 2 || (path.length !== 1 && !guide)) return { title: t.notFound, robots: { index: false, follow: true } };
+    return seo(locale, path.join('/'), guide?.title || guideHub.title, guide?.description || guideHub.description, false, undefined, true);
+  }
   const tool = ['alat', 'uputstvo'].includes(key) && path.length === 2 ? data.tools.find(t => t.slug === path[1]) : undefined;
   const category = key === 'kategorija' && path.length === 2 ? data.categories.find(c => c.slug === path[1]) : undefined;
   const pages = pageCopy(locale);
@@ -85,6 +92,11 @@ async function dbPage({ params, searchParams }: Props) {
   const key = path[0] || '';
   const q = await searchParams;
   if (path.length > 2) notFound();
+  if (key === 'saveti') {
+    const guide = path.length === 2 ? rentalGuides.find(g => g.slug === path[1]) : undefined;
+    if (locale !== 'sr' || (path.length !== 1 && !guide)) notFound();
+    return <RentalGuidesPage data={data} guide={guide} />;
+  }
   const cfg = config();
   if (path.length === 1 && key === 'korpa') return <CartPage locale={locale} data={data} retiredTools={retiredTools(all('tools'),all('archivedTools'))} today={today()} referralProgram={{...cfg.referralProgram,memberIds:[]}} creditLimit={cfg.creditLimitPercent} recommendationsEnabled={merchandisingConfig().recommendationsEnabled} />;
   if (path.length === 1 && key === 'klub') return <Club locale={locale} threshold={cfg.clubThreshold} percent={cfg.clubPercent} referralProgram={{...cfg.referralProgram,memberIds:[]}} />;
@@ -169,7 +181,7 @@ async function dbPage({ params, searchParams }: Props) {
               <div className="product-copy">
                 <h2>{t.aboutTool}</h2>
                 <p>{toolDescription(tool, locale)}</p>
-                <h2>{mt(locale,'fit')}</h2><p>{locale==='sr' ? toolContent[tool.slug]?.selection || t.faq4a : t.faq4a}</p>
+                <h2>{mt(locale,'fit')}</h2><p>{locale==='sr' ? toolSelection(tool) : t.faq4a}</p>
                 <h2>{t.specs}</h2>
                 <ul className="check-list">
                   <li>

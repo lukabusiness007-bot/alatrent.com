@@ -17,6 +17,7 @@ export function seo(
   description: string,
   noindex = false,
   image?: { url: string; alt: string },
+  singleLanguage = false,
 ): Metadata {
   const s = settings();
   const origin = siteOrigin(s);
@@ -29,7 +30,7 @@ export function seo(
     metadataBase: new URL(base),
     title: fullTitle,
     description: summary,
-    alternates: { canonical: url, languages: noindex ? undefined : languageAlternates(base, path) },
+    alternates: { canonical: url, languages: noindex ? undefined : singleLanguage ? { 'sr-Latn': url, 'x-default': url } : languageAlternates(base, path) },
     robots: { index: !!origin && !noindex, follow: true, googleBot: { index: !!origin && !noindex, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
     verification: { google: process.env.GOOGLE_SITE_VERIFICATION || undefined, other: process.env.BING_SITE_VERIFICATION ? { 'msvalidate.01': process.env.BING_SITE_VERIFICATION } : undefined },
     openGraph: {

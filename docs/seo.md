@@ -25,6 +25,14 @@ Katalog posle dopune od 12.10.2026. ima 98 vrsta alata i 10 kategorija. [Mapa fr
 
 ## Domen
 
+### Favicon i slike — 14.10.2026.
+
+Proveren javni sajt `https://alatrent.rs`: početna stranica preusmerava na `/sr`, canonical i robots koriste taj domen, indeksiranje je uključeno, a postojeća Open Graph slika vraća HTTP 200. Objavljena verzija je prijavljivala samo `/favicon.svg`, dok je `/favicon.ico` vraćao 404.
+
+Iz postojećeg SVG znaka pripremljeni su `/favicon.png` (96×96), `/favicon.ico` (16, 32, 48 i 96 px), `/apple-touch-icon.png` (180×180) i `/images/brand-logo.png` (512×512). ICO koristi Next.js file-based metadata u `app/favicon.ico`; PNG i Apple linkovi dolaze iz zajedničkih metapodataka javnog i admin layout-a, uključujući privatne stranice. Svi resursi su statički i dostupni bez baze ili prijave. `Organization`/`LocalBusiness` sada ima eksplicitan `logo` i reprezentativnu `image`, a podrazumevana Open Graph slika deklarisane dimenzije, format i apsolutni URL. Stranice alata zadržavaju sopstvenu fotografiju.
+
+Posle deploya proveriti ove resurse na `https://alatrent.rs`, pa u Google Search Console tražiti ponovno indeksiranje početne stranice. [Google smernice za favicon](https://developers.google.com/search/docs/appearance/favicon-in-search) navode da obrada može trajati nekoliko dana do nekoliko nedelja i da prikaz nije garantovan. Logo i Open Graph slika takođe ne garantuju thumbnail u rezultatima pretrage; izbor zavisi od Google-a. SVG ostaje dostupan na starom URL-u.
+
 Direktni upiti `whois.rnids.rs:43` od 10.10.2026. sačuvani su u `research/seo-2026-10-10/domain-check.json`. Registar je vratio `Domain is not registered` za `rentajalat.rs`, `renttools.rs`, `alatnadom.rs`, `uzmialat.rs`, `alatoteka.rs` i `alatzanajam.rs`. `alatnadan.rs` i `iznajmialat.rs` su aktivni/zauzeti.
 
 Preporuka: `rentajalat.rs` za jasno, lako pamtljivo lokalno ime; `renttools.rs` ako se zadržava postojeći brend. Provera ne rezerviše domen. Konačna mogućnost registracije potvrđuje se kod ovlašćenog registra. Neregistrovan domen još nije unet kao canonical domen.

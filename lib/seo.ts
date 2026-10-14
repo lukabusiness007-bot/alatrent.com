@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { copy, href } from './i18n';
 import { settings } from './db';
 import { languageAlternates, siteOrigin } from './site-url';
+import { defaultSocialImage } from './seo-assets';
 import type { Locale } from './types';
 
 export function snippet(value: string, max = 175) {
@@ -25,9 +26,11 @@ export function seo(
   const url = base + href(locale, path);
   const fullTitle = `${title} | ${s.brand}`;
   const summary = snippet(description);
-  const preview = image || { url: '/images/equipment-hero.png', alt: copy[locale].rentalSeo };
+  const preview = image || { ...defaultSocialImage, alt: copy[locale].rentalSeo };
+  const previewImage = { ...preview, url: new URL(preview.url, base).href };
   return {
     metadataBase: new URL(base),
+    applicationName: s.brand,
     title: fullTitle,
     description: summary,
     alternates: { canonical: url, languages: noindex ? undefined : singleLanguage ? { 'sr-Latn': url, 'x-default': url } : languageAlternates(base, path) },
@@ -36,9 +39,8 @@ export function seo(
     openGraph: {
       title: fullTitle, description: summary, url, siteName: s.brand, type: 'website',
       locale: { sr: 'sr_RS', en: 'en_GB', ru: 'ru_RU', tr: 'tr_TR', zh: 'zh_CN' }[locale],
-      images: [preview],
+      images: [previewImage],
     },
-    twitter: { card: 'summary_large_image', title: fullTitle, description: summary, images: [preview] },
-    icons: { icon: '/favicon.svg' },
+    twitter: { card: 'summary_large_image', title: fullTitle, description: summary, images: [previewImage] },
   };
 }

@@ -47,7 +47,7 @@ test('Vercel renders catalog without a writable data directory', async () => {
   const instrument = await fetch(base + '/sr/katalog?q=Laserski+nivelator');
   assert.equal(instrument.status, 200);
   assert.match(await instrument.text(), /Laserski nivelator/);
-  assert.equal((await fetch(base + '/favicon.ico')).status, 404);
+  assert.equal((await fetch(base + '/favicon.ico')).status, 200);
   const admin = await fetch(base + '/admin');
   assert.equal(admin.status, 200);
   assert.match(await admin.text(), /Administracija trenutno nije dostupna/);

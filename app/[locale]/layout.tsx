@@ -9,6 +9,8 @@ import '../globals.css';
 import { CartProvider } from '@/components/commerce/CartProvider';
 import Analytics from '@/components/commerce/Analytics';
 import CatalogNotice from '@/components/CatalogNotice';
+import { siteIcons } from '@/lib/seo-assets';
+export const metadata = { icons: siteIcons };
 export const dynamic = 'force-dynamic';
 async function dbLayout({
   children,

@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
+import { siteIcons } from '@/lib/seo-assets';
 import '../globals.css';
 import './admin.css';
 export const metadata: Metadata = {
   title: 'Administracija | Alat Rent',
   robots: { index: false, follow: false },
-  icons: { icon: '/favicon.svg' },
+  icons: siteIcons,
 };
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

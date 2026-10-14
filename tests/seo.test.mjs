@@ -5,6 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { spawn } from 'node:child_process';
 import { DatabaseSync } from 'node:sqlite';
+import sharp from 'sharp';
 
 const dir = mkdtempSync(join(tmpdir(), 'rent-seo-test-'));
 const base = 'http://127.0.0.1:3014';
@@ -56,6 +57,49 @@ test('Every seeded tool has specific search intent, useful copy and an existing 
     assert.ok(seed.categories.some(category => category.id === tool.categoryId));
   }
   assert.equal(uses.size, seed.tools.length);
+});
+
+test('Search crawlers get raster favicons, a business logo and complete preview image metadata', async () => {
+  for (const locale of locales) {
+    const { html } = await get('/' + locale);
+    const icons = html.match(/<link rel="(?:icon|shortcut icon|apple-touch-icon)"[^>]*>/g)?.join('\n') || '';
+    assert.match(icons, /<link rel="icon" href="\/favicon\.ico(?:\?[^"]*)?"/);
+    assert.match(icons, /<link rel="icon" href="\/favicon\.png"[^>]*sizes="96x96"/);
+    assert.match(icons, /<link rel="apple-touch-icon" href="\/apple-touch-icon\.png"[^>]*sizes="180x180"/);
+    const business = jsonLd(html).find(node => node['@type'] === 'Organization');
+    assert.equal(business.logo.url, origin + '/images/brand-logo.png');
+    assert.equal(business.logo.width, 512);
+    assert.equal(business.logo.height, 512);
+    assert.equal(business.image, origin + '/images/equipment-hero.png');
+    assert.match(html, /<meta property="og:image:width" content="1536"/);
+    assert.match(html, /<meta property="og:image:height" content="1024"/);
+    assert.match(html, /<meta property="og:image:type" content="image\/png"/);
+    assert.equal(tag(html, 'twitter:image'), business.image);
+  }
+  for (const [path, size] of [['/favicon.png', 96], ['/apple-touch-icon.png', 180], ['/images/brand-logo.png', 512]]) {
+    const response = await fetch(base + path, { headers: { 'User-Agent': 'Googlebot-Image' } });
+    assert.equal(response.status, 200, path);
+    assert.match(response.headers.get('content-type'), /image\/png/);
+    const info = await sharp(Buffer.from(await response.arrayBuffer())).metadata();
+    assert.equal(info.width, size);
+    assert.equal(info.height, size);
+  }
+  const favicon = await fetch(base + '/favicon.ico');
+  assert.equal(favicon.status, 200);
+  assert.match(favicon.headers.get('content-type'), /image\/(?:x-icon|vnd.microsoft.icon)/);
+  const ico = Buffer.from(await favicon.arrayBuffer());
+  assert.equal(ico.readUInt16LE(2), 1);
+  assert.equal(ico.readUInt16LE(4), 4);
+  for (let i = 0; i < 4; i++) {
+    const entry = 6 + i * 16;
+    const offset = ico.readUInt32LE(entry + 12);
+    const length = ico.readUInt32LE(entry + 8);
+    const info = await sharp(ico.subarray(offset, offset + length)).metadata();
+    assert.equal(info.width, [16, 32, 48, 96][i]);
+    assert.equal(info.height, info.width);
+  }
+  assert.match(tag((await get('/admin')).html, 'robots'), /noindex/);
+  assert.match((await get('/sr/nalog')).html, /href="\/favicon\.png"/);
 });
 
 test('Crawl every sitemap URL: 200, one H1, unique metadata, canonical, reciprocal hreflang and parseable JSON-LD', async () => {

@@ -130,7 +130,7 @@ test('Setup authenticated commerce, rules and rental inventory', async () => {
       price,
       deposit: 0,
       quantity: 5,
-      image: '',
+      image: '/images/catalog/tool-001.jpg',
       published: true,
       featured: false,
     });

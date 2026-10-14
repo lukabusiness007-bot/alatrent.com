@@ -814,7 +814,7 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
                       onChange={(e) => upload(e.target.files?.[0])}
                     />
                   </label>
-                  <p className="field-note">JPG, PNG ili WebP · do 5 MB</p>
+                  <p className="field-note">JPG, PNG ili WebP · do 5 MB. Prava fotografija alata je obavezna za objavljivanje.</p>
                 </section>
               </div>
               <div className="editor-save">

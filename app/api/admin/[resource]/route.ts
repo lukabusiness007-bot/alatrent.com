@@ -46,7 +46,7 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
       if (!existing && curated && curated.action !== 'keep')
         return Response.json({ error: 'Ovaj model je uklonjen iz administracije. Izmeni izabrani model.', existingId: curated.replacementId }, { status: 409 });
       let image = text(b.image, 2048, false);
-      if (image && !(existing?.catalogModel && image === existing.image && isCrafterImage(image)) && !/^\/media\/[a-f0-9-]+\.(jpg|png|webp)$/.test(image) && !/^\/images\/catalog\/tool-\d{3}\.(jpg|jpeg|png|webp)$/.test(image))
+      if (image && !(existing?.catalogModel && image === existing.image && isCrafterImage(image)) && !/^\/media\/[a-f0-9-]+\.(jpg|png|webp)$/.test(image) && !/^\/images\/catalog\/(?:tool-\d{3}|crafter-\d+)\.(jpg|jpeg|png|webp)$/.test(image))
         throw new Error('Koristi otpremanje fotografije.');
       const quantity = b.quantity === null ? null : amount(b.quantity, false);
       if (quantity !== null && (!Number.isInteger(b.quantity) || quantity > 10000))
@@ -71,6 +71,8 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
         { error: `Ova vrsta alata već postoji: ${duplicate.name.sr}. Izmeni postojeći unos.`, existingId: duplicate.id },
         { status: 409 },
       );
+      if (b.published === true && !image)
+        throw new Error('Dodaj pravu fotografiju alata pre objavljivanja.');
       const tool: Tool = {
         id,
         slug: s,

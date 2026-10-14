@@ -165,7 +165,7 @@ async function dbPage({ params, searchParams }: Props) {
                   large
                 />
               </div>
-              {tool.image.startsWith("/images/catalog/") || tool.catalogModel ? <p className="image-caption">{t.photoNote}</p> : !tool.image && <p className="image-caption">{t.illustration}</p>}
+              {tool.image.startsWith("/images/catalog/") || tool.catalogModel ? <p className="image-caption">{t.photoNote}</p> : null}
               <div className="product-copy">
                 <h2>{t.aboutTool}</h2>
                 <p>{toolDescription(tool, locale)}</p>

@@ -2413,33 +2413,6 @@ p {
   overflow: hidden;
   background: #e9eee6;
 }
-.tool-art.art-1 {
-  background: #e4eceb;
-}
-.tool-art.art-2 {
-  background: #f1eadc;
-}
-.tool-art.art-3 {
-  background: #e7eacf;
-}
-.tool-art svg {
-  width: 93%;
-  height: 100%;
-  position: relative;
-  filter: drop-shadow(5px 9px 5px #20312115);
-  transition: transform 0.3s;
-}
-.service-card:hover .tool-art svg {
-  transform: scale(1.045) rotate(2deg);
-}
-.art-halo {
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  background: #ffffff75;
-  border-radius: 50%;
-  filter: blur(25px);
-}
 .tool-art.uploaded {
   background: #f3f5ef;
   padding: 20px;

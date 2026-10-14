@@ -1,0 +1,1442 @@
+{
+  "migration": "catalog-real-photos-2026-10-14-v1",
+  "createdAt": "2026-10-14T12:00:00.000Z",
+  "requestedIds": [
+    "crafter-20586",
+    "crafter-62855",
+    "crafter-62858"
+  ],
+  "entries": [
+    {
+      "id": "tool-009",
+      "beforeImages": [
+        "/images/catalog/tool-009.jpg"
+      ],
+      "image": "/images/catalog/tool-009.jpg"
+    },
+    {
+      "id": "tool-010",
+      "beforeImages": [
+        "/images/catalog/tool-010.jpg"
+      ],
+      "image": "/images/catalog/tool-010.jpg"
+    },
+    {
+      "id": "tool-011",
+      "beforeImages": [
+        "/images/catalog/tool-011.jpg"
+      ],
+      "image": "/images/catalog/tool-011.jpg"
+    },
+    {
+      "id": "tool-012",
+      "beforeImages": [
+        "/images/catalog/tool-012.jpg"
+      ],
+      "image": "/images/catalog/tool-012.jpg"
+    },
+    {
+      "id": "tool-014",
+      "beforeImages": [
+        "/images/catalog/tool-014.jpg"
+      ],
+      "image": "/images/catalog/tool-014.jpg"
+    },
+    {
+      "id": "tool-020",
+      "beforeImages": [
+        "/images/catalog/tool-020.jpg"
+      ],
+      "image": "/images/catalog/tool-020.jpg"
+    },
+    {
+      "id": "tool-027",
+      "beforeImages": [
+        "/images/catalog/tool-027.jpg"
+      ],
+      "image": "/images/catalog/tool-027.jpg"
+    },
+    {
+      "id": "tool-030",
+      "beforeImages": [
+        "/images/catalog/tool-030.jpg"
+      ],
+      "image": "/images/catalog/tool-030.jpg"
+    },
+    {
+      "id": "tool-032",
+      "beforeImages": [
+        "/images/catalog/tool-032.jpg"
+      ],
+      "image": "/images/catalog/tool-032.jpg"
+    },
+    {
+      "id": "tool-037",
+      "beforeImages": [
+        "/images/catalog/tool-037.png"
+      ],
+      "image": "/images/catalog/tool-037.png"
+    },
+    {
+      "id": "tool-045",
+      "beforeImages": [
+        "/images/catalog/tool-045.png"
+      ],
+      "image": "/images/catalog/tool-045.png"
+    },
+    {
+      "id": "tool-050",
+      "beforeImages": [
+        "/images/catalog/tool-050.jpg"
+      ],
+      "image": "/images/catalog/tool-050.jpg"
+    },
+    {
+      "id": "tool-055",
+      "beforeImages": [
+        "/images/catalog/tool-055.jpg"
+      ],
+      "image": "/images/catalog/tool-055.jpg"
+    },
+    {
+      "id": "tool-057",
+      "beforeImages": [
+        "/images/catalog/tool-057.jpg"
+      ],
+      "image": "/images/catalog/tool-057.jpg"
+    },
+    {
+      "id": "tool-058",
+      "beforeImages": [
+        "/images/catalog/tool-058.jpg"
+      ],
+      "image": "/images/catalog/tool-058.jpg"
+    },
+    {
+      "id": "tool-059",
+      "beforeImages": [
+        "/images/catalog/tool-059.png"
+      ],
+      "image": "/images/catalog/tool-059.png"
+    },
+    {
+      "id": "tool-060",
+      "beforeImages": [
+        "/images/catalog/tool-060.jpg"
+      ],
+      "image": "/images/catalog/tool-060.jpg"
+    },
+    {
+      "id": "tool-065",
+      "beforeImages": [
+        "/images/catalog/tool-065.webp"
+      ],
+      "image": "/images/catalog/tool-065.webp"
+    },
+    {
+      "id": "tool-066",
+      "beforeImages": [
+        "/images/catalog/tool-066.jpg"
+      ],
+      "image": "/images/catalog/tool-066.jpg"
+    },
+    {
+      "id": "crafter-21990",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/8/6/8605063404639_.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-21990.webp"
+    },
+    {
+      "id": "crafter-22407",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/8/6/8605063418995_.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-22407.webp"
+    },
+    {
+      "id": "crafter-22013",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/8/6/8605063404615.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-22013.webp"
+    },
+    {
+      "id": "crafter-63082",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/1/010101271-4053423321524-0.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-63082.webp"
+    },
+    {
+      "id": "crafter-60941",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4053423339994.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-60941.webp"
+    },
+    {
+      "id": "crafter-4168",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0060984_pegla-za-pvc-cevi-800w.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-4168.webp"
+    },
+    {
+      "id": "crafter-4738",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/1/010500200img_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-4738.webp"
+    },
+    {
+      "id": "crafter-4462",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/1/010500198img_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-4462.webp"
+    },
+    {
+      "id": "crafter-60878",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/5/9/5906083784934-1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-60878.webp"
+    },
+    {
+      "id": "crafter-35693",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/1/4/140203224.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-35693.webp"
+    },
+    {
+      "id": "crafter-30733",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/9/0/9002852720007_1_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-30733.webp"
+    },
+    {
+      "id": "crafter-62581",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/6/4/6416868583816.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-62581.webp"
+    },
+    {
+      "id": "crafter-461",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0037917_dremel-alat-visenamenski-3000-125.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-461.webp"
+    },
+    {
+      "id": "crafter-755",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043285_makita-brusilica-ravna-gd0601.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-755.webp"
+    },
+    {
+      "id": "crafter-62737",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4046664161950_1_.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-62737.webp"
+    },
+    {
+      "id": "crafter-34588",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/8/6/8605032612072_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-34588.webp"
+    },
+    {
+      "id": "crafter-22419",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/1/4/140201588img_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-22419.webp"
+    },
+    {
+      "id": "crafter-21574",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0018891_bosch-seckalica-za-grane-axt-25d.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-21574.webp"
+    },
+    {
+      "id": "crafter-731",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0054765_Bu_ilicadijamantskekruneDBM131Makita.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-731.webp"
+    },
+    {
+      "id": "crafter-674",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0024087_dewalt-kekserica-dw682k-600w.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-674.webp"
+    },
+    {
+      "id": "crafter-30323",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4059952530093_1_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-30323.webp"
+    },
+    {
+      "id": "crafter-32639",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/9/4934110710190_1_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-32639.webp"
+    },
+    {
+      "id": "crafter-62834",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/1/4/140100556-4046664225539-0.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-62834.webp"
+    },
+    {
+      "id": "crafter-537",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0038109_BoschbrusilicastacionarnaGCO14-24j.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-537.webp"
+    },
+    {
+      "id": "crafter-30788",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4006825587067_3.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-30788.webp"
+    },
+    {
+      "id": "crafter-563",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043508_makita-testera-potezno-nagibna-ls1018ln.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-563.webp"
+    },
+    {
+      "id": "crafter-741",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043388_Makitame_a_UT1200.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-741.webp"
+    },
+    {
+      "id": "crafter-672",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0024084_DeWaltBrziOdvrta_ZaSuvuGradnju-GipsDeWaltDw274540W.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-672.webp"
+    },
+    {
+      "id": "crafter-622",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043268_makita-odvijac-udarni-tw0350.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-622.webp"
+    },
+    {
+      "id": "crafter-635",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043366_makita-kp0800-rende.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-635.webp"
+    },
+    {
+      "id": "crafter-62767",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4046664073734.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-62767.webp"
+    },
+    {
+      "id": "crafter-63590",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4053423504552.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-63590.webp"
+    },
+    {
+      "id": "crafter-30354",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/3/1/3165140843652_3.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-30354.webp"
+    },
+    {
+      "id": "crafter-535",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0038075_Bosch_eki_elektropneumatskiSDSmaxGBH5-40dce.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-535.webp"
+    },
+    {
+      "id": "crafter-839",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/1/010100433img_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-839.webp"
+    },
+    {
+      "id": "crafter-30901",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/f/g/fg201_1_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-30901.webp"
+    },
+    {
+      "id": "crafter-60919",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/1/010101321.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-60919.webp"
+    },
+    {
+      "id": "crafter-866",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0061851_makita-sg1251j-rezac-kanala.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-866.webp"
+    },
+    {
+      "id": "crafter-16618",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0053877_Mutakolicagra_evinskaobi_na.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-16618.webp"
+    },
+    {
+      "id": "crafter-639",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043501_makita-fen-za-vruci-vazduh-hg5030k.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-639.webp"
+    },
+    {
+      "id": "crafter-63798",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/8/6/8605059130702.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-63798.webp"
+    },
+    {
+      "id": "crafter-32373",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/6/9/6973702580146_3.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-32373.webp"
+    },
+    {
+      "id": "crafter-5514",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0063068_DabelkolicazatransportEUROPlava600x400mmOPD.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-5514.webp"
+    },
+    {
+      "id": "crafter-31462",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/e/i/einhell-classic-elektri_na-dizalica-tc-eh-500-productimage-1_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-31462.webp"
+    },
+    {
+      "id": "crafter-63295",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/8/6/8606033730611.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-63295.webp"
+    },
+    {
+      "id": "crafter-22401",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0059765_honda-hrg466-skep-motorna-kosilica-46cm.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-22401.webp"
+    },
+    {
+      "id": "crafter-34718",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/1/4/140202782.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-34718.webp"
+    },
+    {
+      "id": "crafter-35533",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/1/4/140100278.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-35533.webp"
+    },
+    {
+      "id": "crafter-31947",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/3/4/342954_2_.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-31947.webp"
+    },
+    {
+      "id": "crafter-564",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/3/43447.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-564.webp"
+    },
+    {
+      "id": "crafter-832",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0069706_makita-sp6000j-testera-s-upustanjem_3_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-832.webp"
+    },
+    {
+      "id": "crafter-62754",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4046664261001.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-62754.webp"
+    },
+    {
+      "id": "crafter-29677",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/1/_/1_3A645894_3.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-29677.webp"
+    },
+    {
+      "id": "crafter-39866",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/1/010403618-55.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-39866.webp"
+    },
+    {
+      "id": "crafter-3085",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0038095_Boschmera_vlageuniversalhumid.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-3085.webp"
+    },
+    {
+      "id": "crafter-39897",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/3/1/3165140583169.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-39897.webp"
+    },
+    {
+      "id": "crafter-3084",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0038096_Boschtermometaricuniversaltemp.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-3084.webp"
+    },
+    {
+      "id": "crafter-31613",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/m/1/m12pistolj_3.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-31613.webp"
+    },
+    {
+      "id": "crafter-62666",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4046664122364.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-62666.webp"
+    },
+    {
+      "id": "crafter-36705",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/1/010403527.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-36705.webp"
+    },
+    {
+      "id": "crafter-37478",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/8/6/8606016116418_3.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-37478.webp"
+    },
+    {
+      "id": "crafter-35687",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/1/4/140203105.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-35687.webp"
+    },
+    {
+      "id": "crafter-34295",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/8/6/8605059105243_1B9F3971_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-34295.webp"
+    },
+    {
+      "id": "crafter-62858",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4046664012993.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-62858.webp",
+      "descriptionUpdate": {
+        "before": "Najam modela Scheppach vibro nabijač VS1000. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
+        "after": "Vibro nabijač za tabanje i sabijanje odgovarajuće podloge u uskim rovovima i oko temelja, gde je pristup vibro pločom ograničen."
+      }
+    },
+    {
+      "id": "crafter-62855",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4046664085621.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-62855.webp",
+      "descriptionUpdate": {
+        "before": "Najam modela Scheppach vibro ploča HP1800S. Alat za rad sa pločicama, cevima i materijalima za ugradnju. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
+        "after": "Vibro ploča za tabanje i sabijanje podloge od zemlje, peska i šljunka pre izrade podova, staza i prilaza. Za popločane površine potreban je odgovarajući zaštitni dodatak."
+      }
+    },
+    {
+      "id": "crafter-63334",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/8/6/8606109398288_1.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-63334.webp"
+    },
+    {
+      "id": "crafter-29924",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/A/F/AF506_3.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-29924.webp"
+    },
+    {
+      "id": "crafter-62768",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4046664041986.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-62768.webp"
+    },
+    {
+      "id": "crafter-21393",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/8/6/8605021357465_1_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-21393.webp"
+    },
+    {
+      "id": "crafter-33379",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/1/9/190500118.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-33379.webp"
+    },
+    {
+      "id": "crafter-31501",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/1/1/110300972img-4_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-31501.webp"
+    },
+    {
+      "id": "crafter-62852",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4046664242741.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-62852.webp"
+    },
+    {
+      "id": "crafter-584",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0038102_BoschsistemizaprskanjebojaPFS5000e.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-584.webp"
+    },
+    {
+      "id": "crafter-18349",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/1/0/100400003img_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-18349.webp"
+    },
+    {
+      "id": "crafter-63298",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/8/6/8606109398172.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-63298.webp"
+    },
+    {
+      "id": "crafter-62576",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/3/3/33259f79-2eb0-4d97-9347-c8e1b8a9af01.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-62576.webp"
+    },
+    {
+      "id": "crafter-31662",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/w/a/wagner1_3.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-31662.webp"
+    },
+    {
+      "id": "crafter-21743",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0048554_pumpa-za-vodu-povrsinska-centrifugalna-cpm-132-pedrollo.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-21743.webp"
+    },
+    {
+      "id": "crafter-21756",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0059386_pumpa-za-prljavu-vodu-potapajuca-dm-10-pedrollo.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-21756.webp"
+    },
+    {
+      "id": "crafter-21993",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0047555_pumpa-za-vodu-honda-wb20xt4drx.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-21993.webp"
+    },
+    {
+      "id": "crafter-21755",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0048547_pumpa-za-vodu-potapajuca-top-multi-ii-pedrollo.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-21755.webp"
+    },
+    {
+      "id": "crafter-10868",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/4/040300368img-3_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-10868.webp"
+    },
+    {
+      "id": "crafter-20591",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0045346_krause-climtec-skela-osnovni-paket-3m.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-20591.webp"
+    },
+    {
+      "id": "crafter-476",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0038078_Boschbu_ilicastubnaPBD40.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-476.webp"
+    },
+    {
+      "id": "crafter-754",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043282_MakitabrusilicadvostranastonaGB602.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-754.webp"
+    },
+    {
+      "id": "crafter-62751",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4046664113874.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-62751.webp"
+    },
+    {
+      "id": "crafter-35198",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/1/010100460.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-35198.webp"
+    },
+    {
+      "id": "crafter-756",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043435_makita-polirka-9237cb.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-756.webp"
+    },
+    {
+      "id": "crafter-634",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043264_makita-brusilica-tracna-9910.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-634.webp"
+    },
+    {
+      "id": "crafter-757",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043355_makita-bo3710-brusilica-vibraciona-190w-93x185mm.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-757.webp"
+    },
+    {
+      "id": "crafter-562",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043372_makita-brusilica-ekscentricna-bo5041.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-562.webp"
+    },
+    {
+      "id": "crafter-32934",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/8/0886661364664_1_1.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-32934.webp"
+    },
+    {
+      "id": "crafter-20586",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0053584_cagsan-merdevine-aluminijumske-trodelne-3x10-pro.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-20586.webp",
+      "descriptionUpdate": {
+        "before": "Najam modela Cagsan merdevine aluminijumske trodelne 3X10 pro. Oprema za pristup visini, pozicioniranje ili transport tereta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
+        "after": "Trodelne aluminijumske merdevine za pristup visini pri krečenju, montaži i održavanju. Potrebnu visinu i način postavljanja dogovaramo pre najma."
+      }
+    },
+    {
+      "id": "crafter-63074",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/1/010101275-4053423302387-1.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-63074.webp"
+    },
+    {
+      "id": "crafter-491",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0024110_DeWaltUbodnaTesteraDeWaltDw331K701W.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-491.webp"
+    },
+    {
+      "id": "crafter-37775",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/8/6/8605032616162.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-37775.webp"
+    },
+    {
+      "id": "crafter-936",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/1/010100602_3.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-936.webp"
+    },
+    {
+      "id": "crafter-632",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043280_makita-ga9020-ugaona-brusilica-velika-2200w-230mm.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-632.webp"
+    },
+    {
+      "id": "crafter-63121",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4053423330656.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-63121.webp"
+    },
+    {
+      "id": "crafter-63124",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/4/0/4053423330083.png",
+        ""
+      ],
+      "image": "/images/catalog/crafter-63124.webp"
+    },
+    {
+      "id": "crafter-35684",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/1/4/140203658.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-35684.webp"
+    },
+    {
+      "id": "crafter-638",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/0/0/0043441_makita-usisivac-vc2512l.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-638.webp"
+    },
+    {
+      "id": "crafter-35551",
+      "beforeImages": [
+        "https://www.crafter.rs/media/catalog/product/cache/5108a01bede2155e9df79a529c59aa6c/1/1/110301320_1_.jpg",
+        ""
+      ],
+      "image": "/images/catalog/crafter-35551.webp"
+    },
+    {
+      "id": "tool-081",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-081.webp"
+    },
+    {
+      "id": "tool-085",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-085.webp"
+    },
+    {
+      "id": "tool-087",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-087.webp"
+    },
+    {
+      "id": "tool-092",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-092.webp"
+    },
+    {
+      "id": "tool-094",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-094.webp"
+    },
+    {
+      "id": "tool-098",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-098.webp"
+    },
+    {
+      "id": "tool-121",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-121.webp"
+    },
+    {
+      "id": "tool-140",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-140.webp"
+    },
+    {
+      "id": "tool-086",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-086.webp"
+    },
+    {
+      "id": "tool-103",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-103.webp"
+    },
+    {
+      "id": "tool-104",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-104.webp"
+    },
+    {
+      "id": "tool-115",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-115.webp"
+    },
+    {
+      "id": "tool-116",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-116.webp"
+    },
+    {
+      "id": "tool-123",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-123.webp"
+    },
+    {
+      "id": "tool-126",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-126.webp"
+    },
+    {
+      "id": "tool-129",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-129.webp"
+    },
+    {
+      "id": "tool-172",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-172.webp"
+    },
+    {
+      "id": "tool-175",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-175.webp"
+    },
+    {
+      "id": "tool-082",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-082.webp"
+    },
+    {
+      "id": "tool-073",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-073.webp"
+    },
+    {
+      "id": "tool-076",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-076.webp"
+    },
+    {
+      "id": "tool-088",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-088.webp"
+    },
+    {
+      "id": "tool-100",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-100.webp"
+    },
+    {
+      "id": "tool-091",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-091.webp"
+    },
+    {
+      "id": "tool-101",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-101.webp"
+    },
+    {
+      "id": "tool-102",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-102.webp"
+    },
+    {
+      "id": "tool-105",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-105.webp"
+    },
+    {
+      "id": "tool-106",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-106.webp"
+    },
+    {
+      "id": "tool-107",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-107.webp"
+    },
+    {
+      "id": "tool-110",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-110.webp"
+    },
+    {
+      "id": "tool-112",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-112.webp"
+    },
+    {
+      "id": "tool-114",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-114.webp"
+    },
+    {
+      "id": "tool-120",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-120.webp"
+    },
+    {
+      "id": "tool-122",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-122.webp"
+    },
+    {
+      "id": "tool-124",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-124.webp"
+    },
+    {
+      "id": "tool-125",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-125.webp"
+    },
+    {
+      "id": "tool-132",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-132.webp"
+    },
+    {
+      "id": "tool-133",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-133.webp"
+    },
+    {
+      "id": "tool-134",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-134.webp"
+    },
+    {
+      "id": "tool-135",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-135.webp"
+    },
+    {
+      "id": "tool-136",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-136.webp"
+    },
+    {
+      "id": "tool-138",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-138.webp"
+    },
+    {
+      "id": "tool-143",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-143.webp"
+    },
+    {
+      "id": "tool-145",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-145.webp"
+    },
+    {
+      "id": "tool-146",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-146.webp"
+    },
+    {
+      "id": "tool-160",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-160.webp"
+    },
+    {
+      "id": "tool-161",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-161.webp"
+    },
+    {
+      "id": "tool-162",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-162.webp"
+    },
+    {
+      "id": "tool-163",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-163.webp"
+    },
+    {
+      "id": "tool-164",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-164.webp"
+    },
+    {
+      "id": "tool-165",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-165.webp"
+    },
+    {
+      "id": "tool-166",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-166.webp"
+    },
+    {
+      "id": "tool-167",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-167.webp"
+    },
+    {
+      "id": "tool-168",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-168.webp"
+    },
+    {
+      "id": "tool-169",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-169.webp"
+    },
+    {
+      "id": "tool-170",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-170.webp"
+    },
+    {
+      "id": "tool-171",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-171.webp"
+    },
+    {
+      "id": "tool-173",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-173.webp"
+    },
+    {
+      "id": "tool-174",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-174.webp"
+    },
+    {
+      "id": "tool-176",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-176.webp"
+    },
+    {
+      "id": "tool-177",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-177.webp"
+    },
+    {
+      "id": "tool-178",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-178.webp"
+    },
+    {
+      "id": "tool-180",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-180.webp"
+    },
+    {
+      "id": "tool-181",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-181.webp"
+    },
+    {
+      "id": "tool-183",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-183.webp"
+    },
+    {
+      "id": "tool-184",
+      "beforeImages": [
+        ""
+      ],
+      "image": "/images/catalog/tool-184.webp"
+    }
+  ]
+}

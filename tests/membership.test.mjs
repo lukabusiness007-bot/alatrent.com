@@ -51,7 +51,7 @@ test('Club signup requires valid email and phone and grants 5% immediately', asy
   assert.equal(joined.data.customer.depositThreshold, 3);
   admin = (await request('/api/login', { password })).cookie;
   const name = Object.fromEntries(['sr', 'en', 'ru', 'tr', 'zh'].map(l => [l, 'Membership test equipment']));
-  tool = (await request('/api/admin/tools', { slug: 'membership-test-equipment', name, description: name, categoryId: 'cat-1', price: 2000, deposit: 9999, quantity: 5, image: '', published: true, featured: false }, admin)).data;
+  tool = (await request('/api/admin/tools', { slug: 'membership-test-equipment', name, description: name, categoryId: 'cat-1', price: 2000, deposit: 9999, quantity: 5, image: '/images/catalog/tool-001.jpg', published: true, featured: false }, admin)).data;
   const member = await api('quote', { items: [item()], delivery: 'pickup' });
   assert.equal(member.data.rentalTotal, 1900);
   assert.equal(member.data.total, 1900, 'deposit is separate from rental revenue');

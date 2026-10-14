@@ -154,7 +154,7 @@ test('Approved Crafter models import once, distinguish models and preserve trust
     assert.equal(savedTool(tool.id).quantity, editedCultivator?2:null);
     assert.equal(savedTool(tool.id).price, editedCultivator?3000:tool.price);
   }
-  const tool = crafterImport.tools.find(t => t.published && t.price !== null);
+  const tool = saved('tools', crafterImport.tools.find(t => t.published && t.price !== null).id);
   const result = await api('/api/admin/tools', { ...tool, published:false, price: 2345, quantity: 3,
     catalogModel: { ...tool.catalogModel, productId: 'forged', purchasePrice: 1 } });
   assert.equal(result.status, 200);

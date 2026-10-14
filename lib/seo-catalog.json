@@ -14232,30 +14232,43 @@
     "selection": "Za model Scheppach reverzibilna vibro ploča HP3000S: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
   },
   "scheppach-vibro-nabijac-vs1000-cr-62858": {
-    "term": "modela Scheppach vibro nabijač VS1000",
+    "term": "vibro nabijača za tabanje podloge",
     "aliases": [
       "Scheppach vibro nabijač VS1000",
       "Ostala građevinska oprema",
       "Vibro nabijači",
       "Vibro žaba",
       "vibro skakavac",
-      "nabijač zemlje"
+      "nabijač zemlje",
+      "vibro žaba",
+      "vibro nabijač",
+      "mašina za tabanje podova",
+      "tabanje zemlje",
+      "sabijanje podloge",
+      "sabijanje u rovovima"
     ],
-    "use": "Najam modela Scheppach vibro nabijač VS1000. Alat za bušenje, pripremu materijala i radove adaptacije. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
-    "selection": "Za model Scheppach vibro nabijač VS1000: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
+    "use": "Vibro nabijač za tabanje i sabijanje odgovarajuće podloge u uskim rovovima i oko temelja, gde je pristup vibro pločom ograničen.",
+    "selection": "Opiši materijal, širinu prolaza i debljinu sloja koji se sabija. Za ravne i veće površine razmotri vibro ploču; odgovarajuću mašinu potvrđujemo pre najma."
   },
   "scheppach-vibro-ploca-hp1800s-cr-62855": {
-    "term": "modela Scheppach vibro ploča HP1800S",
+    "term": "vibro ploče za tabanje podova i podloge",
     "aliases": [
       "Scheppach vibro ploča HP1800S",
       "Ostala građevinska oprema",
       "Vibro ploče",
       "Vibro ploča",
       "vibro ploča",
-      "mašina za sabijanje"
+      "mašina za sabijanje",
+      "mašina za tabanje podova",
+      "masina za tabanje podova",
+      "tabanje podova",
+      "tabanje podloge",
+      "sabijanje zemlje",
+      "sabijanje šljunka",
+      "behaton"
     ],
-    "use": "Najam modela Scheppach vibro ploča HP1800S. Alat za rad sa pločicama, cevima i materijalima za ugradnju. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
-    "selection": "Za model Scheppach vibro ploča HP1800S: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
+    "use": "Vibro ploča za tabanje i sabijanje podloge od zemlje, peska i šljunka pre izrade podova, staza i prilaza. Za popločane površine potreban je odgovarajući zaštitni dodatak.",
+    "selection": "Navedi vrstu podloge, površinu i debljinu sloja koji treba sabiti. Za behaton proveravamo zaštitnu prostirku, a za uske rovove razmotri vibro nabijač."
   },
   "abac-pro-pneumatski-skidac-rdje-19-iglica-cr-63334": {
     "term": "modela ABAC Pro pneumatski skidač rđe 19 iglica",
@@ -17701,17 +17714,22 @@
     "selection": "Za model Villager Zen BC 3840 akumulatorski trimer: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
   },
   "cagsan-merdevine-aluminijumske-trodelne-3x10-pro-cr-20586": {
-    "term": "modela Cagsan merdevine aluminijumske trodelne 3X10 pro",
+    "term": "trodelnih aluminijumskih merdevina",
     "aliases": [
       "Cagsan merdevine aluminijumske trodelne 3X10 pro",
       "Trodelne merdevine",
       "Višenamenske merdevine",
       "Merdevine",
       "trodelne merdevine",
-      "radne merdevine"
+      "radne merdevine",
+      "merdevine",
+      "rentiranje merdevina",
+      "iznajmljivanje merdevina",
+      "aluminijumske merdevine",
+      "rad na visini"
     ],
-    "use": "Najam modela Cagsan merdevine aluminijumske trodelne 3X10 pro. Oprema za pristup visini, pozicioniranje ili transport tereta. Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda.",
-    "selection": "Za model Cagsan merdevine aluminijumske trodelne 3X10 pro: Navedi posao, materijal ili površinu, potrebnu veličinu i napajanje. Model, dodatke i sadržaj kompleta potvrđujemo pre najma. Dostava je na teritoriji grada Beograda."
+    "use": "Trodelne aluminijumske merdevine za pristup visini pri krečenju, montaži i održavanju. Potrebnu visinu i način postavljanja dogovaramo pre najma.",
+    "selection": "Navedi radnu visinu, prostor za postavljanje i da li su potrebne naslanjajuće ili samostojeće merdevine. Model, nosivost i transport potvrđujemo pri dogovoru."
   },
   "cagsan-merdevine-aluminijumske-trodelne-3x12-pro-cr-20726": {
     "term": "modela Cagsan merdevine aluminijumske trodelne 3X12 pro",

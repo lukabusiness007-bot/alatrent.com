@@ -125,12 +125,14 @@ test('Create, update, hide and delete categories and tools with all translations
     price: 1000,
     deposit: 5000,
     quantity: 1,
-    image: '',
+    image: '/images/catalog/tool-001.jpg',
     published: true,
     featured: true,
   });
   assert.equal(r.response.status, 200);
   tool = r.result;
+  assert.equal((await api('/api/admin/tools', { ...tool, image: '' })).response.status, 400,
+    'Published rentals require a real photograph');
   assert.equal(tool.deposit, null, "deposits are agreed per rental rather than per tool");
   assert.equal((await fetch(base + '/en/alat/test-drill')).status, 200);
   assert.equal(

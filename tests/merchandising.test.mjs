@@ -124,7 +124,7 @@ before(async () => {
         categoryId: category.id,
         price,
         quantity: 5,
-        image: '',
+        image: '/images/catalog/tool-001.jpg',
         deposit: null,
         published: true,
         featured: false,

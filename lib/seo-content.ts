@@ -5,7 +5,7 @@ import photos from './catalog-photos.json';
 import { copy, money } from './i18n';
 import type { Category, Locale, Tool } from './types';
 
-export const SEO_CONTENT_UPDATED_AT = '2026-10-14T12:00:00.000Z';
+export const SEO_CONTENT_UPDATED_AT = '2026-10-14T14:00:00.000Z';
 const seedBySlug = new Map(seed.tools.map(tool => [tool.slug, tool]));
 
 type ToolContent = { term: string; aliases: string[]; use: string; selection: string };
@@ -71,8 +71,8 @@ export const categoryContent: Record<string, { title: string; intro: string; sel
 };
 
 export function toolHeading(tool: Tool, locale: Locale) {
-  if (locale === 'sr' && priorityContent[tool.id] && tool.name.sr === seedBySlug.get(tool.slug)?.name.sr) return priorityContent[tool.id].heading;
-  if (tool.catalogModel && locale === 'sr') return `Iznajmljivanje modela ${tool.name.sr}`;
+  const original = seedBySlug.get(tool.slug);
+  if (locale === 'sr' && original && tool.name.sr !== original.name.sr) return `Iznajmljivanje ${tool.name.sr}`;
   return locale === 'sr' && toolContent[tool.slug]
     ? `Iznajmljivanje ${toolContent[tool.slug].term}`
     : `${tool.name[locale]} — ${copy[locale].rentalWord}`;
@@ -82,7 +82,6 @@ export function toolHeading(tool: Tool, locale: Locale) {
 export function toolDescription(tool: Tool, locale: Locale) {
   const replacement = photos.entries.find(e => e.id === tool.id && 'descriptionUpdate' in e) as { descriptionUpdate?: { after: string } } | undefined;
   if (locale === 'sr' && priorityContent[tool.id] && (tool.description.sr === seedBySlug.get(tool.slug)?.description.sr || tool.description.sr === replacement?.descriptionUpdate?.after)) return priorityContent[tool.id].intro;
-  if (tool.catalogModel) return tool.description[locale];
   const original = seedBySlug.get(tool.slug);
   if (locale === 'sr' && toolContent[tool.slug] && tool.description.sr === original?.description.sr)
     return toolContent[tool.slug].use;

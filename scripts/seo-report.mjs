@@ -2,8 +2,9 @@ import { readFileSync, writeFileSync } from 'node:fs';
 const read = path => JSON.parse(readFileSync(new URL(path, import.meta.url), 'utf8'));
 const seed = read('../lib/seed.json');
 const content = read('../lib/seo-catalog.json');
+const activeTools = seed.tools.filter(tool => tool.published);
 const plain = text => text.replace(/đ/g, 'dj').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-const tools = seed.tools.map(tool => {
+const tools = activeTools.map(tool => {
   const entry = content[tool.slug];
   if (!entry) throw new Error('Missing SEO content: ' + tool.slug);
   return {
@@ -17,7 +18,7 @@ const tools = seed.tools.map(tool => {
   };
 });
 const report = {
-  scope: `${seed.tools.filter(t => !t.catalogModel).length} vrsta alata i ${seed.tools.filter(t => t.catalogModel).length} konkretnih modela; fokus na srpski jezik. Bez procena obima pretrage ili tvrdnji o pozicijama.`,
+  scope: `${activeTools.length} objavljenih artikala sa frazama prema vrsti alata i nameni; fokus na srpski jezik. Marka i model su dodatni detalji. Bez procena obima pretrage ili tvrdnji o pozicijama.`,
   deliveryArea: 'Isključivo administrativna teritorija grada Beograda, uključujući Obrenovac, Sremčicu i Železnik.',
   strategy: 'Jedan indeksabilan URL po vrsti ili konkretnom modelu i jeziku. Modeli imaju stabilan ID izvora, sopstvenu stranicu i naziv. Sinonimi, latinica bez dijakritike i ćirilica ne stvaraju nove URL-ove. Stranice paginacije imaju sopstveni canonical; filteri i sortiranje su noindex.',
   tools,

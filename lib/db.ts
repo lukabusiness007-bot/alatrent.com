@@ -26,7 +26,7 @@ import { extraKits } from './commerce/kits';
 import { initialJobs } from './commerce/job-seed';
 import { catalogOnly, persistentDatabase } from './storage';
 import { requestDatabase, withPersistentDatabase, SQLITE_SCHEMA } from './postgres.mjs';
-import { defaultContact } from './contact';
+import { contactPhone, defaultContact } from './contact';
 const dir = process.env.DATA_DIR || path.join(process.cwd(), 'data');
 if (!catalogOnly && !persistentDatabase) mkdirSync(dir, { recursive: true });
 const globalDb = globalThis as unknown as { rentalDb?: DatabaseSync };
@@ -106,6 +106,16 @@ function initializeDatabase() {
       }
       put('meta', 'alat-rent-contact-v1', true);
     });
+  // Replace the old example phone once; keep subsequent administrator edits.
+  if (!get('meta', 'alat-rent-phone-v2')) transaction(() => {
+    if (get('meta', 'alat-rent-phone-v2')) return;
+    const current = get<Settings>('settings', 'main');
+    if (current && (!current.phone.trim() || contactPhone(current.phone) === '+381601234567')) {
+      put('settings', 'main', { ...current, phone: defaultContact.phone });
+    }
+    put('meta', 'alat-rent-phone-v2', true);
+  });
+
   // Rename the original brand in existing installations as well as new catalogs.
   if (!get('meta', 'alat-rent-brand-v1'))
     transaction(() => {
@@ -298,7 +308,7 @@ if (!persistentDatabase) initializeDatabase();
 // marker added in future. A missing flag or bootstrap password still runs the
 // full initializer under its cross-instance transaction lock.
 const initializationCompletion = {
-  meta: ['seeded', 'alat-rent-contact-v1', 'alat-rent-brand-v1',
+  meta: ['seeded', 'alat-rent-contact-v1', 'alat-rent-phone-v2', 'alat-rent-brand-v1',
     'photos-prices-no-deposit-v1', 'club-deposit-policy-v1',
     catalogImport.migration, catalogExpansion.migration, catalogSourcesImport.migration,
     catalogCrafterImport.migration, catalogNameCleanup.migration,

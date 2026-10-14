@@ -2,6 +2,7 @@ import { href, copy } from '@/lib/i18n';
 import { siteOrigin, languageTag } from '@/lib/site-url';
 import { toolDescription, toolHeading } from '@/lib/seo-content';
 import { defaultSocialImage, organizationLogo } from '@/lib/seo-assets';
+import { contactPhone } from '@/lib/contact';
 import type { Locale, PublicData, Settings, Tool } from '@/lib/types';
 
 export function JsonLd({ value }: { value: unknown }) {
@@ -15,7 +16,7 @@ export function OrganizationSchema({ settings }: { settings: Settings }) {
       url: base + '/sr',
       logo: { '@type': 'ImageObject', url: base + organizationLogo, contentUrl: base + organizationLogo, width: 512, height: 512, caption: settings.brand },
       image: base + defaultSocialImage.url,
-      ...(settings.phone && { telephone: settings.phone }), ...(settings.email && { email: settings.email }),
+      ...(settings.phone && { telephone: contactPhone(settings.phone) }), ...(settings.email && { email: settings.email }),
       ...(settings.address.trim() && { address: { '@type': 'PostalAddress', streetAddress: settings.address, addressLocality: 'Beograd', addressCountry: 'RS' } }),
       areaServed: { '@type': 'AdministrativeArea', name: 'Grad Beograd, Srbija' } },
     { '@type': 'WebSite', '@id': base + '/#website', name: settings.brand, url: base + '/sr', publisher: { '@id': base + '/#organization' }, inLanguage: ['sr-Latn','en','ru','tr','zh-Hans'] },

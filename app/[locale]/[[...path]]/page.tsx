@@ -182,6 +182,7 @@ async function dbPage({ params, searchParams }: Props) {
                 <h2>{t.aboutTool}</h2>
                 <p>{toolDescription(tool, locale)}</p>
                 <h2>{mt(locale,'fit')}</h2><p>{locale==='sr' ? toolSelection(tool) : t.faq4a}</p>
+                {tool.catalogModel && <><h2>{t.catalogModel}</h2><p>{tool.name[locale]}</p></>}
                 <h2>{t.specs}</h2>
                 <ul className="check-list">
                   <li>

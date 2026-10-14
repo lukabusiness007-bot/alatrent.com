@@ -8,6 +8,12 @@ Katalog posle dopune od 12.10.2026. ima 98 vrsta alata i 10 kategorija. [Mapa fr
 
 ## Šta je sprovedeno
 
+### Fraze prema nameni i potvrđen telefon — 14.10.2026.
+
+Za svih 188 objavljenih artikala fraze u `lib/seo-catalog.json` usklađene su sa Google Business uslugama: vrsta alata i namena vode naslov stranice, H1, SEO opis, rental `Service` i pitanja o najmu. Marka, model i specifikacije ostaju u odeljku „Model iz kataloga“. Postojeći URL-ovi i canonical linkovi su sačuvani. Sinonimi, najam i rentiranje uključeni su u pretragu kataloga; originalni nazivi modela ostaju pretraživi. Sadržaj modela objašnjava primenu i izbor opreme; ručni opisi i nazivi iz admina imaju prednost. Mapa ključnih fraza sada obuhvata samo objavljene artikle.
+
+Vlasnik je potvrdio telefon `062 9751270` (`+381629751270`). Postavljen je u produkcionim podešavanjima i na Google Business profilu. Poziv, Viber, WhatsApp i JSON-LD koriste isti broj. Jednokratna migracija zamenjuje stari primer broja ili praznu vrednost, a čuva kasnije administratorske izmene. Google potvrđuje prijem izmene i prikazuje status na čekanju.
+
 - Ručno pripremljena posebna namena i kriterijumi izbora za svih 98 vrsta alata u `lib/seo-catalog.json`. Srpski tekst nije samo zamena imena alata u istom pasusu.
 - Posebni naslovi, opisi i smernice za 10 kategorija; primarne fraze u H1 i title elementima. Naslov početne stranice jasno navodi iznajmljivanje alata u Beogradu.
 - Dinamični title i description za sve javne stranice na pet jezika, uključujući posebne opise za kontakt, dostavu, proces najma, pakete i klub. Detaljne smernice o nameni svakog alata napisane su na srpskom; strani jezici koriste svoje nazive i lokalizovan tekst usluge.

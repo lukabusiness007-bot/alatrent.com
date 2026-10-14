@@ -1,5 +1,5 @@
 export const defaultContact = {
-  phone: '+381 60 123 4567',
+  phone: '062 9751270',
   email: 'office@alatrenta.rs',
 };
 

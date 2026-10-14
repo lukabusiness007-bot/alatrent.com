@@ -137,9 +137,49 @@ test('Crawl every sitemap URL: 200, one H1, unique metadata, canonical, reciproc
         assert.ok(nodes.some(node => node['@type'] === 'BreadcrumbList'));
         const image = html.match(/<meta property="og:image" content="([^"]+)"/)?.[1];
         assert.equal(image, service.image || origin + '/images/equipment-hero.png');
+        if (url.startsWith(origin + '/sr/')) {
+          const slug = new URL(url).pathname.split('/').at(-1);
+          assert.equal(service.name, 'Iznajmljivanje ' + content[slug].term);
+          assert.ok(!/^Iznajmljivanje modela\s/.test(service.name), url);
+          const tool = active.find(t => t.slug === slug);
+          if (tool?.catalogModel) assert.ok(html.includes('<h2>Model iz kataloga</h2>'), url);
+        }
       }
     }
   }
+});
+
+test('Confirmed business phone is consistent in contact links and structured data', async () => {
+  for (const locale of locales) {
+    const { html } = await get('/' + locale + '/kontakt');
+    assert.ok(html.includes('062 9751270'));
+    assert.ok(html.includes('href="tel:+381629751270"'));
+    assert.ok(html.includes('href="https://wa.me/381629751270"'));
+    assert.ok(html.includes('href="viber://chat?number=%2B381629751270"'));
+    assert.equal(jsonLd(html).find(node => node['@type'] === 'Organization').telephone, '+381629751270');
+    assert.ok(!html.includes('href="tel:+381601234567"'));
+  }
+});
+
+test('Search phrases drive the page, FAQ and catalog while the specific model stays visible', async () => {
+  const tool = active.find(t => t.id === 'crafter-755');
+  const { html } = await get('/sr/alat/' + tool.slug);
+  assert.match(html, /<h1>Iznajmljivanje ravne brusilice \(bijaksa\)<\/h1>/);
+  assert.match(html, /<title>Iznajmljivanje ravne brusilice \(bijaksa\) — Beograd/);
+  assert.ok(html.includes('Koliko košta najam ravne brusilice (bijaksa)?'));
+  assert.ok(html.includes('<h2>Model iz kataloga</h2><p>Makita brusilica ravna GD0601</p>'));
+  assert.ok(html.includes('Ravna brusilica, poznata i kao bijaks'));
+  for (const query of ['iznajmljivanje ravne brusilice', 'najam bijaksa', 'rentiranje ravne brusilice', 'GD0601']) {
+    assert.ok((await get('/sr/katalog?q=' + encodeURIComponent(query))).html.includes('href="/sr/alat/' + tool.slug + '"'), query);
+  }
+  const original = read('tools', tool.id);
+  try {
+    write('tools', tool.id, { ...original, name: { ...original.name, sr: 'Naša posebna ravna brusilica' }, description: { ...original.description, sr: 'Poseban opis koji čuvamo iz administratora.' } });
+    const custom = (await get('/sr/alat/' + tool.slug)).html;
+    const service = jsonLd(custom).find(node => node['@type'] === 'Service');
+    assert.equal(service.name, 'Iznajmljivanje Naša posebna ravna brusilica');
+    assert.equal(service.description, 'Poseban opis koji čuvamo iz administratora.');
+  } finally { write('tools', tool.id, original); }
 });
 
 test('Private, filtered, empty and operational pages stay out of the index; unknown paths return 404', async () => {

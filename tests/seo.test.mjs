@@ -59,6 +59,32 @@ test('Every seeded tool has specific search intent, useful copy and an existing 
   assert.equal(uses.size, seed.tools.length);
 });
 
+test('Home page search appearance uses the preferred business name, concise copy and crawlable icon', async () => {
+  const response = await fetch(base, { headers: { 'User-Agent': 'Googlebot' } });
+  assert.equal(response.status, 200);
+  assert.equal(response.url, base + '/sr');
+  const html = await response.text();
+  assert.match(html, /<title>Alat Rent — Iznajmljivanje alata u Beogradu<\/title>/);
+  assert.equal(tag(html, 'description'), 'Iznajmite alate i mašine u Beogradu: bušilice, pikamere, žirafe i opremu za dubinsko pranje. Pogledajte dnevne cene i dogovorite dostavu.');
+  assert.ok(tag(html, 'description').length <= 175);
+  assert.ok(!tag(html, 'description').endsWith('…'));
+  assert.match(html, /<meta property="og:site_name" content="Alat Rent"/);
+  const nodes = jsonLd(html);
+  assert.equal(nodes.find(n => n['@type'] === 'WebSite').name, 'Alat Rent');
+  assert.equal(nodes.find(n => n['@type'] === 'WebSite').url, origin + '/');
+  assert.equal(nodes.find(n => n['@type'] === 'Organization').name, 'Alat Rent');
+  const iconUrl = html.match(/<link rel="icon" href="([^"]*favicon\.png)"/)?.[1];
+  assert.equal(iconUrl, '/favicon.png');
+  assert.equal((await fetch(base + iconUrl, { headers: { 'User-Agent': 'Googlebot-Image' } })).status, 200);
+  const original = read('settings', 'main');
+  try {
+    write('settings', 'main', { ...original, brand: 'Poseban naziv' });
+    const custom = (await get('/sr')).html;
+    assert.match(custom, /<title>Poseban naziv — Iznajmljivanje alata u Beogradu<\/title>/);
+    assert.equal(jsonLd(custom).find(n => n['@type'] === 'WebSite').name, 'Poseban naziv');
+  } finally { write('settings', 'main', original); }
+});
+
 test('Search crawlers get raster favicons, a business logo and complete preview image metadata', async () => {
   for (const locale of locales) {
     const { html } = await get('/' + locale);

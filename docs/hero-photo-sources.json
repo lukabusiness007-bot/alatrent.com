@@ -1,0 +1,20 @@
+[
+  {
+    "id": "crafter-30354",
+    "page": "https://www.bosch-professional.com/de/de/products/gbh-2-28-f-0611267601",
+    "source": "https://www.bosch-professional.com/de/de/ocsmedia/230454-54/application-image/1434x828/bohrhammer-mit-sds-plus-pro-gbh-2-28-f-0611267601.png",
+    "local": "/images/hero/bosch-gbh-2-28-f.png"
+  },
+  {
+    "id": "crafter-35551",
+    "page": "https://www.kaercher.com/rs/profesionalni-asortiman/cistac-tepiha/masine-za-dubinsko-pranje/puzzi-8-1-11002400.html",
+    "source": "https://s1.kaercher-media.com/mam/11002400/mainproduct/196789/d0.jpg",
+    "local": "/images/catalog/tool-003.jpg"
+  },
+  {
+    "id": "crafter-63082",
+    "page": "https://www.bosch-professional.com/ae/en/products/gsr-18v-65-06019N3000",
+    "source": "https://www.bosch-professional.com/ae/en/ocsmedia/455401-54/application-image/1434x828/cordless-drill-driver-pro-gsr-18v-65-06019n3000.png",
+    "local": "/images/hero/bosch-gsr-18v-65.png"
+  }
+]

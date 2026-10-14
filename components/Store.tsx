@@ -8,6 +8,7 @@ import { BreadcrumbSchema, CollectionSchema } from './Seo';
 import { categoryHeading, categoryDescription, categoryContent } from '@/lib/seo-content';
 import { pageCopy } from '@/lib/seo-pages';
 import { catalogPagination, pageLabel, paginationCopy } from '@/lib/catalog-pagination';
+import { reductionEntry } from '@/lib/catalog-reduction';
 import { QuickAdd } from './commerce/CartProvider';
 import { Brand } from './Header';
 import { mt } from '@/lib/commerce/merchandising-copy';
@@ -29,6 +30,12 @@ import {
   CategoryIcon,
   Search,
 } from './Icons';
+
+const heroImages: Record<string, string> = {
+  'crafter-30354': '/images/hero/bosch-gbh-2-28-f.png',
+  'crafter-35551': '/images/catalog/tool-003.jpg',
+  'crafter-63082': '/images/hero/bosch-gsr-18v-65.png',
+};
 
 function ToolSearch({ locale, path = 'katalog', q = '', sort, home = false, jobs, filters = {} }: {
   locale: Locale;
@@ -301,6 +308,14 @@ export function Footer({ locale, settings }: { locale: Locale; settings: Setting
 export function Home({ locale, data, jobs }: { locale: Locale; data: PublicData; jobs: RentalJob[] }) {
   const t = copy[locale];
   const { tools, categories, settings } = data;
+  const picturedTools = tools.filter(tool => tool.published && tool.image);
+  // Follow catalog replacements and fill any gaps with other public equipment.
+  const preferredTools = ['tool-023', 'tool-003', 'tool-031'].flatMap(id => {
+    const replacementId = reductionEntry(id)?.replacementId;
+    const tool = picturedTools.find(tool => tool.id === id || tool.id === replacementId);
+    return tool ? [tool] : [];
+  });
+  const heroTools = [...new Map([...preferredTools, ...picturedTools].map(tool => [tool.id, tool])).values()].slice(0, 3);
   return (
     <>
       <section className="hero">
@@ -331,12 +346,11 @@ export function Home({ locale, data, jobs }: { locale: Locale; data: PublicData;
           </div>
           <div className="hero-visual">
             <div className="hero-product-stage">
-              {["tool-023", "tool-003", "tool-031"].map((id, index) => {
-                const tool = tools.find(item => item.id === id);
-                return tool?.image ? <Link key={id} href={href(locale, 'alat/' + tool.slug)} className={`hero-product hero-product-${index}`} aria-label={tool.name[locale]}>
-                  <Image src={tool.image} alt={tool.name[locale]} fill loading={index === 0 ? 'eager' : 'lazy'} fetchPriority={index === 0 ? 'high' : 'auto'} sizes="(max-width: 767px) 50vw, 350px" />
-                </Link> : null;
-              })}
+              {heroTools.map((tool, index) => (
+                <Link key={tool.id} href={href(locale, 'alat/' + tool.slug)} className={`hero-product hero-product-${index}`} aria-label={tool.name[locale]}>
+                  <Image src={tool.image.startsWith('https://www.crafter.rs/') ? heroImages[tool.id] || tool.image : tool.image} alt={tool.name[locale]} fill loading="eager" fetchPriority={index === 0 ? 'high' : 'auto'} sizes="(max-width: 767px) 50vw, 350px" />
+                </Link>
+              ))}
             </div>
             <span className="hero-image-label">
               <span className="status-dot" />

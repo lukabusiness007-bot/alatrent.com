@@ -312,6 +312,13 @@ export function withDatabase<T>(fn: () => T | Promise<T>, write = false): Promis
 export function databaseComponent<A extends unknown[], T>(fn: (...args: A) => T | Promise<T>) {
   return (...args: A) => withDatabase(() => fn(...args));
 }
+// Only use projections at read-only boundaries whose data dependencies are known.
+export function publicDatabaseComponent<A extends unknown[], T>(fn: (...args: A) => T | Promise<T>, entityKinds: string[]) {
+  return (...args: A) => withPersistentDatabase(initializeDatabase, () => fn(...args), false, initializationCompletion, { entityKinds });
+}
+export function withCurrentInventory<T>(fn: () => T | Promise<T>) {
+  return withPersistentDatabase(initializeDatabase, fn, false, initializationCompletion, { excludeArchived: true });
+}
 export function databaseRoute<A extends unknown[]>(fn: (...args: A) => Response | Promise<Response>, write = false) {
   return (...args: A): Promise<Response> => withDatabase(() => fn(...args), write).catch(() =>
     Response.json({ error: 'Baza trenutno nije dostupna. Pokušaj ponovo.' }, { status: 503, headers: { 'Cache-Control': 'no-store' } }),

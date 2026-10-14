@@ -1,4 +1,4 @@
-import { databaseComponent } from '@/lib/db';
+import { publicDatabaseComponent } from '@/lib/db';
 import type { MetadataRoute } from 'next';
 import { settings } from '@/lib/db';
 import { siteOrigin } from '@/lib/site-url';
@@ -15,4 +15,4 @@ function dbrobots(): MetadataRoute.Robots {
   };
 }
 
-export default databaseComponent(dbrobots);
+export default publicDatabaseComponent(dbrobots, ['settings']);

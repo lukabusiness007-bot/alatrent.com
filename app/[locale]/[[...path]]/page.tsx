@@ -1,4 +1,4 @@
-import { databaseComponent } from '@/lib/db';
+import { withDatabase, withCurrentInventory, publicDatabaseComponent } from '@/lib/db';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { copy, href, isLocale } from '@/lib/i18n';
@@ -279,5 +279,12 @@ async function dbPage({ params, searchParams }: Props) {
   notFound();
 }
 
-export const generateMetadata = databaseComponent(dbgenerateMetadata);
-export default databaseComponent(dbPage);
+export const generateMetadata = publicDatabaseComponent(dbgenerateMetadata, ['settings', 'tools', 'categories']);
+export default async function Page(props: Props) {
+  const { path = [] } = await props.params;
+  // Cart and account flows may resolve historical models. Public browsing uses
+  // current inventory while retaining customer sessions and membership rules.
+  return ['korpa', 'nalog', 'najam'].includes(path[0])
+    ? withDatabase(() => dbPage(props))
+    : withCurrentInventory(() => dbPage(props));
+}

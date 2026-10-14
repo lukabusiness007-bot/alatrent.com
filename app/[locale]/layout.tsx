@@ -1,4 +1,4 @@
-import { databaseComponent } from '@/lib/db';
+import { publicDatabaseComponent } from '@/lib/db';
 import { notFound } from 'next/navigation';
 import { isLocale } from '@/lib/i18n';
 import Header from '@/components/Header';
@@ -33,4 +33,4 @@ async function dbLayout({
   );
 }
 
-export default databaseComponent(dbLayout);
+export default publicDatabaseComponent(dbLayout, ['settings']);

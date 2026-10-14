@@ -1,4 +1,4 @@
-import { databaseComponent } from '@/lib/db';
+import { publicDatabaseComponent } from '@/lib/db';
 import type { MetadataRoute } from 'next';
 import { publicData } from '@/lib/db';
 import { showProjectKits } from '@/lib/commerce/features';
@@ -30,4 +30,4 @@ function dbsitemap(): MetadataRoute.Sitemap {
   })));
 }
 
-export default databaseComponent(dbsitemap);
+export default publicDatabaseComponent(dbsitemap, ['settings', 'tools', 'categories']);

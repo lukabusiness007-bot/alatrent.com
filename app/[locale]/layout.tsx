@@ -29,7 +29,7 @@ async function dbLayout({
         <CartProvider locale={locale}><Header locale={locale} brand={s.brand} />
         <CatalogNotice locale={locale} />
         <main id="main">{children}</main>
-        <Footer locale={locale} settings={s} /><Analytics locale={locale} /></CartProvider>
+        <Footer locale={locale} settings={s} /><Analytics /></CartProvider>
       </body>
     </html>
   );

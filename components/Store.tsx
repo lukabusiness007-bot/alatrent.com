@@ -299,9 +299,6 @@ export function Footer({ locale, settings }: { locale: Locale; settings: Setting
           <span>
             © {new Date().getFullYear()} {settings.brand}. {t.copyright}
           </span>
-          <Link href="/admin">
-            {t.admin} <ArrowUpRight size={13} />
-          </Link>
         </div>
       </div>
     </footer>

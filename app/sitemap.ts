@@ -24,8 +24,8 @@ function dbsitemap(): MetadataRoute.Sitemap {
       ...(tool?.image ? { images: [new URL(tool.image, base).href] } : {}),
       alternates: { languages: languageAlternates(base, path) },
     };
-  })).concat(['saveti', ...rentalGuides.map(g => 'saveti/' + g.slug)].map(path => ({
-    url: base + href('sr', path), lastModified: GUIDES_UPDATED_AT,
+  })).concat([{ path: 'saveti', updatedAt: GUIDES_UPDATED_AT }, ...rentalGuides.map(g => ({ path: 'saveti/' + g.slug, updatedAt: g.updatedAt }))].map(({ path, updatedAt }) => ({
+    url: base + href('sr', path), lastModified: updatedAt,
     alternates: { languages: { 'sr-Latn': base + href('sr', path), 'x-default': base + href('sr', path) } },
   })));
 }

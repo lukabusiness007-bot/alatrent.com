@@ -16,6 +16,7 @@ const active = seed.tools.filter(t=>t.published);
 const selectedSlug = old => {const e=reduction.entries.find(e=>e.slug===old);return e?.replacementId?seed.tools.find(t=>t.id===e.replacementId).slug:old;};
 const content = JSON.parse(readFileSync(new URL('../lib/seo-catalog.json', import.meta.url)));
 const locales = ['sr', 'en', 'ru', 'tr', 'zh'];
+const publishedGuides = JSON.parse(readFileSync(new URL('../lib/published-rental-guides.json', import.meta.url))).filter(guide => guide.status === 'published');
 let child, db, logs = '';
 const get = async path => {
   const response = await fetch(base + path, { headers: { 'User-Agent': 'Googlebot' } });
@@ -131,7 +132,7 @@ test('Search crawlers get raster favicons, a business logo and complete preview 
 test('Crawl every sitemap URL: 200, one H1, unique metadata, canonical, reciprocal hreflang and parseable JSON-LD', async () => {
   const { html: xml } = await get('/sitemap.xml');
   const urls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(match => match[1]);
-  assert.equal(urls.length, (6 + active.length + seed.categories.length) * locales.length + 6);
+  assert.equal(urls.length, (6 + active.length + seed.categories.length) * locales.length + 6 + publishedGuides.length);
   assert.equal(new Set(urls).size, urls.length);
   assert.match(xml, /hreflang="x-default"/);
   assert.match(xml, /<image:loc>https:\/\/seo.example\/images\/catalog\//);
@@ -300,13 +301,30 @@ test('Missing or invalid public origins keep previews noindex; configured busine
 test('Guides publish only real Serbian pages and link to published equipment with current prices', async () => {
   const { html: hub } = await get('/sr/saveti');
   const paths = [...new Set([...hub.matchAll(/href="(\/sr\/saveti\/[^"?]+)"/g)].map(m => m[1]))];
-  assert.equal(paths.length, 5);
+  const legacySlugs = ['vibro-ploca-ili-vibro-zaba', 'kako-izabrati-merdevine', 'zirafa-i-usisivac-za-zidove', 'dubinsko-pranje-namestaja-izbor-masine', 'cena-najma-alata-i-dostave'];
+  assert.deepEqual([...paths].sort(), [...legacySlugs, ...publishedGuides.map(guide => guide.slug)].map(slug => '/sr/saveti/' + slug).sort());
   for (const path of paths) {
     const { response, html } = await get(path);
     assert.equal(response.status, 200);
     const article = jsonLd(html).find(n => n['@type'] === 'Article');
     assert.equal(article.url, origin + path);
     assert.equal(article.inLanguage, 'sr-Latn');
+    const expected = publishedGuides.find(guide => path === '/sr/saveti/' + guide.slug);
+    assert.equal(article.datePublished, expected?.publishedAt || '2026-10-14T12:00:00.000Z');
+    assert.equal(article.dateModified, expected?.updatedAt || '2026-10-14T12:00:00.000Z');
+    assert.equal(canonical(html), origin + path);
+    assert.equal((html.match(/<h1[ >]/g) || []).length, 1);
+    if (expected) {
+      assert.match(html, /<table>/);
+      assert.match(html, /<th scope="col">/);
+      assert.match(html, /<li>/);
+      assert.match(html, /<h2>Izvori<\/h2>/);
+      assert.ok(!html.includes('](https://'), 'Markdown links must render as actual links');
+      assert.ok(!tag(html, 'robots')?.includes('noindex'));
+      const sitemap = (await get('/sitemap.xml')).html;
+      const node = sitemap.split('<url>').find(node => node.includes('<loc>' + origin + path + '</loc>'));
+      assert.ok(node?.includes('<lastmod>' + expected.updatedAt + '</lastmod>'));
+    }
     const links = [...new Set([...html.matchAll(/href="(\/sr\/alat\/[^"?]+)"/g)].map(m => m[1]))];
     assert.ok(links.length > 0, path);
     for (const link of links) assert.equal((await get(link)).response.status, 200, link);

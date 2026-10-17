@@ -1,6 +1,18 @@
-export const GUIDES_UPDATED_AT = '2026-10-14T12:00:00.000Z';
+import publishedGuideData from './published-rental-guides.json';
+import { validatePublishedGuides } from './guide-publishing.mjs';
+import type { GuideBlock } from '@/components/GuideContent';
+
+const LEGACY_GUIDES_PUBLISHED_AT = '2026-10-14T12:00:00.000Z';
+export type RentalGuide = {
+  slug: string; title: string; description: string; intro: string;
+  sections?: { heading: string; text: string }[];
+  blocks?: GuideBlock[];
+  toolIds: string[];
+  status: 'published';
+  publishedAt: string; updatedAt: string;
+};
 export const guideHub = { title: 'Saveti za izbor i iznajmljivanje alata', description: 'Kako izabrati merdevine, vibro ploču, žirafu ili mašinu za dubinsko pranje i šta proveriti pri obračunu najma i dostave u Beogradu.' };
-export const rentalGuides = [
+const legacyRentalGuides = [
   {
     slug: 'vibro-ploca-ili-vibro-zaba', title: 'Vibro ploča ili vibro žaba: šta izabrati za sabijanje podloge?',
     description: 'Razlika između vibro ploče i vibro nabijača, izbor prema podlozi i pristupu i šta navesti pre iznajmljivanja mašine za tabanje.',
@@ -52,4 +64,13 @@ export const rentalGuides = [
     ], toolIds: ['crafter-30354', 'crafter-63590', 'crafter-63082', 'crafter-31501', 'tool-055'],
   },
 ];
-export type RentalGuide = typeof rentalGuides[number];
+export const rentalGuides: RentalGuide[] = [
+  ...legacyRentalGuides.map(guide => ({ ...guide, status: 'published' as const, publishedAt: LEGACY_GUIDES_PUBLISHED_AT, updatedAt: LEGACY_GUIDES_PUBLISHED_AT })),
+  ...validatePublishedGuides(publishedGuideData) as RentalGuide[],
+];
+if (new Set(rentalGuides.map(guide => guide.slug)).size !== rentalGuides.length) throw new Error('Duplicate published guide URL.');
+// Only the hub uses the most recent update; article dates remain independent.
+export const GUIDES_UPDATED_AT = rentalGuides.map(guide => guide.updatedAt).sort().at(-1) || LEGACY_GUIDES_PUBLISHED_AT;
+export function guideDateLabel(value: string) {
+  return new Intl.DateTimeFormat('sr-Latn-RS', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Belgrade' }).format(new Date(value));
+}

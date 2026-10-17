@@ -1,0 +1,530 @@
+[
+  {
+    "id": "G001",
+    "slug": "udarna-busilica-ili-busilica-cekic",
+    "title": "Udarna bušilica ili bušilica čekić: šta izabrati za zid i beton?",
+    "description": "Razlika između udarne bušilice i elektro-pneumatskog čekića: izbor prema podlozi, burgiji i poslu, uz spisak za pripremu najma.",
+    "intro": "Za nekoliko odgovarajućih rupa u punoj opeci može da bude dovoljna udarna bušilica. Za beton i zahtevnije bušenje razmatra se elektro-pneumatska bušilica čekić, uz burgiju namenjenu tom materijalu. Drvo, metal, šuplji blok i keramička obloga traže zasebnu proveru režima rada; reč „zid” nije dovoljno precizan opis podloge. [Bosch objašnjava razliku između burgija za zidane materijale i beton](https://www.bosch-professional.com/gb/en/innovation/the-best-concrete-drill-bits/).",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Za najam je zato korisnije da opišeš materijal, prečnik, dubinu i broj rupa nego da tražiš samo „najjaču bušilicu”. Tako se zajedno biraju mašina i pribor, a izbegava dolazak na posao sa alatom koji nema potreban režim ili prihvat."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Koja je razlika između ova dva alata?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Klasična udarna, odnosno vibraciona bušilica ostvaruje udare mehaničkim sklopom. Elektro-pneumatski čekić koristi drugačiji udarni mehanizam i namenjen je zahtevnijem radu u tvrdim mineralnim materijalima. To nisu samo dva naziva za isti alat. [Boschovo poređenje opisuje razliku u mehanizmu i tipičnoj primeni](https://www.bosch-diy.com/fi/fi/all-about-diy/article/impact-drills)."
+      },
+      {
+        "type": "paragraph",
+        "text": "„Akumulatorska” govori o napajanju, a ne potvrđuje udarnu funkciju. Na primer, proizvođač [GSR 18V-65 opisuje kao bušilicu-odvrtač za uvrtanje i bušenje drveta i metala](https://www.bosch-professional.com/rs/sr/products/gsr-18v-65-06019N3000). Zato ga u izboru ne treba predstavljati kao zamenu za pneumatski čekić u betonu."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Brzi izbor prema poslu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sledeća tabela pomaže da pripremiš upit. Ona polazi od [proizvođačevog poređenja bušilica](https://www.bosch-diy.com/fi/fi/all-about-diy/article/impact-drills) i [namene GBH 2-28/2-28 F iz uputstva](https://www.bosch-professional.com/binary/manualsmedia/o632989v21_160992AD8M_202601.pdf); konačan izbor proverava se za konkretan model i podlogu."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Posao",
+          "Šta prvo razmotriti",
+          "Šta još treba razjasniti"
+        ],
+        "rows": [
+          [
+            "Nekoliko rupa u punoj opeci",
+            "Udarna bušilica sa odgovarajućom burgijom",
+            "Prečnik, dubina i zahtev pričvršćenja"
+          ],
+          [
+            "Rupe u betonu",
+            "Elektro-pneumatska bušilica čekić",
+            "Prihvat burgije, radni opseg i odvođenje prašine"
+          ],
+          [
+            "Bušenje drveta ili metala",
+            "Bušenje bez udara",
+            "Burgija za materijal i način učvršćenja predmeta"
+          ],
+          [
+            "Zid sa keramičkom oblogom",
+            "Postupak za oblogu i podlogu iza nje",
+            "Pribor i režim za svaki sloj posebno"
+          ],
+          [
+            "Šuplji blok ili nepoznat zid",
+            "Provera sastava i preporuke proizvođača podloge",
+            "Dozvoljeni režim i način ankerisanja"
+          ],
+          [
+            "Skidanje materijala dletom",
+            "Alat sa odgovarajućom funkcijom štemovanja",
+            "Da li je obim posla u njegovoj dozvoljenoj nameni"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Prvo utvrdi materijal i zahtev rupe"
+      },
+      {
+        "type": "paragraph",
+        "text": "Betonski stub, pregradni zid i pločica preko zida mogu spolja delovati slično kada su prekriveni završnim slojem. Ako sastav nije poznat, u upitu to jasno napiši. Fotografija i raspoloživa dokumentacija korisniji su od nagađanja da je sve „beton”."
+      },
+      {
+        "type": "paragraph",
+        "text": "Zapiši potreban prečnik i dubinu iz zahteva pričvršćenja. Nemoj ih birati samo prema burgiji koju već imaš. Posebno navedi da li praviš jednu rupu, više jednakih rupa ili otvor kroz zid: to su različiti zahtevi za izbor opreme i organizaciju posla."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako je u pitanju armiranobetonski ili drugi noseći element, izbor burgije sam po sebi ne rešava pitanje mesta i dozvoljenosti zahvata. Raspored otvora i postupanje pri nailasku na armaturu razjasni sa odgovornim stručnim licem pre rada. Ovaj vodič ne određuje gde sme da se buši."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Burgija i prihvat čine isti izbor"
+      },
+      {
+        "type": "paragraph",
+        "text": "Burgija mora odgovarati i materijalu i prihvatu konkretnog alata. Bosch razlikuje pribor za mekše zidane materijale od pribora za beton, a među betonskim burgijama navodi SDS plus i SDS max varijante. [Pregled pribora za beton](https://www.bosch-professional.com/gb/en/innovation/the-best-concrete-drill-bits/) zato koristi kao smernicu za proveru kompatibilnosti, bez pretpostavke da svaka burgija pristaje svakom čekiću."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pri rezervaciji traži da se potvrde tačan prihvat, prečnik i korisna dužina burgije. Ako je potreban adapter, potvrdi i njegovu dozvoljenu primenu. Za štemovanje navedi šta se uklanja i u kom obimu; sama mogućnost postavljanja dleta ne potvrđuje da je alat primeren svakom rušenju."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta proveriti pre početka rada?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Provera skrivenih instalacija, držanje alata i kontrola prašine sastavni su deo pripreme. Aktuelno [Bosch uputstvo za GBH 2-28/2-28 F](https://www.bosch-professional.com/binary/manualsmedia/o632989v21_160992AD8M_202601.pdf) traži proveru instalacija, pomoćnu ručku, zaštitu sluha i mere smanjenja prašine; izbor zaštite i usisavanja zavisi od materijala i konkretne primene."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pre preuzimanja prođi kroz sledeći spisak:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Poznat je materijal ili je nepoznat sastav jasno prijavljen.",
+          "Utvrđeni su prečnik, dubina i broj rupa.",
+          "Potvrđeni su mašina, režim rada i kompatibilan pribor.",
+          "Dogovorena je provera instalacija i mesta bušenja.",
+          "Razjašnjeni su odvođenje prašine i potrebna lična zaštita.",
+          "Obezbeđen je primeren pristup mestu rada i napajanje.",
+          "Dostupno je uputstvo baš za uređaj koji se preuzima."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako pribor zapinje, posao se ne rešava automatski većim pritiskom ili snažnijom mašinom. Pre nastavka treba utvrditi uzrok i postupiti prema uputstvu."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kako da pripremiš upit za najam u Beogradu?"
+      },
+      {
+        "type": "paragraph",
+        "text": "U katalogu možeš da pogledaš [SDS plus elektro-pneumatski čekić](https://alatrent.rs/sr/alat/bosch-gbh-2-28-f-sds-elektro-pneumatski-cekic-880-w-cr-30354), [GBH 5-40 DCE iz kataloga](https://alatrent.rs/sr/alat/bosch-gbh-5-40-dce-elektro-pneumatski-cekic-1150w-cr-535) i [akumulatorsku bušilicu-odvrtač](https://alatrent.rs/sr/alat/bosch-akumulatorska-busilica-odvrtac-gsr-18v-65-18-v-2-x-2-ah-sa-koferom-cr-63082). Pre rezervacije potvrdi konkretan model, pribor i dostupnost za termin."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pošalji opis poput: „Potrebne su mi rupe za montažu u poznatom materijalu, ovih dimenzija i u ovom broju, na ovoj visini, tog datuma.” Dodaj fotografiju, podatak o napajanju i adresu ako tražiš dostavu. Cenu za izabrani period i dodatke proveri kroz [upit za najam](https://alatrent.rs/sr/kontakt), a način obračuna u [vodiču o najmu i dostavi](https://alatrent.rs/sr/saveti/cena-najma-alata-i-dostave)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Bosch DIY: Impact drills for DIYers](https://www.bosch-diy.com/fi/fi/all-about-diy/article/impact-drills).",
+          "[Bosch Professional: Drilling into Concrete](https://www.bosch-professional.com/gb/en/innovation/the-best-concrete-drill-bits/).",
+          "[Bosch Professional: uputstvo GBH 2-28/2-28 F, izdanje 30. januara 2026](https://www.bosch-professional.com/binary/manualsmedia/o632989v21_160992AD8M_202601.pdf).",
+          "[Bosch Professional: GSR 18V-65](https://www.bosch-professional.com/rs/sr/products/gsr-18v-65-06019N3000)."
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-30354",
+      "crafter-535",
+      "crafter-63082"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-17T08:15:17.673682+00:00",
+    "updatedAt": "2026-10-17T08:15:17.673682+00:00"
+  },
+  {
+    "id": "G002",
+    "slug": "laserski-daljinomer-ili-metar",
+    "title": "Laserski daljinomer ili metar: šta izabrati za merenje prostorije?",
+    "description": "Kada koristiti laserski daljinomer, a kada metar: referentna ravan, uslovi merenja, kontrola rezultata i priprema upita za najam.",
+    "intro": "Laserski daljinomer je praktičan kada treba da prikupiš više dužina prostorije i pripremiš obračun površina. Metar ostaje koristan kada želiš da direktno prisloniš traku uz predmet, proveriš njegovu ivicu ili preneseš meru na materijal. Za planiranje radova često je najbolje da ih koristiš zajedno: jedan za obilazak prostorije, drugi za proveru detalja. [Bosch opisuje primenu daljinomera pri dokumentovanju mera i računanju potreba za materijalom](https://www.bosch-professional.com/gb/en/products/glm-50-27-cg-0601072U00).",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Izbor započni pitanjem šta ćeš uraditi sa rezultatom. Mera za prvu procenu materijala i mera prema kojoj se naručuje ili seče gotov element ne zahtevaju isti postupak provere. Pre merenja dogovori i jedinice i tačke između kojih se meri."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Brzi izbor prema zadatku"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tabela je praktičan predlog organizacije merenja, a ne obećanje određene tačnosti. Funkcije i način oslanjanja uređaja proveri u [uputstvu konkretnog daljinomera](https://www.bosch-professional.com/binary/manualsmedia/o454089v21_160992A8LH_202403.pdf)."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Zadatak",
+          "Koristan izbor",
+          "Šta proveriti"
+        ],
+        "rows": [
+          [
+            "Popis dužina i širina više prostorija",
+            "Daljinomer uz skicu",
+            "Početnu i krajnju tačku svake mere"
+          ],
+          [
+            "Provera širine police ili daske",
+            "Metar uz direktan pristup predmetu",
+            "Oslonac početka trake i očitanu jedinicu"
+          ],
+          [
+            "Priprema mera zidova za ponudu",
+            "Daljinomer, pa beleženje otvora i detalja",
+            "Šta ulazi u obračun, a šta se odbija"
+          ],
+          [
+            "Obeležavanje mesta reza",
+            "Metar i odgovarajući pribor za obeležavanje",
+            "Meru na samom komadu pre sečenja"
+          ],
+          [
+            "Merenje na otvorenom",
+            "Model proveren za te uslove",
+            "Vidljivost cilja, oslonac i očekivanu tačnost"
+          ],
+          [
+            "Konačna mera za element po meri",
+            "Postupak koji odredi izvođač ili proizvođač elementa",
+            "Referentne površine, tolerancije i kontrolno merenje"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kod daljinomera prvo proveri odakle meri"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rezultat zavisi i od podešene referentne ravni. Na modelu GLM 50-27 CG moguće je birati prednju ivicu, zadnju ivicu ili centar navoja za stativ. Ako uređaj osloniš uz zid, a pretpostaviš pogrešnu početnu tačku, zabeležena dužina neće predstavljati ono što si želeo da izmeriš. [Bosch uputstvo, odeljak o referentnoj ravni](https://www.bosch-professional.com/binary/manualsmedia/o454089v21_160992A8LH_202403.pdf)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Laser nemoj usmeravati u ljude i ne gledaj u direktan ili odbijeni snop, kako nalaže [uputstvo proizvođača](https://www.bosch-professional.com/binary/manualsmedia/o454089v21_160992A8LH_202403.pdf)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pre obilaska prostorije napravi jednu probnu meru, proveri simbol referentne ravni i napiši šta je oslonac. Tokom običnog pojedinačnog merenja obezbedi stabilan položaj i nemoj zaklanjati izlaz lasera ili prijemno sočivo, prema istom uputstvu."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za ponavljanje rezultata nije dovoljno samo ponovo pritisnuti dugme. Sačuvaj iste početne i krajnje tačke i ista podešavanja. Ako se dve mere razlikuju više nego što je prihvatljivo za posao, prvo razjasni razlog, umesto da izabereš broj koji ti više odgovara."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Domet i tačnost nisu isti u svim uslovima"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vidljiva laserska tačka ne potvrđuje automatski da je svaki rezultat odgovarajući za svaku namenu. Bosch navodi da na merenje utiču svetlost, refleksija i svojstva ciljne površine, temperatura i sam put merenja. Deklarisane vrednosti vezane su za određene uslove. [Objašnjenje proizvođača o tačnosti i dometu](https://www.bosch-professional.com/gb/en/wac/)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Zato pri najmu napiši da li meriš unutra ili napolju i da li ciljaš običan zid, taman predmet ili problematičnu površinu. Ako nema odgovarajuće ciljne tačke, razjasni potreban pribor i postupak. Naziv modela ili najveći broj na njegovoj stranici nije dovoljna potvrda za tvoj slučaj."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako ti treba mera za završnu izradu, unapred pitaj izvođača koja odstupanja može da prihvati. Nema koristi od mnogo decimala ako početna tačka, smer ili cilj nisu pravilno određeni."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta proveriti na metru?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Početna kukica mnogih mernih traka namerno ima mali pomeraj. REEKON objašnjava da taj pomeraj kompenzuje debljinu kukice pri unutrašnjem i spoljašnjem merenju; savijena kukica ili nepravilno pomeranje traže zasebnu proveru. [Objašnjenje proizvođača mernih alata](https://support.reekon.tools/hc/en-us/articles/52243834650516--T1R-Why-does-the-tape-hook-move)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pre važnog merenja pregledaj početak trake i oznake. Zapiši da li meriš između unutrašnjih strana ili preko spoljašnjih ivica. Kada proveravaš meru drugim alatom, poredi iste tačke: očitavanje do lajsne i očitavanje do zida iza nje nisu ista dužina."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Jednostavan plan merenja jedne prostorije"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Nacrtaj skicu i označi zidove slovima, bez oslanjanja samo na pamćenje.",
+          "Zapiši čemu mere služe: okvirnoj ponudi, obračunu površine ili pripremi ugradnje.",
+          "Dogovori referentne površine i jedinicu u kojoj će sve biti zapisano.",
+          "Izmeri potrebne dužine i uz svaku napiši između kojih tačaka je dobijena.",
+          "Posebno evidentiraj otvore, niše, stubove i druge detalje bitne za posao.",
+          "Ponovi kritične mere sa istih tačaka i zabeleži uočene razlike.",
+          "Dostavi skicu osobi koja priprema ponudu ili izrađuje element."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Na primer, za ponudu za radove nije dovoljno poslati samo „soba je približno toliko kvadrata”. Korisnije je da uz skicu dostaviš dimenzije pojedinačnih površina i označiš šta je stvarno izmereno, a šta još nije dostupno za proveru. Pravila obračuna otvora i količine materijala zatim dogovori sa izvođačem."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Daljinomer i laser za nivelaciju biraju se za različite zadatke"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nemoj u upitu navesti samo „treba mi laser”. Ako ti treba izmerena dužina, napiši da tražiš daljinomer. Ako je cilj postavljanje elemenata po referentnoj liniji, opiši taj posao i proveri odgovarajuću opremu za nivelaciju. Pojedine funkcije zavise od modela, pa se njegov naziv ne prenosi automatski na sve uređaje sa laserom."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta poslati za najam daljinomera?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pogledaj [laserski daljinomer iz kataloga](https://alatrent.rs/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677) i pošalji broj prostorija, približne dužine, uslove rada i datum. Navedi i da li ti treba dokumentovanje rezultata ili samo očitavanje na ekranu. Pri dogovoru proveri konkretan model, napajanje, uputstvo i eventualni pribor."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za termin i uslove pošalji [upit](https://alatrent.rs/sr/kontakt), a za način obračuna koristi [vodič o ceni najma i dostave](https://alatrent.rs/sr/saveti/cena-najma-alata-i-dostave)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Bosch Professional: GLM 50-27 CG](https://www.bosch-professional.com/gb/en/products/glm-50-27-cg-0601072U00).",
+          "[Bosch Professional: uputstvo GLM 50-27 CG/GLM 50-27 C, izdanje 2024](https://www.bosch-professional.com/binary/manualsmedia/o454089v21_160992A8LH_202403.pdf).",
+          "[Bosch Professional: tehnička objašnjenja tačnosti i dometa](https://www.bosch-professional.com/gb/en/wac/).",
+          "[REEKON Tools: Why does the tape hook move?](https://support.reekon.tools/hc/en-us/articles/52243834650516--T1R-Why-does-the-tape-hook-move)."
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-29677"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-17T08:15:17.673682+00:00",
+    "updatedAt": "2026-10-17T08:15:17.673682+00:00"
+  },
+  {
+    "id": "G003",
+    "slug": "rucni-ili-elektricni-sekac-plocica",
+    "title": "Ručni ili električni sekač pločica: kako izabrati za svoj posao?",
+    "description": "Izbor sekača prema materijalu, formatu i obliku reza: ručni ili električni, proba na uzorku i podaci potrebni za najam.",
+    "intro": "Za ponavljane ravne rezove na odgovarajućim keramičkim ili porcelanskim pločicama vredi prvo razmotriti ručni sekač. Za veoma uske trake proverava se poseban postupak i pribor, a za obaranje ivice pod uglom razmatra se električni sekač koji podržava takav rez i odgovarajuću ploču. Presudni su vrsta pločice, format, debljina i oblik reza. [RUBI poredi ručno i električno sečenje porcelanskih pločica](https://www.rubi.com/en/blog/porcelain-tile-cutter/).",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Pre najma pripremi fotografiju ambalaže pločica i skicu rezova. Opis „za kupatilo” ne otkriva da li treba skratiti mnogo jednakih komada, ostaviti vidljivu završnu ivicu ili napraviti poseban izrez oko instalacije."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kako rade ručni i električni sekač?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ručni sekač najpre zarezuje površinu točkićem, a zatim razdvaja pločicu mehanizmom za lomljenje. Električni koristi reznu ploču; kod sistema za mokro sečenje voda služi za hlađenje tokom rada. [RUBI vodič objašnjava oba postupka](https://www.rubi.com/en/blog/how-to-use-a-tile-cutter/)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Iz toga proizlazi i prvo pitanje za izbor: da li tvoja pločica i planirani rez odgovaraju kontrolisanom zarezivanju i lomljenju, ili je potreban drugi postupak? Sam naziv „granitna keramika” nije potvrda da moraš koristiti isključivo električnu mašinu, jer postoje ručni sekači namenjeni porcelanskim pločicama."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela za pripremu izbora"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tabela sažima smernice iz [RUBI poređenja za porcelan](https://www.rubi.com/en/blog/porcelain-tile-cutter/) i [priručnika o rezovima i priboru](https://s3.eu-west-1.amazonaws.com/rubi.web.images.public/academy/manual_2_en.pdf). Svaka stavka zahteva proveru kapaciteta konkretnog uređaja."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Zahtev posla",
+          "Šta prvo razmotriti",
+          "Šta potvrditi pre najma"
+        ],
+        "rows": [
+          [
+            "Više ravnih rezova odgovarajuće pločice",
+            "Ručni sekač",
+            "Dužinu reza, debljinu i izbor točkića"
+          ],
+          [
+            "Porcelanske pločice",
+            "Ručni ili električni, prema pločici i rezu",
+            "Pribor i probu na uzorku"
+          ],
+          [
+            "Veoma uska završna traka",
+            "Poseban postupak i pribor prema pločici",
+            "Da li su potrebni odgovarajući sekač, klešta ili druga oprema"
+          ],
+          [
+            "Obaranje ivice pod uglom",
+            "Električni sekač sa tom mogućnošću",
+            "Dozvoljeni ugao, debljinu i reznu ploču"
+          ],
+          [
+            "Veliki format",
+            "Sistem odgovarajuće dužine i oslonca",
+            "Ceo sklop, manipulaciju i radni prostor"
+          ],
+          [
+            "Rupa ili zatvoren izrez",
+            "Poseban alat i postupak za taj oblik",
+            "Da li su potrebni kruna, vođenje ili druga oprema"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Vrsta pločice je početak, ne završetak izbora"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pošalji naziv materijala sa pakovanja. Zidna keramika, porcelan i prirodni kamen nisu jedna stavka pod imenom „pločice”. Napiši i da li je površina glatka, reljefna ili osetljive završne obrade."
+      },
+      {
+        "type": "paragraph",
+        "text": "RUBI navodi da izbor ručnog točkića zavisi i od površine, odnosno glazure, a njegovo stanje utiče na kvalitet zarezivanja. Za električno sečenje proverava se namena rezne ploče i zahtevi za hlađenje. [Proizvođačev priručnik, poglavlje „Cuts and Drills”](https://s3.eu-west-1.amazonaws.com/rubi.web.images.public/academy/manual_2_en.pdf)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Umesto da unapred rezervišeš mašinu samo prema fotografiji, predloži proveru na uzorku iste pločice. Pitaj ko može da proceni rezultat i šta je prihvatljivo za planiranu ugradnju. Nemoj odmah koristiti komad koji ti je potreban za završnu vidljivu poziciju kao jedini raspoloživ uzorak."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Zapiši dužinu reza i završni oblik"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dimenzija pločice i dimenzija potrebnog reza nisu uvek isti podatak. U skici označi pravac sečenja, željenu završnu širinu i stranu koja ostaje. Za dijagonalu izričito traži potvrdu odgovarajućeg kapaciteta, bez zaključivanja samo iz naziva mašine."
+      },
+      {
+        "type": "paragraph",
+        "text": "Odvoji obično skraćivanje pločice od obrade ivice za spoljašnji ugao. Dijagonalni rez preko ravne pločice i obaranje njene ivice pod uglom predstavljaj kao dva različita zahteva u upitu. Tako se izbegava da rezervišeš uređaj koji može prvi posao, a nema mogućnost koju si podrazumevao za drugi."
+      },
+      {
+        "type": "paragraph",
+        "text": "Rupe oko cevi i zatvoreni otvori takođe ne treba da se podrazumevaju pod „sečenjem”. RUBI ih u priručniku razmatra kao posebne oblike za koje se biraju odgovarajući alati. Skica sa položajem i dimenzijama pomaže da se komplet opreme proveri pre dolaska na radilište."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Probni rez treba da odgovori na konkretno pitanje"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kada dogovaraš probu, unapred odredi šta proveravaš: da li pločica može da se razdvoji po planiranoj liniji, da li je ivica prihvatljiva i da li odgovara merama. Za vidljivu ivicu traži potvrdu očekivane završne obrade, bez obećanja da jedna mašina svaki materijal seče bez oštećenja."
+      },
+      {
+        "type": "paragraph",
+        "text": "Zapiši koji uzorak i pribor su korišćeni. Ako proba ne zadovoljava, prvo preispitaj kombinaciju pločice, pribora i postupka sa osobom koja poznaje opremu. Veći pritisak ili snažnija mašina nisu sami po sebi odgovor na uzrok lošeg rezultata."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Organizuj radni prostor pre preuzimanja"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pored samog uređaja proveri gde će stajati pločice, kako će se osloniti i ko će njima rukovati. Kod velikog formata posebno razjasni pristup prostoru i manipulaciju celim komadom. Kod mokrog sečenja unapred dogovori mesto rada, vodu, napajanje i čišćenje prema zahtevu uređaja."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pri preuzimanju traži demonstraciju podešavanja i uputstvo za konkretan model. Neka budu jasni dozvoljeni materijali, zaštita, oslonci i postupak zamene ili provere pribora. Ovaj vodič služi izboru i pripremi najma; ne određuje univerzalnu brzinu, pritisak ili način sečenja za sve uređaje."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Spisak za upit za najam"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Materijal i fotografija deklaracije pločica.",
+          "Dimenzije, debljina i opis površine.",
+          "Skica ravnih, dijagonalnih i posebnih rezova.",
+          "Najduži rez i najuža planirana završna traka.",
+          "Broj rezova i očekivana završna obrada ivice.",
+          "Radni prostor, napajanje i uslovi za mokro sečenje ako je potrebno.",
+          "Datum, prevoz i mogućnost provere na uzorku.",
+          "Potvrda pribora i njegovog zasebnog obračuna."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "U katalogu pogledaj [ručni sekač za keramiku velikog formata](https://alatrent.rs/sr/alat/bihui-rucni-sekac-za-keramiku-velikog-formata-cr-32373) i [električni rezač pločica](https://alatrent.rs/sr/alat/einhell-te-tc-620-u-rezac-plocica-200x25-4mm-900w-cr-30788). Pre rezervacije potvrdi konkretan uređaj, njegov kapacitet, pribor i dostupnost za tvoju pločicu i termin. [Pošalji upit](https://alatrent.rs/sr/kontakt) sa pripremljenim podacima, a pravila obračuna proveri u [vodiču o najmu i dostavi](https://alatrent.rs/sr/saveti/cena-najma-alata-i-dostave)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[RUBI: Porcelain Tile Cutter — How to Cut Porcelain Tile](https://www.rubi.com/en/blog/porcelain-tile-cutter/).",
+          "[RUBI: How to Use a Tile Cutter](https://www.rubi.com/en/blog/how-to-use-a-tile-cutter/).",
+          "[RUBI Academy: priručnik, poglavlje „Cuts and Drills”](https://s3.eu-west-1.amazonaws.com/rubi.web.images.public/academy/manual_2_en.pdf)."
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-32373",
+      "crafter-30788"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-17T08:15:17.673682+00:00",
+    "updatedAt": "2026-10-17T08:15:17.673682+00:00"
+  }
+]

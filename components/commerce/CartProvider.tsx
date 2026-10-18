@@ -1,7 +1,7 @@
 'use client';
 import { Suspense, createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import Link from 'next/link';
-import { ReferralCapture } from './Referrals';
+import ReferralCapture from './ReferralCapture';
 import type { CartItem } from '@/lib/commerce/types';
 import type { Locale } from '@/lib/types';
 import { ct } from '@/lib/commerce/copy';

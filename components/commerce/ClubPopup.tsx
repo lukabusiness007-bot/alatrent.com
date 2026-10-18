@@ -8,7 +8,7 @@ import type { Locale } from '@/lib/types';
 import { ct } from '@/lib/commerce/copy';
 import { membershipText } from '@/lib/commerce/membership-copy';
 import AccountAccess from './AccountAccess';
-import { commerce } from './CartPage';
+import { commerce } from '@/lib/commerce/api-browser';
 
 const dismissalKey = 'alat-rent-club-popup-v1';
 

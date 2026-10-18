@@ -1,18 +1,10 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
 import { Gift, Copy, Share2 } from 'lucide-react';
 import type { Locale } from '@/lib/types';
 import type { ReferralSummary, ReferralProgram } from '@/lib/commerce/types';
 import { rt, referralTerms, referralIntro } from '@/lib/commerce/referral-copy';
-import { storeReferral } from '@/lib/commerce/referral-browser';
 import { money } from '@/lib/i18n';
-export function ReferralCapture() {
-  const params=useSearchParams();
-  const code=params.get('ref');
-  useEffect(()=>{ if(code) storeReferral(code); },[code]);
-  return null;
-}
 export function ReferralTerms({policy,locale}:{policy:ReferralProgram;locale:Locale}) {
   const intro=referralIntro(policy,locale);
   return <div className="referral-terms"><p>{intro}</p><details><summary>{rt(locale,'conditions')}</summary><p>{referralTerms(policy,locale).slice(intro.length)}</p></details></div>;

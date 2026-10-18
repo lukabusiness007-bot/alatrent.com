@@ -5,7 +5,7 @@ import type { Locale } from '@/lib/types';
 import type { Order, PublicCustomer, Project, ReferralSummary } from '@/lib/commerce/types';
 import { ct, type CommerceKey } from '@/lib/commerce/copy';
 import { copy, money } from '@/lib/i18n';
-import { commerce } from './CartPage';
+import { commerce } from '@/lib/commerce/api-browser';
 import RepeatRental from './RepeatRental';
 import { mt } from '@/lib/commerce/merchandising-copy';
 import type { CartItem } from '@/lib/commerce/types';

@@ -10,6 +10,7 @@ import { CartProvider } from '@/components/commerce/CartProvider';
 import Analytics from '@/components/commerce/Analytics';
 import CatalogNotice from '@/components/CatalogNotice';
 import { siteIcons } from '@/lib/seo-assets';
+import { googleSans } from '@/lib/fonts';
 export const metadata = { icons: siteIcons };
 export const dynamic = 'force-dynamic';
 async function dbLayout({
@@ -23,7 +24,7 @@ async function dbLayout({
   if (!isLocale(locale)) notFound();
   const s = settings();
   return (
-    <html data-scroll-behavior="smooth" lang={locale === 'sr' ? 'sr-Latn' : locale === 'zh' ? 'zh-Hans' : locale}>
+    <html className={googleSans.variable} data-scroll-behavior="smooth" lang={locale === 'sr' ? 'sr-Latn' : locale === 'zh' ? 'zh-Hans' : locale}>
       <body>
         <OrganizationSchema settings={s} />
         <CartProvider locale={locale}><Header locale={locale} brand={s.brand} />

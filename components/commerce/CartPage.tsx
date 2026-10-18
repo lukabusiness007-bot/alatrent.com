@@ -19,16 +19,7 @@ import { membershipText } from '@/lib/commerce/membership-copy';
 import type { RetiredTool } from '@/lib/catalog-reduction';
 import { replacementCopy } from '@/lib/commerce/catalog-reduction-copy';
 import { ShoppingBag, Trash2, ArrowRight, Bookmark } from 'lucide-react';
-export async function commerce(action: string, body: unknown) {
-  const r = await fetch('/api/commerce/' + action, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
-  const result = await r.json();
-  if (!r.ok) throw new Error(result.error || 'Request failed.');
-  return result;
-}
+import { commerce } from '@/lib/commerce/api-browser';
 export default function CartPage({
   locale,
   data,

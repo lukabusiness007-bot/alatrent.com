@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { siteIcons } from '@/lib/seo-assets';
+import { googleSans } from '@/lib/fonts';
 import '../globals.css';
 import './admin.css';
 export const metadata: Metadata = {
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 };
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html data-scroll-behavior="smooth" lang="sr-Latn">
+    <html className={googleSans.variable} data-scroll-behavior="smooth" lang="sr-Latn">
       <body className="admin-body">{children}</body>
     </html>
   );

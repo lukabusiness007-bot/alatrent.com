@@ -13,16 +13,12 @@ import { hashToken } from '@/lib/auth';
 import { currentCustomer } from '@/lib/commerce/auth';
 import { catalogOnly } from '@/lib/storage';
 import { retiredTools } from '@/lib/catalog-reduction';
-import ClubPopup from '@/components/commerce/ClubPopup';
+import { CartPage, Account, Bundles, OrderDetails, ClubPopup, RentalForm } from '@/components/RouteClients';
+import Club from '@/components/commerce/Club';
 import { publicOrder } from '@/lib/commerce/orders';
 import type { Bundle, Order } from '@/lib/commerce/types';
 import { ct } from '@/lib/commerce/copy';
 import { rt } from '@/lib/commerce/referral-copy';
-import CartPage from '@/components/commerce/CartPage';
-import Account from '@/components/commerce/Account';
-import Club from '@/components/commerce/Club';
-import Bundles from '@/components/commerce/Bundles';
-import OrderDetails from '@/components/commerce/OrderDetails';
 import { seo } from '@/lib/seo';
 import { catalogPage, catalogPagination, pageLabel } from '@/lib/catalog-pagination';
 import { pageCopy } from '@/lib/seo-pages';
@@ -34,7 +30,6 @@ import { ToolRentalContent } from '@/components/ToolRentalContent';
 import { today } from '@/lib/validation';
 import { Home, Catalog, Steps, Delivery, Faq, Cta } from '@/components/Store';
 import ToolArt from '@/components/ToolArt';
-import RentalForm from '@/components/RentalForm';
 import { ContactLinks } from '@/components/ContactLinks';
 import {
   ArrowRight,

@@ -526,5 +526,453 @@
     "status": "published",
     "publishedAt": "2026-10-17T08:15:17.673682+00:00",
     "updatedAt": "2026-10-17T08:15:17.673682+00:00"
+  },
+  {
+    "id": "G010",
+    "slug": "parocistac-ili-ekstraktor",
+    "title": "Paročistač ili ekstraktor: šta izabrati za pločice i nameštaj",
+    "description": "Razlika između paročistača i ekstraktora: izbor prema površini, provera održavanja, nastavaka i kompleta pre najma.",
+    "intro": "Za tvrdu površinu koja dozvoljava čišćenje parom razmatraj paročistač. Za pranje tekstilne presvlake koja dozvoljava mokro čišćenje razmatraj ekstraktor, koji nanosi rastvor i usisava ga nazad. Izbor počinje od materijala i njegove oznake održavanja; naziv „dubinsko čišćenje“ sam ne određuje uređaj.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Najpre izaberi metodu, pa uređaj"
+      },
+      {
+        "type": "paragraph",
+        "text": "Paročistač deluje parom, uz odgovarajuću mlaznicu, četku ili krpu. Kärcher SC 3 EasyFix je primer takvog uređaja za kućne tvrde površine. Ekstraktor poput Puzzi 8/1 raspršuje rastvor na tekstil i izvlači ga sa nečistoćom u posudu za prljavu vodu. To su različiti načini rada, pa jedan naziv ne treba koristiti za oba."
+      },
+      {
+        "type": "paragraph",
+        "text": "Praktično pitanje je: da li želiš da očistiš odgovarajuću tvrdu površinu parom ili da iz tekstila izvučeš naneti rastvor? Tek posle toga proveravaj konkretan model i dodatke."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela izbora prema površini"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Posao",
+          "Šta prvo razmatrati",
+          "Šta moraš potvrditi"
+        ],
+        "rows": [
+          [
+            "Pločice i druga tvrda površina",
+            "Paročistač, ako obloga dozvoljava paru",
+            "Materijal, završni sloj i prikladna mlaznica ili krpa"
+          ],
+          [
+            "Garnitura ili auto-sedište",
+            "Ekstraktor, ako presvlaka dozvoljava mokro čišćenje",
+            "Oznaka održavanja, otpornost boje, sredstvo i nastavak za tekstil"
+          ],
+          [
+            "Tepih",
+            "Ekstrakciju uz dozvoljeno mokro čišćenje i odgovarajući nastavak",
+            "Sastav, poleđinu i komplet za konkretnu površinu"
+          ],
+          [
+            "Voskirana, lepljena ili druga osetljiva obloga",
+            "Najpre dozvoljeni način održavanja",
+            "Para i vlaga mogu biti neprikladne; naziv obloge nije dovoljna potvrda"
+          ],
+          [
+            "Nepoznat materijal ili nečitka oznaka",
+            "Razjašnjenje materijala pre najma",
+            "Uputstvo proizvođača predmeta; ne biraj tretman napamet"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Tabela je pomoć pri izboru metode. Ne predstavlja potvrdu da je svaka pločica, presvlaka ili pod pogodan za pomenuti tretman."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kada para nije zamena za ekstrakciju"
+      },
+      {
+        "type": "paragraph",
+        "text": "SC 3 EasyFix nije parni usisivač: ne izvlači rastvor iz presvlake kao Puzzi. Postoje i drugi uređaji koji kombinuju paru i usisavanje, ali njihovu funkciju ne treba pripisivati svakom paročistaču."
+      },
+      {
+        "type": "paragraph",
+        "text": "Uputstvo SC 3 opisuje i osvežavanje odgovarajućeg tekstila, uz prethodnu probu. To nije isto što i ekstrakcijsko pranje. Ako ti je cilj izvlačenje nečistoće sa rastvorom iz dozvoljenog tekstila, traži uređaj za taj zadatak."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Održavanje i proba pre rada"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pročitaj uputstvo predmeta i uređaja zajedno. Para može da olabavi vosak, premaz ili lepljene ivice. Proba na skrivenom delu služi da se proveri promena boje ili oblika; ne zamenjuje izričitu zabranu proizvođača. Vruća para nosi rizik opekotina, pa način rukovanja i pribor proveri u uputstvu izdatog uređaja."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod Puzzi uređaja proveravaju se postojanost boje i otpornost na vodu. Sredstvo i doza moraju odgovarati tekstilu i uputstvu. Sredstvo za ekstraktor ne sipaj u rezervoar SC 3: njegovo uputstvo traži vodu bez dodataka. Posle ekstrakcije sačekaj potpuno sušenje pre korišćenja; ne planiraj posao prema obećanju jednog univerzalnog vremena."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za detaljniju pripremu presvlaka pročitaj [vodič za izbor mašine za dubinsko pranje nameštaja](/sr/saveti/dubinsko-pranje-namestaja-izbor-masine)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta potvrditi pre najma"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Za [SC 3 EasyFix paročistač](/sr/alat/karcher-sc-3-easyfix-parocistac-cr-33379): tačan model, potrebne mlaznice i krpe, dozvoljenu površinu i uputstvo za vodu i kertridž.",
+          "Za [Puzzi 8/1 ekstraktor](/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551): nastavak za nameštaj ili tepih, creva, odgovarajuće sredstvo i sadržaj kompleta.",
+          "Za oba: termin, transport ili dostavu i stanje površine. Pribor naveden u fabričkom pakovanju nije automatski potvrđen komplet za najam."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Primer odluke i sledeći korak"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako, na primer, planiraš pločice u kupatilu i tekstilnu garnituru, napiši ih kao dva odvojena zadatka. Fotografija obloge i oznake održavanja pomaže da se razjasni izbor. Nemoj pretpostaviti da će isti uređaj odgovarati obema površinama."
+      },
+      {
+        "type": "paragraph",
+        "text": "U jednom upitu pošalji površinu ili broj komada, materijal, vrstu nečistoće, željeni datum i potreban pribor. Model, raspoloživost i komplet potvrđuju se pre najma. Izbor uređaja sam po sebi ne garantuje uklanjanje svake mrlje."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Kärcher: SC 3 EasyFix — namena i oprema](https://www.kaercher.com/rs/home-garden/parni-cistaci/sc-3-easyfix-15136500.html)",
+          "[Kärcher: Puzzi 8/1 — način rada i primena](https://www.kaercher.com/rs/profesionalni-asortiman/cistac-tepiha/masine-za-dubinsko-pranje/puzzi-8-1-11002400.html)",
+          "[Kärcher: originalno uputstvo SC 3 EasyFix, engleski odeljak, kopija kod xm.sk](https://xm.sk/data/files/K%C3%A4rcher%20SC%203%20EasyFix%20Parn%C3%AD%20%C4%8Disti%C4%8D%201_513-650_0.pdf)",
+          "[Kärcher: originalno uputstvo Puzzi 8/1 i 8/1 Adv](https://www.kaercher.com/documents/manuals/html/BTA-5765075-000-04/EN.html)"
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-33379",
+      "crafter-35551"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-18T10:38:52.024398+00:00",
+    "updatedAt": "2026-10-18T10:38:52.024398+00:00"
+  },
+  {
+    "id": "G017",
+    "slug": "higrometar-ili-merac-vlage-drveta",
+    "title": "Higrometar ili merač vlage drveta: koji podatak ti treba",
+    "description": "Vlaga vazduha i vlaga drveta nisu isti procenat. Uporedi higrometar i merač sa iglama i proveri granice njihove namene pre najma.",
+    "intro": "Za relativnu vlažnost vazduha treba ti higrometar. Za približan sadržaj vlage u drvetu treba ti odgovarajući merač drveta. Bosch GDH 1-17 i UniversalHumid predstavljaju te dve različite namene: procenat na ekranu jednog uređaja ne zamenjuje podatak drugog.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Vazduh i drvo traže različite instrumente"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pre izbora završi rečenicu: „Želim da proverim vlagu u…”. Ako je odgovor vazduh prostorije, tražiš ambijentalno merenje. Ako je odgovor drvena daska ili komad ogreva, tražiš merenje materijala. Ako je odgovor estrih ili zid, potrebno je zasebno razjasniti materijal, svrhu i odgovarajuću metodu."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nazivi higrometar, vlagomer i merač vlage ponekad se koriste neprecizno. Zato u upitu navedi šta meriš, umesto samo naziva uređaja."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela: šta meri koji uređaj"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Potreban podatak",
+          "Primer instrumenta",
+          "Šta očitavanje opisuje",
+          "Šta ne potvrđuje"
+        ],
+        "rows": [
+          [
+            "Relativna vlažnost vazduha prostorije",
+            "GDH 1-17 termo-higrometar",
+            "Stanje vazduha, uz podatak o temperaturi",
+            "Sadržaj vlage u drvetu ili estrihu"
+          ],
+          [
+            "Približna vlaga odgovarajućeg drveta",
+            "UniversalHumid sa mernim iglama",
+            "Vlagu drveta prema skali i grupi drveta",
+            "Vlažnost vazduha ili stanje svih slojeva poda"
+          ],
+          [
+            "Preostala vlaga estriha pre oblaganja",
+            "Metoda određena za konkretnu podlogu i podni sistem",
+            "Rezultat propisanog merenja",
+            "Ne može se zameniti ambijentalnim očitavanjem ili skalom za drvo"
+          ],
+          [
+            "Uzrok vlažne fleke",
+            "Procena problema i potrebna dodatna merenja",
+            "Zavisi od uzroka i obuhvata pregleda",
+            "Jedan procenat nije dijagnoza curenja ili kondenzacije"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "GDH 1-17 meri temperaturu i relativnu vlažnost vazduha, a prikazuje i izvedene veličine, među njima tačku rosišta. UniversalHumid procenjuje vlagu drveta preko električnog otpora između igala. Njegova namena nije univerzalno ispitivanje građevinskih materijala."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Zašto se procenti ne porede direktno"
+      },
+      {
+        "type": "paragraph",
+        "text": "Oznaka %RH odnosi se na relativnu vlažnost vazduha. Procenat vlage drveta u uputstvu UniversalHumid zasniva se na odnosu mase vode u drvetu i suve mase drveta. To su različite veličine."
+      },
+      {
+        "type": "paragraph",
+        "text": "Hipotetički zapis „vazduh 60% RH, drvo 15%” zato nije protivrečnost niti dva merenja iste stvari. Te brojeve ovde ne koristimo kao preporučene granice. Prihvatljivost drveta za određenu namenu proverava se prema zahtevu tog posla i materijala."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kako pripremiti smisleno merenje"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za merenje vazduha GDH uređaju treba omogućiti prilagođavanje uslovima prostorije. Nagla promena temperature, prljav ili vlažan senzor, telesna toplota i dah mogu uticati na rezultat. Prati uputstvo i sačekaj stabilno očitavanje; prvi broj posle unošenja iz automobila nije dobra osnova za zaključak."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod UniversalHumid proveri grupu drveta i prikladnost mesta merenja. Uputstvo traži odgovarajuće netretirano mesto bez nečistoće i nedostataka. Merenje iglama ostavlja ubode, pa ne podrazumevaj da je pogodno za gotovu dekorativnu površinu. Tačan način postavljanja igala proveri pri preuzimanju uređaja."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za belešku o merenju pripremi:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "naziv uređaja, izabranu veličinu ili grupu drveta i jedinicu;",
+          "mesto, vreme i uslove u kojima je rezultat očitan;",
+          "vrstu materijala i svrhu provere;",
+          "više smislenih mernih mesta kada posao to zahteva, uz postupak iz uputstva."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta ova merenja ne potvrđuju"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ni prijatan vazduh u prostoriji ni očitavanje skale za drvo sami ne potvrđuju da je estrih spreman za oblaganje. Za takvu odluku traži metodu i kriterijum koje zahteva konkretna podloga, obloga i sistem ugradnje."
+      },
+      {
+        "type": "paragraph",
+        "text": "Boju skale ili podešeni prag ne tumači kao univerzalnu dozvolu za rad. Ako ne znaš koji podatak izvođač traži, najpre zatraži naziv merne veličine i prihvaćenog postupka. Tako izbegavaš najam instrumenta koji daje uredan broj, ali ne odgovara na tvoje pitanje."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta poslati za najam"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za [GDH 1-17 termo-higrometar](/sr/alat/bosch-digitalni-termo-higrometar-gdh-1-17-cr-60941) opiši prostoriju i zašto proveravaš uslove vazduha. Za [UniversalHumid merač vlage drveta](/sr/alat/bosch-merac-vlage-universal-humid-cr-3085) navedi vrstu drveta, stanje površine i namenu materijala."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dodaj termin i podatak da li ti treba informativna provera ili rezultat po zahtevu izvođača. Konkretan model, stanje instrumenata, uputstvo i raspoloživost potvrđuju se pre najma."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Bosch Professional: GDH 1-17 — namena](https://www.bosch-professional.com/rs/sr/products/gdh-1-17-0601078400)",
+          "[Bosch DIY: UniversalHumid — merač vlage drveta](https://www.bosch-diy.com/gb/en/p/universalhumid-0603688001)",
+          "[Bosch: originalno uputstvo GDH 1-17, srpski odeljak 214–221](https://www.bosch-professional.com/binary/manualsmedia/o621845v21_160992AG1D_202511.pdf)",
+          "[Bosch: originalno uputstvo UniversalHumid, engleski odeljak 19–27](https://www.bosch-diy.com/storage/en-gb/universalhumid-100057499-original-pdf-388089-en-gb.pdf)"
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-60941",
+      "crafter-3085"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-18T10:38:52.024398+00:00",
+    "updatedAt": "2026-10-18T10:38:52.024398+00:00"
+  },
+  {
+    "id": "G024",
+    "slug": "duvac-lisca-ili-grabulje",
+    "title": "Duvač lišća ili grabulje: kada ima smisla najam",
+    "description": "Izbor alata za jesenje lišće prema površini, količini i preprekama. Šta duvač radi, šta ostaje za skupljanje i šta proveriti pre najma.",
+    "intro": "Za manju površinu i malo lišća prvo razmotri grabulje. Duvač ima više smisla kada treba grupisati veću količinu lišća na odgovarajućoj otvorenoj površini. U plan uključi i završno skupljanje: duvanje na gomilu nije isto što i usisavanje u vreću.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Od količine lišća do izbora alata"
+      },
+      {
+        "type": "paragraph",
+        "text": "Površina dvorišta nije jedini kriterijum. Važno je gde se lišće zadržava, da li je mokro, koliko ima prepreka i kuda može da se usmeri. Mala staza uz nekoliko leja može biti sasvim razuman posao za ručni alat. Za veću otvorenu zonu vredi razmotriti duvač, uz proveru uslova rada."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nema jedne kvadrature posle koje je motorni alat obavezan. Za odluku saberi pripremu, pristup, grupisanje lišća, njegovo skupljanje i transport opreme."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela odluke za dvorište i stazu"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Situacija",
+          "Šta prvo razmatrati",
+          "Šta menja odluku"
+        ],
+        "rows": [
+          [
+            "Malo lišća na manjoj pristupačnoj površini",
+            "Grabulje ili odgovarajući ručni alat",
+            "Da li je priprema motornog uređaja uopšte potrebna"
+          ],
+          [
+            "Veća otvorena površina sa mnogo lišća",
+            "Duvač za grupisanje, pa završno skupljanje",
+            "Oslonac, okolni ljudi, prepreke i mesto za gomilu"
+          ],
+          [
+            "Vlažno lišće zalepljeno uz podlogu",
+            "Procenu na licu mesta i mogućnost ručnog skupljanja",
+            "Ne obećavaj rezultat samo na osnovu snage uređaja"
+          ],
+          [
+            "Lišće među biljkama i sitnim preprekama",
+            "Pažljivo ručno skupljanje kao prvi izbor",
+            "Da li vazdušna struja može da zahvati ono što želiš da sačuvaš"
+          ],
+          [
+            "Lišće na šljunku ili uz sitan rastresit materijal",
+            "Najpre proveru podloge i prikladnosti alata",
+            "Rizik raznošenja sitnog materijala i blizina ljudi ili imovine"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Poslednji redovi su uslovna pomoć pri planiranju, a ne uputstvo za rad na svakoj podlozi. Kada se lišće i podloga ne mogu jasno razdvojiti, fotografija i opis mesta korisniji su od zahteva za „što jačim duvačem“."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Duvač nije usisivač lišća"
+      },
+      {
+        "type": "paragraph",
+        "text": "Duvač pomera lišće vazdušnom strujom. Usisavanje, usitnjavanje i skupljanje u vreću zasebne su funkcije koje konkretan uređaj mora da podržava. Echo PB-770 je predstavljen kao motorni leđni duvač; nemoj računati na usisavanje ili usitnjavanje u njegovom kompletu."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pre rada odredi gde ćeš napraviti gomilu i kako ćeš je pokupiti. Grabulje i posuda ili vreća mogu ostati potrebni i kada iznajmiš duvač. Način predaje zelenog otpada proveri za svoju lokaciju; ne pretpostavljaj da svuda postoji ista usluga."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pristup, buka i bezbednost"
+      },
+      {
+        "type": "paragraph",
+        "text": "Benzinski duvač nije za zatvorenu garažu, plastenik ili drugi slabo provetren prostor: izduvni gasovi su opasni. Ovaj vodič se odnosi na planiranje skupljanja lišća napolju. Za nepoznatu građevinsku prašinu i ostatke radova prvo treba utvrditi odgovarajući postupak uklanjanja."
+      },
+      {
+        "type": "paragraph",
+        "text": "Uputstvo PB-770 traži siguran oslonac, uklanjanje drugih ljudi i životinja iz radne zone i zabranu usmeravanja cevi prema njima. Predviđa zaštitu očiju, sluha i disanja, odgovarajuću odeću i obuću. Tačnu zaštitu, radnu zonu i rukovanje proveri prema izdatom modelu; ova lista ne zamenjuje njegovo uputstvo."
+      },
+      {
+        "type": "paragraph",
+        "text": "Planiraj termin imajući u vidu buku i okolinu. Proveri pravila za konkretnu lokaciju; ovde ne navodimo proizvoljne dozvoljene sate. Gorivo i transport dogovori pre preuzimanja, prema uputstvu konkretnog uređaja."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Primer pripreme i najam"
+      },
+      {
+        "type": "paragraph",
+        "text": "Zamisli dvorište sa otvorenom stazom i manjim lejama. Razuman plan može biti grupisanje lišća na otvorenom delu, uz zasebno pažljivo skupljanje oko biljaka i konačno pakovanje gomile. To je primer organizacije posla, bez obećanja vremena ili učinka."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za [Echo motorni duvač lišća PB-770EUK5](/sr/alat/echo-duvac-lisca-motorni-pb-770euk5-cr-35684) pošalji:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "približnu površinu i vrstu podloge;",
+          "količinu i stanje lišća, uključujući da li je vlažno;",
+          "fotografiju pristupa, prepreke i blizinu drugih ljudi;",
+          "plan završnog skupljanja i željeni termin;",
+          "pitanje o tačnom modelu, gorivu, uputstvu i mogućnosti transporta."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta obuhvatiti u jednom upitu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Napiši šta želiš da očistiš i gde lišće treba da završi. Ako je posao mali, i ručni alat može rešiti potrebu. Ako razmatraš najam, model, raspoloživost i komplet potvrđuju se za termin; naziv iz kataloga nije sam po sebi potvrda izdate varijante."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[STIHL Srbija: odlaganje lišća, izbor alata i završno skupljanje](https://www.stihl.rs/sr/saveti-projekti/odrzavanje-baste/bastenski-otpad/odlaganje-lisca)",
+          "[ECHO Tools United Kingdom: PB-770 leđni duvač](https://www.echo-tools.co.uk/products/blower-pb-770)",
+          "[ECHO: originalno uputstvo PB-770, engleski odeljak, kopija kod tamag.ch](https://www.tamag.ch/media/e1/3b/87/1728983727/PB770_DE_FR_IT_GB.pdf?ts=1728983727)"
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-35684"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-18T10:38:52.024398+00:00",
+    "updatedAt": "2026-10-18T10:38:52.024398+00:00"
   }
 ]

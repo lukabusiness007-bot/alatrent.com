@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { safeGuideHref, parseGuideMarkdown, validatePublishedGuides } from '../lib/guide-publishing.mjs';
+import { safeGuideHref, parseGuideMarkdown, validatePublishedGuides, mergePublishedGuides } from '../lib/guide-publishing.mjs';
 
 test('Editorial links cannot become script, credential-bearing, or protocol-relative URLs', () => {
   for (const href of ['javascript:alert(1)', 'data:text/html,hello', '//evil.example', 'https://user:password@evil.example', 'https://evil.example:8443/', '/\\evil.example', '/sr/%0dheader']) assert.equal(safeGuideHref(href), null, href);
@@ -37,4 +37,18 @@ test('Staged publication references existing equipment and preserves separate ar
     assert.ok(guide.blocks.some(block => block.type === 'list'), guide.slug);
     assert.ok(guide.blocks.some(block => block.type === 'heading' && block.text === 'Izvori'), guide.slug);
   }
+});
+
+test('Explicit legacy refresh keeps one URL and its first publication date', () => {
+  const old = { slug: 'existing-guide', publishedAt: '2026-10-14T12:00:00.000Z', updatedAt: '2026-10-14T12:00:00.000Z' };
+  const refresh = { ...old, title: 'Updated guide', description: 'Updated selection criteria.', intro: 'Start with the material.', toolIds: ['tool-1'], status: 'published', replacesLegacy: true, updatedAt: '2026-10-19T06:30:00Z', blocks: [{ type: 'paragraph', text: 'Check the complete kit.' }] };
+  const result = mergePublishedGuides([old], [refresh]);
+  assert.equal(result.length, 1);
+  assert.equal(result[0].publishedAt, old.publishedAt);
+  assert.equal(result[0].updatedAt, refresh.updatedAt);
+  assert.throws(() => mergePublishedGuides([old], [{ ...refresh, publishedAt: refresh.updatedAt }]), /preserve/);
+  assert.throws(() => mergePublishedGuides([old], [{ ...refresh, replacesLegacy: false }]), /preserve/);
+  assert.throws(() => mergePublishedGuides([old], [{ ...refresh, updatedAt: old.updatedAt }]), /preserve/);
+  assert.throws(() => mergePublishedGuides([old], [{ ...refresh, slug: 'unknown-guide' }]), /Unknown/);
+  assert.deepEqual(mergePublishedGuides([old], [{ ...refresh, status: 'draft' }]), [old]);
 });

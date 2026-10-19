@@ -132,7 +132,7 @@ test('Search crawlers get raster favicons, a business logo and complete preview 
 test('Crawl every sitemap URL: 200, one H1, unique metadata, canonical, reciprocal hreflang and parseable JSON-LD', async () => {
   const { html: xml } = await get('/sitemap.xml');
   const urls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(match => match[1]);
-  assert.equal(urls.length, (6 + active.length + seed.categories.length) * locales.length + 6 + publishedGuides.length);
+  assert.equal(urls.length, (6 + active.length + seed.categories.length) * locales.length + 6 + publishedGuides.filter(guide => !guide.replacesLegacy).length);
   assert.equal(new Set(urls).size, urls.length);
   assert.match(xml, /hreflang="x-default"/);
   assert.match(xml, /<image:loc>https:\/\/seo.example\/images\/catalog\//);
@@ -302,7 +302,7 @@ test('Guides publish only real Serbian pages and link to published equipment wit
   const { html: hub } = await get('/sr/saveti');
   const paths = [...new Set([...hub.matchAll(/href="(\/sr\/saveti\/[^"?]+)"/g)].map(m => m[1]))];
   const legacySlugs = ['vibro-ploca-ili-vibro-zaba', 'kako-izabrati-merdevine', 'zirafa-i-usisivac-za-zidove', 'dubinsko-pranje-namestaja-izbor-masine', 'cena-najma-alata-i-dostave'];
-  assert.deepEqual([...paths].sort(), [...legacySlugs, ...publishedGuides.map(guide => guide.slug)].map(slug => '/sr/saveti/' + slug).sort());
+  assert.deepEqual([...paths].sort(), [...new Set([...legacySlugs, ...publishedGuides.map(guide => guide.slug)])].map(slug => '/sr/saveti/' + slug).sort());
   for (const path of paths) {
     const { response, html } = await get(path);
     assert.equal(response.status, 200);

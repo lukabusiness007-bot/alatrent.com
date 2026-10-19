@@ -974,5 +974,458 @@
     "status": "published",
     "publishedAt": "2026-10-18T10:38:52.024398+00:00",
     "updatedAt": "2026-10-18T10:38:52.024398+00:00"
+  },
+  {
+    "id": "G015",
+    "slug": "izbor-odvlazivaca-za-najam",
+    "title": "Kako izabrati odvlaživač za najam: prostor, uslovi i kondenzat",
+    "description": "Šta poslati za izbor odvlaživača: prostor, izvor vlage, temperatura, napajanje i odvod kondenzata. Zašto litri dnevno nisu dovoljan kriterijum.",
+    "intro": "Odvlaživač biraj prema nameni, prostoru, temperaturi i vlažnosti, uz plan napajanja i odvođenja kondenzata. Oznaka kapaciteta u litrima dnevno nije dovoljna da se odredi model ili trajanje najma. Najpre razjasni izvor vlage i šta želiš da proveriš na kraju posla.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Najpre opiši problem sa vlagom"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vlažan vazduh u prostoriji, vlaga nakon radova i posledice curenja nisu isti zadatak. Odvlaživanje vazduha ne predstavlja potvrdu da je izvor vode otklonjen ili da je građevinska podloga spremna za završni sloj."
+      },
+      {
+        "type": "paragraph",
+        "text": "U opisu navedi kada se problem pojavio, da li voda i dalje ulazi i šta je već urađeno. Ako je bilo plavljenja ili postoji nepoznata električna opasnost, prvo je potrebna odgovarajuća procena prostora. Najam uređaja ne zamenjuje taj korak."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela podataka za izbor uređaja"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Podatak",
+          "Šta poslati",
+          "Zašto menja izbor"
+        ],
+        "rows": [
+          [
+            "Namena",
+            "Vlažan vazduh, radovi ili posledice curenja",
+            "Uređaji nemaju svi istu dozvoljenu primenu"
+          ],
+          [
+            "Prostor",
+            "Površinu, visinu i raspored prostorija",
+            "Jedna soba i više odvojenih prostorija nisu isti raspored rada"
+          ],
+          [
+            "Uslovi",
+            "Približnu temperaturu i izmerenu relativnu vlažnost, ako je imaš",
+            "Učinak zavisi od uslova; ne treba ga prenositi sa reklamne maksimalne vrednosti"
+          ],
+          [
+            "Kondenzat",
+            "Mogućnost pražnjenja posude ili mesto za odvod",
+            "Treba potvrditi rezervoar, crevo i eventualnu pumpu"
+          ],
+          [
+            "Napajanje",
+            "Raspoloživ priključak i stanje radnog prostora",
+            "Električni zahtevi proveravaju se za konkretan model"
+          ],
+          [
+            "Pristup",
+            "Stepenice, širinu prolaza i mogućnost transporta",
+            "Dimenzije i masa uređaja utiču na dostavu i postavljanje"
+          ],
+          [
+            "Završni kriterijum",
+            "Šta treba postići i ko potvrđuje rezultat",
+            "Merenje vazduha i provera podloge imaju različitu ulogu"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako podatak nemaš, tako ga označi u upitu. Procena bez merenja može pomoći da se opiše problem, ali je ne treba predstavljati kao potvrđenu vlažnost."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta znači kapacitet u litrima dnevno"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod kondenzacionih modela temperatura i relativna vlažnost utiču na količinu izdvojene vode. Maksimalni kapacitet i učinak pri navedenim uslovima mogu biti različiti podaci. Zato uz poređenje traži uslove merenja, radni opseg i namenu konkretnog uređaja."
+      },
+      {
+        "type": "paragraph",
+        "text": "Fabrička uputstva Trotec TTK 70 S i industrijskog TTK 1500 ilustruju tu razliku: imaju različit obuhvat primene i zahteve. To su primeri dokumentacije, a ne potvrda da baš te modele izdajemo. Ne prenosimo njihove litre, dozvoljene temperature ili električne priključke na nepoznat uređaj iz ponude."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nemoj računati broj dana prostim deljenjem zamišljene količine vode reklamnim dnevnim kapacitetom. Za plan rada potrebni su stvarni uslovi i praćenje rezultata."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Rezervoar, crevo i pumpa nisu isti komplet"
+      },
+      {
+        "type": "paragraph",
+        "text": "Potvrdi kako izabrani uređaj odlaže kondenzat. Posuda zahteva plan pražnjenja; kod pojedinih modela pun rezervoar zaustavlja odvlaživanje. Kontinuirani odvod traži odgovarajući priključak i uslove postavljanja creva. Pumpu ne podrazumevaj samo zato što uređaj ima priključak za odvod."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pošalji gde je odvod u odnosu na planirano mesto uređaja i ko može da nadgleda rad. Tačan prečnik creva, način odvođenja i dozvoljene visinske razlike proveravaju se prema modelu. Ovaj tekst nije uputstvo za improvizovanje odvoda."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Prostor, napajanje i pristup"
+      },
+      {
+        "type": "paragraph",
+        "text": "Proveri mesto za stabilno postavljanje i slobodan ulaz i izlaz vazduha. Razmake od prepreka i uslove rada uzmi iz uputstva izdatog uređaja. Ne zatvaraj uređaj među predmete niti ga prikrivaj da bi se uklopio u prostor."
+      },
+      {
+        "type": "paragraph",
+        "text": "Napajanje i električnu zaštitu potvrdi za taj model i uslove prostora. Oprema za odvlaživanje vazduha nije automatski pogodna za rad uz stajaću vodu. Transport, položaj uređaja i eventualno čekanje posle transporta takođe prati prema njegovom uputstvu."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kako pratiš rezultat i pripremaš upit"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za praćenje vazduha koristan je odgovarajući higrometar. Ako nisi siguran šta meriš, pročitaj [razliku između higrometra i merača vlage drveta](/sr/saveti/higrometar-ili-merac-vlage-drveta). Pad vlažnosti vazduha sam po sebi ne odobrava postavljanje poda ili zatvaranje vlažnog sloja."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za [najam odvlaživača odnosno isušivača vazduha](/sr/alat/odvlazivac-isusivac-vazduha) pošalji podatke iz tabele i željeni termin. Model, prikladnost za posao, komplet i raspoloživost potvrđuju se pre najma. Trajanje dogovaraj uz praćenje uslova, bez garantovanog roka sušenja."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Trotec: TTK 70 S, uputstvo — namena, učinak i kondenzat](https://de.trotec.com/fileadmin/downloads/Entfeuchtung/TTK70S/TRT-BA-TTK_70_S-TC-001-EN.pdf)",
+          "[Trotec: TTK 1500, industrijsko uputstvo — primer drugačijih zahteva](https://uk.trotec.com/fileadmin/downloads/Entfeuchtung/TTK1500/TRT-BA-TTK_1500-TC-001-EN.pdf)",
+          "[Trotec: izbor uređaja za građevinsko sušenje i posledice vode](https://en.trotec.com/shop/dehumdification/product-finder-for-dehumidifiers/water-damage-construction.html)"
+        ]
+      }
+    ],
+    "toolIds": [
+      "tool-011"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-19T13:01:53.410894+00:00",
+    "updatedAt": "2026-10-19T13:01:53.410894+00:00"
+  },
+  {
+    "id": "G030",
+    "slug": "ekscentricna-vibraciona-ili-tracna-brusilica",
+    "title": "Ekscentrična, vibraciona ili tračna brusilica: izbor za drvo",
+    "description": "Uporedi brusilice za drvo prema obliku površine, skidanju sloja i završnoj obradi. Proveri papir, traku i odvođenje prašine pre najma.",
+    "intro": "Za izbor brusilice prvo odredi oblik drvene površine i da li skidaš sloj ili pripremaš završnu obradu. Ekscentrična, vibraciona i tračna brusilica nisu međusobno zamenljive u svakom poslu. Odgovarajući abraziv, stanje drveta i kontrola prašine jednako su važni kao tip mašine.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Počni od površine i cilja brušenja"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ravna ploča, unutrašnji ugao rama i tanak furnir traže različitu procenu. Napiši šta treba ukloniti i šta sledi posle brušenja: premazivanje, druga obrada ili samo priprema odgovarajuće površine."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako je sloj nepoznat ili ne znaš koliko materijala sme da se skine, izbor „najjače“ brusilice nije dovoljan odgovor. Najpre razjasni predmet, premaz i dozvoljeni obim obrade. Za ceo parket ili profilisane ukrase može biti potreban drugačiji alat i plan od onog za pristupačnu drvenu ploču."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela poređenja tri tipa"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Tip",
+          "Kada ga razmatrati",
+          "Šta prvo proveriti"
+        ],
+        "rows": [
+          [
+            "Ekscentrična, sa kružnim diskom",
+            "Obrada pristupačne površine drveta i priprema završne obrade odgovarajućim abrazivom",
+            "Oblik predmeta, prečnik i otvore diska; kružna ploča ne rešava svaki unutrašnji ugao"
+          ],
+          [
+            "Vibraciona, sa pravougaonom pločom",
+            "Obrada ravnih površina kada su oblik ploče i tanje skidanje sloja prikladni poslu",
+            "Dimenziju lista papira, način stezanja i stvarni pristup ivicama"
+          ],
+          [
+            "Tračna",
+            "Obrada pristupačne površine za koju je prikladna brusna traka",
+            "Koliko sloja sme da se ukloni, oslonac mašine i odgovarajuću traku"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Tabela usmerava izbor, bez obećanja da jedan tip uvek radi brže ili ostavlja površinu bez tragova. Probna obrada na odgovarajućem manje vidljivom delu pomaže da se proveri izbor abraziva i rezultat pre nastavka."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Dimenzija ploče nije uvek dimenzija papira"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod vibracione brusilice list koji se steže može biti duži od same brusne ploče. Zvanična stranica Makita BO3710 zasebno navodi te dve dimenzije. Zato nemoj kupovati papir samo prema kratkoj dimenziji u nazivu oglasa."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod ekscentrične brusilice proveravaju se prečnik diska, pričvršćivanje i poklapanje otvora za prašinu. Uputstvo BO5040/BO5041 izričito traži poravnanje otvora. Kod tračne se proverava odgovarajuća širina i dužina trake, prema izdatom modelu."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako ne znaš koji potrošni materijal treba, pošalji model i traži potvrdu. Dimenzije i sadržaj pakovanja druge tržišne varijante nisu potvrda našeg kompleta."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Granulacija prati materijal i sledeći premaz"
+      },
+      {
+        "type": "paragraph",
+        "text": "Grublji i finiji abraziv ne obavljaju isti zadatak. Izbor zavisi od površine, sloja koji se uklanja i potrebne pripreme za narednu obradu. Ne postoji jedna granulacija za svako drvo, stari lak i završni premaz."
+      },
+      {
+        "type": "paragraph",
+        "text": "Proveri i preporuku proizvođača premaza koji planiraš da naneseš. Ne nadoknađuj istrošen ili pogrešan abraziv većim pritiskom. Uputstva Makita traže odgovarajuće oslanjanje alata i upozoravaju da preteran pritisak ne predstavlja način da se dobije bolji rezultat."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Prašina i stari premazi menjaju plan"
+      },
+      {
+        "type": "paragraph",
+        "text": "Prašina nepoznatog premaza traži razjašnjenje materijala i postupka pre brušenja. Vrećica uz brusilicu nije sama po sebi potvrda da je rešena zaštita od svake prašine. Odvođenje prašine, zaštita očiju i disanja i uslovi prostora proveravaju se prema materijalu i uputstvu uređaja."
+      },
+      {
+        "type": "paragraph",
+        "text": "BO5040/BO5041 i 9910 uputstva upozoravaju na moguću opasnu prašinu i ne predviđaju dodavanje vode na predmet tokom rada. Ne pretvaraj ove uređaje u rešenje za mokro brušenje. Montažu abraziva i spojeva obavljaj uz isključeno napajanje prema uputstvu konkretnog modela."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta potvrditi za najam"
+      },
+      {
+        "type": "paragraph",
+        "text": "U katalogu možeš razmotriti [Makita BO5041 ekscentričnu](/sr/alat/makita-bo5041-ekscentricna-brusilica-300w-125mm-cr-562), [BO3710 vibracionu](/sr/alat/makita-bo3710-brusilica-vibraciona-190w-93x185mm-cr-757) i [9910 tračnu brusilicu](/sr/alat/makita-9910-tracna-brusilica-650w-457x76mm-cr-634). To su reference za proveru modela, ne obećanje raspoloživosti ili fabričkog kompleta."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pošalji:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "fotografiju predmeta, materijal i njegove dimenzije;",
+          "postojeći sloj, cilj obrade i sledeći premaz;",
+          "ograničenja pristupa, uglove i osetljive delove;",
+          "pitanje o abrazivu, sakupljanju prašine, crevu i adapteru;",
+          "termin i način transporta."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Tačan model, potrošni materijal i potrebni dodaci potvrđuju se pre najma. Cena samog uređaja ne mora obuhvatati sve što je potrebno za posao."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Einhell Srbija: vrste brusilica i izbor abraziva, strana 14](https://www.einhell.rs/fileadmin/RS/service/catalogues/pdf-rs/Saveti-i-preporuke.pdf)",
+          "[Makita: BO3710, ploča i potrošni papir](https://www.makita.co.nz/products/model/BO3710)",
+          "[Makita: BO5041K, prikaz ekscentrične brusilice i diska](https://www.makita.co.nz/products/model/BO5041K)",
+          "[Makita: originalno uputstvo 9910/9911, engleski odeljak](https://www.makita.ca/data/upload/owners_manuals/9910%2C%209911%20-%20EN%2C%20FR%20%26%20SP.pdf)",
+          "[Makita: originalno uputstvo BO5040/BO5041](https://cdn.makitatools.com/apps/cms/doc/prod/BO5/b7dbcd15-50e0-458a-8355-724424ded642_BO5041K_IM.pdf)"
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-562",
+      "crafter-757",
+      "crafter-634"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-19T13:01:53.410894+00:00",
+    "updatedAt": "2026-10-19T13:01:53.410894+00:00"
+  },
+  {
+    "id": "G008",
+    "slug": "dubinsko-pranje-namestaja-izbor-masine",
+    "title": "Mašina za dubinsko pranje nameštaja: šta proveriti pre najma",
+    "description": "Proveri materijal, nastavak, sredstvo i sušenje pre najma ekstraktora za garnituru ili auto-sedišta. Tabela i kontrolna lista za potpun upit.",
+    "intro": "Ekstrakcijska mašina nanosi rastvor na tekstil i usisava ga nazad zajedno sa nečistoćom. Namenjena je materijalima koji dozvoljavaju mokro čišćenje. Pre rezervacije proveri oznaku održavanja nameštaja.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Materijal je važniji od veličine mašine"
+      },
+      {
+        "type": "paragraph",
+        "text": "Garnitura, dušek i auto-sedište mogu imati različite presvlake, punjenje i preporuke održavanja. Izbor ne počinje brojem litara u rezervoaru, nego pitanjem da li konkretan predmet dozvoljava ekstrakcijsko pranje. Fotografija etikete i naziv materijala korisniji su od opisa „obična ugaona garnitura“."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako još biraš između metoda, pogledaj [razliku između paročistača i ekstraktora](/sr/saveti/parocistac-ili-ekstraktor). Ovaj vodič služi pripremi za najam ekstraktora kada je takvo čišćenje dozvoljeno."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela provere oznake održavanja"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Šta si utvrdio",
+          "Sledeća provera",
+          "Odluka pre najma"
+        ],
+        "rows": [
+          [
+            "Proizvođač dopušta mokro čišćenje predmeta",
+            "Da li dopušta baš ekstrakciju, koje sredstvo i koje ograničenje",
+            "Razmatraj odgovarajući uređaj uz probu i potvrdu kompleta"
+          ],
+          [
+            "Voda ili mokro čišćenje nisu dozvoljeni",
+            "Koji postupak održavanja proizvođač propisuje",
+            "Ne pretpostavljaj da će blaži rastvor učiniti ekstrakciju prikladnom"
+          ],
+          [
+            "Oznaka je nečitka ili sastav nije poznat",
+            "Uputstvo, model nameštaja ili potvrda proizvođača",
+            "Odloži izbor tretmana dok ne razjasniš materijal"
+          ],
+          [
+            "Navlaka može da se skine",
+            "Posebno uputstvo navlake i ostatka predmeta",
+            "Mogućnost skidanja nije sama po sebi odobrenje pranja celog komada"
+          ],
+          [
+            "Različiti materijali na istom predmetu",
+            "Ograničenja svakog dela koji bi bio kvašen",
+            "Planiraj prema najosetljivijem delu obuhvaćenom tretmanom"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Tabela je kontrolna lista za čitanje uputstva, bez prevođenja svih simbola održavanja u univerzalno „može da se pere“. Proba na skrivenom delu ne poništava zabranu proizvođača."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Nastavak za garnituru nije isto što i komplet za tepih"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za naslone, sedišta i uglove traži potvrdu odgovarajućeg nastavka za nameštaj. Za veću tekstilnu podnu površinu zasebno proveri podni nastavak i cevi. Uputstvo Puzzi 8/1 i 8/1 Adv opisuje različite sadržaje pakovanja: dodatke Adv varijante ne treba podrazumevati uz svaki uređaj."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pre preuzimanja proveri da li su dogovoreni nastavak, creva i spojevi prisutni i odgovaraju izdavanom modelu. Fotografija stvarnog kompleta može pomoći u toj potvrdi; kataloška fotografija sama ne dokazuje sadržaj najma."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Sredstvo i proba na skrivenom delu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Uputstvo Puzzi traži proveru postojanosti boje i otpornosti na vodu na neupadljivom mestu. Proveravaju se i tekstil i sredstvo. Opiši prethodno tretiranje i poreklo mrlje ako ih znaš; naziv „fleka“ ne određuje odgovarajuću hemiju."
+      },
+      {
+        "type": "paragraph",
+        "text": "Potvrdi sredstvo namenjeno uređaju i materijalu, njegovu dozu i potrebne dodatke prema uputstvu. Ne zamenjuj ga proizvoljnim deterdžentom. Ranije šamponiran tekstil može stvarati penu, što je razlog da taj podatak navedeš pre najma. Izbor uređaja ne garantuje uklanjanje svake mrlje."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Planiraj i sušenje"
+      },
+      {
+        "type": "paragraph",
+        "text": "Usisavanje rastvora ne znači da je predmet spreman za korišćenje. Obezbedi vreme i uslove za sušenje, uključujući primereno provetravanje. Ne planiraj da koristiš nameštaj ili auto-sedište odmah nakon pranja samo zato što površina na dodir deluje manje vlažna."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ne postoji jedan rok za svaki materijal i prostor. Uputstvo uređaja i preporuke predmeta imaju prednost; bez potvrde uslova ne obećavamo određeni broj sati. Pri preuzimanju proveri i postupak ispiranja, pražnjenja i vraćanja čiste mašine."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta poslati pre rezervacije"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za [Puzzi 8/1 mašinu za dubinsko pranje](/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551) pripremi:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "predmet, broj komada i približne dimenzije;",
+          "fotografiju oznake održavanja, materijal i prethodno čišćenje;",
+          "opis nečistoće i deo predmeta koji treba tretirati;",
+          "potreban nastavak, pitanje o sredstvu i potvrdu sadržaja kompleta;",
+          "datum, način transporta i termin u kome možeš da obezbediš sušenje."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Tačan model, raspoloživost i komplet potvrđuju se za traženi termin. Aktuelne uslove proveri na stranici alata; dodatke i sredstvo nemoj podrazumevati ako nisu dogovoreni."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Kärcher: originalno uputstvo Puzzi 8/1 i 8/1 Adv](https://www.kaercher.com/documents/manuals/html/BTA-5765075-000-04/EN.html)",
+          "[Kärcher Srbija: Puzzi 8/1, način rada i pribor](https://www.kaercher.com/rs/profesionalni-asortiman/cistac-tepiha/masine-za-dubinsko-pranje/puzzi-8-1-11002400.html)",
+          "[Kärcher: provera materijala i čišćenje tapaciranog nameštaja](https://www.kaercher.com/gb/en/home-and-garden/know-how/cleaning-upholstery-c2149)"
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-35551"
+    ],
+    "status": "published",
+    "replacesLegacy": true,
+    "publishedAt": "2026-10-14T12:00:00.000Z",
+    "updatedAt": "2026-10-19T13:01:53.410894+00:00"
   }
 ]

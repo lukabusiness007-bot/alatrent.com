@@ -1427,5 +1427,435 @@
     "replacesLegacy": true,
     "publishedAt": "2026-10-14T12:00:00.000Z",
     "updatedAt": "2026-10-19T13:01:53.410894+00:00"
+  },
+  {
+    "id": "G005",
+    "slug": "vibro-ploca-ili-vibro-zaba",
+    "title": "Vibro ploča ili vibro žaba: šta izabrati za sabijanje podloge?",
+    "description": "Uporedi vibro ploču i žabu prema materijalu i pristupu. Proveri ograničenja HP1800S i VS1000, rad uz rov i podatke koje treba poslati za najam.",
+    "intro": "Za širu površinu odgovarajućeg peska i šljunka najpre razmotri vibro ploču; za ograničen pristup i uske zone razmotri vibro nabijač, odnosno žabu. Materijal ipak ima prednost nad oblikom mašine: Scheppach HP1800S nije predviđen za glinu, a uputstvo za VS1000 isključuje zemljište sa visokim udelom gline. Zato podatak „treba mi za zemlju“ nije dovoljan za izbor.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Ploča i žaba rade različitim načinom sabijanja"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ploča prenosi vibracije preko šire osnovne ploče. Nabijač deluje preko manjeg stopala, pa se ove kategorije razlikuju i po pristupu radnom mestu. Wacker Neuson u svom poređenju povezuje ploče sa granularnim materijalima i većim površinama, a nabijače sa uskim prostorima i određenim kohezivnim tlima."
+      },
+      {
+        "type": "paragraph",
+        "text": "To je smernica za kategoriju, ne odobrenje svakog modela za svaku glinu. Za najam proveravaš uputstvo konkretnog uređaja, vrstu nasipa i prostor u kome operater može da radi."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela izbora prema materijalu i pristupu"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Situacija",
+          "Šta prvo razmotriti",
+          "Provera koja menja odluku"
+        ],
+        "rows": [
+          [
+            "Šira, pristupačna površina peska ili šljunka",
+            "Odgovarajuću vibro ploču",
+            "Sastav materijala, plan slojeva i dozvoljenu primenu modela"
+          ],
+          [
+            "Uska zona ili rov sa odgovarajućim rastresitim materijalom",
+            "Nabijač ako ima bezbednog prostora",
+            "Širinu pristupa, stabilnost rova i položaj instalacija"
+          ],
+          [
+            "Zemljište sa mnogo gline",
+            "Stručnu procenu podloge i drugu odgovarajuću opremu",
+            "HP1800S i VS1000 ne birati samo prema opštem savetu za ploču ili žabu"
+          ],
+          [
+            "Završno sabijanje behatona",
+            "Ploču samo uz uslove proizvođača popločanja",
+            "Dozvoljen postupak i odgovarajuću zaštitnu podlogu; dodatak potvrditi pri najmu"
+          ],
+          [
+            "Očvrsla betonska površina",
+            "Razjasniti drugi posao",
+            "Ova ploča nije namenjena sabijanju tvrdog betona"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Debljina sloja i broj prolaza traže plan podloge"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ne određuj sloj nasipa prema jednoj brojci iz oglasa za mašinu. Za svoj posao pripremi podatke o materijalu, njegovom stanju i zahtevanom rezultatu. Ako podloga nosi buduću konstrukciju ili saobraćaj, plan pripreme i potrebnu proveru sabijenosti treba da odredi odgovorna stručna osoba."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ovaj vodič ne propisuje univerzalnu debljinu sloja, vlažnost ili broj prolaza. Najam odgovarajuće mašine sam po sebi nije potvrda nosivosti urađene podloge."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Rad uz rov i benzinski motor"
+      },
+      {
+        "type": "paragraph",
+        "text": "Uputstva za oba navedena modela zahtevaju rad na otvorenom, uz odgovarajuće provetravanje; benzinsku mašinu ne koristi u zatvorenom prostoru. Uputstvo VS1000 posebno traži stabilne zidove rova i proveru instalacija koje vibracije mogu oštetiti. Ako ti uslovi nisu razjašnjeni, najpre reši uslove gradilišta."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pri preuzimanju proveri uputstvo, obuku za rukovanje, potrebnu zaštitnu opremu i organizaciju transporta za izdatu varijantu. Ne planiraj podizanje ili utovar prema fotografiji iz kataloga."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tri različita posla koja se zovu rad na betonu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sabijanje nasipa pre betoniranja, obrada svežeg betona i brušenje očvrslog betona jesu različite potrebe. U upitu napiši u kojoj si fazi. Izraz „vibro mašina za beton“ ostavlja previše prostora za pogrešan izbor; ovaj vodič pokriva pripremu i sabijanje podloge."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta poslati pre rezervacije"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pošalji opis ili specifikaciju materijala i fotografiju radnog prostora, uz sledeće podatke:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Dimenzije površine i najužeg prolaza, sa preprekama i pristupom rovu.",
+          "Namenu buduće površine i postojeći plan pripreme podloge, ako postoji.",
+          "Da li je posao na otvorenom i da li su rov i instalacije provereni.",
+          "Željene datume, adresu i način preuzimanja ili dostave."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Zatim proveri ponudu za [Scheppach HP1800S vibro ploču](/sr/alat/scheppach-vibro-ploca-hp1800s-cr-62855) ili [Scheppach VS1000 vibro nabijač](/sr/alat/scheppach-vibro-nabijac-vs1000-cr-62858). Model, pribor i raspoloživost potvrđuju se za konkretan termin."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Wacker Neuson: razlika između nabijača i vibro ploče](https://www.wackerneuson.be/en/insights-overview/difference-between-vibratory-rammer-and-vibratory-plate).",
+          "[Scheppach HP1800S: uputstvo, namena i bezbednost](https://mediabridge.scheppach.com/fmds/328783/dld:inline).",
+          "[Scheppach VS1000: uputstvo, ograničenja materijala i rad uz rov](https://mediabridge.scheppach.com/fmds/381710/dld:inline)."
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-62855",
+      "crafter-62858"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-14T12:00:00.000Z",
+    "updatedAt": "2026-10-20T16:59:21.644Z",
+    "replacesLegacy": true
+  },
+  {
+    "id": "G007",
+    "slug": "zirafa-i-usisivac-za-zidove",
+    "title": "Žirafa za zidove: kako izabrati abraziv i usisivač",
+    "description": "Izaberi abraziv za suv, poznat sloj i proveri odvođenje prašine. Zašto prečnik diska, adapter i oznaka L sami ne potvrđuju odgovarajući komplet.",
+    "intro": "Žirafu, abraziv i odvođenje prašine biraj kao jedan komplet, prema poznatom sloju koji obrađuješ. Za odgovarajući suv glet možeš razmatrati zidnu brusilicu, ali prečnik diska ili priključeno crevo sami ne potvrđuju da je ceo komplet prikladan. Granulacija zavisi od mase i završne obrade, a potreban usisivač od prašine koja nastaje.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Počni od poznatog i suvog sloja"
+      },
+      {
+        "type": "paragraph",
+        "text": "Zapiši naziv glet mase ili premaza i pronađi tehnički i bezbednosni list. Mirka u uputstvu za LEROS traži čitanje bezbednosnog lista obrađivane površine i isključuje rad u mokrim uslovima. Ako sloj još nije spreman za brušenje prema svom proizvođaču, rezervacija žirafe ne rešava taj problem."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod nepoznatog starog premaza najpre razjasni sastav i rizik prašine sa stručnom osobom. Ne počinji probno brušenje nepoznatog sloja da bi tek potom odlučivao o zaštiti."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela provere sloja i cilja"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Stanje i cilj",
+          "Šta proveriti",
+          "Sledeća odluka"
+        ],
+        "rows": [
+          [
+            "Poznat, osušen sloj gleta, priprema za sledeći premaz",
+            "Preporuku proizvođača mase za brušenje i završnu obradu",
+            "Odabrati odgovarajući abraziv i proveriti odvođenje prašine"
+          ],
+          [
+            "Vidljive neravnine ili potreba za većim skidanjem sloja",
+            "Da li je taj posao prikladan za konkretnu mašinu i sistem obrade",
+            "Ne rešavati izbor samo kupovinom grubljeg diska"
+          ],
+          [
+            "Vlažan ili nedovoljno osušen sloj",
+            "Uslove i spremnost sloja prema tehničkom listu",
+            "Odložiti brušenje dok uslovi nisu ispunjeni"
+          ],
+          [
+            "Nepoznata boja, stari premaz ili nepoznat sastav",
+            "Materijal i rizik prašine",
+            "Najpre stručna procena, zatim izbor postupka i opreme"
+          ],
+          [
+            "Uglovi, ivice i teško dostupan deo",
+            "Da li oblik glave omogućava traženu obradu",
+            "Potvrditi odgovarajući dodatak ili drugi alat"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Granulacija prati masu i završnu obradu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Na pitanje „koju šmirglu za žirafu?“ pripremi tri podatka: koji sloj brusiš, kakvo mu je trenutno stanje i šta ide preko njega. Oznaku granulacije izaberi prema preporuci proizvođača tog materijala i zahtevu narednog premaza. Jedan broj za svaki glet bio bi nepouzdana preporuka."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za poznat i odobren sistem obrade dogovori proveru rezultata na malom delu pre cele površine. Cilj te provere je završni izgled; ona ne zamenjuje prethodnu procenu materijala i prašine."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Prečnik diska i veza sa usisivačem"
+      },
+      {
+        "type": "paragraph",
+        "text": "Uputstvo za Mirka LEROS 950 navodi ploču prečnika 225 mm i odgovarajuće abrazive, uz originalnu Mirka noseću ploču. Pri izboru potvrdi i prihvat abraziva, potrebni međusloj i put odvođenja prašine. Sam natpis „225 mm“ ne proverava sve delove kompleta."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mirka predviđa rad sa odgovarajućom jedinicom za odvođenje prašine. Proveri stvarno crevo, adapter i uslove povezivanja oba uređaja. To što crevo fizički može da se spoji ne dokazuje da usisivač odgovara materijalu."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Klasa L nije potvrda za svaku prašinu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Makita VC2512L u originalnom uputstvu pripada klasi L. Bosch u vodiču o kontroli prašine razlikuje L, M i H klase prema riziku. Zato oznaku „građevinski usisivač“ ne tretiraj kao dozvolu za svaku vrstu prašine, naročito kada sastav sloja nije poznat."
+      },
+      {
+        "type": "paragraph",
+        "text": "Klasa uređaja, predviđeni materijal, filter, kesa i uslovi rada proveravaju se zajedno. Ne pretpostavljaj da druga kesa ili filter pretvaraju L uređaj u uređaj druge klase. Potrebnu zaštitu i održavanje odredi prema materijalu, konkretnom uputstvu i proceni posla; tekst ne obećava rad bez prašine."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kontrolna lista za najam žirafe"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za proveru kompleta pripremi:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Naziv mase ili premaza, tehnički list i poznate slojeve ispod njega.",
+          "Cilj obrade i zahtev narednog premaza.",
+          "Površinu, visinu plafona i fotografije uglova ili prepreka.",
+          "Podatke o postojećem usisivaču, ako ga već imaš, i njegovom priključku.",
+          "Uslove napajanja, željeni termin i adresu."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Pogledaj [Mirka LEROS zidnu brusilicu](/sr/alat/mirka-zirafa-za-zidove-leros-950cv-225mm-cr-62581) i [Makita VC2512L usisivač](/sr/alat/makita-usisivac-vc2512l-cr-638), pa zatraži potvrdu odgovarajućeg kompleta za svoj materijal. Prikaz oba artikla u ponudi ne znači da su preporučena kombinacija za svaki sloj."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Mirka LEROS i LEROS-S 950: originalno uputstvo](https://cdn.brandfolder.io/FSMPOV8D/at/tn5x5js2rf92hbgfnvfghvz/LEROS_230V_197768_10-2021_web.pdf).",
+          "[Makita VC2512L i srodni modeli: originalno uputstvo](https://www.makita.com.hk/upload/product/594/file_en/5bcd8f8e4d60a.pdf).",
+          "[Bosch Professional: klase usisivača i kontrola prašine](https://www.bosch-professional.com/rs/sr/kontrola-prasine/usisivac/)."
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-62581",
+      "crafter-638"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-14T12:00:00.000Z",
+    "updatedAt": "2026-10-20T16:59:21.644Z",
+    "replacesLegacy": true
+  },
+  {
+    "id": "G022",
+    "slug": "vertikulacija-ili-aeracija-travnjaka",
+    "title": "Vertikulacija ili aeracija travnjaka: koji problem rešava koji alat",
+    "description": "Razlikuj češljanje, vertikulaciju i aeraciju travnjaka. Izaberi postupak prema filcu ili zbijenom zemljištu i proveri nastavak pre najma.",
+    "intro": "Ako je problem sloj travnog filca na površini, razmotri češljanje ili vertikulaciju odgovarajućim nastavkom. Ako je problem zbijeno zemljište u zoni korena, razmatra se aeracija tla. Naziv „prozračivač travnjaka“ koristi se za različite postupke: pre najma proveri šta radni nastavak zaista radi, umesto da pretpostaviš da jedna mašina obavlja sve.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tri postupka iza sličnih naziva"
+      },
+      {
+        "type": "paragraph",
+        "text": "STIHL razlikuje površinsko češljanje elastičnim zupcima, vertikuliranje krutim noževima i aeraciju pri kojoj nastaju dublje rupe u zemljištu. Kod poslednje se proverava i da li alat samo probada tlo ili izvlači čepove zemlje; površinski valjak nije dokaz da uređaj izvlači čepove."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ove reči ne opisuju automatski isti zahvat. Kada tražiš alat, opiši problem i željeni učinak nastavka: uklanjanje površinskih naslaga ili rad u zbijenom zemljištu."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela izbora prema problemu travnjaka"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Šta primećuješ",
+          "Koju potrebu najpre proveriti",
+          "Šta tražiti od opreme"
+        ],
+        "rows": [
+          [
+            "Površinski ostaci i filc među travom",
+            "Da li je dovoljno češljanje ili je potrebna vertikulacija",
+            "Potvrdu tipa valjka: elastični zupci ili noževi"
+          ],
+          [
+            "Zbijeno tlo na opterećenim delovima",
+            "Da li je potrebna aeracija korenove zone",
+            "Alat koji zaista pravi odgovarajuće otvore u tlu"
+          ],
+          [
+            "Opalo lišće preko travnjaka",
+            "Uklanjanje lišća pre procene stanja ispod njega",
+            "Alat za sakupljanje lišća, bez zamene za obradu tla"
+          ],
+          [
+            "Slaba trava ili zadržavanje vode bez poznatog uzroka",
+            "Procenu uzroka pre odabira tretmana",
+            "Ne birati postupak samo po izgledu ili nazivu mašine"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "RHS odvojeno opisuje uklanjanje filca sa površine i aeraciju zbijenih delova zemljišta. Tabela služi da pripremiš procenu, ne da iz jedne fotografije dobiješ dijagnozu. Za lišće postoji zaseban vodič o [izboru duvača ili grabulja za lišće](/sr/saveti/duvac-lisca-ili-grabulje)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta potvrđuje naš prozračivač travnjaka"
+      },
+      {
+        "type": "paragraph",
+        "text": "U javnom opisu [prozračivača travnjaka](/sr/alat/prozracivac-travnjaka) navedeni su površinska obrada i uklanjanje odgovarajućih naslaga namenskim nastavcima. Model i komplet potvrđuju se pri najmu. Taj opis ne potvrđuje dubinsku aeraciju niti izvlačenje čepova zemlje."
+      },
+      {
+        "type": "paragraph",
+        "text": "U upitu zato traži potvrdu konkretnog modela i nastavka za svoj cilj. Ako ti je potreban aerator za tlo, nemoj rezervisati površinski prozračivač samo zbog sličnog naziva. Ako odgovarajuća funkcija nije potvrđena, izbor opreme još nije završen."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Termin zavisi od oporavka trave"
+      },
+      {
+        "type": "paragraph",
+        "text": "RHS za jesenje održavanje naglašava blage, vlažne uslove u kojima trava može da se oporavi. Njihov kalendar za britanske uslove nije gotov raspored za svako dvorište u Beogradu. Proveri trenutno stanje trave, podloge i očekivane uslove, posebno ako je travnjak već oslabljen."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ne planiraj intenzivan tretman samo zato što je stigao određeni mesec ili mašina tog dana odgovara tvom rasporedu. Ako nije jasno da li je trava spremna za zahvat i oporavak, prvo traži procenu osobe koja održava travnjak."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Podaci za izbor nastavka i najam"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pripremi kratak opis problema, a zatim:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Fotografije cele površine i krupan prikaz problematičnog dela.",
+          "Površinu travnjaka, širinu pristupa, nagibe i prepreke.",
+          "Da li se problem vidi na površini ili sumnjaš na zbijeno zemljište.",
+          "Prethodne tretmane i stanje trave nakon njih, ako su ti poznati.",
+          "Položaj prskalica i drugih prepreka koje treba uzeti u obzir.",
+          "Željeni datum, adresu i pitanje koji model i nastavak odgovaraju cilju."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Ovaj spisak olakšava proveru opreme; ne predstavlja potvrdu stanja zemljišta, dostupnosti ili trajanja posla."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Česta pogrešna očekivanja"
+      },
+      {
+        "type": "paragraph",
+        "text": "Jedan prolaz nije obećanje oporavka travnjaka. Ne postoji ni univerzalna radna dubina za svaki nastavak i svako stanje trave. Podešavanje i rukovanje prati uputstvo potvrđenog modela i procenu površine. Ako problem zahteva rešavanje drenaže ili druge uzroke slabog rasta, najam površinskog alata ne zamenjuje taj plan."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[STIHL Srbija: češljanje, vertikuliranje i aeracija](https://www.stihl.rs/sr/saveti-projekti/odrzavanje-baste/odrzavanje-travnjaka/prozracivanje-travnjaka).",
+          "[Royal Horticultural Society: održavanje travnjaka, filc i aeracija](https://www.rhs.org.uk/lawns/autumn-care).",
+          "[Alat Rent: javni opis prozračivača travnjaka](https://alatrent.rs/sr/alat/prozracivac-travnjaka)."
+        ]
+      }
+    ],
+    "toolIds": [
+      "tool-092"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-20T16:59:21.644Z",
+    "updatedAt": "2026-10-20T16:59:21.644Z"
   }
 ]

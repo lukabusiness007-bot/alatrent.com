@@ -1857,5 +1857,438 @@
     "status": "published",
     "publishedAt": "2026-10-20T16:59:21.644Z",
     "updatedAt": "2026-10-20T16:59:21.644Z"
+  },
+  {
+    "id": "G006",
+    "slug": "kako-izabrati-merdevine",
+    "title": "Kako izabrati merdevine za najam: visina, oslonac i pristup",
+    "description": "Razlikuj dužinu, dozvoljenu visinu stajanja i radni domet. Proveri oslonac, pristup i vrstu posla pre najma trodelnih merdevina.",
+    "intro": "Merdevine biraj prema visini radne tačke, dozvoljenom položaju konkretnog modela i uslovima na mestu rada. Oznaka 3×10 sama ne potvrđuje domet, nosivost ili sve načine postavljanja. Pre najma opiši i posao: za duži rad koji zahteva obe ruke treba razmotriti drugu radnu opremu, umesto biranja samo dužih merdevina.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Četiri različita podatka o visini"
+      },
+      {
+        "type": "paragraph",
+        "text": "Izraz „trebaju mi merdevine od nekoliko metara“ nije dovoljno precizan. U upitu odvoji meru svog prostora od podataka koje treba potvrditi za uređaj."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Podatak",
+          "Šta opisuje",
+          "Kako pomaže pri izboru"
+        ],
+        "rows": [
+          [
+            "Visina radne tačke",
+            "Mesto na kom obavljaš posao, npr. mesto montaže",
+            "To je podatak koji šalješ uz opis posla i fotografiju"
+          ],
+          [
+            "Fizička dužina merdevina",
+            "Dimenziju merdevina u određenom sklopljenom ili izvučenom položaju",
+            "Važna je za postavljanje i transport, ali nije isto što i domet"
+          ],
+          [
+            "Najviše dozvoljeno mesto stajanja",
+            "Granicu određenu uputstvom za taj model i položaj",
+            "Ne pretpostavljaj da smeš stajati na poslednjoj prečagi"
+          ],
+          [
+            "Deklarisana radna visina ili domet",
+            "Podatak proizvođača za prikazanu konfiguraciju",
+            "Čita se zajedno sa skicom položaja i ograničenjima upotrebe"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Ne izračunavaj domet prostim dodavanjem svoje visine na ukupnu dužinu merdevina. Uputstvo određuje gde se stoji i kako se uređaj koristi; položaj tela i zahtev posla takođe se moraju proceniti."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Oznaka 3×10 ne potvrđuje svaki položaj"
+      },
+      {
+        "type": "paragraph",
+        "text": "Na primer, Çağsan za seriju TRIOCOMBI objavljuje posebnu tabelu dimenzija po konfiguracijama. To ne dokazuje da artikal označen samo kao „Cagsan 3×10 Pro“ pripada toj seriji ili ima iste dozvoljene položaje."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za izdatu opremu traži tačnu oznaku i odgovarajuće uputstvo. Potvrdi da li planirani položaj zahteva oslanjanje, samostojeću konfiguraciju ili drugi uređaj. Ne prenosimo visinu, nosivost ili mogućnost rada na stepenicama sa drugog modela koji ima isti broj prečaga."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Oslonac i pristup proveravaju se pre visine"
+      },
+      {
+        "type": "paragraph",
+        "text": "Çağsan u opštem uputstvu traži ravnu, stabilnu podlogu, odgovarajući oslonac i osigurane mehanizme zaključavanja. Prostor proveri i u odnosu na vrata, prolaznike i vozila, kao i električne vodove ili opremu. Ako postoji električni rizik, ne rešavaj ga procenom udaljenosti sa fotografije."
+      },
+      {
+        "type": "paragraph",
+        "text": "Neravan teren, klizava površina i stepenice zahtevaju posebno razjašnjenje. Ne planiraj improvizovano podmetanje da bi merdevine „dobile“ visinu ili ravnotežu. Fotografija olakšava razgovor, ali ne potvrđuje sama stabilnost podloge i oslonca."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kada posao traži drugu radnu opremu"
+      },
+      {
+        "type": "paragraph",
+        "text": "U vodiču za izbor proizvoda Çağsan navodi duži rad sa obe ruke kao razlog za korišćenje skele umesto merdevina. Zato u upitu navedi da li samo kratko pristupaš radnoj tački ili planiraš rad preko šire površine, bočno pružanje i rukovanje težim alatom."
+      },
+      {
+        "type": "paragraph",
+        "text": "Takav opis može promeniti vrstu potrebne opreme. Ovaj vodič ne potvrđuje dostupnost određene skele ili platforme i ne određuje plan rada na visini; odgovarajuće rešenje procenjuje se za konkretan posao."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kontrolna lista pre najma i preuzimanja"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za proveru izbora pripremi:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Visinu radne tačke, vrstu i očekivano trajanje posla.",
+          "Fotografiju poda, mesta oslanjanja i celog prostora za postavljanje.",
+          "Širinu pristupa, prepreke i podatak da li se radi unutra ili napolju.",
+          "Opis tereta koji nosiš: u ukupno opterećenje ulaze korisnik, alat i materijal.",
+          "Željeni termin i mogućnost transporta sklopljenih merdevina."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Pogledaj [Cagsan trodelne merdevine 3×10 Pro](/sr/alat/cagsan-merdevine-aluminijumske-trodelne-3x10-pro-cr-20586), pa zatraži potvrdu oznake, dozvoljenog položaja, dometa i nosivosti. Pre upotrebe pregledaj stanje prema izdatom uputstvu, uključujući oslonce i bravice. Oštećene merdevine ne koristi."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Çağsan: uputstvo za merdevine i mobilne merdevine sa platformama](https://www.cagsanmerdiven.com/resources/files/kullanim-kilavuzu-en.pdf).",
+          "[Çağsan TRIOCOMBI: primer posebne tabele konfiguracija](https://www.cagsanmerdiven.com/tr-TR/catalogue/aluminyum-merdiven/triocombi---uc-parcali-cok-amacli-merdiven/34/45).",
+          "[Çağsan: izbor odgovarajućeg proizvoda prema poslu](https://www.cagsanmerdiven.com/tr-TR/dogru-urunu-secmek/3151)."
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-20586"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-14T12:00:00.000Z",
+    "updatedAt": "2026-10-21T15:49:22.570Z",
+    "replacesLegacy": true
+  },
+  {
+    "id": "G023",
+    "slug": "busac-zemlje-za-ogradu-i-sadnju",
+    "title": "Bušač zemlje za ogradu ili sadnju: šta navesti pre najma",
+    "description": "Pripremi podatke o rupama, zemljištu, instalacijama i pristupu pre najma bušača zemlje. Šta potvrditi za svrdlo, model i rukovaoce.",
+    "intro": "Pre najma bušača zemlje pripremi namenu, broj i potrebne dimenzije rupa, opis zemljišta i pristupa. Pre početka bušenja mora se razjasniti položaj podzemnih instalacija. Zatim se proveravaju odgovarajući model, svrdlo i zahtevi za rukovaoce. Naziv „motorni bušač rupa“ ne potvrđuje da uređaj odgovara svakoj podlozi i svakoj dubini.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Za ogradu i sadnju prvo definiši potrebnu rupu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod ograde dimenzije i raspored rupa treba da proizlaze iz plana stubova i njihovog oslanjanja. Kod sadnje pođi od zahteva sadnice i plana sadnje. Nemoj prvo izabrati dostupno svrdlo, pa njegov prečnik proglasiti odgovarajućom merom za svaki stub ili biljku."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako dimenzije još nisu određene, napiši da su nepoznate. Potvrda kompleta za najam nije projektovanje temelja ograde niti stručna preporuka za sadnju."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela podataka za izbor bušača i svrdla"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Podatak za upit",
+          "Šta treba opisati",
+          "Šta se zatim proverava"
+        ],
+        "rows": [
+          [
+            "Namena i raspored",
+            "Ograda, pojedinačne sadnice ili drugi definisani posao",
+            "Da li oblik i položaj rupa odgovaraju planiranom postupku"
+          ],
+          [
+            "Broj, prečnik i dubina",
+            "Mere iz plana, odvojeno za različite grupe rupa",
+            "Kompatibilno svrdlo i dozvoljeni kapacitet modela"
+          ],
+          [
+            "Zemljište",
+            "Poznati sastav, nasip, korenje i kamen, bez nagađanja",
+            "Da li je postupak prikladan ili prvo treba procena terena"
+          ],
+          [
+            "Instalacije",
+            "Ko je proverio trasu i koje informacije postoje",
+            "Da li je mesto bušenja razjašnjeno pre rada"
+          ],
+          [
+            "Pristup",
+            "Širina prolaza, nagib, prepreke i prostor oko svake rupe",
+            "Prostor za mašinu i bezbedan položaj rukovaoca"
+          ],
+          [
+            "Raspoloživa ekipa",
+            "Iskustvo ljudi koji će rukovati uređajem",
+            "Broj i osposobljenost rukovalaca prema konkretnom uputstvu"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Podzemne instalacije se proveravaju pre bušenja"
+      },
+      {
+        "type": "paragraph",
+        "text": "STIHL u uputstvu za BT 131 zahteva proveru vodova za gas, vodu i električnu energiju na mestu bušenja i pribavljanje informacija od nadležnih službi. Ako postoji sumnja, potrebna je odgovarajuća stručna provera. Fotografija dvorišta ili sećanje gde je nekada prolazila cev nisu potvrda trase."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ne počinji probnim bušenjem da bi otkrio da li instalacija postoji. Ovaj tekst ne daje postupak traženja vodova ili probnog iskopa; to pitanje treba rešiti pre izbora termina i rada mašinom."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Korenje, kamen i broj rukovalaca menjaju plan"
+      },
+      {
+        "type": "paragraph",
+        "text": "Koren ili kamen mogu zaglaviti svrdlo i izazvati reakciju mašine; to izričito obrađuje uputstvo BT 131. Zato „jači motor“ nije dovoljno objašnjenje kako će posao biti obavljen kroz prepreke. Prijavi ono što znaš o zemljištu, a postupak i prikladnost opreme razjasni pre rada."
+      },
+      {
+        "type": "paragraph",
+        "text": "Broj rukovalaca proveri za tačan model. Na primer, BT 131 je predviđen za jednog rukovaoca; taj podatak ne pripisujemo nepoznatom modelu iz naše ponude. Ne dodaj drugu osobu da drži mašinu kao improvizovano rešenje za tvrdu zemlju."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Komplet, gorivo i transport potvrđuju se posebno"
+      },
+      {
+        "type": "paragraph",
+        "text": "U potvrdi najma treba razjasniti model, svrdlo, prihvat, eventualne odobrene nastavke i sadržaj kompleta. Uputstva STIHL i Villager naglašavaju poznavanje pravilnog rukovanja; ako nemaš iskustva, traži objašnjenje i procenu da li je samostalni najam prikladan za tvoj posao."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za benzinski uređaj potvrdi odgovarajuće gorivo prema njegovom uputstvu, bez preuzimanja mešavine sa drugog modela. Villager uputstvo upozorava na izduvne gasove u zatvorenim i nedovoljno provetrenim prostorima. Radnu lokaciju i transport zato opiši zajedno sa zahtevom za uređaj."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Primer potpunog upita bez izmišljenih dimenzija"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kao obrazac poruke možeš koristiti sledeći spisak i popuniti samo poznate podatke:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Namena i broj rupa; dimenzije i raspored iz plana.",
+          "Opis zemljišta i fotografije pristupa i mesta rada.",
+          "Status provere podzemnih instalacija i preostale nepoznanice.",
+          "Iskustvo rukovalaca i zahtev za potvrdu modela, svrdla i kompleta.",
+          "Datum, adresa i dogovor o preuzimanju ili dostavi."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Pošalji te podatke uz upit za [motorni bušač rupa za zemlju](/sr/alat/motorni-busac-rupa-za-zemlju). Konačni model, pribor i raspoloživost potvrđuju se za termin. Najam uređaja nije potvrda da je ugovorena i usluga bušenja."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[STIHL BT 131: originalno uputstvo, provera mesta bušenja i ograničenja](https://ssc.stihl.com/tsa/techdoc-documents/DVS_STIHL%2FZBA%2FZBA%2F0458-529-8221-B_ZBA_02_01.pdf).",
+          "[Villager VPH 43: originalno uputstvo na srpskom](https://www.villager.rs/files/villager%20vph%2043_manual_september_2018%20rs.pdf)."
+        ]
+      }
+    ],
+    "toolIds": [
+      "tool-020"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-21T15:49:22.570Z",
+    "updatedAt": "2026-10-21T15:49:22.570Z"
+  },
+  {
+    "id": "G031",
+    "slug": "ubodna-sabljasta-ili-kruzna-testera",
+    "title": "Ubodna, sabljasta ili kružna testera: izbor prema obliku reza",
+    "description": "Uporedi testere prema pravom rezu, krivini ili demontaži. Proveri materijal, debljinu, list i oslonac pre najma konkretnog modela.",
+    "intro": "Za duži prav rez u odgovarajućoj drvenoj ploči najpre razmotri ručnu kružnu testeru; za krivinu ubodnu; za grublje presecanje pri demontaži sabljastu testeru. To je početak izbora: konačna odluka zavisi od materijala, debljine, pristupa i odgovarajućeg lista. Nijedna od ove tri vrste nije univerzalna za svaki rez.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Najpre izaberi oblik reza i zahtev završne ivice"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nacrtaj liniju reza i označi koja ivica ostaje vidljiva. Odvoji potrebu da precizno oblikuješ novi komad od potrebe da presečeš deo koji uklanjaš. Bosch u proizvođačkom vodiču razlikuje duge prave rezove, krivine i grublji rad; sama snaga motora ne opisuje te razlike."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ne zaključuj da ubodna testera uopšte ne može da seče pravo ili da sabljasta odgovara samo jednom materijalu. Uputstvo GSA 12-30 navodi više materijala i pravolinijske i krivolinijske rezove, uz odgovarajući list. Ipak, dozvoljena primena i željeni završni rezultat nisu isto pitanje."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela izbora prema poslu"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Cilj",
+          "Koju vrstu prvo razmotriti",
+          "Šta može promeniti izbor"
+        ],
+        "rows": [
+          [
+            "Duža prava linija u drvetu ili odgovarajućoj ploči",
+            "Ručnu kružnu testeru",
+            "Debljina, oslonac komada, vođenje i zahtev ivice"
+          ],
+          [
+            "Krivina ili oblik po skici",
+            "Ubodnu testeru",
+            "Radijus, tip lista, debljina i mogućnost oslanjanja postolja"
+          ],
+          [
+            "Presecanje dostupnog dela pri demontaži",
+            "Sabljastu testeru",
+            "Materijal, pristup, prostor za list i stanje sklopa"
+          ],
+          [
+            "Metal ili plastika",
+            "Samo model i list koji su odobreni za taj materijal",
+            "Oblik komada i konkretna ograničenja uređaja; ne samo natpis na listu"
+          ],
+          [
+            "Nepoznat zid, zatvoren sklop ili moguća instalacija",
+            "Najpre razjasniti šta se nalazi u putanji reza",
+            "Nepoznat materijal i vodovi blokiraju konačan izbor"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "List se bira zajedno sa mašinom"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za ubodnu i sabljastu testeru proveri prihvat, namenu i odgovarajuću dužinu lista. DeWalt DW331 u pročitanom uputstvu koristi T-prihvat za ubodne listove. To ne znači da list za sabljastu testeru može zameniti ubodni ili da svaki T-list odgovara tvom materijalu i obliku reza."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod kružne testere proveravaju se dozvoljeni prečnik i otvor lista, njegova namena i usklađenost sa uređajem. Makita HS7601 je prema uputstvu namenjena prvenstveno pravim uzdužnim, poprečnim i kosim rezovima u drvetu; za druge materijale uputstvo uslovljava odgovarajuće originalne Makita listove. Ne biraj taj model za metal samo zato što si našao disk koji deluje odgovarajuće."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Završna ivica nije određena samo vrstom testere"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pri izboru opiši da li ivica ostaje vidljiva, ide na dalju obradu ili je deo otpada. Stanje i tip lista, vođenje i oslonac utiču na rezultat; nijedan naziv testere ne obećava savršenu ivicu bez provere."
+      },
+      {
+        "type": "paragraph",
+        "text": "Na poznatom materijalu i uz prethodno razjašnjen postupak možeš dogovoriti probni rez na odgovarajućem ostatku radi provere izgleda. Probni rez nije način da se utvrdi da li u nepoznatom sklopu postoje instalacije. Ako posle sečenja biraš alat za obradu drveta, pogledaj zaseban vodič o [ekscentričnoj, vibracionoj i tračnoj brusilici](/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Oslonac, instalacije i prašina su deo izbora"
+      },
+      {
+        "type": "paragraph",
+        "text": "Uputstva zahtevaju odgovarajući oslonac i učvršćivanje radnog komada. Pre najma razjasni gde će komad stajati i ima li prostora za alat i list. Kod demontaže najpre proveri vodove i ulogu dela koji želiš da ukloniš; oznaka „univerzalna testera“ ne odobrava sečenje nepoznate konstrukcije ili aktivne cevi."
+      },
+      {
+        "type": "paragraph",
+        "text": "Potrebnu zaštitu i odvođenje prašine proveri prema materijalu i konkretnom modelu. Zaštitnik, pribor i dodatak za usisavanje potvrđuju se za izdatu varijantu. Ovaj vodič pokriva izbor i pripremu, bez postupka upadnog reza ili rušenja."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta poslati za proveru konkretnog modela"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za upit pripremi:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Naziv materijala, debljinu i oblik komada.",
+          "Skicu linije reza, broj komada i zahtev završne ivice.",
+          "Fotografiju pristupa i plan oslonca; status provere instalacija ako je relevantno.",
+          "Podatke o napajanju i zahtev za list, vođicu i odvođenje prašine.",
+          "Željeni datum i adresu."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Zatim uporedi ponudu za [DeWalt DW331K ubodnu](/sr/alat/dewalt-ubodna-testera-dw331k-701-w-cr-491), [Bosch GSA 12-30 sabljastu](/sr/alat/bosch-univerzalna-testera-recipro-gsa-12-30-1250-w-cr-63074) i [Makita HS7601 kružnu testeru](/sr/alat/makita-hs7601-rucna-kruzna-testera-cr-564). Model, odgovarajući list, komplet i raspoloživost potvrđuju se pre najma."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Bosch DIY: izbor vrste testere prema rezu](https://www.bosch-diy.com/gb/en/power-tools/saws).",
+          "[DeWalt DW331: originalno uputstvo](https://www.dewalt.com/GLOBALBOM/QU/DW331K/11/Instruction_Manual/EN/N241479_DW331.pdf).",
+          "[Bosch GSA 12-30: originalno uputstvo, izdanje 2026.06](https://www.bosch-professional.com/binary/manualsmedia/o655273v21_160992AG3N_202606.pdf).",
+          "[Makita HS7601: originalno uputstvo](https://www.makita.sk/userfiles/manualy/HS7601.pdf)."
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-491",
+      "crafter-63074",
+      "crafter-564"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-21T15:49:22.570Z",
+    "updatedAt": "2026-10-21T15:49:22.570Z"
   }
 ]

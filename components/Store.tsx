@@ -108,14 +108,17 @@ export function ToolCard({
   locale,
   period,
   availability,
+  headingLevel = 3,
 }: {
   tool: Tool;
   category?: Category;
   locale: Locale;
   period?: Pick<CartItem,'start'|'end'>;
   availability?: 'available'|'confirmation'|'unavailable';
+  headingLevel?: 2 | 3;
 }) {
   const t = copy[locale];
+  const Heading = headingLevel === 2 ? 'h2' : 'h3';
   return (
     <article className="service-card tool-card">
       <Link
@@ -133,9 +136,9 @@ export function ToolCard({
         <Link href={href(locale, 'kategorija/' + category?.slug)} className="micro-label">
           {category?.name[locale]}
         </Link>
-        <h3>
+        <Heading>
           <Link href={href(locale, 'alat/' + tool.slug)} prefetch={false}>{tool.name[locale]}</Link>
-        </h3>
+        </Heading>
         <div className="card-price">
           {tool.price === null ? (
             t.inquiryPrice
@@ -153,6 +156,7 @@ export function ToolCard({
 }
 export function Steps({ locale, primary = false }: { locale: Locale; primary?: boolean }) {
   const t = copy[locale];
+  const ItemHeading = primary ? 'h2' : 'h3';
   return (
     <section className="section steps-section" id="kako-funkcionise">
       <div className="container">
@@ -166,7 +170,7 @@ export function Steps({ locale, primary = false }: { locale: Locale; primary?: b
             <article className="step" key={title}>
               <span className="step-number">{i + 1}</span>
               <div>
-                <h3>{title}</h3>
+                <ItemHeading>{title}</ItemHeading>
                 <p>{text}</p>
               </div>
             </article>
@@ -186,6 +190,7 @@ export function Delivery({
   primary?: boolean;
 }) {
   const t = copy[locale];
+  const ItemHeading = primary ? 'h2' : 'h3';
   return (
     <section className="section delivery-section" id="dostava">
       <div className="container">
@@ -207,7 +212,7 @@ export function Delivery({
                 <span className="delivery-icon">
                   <Icon size={28} strokeWidth={1.4} />
                 </span>
-                <h3>{title}</h3>
+                <ItemHeading>{title}</ItemHeading>
                 <p>{body}</p>
                 <strong>{Number(price) ? money(Number(price), locale) : t.free}</strong>
                 <Link className="text-link" href={href(locale, 'katalog')}>
@@ -287,20 +292,20 @@ export function Footer({ locale, settings }: { locale: Locale; settings: Setting
             </span>
           </div>
           <div>
-            <h4>{t.navigation}</h4>
+            <h2 className="footer-heading">{t.navigation}</h2>
             <Link href={href(locale, 'katalog')}>{t.catalog}</Link>
             <Link href={href(locale, 'kako-funkcionise')}>{t.how}</Link>
             <Link href={href(locale, 'dostava')}>{t.delivery}</Link>
             {locale === 'sr' && <Link href="/sr/saveti">Saveti za izbor alata</Link>}
           </div>
           <div>
-            <h4>{t.support}</h4>
+            <h2 className="footer-heading">{t.support}</h2>
             <Link href={href(locale, 'kontakt')}>{t.contact}</Link>
             <ContactLinks locale={locale} settings={settings} />
             <Link href={href(locale, 'privatnost')}>{t.privacy}</Link>
           </div>
           <div className="footer-languages">
-            <h4>{t.language}</h4>
+            <h2 className="footer-heading">{t.language}</h2>
             {locales.map((l) => (
               <Link key={l} href={href(l)} lang={l}>
                 {languageNames[l]}
@@ -329,6 +334,7 @@ export function Home({ locale, data, jobs }: { locale: Locale; data: PublicData;
           <div className="hero-copy">
             <h1>
               {locale === 'sr' ? 'Iznajmljivanje alata' : t.hero1}
+              {' '}
               <span>{locale === 'sr' ? 'u Beogradu.' : t.hero2}</span>
             </h1>
             <p>{locale === 'sr' && <strong>{t.hero1} {t.hero2} </strong>}{t.heroText}</p>
@@ -586,6 +592,7 @@ export function Catalog({
                         category={data.categories.find((c) => c.id === tool.categoryId)}
                         locale={locale}
                         availability={selection.statuses[tool.id]}
+                        headingLevel={group.category ? 3 : 2}
                         period={selection.periodValid ? {start:filters.start!,end:filters.end!}:undefined}
                       />
                     ))}

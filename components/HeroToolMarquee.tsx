@@ -9,11 +9,11 @@ import { copy, href } from '@/lib/i18n';
 import styles from './Home.module.css';
 
 const labels = {
-  sr: { collection: 'Za svaki posao, pravi alat.', count: 'alata u katalogu', pause: 'Pauziraj kretanje alata', play: 'Pokreni kretanje alata' },
-  en: { collection: 'The right tool for every job.', count: 'tools in the catalog', pause: 'Pause tool animation', play: 'Play tool animation' },
-  ru: { collection: 'Инструмент для любой задачи.', count: 'инструментов в каталоге', pause: 'Остановить анимацию', play: 'Запустить анимацию' },
-  tr: { collection: 'Her iş için doğru alet.', count: 'katalogdaki alet', pause: 'Alet animasyonunu duraklat', play: 'Alet animasyonunu başlat' },
-  zh: { collection: '每项工作都有合适的工具。', count: '件目录工具', pause: '暂停工具动画', play: '播放工具动画' },
+  sr: { collection: 'Za svaki posao, pravi alat.', pause: 'Pauziraj kretanje alata', play: 'Pokreni kretanje alata' },
+  en: { collection: 'The right tool for every job.', pause: 'Pause tool animation', play: 'Play tool animation' },
+  ru: { collection: 'Инструмент для любой задачи.', pause: 'Остановить анимацию', play: 'Запустить анимацию' },
+  tr: { collection: 'Her iş için doğru alet.', pause: 'Alet animasyonunu duraklat', play: 'Alet animasyonunu başlat' },
+  zh: { collection: '每项工作都有合适的工具。', pause: '暂停工具动画', play: '播放工具动画' },
 };
 
 type MarqueeTool = { id: string; name: string; image: string; url: string };
@@ -61,8 +61,7 @@ export function HeroToolMarquee({ tools, locale }: { tools: MarqueeTool[]; local
         })}
       </div>
       <Link className={styles.catalogLink} href={href(locale, 'katalog')}>
-        <span><strong>{tools.length}</strong> {text.count}</span>
-        <span>{copy[locale].allTools}<ArrowUpRight size={16} aria-hidden="true" /></span>
+        {copy[locale].allTools}<ArrowUpRight size={16} aria-hidden="true" />
       </Link>
     </div>
   );

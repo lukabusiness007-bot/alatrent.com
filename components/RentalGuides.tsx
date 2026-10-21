@@ -8,9 +8,10 @@ import ToolArt from './ToolArt';
 import { GuideContent, GuideText } from './GuideContent';
 import { brandName } from '@/lib/brand';
 
-export function GuideCards({ compact = false }: { compact?: boolean }) {
+export function GuideCards({ compact = false, headingLevel = 3 }: { compact?: boolean; headingLevel?: 2 | 3 }) {
+  const Heading = headingLevel === 2 ? 'h2' : 'h3';
   return <div className="guide-grid">{(compact ? [...rentalGuides].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)).slice(0, 3) : [...rentalGuides].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))).map(guide => <Link className="guide-card" key={guide.slug} href={'/sr/saveti/' + guide.slug}>
-    <span className="eyebrow">Izbor i najam</span><h3>{guide.title}</h3><p>{guide.description}</p><span className="text-link">Pročitaj savet →</span>
+    <span className="eyebrow">Izbor i najam</span><Heading>{guide.title}</Heading><p>{guide.description}</p><span className="text-link">Pročitaj savet →</span>
   </Link>)}</div>;
 }
 export function GuidesHomeSection() {
@@ -32,7 +33,7 @@ export function RentalGuidesPage({ data, guide }: { data: PublicData; guide?: Re
         </article>
         {tools.length > 0 && <section className="guide-related"><h2>Oprema iz kataloga za ovaj posao</h2><p>Cene i uslove proveri na stranici alata. Dostupnost se potvrđuje za traženi termin.</p><div className="guide-grid">{tools.map(tool => <Link className="guide-card" href={'/sr/alat/' + tool.slug} key={tool.id}><ToolArt image={tool.image} name={tool.name.sr} /><h3>{tool.name.sr}</h3><p>{tool.price === null ? 'Cena na upit' : money(tool.price, 'sr') + ' / dan'}</p><span className="text-link">Proveri najam →</span></Link>)}</div></section>}
         <div className="seo-links"><Link href="/sr/saveti">Svi saveti</Link><Link href="/sr/katalog">Katalog alata</Link><Link href="/sr/kontakt">Pošalji upit</Link></div>
-      </> : <GuideCards />}
+      </> : <GuideCards headingLevel={2} />}
     </div></section>
   </>;
 }

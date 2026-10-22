@@ -1,0 +1,12 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [{
+    "Effect": "Allow",
+    "Principal": { "Federated": "arn:aws:iam::005783448821:oidc-provider/oidc.vercel.com/luka-drugi-nalog-s-projects" },
+    "Action": "sts:AssumeRoleWithWebIdentity",
+    "Condition": { "StringEquals": {
+      "oidc.vercel.com/luka-drugi-nalog-s-projects:aud": "https://vercel.com/luka-drugi-nalog-s-projects",
+      "oidc.vercel.com/luka-drugi-nalog-s-projects:sub": "owner:luka-drugi-nalog-s-projects:project:alatrent-com:environment:production"
+    } }
+  }]
+}

@@ -15,6 +15,7 @@ import { catalogOnly } from '@/lib/storage';
 import { retiredTools } from '@/lib/catalog-reduction';
 import { CartPage, Account, Bundles, OrderDetails, ClubPopup, RentalForm } from '@/components/RouteClients';
 import Club from '@/components/commerce/Club';
+import ContactForm from '@/components/ContactForm';
 import { publicOrder } from '@/lib/commerce/orders';
 import type { Bundle, Order } from '@/lib/commerce/types';
 import { ct } from '@/lib/commerce/copy';
@@ -252,6 +253,7 @@ async function dbPage({ params, searchParams }: Props) {
             </div>
           </div>
         </section>
+        <ContactForm locale={locale} />
         <Faq locale={locale} />
       </>
     );

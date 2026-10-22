@@ -6,7 +6,7 @@ export function text(v: unknown, max = 200, required = true) {
 }
 export function emailAddress(v: unknown) {
   const email = text(v, 150).toLowerCase();
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) throw new Error('Unesi ispravan email.');
+  if (!/^[^\s@<>\r\n]+@[^\s@<>\r\n]+\.[^\s@<>\r\n]+$/.test(email)) throw new Error('Unesi ispravan email.');
   return email;
 }
 export function localized(v: unknown, max = 200): Localized {

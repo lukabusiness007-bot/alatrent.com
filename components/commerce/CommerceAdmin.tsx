@@ -15,6 +15,7 @@ import { defaultRule } from '@/lib/commerce/pricing';
 import { money } from '@/lib/i18n';
 import MerchandisingAdmin, { type MerchandisingAdminData } from './MerchandisingAdmin';
 import ReferralAdmin, { type ReferralAdminData } from './ReferralAdmin';
+import EmailAdmin, { type EmailAdminData } from './EmailAdmin';
 import { Plus, Save, Trash2, RefreshCw } from 'lucide-react';
 type Data = MerchandisingAdminData & {
   funnel: {sessions:number;conversion:number|null;offerExposures:number;offerAcceptance:number|null;confirmationRate:number|null;averageRental:number|null};
@@ -29,6 +30,7 @@ type Data = MerchandisingAdminData & {
   messages: Message[];
   inbox: { id: string; phone: string; text: string; at: string }[];
   integration: Record<string, boolean>;
+  email: EmailAdminData;
   metrics: {
     costedOrders: number;
     estimatedContribution: number;
@@ -254,7 +256,7 @@ export default function CommerceAdmin() {
               ['bundles', 'Paketi'],
               ['customers', 'Članovi'],
               ['teams', 'Firme'],
-              ['messages', 'WhatsApp'],
+              ['messages', 'Obaveštenja'],
               ['metrics', 'Rezultati'],
             ].map(([key, label]) => (
               <button
@@ -984,6 +986,7 @@ export default function CommerceAdmin() {
           )}
           {tab === 'messages' && (
             <>
+              <EmailAdmin data={data.email} onRefresh={load} />
               <form
                 className="admin-card commerce-form"
                 onSubmit={(e) => {

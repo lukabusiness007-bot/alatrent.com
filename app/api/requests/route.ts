@@ -7,6 +7,9 @@ import { locales, type Tool, type Category, type RentalRequest } from '@/lib/typ
 import { currentCustomer } from '@/lib/commerce/auth';
 import { member } from '@/lib/commerce/data';
 import { round } from '@/lib/commerce/pricing';
+import { enqueueEmail } from '@/lib/email/queue';
+import { withEmailDelivery } from '@/lib/email/dispatch';
+export const maxDuration = 60;
 async function dbPOST(r: Request) {
   if (!sameOrigin(r)) return Response.json({ error: 'invalid' }, { status: 403 });
   if (Number(r.headers.get('content-length')) > 20000)
@@ -84,6 +87,7 @@ async function dbPOST(r: Request) {
         createdAt: new Date().toISOString(),
       };
       put('requests', record.id, record);
+      enqueueEmail('request:' + record.id, email || customer?.email, { kind: 'rental-received', locale: record.locale, name, reference: record.id });
       return Response.json({ id: record.id }, { status: 201 });
     });
   } catch {
@@ -91,4 +95,4 @@ async function dbPOST(r: Request) {
   }
 }
 
-export const POST = databaseRoute(dbPOST, true);
+export const POST = withEmailDelivery(databaseRoute(dbPOST, true));

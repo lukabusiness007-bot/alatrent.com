@@ -10,6 +10,7 @@ import { phoneNumber } from './auth';
 import { calculate, round } from './pricing';
 import { promotionalQuote, promotionSummary, assertPromotionEconomics } from './promotions';
 import { enqueueOrder } from './messages';
+import { enqueueEmail } from '../email/queue';
 import { referralLines, assertReferralEconomics, grantReferral, hasPriorRental, updateReferralDiscount } from './referrals';
 export function createOrder(b: Record<string, unknown>, customer?: Customer): Order {
   return transaction(() => {
@@ -73,6 +74,7 @@ export function createOrder(b: Record<string, unknown>, customer?: Customer): Or
       put('funnelEvents', order.id, { id: order.id, session: b.analyticsSession, event: 'request', surface: 'cart', at: order.createdAt });
     }
     enqueueOrder(order, 'received');
+    enqueueEmail('order:' + order.id, order.email || fresh?.email, { kind: 'rental-received', locale: order.locale, name: order.name, reference: order.id });
     return order;
   });
 }

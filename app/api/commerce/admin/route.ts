@@ -8,6 +8,7 @@ import { config, member, options } from '@/lib/commerce/data';
 import { validateRule } from '@/lib/commerce/pricing';
 import { updateOrder, publicOrder } from '@/lib/commerce/orders';
 import { messagingStatus, processMessages } from '@/lib/commerce/messages';
+import { emailAdminData } from '@/lib/email/queue';
 import type { Bundle, Customer, Message, Order, ToolOptions, Team, ReferralProgram, ReferralReward } from '@/lib/commerce/types';
 import { defaultReferralProgram, referralSummary, reverseReferral, economics, rentalCosts } from '@/lib/commerce/referrals';
 import type { Tool } from '@/lib/types';
@@ -106,6 +107,7 @@ async function dbGET() {
       .slice(0, 200),
     inbox: all('whatsappInbox').slice(-50),
     integration: messagingStatus(),
+    email: emailAdminData(),
     metrics: {
       costedOrders: costed.length,
       estimatedContribution,

@@ -99,3 +99,7 @@ Integracioni testovi pokreću produkcioni server na portu 3011 sa zasebnom privr
 ## SEO sadržaj i indeksiranje
 
 Detalji optimizacije, mapa ključnih fraza za svih 98 alata, provera domena i koraci javnog puštanja nalaze se u [docs/seo.md](docs/seo.md). Dostava je isključivo na teritoriji grada Beograda, uključujući Obrenovac, Sremčicu i Železnik. `npm run seo:report` obnavlja mapu fraza iz uredničkog kataloga. Telefon i adresa se naknadno unose u admin; javni domen se uključuje tek nakon registracije i postavljanja sajta.
+
+## Automatski mejlovi
+
+Kontakt forma, novi članovi Kluba majstora i zahtevi za najam dobijaju Alat Rent email potvrde preko Amazon SES-a. Statusi slanja i kontakt upiti su u adminu **Prodaja i klub → Obaveštenja**. Podešavanja i testovi: [docs/email.md](docs/email.md).

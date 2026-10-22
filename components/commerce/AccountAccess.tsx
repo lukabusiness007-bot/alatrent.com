@@ -64,6 +64,7 @@ export default function AccountAccess({ locale, mode, setMode, busy, error, onSu
         if (mode !== 'login' && values.get('password') !== values.get('confirmPassword')) { setValidation(w('mismatch')); return; }
         setValidation(''); await onSubmit(e);
       }}>
+        <input type="hidden" name="locale" value={locale} />
         {mode === 'register' && <label>{membershipText(locale, 'email')}<input name="email" type="email" required maxLength={150} autoComplete="email" /></label>}
         <label>{copy[locale].phone}<input name="phone" type="tel" required autoComplete="username" inputMode="tel" placeholder="+381 60 123 4567" /></label>
         {mode === 'register' && <label>{copy[locale].name}<input name="name" required maxLength={120} autoComplete="name" /></label>}

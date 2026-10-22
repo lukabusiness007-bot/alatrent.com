@@ -3071,3 +3071,23 @@ p {
 .guide-rates dd { margin:0; font-weight:700; }
 @media(max-width:1000px) { .guide-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 @media(max-width:600px) { .guide-grid { grid-template-columns:1fr; gap:16px; } .guide-card { padding:22px; } .guide-body p { font-size:17px; } }
+
+.contact-message-section { display:grid; grid-template-columns:1fr 1.2fr; gap:64px; align-items:start; padding-bottom:96px; }
+.contact-message-intro h2 { font-size:clamp(30px,3.5vw,44px); max-width:400px; margin:18px 0; }
+.contact-message-intro p { max-width:420px; line-height:1.8; }
+.contact-message-form { display:grid; gap:20px; padding:32px; border:1px solid #dfe4d9; border-radius:16px; background:#f6f7f3; }
+.contact-message-form label:not(.contact-message-consent) { display:grid; gap:8px; font-size:14px; font-weight:500; }
+.contact-message-form input:not([type="checkbox"]), .contact-message-form textarea { width:100%; min-width:0; padding:13px 14px; background:#fff; color:#111412; border:1px solid #cbd2c5; border-radius:7px; }
+.contact-message-form textarea { resize:vertical; line-height:1.6; }
+.contact-message-fields { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.contact-message-consent { display:flex; gap:10px; align-items:flex-start; font-size:13px; line-height:1.7; color:#515a4a; }
+.contact-message-consent input { flex-shrink:0; margin-top:5px; accent-color:#445b19; }
+.contact-message-consent a { text-decoration:underline; }
+.contact-message-form .button { justify-self:start; }
+.contact-message-form .contact-message-note { font-size:12px; line-height:1.8; margin:0; }
+.contact-message-honeypot { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+.contact-message-success { padding:36px; background:#eef6e7; border:1px solid #c7d6bb; border-radius:16px; }
+.contact-message-success svg { color:#415b1a; margin-bottom:20px; }
+.contact-message-success h3 { font-size:26px; }
+.contact-message-success strong { overflow-wrap:anywhere; }
+@media(max-width:760px) { .contact-message-section { grid-template-columns:1fr; gap:24px; padding-bottom:64px; } .contact-message-form { padding:24px; } .contact-message-fields { grid-template-columns:1fr; } }

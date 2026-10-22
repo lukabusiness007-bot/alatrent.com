@@ -4,6 +4,9 @@ import { randomBytes, randomUUID, scryptSync } from 'node:crypto';
 import { all, get, put, remove, transaction } from '@/lib/db';
 import { sameOrigin, rateLimit, hashToken } from '@/lib/auth';
 import { text, emailAddress } from '@/lib/validation';
+import { locales } from '@/lib/types';
+import { enqueueEmail } from '@/lib/email/queue';
+import { withEmailDelivery } from '@/lib/email/dispatch';
 import {
   currentCustomer,
   customerCookie,
@@ -18,6 +21,7 @@ import { referralSummary } from '@/lib/commerce/referrals';
 import { createOrder, publicOrder, extensionQuote } from '@/lib/commerce/orders';
 import type { Order, Customer, Project, Watch, Team } from '@/lib/commerce/types';
 export const dynamic = 'force-dynamic';
+export const maxDuration = 60;
 const json = (data: unknown, status = 200) =>
   Response.json(data, { status, headers: { 'Cache-Control': 'no-store' } });
 async function dbGET(r: Request, { params }: { params: Promise<{ action: string }> }) {
@@ -71,7 +75,16 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ action: string
         return json({ error: 'Previše pokušaja. Pokušaj kasnije.' }, 429);
       if (action === 'register') {
         if (b.consent !== true) throw new Error('Prihvati obradu podataka za nalog.');
-        const result = transaction(() => register(b));
+        const locale = locales.includes(b.locale) ? b.locale : 'sr';
+        if (!rateLimit('club-email:' + hashToken(emailAddress(b.email)), 3, 86_400_000))
+          return json({ error: 'Previše pokušaja. Pokušaj kasnije.' }, 429);
+        const result = transaction(() => {
+          const joined = register(b);
+          const membership = member(joined.customer);
+          enqueueEmail('club:' + joined.customer.id, joined.customer.email, { kind: 'club-welcome', locale,
+            name: joined.customer.name, discount: membership.discount, threshold: membership.depositThreshold });
+          return joined;
+        });
         await customerCookie(r, result.customer.id);
         return json({ customer: member(result.customer), recovery: result.recovery }, 201);
       }
@@ -229,4 +242,4 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ action: string
 }
 
 export const GET = databaseRoute(dbGET, false);
-export const POST = databaseRoute(dbPOST, true);
+export const POST = withEmailDelivery(databaseRoute(dbPOST, true));

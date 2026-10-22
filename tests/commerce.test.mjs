@@ -6,7 +6,8 @@ import { join } from 'node:path';
 import { spawn, spawnSync } from 'node:child_process';
 import { DatabaseSync } from 'node:sqlite';
 const dir = mkdtempSync(join(tmpdir(), 'rent-commerce-test-'));
-const base = 'http://127.0.0.1:3012';
+const port = process.env.TEST_COMMERCE_PORT || '3012';
+const base = 'http://127.0.0.1:' + port;
 const password = 'local-test-password-2026';
 let child;
 let cookie = '';
@@ -49,7 +50,7 @@ before(async () => {
   assert.equal(reset.status, 0, reset.stderr);
   child = spawn(
     process.execPath,
-    ['node_modules/next/dist/bin/next', 'start', '--hostname', '127.0.0.1', '--port', '3012'],
+    ['node_modules/next/dist/bin/next', 'start', '--hostname', '127.0.0.1', '--port', port],
     { env, stdio: ['ignore', 'pipe', 'pipe'] },
   );
   child.stdout.on('data', (x) => (logs += x));

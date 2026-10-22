@@ -1,5 +1,25 @@
-import type { Tool } from './types';
+import type { Locale, Tool } from './types';
+import type { RentalJob } from './commerce/merchandising-types';
 import { reductionEntry } from './catalog-reduction';
+
+const jobDescriptions: Record<string, string> = {
+  cleaning: 'Mašine za dubinsko pranje, perači pod pritiskom i usisivači za čišćenje nameštaja i prostora.',
+  walls: 'Iznajmljivanje žirafe za zidove i građevinskog usisivača za brušenje zidova i plafona.',
+  garden: 'Kosilice, trimeri, motorne testere i bušači zemlje za radove u dvorištu.',
+  tiles: 'Rezači pločica, mešači za lepak i laserski nivelatori za postavljanje keramike.',
+  drilling: 'Iznajmljivanje pikamera i bušilica za beton, štemovanje i adaptaciju prostora.',
+  wood: 'Kružne i ubodne testere, brusilice i šrafilice za obradu drveta i montažu.',
+  drying: 'Isušivači vazduha i pumpe za vodu za uklanjanje vode i vlage iz prostora.',
+  metal: 'Ugaone brusilice, aparati za varenje i testere za sečenje i obradu metala.',
+};
+
+export function homeJobDescription(job: RentalJob, locale: Locale): string {
+  const description = job.description[locale];
+  // Replace the generic seed copy while preserving descriptions edited in admin.
+  return locale === 'sr' && description.trim() === 'Izaberi alat prema podlozi i obimu posla.'
+    ? jobDescriptions[job.id] || description
+    : description;
+}
 
 // Editorial selections informed by the research in docs/home-merchandising.md.
 // These are seasonal suggestions, not a ranking of measured search volumes.

@@ -130,7 +130,7 @@ export default function Account({
                 }
               }}
             >
-              {locale === 'sr' ? 'Poveži ovaj najam sa nalogom' : 'Link this rental to my account'}
+              {locale === 'sr' ? 'Poveži ovo iznajmljivanje sa nalogom' : 'Link this rental to my account'}
             </button>
           )}
           <div className="member-bar">

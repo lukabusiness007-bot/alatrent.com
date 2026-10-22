@@ -14,13 +14,13 @@ const rows = {
   oneDay: ['dan', 'day', 'день', 'gün', '天'],
   dailyRate: ['Dnevna cena', 'Daily rate', 'Цена за день', 'Günlük fiyat', '每日价格'],
   teamOrder: [
-    'Najam za firmu (vidljiv članovima firme)',
+    'Iznajmljivanje za firmu (vidljivo članovima firme)',
     'Company rental (shared with team members)',
     'Аренда для компании (доступна участникам)',
     'Şirket kiralaması (ekiple paylaşılır)',
     '公司租赁（团队成员可见）',
   ],
-  personal: ['Lični najam', 'Personal rental', 'Личная аренда', 'Kişisel kiralama', '个人租赁'],
+  personal: ['Lično iznajmljivanje', 'Personal rental', 'Личная аренда', 'Kişisel kiralama', '个人租赁'],
   cart: ['Korpa', 'Cart', 'Корзина', 'Sepet', '购物车'],
   add: ['Iznajmi', 'Rent', 'Арендовать', 'Kirala', '租用'],
   added: ['Dodato u korpu', 'Added to cart', 'Добавлено', 'Sepete eklendi', '已加入购物车'],
@@ -58,7 +58,7 @@ const rows = {
   remove: ['Ukloni', 'Remove', 'Удалить', 'Kaldır', '删除'],
   saving: ['Ušteda', 'Savings', 'Экономия', 'Tasarruf', '节省'],
   rental: [
-    'Najam opreme',
+    'Iznajmljivanje opreme',
     'Equipment rental',
     'Аренда оборудования',
     'Ekipman kiralama',
@@ -73,7 +73,7 @@ const rows = {
     '使用会员余额',
   ],
   wa: [
-    'Želim WhatsApp potvrde, uputstva i podsetnike za ovaj najam.',
+    'Želim WhatsApp potvrde, uputstva i podsetnike za ovo iznajmljivanje.',
     'Send me WhatsApp confirmations, instructions and reminders for this rental.',
     'Хочу получать подтверждения, инструкции и напоминания об аренде в WhatsApp.',
     'Bu kiralama için WhatsApp onayları, talimatları ve hatırlatmaları istiyorum.',
@@ -161,7 +161,7 @@ const rows = {
   ],
   logout: ['Odjavi se', 'Sign out', 'Выйти', 'Çıkış yap', '退出'],
   save: ['Sačuvaj', 'Save', 'Сохранить', 'Kaydet', '保存'],
-  history: ['Moji najmovi', 'My rentals', 'Мои аренды', 'Kiralamalarım', '我的租赁'],
+  history: ['Moja iznajmljivanja', 'My rentals', 'Мои аренды', 'Kiralamalarım', '我的租赁'],
   again: ['Izaberi ponovo', 'Rent again', 'Повторить аренду', 'Tekrar kirala', '再次租赁'],
   projects: [
     'Sačuvani projekti',
@@ -258,7 +258,7 @@ const rows = {
     '减少繁琐操作，完成更多工程。',
   ],
   clubBody: [
-    'Besplatno članstvo, klupski popust od učlanjenja i najam bez depozita nakon tri plaćena i završena najma.',
+    'Besplatno članstvo, klupski popust od učlanjenja i iznajmljivanje bez depozita nakon tri plaćena i završena iznajmljivanja.',
     'Free membership, a club discount from signup and no deposit after three paid, completed rentals.',
     'Бесплатное членство, скидка с регистрации и аренда без залога после трёх оплаченных завершённых аренд.',
     'Ücretsiz üyelik, kayıttan itibaren indirim ve üç ödenmiş, tamamlanmış kiralamadan sonra depozitosuz kiralama.',
@@ -279,7 +279,7 @@ const rows = {
     '无需账户也可租赁。',
   ],
   noOrders: [
-    'Još nema najmova.',
+    'Još nema iznajmljivanja.',
     'No rentals yet.',
     'Пока нет аренд.',
     'Henüz kiralama yok.',
@@ -338,14 +338,14 @@ const rows = {
   ],
   base: ['Redovna cena', 'Standard price', 'Обычная цена', 'Standart fiyat', '原价'],
   maxCredit: [
-    'Kredit se primenjuje samo na najam, do',
+    'Kredit se primenjuje samo na iznajmljivanje, do',
     'Credit applies to rental charges only, up to',
     'Бонусы применяются только к аренде, до',
     'Kredi yalnızca kiralama ücretine uygulanır, en fazla',
     '余额仅可抵扣租赁费用，最高',
   ],
   qualifying: [
-    'plaćena, završena najma u poslednjih 12 meseci',
+    'plaćena, završena iznajmljivanja u poslednjih 12 meseci',
     'paid, completed rentals in the last 12 months',
     'оплаченных завершённых аренд за последние 12 месяцев',
     'son 12 ayda ödenmiş ve tamamlanmış kiralama',

@@ -3,13 +3,12 @@
 import { useState, type CSSProperties } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowUpRight, Pause, Play } from 'lucide-react';
+import { Pause, Play } from 'lucide-react';
 import type { Locale } from '@/lib/types';
-import { copy, href } from '@/lib/i18n';
 import styles from './Home.module.css';
 
 const labels = {
-  sr: { collection: 'Za svaki posao, pravi alat.', pause: 'Pauziraj kretanje alata', play: 'Pokreni kretanje alata' },
+  sr: { collection: 'Pronađi alat za iznajmljivanje', pause: 'Pauziraj kretanje alata', play: 'Pokreni kretanje alata' },
   en: { collection: 'The right tool for every job.', pause: 'Pause tool animation', play: 'Play tool animation' },
   ru: { collection: 'Инструмент для любой задачи.', pause: 'Остановить анимацию', play: 'Запустить анимацию' },
   tr: { collection: 'Her iş için doğru alet.', pause: 'Alet animasyonunu duraklat', play: 'Alet animasyonunu başlat' },
@@ -60,9 +59,6 @@ export function HeroToolMarquee({ tools, locale }: { tools: MarqueeTool[]; local
           );
         })}
       </div>
-      <Link className={styles.catalogLink} href={href(locale, 'katalog')}>
-        {copy[locale].allTools}<ArrowUpRight size={16} aria-hidden="true" />
-      </Link>
     </div>
   );
 }

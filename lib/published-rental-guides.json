@@ -3,12 +3,12 @@
     "id": "G001",
     "slug": "udarna-busilica-ili-busilica-cekic",
     "title": "Udarna bušilica ili bušilica čekić: šta izabrati za zid i beton?",
-    "description": "Razlika između udarne bušilice i elektro-pneumatskog čekića: izbor prema podlozi, burgiji i poslu, uz spisak za pripremu najma.",
+    "description": "Razlika između udarne bušilice i elektro-pneumatskog čekića: izbor prema podlozi, burgiji i poslu, uz spisak za pripremu iznajmljivanja.",
     "intro": "Za nekoliko odgovarajućih rupa u punoj opeci može da bude dovoljna udarna bušilica. Za beton i zahtevnije bušenje razmatra se elektro-pneumatska bušilica čekić, uz burgiju namenjenu tom materijalu. Drvo, metal, šuplji blok i keramička obloga traže zasebnu proveru režima rada; reč „zid” nije dovoljno precizan opis podloge. [Bosch objašnjava razliku između burgija za zidane materijale i beton](https://www.bosch-professional.com/gb/en/innovation/the-best-concrete-drill-bits/).",
     "blocks": [
       {
         "type": "paragraph",
-        "text": "Za najam je zato korisnije da opišeš materijal, prečnik, dubinu i broj rupa nego da tražiš samo „najjaču bušilicu”. Tako se zajedno biraju mašina i pribor, a izbegava dolazak na posao sa alatom koji nema potreban režim ili prihvat."
+        "text": "Za iznajmljivanje je zato korisnije da opišeš materijal, prečnik, dubinu i broj rupa nego da tražiš samo „najjaču bušilicu”. Tako se zajedno biraju mašina i pribor, a izbegava dolazak na posao sa alatom koji nema potreban režim ili prihvat."
       },
       {
         "type": "heading",
@@ -135,7 +135,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Kako da pripremiš upit za najam u Beogradu?"
+        "text": "Kako da pripremiš upit za iznajmljivanje u Beogradu?"
       },
       {
         "type": "paragraph",
@@ -143,7 +143,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Pošalji opis poput: „Potrebne su mi rupe za montažu u poznatom materijalu, ovih dimenzija i u ovom broju, na ovoj visini, tog datuma.” Dodaj fotografiju, podatak o napajanju i adresu ako tražiš dostavu. Cenu za izabrani period i dodatke proveri kroz [upit za najam](https://alatrent.rs/sr/kontakt), a način obračuna u [vodiču o najmu i dostavi](https://alatrent.rs/sr/saveti/cena-najma-alata-i-dostave)."
+        "text": "Pošalji opis poput: „Potrebne su mi rupe za montažu u poznatom materijalu, ovih dimenzija i u ovom broju, na ovoj visini, tog datuma.” Dodaj fotografiju, podatak o napajanju i adresu ako tražiš dostavu. Cenu za izabrani period i dodatke proveri kroz [upit za iznajmljivanje](https://alatrent.rs/sr/kontakt), a način obračuna u [vodiču o iznajmljivanju i dostavi](https://alatrent.rs/sr/saveti/cena-najma-alata-i-dostave)."
       },
       {
         "type": "heading",
@@ -174,7 +174,7 @@
     "id": "G002",
     "slug": "laserski-daljinomer-ili-metar",
     "title": "Laserski daljinomer ili metar: šta izabrati za merenje prostorije?",
-    "description": "Kada koristiti laserski daljinomer, a kada metar: referentna ravan, uslovi merenja, kontrola rezultata i priprema upita za najam.",
+    "description": "Kada koristiti laserski daljinomer, a kada metar: referentna ravan, uslovi merenja, kontrola rezultata i priprema upita za iznajmljivanje.",
     "intro": "Laserski daljinomer je praktičan kada treba da prikupiš više dužina prostorije i pripremiš obračun površina. Metar ostaje koristan kada želiš da direktno prisloniš traku uz predmet, proveriš njegovu ivicu ili preneseš meru na materijal. Za planiranje radova često je najbolje da ih koristiš zajedno: jedan za obilazak prostorije, drugi za proveru detalja. [Bosch opisuje primenu daljinomera pri dokumentovanju mera i računanju potreba za materijalom](https://www.bosch-professional.com/gb/en/products/glm-50-27-cg-0601072U00).",
     "blocks": [
       {
@@ -262,7 +262,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Zato pri najmu napiši da li meriš unutra ili napolju i da li ciljaš običan zid, taman predmet ili problematičnu površinu. Ako nema odgovarajuće ciljne tačke, razjasni potreban pribor i postupak. Naziv modela ili najveći broj na njegovoj stranici nije dovoljna potvrda za tvoj slučaj."
+        "text": "Zato pri iznajmljivanju napiši da li meriš unutra ili napolju i da li ciljaš običan zid, taman predmet ili problematičnu površinu. Ako nema odgovarajuće ciljne tačke, razjasni potreban pribor i postupak. Naziv modela ili najveći broj na njegovoj stranici nije dovoljna potvrda za tvoj slučaj."
       },
       {
         "type": "paragraph",
@@ -315,7 +315,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Šta poslati za najam daljinomera?"
+        "text": "Šta poslati za iznajmljivanje daljinomera?"
       },
       {
         "type": "paragraph",
@@ -323,7 +323,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Za termin i uslove pošalji [upit](https://alatrent.rs/sr/kontakt), a za način obračuna koristi [vodič o ceni najma i dostave](https://alatrent.rs/sr/saveti/cena-najma-alata-i-dostave)."
+        "text": "Za termin i uslove pošalji [upit](https://alatrent.rs/sr/kontakt), a za način obračuna koristi [vodič o ceni iznajmljivanja i dostave](https://alatrent.rs/sr/saveti/cena-najma-alata-i-dostave)."
       },
       {
         "type": "heading",
@@ -352,12 +352,12 @@
     "id": "G003",
     "slug": "rucni-ili-elektricni-sekac-plocica",
     "title": "Ručni ili električni sekač pločica: kako izabrati za svoj posao?",
-    "description": "Izbor sekača prema materijalu, formatu i obliku reza: ručni ili električni, proba na uzorku i podaci potrebni za najam.",
+    "description": "Izbor sekača prema materijalu, formatu i obliku reza: ručni ili električni, proba na uzorku i podaci potrebni za iznajmljivanje.",
     "intro": "Za ponavljane ravne rezove na odgovarajućim keramičkim ili porcelanskim pločicama vredi prvo razmotriti ručni sekač. Za veoma uske trake proverava se poseban postupak i pribor, a za obaranje ivice pod uglom razmatra se električni sekač koji podržava takav rez i odgovarajuću ploču. Presudni su vrsta pločice, format, debljina i oblik reza. [RUBI poredi ručno i električno sečenje porcelanskih pločica](https://www.rubi.com/en/blog/porcelain-tile-cutter/).",
     "blocks": [
       {
         "type": "paragraph",
-        "text": "Pre najma pripremi fotografiju ambalaže pločica i skicu rezova. Opis „za kupatilo” ne otkriva da li treba skratiti mnogo jednakih komada, ostaviti vidljivu završnu ivicu ili napraviti poseban izrez oko instalacije."
+        "text": "Pre iznajmljivanja pripremi fotografiju ambalaže pločica i skicu rezova. Opis „za kupatilo” ne otkriva da li treba skratiti mnogo jednakih komada, ostaviti vidljivu završnu ivicu ili napraviti poseban izrez oko instalacije."
       },
       {
         "type": "heading",
@@ -386,7 +386,7 @@
         "headers": [
           "Zahtev posla",
           "Šta prvo razmotriti",
-          "Šta potvrditi pre najma"
+          "Šta potvrditi pre iznajmljivanja"
         ],
         "rows": [
           [
@@ -479,12 +479,12 @@
       },
       {
         "type": "paragraph",
-        "text": "Pri preuzimanju traži demonstraciju podešavanja i uputstvo za konkretan model. Neka budu jasni dozvoljeni materijali, zaštita, oslonci i postupak zamene ili provere pribora. Ovaj vodič služi izboru i pripremi najma; ne određuje univerzalnu brzinu, pritisak ili način sečenja za sve uređaje."
+        "text": "Pri preuzimanju traži demonstraciju podešavanja i uputstvo za konkretan model. Neka budu jasni dozvoljeni materijali, zaštita, oslonci i postupak zamene ili provere pribora. Ovaj vodič služi izboru i pripremi iznajmljivanja; ne određuje univerzalnu brzinu, pritisak ili način sečenja za sve uređaje."
       },
       {
         "type": "heading",
         "level": 2,
-        "text": "Spisak za upit za najam"
+        "text": "Spisak za upit za iznajmljivanje"
       },
       {
         "type": "list",
@@ -502,7 +502,7 @@
       },
       {
         "type": "paragraph",
-        "text": "U katalogu pogledaj [ručni sekač za keramiku velikog formata](https://alatrent.rs/sr/alat/bihui-rucni-sekac-za-keramiku-velikog-formata-cr-32373) i [električni rezač pločica](https://alatrent.rs/sr/alat/einhell-te-tc-620-u-rezac-plocica-200x25-4mm-900w-cr-30788). Pre rezervacije potvrdi konkretan uređaj, njegov kapacitet, pribor i dostupnost za tvoju pločicu i termin. [Pošalji upit](https://alatrent.rs/sr/kontakt) sa pripremljenim podacima, a pravila obračuna proveri u [vodiču o najmu i dostavi](https://alatrent.rs/sr/saveti/cena-najma-alata-i-dostave)."
+        "text": "U katalogu pogledaj [ručni sekač za keramiku velikog formata](https://alatrent.rs/sr/alat/bihui-rucni-sekac-za-keramiku-velikog-formata-cr-32373) i [električni rezač pločica](https://alatrent.rs/sr/alat/einhell-te-tc-620-u-rezac-plocica-200x25-4mm-900w-cr-30788). Pre rezervacije potvrdi konkretan uređaj, njegov kapacitet, pribor i dostupnost za tvoju pločicu i termin. [Pošalji upit](https://alatrent.rs/sr/kontakt) sa pripremljenim podacima, a pravila obračuna proveri u [vodiču o iznajmljivanju i dostavi](https://alatrent.rs/sr/saveti/cena-najma-alata-i-dostave)."
       },
       {
         "type": "heading",
@@ -531,7 +531,7 @@
     "id": "G010",
     "slug": "parocistac-ili-ekstraktor",
     "title": "Paročistač ili ekstraktor: šta izabrati za pločice i nameštaj",
-    "description": "Razlika između paročistača i ekstraktora: izbor prema površini, provera održavanja, nastavaka i kompleta pre najma.",
+    "description": "Razlika između paročistača i ekstraktora: izbor prema površini, provera održavanja, nastavaka i kompleta pre iznajmljivanja.",
     "intro": "Za tvrdu površinu koja dozvoljava čišćenje parom razmatraj paročistač. Za pranje tekstilne presvlake koja dozvoljava mokro čišćenje razmatraj ekstraktor, koji nanosi rastvor i usisava ga nazad. Izbor počinje od materijala i njegove oznake održavanja; naziv „dubinsko čišćenje“ sam ne određuje uređaj.",
     "blocks": [
       {
@@ -582,7 +582,7 @@
           ],
           [
             "Nepoznat materijal ili nečitka oznaka",
-            "Razjašnjenje materijala pre najma",
+            "Razjašnjenje materijala pre iznajmljivanja",
             "Uputstvo proizvođača predmeta; ne biraj tretman napamet"
           ]
         ]
@@ -624,7 +624,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Šta potvrditi pre najma"
+        "text": "Šta potvrditi pre iznajmljivanja"
       },
       {
         "type": "list",
@@ -632,7 +632,7 @@
         "items": [
           "Za [SC 3 EasyFix paročistač](/sr/alat/karcher-sc-3-easyfix-parocistac-cr-33379): tačan model, potrebne mlaznice i krpe, dozvoljenu površinu i uputstvo za vodu i kertridž.",
           "Za [Puzzi 8/1 ekstraktor](/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551): nastavak za nameštaj ili tepih, creva, odgovarajuće sredstvo i sadržaj kompleta.",
-          "Za oba: termin, transport ili dostavu i stanje površine. Pribor naveden u fabričkom pakovanju nije automatski potvrđen komplet za najam."
+          "Za oba: termin, transport ili dostavu i stanje površine. Pribor naveden u fabričkom pakovanju nije automatski potvrđen komplet za iznajmljivanje."
         ]
       },
       {
@@ -646,7 +646,7 @@
       },
       {
         "type": "paragraph",
-        "text": "U jednom upitu pošalji površinu ili broj komada, materijal, vrstu nečistoće, željeni datum i potreban pribor. Model, raspoloživost i komplet potvrđuju se pre najma. Izbor uređaja sam po sebi ne garantuje uklanjanje svake mrlje."
+        "text": "U jednom upitu pošalji površinu ili broj komada, materijal, vrstu nečistoće, željeni datum i potreban pribor. Model, raspoloživost i komplet potvrđuju se pre iznajmljivanja. Izbor uređaja sam po sebi ne garantuje uklanjanje svake mrlje."
       },
       {
         "type": "heading",
@@ -676,7 +676,7 @@
     "id": "G017",
     "slug": "higrometar-ili-merac-vlage-drveta",
     "title": "Higrometar ili merač vlage drveta: koji podatak ti treba",
-    "description": "Vlaga vazduha i vlaga drveta nisu isti procenat. Uporedi higrometar i merač sa iglama i proveri granice njihove namene pre najma.",
+    "description": "Vlaga vazduha i vlaga drveta nisu isti procenat. Uporedi higrometar i merač sa iglama i proveri granice njihove namene pre iznajmljivanja.",
     "intro": "Za relativnu vlažnost vazduha treba ti higrometar. Za približan sadržaj vlage u drvetu treba ti odgovarajući merač drveta. Bosch GDH 1-17 i UniversalHumid predstavljaju te dve različite namene: procenat na ekranu jednog uređaja ne zamenjuje podatak drugog.",
     "blocks": [
       {
@@ -787,12 +787,12 @@
       },
       {
         "type": "paragraph",
-        "text": "Boju skale ili podešeni prag ne tumači kao univerzalnu dozvolu za rad. Ako ne znaš koji podatak izvođač traži, najpre zatraži naziv merne veličine i prihvaćenog postupka. Tako izbegavaš najam instrumenta koji daje uredan broj, ali ne odgovara na tvoje pitanje."
+        "text": "Boju skale ili podešeni prag ne tumači kao univerzalnu dozvolu za rad. Ako ne znaš koji podatak izvođač traži, najpre zatraži naziv merne veličine i prihvaćenog postupka. Tako izbegavaš iznajmljivanje instrumenta koji daje uredan broj, ali ne odgovara na tvoje pitanje."
       },
       {
         "type": "heading",
         "level": 2,
-        "text": "Šta poslati za najam"
+        "text": "Šta poslati za iznajmljivanje"
       },
       {
         "type": "paragraph",
@@ -800,7 +800,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Dodaj termin i podatak da li ti treba informativna provera ili rezultat po zahtevu izvođača. Konkretan model, stanje instrumenata, uputstvo i raspoloživost potvrđuju se pre najma."
+        "text": "Dodaj termin i podatak da li ti treba informativna provera ili rezultat po zahtevu izvođača. Konkretan model, stanje instrumenata, uputstvo i raspoloživost potvrđuju se pre iznajmljivanja."
       },
       {
         "type": "heading",
@@ -829,8 +829,8 @@
   {
     "id": "G024",
     "slug": "duvac-lisca-ili-grabulje",
-    "title": "Duvač lišća ili grabulje: kada ima smisla najam",
-    "description": "Izbor alata za jesenje lišće prema površini, količini i preprekama. Šta duvač radi, šta ostaje za skupljanje i šta proveriti pre najma.",
+    "title": "Duvač lišća ili grabulje: kada ima smisla iznajmljivanje",
+    "description": "Izbor alata za jesenje lišće prema površini, količini i preprekama. Šta duvač radi, šta ostaje za skupljanje i šta proveriti pre iznajmljivanja.",
     "intro": "Za manju površinu i malo lišća prvo razmotri grabulje. Duvač ima više smisla kada treba grupisati veću količinu lišća na odgovarajućoj otvorenoj površini. U plan uključi i završno skupljanje: duvanje na gomilu nije isto što i usisavanje u vreću.",
     "blocks": [
       {
@@ -923,7 +923,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Primer pripreme i najam"
+        "text": "Primer pripreme i iznajmljivanje"
       },
       {
         "type": "paragraph",
@@ -951,7 +951,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Napiši šta želiš da očistiš i gde lišće treba da završi. Ako je posao mali, i ručni alat može rešiti potrebu. Ako razmatraš najam, model, raspoloživost i komplet potvrđuju se za termin; naziv iz kataloga nije sam po sebi potvrda izdate varijante."
+        "text": "Napiši šta želiš da očistiš i gde lišće treba da završi. Ako je posao mali, i ručni alat može rešiti potrebu. Ako razmatraš iznajmljivanje, model, raspoloživost i komplet potvrđuju se za termin; naziv iz kataloga nije sam po sebi potvrda izdate varijante."
       },
       {
         "type": "heading",
@@ -978,9 +978,9 @@
   {
     "id": "G015",
     "slug": "izbor-odvlazivaca-za-najam",
-    "title": "Kako izabrati odvlaživač za najam: prostor, uslovi i kondenzat",
+    "title": "Kako izabrati odvlaživač za iznajmljivanje: prostor, uslovi i kondenzat",
     "description": "Šta poslati za izbor odvlaživača: prostor, izvor vlage, temperatura, napajanje i odvod kondenzata. Zašto litri dnevno nisu dovoljan kriterijum.",
-    "intro": "Odvlaživač biraj prema nameni, prostoru, temperaturi i vlažnosti, uz plan napajanja i odvođenja kondenzata. Oznaka kapaciteta u litrima dnevno nije dovoljna da se odredi model ili trajanje najma. Najpre razjasni izvor vlage i šta želiš da proveriš na kraju posla.",
+    "intro": "Odvlaživač biraj prema nameni, prostoru, temperaturi i vlažnosti, uz plan napajanja i odvođenja kondenzata. Oznaka kapaciteta u litrima dnevno nije dovoljna da se odredi model ili trajanje iznajmljivanja. Najpre razjasni izvor vlage i šta želiš da proveriš na kraju posla.",
     "blocks": [
       {
         "type": "heading",
@@ -993,7 +993,7 @@
       },
       {
         "type": "paragraph",
-        "text": "U opisu navedi kada se problem pojavio, da li voda i dalje ulazi i šta je već urađeno. Ako je bilo plavljenja ili postoji nepoznata električna opasnost, prvo je potrebna odgovarajuća procena prostora. Najam uređaja ne zamenjuje taj korak."
+        "text": "U opisu navedi kada se problem pojavio, da li voda i dalje ulazi i šta je već urađeno. Ako je bilo plavljenja ili postoji nepoznata električna opasnost, prvo je potrebna odgovarajuća procena prostora. Iznajmljivanje uređaja ne zamenjuje taj korak."
       },
       {
         "type": "heading",
@@ -1103,7 +1103,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Za [najam odvlaživača odnosno isušivača vazduha](/sr/alat/odvlazivac-isusivac-vazduha) pošalji podatke iz tabele i željeni termin. Model, prikladnost za posao, komplet i raspoloživost potvrđuju se pre najma. Trajanje dogovaraj uz praćenje uslova, bez garantovanog roka sušenja."
+        "text": "Za [iznajmljivanje odvlaživača odnosno isušivača vazduha](/sr/alat/odvlazivac-isusivac-vazduha) pošalji podatke iz tabele i željeni termin. Model, prikladnost za posao, komplet i raspoloživost potvrđuju se pre iznajmljivanja. Trajanje dogovaraj uz praćenje uslova, bez garantovanog roka sušenja."
       },
       {
         "type": "heading",
@@ -1131,7 +1131,7 @@
     "id": "G030",
     "slug": "ekscentricna-vibraciona-ili-tracna-brusilica",
     "title": "Ekscentrična, vibraciona ili tračna brusilica: izbor za drvo",
-    "description": "Uporedi brusilice za drvo prema obliku površine, skidanju sloja i završnoj obradi. Proveri papir, traku i odvođenje prašine pre najma.",
+    "description": "Uporedi brusilice za drvo prema obliku površine, skidanju sloja i završnoj obradi. Proveri papir, traku i odvođenje prašine pre iznajmljivanja.",
     "intro": "Za izbor brusilice prvo odredi oblik drvene površine i da li skidaš sloj ili pripremaš završnu obradu. Ekscentrična, vibraciona i tračna brusilica nisu međusobno zamenljive u svakom poslu. Odgovarajući abraziv, stanje drveta i kontrola prašine jednako su važni kao tip mašine.",
     "blocks": [
       {
@@ -1227,7 +1227,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Šta potvrditi za najam"
+        "text": "Šta potvrditi za iznajmljivanje"
       },
       {
         "type": "paragraph",
@@ -1250,7 +1250,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Tačan model, potrošni materijal i potrebni dodaci potvrđuju se pre najma. Cena samog uređaja ne mora obuhvatati sve što je potrebno za posao."
+        "text": "Tačan model, potrošni materijal i potrebni dodaci potvrđuju se pre iznajmljivanja. Cena samog uređaja ne mora obuhvatati sve što je potrebno za posao."
       },
       {
         "type": "heading",
@@ -1281,8 +1281,8 @@
   {
     "id": "G008",
     "slug": "dubinsko-pranje-namestaja-izbor-masine",
-    "title": "Mašina za dubinsko pranje nameštaja: šta proveriti pre najma",
-    "description": "Proveri materijal, nastavak, sredstvo i sušenje pre najma ekstraktora za garnituru ili auto-sedišta. Tabela i kontrolna lista za potpun upit.",
+    "title": "Mašina za dubinsko pranje nameštaja: šta proveriti pre iznajmljivanja",
+    "description": "Proveri materijal, nastavak, sredstvo i sušenje pre iznajmljivanja ekstraktora za garnituru ili auto-sedišta. Tabela i kontrolna lista za potpun upit.",
     "intro": "Ekstrakcijska mašina nanosi rastvor na tekstil i usisava ga nazad zajedno sa nečistoćom. Namenjena je materijalima koji dozvoljavaju mokro čišćenje. Pre rezervacije proveri oznaku održavanja nameštaja.",
     "blocks": [
       {
@@ -1296,7 +1296,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Ako još biraš između metoda, pogledaj [razliku između paročistača i ekstraktora](/sr/saveti/parocistac-ili-ekstraktor). Ovaj vodič služi pripremi za najam ekstraktora kada je takvo čišćenje dozvoljeno."
+        "text": "Ako još biraš između metoda, pogledaj [razliku između paročistača i ekstraktora](/sr/saveti/parocistac-ili-ekstraktor). Ovaj vodič služi pripremi za iznajmljivanje ekstraktora kada je takvo čišćenje dozvoljeno."
       },
       {
         "type": "heading",
@@ -1308,7 +1308,7 @@
         "headers": [
           "Šta si utvrdio",
           "Sledeća provera",
-          "Odluka pre najma"
+          "Odluka pre iznajmljivanja"
         ],
         "rows": [
           [
@@ -1353,7 +1353,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Pre preuzimanja proveri da li su dogovoreni nastavak, creva i spojevi prisutni i odgovaraju izdavanom modelu. Fotografija stvarnog kompleta može pomoći u toj potvrdi; kataloška fotografija sama ne dokazuje sadržaj najma."
+        "text": "Pre preuzimanja proveri da li su dogovoreni nastavak, creva i spojevi prisutni i odgovaraju izdavanom modelu. Fotografija stvarnog kompleta može pomoći u toj potvrdi; kataloška fotografija sama ne dokazuje sadržaj iznajmljivanja."
       },
       {
         "type": "heading",
@@ -1366,7 +1366,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Potvrdi sredstvo namenjeno uređaju i materijalu, njegovu dozu i potrebne dodatke prema uputstvu. Ne zamenjuj ga proizvoljnim deterdžentom. Ranije šamponiran tekstil može stvarati penu, što je razlog da taj podatak navedeš pre najma. Izbor uređaja ne garantuje uklanjanje svake mrlje."
+        "text": "Potvrdi sredstvo namenjeno uređaju i materijalu, njegovu dozu i potrebne dodatke prema uputstvu. Ne zamenjuj ga proizvoljnim deterdžentom. Ranije šamponiran tekstil može stvarati penu, što je razlog da taj podatak navedeš pre iznajmljivanja. Izbor uređaja ne garantuje uklanjanje svake mrlje."
       },
       {
         "type": "heading",
@@ -1432,7 +1432,7 @@
     "id": "G005",
     "slug": "vibro-ploca-ili-vibro-zaba",
     "title": "Vibro ploča ili vibro žaba: šta izabrati za sabijanje podloge?",
-    "description": "Uporedi vibro ploču i žabu prema materijalu i pristupu. Proveri ograničenja HP1800S i VS1000, rad uz rov i podatke koje treba poslati za najam.",
+    "description": "Uporedi vibro ploču i žabu prema materijalu i pristupu. Proveri ograničenja HP1800S i VS1000, rad uz rov i podatke koje treba poslati za iznajmljivanje.",
     "intro": "Za širu površinu odgovarajućeg peska i šljunka najpre razmotri vibro ploču; za ograničen pristup i uske zone razmotri vibro nabijač, odnosno žabu. Materijal ipak ima prednost nad oblikom mašine: Scheppach HP1800S nije predviđen za glinu, a uputstvo za VS1000 isključuje zemljište sa visokim udelom gline. Zato podatak „treba mi za zemlju“ nije dovoljan za izbor.",
     "blocks": [
       {
@@ -1446,7 +1446,7 @@
       },
       {
         "type": "paragraph",
-        "text": "To je smernica za kategoriju, ne odobrenje svakog modela za svaku glinu. Za najam proveravaš uputstvo konkretnog uređaja, vrstu nasipa i prostor u kome operater može da radi."
+        "text": "To je smernica za kategoriju, ne odobrenje svakog modela za svaku glinu. Za iznajmljivanje proveravaš uputstvo konkretnog uređaja, vrstu nasipa i prostor u kome operater može da radi."
       },
       {
         "type": "heading",
@@ -1479,7 +1479,7 @@
           [
             "Završno sabijanje behatona",
             "Ploču samo uz uslove proizvođača popločanja",
-            "Dozvoljen postupak i odgovarajuću zaštitnu podlogu; dodatak potvrditi pri najmu"
+            "Dozvoljen postupak i odgovarajuću zaštitnu podlogu; dodatak potvrditi pri iznajmljivanju"
           ],
           [
             "Očvrsla betonska površina",
@@ -1499,7 +1499,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Ovaj vodič ne propisuje univerzalnu debljinu sloja, vlažnost ili broj prolaza. Najam odgovarajuće mašine sam po sebi nije potvrda nosivosti urađene podloge."
+        "text": "Ovaj vodič ne propisuje univerzalnu debljinu sloja, vlažnost ili broj prolaza. Iznajmljivanje odgovarajuće mašine sam po sebi nije potvrda nosivosti urađene podloge."
       },
       {
         "type": "heading",
@@ -1672,7 +1672,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Kontrolna lista za najam žirafe"
+        "text": "Kontrolna lista za iznajmljivanje žirafe"
       },
       {
         "type": "paragraph",
@@ -1721,8 +1721,8 @@
     "id": "G022",
     "slug": "vertikulacija-ili-aeracija-travnjaka",
     "title": "Vertikulacija ili aeracija travnjaka: koji problem rešava koji alat",
-    "description": "Razlikuj češljanje, vertikulaciju i aeraciju travnjaka. Izaberi postupak prema filcu ili zbijenom zemljištu i proveri nastavak pre najma.",
-    "intro": "Ako je problem sloj travnog filca na površini, razmotri češljanje ili vertikulaciju odgovarajućim nastavkom. Ako je problem zbijeno zemljište u zoni korena, razmatra se aeracija tla. Naziv „prozračivač travnjaka“ koristi se za različite postupke: pre najma proveri šta radni nastavak zaista radi, umesto da pretpostaviš da jedna mašina obavlja sve.",
+    "description": "Razlikuj češljanje, vertikulaciju i aeraciju travnjaka. Izaberi postupak prema filcu ili zbijenom zemljištu i proveri nastavak pre iznajmljivanja.",
+    "intro": "Ako je problem sloj travnog filca na površini, razmotri češljanje ili vertikulaciju odgovarajućim nastavkom. Ako je problem zbijeno zemljište u zoni korena, razmatra se aeracija tla. Naziv „prozračivač travnjaka“ koristi se za različite postupke: pre iznajmljivanja proveri šta radni nastavak zaista radi, umesto da pretpostaviš da jedna mašina obavlja sve.",
     "blocks": [
       {
         "type": "heading",
@@ -1783,7 +1783,7 @@
       },
       {
         "type": "paragraph",
-        "text": "U javnom opisu [prozračivača travnjaka](/sr/alat/prozracivac-travnjaka) navedeni su površinska obrada i uklanjanje odgovarajućih naslaga namenskim nastavcima. Model i komplet potvrđuju se pri najmu. Taj opis ne potvrđuje dubinsku aeraciju niti izvlačenje čepova zemlje."
+        "text": "U javnom opisu [prozračivača travnjaka](/sr/alat/prozracivac-travnjaka) navedeni su površinska obrada i uklanjanje odgovarajućih naslaga namenskim nastavcima. Model i komplet potvrđuju se pri iznajmljivanju. Taj opis ne potvrđuje dubinsku aeraciju niti izvlačenje čepova zemlje."
       },
       {
         "type": "paragraph",
@@ -1805,7 +1805,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Podaci za izbor nastavka i najam"
+        "text": "Podaci za izbor nastavka i iznajmljivanje"
       },
       {
         "type": "paragraph",
@@ -1834,7 +1834,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Jedan prolaz nije obećanje oporavka travnjaka. Ne postoji ni univerzalna radna dubina za svaki nastavak i svako stanje trave. Podešavanje i rukovanje prati uputstvo potvrđenog modela i procenu površine. Ako problem zahteva rešavanje drenaže ili druge uzroke slabog rasta, najam površinskog alata ne zamenjuje taj plan."
+        "text": "Jedan prolaz nije obećanje oporavka travnjaka. Ne postoji ni univerzalna radna dubina za svaki nastavak i svako stanje trave. Podešavanje i rukovanje prati uputstvo potvrđenog modela i procenu površine. Ako problem zahteva rešavanje drenaže ili druge uzroke slabog rasta, iznajmljivanje površinskog alata ne zamenjuje taj plan."
       },
       {
         "type": "heading",
@@ -1861,9 +1861,9 @@
   {
     "id": "G006",
     "slug": "kako-izabrati-merdevine",
-    "title": "Kako izabrati merdevine za najam: visina, oslonac i pristup",
-    "description": "Razlikuj dužinu, dozvoljenu visinu stajanja i radni domet. Proveri oslonac, pristup i vrstu posla pre najma trodelnih merdevina.",
-    "intro": "Merdevine biraj prema visini radne tačke, dozvoljenom položaju konkretnog modela i uslovima na mestu rada. Oznaka 3×10 sama ne potvrđuje domet, nosivost ili sve načine postavljanja. Pre najma opiši i posao: za duži rad koji zahteva obe ruke treba razmotriti drugu radnu opremu, umesto biranja samo dužih merdevina.",
+    "title": "Kako izabrati merdevine za iznajmljivanje: visina, oslonac i pristup",
+    "description": "Razlikuj dužinu, dozvoljenu visinu stajanja i radni domet. Proveri oslonac, pristup i vrstu posla pre iznajmljivanja trodelnih merdevina.",
+    "intro": "Merdevine biraj prema visini radne tačke, dozvoljenom položaju konkretnog modela i uslovima na mestu rada. Oznaka 3×10 sama ne potvrđuje domet, nosivost ili sve načine postavljanja. Pre iznajmljivanja opiši i posao: za duži rad koji zahteva obe ruke treba razmotriti drugu radnu opremu, umesto biranja samo dužih merdevina.",
     "blocks": [
       {
         "type": "heading",
@@ -1950,7 +1950,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Kontrolna lista pre najma i preuzimanja"
+        "text": "Kontrolna lista pre iznajmljivanja i preuzimanja"
       },
       {
         "type": "paragraph",
@@ -1997,9 +1997,9 @@
   {
     "id": "G023",
     "slug": "busac-zemlje-za-ogradu-i-sadnju",
-    "title": "Bušač zemlje za ogradu ili sadnju: šta navesti pre najma",
-    "description": "Pripremi podatke o rupama, zemljištu, instalacijama i pristupu pre najma bušača zemlje. Šta potvrditi za svrdlo, model i rukovaoce.",
-    "intro": "Pre najma bušača zemlje pripremi namenu, broj i potrebne dimenzije rupa, opis zemljišta i pristupa. Pre početka bušenja mora se razjasniti položaj podzemnih instalacija. Zatim se proveravaju odgovarajući model, svrdlo i zahtevi za rukovaoce. Naziv „motorni bušač rupa“ ne potvrđuje da uređaj odgovara svakoj podlozi i svakoj dubini.",
+    "title": "Bušač zemlje za ogradu ili sadnju: šta navesti pre iznajmljivanja",
+    "description": "Pripremi podatke o rupama, zemljištu, instalacijama i pristupu pre iznajmljivanja bušača zemlje. Šta potvrditi za svrdlo, model i rukovaoce.",
+    "intro": "Pre iznajmljivanja bušača zemlje pripremi namenu, broj i potrebne dimenzije rupa, opis zemljišta i pristupa. Pre početka bušenja mora se razjasniti položaj podzemnih instalacija. Zatim se proveravaju odgovarajući model, svrdlo i zahtevi za rukovaoce. Naziv „motorni bušač rupa“ ne potvrđuje da uređaj odgovara svakoj podlozi i svakoj dubini.",
     "blocks": [
       {
         "type": "heading",
@@ -2012,7 +2012,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Ako dimenzije još nisu određene, napiši da su nepoznate. Potvrda kompleta za najam nije projektovanje temelja ograde niti stručna preporuka za sadnju."
+        "text": "Ako dimenzije još nisu određene, napiši da su nepoznate. Potvrda kompleta za iznajmljivanje nije projektovanje temelja ograde niti stručna preporuka za sadnju."
       },
       {
         "type": "heading",
@@ -2092,7 +2092,7 @@
       },
       {
         "type": "paragraph",
-        "text": "U potvrdi najma treba razjasniti model, svrdlo, prihvat, eventualne odobrene nastavke i sadržaj kompleta. Uputstva STIHL i Villager naglašavaju poznavanje pravilnog rukovanja; ako nemaš iskustva, traži objašnjenje i procenu da li je samostalni najam prikladan za tvoj posao."
+        "text": "U potvrdi iznajmljivanja treba razjasniti model, svrdlo, prihvat, eventualne odobrene nastavke i sadržaj kompleta. Uputstva STIHL i Villager naglašavaju poznavanje pravilnog rukovanja; ako nemaš iskustva, traži objašnjenje i procenu da li je samostalni iznajmljivanje prikladan za tvoj posao."
       },
       {
         "type": "paragraph",
@@ -2120,7 +2120,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Pošalji te podatke uz upit za [motorni bušač rupa za zemlju](/sr/alat/motorni-busac-rupa-za-zemlju). Konačni model, pribor i raspoloživost potvrđuju se za termin. Najam uređaja nije potvrda da je ugovorena i usluga bušenja."
+        "text": "Pošalji te podatke uz upit za [motorni bušač rupa za zemlju](/sr/alat/motorni-busac-rupa-za-zemlju). Konačni model, pribor i raspoloživost potvrđuju se za termin. Iznajmljivanje uređaja nije potvrda da je ugovorena i usluga bušenja."
       },
       {
         "type": "heading",
@@ -2147,7 +2147,7 @@
     "id": "G031",
     "slug": "ubodna-sabljasta-ili-kruzna-testera",
     "title": "Ubodna, sabljasta ili kružna testera: izbor prema obliku reza",
-    "description": "Uporedi testere prema pravom rezu, krivini ili demontaži. Proveri materijal, debljinu, list i oslonac pre najma konkretnog modela.",
+    "description": "Uporedi testere prema pravom rezu, krivini ili demontaži. Proveri materijal, debljinu, list i oslonac pre iznajmljivanja konkretnog modela.",
     "intro": "Za duži prav rez u odgovarajućoj drvenoj ploči najpre razmotri ručnu kružnu testeru; za krivinu ubodnu; za grublje presecanje pri demontaži sabljastu testeru. To je početak izbora: konačna odluka zavisi od materijala, debljine, pristupa i odgovarajućeg lista. Nijedna od ove tri vrste nije univerzalna za svaki rez.",
     "blocks": [
       {
@@ -2236,7 +2236,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Uputstva zahtevaju odgovarajući oslonac i učvršćivanje radnog komada. Pre najma razjasni gde će komad stajati i ima li prostora za alat i list. Kod demontaže najpre proveri vodove i ulogu dela koji želiš da ukloniš; oznaka „univerzalna testera“ ne odobrava sečenje nepoznate konstrukcije ili aktivne cevi."
+        "text": "Uputstva zahtevaju odgovarajući oslonac i učvršćivanje radnog komada. Pre iznajmljivanja razjasni gde će komad stajati i ima li prostora za alat i list. Kod demontaže najpre proveri vodove i ulogu dela koji želiš da ukloniš; oznaka „univerzalna testera“ ne odobrava sečenje nepoznate konstrukcije ili aktivne cevi."
       },
       {
         "type": "paragraph",
@@ -2264,7 +2264,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Zatim uporedi ponudu za [DeWalt DW331K ubodnu](/sr/alat/dewalt-ubodna-testera-dw331k-701-w-cr-491), [Bosch GSA 12-30 sabljastu](/sr/alat/bosch-univerzalna-testera-recipro-gsa-12-30-1250-w-cr-63074) i [Makita HS7601 kružnu testeru](/sr/alat/makita-hs7601-rucna-kruzna-testera-cr-564). Model, odgovarajući list, komplet i raspoloživost potvrđuju se pre najma."
+        "text": "Zatim uporedi ponudu za [DeWalt DW331K ubodnu](/sr/alat/dewalt-ubodna-testera-dw331k-701-w-cr-491), [Bosch GSA 12-30 sabljastu](/sr/alat/bosch-univerzalna-testera-recipro-gsa-12-30-1250-w-cr-63074) i [Makita HS7601 kružnu testeru](/sr/alat/makita-hs7601-rucna-kruzna-testera-cr-564). Model, odgovarajući list, komplet i raspoloživost potvrđuju se pre iznajmljivanja."
       },
       {
         "type": "heading",

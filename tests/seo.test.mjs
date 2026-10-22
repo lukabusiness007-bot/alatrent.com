@@ -66,7 +66,7 @@ test('Home page search appearance uses the preferred business name, concise copy
   assert.equal(response.url, base + '/sr');
   const html = await response.text();
   assert.match(html, /<title>Alat Rent — Iznajmljivanje alata u Beogradu<\/title>/);
-  assert.equal(tag(html, 'description'), 'Iznajmite alate i mašine u Beogradu: bušilice, pikamere, žirafe i opremu za dubinsko pranje. Pogledajte dnevne cene i dogovorite dostavu.');
+  assert.equal(tag(html, 'description'), 'Iznajmljivanje alata na dan u Beogradu: pikameri, žirafe, građevinski usisivači i druga oprema. Pogledaj cene i pošalji upit za termin i dostavu.');
   assert.ok(tag(html, 'description').length <= 175);
   assert.ok(!tag(html, 'description').endsWith('…'));
   assert.match(html, /<meta property="og:site_name" content="Alat Rent"/);
@@ -193,7 +193,7 @@ test('Search phrases drive the page, FAQ and catalog while the specific model st
   const { html } = await get('/sr/alat/' + tool.slug);
   assert.match(html, /<h1>Iznajmljivanje ravne brusilice \(bijaksa\)<\/h1>/);
   assert.match(html, /<title>Iznajmljivanje ravne brusilice \(bijaksa\) — Beograd/);
-  assert.ok(html.includes('Koliko košta najam ravne brusilice (bijaksa)?'));
+  assert.ok(html.includes('Koliko košta iznajmljivanje ravne brusilice (bijaksa)?'));
   assert.ok(html.includes('<h2>Model iz kataloga</h2><p>Makita brusilica ravna GD0601</p>'));
   assert.ok(html.includes('Ravna brusilica, poznata i kao bijaks'));
   for (const query of ['iznajmljivanje ravne brusilice', 'najam bijaksa', 'rentiranje ravne brusilice', 'GD0601']) {

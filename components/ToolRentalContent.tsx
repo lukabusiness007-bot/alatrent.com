@@ -10,7 +10,7 @@ export function ToolRentalContent({ tool, locale }: { tool: Tool; locale: Locale
   return <section className="section seo-content"><div className="container faq-layout">
     <div className="section-head">
       <span className="eyebrow">{t.area}</span>
-      <h2>{locale === 'sr' ? 'Šta treba znati pre najma?' : t.faqTitle}</h2>
+      <h2>{locale === 'sr' ? 'Šta treba znati pre iznajmljivanja?' : t.faqTitle}</h2>
       {locale === 'sr' && guides.map(guide => <p key={guide.slug}><Link href={'/sr/saveti/' + guide.slug}>{guide.title} →</Link></p>)}
       <div className="seo-links">
         <Link href={href(locale, 'dostava')}>{t.delivery}</Link>

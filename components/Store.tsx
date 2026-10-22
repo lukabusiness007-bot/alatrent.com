@@ -8,7 +8,7 @@ import { BreadcrumbSchema, CollectionSchema } from './Seo';
 import { categoryHeading, categoryDescription, categoryContent } from '@/lib/seo-content';
 import { pageCopy } from '@/lib/seo-pages';
 import { catalogPagination, pageLabel, paginationCopy } from '@/lib/catalog-pagination';
-import { homeFeaturedTools, homeMarqueeTools } from '@/lib/home-merchandising';
+import { homeFeaturedTools, homeMarqueeTools, homeJobDescription } from '@/lib/home-merchandising';
 import { HeroToolMarquee } from './HeroToolMarquee';
 import homeStyles from './Home.module.css';
 import { QuickAdd } from './commerce/CartProvider';
@@ -62,7 +62,7 @@ function ToolSearch({ locale, path = 'katalog', q = '', sort, home = false, jobs
 }) {
   const t = copy[locale];
   return (
-    <Form className={`search-bar${home ? ' home-search' : ''}${jobs ? ' commerce-search' : ''}`} action={href(locale, path)}>
+    <Form className={`search-bar${home ? ` home-search ${homeStyles.heroSearch}` : ''}${jobs ? ' commerce-search' : ''}`} action={href(locale, path)}>
       <Search size={21} aria-hidden="true" />
       {sort && <input type="hidden" name="sort" value={sort} />}
       <input type="search" name="q" defaultValue={q} placeholder={t.search} aria-label={t.search} maxLength={150} />
@@ -74,7 +74,7 @@ function ToolSearch({ locale, path = 'katalog', q = '', sort, home = false, jobs
         <label className="commerce-check"><input type="checkbox" name="available" value="1" defaultChecked={filters.available}/>{mt(locale,'availableOnly')}</label>
       </div>}
       <button className="button button-lime" type="submit">
-        {t.searchButton}<ArrowRight size={18} aria-hidden="true" />
+        {home ? t.heroCta : t.searchButton}<ArrowRight size={18} aria-hidden="true" />
       </button>
     </Form>
   );
@@ -160,7 +160,7 @@ export function Steps({ locale, primary = false }: { locale: Locale; primary?: b
   return (
     <section className="section steps-section" id="kako-funkcionise">
       <div className="container">
-        <SectionHead label={t.stepsLabel} title={t.stepsTitle} primary={primary} />
+        <SectionHead label={t.stepsLabel} title={t.stepsTitle} body={t.stepsText} primary={primary} />
         <div className="steps-grid">
           {[
             [t.step1, t.step1Text],
@@ -331,35 +331,19 @@ export function Home({ locale, data, jobs }: { locale: Locale; data: PublicData;
     <>
       <section className={`hero ${homeStyles.homeHero}`}>
         <div className={`container hero-grid ${homeStyles.homeHeroGrid}`}>
-          <div className="hero-copy">
+          <div className={`hero-copy ${homeStyles.heroHeading}`}>
             <h1>
-              {locale === 'sr' ? 'Iznajmljivanje alata' : t.hero1}
+              {t.hero1}
               {' '}
-              <span>{locale === 'sr' ? 'u Beogradu.' : t.hero2}</span>
+              <span>{t.hero2}</span>
             </h1>
-            <p>{locale === 'sr' && <strong>{t.hero1} {t.hero2} </strong>}{t.heroText}</p>
-            <ToolSearch locale={locale} home />
-            <div className="hero-actions">
-              <Link className="button button-lime" href={href(locale, 'katalog')}>
-                {t.heroCta}
-                <ArrowRight size={19} />
-              </Link>
-              <span className="guarantee">
-                <ShieldCheck size={24} />
-                <Link href={href(locale, 'klub')}>{t.deposit}</Link>
-              </span>
-            </div>
-            <div className="hero-note">
-              <span className="mini-bulb">
-                <Drill size={18} />
-              </span>
-              {t.heroNote}
-            </div>
           </div>
           <HeroToolMarquee locale={locale} tools={heroTools.map(tool => ({
             id: tool.id, name: tool.name[locale], image: tool.image,
             url: href(locale, 'alat/' + tool.slug),
           }))} />
+          <ToolSearch locale={locale} home />
+          <p className={homeStyles.heroDescription}>{t.heroText}</p>
         </div>
       </section>
       <section className="value-ribbon">
@@ -382,7 +366,7 @@ export function Home({ locale, data, jobs }: { locale: Locale; data: PublicData;
                 <Link className="job-link" key={job.id} href={`${href(locale, 'katalog')}?job=${encodeURIComponent(job.id)}`}>
                   <span className={homeStyles.jobIcon} aria-hidden="true"><Icon size={27} strokeWidth={1.5} /></span>
                   <h3>{job.name[locale]}</h3>
-                  <p>{job.description[locale]}</p>
+                  <p>{homeJobDescription(job, locale)}</p>
                   <ArrowUpRight size={18} aria-hidden="true" />
                 </Link>
               );
@@ -393,7 +377,7 @@ export function Home({ locale, data, jobs }: { locale: Locale; data: PublicData;
       <section className="section category-section">
         <div className="container">
           <div className="split-head">
-            <SectionHead title={t.categories} />
+            <SectionHead title={t.categories} body={t.categoriesSub} />
             <Link className="text-link" href={href(locale, 'katalog')}>
               {t.allCategories}
               <ArrowRight size={17} />
@@ -422,7 +406,7 @@ export function Home({ locale, data, jobs }: { locale: Locale; data: PublicData;
       <section className="section service-section">
         <div className="container">
           <div className="split-head">
-            <SectionHead label={t.popularLabel} title={t.popular} />
+            <SectionHead label={t.popularLabel} title={t.popular} body={t.popularText} />
             <Link className="text-link" href={href(locale, 'katalog')}>
               {t.allTools}
               <ArrowRight size={17} />
@@ -629,7 +613,7 @@ export function Catalog({
         <section className="section seo-content"><div className="container prose-page">
           <h2>Kako izabrati odgovarajuću opremu?</h2>
           <p>{categoryContent[category.slug].selection}</p>
-          <h2>Najam i dostava na teritoriji Beograda</h2>
+          <h2>Iznajmljivanje i dostava na teritoriji Beograda</h2>
           <p>{t.faq2a}</p>
           <p>{t.depositNote} {t.requestHint}</p>
           <div className="seo-links"><Link href={href(locale, 'dostava')}>Dostava i preuzimanje alata</Link><Link href={href(locale, 'kako-funkcionise')}>Kako iznajmiti alat</Link></div>

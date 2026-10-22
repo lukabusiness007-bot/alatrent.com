@@ -17,13 +17,13 @@ export function pageCopy(locale: Locale): Record<string, { title: string; descri
     paketi: { title: ct(locale, 'packages'), description: `${ct(locale, 'packages')}. ${t.ctaText} ${t.catalogText}` },
   };
   if (locale === 'sr') Object.assign(pages, {
-    '': { title: 'Iznajmljivanje alata u Beogradu', description: 'Iznajmite alate i mašine u Beogradu: bušilice, pikamere, žirafe i opremu za dubinsko pranje. Pogledajte dnevne cene i dogovorite dostavu.' },
+    '': { title: 'Iznajmljivanje alata u Beogradu', description: 'Iznajmljivanje alata na dan u Beogradu: pikameri, žirafe, građevinski usisivači i druga oprema. Pogledaj cene i pošalji upit za termin i dostavu.' },
     katalog: { title: 'Alati za iznajmljivanje Beograd — katalog i cene', description: 'Uporedi alate za iznajmljivanje: bušilice, žirafe, mašine za dubinsko pranje, baštenski alat i opremu za adaptaciju. Dnevne cene i depozit po dogovoru. Klupski popust od učlanjenja.' },
-    'kako-funkcionise': { title: 'Kako iznajmiti alat — uslovi najma i depozita', description: 'Izaberi alat i datume, pošalji upit i dogovori preuzimanje ili dostavu. Saznaj kako se potvrđuju dostupnost, cena i vraćanje alata. Depozit po dogovoru i klupske pogodnosti.' },
+    'kako-funkcionise': { title: 'Kako iznajmiti alat — uslovi iznajmljivanja i depozita', description: 'Izaberi alat i datume, pošalji upit i dogovori preuzimanje ili dostavu. Saznaj kako se potvrđuju dostupnost, cena i vraćanje alata. Depozit po dogovoru i klupske pogodnosti.' },
     dostava: { title: 'Dostava alata u Beogradu — preuzimanje i cene', description: 'Dostava i preuzimanje alata isključivo na teritoriji grada Beograda, uključujući Obrenovac, Sremčicu i Železnik. Standardna i hitna dostava uz potvrdu termina.' },
-    kontakt: { title: 'Kontakt za iznajmljivanje alata u Beogradu', description: 'Pošalji upit za najam alata u Beogradu. Navedi posao, željene datume i adresu dostave da potvrdimo odgovarajući alat, dostupnost i konačnu cenu.' },
-    klub: { title: 'Klub majstora — popust i najam bez depozita', description: 'Učlani se besplatno u Klub majstora: 5% popusta odmah i najam bez depozita nakon tri plaćena i završena najma u Beogradu.' },
-    paketi: { title: 'Paketi alata za iznajmljivanje — Beograd', description: 'Pogledaj pakete alata za povezane radove. Izaberi potrebnu opremu i datume najma, pa zatraži potvrdu cene i dostave na teritoriji grada Beograda.' },
+    kontakt: { title: 'Kontakt za iznajmljivanje alata u Beogradu', description: 'Pošalji upit za iznajmljivanje alata u Beogradu. Navedi posao, željene datume i adresu dostave da potvrdimo odgovarajući alat, dostupnost i konačnu cenu.' },
+    klub: { title: 'Klub majstora — popust i iznajmljivanje bez depozita', description: 'Učlani se besplatno u Klub majstora: 5% popusta odmah i iznajmljivanje bez depozita nakon tri plaćena i završena iznajmljivanja u Beogradu.' },
+    paketi: { title: 'Paketi alata za iznajmljivanje — Beograd', description: 'Pogledaj pakete alata za povezane radove. Izaberi potrebnu opremu i datume iznajmljivanja, pa zatraži potvrdu cene i dostave na teritoriji grada Beograda.' },
   });
   return pages;
 }

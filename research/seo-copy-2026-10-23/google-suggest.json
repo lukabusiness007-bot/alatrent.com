@@ -1,0 +1,41 @@
+{
+  "checkedOn": "2026-10-23",
+  "timezone": "Europe/Belgrade",
+  "provider": "Google Autocomplete",
+  "country": "RS",
+  "language": "sr",
+  "scope": "Public suggestions for the listed prefixes, without account personalization.",
+  "limitation": "Autocomplete suggestions are not verified monthly search volumes, rankings or conversion forecasts.",
+  "evidence": [
+    {
+      "query": "iznajmljivanje alata beograd",
+      "source": "https://suggestqueries.google.com/complete/search?client=firefox&hl=sr&gl=rs&q=iznajmljivanje+alata+beograd",
+      "suggestions": ["iznajmljivanje alata beograd", "iznajmljivanje alata na dan beograd"]
+    },
+    {
+      "query": "iznajmljivanje građevinskog",
+      "source": "https://suggestqueries.google.com/complete/search?client=firefox&hl=sr&gl=rs&q=iznajmljivanje+gra%C4%91evinskog",
+      "suggestions": ["iznajmljivanje građevinskog alata", "iznajmljivanje građevinskog kontejnera", "iznajmljivanje građevinskog usisivača", "iznajmljivanje građevinskog zemljišta", "iznajmljivanje gradjevinskog usisivaca", "iznajmljivanje gradjevinskog krana", "iznajmljivanje gradjevinskog levka", "iznajmljivanje gradjevinskog materijala"]
+    },
+    {
+      "query": "iznajmljivanje građevinske",
+      "source": "https://suggestqueries.google.com/complete/search?client=firefox&hl=sr&gl=rs&q=iznajmljivanje+gra%C4%91evinske",
+      "suggestions": ["iznajmljivanje građevinske opreme", "iznajmljivanje građevinske skele", "iznajmljivanje građevinske oplate", "iznajmljivanje gradjevinske skele cena", "iznajmljivanje gradjevinske dizalice", "iznajmljivanje gradjevinske ograde", "iznajmljivanje gradjevinske mehanizacije"]
+    },
+    {
+      "query": "iznajmljivanje pikamera",
+      "source": "https://suggestqueries.google.com/complete/search?client=firefox&hl=sr&gl=rs&q=iznajmljivanje+pikamera",
+      "suggestions": ["iznajmljivanje pikamera", "iznajmljivanje pikamera beograd", "iznajmljivanje pikamera kragujevac", "iznajmljivanje pikamera novi sad"]
+    },
+    {
+      "query": "iznajmljivanje žirafe",
+      "source": "https://suggestqueries.google.com/complete/search?client=firefox&hl=sr&gl=rs&q=iznajmljivanje+%C5%BEirafe",
+      "suggestions": ["iznajmljivanje žirafe", "iznajmljivanje zirafe za smirglanje", "iznajmljivanje zirafe za zidove", "iznajmljivanje zirafe za smirglanje beograd", "iznajmljivanje zirafe novi sad", "iznajmljivanje zirafe za smirglanje novi sad", "iznajmljivanje zirafe za zidove novi sad", "iznajmljivanje zirafe beograd", "iznajmljivanje zirafe nis", "iznajmljivanje zirafe i usisivaca"]
+    }
+  ],
+  "selectedIntents": ["iznajmljivanje alata beograd", "iznajmljivanje alata na dan beograd", "iznajmljivanje građevinskog alata", "iznajmljivanje građevinske opreme", "iznajmljivanje građevinskog usisivača", "iznajmljivanje pikamera beograd", "iznajmljivanje zirafe za zidove"],
+  "excludedIntent": {
+    "phrase": "iznajmljivanje gradjevinskog materijala",
+    "reason": "The catalog offers tools and equipment; it does not offer construction materials such as cement, bricks or sand for rental."
+  }
+}

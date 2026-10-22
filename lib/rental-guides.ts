@@ -11,7 +11,7 @@ export type RentalGuide = {
   status: 'published';
   publishedAt: string; updatedAt: string;
 };
-export const guideHub = { title: 'Saveti za izbor i iznajmljivanje alata', description: 'Kako izabrati merdevine, vibro ploču, žirafu ili mašinu za dubinsko pranje i šta proveriti pri obračunu najma i dostave u Beogradu.' };
+export const guideHub = { title: 'Saveti za izbor i iznajmljivanje alata', description: 'Kako izabrati merdevine, vibro ploču, žirafu ili mašinu za dubinsko pranje i šta proveriti pri obračunu iznajmljivanja i dostave u Beogradu.' };
 const legacyRentalGuides = [
   {
     slug: 'vibro-ploca-ili-vibro-zaba', title: 'Vibro ploča ili vibro žaba: šta izabrati za sabijanje podloge?',
@@ -24,13 +24,13 @@ const legacyRentalGuides = [
     ], toolIds: ['crafter-62855', 'crafter-62858'],
   },
   {
-    slug: 'kako-izabrati-merdevine', title: 'Kako izabrati merdevine za najam: visina, oslonac i pristup',
+    slug: 'kako-izabrati-merdevine', title: 'Kako izabrati merdevine za iznajmljivanje: visina, oslonac i pristup',
     description: 'Šta proveriti pre rentiranja merdevina: razlika između dužine i radne visine, način postavljanja, nosivost i uslovi na mestu rada.',
     intro: 'Merdevine biraj prema visini mesta rada i dozvoljenom načinu postavljanja konkretnog modela. Oznaka 3×10 opisuje konfiguraciju trodelnih merdevina; sama ne potvrđuje potrebnu radnu visinu niti nosivost.',
     sections: [
       { heading: 'Radna visina nije dužina merdevina', text: 'Nije dovoljno izmeriti rastojanje od poda do plafona i izabrati merdevine iste dužine. Potrebna visina zavisi od položaja, oslonca i dozvoljenog mesta stajanja. Za montažu na fasadi, krečenje plafona i pristup krovu uslovi su različiti. Navedi visinu radne tačke i vrstu posla; tačan domet proverava se u dokumentaciji modela.' },
       { heading: 'Proveri podlogu i raspoloživ prostor', text: 'Fotografija mesta rada može pomoći da se vidi pristup i prostor za postavljanje. Podloga mora odgovarati uputstvu: neravan teren, stepenice i klizava površina traže poseban plan. Trodelne merdevine ne mogu se proizvoljno postavljati u svaki položaj. Ako posao zahteva dug rad, bočno pružanje ili prenošenje teškog materijala, proveri da li je primerenija radna platforma.' },
-      { heading: 'Dogovori komplet pre preuzimanja', text: 'Pošalji datum, visinu i način transporta. Traži potvrdu modela, nosivosti i dozvoljenih položaja i uračunaj alat u ukupno opterećenje. Pre upotrebe pregledaj oslonce i bravice prema uputstvu. U blizini električnih vodova aluminijumske merdevine zahtevaju posebno razmatranje bezbednosti; izbor opreme i radne zone treba rešiti pre najma.' },
+      { heading: 'Dogovori komplet pre preuzimanja', text: 'Pošalji datum, visinu i način transporta. Traži potvrdu modela, nosivosti i dozvoljenih položaja i uračunaj alat u ukupno opterećenje. Pre upotrebe pregledaj oslonce i bravice prema uputstvu. U blizini električnih vodova aluminijumske merdevine zahtevaju posebno razmatranje bezbednosti; izbor opreme i radne zone treba rešiti pre iznajmljivanja.' },
     ], toolIds: ['crafter-20586'],
   },
   {
@@ -44,7 +44,7 @@ const legacyRentalGuides = [
     ], toolIds: ['crafter-62581'],
   },
   {
-    slug: 'dubinsko-pranje-namestaja-izbor-masine', title: 'Mašina za dubinsko pranje nameštaja: šta proveriti pre najma',
+    slug: 'dubinsko-pranje-namestaja-izbor-masine', title: 'Mašina za dubinsko pranje nameštaja: šta proveriti pre iznajmljivanja',
     description: 'Kako izabrati ekstrakcijsku mašinu za garniture i auto-sedišta, proveriti materijal, nastavke i uslove sušenja.',
     intro: 'Ekstrakcijska mašina nanosi rastvor na tekstil i usisava ga nazad zajedno sa nečistoćom. Namenjena je materijalima koji dozvoljavaju mokro čišćenje. Pre rezervacije proveri oznaku održavanja nameštaja.',
     sections: [
@@ -54,12 +54,12 @@ const legacyRentalGuides = [
     ], toolIds: ['crafter-35551'],
   },
   {
-    slug: 'cena-najma-alata-i-dostave', title: 'Kako se računa cena najma alata i dostave u Beogradu',
-    description: 'Dnevna cena, izabrani datumi, dostava, depozit i potrošni materijal: šta proveriti da bi ponuda za najam bila potpuna.',
-    intro: 'Početna dnevna cena je polazna informacija. Za konkretnu ponudu izaberi alat, datume i način preuzimanja. Obračun u formularu prikazuje te izbore, a termin, komplet i konačne uslove potvrđujemo pre najma.',
+    slug: 'cena-najma-alata-i-dostave', title: 'Kako se računa cena iznajmljivanja alata i dostave u Beogradu',
+    description: 'Dnevna cena, izabrani datumi, dostava, depozit i potrošni materijal: šta proveriti da bi ponuda za iznajmljivanje bila potpuna.',
+    intro: 'Početna dnevna cena je polazna informacija. Za konkretnu ponudu izaberi alat, datume i način preuzimanja. Obračun u formularu prikazuje te izbore, a termin, komplet i konačne uslove potvrđujemo pre iznajmljivanja.',
     sections: [
-      { heading: 'Uporedi cenu za ceo posao', text: 'Dva alata sa sličnom dnevnom cenom mogu imati različitu namenu i učinak. Navedi obim rada da bismo proverili odgovarajući model. Broj dana, količina i primenljiva pravila najma utiču na obračun. Aktuelnu cenu vidiš na stranici konkretnog alata; ako je označena kao cena na upit, potrebna je ponuda za izabrani posao.' },
-      { heading: 'Dostava i depozit su odvojene stavke', text: 'Dostava zavisi od izabrane opcije i potvrđuje se za adresu i termin na teritoriji grada Beograda. Ako planiraš preuzimanje, dogovori lokaciju i mogućnost transporta većeg alata. Depozit ima zasebne uslove: proveri iznos, način polaganja i uslove vraćanja pre rezervacije. Nemoj ga automatski računati kao trajni trošak najma.' },
+      { heading: 'Uporedi cenu za ceo posao', text: 'Dva alata sa sličnom dnevnom cenom mogu imati različitu namenu i učinak. Navedi obim rada da bismo proverili odgovarajući model. Broj dana, količina i primenljiva pravila iznajmljivanja utiču na obračun. Aktuelnu cenu vidiš na stranici konkretnog alata; ako je označena kao cena na upit, potrebna je ponuda za izabrani posao.' },
+      { heading: 'Dostava i depozit su odvojene stavke', text: 'Dostava zavisi od izabrane opcije i potvrđuje se za adresu i termin na teritoriji grada Beograda. Ako planiraš preuzimanje, dogovori lokaciju i mogućnost transporta većeg alata. Depozit ima zasebne uslove: proveri iznos, način polaganja i uslove vraćanja pre rezervacije. Nemoj ga automatski računati kao trajni trošak iznajmljivanja.' },
       { heading: 'Proveri šta ulazi u komplet', text: 'Burgije, diskovi, abrazivi, sredstva, gorivo i dodatni uređaji ne treba da se podrazumevaju. Zatraži potvrdu sadržaja kompleta i potrošnog materijala. U jednom upitu pošalji alat, datume, količinu, opis posla i adresu ako želiš dostavu. Tako ponuda može da uključi potrebne dodatke, a ti možeš da uporediš ukupan planirani trošak.' },
     ], toolIds: ['crafter-30354', 'crafter-63590', 'crafter-63082', 'crafter-31501', 'tool-055'],
   },

@@ -16,7 +16,7 @@ export const categoryContent: Record<string, { title: string; intro: string; sel
   'sezonska-prerada-i-pretakanje': {
     title: 'Iznajmljivanje opreme za sezonsku preradu i pretakanje',
     intro: 'Muljače, kazani i oprema za pripremu i preradu plodova. Izbor zavisi od količine, načina rada, prostora i termina sezone.',
-    selection: 'Navedi vrstu i količinu plodova ili tečnosti, potreban kapacitet i napajanje. Transport, komplet, čišćenje i uslove korišćenja potvrđujemo pre najma.',
+    selection: 'Navedi vrstu i količinu plodova ili tečnosti, potreban kapacitet i napajanje. Transport, komplet, čišćenje i uslove korišćenja potvrđujemo pre iznajmljivanja.',
   },
   'ciscenje-i-pranje': {
     title: 'Iznajmljivanje mašina za čišćenje i pranje',
@@ -41,7 +41,7 @@ export const categoryContent: Record<string, { title: string; intro: string; sel
   'obrada-drveta-i-parketa': {
     title: 'Iznajmljivanje alata za drvo i parket',
     intro: 'Testere, glodalice, rende i hoblerice za stolarske radove i obnovu drvenih površina. Izbor zavisi od vrste reza, dimenzija materijala i željene završne obrade.',
-    selection: 'Ger testera, ubodna testera i stoni cirkular namenjeni su različitim rezovima. Ručno rende nije zamena za hoblericu za parket. Pre najma navedi materijal, debljinu i količinu posla kako bismo proverili listove, glodala ili abrazive.',
+    selection: 'Ger testera, ubodna testera i stoni cirkular namenjeni su različitim rezovima. Ručno rende nije zamena za hoblericu za parket. Pre iznajmljivanja navedi materijal, debljinu i količinu posla kako bismo proverili listove, glodala ili abrazive.',
   },
   'metal-plastika-i-lemljenje': {
     title: 'Iznajmljivanje alata za metal i zavarivanje',
@@ -51,7 +51,7 @@ export const categoryContent: Record<string, { title: string; intro: string; sel
   'keramika-i-vodovod': {
     title: 'Iznajmljivanje alata za keramiku i vodovod',
     intro: 'Sekači pločica, mikseri i alat za montažu cevnih instalacija. Oprema za pripremu materijala i ugradnju u kupatilu, kuhinji i drugim prostorima.',
-    selection: 'Kod pločica proveri materijal, dužinu, debljinu i potreban ugao reza. Za cevne instalacije važni su materijal i prečnik cevi. Mešač biramo prema vrsti mase i količini po turi; nastavke dogovaramo pre najma.',
+    selection: 'Kod pločica proveri materijal, dužinu, debljinu i potreban ugao reza. Za cevne instalacije važni su materijal i prečnik cevi. Mešač biramo prema vrsti mase i količini po turi; nastavke dogovaramo pre iznajmljivanja.',
   },
   'merenje-i-detekcija': {
     title: 'Iznajmljivanje lasera i opreme za detekciju',
@@ -107,9 +107,9 @@ export function rentalQuestions(tool: Tool, locale: Locale) {
   if (locale !== 'sr') return [{ question: t.faq1, answer: t.faq1a }, { question: t.faq2, answer: t.faq2a }];
   const entry = toolContent[tool.slug];
   return [
-    { question: `Koliko košta najam${entry ? ' ' + entry.term : ': ' + tool.name.sr}?`, answer: tool.price === null
-      ? 'Cena se određuje na upit prema trajanju najma i potrebnoj opremi. Pošalji željene datume za konkretnu ponudu.'
-      : `Prikazana osnovna dnevna cena je ${money(tool.price, locale)}. Obračun za izabrane datume vidiš u formularu; konačnu cenu i dodatke potvrđujemo pre najma. Dostava se obračunava posebno.` },
+    { question: `Koliko košta iznajmljivanje${entry ? ' ' + entry.term : ': ' + tool.name.sr}?`, answer: tool.price === null
+      ? 'Cena se određuje na upit prema trajanju iznajmljivanja i potrebnoj opremi. Pošalji željene datume za konkretnu ponudu.'
+      : `Prikazana osnovna dnevna cena je ${money(tool.price, locale)}. Obračun za izabrane datume vidiš u formularu; konačnu cenu i dodatke potvrđujemo pre iznajmljivanja. Dostava se obračunava posebno.` },
     { question: 'Šta treba navesti pre iznajmljivanja?', answer: toolSelection(tool) },
     { question: 'Da li je potrebna uplata depozita?', answer: t.depositNote },
     { question: 'Gde dostavljate i kako potvrđujem termin?', answer: `${t.faq2a} ${t.faq1a}` },

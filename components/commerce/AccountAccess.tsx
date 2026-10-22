@@ -15,7 +15,7 @@ const words = {
   welcome: ['Dobro došao nazad.', 'Welcome back.', 'С возвращением.', 'Tekrar hoş geldiniz.', '欢迎回来。'],
   join: ['Tvoj sledeći posao počinje ovde.', 'Your next project starts here.', 'Ваш следующий проект начинается здесь.', 'Sonraki projeniz burada başlıyor.', '从这里开始下一个项目。'],
   reset: ['Postavi novu lozinku.', 'Set a new password.', 'Задайте новый пароль.', 'Yeni şifre belirleyin.', '设置新密码。'],
-  intro: ['Svi najmovi, termini i projekti na jednom mestu.', 'Your rentals, dates and projects in one place.', 'Аренда, даты и проекты в одном месте.', 'Kiralamalar, tarihler ve projeler tek yerde.', '集中管理租赁、日期和项目。'],
+  intro: ['Sva iznajmljivanja, termini i projekti na jednom mestu.', 'Your rentals, dates and projects in one place.', 'Аренда, даты и проекты в одном месте.', 'Kiralamalar, tarihler ve projeler tek yerde.', '集中管理租赁、日期和项目。'],
   free: ['Članstvo je besplatno. Bez pretplate.', 'Free membership. No subscription.', 'Бесплатное членство. Без подписки.', 'Ücretsiz üyelik. Abonelik yok.', '免费会员，无需订阅。'],
   forgot: ['Zaboravio sam šifru', 'Forgot password?', 'Забыли пароль?', 'Şifremi unuttum', '忘记密码？'],
   back: ['Nazad na prijavu', 'Back to sign in', 'Назад ко входу', 'Girişe dön', '返回登录'],

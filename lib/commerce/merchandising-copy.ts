@@ -8,14 +8,14 @@ const words = {
     '它适合您的工作吗？',
   ],
   jobs: [
-    'Koji posao radiš?',
+    'Za koji posao ti treba alat?',
     'What are you working on?',
     'Какую работу вы планируете?',
     'Hangi işi yapıyorsunuz?',
     '您要完成什么工作？',
   ],
   jobHint: [
-    'Pronađi pojedinačne alate za svoj posao.',
+    'Dubinsko pranje nameštaja, brušenje zidova, štemovanje ili uređenje dvorišta — izaberi radove i pogledaj odgovarajuće alate za iznajmljivanje.',
     'Find individual tools for your project.',
     'Найдите отдельные инструменты для вашей задачи.',
     'İşiniz için tek tek aletleri bulun.',
@@ -53,7 +53,7 @@ const words = {
     '请选择最长90天的有效期间以查看可用性。',
   ],
   available: [
-    'Raspoloživo za izabrani period · potvrđujemo pre najma',
+    'Raspoloživo za izabrani period · potvrđujemo pre iznajmljivanja',
     'Available for selected dates · confirmation required',
     'Доступно на выбранные даты · требуется подтверждение',
     'Seçilen tarihlerde müsait · onay gerekli',
@@ -109,7 +109,7 @@ const words = {
     '比较替代方案',
   ],
   relatedReason: [
-    'Dopunski alat koji može pomoći pri ovom poslu; model potvrđujemo pre najma.',
+    'Dopunski alat koji može pomoći pri ovom poslu; model potvrđujemo pre iznajmljivanja.',
     'A complementary tool for this job; we confirm the model before rental.',
     'Дополнительный инструмент для этой работы; модель подтверждаем перед арендой.',
     'Bu iş için tamamlayıcı alet; modeli kiralama öncesi onaylarız.',

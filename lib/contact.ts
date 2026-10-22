@@ -1,6 +1,6 @@
 export const defaultContact = {
   phone: '062 9751270',
-  email: 'office@alatrenta.rs',
+  email: 'alatrentbeograd@gmail.com',
 };
 
 export function contactPhone(phone: string) {

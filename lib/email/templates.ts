@@ -75,7 +75,7 @@ const words = {
   },
 };
 
-export function renderEmail(content: EmailContent, replyTo = 'office@alatrenta.rs'): RenderedEmail {
+export function renderEmail(content: EmailContent, replyTo = 'alatrentbeograd@gmail.com'): RenderedEmail {
   const w = words[content.locale] || words.sr;
   const club = content.kind === 'club-welcome';
   const rental = content.kind === 'rental-received';

@@ -7,7 +7,7 @@ export function emailConfiguration() {
   const enabled = process.env.SES_ENABLED === 'true';
   const region = process.env.SES_REGION || 'eu-north-1';
   const from = 'noreply@alatrent.rs';
-  const replyTo = process.env.SES_REPLY_TO || 'office@alatrenta.rs';
+  const replyTo = process.env.SES_REPLY_TO || 'alatrentbeograd@gmail.com';
   const roleArn = process.env.SES_ROLE_ARN;
   const credentials = !!roleArn || !!(process.env.AWS_ACCESS_KEY_ID && process.env.AWS_SECRET_ACCESS_KEY);
   return { enabled, ready: enabled && credentials && /^[^\s@<>\r\n]+@[^\s@<>\r\n]+\.[^\s@<>\r\n]+$/.test(replyTo), region, from, replyTo, roleArn };

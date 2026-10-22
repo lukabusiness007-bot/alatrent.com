@@ -1,6 +1,6 @@
 # Automatski mejlovi
 
-Amazon SES u `eu-north-1` šalje transakcione poruke sa `Alat Rent <noreply@alatrent.rs>`. Odgovori odlaze na server-only `SES_REPLY_TO`, podrazumevano postojeću kontaktnu adresu `office@alatrenta.rs`.
+Amazon SES u `eu-north-1` šalje transakcione poruke sa `Alat Rent <noreply@alatrent.rs>`. Odgovori odlaze na server-only `SES_REPLY_TO`, podrazumevano kontaktnu adresu `alatrentbeograd@gmail.com`.
 
 ## Kada se šalju
 

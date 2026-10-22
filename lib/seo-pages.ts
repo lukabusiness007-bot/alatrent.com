@@ -17,8 +17,8 @@ export function pageCopy(locale: Locale): Record<string, { title: string; descri
     paketi: { title: ct(locale, 'packages'), description: `${ct(locale, 'packages')}. ${t.ctaText} ${t.catalogText}` },
   };
   if (locale === 'sr') Object.assign(pages, {
-    '': { title: 'Iznajmljivanje alata u Beogradu', description: 'Iznajmljivanje alata na dan u Beogradu: pikameri, žirafe, građevinski usisivači i druga oprema. Pogledaj cene i pošalji upit za termin i dostavu.' },
-    katalog: { title: 'Alati za iznajmljivanje Beograd — katalog i cene', description: 'Uporedi alate za iznajmljivanje: bušilice, žirafe, mašine za dubinsko pranje, baštenski alat i opremu za adaptaciju. Dnevne cene i depozit po dogovoru. Klupski popust od učlanjenja.' },
+    '': { title: 'Iznajmljivanje alata u Beogradu', description: 'Najniže cene i najveći izbor alata za rentiranje u Beogradu. Građevinski i baštenski alat, mašine za pranje. Pogledaj cene i dogovori dostavu.' },
+    katalog: { title: 'Alati za iznajmljivanje Beograd — katalog i cene', description: 'Najniže cene i najveći izbor alata za rentiranje u Beogradu. Uporedi dnevne cene, izaberi alat i dogovori preuzimanje ili dostavu.' },
     'kako-funkcionise': { title: 'Kako iznajmiti alat — uslovi iznajmljivanja i depozita', description: 'Izaberi alat i datume, pošalji upit i dogovori preuzimanje ili dostavu. Saznaj kako se potvrđuju dostupnost, cena i vraćanje alata. Depozit po dogovoru i klupske pogodnosti.' },
     dostava: { title: 'Dostava alata u Beogradu — preuzimanje i cene', description: 'Dostava i preuzimanje alata isključivo na teritoriji grada Beograda, uključujući Obrenovac, Sremčicu i Železnik. Standardna i hitna dostava uz potvrdu termina.' },
     kontakt: { title: 'Kontakt za iznajmljivanje alata u Beogradu', description: 'Pošalji upit za iznajmljivanje alata u Beogradu. Navedi posao, željene datume i adresu dostave da potvrdimo odgovarajući alat, dostupnost i konačnu cenu.' },

@@ -66,7 +66,7 @@ test('Home page search appearance uses the preferred business name, concise copy
   assert.equal(response.url, base + '/sr');
   const html = await response.text();
   assert.match(html, /<title>Alat Rent — Iznajmljivanje alata u Beogradu<\/title>/);
-  assert.equal(tag(html, 'description'), 'Iznajmljivanje alata na dan u Beogradu: pikameri, žirafe, građevinski usisivači i druga oprema. Pogledaj cene i pošalji upit za termin i dostavu.');
+  assert.equal(tag(html, 'description'), 'Najniže cene i najveći izbor alata za rentiranje u Beogradu. Građevinski i baštenski alat, mašine za pranje. Pogledaj cene i dogovori dostavu.');
   assert.ok(tag(html, 'description').length <= 175);
   assert.ok(!tag(html, 'description').endsWith('…'));
   assert.match(html, /<meta property="og:site_name" content="Alat Rent"/);

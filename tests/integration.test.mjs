@@ -57,11 +57,11 @@ after(async () => {
 });
 test('Five server-rendered languages, metadata, catalog and safe preview SEO', async () => {
   for (const [lang, title] of [
-    ['sr', 'Iznajmljivanje alata'],
-    ['en', 'The widest selection of tools'],
-    ['ru', 'Самый большой выбор инструментов'],
-    ['tr', 'En geniş alet seçimi'],
-    ['zh', '最丰富的工具选择'],
+    ['sr', 'Najniže cene i najveći izbor alata'],
+    ['en', 'The lowest prices and widest tool selection'],
+    ['ru', 'Самые низкие цены и самый большой выбор'],
+    ['tr', 'En düşük fiyatlar, en geniş alet seçimi'],
+    ['zh', '最低价格，最全工具选择'],
   ]) {
     const r = await fetch(base + '/' + lang);
     const html = await r.text();

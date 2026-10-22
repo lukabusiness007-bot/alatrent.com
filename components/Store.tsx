@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { dailyPrice, formatDailyPrice } from '@/lib/catalog-pricing.mjs';
 import { GuidesHomeSection } from './RentalGuides';
 import Form from 'next/form';
 import { copy, href, money, locales, languageNames } from '@/lib/i18n';
@@ -68,7 +69,7 @@ function ToolSearch({ locale, path = 'katalog', q = '', sort, home = false, jobs
       <input type="search" name="q" defaultValue={q} placeholder={t.search} aria-label={t.search} maxLength={150} />
       {jobs && <div className="catalog-filter-fields">
         <label>{mt(locale,'jobs')}<select name="job" defaultValue={filters.job || ''}><option value="">{mt(locale,'allJobs')}</option>{jobs.map(j=><option key={j.id} value={j.id}>{j.name[locale]}</option>)}</select></label>
-        <label>{mt(locale,'maxPrice')}<input type="number" name="maxPrice" min={0} max={10000000} defaultValue={filters.maxPrice || ''}/></label>
+        <label>{mt(locale,'maxPrice')}<input type="number" name="maxPrice" min={0} max={10000000} step="0.01" defaultValue={filters.maxPrice || ''}/></label>
         <label>{mt(locale,'start')}<input type="date" name="start" defaultValue={filters.start || ''}/></label>
         <label>{mt(locale,'end')}<input type="date" name="end" defaultValue={filters.end || ''}/></label>
         <label className="commerce-check"><input type="checkbox" name="available" value="1" defaultChecked={filters.available}/>{mt(locale,'availableOnly')}</label>
@@ -144,7 +145,7 @@ export function ToolCard({
             t.inquiryPrice
           ) : (
             <>
-              {money(tool.price, locale)} <small>{t.perDay}</small>
+              {formatDailyPrice(tool, locale)} <small>{t.perDay}</small>
             </>
           )}
         </div>
@@ -466,7 +467,7 @@ export function Catalog({
     if (activeSort === 'price' || activeSort === 'price-desc') {
       if (a.price === null) return b.price === null ? byName : 1;
       if (b.price === null) return -1;
-      return (activeSort === 'price' ? a.price - b.price : b.price - a.price) || byName;
+      return (activeSort === 'price' ? dailyPrice(a)! - dailyPrice(b)! : dailyPrice(b)! - dailyPrice(a)!) || byName;
     }
     if (activeSort === 'category') {
       return (categoryOrder.get(a.categoryId) ?? Infinity) - (categoryOrder.get(b.categoryId) ?? Infinity)

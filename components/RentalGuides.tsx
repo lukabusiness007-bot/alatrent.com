@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { money } from '@/lib/i18n';
+import { formatDailyPrice } from '@/lib/catalog-pricing.mjs';
 import { guideHub, guideDateLabel, rentalGuides, type RentalGuide } from '@/lib/rental-guides';
 import { siteOrigin } from '@/lib/site-url';
 import type { PublicData } from '@/lib/types';
@@ -31,7 +32,7 @@ export function RentalGuidesPage({ data, guide }: { data: PublicData; guide?: Re
         <article className="guide-body"><p className="guide-byline">Pripremio {brandName(data.settings.brand)} · Objavljeno <time dateTime={guide.publishedAt}>{guideDateLabel(guide.publishedAt)}</time>{guide.updatedAt !== guide.publishedAt && <> · Ažurirano <time dateTime={guide.updatedAt}>{guideDateLabel(guide.updatedAt)}</time></>}</p>{guide.blocks ? <GuideContent blocks={guide.blocks} /> : guide.sections?.map(section => <section key={section.heading}><h2>{section.heading}</h2><p>{section.text}</p></section>)}
           {guide.slug === 'cena-najma-alata-i-dostave' && <section><h2>Trenutne osnovne cene dostave</h2><dl className="guide-rates"><dt>Standardna dostava</dt><dd>{money(data.settings.standardDelivery, 'sr')}</dd><dt>Ekspres dostava</dt><dd>{money(data.settings.expressDelivery, 'sr')}</dd></dl><p>Opciju, adresu i termin proveravamo pri potvrdi iznajmljivanja. <Link href="/sr/dostava">Detalji dostave →</Link></p></section>}
         </article>
-        {tools.length > 0 && <section className="guide-related"><h2>Oprema iz kataloga za ovaj posao</h2><p>Cene i uslove proveri na stranici alata. Dostupnost se potvrđuje za traženi termin.</p><div className="guide-grid">{tools.map(tool => <Link className="guide-card" href={'/sr/alat/' + tool.slug} key={tool.id}><ToolArt image={tool.image} name={tool.name.sr} /><h3>{tool.name.sr}</h3><p>{tool.price === null ? 'Cena na upit' : money(tool.price, 'sr') + ' / dan'}</p><span className="text-link">Proveri iznajmljivanje →</span></Link>)}</div></section>}
+        {tools.length > 0 && <section className="guide-related"><h2>Oprema iz kataloga za ovaj posao</h2><p>Cene i uslove proveri na stranici alata. Dostupnost se potvrđuje za traženi termin.</p><div className="guide-grid">{tools.map(tool => <Link className="guide-card" href={'/sr/alat/' + tool.slug} key={tool.id}><ToolArt image={tool.image} name={tool.name.sr} /><h3>{tool.name.sr}</h3><p>{tool.price === null ? 'Cena na upit' : formatDailyPrice(tool, 'sr') + ' / dan'}</p><span className="text-link">Proveri iznajmljivanje →</span></Link>)}</div></section>}
         <div className="seo-links"><Link href="/sr/saveti">Svi saveti</Link><Link href="/sr/katalog">Katalog alata</Link><Link href="/sr/kontakt">Pošalji upit</Link></div>
       </> : <GuideCards headingLevel={2} />}
     </div></section>

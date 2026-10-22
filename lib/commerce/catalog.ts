@@ -1,4 +1,5 @@
 import type { Locale, PublicData } from '../types';
+import { dailyPrice } from '../catalog-pricing.mjs';
 import type { RentalJob } from './merchandising-types';
 import { matchesTool, normalizeSearch } from '../seo-content';
 import { cartItems } from './data';
@@ -46,7 +47,7 @@ export function selectCatalog(
       maxPrice !== null &&
       Number.isFinite(maxPrice) &&
       maxPrice >= 0 &&
-      (tool.price === null || tool.price > maxPrice)
+      (dailyPrice(tool) === null || dailyPrice(tool)! > maxPrice)
     )
       return false;
     if (periodValid)

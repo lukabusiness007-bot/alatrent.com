@@ -9,6 +9,8 @@ import '../globals.css';
 import { CartProvider } from '@/components/commerce/CartProvider';
 import Analytics from '@/components/commerce/Analytics';
 import CatalogNotice from '@/components/CatalogNotice';
+import { paymentText } from '@/lib/payment-copy';
+import paymentStyles from '@/components/PaymentNotice.module.css';
 import { siteIcons } from '@/lib/seo-assets';
 import { googleSans } from '@/lib/fonts';
 export const metadata = { icons: siteIcons };
@@ -29,6 +31,7 @@ async function dbLayout({
         <OrganizationSchema settings={s} />
         <CartProvider locale={locale}><Header locale={locale} brand={s.brand} />
         <CatalogNotice locale={locale} />
+        <aside className={paymentStyles.notice}><div className="container">{paymentText(locale)}</div></aside>
         <main id="main">{children}</main>
         <Footer locale={locale} settings={s} /><Analytics /></CartProvider>
       </body>

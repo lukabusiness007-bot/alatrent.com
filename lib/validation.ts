@@ -21,6 +21,12 @@ export function amount(v: unknown, nullable = true) {
     throw new Error('Neispravan iznos.');
   return Math.round(v);
 }
+export function euroAmount(v: unknown) {
+  if (v === null) return null;
+  if (typeof v !== 'number' || !Number.isFinite(v) || v < 0 || v > 10000000)
+    throw new Error('Neispravna cena u evrima.');
+  return Math.round((v + Number.EPSILON) * 100) / 100;
+}
 export function slug(v: unknown) {
   const s = text(v, 160);
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(s))

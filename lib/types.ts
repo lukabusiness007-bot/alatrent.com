@@ -7,7 +7,8 @@ export type Tool = {
   name: Localized;
   description: Localized;
   categoryId: string;
-  price: number | null;
+  price: number | null; // Payable daily amount in RSD.
+  priceEur?: number | null; // Displayed daily amount in EUR, entered separately.
   deposit: number | null;
   quantity: number | null;
   image: string;

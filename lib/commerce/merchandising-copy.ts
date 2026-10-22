@@ -23,11 +23,11 @@ const words = {
   ],
   allJobs: ['Svi poslovi', 'All projects', 'Все работы', 'Tüm işler', '所有工作'],
   maxPrice: [
-    'Najviša dnevna cena (RSD)',
-    'Maximum daily price (RSD)',
-    'Максимальная цена в день (RSD)',
-    'En yüksek günlük fiyat (RSD)',
-    '最高日租价格（RSD）',
+    'Najviša dnevna cena (EUR)',
+    'Maximum daily price (EUR)',
+    'Максимальная цена в день (EUR)',
+    'En yüksek günlük fiyat (EUR)',
+    '最高日租价格（EUR）',
   ],
   availableOnly: [
     'Samo raspoloživi za period',

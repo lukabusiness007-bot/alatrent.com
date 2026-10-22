@@ -2,6 +2,8 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { copy, money } from '@/lib/i18n';
+import { dailyPrice, formatDailyPrice, formatToolAmount } from '@/lib/catalog-pricing.mjs';
+import { paymentText } from '@/lib/payment-copy';
 import type { Locale, Settings, Tool } from '@/lib/types';
 import Recommendations from './commerce/Recommendations';
 import { mt } from '@/lib/commerce/merchandising-copy';
@@ -56,7 +58,8 @@ export default function RentalForm({
   const isMember = memberDiscount !== undefined;
   const discount = Math.max(clubPercent, memberDiscount ?? 0);
   const start = period.start || today;
-  const dailyClubPrice = tool.price === null ? null : calculate(tool.price, start, 1, 1, rule, discount);
+  const displayPrice = dailyPrice(tool);
+  const dailyClubPrice = displayPrice === null ? null : calculate(displayPrice, start, 1, 1, rule, discount);
   const estimate = tool.price === null || period.openEnded || !days
     ? null : calculate(tool.price, period.start, days, quantity, rule, memberDiscount ?? 0);
   const price = liveQuote?.items[0] || estimate;
@@ -80,15 +83,16 @@ export default function RentalForm({
           t.inquiryPrice
         ) : (
           <>
-            {money(tool.price, locale)}
+            {formatDailyPrice(tool, locale)}
             <small>{t.perDay}</small>
           </>
         )}
       </div>
       {dailyClubPrice && <div className="product-club-price">
         <span>{w(isMember ? 'yourClub' : 'club')}</span>
-        <strong>{money(dailyClubPrice.total, locale)} <small>{t.perDay}</small></strong>
+        <strong>{formatToolAmount(tool, dailyClubPrice.total, locale)} <small>{t.perDay}</small></strong>
       </div>}
+      <p className="small-muted">{paymentText(locale)}</p>
       {tool.price !== null && <div className="product-rental-prices">
         <table>
           <caption>{w('title')}</caption>
@@ -98,8 +102,8 @@ export default function RentalForm({
             <th scope="col" className="club-price-column">{w(isMember ? 'yourClub' : 'club')}</th>
           </tr></thead>
           <tbody>{[1, 2, 3, 5].map(count => {
-            const regular = calculate(tool.price!, start, count, quantity, rule);
-            const club = calculate(tool.price!, start, count, quantity, rule, discount);
+            const regular = calculate(displayPrice!, start, count, quantity, rule);
+            const club = calculate(displayPrice!, start, count, quantity, rule, discount);
             const selected = !period.openEnded && days === count;
             return <tr key={count} className={selected ? 'selected' : undefined}>
               <th scope="row"><button type="button" aria-pressed={selected}
@@ -107,8 +111,8 @@ export default function RentalForm({
                   setPeriod({ start, end: endForDays(start, count), openEnded: false });
                   setAdded(false);
                 }}>{count} {count === 1 ? ct(locale, 'oneDay') : t.days}</button></th>
-              <td>{money(regular.total, locale)}</td>
-              <td className="club-price-column">{money(club.total, locale)}</td>
+              <td>{formatToolAmount(tool, regular.total, locale)}</td>
+              <td className="club-price-column">{formatToolAmount(tool, club.total, locale)}</td>
             </tr>;
           })}</tbody>
         </table>

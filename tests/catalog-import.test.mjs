@@ -12,6 +12,9 @@ const expansion = JSON.parse(readFileSync(new URL('../lib/catalog-expansion.json
 const sourcesImport = JSON.parse(readFileSync(new URL('../lib/catalog-sources-import.json', import.meta.url)));
 const crafterImport = JSON.parse(readFileSync(new URL('../lib/catalog-crafter-import.json', import.meta.url)));
 const reduction = JSON.parse(readFileSync(new URL('../lib/catalog-reduction.json', import.meta.url)));
+const approvedPrices = new Map(JSON.parse(readFileSync(new URL('../lib/catalog-prices.json', import.meta.url))).entries.map(entry => [entry.id, entry.price]));
+// The before hook deliberately restores these two models while exercising name cleanup.
+const expectedPrice = tool => !['crafter-63590', 'crafter-936'].includes(tool.id) && approvedPrices.has(tool.id) ? approvedPrices.get(tool.id) : tool.price;
 const replacement = id=>reduction.entries.find(e=>e.id===id)?.replacementId||id;
 const nameCleanup = JSON.parse(readFileSync(new URL('../lib/catalog-name-cleanup.json', import.meta.url)));
 const dir = mkdtempSync(join(tmpdir(), 'alat-rent-import-'));
@@ -109,7 +112,7 @@ test('Admin can edit imported tools and refuses another brand or power of the sa
 test('Expanded types have rental prices, searchable pages and distinct identities from older equipment', async () => {
   assert.equal(saved('meta', expansion.migration), true);
   for (const tool of expansion.tools) {
-    assert.equal(savedTool(tool.id).price, tool.price);
+    assert.equal(savedTool(tool.id).price, expectedPrice(tool));
     assert.equal(savedTool(tool.id).deposit, null);
     assert.equal(savedTool(tool.id).quantity, null);
     assert.ok(tool.price > 0);
@@ -130,7 +133,7 @@ test('Expanded types have rental prices, searchable pages and distinct identitie
 test('Four-source import adds distinct equipment and never fabricates a daily rate from service or EUR prices', async () => {
   assert.equal(saved('meta', sourcesImport.migration), true);
   for (const tool of sourcesImport.tools) {
-    assert.equal(savedTool(tool.id).price, tool.price, tool.slug);
+    assert.equal(savedTool(tool.id).price, expectedPrice(tool), tool.slug);
     assert.equal(savedTool(tool.id).quantity, null);
     assert.equal(savedTool(tool.id).deposit, null);
   }
@@ -152,7 +155,7 @@ test('Approved Crafter models import once, distinguish models and preserve trust
     assert.ok(savedTool(tool.id), tool.id + ': ' + tool.name.sr);
     const editedCultivator=tool.id===replacement(imported.tools.find(t=>t.slug==='motokultivator').id);
     assert.equal(savedTool(tool.id).quantity, editedCultivator?2:null);
-    assert.equal(savedTool(tool.id).price, editedCultivator?3000:tool.price);
+    assert.equal(savedTool(tool.id).price, editedCultivator?3000:expectedPrice(tool));
   }
   const tool = saved('tools', crafterImport.tools.find(t => t.published && t.price !== null).id);
   const result = await api('/api/admin/tools', { ...tool, published:false, price: 2345, quantity: 3,

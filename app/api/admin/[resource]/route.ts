@@ -7,7 +7,7 @@ import { rentalPurpose } from '../../../../scripts/catalog-purpose.mjs';
 import { randomUUID } from 'node:crypto';
 import { authorized, sameOrigin } from '@/lib/auth';
 import { all, get, put, remove, settings, transaction, occupied, historicalTool } from '@/lib/db';
-import { text, localized, amount, slug } from '@/lib/validation';
+import { text, localized, amount, euroAmount, slug } from '@/lib/validation';
 import type { Order } from '@/lib/commerce/types';
 import type { Tool, Category, RentalRequest } from '@/lib/types';
 async function dbGET(_r: Request, { params }: { params: Promise<{ resource: string }> }) {
@@ -80,6 +80,9 @@ async function dbPOST(r: Request, { params }: { params: Promise<{ resource: stri
         name,
         description: localized(b.description, 5000),
         price: amount(b.price),
+        priceEur: b.price === null ? null : euroAmount(b.priceEur === undefined
+          ? (b.price === existing?.price ? existing?.priceEur ?? null : null)
+          : b.priceEur),
         deposit: null,
         quantity,
         image,

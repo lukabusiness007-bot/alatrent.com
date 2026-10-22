@@ -723,9 +723,9 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
               </section>
               <div>
                 <section className="admin-card">
-                  <h2>Cena i raspoloživost</h2><p className="field-note">Početne cene su probne. Izaberi predlog ili unesi svoj iznos. Depozit se dogovara za svaki najam. Članovi kluba nakon tri završena najma ne plaćaju depozit.</p><div className="price-presets" aria-label="Predlozi dnevne cene">{[500,1000,1500,2000,3000,5000].map(value=><button type="button" key={value} className={editingTool.price===value?'selected':''} onClick={()=>setEditingTool({...editingTool,price:value})}>{money(value)}</button>)}</div>
+                  <h2>Cena i raspoloživost</h2><p className="field-note">Cena u evrima služi za prikaz na sajtu, a dinarska cena za obračun i naplatu. Pri promeni cenovnika proveri oba iznosa. Depozit se dogovara za svaki najam. Članovi kluba nakon tri završena najma ne plaćaju depozit.</p><div className="price-presets" aria-label="Predlozi dnevne cene">{[500,1000,1500,2000,3000,5000].map(value=><button type="button" key={value} className={editingTool.price===value?'selected':''} onClick={()=>setEditingTool({...editingTool,price:value})}>{money(value)}</button>)}</div>
                   <label>
-                    Cena po danu (RSD)
+                    Cena za naplatu po danu (RSD)
                     <input
                       type="number"
                       min="0"
@@ -740,6 +740,13 @@ export default function Admin({ initial }: { initial: AdminData | null }) {
                       }
                     />
                     <small>Prazno polje prikazuje „Cena na upit”.</small>
+                  </label>
+                  <label>
+                    Cena za prikaz po danu (EUR)
+                    <input type="number" min="0" max="10000000" step="0.01"
+                      value={editingTool.priceEur ?? ''}
+                      onChange={e => setEditingTool({ ...editingTool, priceEur: e.target.value === '' ? null : Number(e.target.value) })} />
+                    <small>Unesi cenu u evrima zajedno sa odgovarajućom dinarskom cenom za naplatu. Ako nema dnevne cene u dinarima, alat ostaje na upit.</small>
                   </label>
                   {editingTool.id && <SourceOffers tools={data.tools} toolId={editingTool.id} onApply={price => setEditingTool({ ...editingTool, price })} />}
                   <label>

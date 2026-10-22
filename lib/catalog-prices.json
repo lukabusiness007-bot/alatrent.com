@@ -1,0 +1,947 @@
+{
+  "migration": "catalog-prices-2026-10-23-v1",
+  "createdAt": "2026-10-23T12:00:00.000Z",
+  "source": "Owner-provided cene.csv, 2026-10-23",
+  "entries": [
+    {
+      "id": "crafter-21574",
+      "price": 2113,
+      "priceEur": 18
+    },
+    {
+      "id": "crafter-30323",
+      "price": 1408,
+      "priceEur": 12
+    },
+    {
+      "id": "crafter-35684",
+      "price": 1291,
+      "priceEur": 11
+    },
+    {
+      "id": "crafter-32639",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "crafter-35687",
+      "price": 3991,
+      "priceEur": 34
+    },
+    {
+      "id": "tool-120",
+      "price": 5166,
+      "priceEur": 44
+    },
+    {
+      "id": "crafter-30901",
+      "price": 2817,
+      "priceEur": 24
+    },
+    {
+      "id": "crafter-22401",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "crafter-22419",
+      "price": 10919,
+      "priceEur": 93
+    },
+    {
+      "id": "crafter-34718",
+      "price": 4461,
+      "priceEur": 38
+    },
+    {
+      "id": "crafter-35533",
+      "price": 6927,
+      "priceEur": 59
+    },
+    {
+      "id": "tool-091",
+      "price": 5283,
+      "priceEur": 45
+    },
+    {
+      "id": "tool-020",
+      "price": 2817,
+      "priceEur": 24
+    },
+    {
+      "id": "tool-092",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "crafter-62834",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "tool-140",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "tool-138",
+      "price": 7514,
+      "priceEur": 64
+    },
+    {
+      "id": "crafter-35693",
+      "price": 2348,
+      "priceEur": 20
+    },
+    {
+      "id": "crafter-32934",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "tool-121",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "tool-122",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "crafter-34588",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "tool-032",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "crafter-63082",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "crafter-63590",
+      "price": 2230,
+      "priceEur": 19
+    },
+    {
+      "id": "crafter-30354",
+      "price": 1291,
+      "priceEur": 11
+    },
+    {
+      "id": "crafter-535",
+      "price": 2230,
+      "priceEur": 19
+    },
+    {
+      "id": "crafter-584",
+      "price": 1174,
+      "priceEur": 10
+    },
+    {
+      "id": "tool-027",
+      "price": 3991,
+      "priceEur": 34
+    },
+    {
+      "id": "crafter-731",
+      "price": 5753,
+      "priceEur": 49
+    },
+    {
+      "id": "crafter-672",
+      "price": 1174,
+      "priceEur": 10
+    },
+    {
+      "id": "tool-100",
+      "price": 9510,
+      "priceEur": 81
+    },
+    {
+      "id": "tool-081",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "tool-082",
+      "price": 9745,
+      "priceEur": 83
+    },
+    {
+      "id": "tool-133",
+      "price": 5753,
+      "priceEur": 49
+    },
+    {
+      "id": "crafter-37478",
+      "price": 1291,
+      "priceEur": 11
+    },
+    {
+      "id": "crafter-839",
+      "price": 4579,
+      "priceEur": 39
+    },
+    {
+      "id": "crafter-866",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "tool-102",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "crafter-62581",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "tool-087",
+      "price": 4931,
+      "priceEur": 42
+    },
+    {
+      "id": "tool-134",
+      "price": 2113,
+      "priceEur": 18
+    },
+    {
+      "id": "tool-132",
+      "price": 6340,
+      "priceEur": 54
+    },
+    {
+      "id": "tool-101",
+      "price": 4579,
+      "priceEur": 39
+    },
+    {
+      "id": "crafter-62754",
+      "price": 3991,
+      "priceEur": 34
+    },
+    {
+      "id": "crafter-62737",
+      "price": 704,
+      "priceEur": 6
+    },
+    {
+      "id": "crafter-62858",
+      "price": 3404,
+      "priceEur": 29
+    },
+    {
+      "id": "crafter-62855",
+      "price": 3404,
+      "priceEur": 29
+    },
+    {
+      "id": "tool-030",
+      "price": 2230,
+      "priceEur": 19
+    },
+    {
+      "id": "tool-086",
+      "price": 4579,
+      "priceEur": 39
+    },
+    {
+      "id": "crafter-31662",
+      "price": 2935,
+      "priceEur": 25
+    },
+    {
+      "id": "tool-110",
+      "price": 5987,
+      "priceEur": 51
+    },
+    {
+      "id": "crafter-31501",
+      "price": 2230,
+      "priceEur": 19
+    },
+    {
+      "id": "crafter-33379",
+      "price": 1291,
+      "priceEur": 11
+    },
+    {
+      "id": "crafter-756",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "crafter-638",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "tool-009",
+      "price": 2935,
+      "priceEur": 25
+    },
+    {
+      "id": "crafter-35551",
+      "price": 3170,
+      "priceEur": 27
+    },
+    {
+      "id": "crafter-62852",
+      "price": 2230,
+      "priceEur": 19
+    },
+    {
+      "id": "tool-010",
+      "price": 2583,
+      "priceEur": 22
+    },
+    {
+      "id": "tool-143",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "tool-011",
+      "price": 2817,
+      "priceEur": 24
+    },
+    {
+      "id": "tool-012",
+      "price": 939,
+      "priceEur": 8
+    },
+    {
+      "id": "crafter-21743",
+      "price": 2817,
+      "priceEur": 24
+    },
+    {
+      "id": "crafter-21756",
+      "price": 2113,
+      "priceEur": 18
+    },
+    {
+      "id": "tool-014",
+      "price": 821,
+      "priceEur": 7
+    },
+    {
+      "id": "crafter-21993",
+      "price": 2817,
+      "priceEur": 24
+    },
+    {
+      "id": "crafter-21755",
+      "price": 2817,
+      "priceEur": 24
+    },
+    {
+      "id": "tool-088",
+      "price": 6457,
+      "priceEur": 55
+    },
+    {
+      "id": "tool-085",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "crafter-36705",
+      "price": 2230,
+      "priceEur": 19
+    },
+    {
+      "id": "crafter-32373",
+      "price": 821,
+      "priceEur": 7
+    },
+    {
+      "id": "crafter-30788",
+      "price": 1526,
+      "priceEur": 13
+    },
+    {
+      "id": "tool-106",
+      "price": 3287,
+      "priceEur": 28
+    },
+    {
+      "id": "crafter-741",
+      "price": 1291,
+      "priceEur": 11
+    },
+    {
+      "id": "tool-105",
+      "price": 12328,
+      "priceEur": 105
+    },
+    {
+      "id": "tool-094",
+      "price": 5518,
+      "priceEur": 47
+    },
+    {
+      "id": "crafter-4168",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "tool-103",
+      "price": 6340,
+      "priceEur": 54
+    },
+    {
+      "id": "tool-104",
+      "price": 1878,
+      "priceEur": 16
+    },
+    {
+      "id": "tool-076",
+      "price": 5635,
+      "priceEur": 48
+    },
+    {
+      "id": "tool-050",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "tool-163",
+      "price": 17963,
+      "priceEur": 153
+    },
+    {
+      "id": "tool-059",
+      "price": 8805,
+      "priceEur": 75
+    },
+    {
+      "id": "tool-164",
+      "price": 42267,
+      "priceEur": 360
+    },
+    {
+      "id": "tool-172",
+      "price": 2348,
+      "priceEur": 20
+    },
+    {
+      "id": "tool-183",
+      "price": 1408,
+      "priceEur": 12
+    },
+    {
+      "id": "crafter-60941",
+      "price": 1174,
+      "priceEur": 10
+    },
+    {
+      "id": "crafter-29677",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "crafter-39866",
+      "price": 704,
+      "priceEur": 6
+    },
+    {
+      "id": "crafter-3085",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "crafter-63121",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "crafter-63124",
+      "price": 469,
+      "priceEur": 4
+    },
+    {
+      "id": "crafter-39897",
+      "price": 2817,
+      "priceEur": 24
+    },
+    {
+      "id": "crafter-3084",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "tool-162",
+      "price": 2230,
+      "priceEur": 19
+    },
+    {
+      "id": "tool-060",
+      "price": 3639,
+      "priceEur": 31
+    },
+    {
+      "id": "tool-184",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "tool-165",
+      "price": 4226,
+      "priceEur": 36
+    },
+    {
+      "id": "tool-168",
+      "price": 4461,
+      "priceEur": 38
+    },
+    {
+      "id": "tool-171",
+      "price": 1526,
+      "priceEur": 13
+    },
+    {
+      "id": "tool-057",
+      "price": 1408,
+      "priceEur": 12
+    },
+    {
+      "id": "tool-170",
+      "price": 1408,
+      "priceEur": 12
+    },
+    {
+      "id": "tool-173",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "tool-055",
+      "price": 2230,
+      "priceEur": 19
+    },
+    {
+      "id": "tool-174",
+      "price": 1761,
+      "priceEur": 15
+    },
+    {
+      "id": "tool-177",
+      "price": 2935,
+      "priceEur": 25
+    },
+    {
+      "id": "tool-161",
+      "price": 3522,
+      "priceEur": 30
+    },
+    {
+      "id": "tool-181",
+      "price": 7514,
+      "priceEur": 64
+    },
+    {
+      "id": "tool-160",
+      "price": 23834,
+      "priceEur": 203
+    },
+    {
+      "id": "tool-180",
+      "price": 7044,
+      "priceEur": 60
+    },
+    {
+      "id": "tool-167",
+      "price": 4579,
+      "priceEur": 39
+    },
+    {
+      "id": "tool-175",
+      "price": 1174,
+      "priceEur": 10
+    },
+    {
+      "id": "tool-058",
+      "price": 2817,
+      "priceEur": 24
+    },
+    {
+      "id": "tool-169",
+      "price": 24304,
+      "priceEur": 207
+    },
+    {
+      "id": "tool-178",
+      "price": 5753,
+      "priceEur": 49
+    },
+    {
+      "id": "tool-166",
+      "price": 821,
+      "priceEur": 7
+    },
+    {
+      "id": "tool-176",
+      "price": 4579,
+      "priceEur": 39
+    },
+    {
+      "id": "crafter-63298",
+      "price": 704,
+      "priceEur": 6
+    },
+    {
+      "id": "crafter-63334",
+      "price": 1526,
+      "priceEur": 13
+    },
+    {
+      "id": "crafter-537",
+      "price": 2230,
+      "priceEur": 19
+    },
+    {
+      "id": "crafter-936",
+      "price": 469,
+      "priceEur": 4
+    },
+    {
+      "id": "crafter-476",
+      "price": 1526,
+      "priceEur": 13
+    },
+    {
+      "id": "crafter-461",
+      "price": 587,
+      "priceEur": 5
+    },
+    {
+      "id": "tool-045",
+      "price": 2113,
+      "priceEur": 18
+    },
+    {
+      "id": "tool-115",
+      "price": 4696,
+      "priceEur": 40
+    },
+    {
+      "id": "tool-136",
+      "price": 469,
+      "priceEur": 4
+    },
+    {
+      "id": "crafter-754",
+      "price": 1174,
+      "priceEur": 10
+    },
+    {
+      "id": "crafter-755",
+      "price": 469,
+      "priceEur": 4
+    },
+    {
+      "id": "crafter-639",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "crafter-632",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "crafter-622",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "crafter-31613",
+      "price": 1408,
+      "priceEur": 12
+    },
+    {
+      "id": "tool-116",
+      "price": 2113,
+      "priceEur": 18
+    },
+    {
+      "id": "crafter-62666",
+      "price": 939,
+      "priceEur": 8
+    },
+    {
+      "id": "crafter-62768",
+      "price": 500,
+      "priceEur": 4
+    },
+    {
+      "id": "crafter-4462",
+      "price": 1174,
+      "priceEur": 10
+    },
+    {
+      "id": "crafter-4738",
+      "price": 1761,
+      "priceEur": 15
+    },
+    {
+      "id": "crafter-60878",
+      "price": 3200,
+      "priceEur": 27
+    },
+    {
+      "id": "crafter-60919",
+      "price": 1408,
+      "priceEur": 12
+    },
+    {
+      "id": "crafter-31947",
+      "price": 1408,
+      "priceEur": 12
+    },
+    {
+      "id": "crafter-63074",
+      "price": 821,
+      "priceEur": 7
+    },
+    {
+      "id": "crafter-35198",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "crafter-674",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "crafter-491",
+      "price": 821,
+      "priceEur": 7
+    },
+    {
+      "id": "tool-129",
+      "price": 469,
+      "priceEur": 4
+    },
+    {
+      "id": "tool-037",
+      "price": 3404,
+      "priceEur": 29
+    },
+    {
+      "id": "tool-107",
+      "price": 10566,
+      "priceEur": 90
+    },
+    {
+      "id": "crafter-634",
+      "price": 939,
+      "priceEur": 8
+    },
+    {
+      "id": "crafter-29924",
+      "price": 587,
+      "priceEur": 5
+    },
+    {
+      "id": "crafter-757",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "crafter-562",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "crafter-564",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "crafter-635",
+      "price": 821,
+      "priceEur": 7
+    },
+    {
+      "id": "crafter-832",
+      "price": 1878,
+      "priceEur": 16
+    },
+    {
+      "id": "crafter-563",
+      "price": 1408,
+      "priceEur": 12
+    },
+    {
+      "id": "tool-073",
+      "price": 8805,
+      "priceEur": 75
+    },
+    {
+      "id": "crafter-62767",
+      "price": 2465,
+      "priceEur": 21
+    },
+    {
+      "id": "crafter-62751",
+      "price": 1174,
+      "priceEur": 10
+    },
+    {
+      "id": "crafter-37775",
+      "price": 821,
+      "priceEur": 7
+    },
+    {
+      "id": "crafter-20586",
+      "price": 704,
+      "priceEur": 6
+    },
+    {
+      "id": "crafter-5514",
+      "price": 500,
+      "priceEur": 4
+    },
+    {
+      "id": "crafter-31462",
+      "price": 2817,
+      "priceEur": 24
+    },
+    {
+      "id": "tool-146",
+      "price": null,
+      "priceEur": null
+    },
+    {
+      "id": "tool-114",
+      "price": 704,
+      "priceEur": 6
+    },
+    {
+      "id": "crafter-20591",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "tool-145",
+      "price": null,
+      "priceEur": null
+    },
+    {
+      "id": "crafter-16618",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "tool-066",
+      "price": 1408,
+      "priceEur": 12
+    },
+    {
+      "id": "crafter-30733",
+      "price": 500,
+      "priceEur": 4
+    },
+    {
+      "id": "tool-112",
+      "price": 939,
+      "priceEur": 8
+    },
+    {
+      "id": "tool-065",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "tool-098",
+      "price": 1643,
+      "priceEur": 14
+    },
+    {
+      "id": "crafter-21393",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "crafter-34295",
+      "price": 1200,
+      "priceEur": 10
+    },
+    {
+      "id": "crafter-63295",
+      "price": 2230,
+      "priceEur": 19
+    },
+    {
+      "id": "crafter-21990",
+      "price": 3404,
+      "priceEur": 29
+    },
+    {
+      "id": "crafter-22407",
+      "price": 3404,
+      "priceEur": 29
+    },
+    {
+      "id": "crafter-62576",
+      "price": 1500,
+      "priceEur": 12
+    },
+    {
+      "id": "crafter-22013",
+      "price": 2230,
+      "priceEur": 19
+    },
+    {
+      "id": "crafter-10868",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "crafter-63798",
+      "price": 500,
+      "priceEur": 4
+    },
+    {
+      "id": "tool-124",
+      "price": 939,
+      "priceEur": 8
+    },
+    {
+      "id": "tool-125",
+      "price": 587,
+      "priceEur": 5
+    },
+    {
+      "id": "tool-135",
+      "price": 21133,
+      "priceEur": 180
+    },
+    {
+      "id": "crafter-18349",
+      "price": 1056,
+      "priceEur": 9
+    },
+    {
+      "id": "tool-126",
+      "price": 352,
+      "priceEur": 3
+    },
+    {
+      "id": "tool-123",
+      "price": 1174,
+      "priceEur": 10
+    }
+  ]
+}

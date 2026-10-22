@@ -1,4 +1,6 @@
 'use client';
+import { paymentText } from '@/lib/payment-copy';
+import { formatDailyPrice } from '@/lib/catalog-pricing.mjs';
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Recommendations from './Recommendations';
@@ -278,7 +280,7 @@ export default function CartPage({
                     {!tool && <div role="status" className="catalog-replacement">
                       <p>{rc.retired}</p>
                       {replacement ? <><p>{rc.replacement} <Link href={`/${locale}/alat/${replacement.slug}`}>{replacement.name[locale]}</Link></p>
-                        <strong>{replacement.price===null?t.inquiryPrice:money(replacement.price,locale)+' '+t.perDay}</strong><p>{rc.price}</p>
+                        <strong>{replacement.price===null?t.inquiryPrice:formatDailyPrice(replacement,locale)+' '+t.perDay}</strong><p>{rc.price}</p>
                         <button type="button" className="button button-lime" onClick={()=>update(index,{toolId:replacement.id})}>{rc.accept}</button></>
                         :<p>{rc.removed}</p>}
                     </div>}
@@ -408,6 +410,7 @@ export default function CartPage({
             </div>}
             {loading && <p role="status">{ct(locale, 'loading')}</p>}
             {quote?.promotion && <p className="saving-pill">{mt(locale,'promotion')}: {quote.promotion.name[locale]}</p>}
+            <p className="small-muted">{paymentText(locale)}</p>
             {quote && (
               <div className="quote-lines">
                 {quote.baseTotal !== null && <p>

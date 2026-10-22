@@ -1,8 +1,9 @@
+import { formatDailyPrice } from './catalog-pricing.mjs';
 import catalog from './seo-catalog.json';
 import seed from './seed.json';
 import priority from './priority-tool-content.json';
 import photos from './catalog-photos.json';
-import { copy, money } from './i18n';
+import { copy } from './i18n';
 import type { Category, Locale, Tool } from './types';
 
 export const SEO_CONTENT_UPDATED_AT = '2026-10-14T14:00:00.000Z';
@@ -109,7 +110,7 @@ export function rentalQuestions(tool: Tool, locale: Locale) {
   return [
     { question: `Koliko košta iznajmljivanje${entry ? ' ' + entry.term : ': ' + tool.name.sr}?`, answer: tool.price === null
       ? 'Cena se određuje na upit prema trajanju iznajmljivanja i potrebnoj opremi. Pošalji željene datume za konkretnu ponudu.'
-      : `Prikazana osnovna dnevna cena je ${money(tool.price, locale)}. Obračun za izabrane datume vidiš u formularu; konačnu cenu i dodatke potvrđujemo pre iznajmljivanja. Dostava se obračunava posebno.` },
+      : `Prikazana osnovna dnevna cena je ${formatDailyPrice(tool, locale)}. Naplata se vrši u dinarima (RSD). Obračun za izabrane datume vidiš u formularu; konačnu cenu i dodatke potvrđujemo pre iznajmljivanja. Dostava se obračunava posebno.` },
     { question: 'Šta treba navesti pre iznajmljivanja?', answer: toolSelection(tool) },
     { question: 'Da li je potrebna uplata depozita?', answer: t.depositNote },
     { question: 'Gde dostavljate i kako potvrđujem termin?', answer: `${t.faq2a} ${t.faq1a}` },

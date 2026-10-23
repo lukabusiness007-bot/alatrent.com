@@ -2290,5 +2290,431 @@
     "status": "published",
     "publishedAt": "2026-10-21T15:49:22.570Z",
     "updatedAt": "2026-10-21T15:49:22.570Z"
+  },
+  {
+    "id": "G004",
+    "slug": "izbor-ploce-za-ugaonu-brusilicu",
+    "title": "Kako izabrati ploču za ugaonu brusilicu prema materijalu i mašini",
+    "description": "Rezna i brusna ploča nisu isti pribor. Proveri materijal, dimenzije, prihvat, brzinu i štitnik pre izbora ugaone brusilice za najam.",
+    "intro": "Ploču za ugaonu brusilicu biraj prema materijalu i tome da li sečeš, grubo brusiš ili pripremaš površinu. Zatim proveri dozvoljene dimenzije, prihvat, maksimalnu brzinu i odgovarajući štitnik za konkretnu mašinu. To što disk može da se postavi na osovinu ne znači da je kombinacija dozvoljena.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Najpre razdvoji materijal i vrstu rada"
+      },
+      {
+        "type": "paragraph",
+        "text": "U upitu „treba mi mala brusilica i ploča” nedostaje ključna informacija: šta obrađuješ i kakav rezultat želiš. Sečenje metalnog profila, skidanje zavara i obrada mineralne podloge nisu ista primena. Ni oznaka „za metal” sama ne određuje da li je disk namenjen sečenju ili brušenju."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pošalji naziv materijala, fotografiju i opis cilja. Ako je sastav premaza ili podloge nepoznat, prvo ga razjasni. Izbor diska nije zamena za procenu prašine, skrivenih instalacija ili dozvoljenih zahvata u konstrukciji."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela izbora prema zadatku"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Zadatak",
+          "Šta tražiti u deklaraciji pribora",
+          "Šta još potvrditi"
+        ],
+        "rows": [
+          [
+            "Sečenje poznatog metala",
+            "Reznu namenu i izričitu pogodnost za taj metal",
+            "Dimenzije, prihvat, brzinu i zaštitu za sečenje"
+          ],
+          [
+            "Grubo skidanje materijala ili zavara",
+            "Brusnu namenu za odgovarajući materijal",
+            "Dozvoljenu vrstu ploče i štitnik za brušenje"
+          ],
+          [
+            "Sečenje kamena, betona ili keramike",
+            "Pribor deklarisan za tačnu mineralnu podlogu",
+            "Dozvolu mašine, kontrolu prašine i uslove suvog rada"
+          ],
+          [
+            "Priprema površine drugim priborom",
+            "Namenu konkretnog abraziva ili četke",
+            "Da li su pribor, zaštita i primena odobreni u uputstvu"
+          ],
+          [
+            "Nepoznat sloj ili rad blizu instalacija",
+            "Najpre identifikaciju materijala i rizika",
+            "Stručnu procenu pre izbora kompleta"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Tanka rezna ploča nije ploča za bočno brušenje. Bosch i Makita uputstva upozoravaju na tu razliku. Ni disk koji se prodaje kao kombinovan ne daje opštu dozvolu: moraju biti odobreni i njegova primena i odgovarajući štitnik na izabranoj mašini."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Dimenzije i brzina čitaju se zajedno"
+      },
+      {
+        "type": "paragraph",
+        "text": "Proveravaju se spoljni prečnik i debljina, otvor ili navoj, način stezanja i dozvoljena brzina. Oznaka brzine na priboru mora odgovarati najmanje maksimalnoj brzini označenoj na alatu; niži izbor na regulatoru ne menja tu proveru. Ne rešavaj nepodudaranje improvizovanim adapterom ili uklanjanjem zaštite."
+      },
+      {
+        "type": "paragraph",
+        "text": "Fotografija pune oznake diska korisnija je od opisa „standardni otvor”. Proveri da li su oznake čitljive i da li je pribor oštećen. Napukao ili oštećen pribor ne koristi se, čak ni ako dimenzije odgovaraju."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Štitnik i mesto rada deo su kompleta"
+      },
+      {
+        "type": "paragraph",
+        "text": "Zaštita za brušenje i zaštita potrebna za sečenje ne podrazumevaju se kao isti komplet. Pre preuzimanja potvrdi tačnu kombinaciju mašine, diska, zaštite i dodatne ručke, uz uputstvo izdate verzije. Nije dovoljno poslati samo prečnik."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod mineralnih materijala proveri zahtev za odvođenje prašine i odgovarajućom zaštitom. Ne dodaj vodu električnoj brusilici da bi improvizovao mokro sečenje. Ovaj vodič služi izboru kompleta, a postupak rada i montaže određuje uputstvo konkretne opreme."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za završno brušenje drveta pogledaj [poređenje ekscentrične, vibracione i tračne brusilice](/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica). Za odabir vrste reza drugom klasom alata koristi [poređenje testera](/sr/saveti/ubodna-sabljasta-ili-kruzna-testera)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta poslati pre najma"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Materijal i poznati sastav premaza, uz fotografiju.",
+          "Sečenje ili brušenje, dimenzije komada i pristup mestu rada.",
+          "Oznaku postojećeg diska ako želiš proveru kompatibilnosti.",
+          "Napajanje i uslove za kontrolu prašine i zaštitu okoline.",
+          "Željene datume, način preuzimanja i potreban potrošni pribor."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Za upit o [Bosch GWS 14-125 S](/sr/alat/bosch-gws-14-125-s-mala-ugaona-brusilica-125mm-1400w-06017d0100-cr-936) ili [Makita GA9020](/sr/alat/makita-ga9020-velika-ugaona-brusilica-230mm-2200w-cr-632) potvrđuju se model, sadržaj kompleta i odgovarajući disk. Naziv artikla ne potvrđuje da je svaka ploča uključena ili da je termin slobodan."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Bosch originalno uputstvo za porodicu koja uključuje GWS 14-125 S](https://www.bosch-professional.com/binary/manualsmedia/o624645v21_160992AE9Z_202512.pdf): izbor pribora, brzina, štitnici i granice rada.",
+          "[Makita uputstvo za GA7020/GA7021/GA9020](https://cdn.makitatools.com/apps/cms/doc/prod/GA7/fe4dde4d-b7aa-4a8a-ba56-12af8b9518b9_GA7021_IM_884635J940_B2792.pdf): kompatibilnost i bezbednosna ograničenja. Severnoameričke dimenzije prihvata i električni podaci nisu preneti na naš artikal."
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-936",
+      "crafter-632"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-23T09:40:12.187291+00:00",
+    "updatedAt": "2026-10-23T09:40:12.187291+00:00"
+  },
+  {
+    "id": "G014",
+    "slug": "ciscenje-behatona-perac-ili-cetka",
+    "title": "Čišćenje behatona: kada izabrati perač pod pritiskom, a kada četku",
+    "description": "Izbor četke ili perača za behaton zavisi od obloge, naslage i fuga. Šta proveriti za nastavke, sredstva i komplet pre najma.",
+    "intro": "Za čišćenje behatona prvo proveri od čega je obloga, kakve su naslage i u kom su stanju fuge. Perač sa odgovarajućim nastavkom razmatra se za površinu koja dopušta takvo pranje; osetljiva ili neidentifikovana obloga traži blaži pristup i potvrdu proizvođača. Najveći pritisak na etiketi nije dovoljan kriterijum izbora.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Prvo identifikuj oblogu i naslagu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reč „behaton” u razgovoru nekad obuhvata različite dvorišne ploče. Betonski element, prirodni kamen i obloga sa posebnim završnim slojem ne moraju imati iste zahteve održavanja. Pronađi naziv proizvoda ili pitaj dobavljača šta dopušta: pranje pod pritiskom, vrstu četke, sredstva i ograničenja za fuge."
+      },
+      {
+        "type": "paragraph",
+        "text": "Razdvoji rastresitu zemlju i lišće od prianjajućih naslaga. Fotografija izdaleka pokazuje obim, a detalj površine i fuga pomaže da se razjasni stanje. Fotografija sama ne dokazuje sastav kamena ili uzrok svake mrlje."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela: površina, fuge i izbor"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Zatečeno stanje",
+          "Prvi kriterijum izbora",
+          "Šta potvrditi pre najma"
+        ],
+        "rows": [
+          [
+            "Lišće i rastresita prljavština",
+            "Da li je dovoljno početno mehaničko uklanjanje",
+            "Pristup, sakupljanje i odlaganje"
+          ],
+          [
+            "Poznata otporna obloga sa naslagama",
+            "Da li proizvođač dopušta perač",
+            "Dozvoljeni nastavak i uslove probnog čišćenja"
+          ],
+          [
+            "Osetljiv ili porozan prirodni kamen",
+            "Blaža metoda prema uputstvu obloge",
+            "Odgovarajuću meku četku i sredstvo ako je dopušteno"
+          ],
+          [
+            "Rastresite, oštećene ili nepoznate fuge",
+            "Rizik ispiranja i pomeranja materijala",
+            "Stanje i način održavanja fuga pre pranja"
+          ],
+          [
+            "Nepoznat premaz, fleke ili oštećena površina",
+            "Identifikaciju i procenu materijala",
+            "Preporuku proizvođača ili stručne osobe"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Za lišće može pomoći [poređenje duvača i grabulja](/sr/saveti/duvac-lisca-ili-grabulje). To je priprema za drugu odluku; uklanjanje lišća ne rešava prianjajuće naslage."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Četka i površinski nastavak nisu isto"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ručna četka, mašina sa četkom i površinski nastavak priključen na perač razlikuju se po načinu rada. Ne pretpostavljaj da naziv „mašina za behaton” znači da dolazi baš tip četke ili nastavka koji zamišljaš."
+      },
+      {
+        "type": "paragraph",
+        "text": "STIHL i Husqvarna opisuju površinske nastavke i oprez pri pranju fuga. Ipak, dodatak jednog proizvođača nije samim tim kompatibilan sa drugim peračem. Za svaku kombinaciju proveravaju se priključak, radni uslovi, dozvoljena primena i sadržaj kompleta."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mlaz može isprati materijal iz fuga. Probno čišćenje neupadljivog dela, kada ga uputstvo obloge dopušta, pomaže proveri rezultata, ali ne zamenjuje identifikaciju površine. Ako se obloga oštećuje ili fuge osipaju, posao traži novu procenu, a ne dalje pojačavanje pritiska."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta proveriti za perač i sredstva"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za konkretan komplet navedi površinu, raspoloživ dovod vode, napajanje i mesto odvođenja prljave vode. Ne planiraj radno vreme samo prema kvadraturi: pristup, prepreke i potreban prethodni rad takođe ulaze u opis posla."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sredstvo mora biti dopušteno i za oblogu i za način nanošenja na uređaju. Kućni recept nije podrazumevana tečnost za rezervoar perača. Ovde nema univerzalnog pritiska, rastojanja mlaza ili hemijske mešavine; njih određuju dokumentacija obloge, opreme i sredstva za taj slučaj."
+      },
+      {
+        "type": "paragraph",
+        "text": "Proveri i dozvoljeno odvođenje otpadne vode. Vodič ne utvrđuje lokalnu dozvolu ispuštanja niti opravdava pranje nepoznatih opasnih naslaga."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Podaci za upit i razlog za odlaganje"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Naziv obloge, poznati završni sloj i fotografije površine i fuga.",
+          "Vrstu naslage i cilj: redovno održavanje ili konkretna mrlja.",
+          "Približnu površinu, širinu prolaza i prepreke.",
+          "Dovod vode, napajanje i plan odvoda.",
+          "Termin, transport i pitanje koji su nastavci uključeni."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Pošalji te podatke uz upit za [mašinu za čišćenje behatona](/sr/alat/masina-za-ciscenje-behatona) ili [Kärcher HD 4/10 X Plus Classic](/sr/alat/karcher-hd-4-10-x-plus-classic-perac-pod-pritiskom-145-bar-400-l-h-1800-w-cr-31501). Potvrđuju se konkretan model, pribor i raspoloživost. Ako nisu poznati obloga, stabilnost fuga ili prikladna metoda, razjasni to pre najma; snaga perača ne rešava tu nepoznanicu."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[STIHL: čišćenje kamena za popločavanje](https://www.stihl.rs/sr/saveti-projekti/ciscenje-spoljnih-povrsina/oko-kuce/ciscenje-kamena-za-poplocavanje): razlike materijala, blaže metode i fuge.",
+          "[Husqvarna: čišćenje betonskih ploča za dvorište](https://www.husqvarna.com/rs/ucite-i-otkrijte/cleaning-patio-slabs/): četka, površinski nastavak i oprez pri izboru sredstva. Primeri ovih proizvođača nisu uputstvo konkretnog izdatog Kärcher kompleta."
+        ]
+      }
+    ],
+    "toolIds": [
+      "tool-009",
+      "crafter-31501"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-23T09:40:12.187291+00:00",
+    "updatedAt": "2026-10-23T09:40:12.187291+00:00"
+  },
+  {
+    "id": "G027",
+    "slug": "pumpa-za-cistu-prljavu-ili-plitku-vodu",
+    "title": "Pumpa za čistu, prljavu ili plitku vodu: šta proveriti pre najma",
+    "description": "Čista voda, nečistoće i nizak preostali nivo traže različite provere. Izaberi pumpu prema vodi, visini, crevu i uslovima pre najma.",
+    "intro": "Pumpu biraj prema sastavu vode, trasi odvoda i potrebnom preostalom nivou. Pumpa za blago zaprljanu vodu nije automatski pumpa za mulj ili fekalije, a nizak usis nije isto što i velika tolerancija nečistoće. Tek kada opišeš vodu i uslove, proverava se odgovarajući model, crevo i komplet.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tri različita kriterijuma za pumpu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Prvo opiši tečnost: odakle dolazi, da li ima peska, vlakana, krupnijih čestica ili nepoznatih primesa. Zatim opiši gde voda treba da ode. Na kraju navedi da li želiš prebacivanje veće količine ili uklanjanje poslednjeg plitkog sloja."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nazivi „čista”, „prljava” i „do nultog nivoa” nisu potpuna specifikacija. Pedrollo D serija namenjena je čistoj ili blago zaprljanoj vodi; TOP MULTI je druga serija, za čistu vodu bez abrazivnih čestica. Nije opravdano preneti mogućnosti jedne na drugu samo zato što su obe potapajuće."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela izbora prema vodi i cilju"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Potreba",
+          "Šta prvo razmatrati",
+          "Šta obavezno proveriti"
+        ],
+        "rows": [
+          [
+            "Prebacivanje poznate čiste vode",
+            "Pumpu deklarisanu za takvu tečnost",
+            "Visinu, potreban protok i trasu creva"
+          ],
+          [
+            "Voda sa nečistoćama poznatog sastava",
+            "Model sa odgovarajućim dozvoljenim česticama",
+            "Veličinu i vrstu čestica, vlakna i abrazivnost"
+          ],
+          [
+            "Tanak sloj pri dnu",
+            "Posebnu sposobnost niskog usisa",
+            "Početni nivo, preostali nivo i režim rada"
+          ],
+          [
+            "Nepoznat mulj, kanalizaciona ili hemijski zagađena voda",
+            "Stručnu procenu pre izbora",
+            "Sastav, dozvoljenu opremu i bezbedno odlaganje"
+          ],
+          [
+            "Prostor sa mogućim električnim rizikom",
+            "Prethodno obezbeđenje mesta rada",
+            "Procenu stručne osobe, bez ulaska u vodu"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Dozvoljena veličina čestice ne znači da pumpa podnosi svaki pesak, gust mulj ili duga vlakna. Na to utiču i ograničenja materijala i konstrukcije konkretnog modela. Za nepoznatu tečnost ne potvrđuje se izbor samo na osnovu fotografije."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Protok, visina i crevo su jedan sistem"
+      },
+      {
+        "type": "paragraph",
+        "text": "Maksimalni protok iz kataloga nije obećan protok na svakoj trasi. Honda uputstvo objašnjava da visina podizanja i dužina, vrsta i dimenzije creva utiču na učinak. Zato pošalji skicu sa nivoom vode, položajem pumpe, najvišom tačkom trase i krajnjim odvodom."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod površinske motorne pumpe usisna visina i visina potisa nisu ista mera. Ne sabiraj nasumično maksimalne vrednosti sa različitih mesta u tabeli i ne očekuj istovremeno najveći protok i najveću visinu. Radna tačka proverava se prema odgovarajućoj krivoj i stvarnoj konfiguraciji."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Nizak usis ne znači apsolutno suv pod"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pedrollo TOP-FLOOR je primer serije namenjene niskom preostalom nivou. To nije potvrda da je naš artikal „do nultog nivoa” baš taj model. Za izdatu pumpu posebno pitaj koliki nivo treba za pokretanje, kada prekida automatika i koji preostali nivo dopušta uputstvo."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sposobnost završnog ispumpavanja ne znači dozvolu za neprekidan rad pri istom nivou ili rad na suvo. Nakon uklanjanja slobodne vode može ostati vlaga u konstrukciji; [izbor odvlaživača](/sr/saveti/izbor-odvlazivaca-za-najam) rešava drugi deo problema i nije zamena za pumpu."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kada najam čeka stručnu procenu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako voda može biti pod naponom, ne ulazi u nju radi postavljanja pumpe. Obezbeđenje električne instalacije i potrebne priključke treba da proceni stručna osoba. Uputstvo Pedrollo serija ograničava intervencije korisnika i traži stručne priključke; ovo nije tutorijal za instalaciju."
+      },
+      {
+        "type": "paragraph",
+        "text": "Benzinska pumpa nije rešenje za rad motora u podrumu, garaži ili drugom zatvorenom ili delimično zatvorenom prostoru. Honda upozorava na ugljen-monoksid u izduvnim gasovima. Nepoznate, zapaljive ili hemijski agresivne tečnosti traže poseban izbor i procenu; naziv „pumpa za vodu” nije dozvola za njih."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta poslati za izbor kompleta"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Poreklo vode, poznat sastav i opis nečistoće.",
+          "Fotografiju pristupa i približne mere prostora ili rezervoara.",
+          "Skicu visina i trase, dužinu potrebnog creva i mesto odvoda.",
+          "Željeni preostali nivo i podatak da li voda stalno pritiče.",
+          "Dostupno napajanje, termin, transport i potreban pribor."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "U katalogu postoje [pumpa za nizak nivo](/sr/alat/pumpa-za-vodu-do-nultog-nivoa), [Pedrollo DM 10](/sr/alat/pumpa-za-prljavu-vodu-potapajuca-dm-10-pedrollo-cr-21756), [Pedrollo TOP MULTI II](/sr/alat/pumpa-za-vodu-potapajuca-top-multi-ii-pedrollo-cr-21755) i [Honda WB20XT4DRX](/sr/alat/pumpa-za-vodu-honda-wb20xt4drx-cr-21993). To je polazna lista za potvrdu namene, izdate revizije i kompleta, bez obećane raspoloživosti ili univerzalnog kapaciteta."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Pedrollo D serija](https://www.pedrollo.com/en/product/submersible-2/submersible-pumps-for-sewage-water-and-drainage/d/): namena za čistu i blago zaprljanu vodu.",
+          "[Pedrollo TOP MULTI, tehnički list 50 Hz](https://www.pedrollo.com/wp-content/uploads/schede-tecniche/EN/TOP-MULTI_EN-datasheet_50Hz.pdf): druga namena, krive i granice nivoa.",
+          "[Pedrollo TOP-FLOOR](https://www.pedrollo.com/en/product/submersible-2/submersible-pumps-for-sewage-water-and-drainage/top-floor/): primer niskog usisa, bez identifikacije našeg generičkog artikla.",
+          "[Pedrollo TOP/RX/D/DC uputstvo](https://www.pedrollo.com/wp-content/uploads/sku-manuali/120399202E01_00-26.pdf): dozvoljene tečnosti, nivoi i stručni priključci; ne odnosi se na TOP MULTI.",
+          "[Honda WB20XT/WB30XT uputstvo](https://cdn.powerequipment.honda.com/pe/pdf/manuals/00x31yg36100.pdf): visina, creva i izduvni gasovi. Regionalne brojke nisu prenete na izdatu verziju."
+        ]
+      }
+    ],
+    "toolIds": [
+      "tool-014",
+      "crafter-21756",
+      "crafter-21755",
+      "crafter-21993"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-23T09:40:12.187291+00:00",
+    "updatedAt": "2026-10-23T09:40:12.187291+00:00"
   }
 ]

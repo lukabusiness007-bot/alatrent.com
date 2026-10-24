@@ -2716,5 +2716,438 @@
     "status": "published",
     "publishedAt": "2026-10-23T09:40:12.187291+00:00",
     "updatedAt": "2026-10-23T09:40:12.187291+00:00"
+  },
+  {
+    "id": "G020",
+    "slug": "hoblerica-ivicna-brusilica-polirka",
+    "title": "Hoblerica, ivična brusilica i polirka: kako složiti komplet za parket",
+    "description": "Razlikuj obradu glavne površine, ivica i završnu obradu parketa. Šta proveriti za mašine, abraziv, prašinu i transport pre najma.",
+    "intro": "Komplet za parket bira se prema stanju poda i zadacima: obradi glavne površine, pristupu ivicama i potrebnoj završnoj obradi. Hoblerica, ivična brusilica i jednodiskna mašina mogu imati različite uloge. Pre najma prvo proveri da li pod dopušta planiranu obradu, pa potvrdi konkretne mašine, pribor i način odvođenja prašine.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Komplet se bira prema zadatku, ne broju mašina"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nije svaki posao na parketu skidanje starog sloja. Redovno održavanje, priprema premaza i obnova površine traže različit plan. Navedi poznatu vrstu poda, sadašnji premaz, prethodne obrade i cilj. Ako ti podaci nisu poznati, traži procenu parketara ili proizvođača poda pre izbora mašina."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ovaj vodič pomaže da razdvojiš zadatke i pripremiš upit. Ne određuje koliko sloja sme da se skine sa tvog poda, niti propisuje univerzalni redosled granulacija. Fotografija može pokazati pristup i oštećenje, ali ne potvrđuje preostalu debljinu radnog sloja."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela uloga u kompletu"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Potreba",
+          "Koju vrstu opreme razmatrati",
+          "Šta posebno potvrditi"
+        ],
+        "rows": [
+          [
+            "Obrada glavne drvene površine",
+            "Namensku podnu brusilicu ili hoblericu prema planu",
+            "Model, dozvoljenu primenu i odgovarajući abraziv"
+          ],
+          [
+            "Prostor uz zid i druge prepreke",
+            "Ivičnu brusilicu",
+            "Stvarni pristup, oblik mašine i nastavak"
+          ],
+          [
+            "Ugao ili prostor ispod radijatora",
+            "Potvrđen namenski nastavak ili drugi način obrade",
+            "Da li konkretna mašina i pribor dopiru do tog mesta"
+          ],
+          [
+            "Određena završna obrada, održavanje ili poliranje",
+            "Odgovarajuću jednodisknu mašinu sa potvrđenim priborom",
+            "Da li uređaj dopušta baš traženi posao i sredstvo"
+          ],
+          [
+            "Nepoznat pod, premaz ili mogućnost obnove",
+            "Stručnu procenu pre najma",
+            "Vrstu konstrukcije, stanje i preporučen plan"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "LÄGLER u svojoj dokumentaciji razlikuje tračnu HUMMEL, ivičnu FLIP i jednodisknu SINGLE. To su primeri podele namena; nazivi naših generičkih artikala nisu potvrda da izdajemo te modele ili isti fabrički komplet."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Zašto polirka nije automatska zamena za hoblericu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reč „polirka” ne opisuje sve što mašina može da radi. Namenska jednodiskna brusilica može imati određene abrazivne dodatke, dok uređaj za pranje i poliranje ima sopstvena ograničenja. Proveravaju se konstrukcija, dozvoljeni pribor, površina i konkretna primena."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ne planiraj skidanje premaza samo zato što disk fizički može da se pričvrsti. Za našu [jednodisknu mašinu za pranje i poliranje](/sr/alat/jednodiskna-masina-za-pranje-i-poliranje-podova) pošalji opis posla i traži potvrdu odgovarajućeg kompleta. Primer SINGLE iz izvora ne prenosi svoje mogućnosti na taj artikal."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za sitnije drvene delove ili drugi zadatak završne obrade može biti korisno [poređenje ručnih brusilica](/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica). To ne zamenjuje izbor sistema za celu podnu površinu."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Abraziv, odvođenje prašine i transport"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za svaku mašinu potvrdi format i vrstu abraziva ili pada, način pričvršćivanja i šta ulazi u najam. Granulacija i postupak zavise od procenjenog poda i željenog završnog sloja; ovde nema jedne kombinacije za svaki parket."
+      },
+      {
+        "type": "paragraph",
+        "text": "Odvođenje prašine i postupanje sa sakupljenim materijalom deo su plana. LÄGLER upozorava na rizike prašine, varničenja i zapaljenja pri određenim obradama. Prati uputstvo izdate mašine i proizvoda za premaz, uz potrebnu zaštitu i bez improvizovanja oko nepoznatih naslaga."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pre dolaska opiši stepenice, lift, najuži prolaz i način utovara. Težina, rastavljanje za prevoz i potrebna pomoć proveravaju se za konkretan uređaj. Ne prenosi brojke referentnog modela na mašinu koja još nije potvrđena."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta poslati pre najma"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Poznatu vrstu poda, premaz, stanje i cilj obrade.",
+          "Fotografiju cele prostorije i detalje oštećenja, ivica i uglova.",
+          "Približnu površinu i mesta sa otežanim pristupom.",
+          "Podatke o napajanju, transportu i prostoru za bezbedan rad.",
+          "Termin, iskustvo korisnika i potrebu za objašnjenjem izdatog uređaja.",
+          "Spisak mašina, abraziva, padova i opreme za prašinu koje treba potvrditi."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Upit može početi od [hoblerice za parket](/sr/alat/hoblerica-za-parket) i [ivične hoblerke](/sr/alat/ivicna-hoblerka-za-parket). Konačan komplet zavisi od plana poda, potvrđenog modela i pribora; raspoloživost se proverava za termin."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[LÄGLER HUMMEL](https://www.laegler.com/en/products/machines/hummel): primer podne tračne brusilice.",
+          "[LÄGLER FLIP](https://www.laegler.com/en/products/machines/flip): ivice, uglovi i različiti nastavci.",
+          "[LÄGLER SINGLE](https://www.laegler.com/en/products/machines/single): namenska jednodiskna mašina i pribor.",
+          "[LÄGLER priručnik za brušenje drvenih podova](https://www.laegler.com/fileadmin/user_upload/Downloads/PDF-Dokumente/Schleifhandbuch/AL_00-000-20-002_2019-05-17__Sanding_manual_English_2019-05-01.pdf): procena, podela zadataka i upozorenja. Reference ne potvrđuju modele naše opreme."
+        ]
+      }
+    ],
+    "toolIds": [
+      "tool-037",
+      "tool-107",
+      "tool-110"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-24T09:35:13.800588+00:00",
+    "updatedAt": "2026-10-24T09:35:13.800588+00:00"
+  },
+  {
+    "id": "G025",
+    "slug": "trimer-ili-kosilica",
+    "title": "Trimer ili kosilica: izbor prema travi, ivicama i terenu",
+    "description": "Ravna površina, ivice, visina trave i pristup menjaju izbor kosilice ili trimera. Proveri teren i komplet pre najma.",
+    "intro": "Za redovno košenje pristupačne travnate površine prvo razmatraj kosilicu; za ivice i mesta oko prepreka proveri odgovarajući trimer. Visoka ili nepoznata vegetacija, nagib i nestabilan teren traže dodatnu procenu. Izbor počinje opisom trave i mesta rada, pa se tek onda potvrđuju konkretan uređaj i rezni pribor.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Prvo opiši travu i teren"
+      },
+      {
+        "type": "paragraph",
+        "text": "Održavan travnjak, uska traka uz ogradu i zapušten deo dvorišta nisu isti posao. Navedi približnu površinu, visinu i gustinu vegetacije, prepreke i pristup. Fotografija celog prostora i detalja korisnija je od pitanja „koliko jaka mašina mi treba”."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kosilica i trimer mogu se dopunjavati. STIHL u savetima za ivice objašnjava da rezultat kosilice ne mora dopreti do same granice travnjaka. To ne znači da trimer treba automatski izabrati za svaku kosinu ili svaku zaraslu površinu."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela izbora prema mestu rada"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Posao ili uslov",
+          "Šta prvo razmatrati",
+          "Šta menja odluku"
+        ],
+        "rows": [
+          [
+            "Otvorena, pristupačna travnata površina",
+            "Kosilicu za redovno košenje",
+            "Stanje tla, trava, širina pristupa i funkcije modela"
+          ],
+          [
+            "Ivica uz ogradu, leju ili drugu prepreku",
+            "Odgovarajući trimer za obradu tog dela",
+            "Pristup, dozvoljeni rezni pribor i zaštita okoline"
+          ],
+          [
+            "Travnjak sa mnogo odvojenih uskih mesta",
+            "Podelu posla između uređaja",
+            "Da li jedan komplet uopšte dopire do svih zona"
+          ],
+          [
+            "Vrlo visoka, gusta ili nepoznata vegetacija",
+            "Procenu i potvrdu namenske opreme",
+            "Sastav vegetacije, skriveni predmeti i iskustvo korisnika"
+          ],
+          [
+            "Nagib, rupe, mokro ili nestabilno tlo",
+            "Proveru uslova i ograničenja modela",
+            "Bezbedan oslonac i mogućnost rada prema uputstvu"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Tabela služi izboru i pripremi. Ne određuje bezbedan ugao nagiba, dozvoljenu debljinu stabljike ili broj kvadrata na sat za nepotvrđen uređaj."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Samohod, sakupljanje i rezni pribor"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod kosilice proveri da li je potrebno sakupljanje otkosa ili neka druga dopuštena funkcija i da li je potreban dodatak uključen. Samohod opisuje pogon kretanja; ne predstavlja potvrdu da je svako tlo ili nagib pogodan za rad."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod trimera potvrdi tačnu izvedbu, dozvoljeni rezni pribor i odgovarajuću zaštitnu opremu za taj komplet. Nemoj zaključiti da se svaki nož ili glava mogu montirati na svaki model. Oznaka artikla ne potvrđuje pribor koji se izdaje u konkretnom terminu."
+      },
+      {
+        "type": "paragraph",
+        "text": "Naš upit za [STIHL FS 120](/sr/alat/stihl-fs-120-benzinski-trimer-1-3-kw-cr-32934) i [Honda HRG466 SKEP](/sr/alat/honda-hrg466-skep-samohodna-motorna-kosilica-3-1-kw-46-cm-cr-22401) treba da sadrži opis posla. Referentna dokumentacija ne potvrđuje serijsku verziju, motor, opremu ili slobodan termin."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Nagib i skriveni predmeti menjaju procenu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pre izbora opiši kosine, neravnine, rupe i delove koje trava zaklanja. Honda uputstvo izdvojeno obrađuje oslonac, mokru travu i rizike na nagnutom ili nestabilnom terenu. Iz opšteg naziva „trimer” ne sledi da je taj problem rešen drugom mašinom."
+      },
+      {
+        "type": "paragraph",
+        "text": "Zona sa kamenjem, otpadom, nepoznatim predmetima, ljudima ili životinjama traži prethodno obezbeđenje prema uputstvu. Ako ne možeš da razjasniš stanje ili ograničiš pristup, prvo dogovori procenu uslova. Ovde se ne daju radne tehnike za opasnu kosinu niti postupak uklanjanja nepoznate prepreke."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta poslati za proveru termina i kompleta"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Približnu površinu, visinu i gustinu trave i poznatu vrstu vegetacije.",
+          "Fotografije glavne površine, ivica, prepreka i pristupa.",
+          "Opis nagiba, rupa, vlažnih ili nestabilnih delova.",
+          "Zahtev za sakupljanje otkosa i plan odlaganja.",
+          "Željeni termin, transport i podatak da li prvi put koristiš tu vrstu uređaja.",
+          "Pitanje koji su pribor, zaštita i uputstvo predviđeni za izdati komplet."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako je problem lišće, koristi [poređenje duvača i grabulja](/sr/saveti/duvac-lisca-ili-grabulje). Za filc ili zbijen travnjak pogledaj [vertikulaciju i aeraciju](/sr/saveti/vertikulacija-ili-aeracija-travnjaka). To su odvojeni zadaci od košenja i ne rešavaju se automatski promenom visine trave."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[STIHL: obrada ivica travnjaka](https://www.stihl.co.uk/en/garden-ideas-and-advice/garden-maintenance/lawn-care/lawn-edge-trimming): podela posla kosilice i trimera i uslovi okoline.",
+          "[STIHL FS 120](https://www.stihl.rs/sr/p/motorne-kose-i-trimeri-fs-120-benzinska-motorna-kosa-23022): identifikacija proizvoda i ograničenja prikaza opreme; modelske brojke nisu prenete.",
+          "[Honda HRG 466 SKEP](https://store.honda.co.uk/p/izy-hrg-466-skep-lawn-mower/12387203/): primer funkcija koje treba potvrditi.",
+          "[Honda HRG466C1 uputstvo povezano sa zvanične stranice](https://cf.hondappsv.com/files/OM/OM000794HME/3RVL06100_web.pdf): namena i bezbednosne granice. Tačna revizija izdate mašine proverava se posebno."
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-32934",
+      "crafter-22401"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-24T09:35:13.800588+00:00",
+    "updatedAt": "2026-10-24T09:35:13.800588+00:00"
+  },
+  {
+    "id": "G009",
+    "slug": "cena-najma-alata-i-dostave",
+    "title": "Kako se računa cena iznajmljivanja alata i dostave u Beogradu",
+    "description": "Proveri kalendarske dane, količinu, valutu, dostavu, depozit i primenljivu tarifu pre potvrde ukupne cene najma.",
+    "intro": "Ukupnu cenu najma proveravaj za izabrani alat, datume, količinu i način preuzimanja. Dnevna cena je polazna informacija; dostava, potrošni pribor i depozit traže zasebnu proveru. Obračun na sajtu pomaže planiranju, a dostupnost, komplet i konačne uslove potvrđujemo pre iznajmljivanja.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta ulazi u ukupnu cenu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dva alata sa sličnom dnevnom cenom mogu rešavati različite poslove. Prvo opiši materijal, obim i pristup, pa poredi ukupnu ponudu za odgovarajući komplet. Ako artikal ima cenu na upit, zatraži obračun za konkretan posao."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Stavka",
+          "Šta proveriti",
+          "Gde nastaje zabuna"
+        ],
+        "rows": [
+          [
+            "Najam alata",
+            "Datume, broj dana i primenljivu tarifu",
+            "Dnevni iznos se uzme kao konačan ukupan trošak"
+          ],
+          [
+            "Količina",
+            "Koliko komada istog ili različitog alata treba",
+            "Cena jednog komada se prenese na celu ekipu"
+          ],
+          [
+            "Dostava i povrat opreme",
+            "Izabranu opciju, adresu i termin",
+            "Pretpostavi se da je svaki prevoz uključen"
+          ],
+          [
+            "Potrošni materijal i dodatni uređaji",
+            "Tačan sadržaj i obračun kompleta",
+            "Disk, abraziv ili usisivač se podrazumevaju"
+          ],
+          [
+            "Depozit",
+            "Iznos, polaganje i uslove vraćanja",
+            "Privremeno obezbeđenje se pomeša sa cenom najma"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Za aktuelne iznose otvori konkretnu stranicu alata i obračun. Statičan primer u vodiču brzo bi zastareo, pa ovde nema prepisane tarife za pojedinačni model."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kako se broje dani i količina"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sajt računa kalendarske dane uključujući datum početka i datum vraćanja. Jasno označen primer sa pretpostavljenim terminima: početak u petak, vraćanje u nedelju obuhvata tri kalendarska dana. To samo po sebi ne dokazuje posebnu vikend cenu niti rok vraćanja u određeni sat."
+      },
+      {
+        "type": "paragraph",
+        "text": "Unesi stvarne datume i količinu u obračun, pa proveri rezultat. Za promenu termina ili produženje zatraži potvrdu pre nastavka najma; druga mašina ili dodatni dan ne postaju rezervisani samo izmenom sopstvenog plana."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Valuta, tarife i klupske pogodnosti"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cene alata prikazane su u evrima, a naplata je u dinarima; dinarski iznos proveri u aktuelnom obračunu i korpi. Nemoj samostalno pretpostaviti kurs ili preneti raniji iznos na drugi termin. Pre potvrde sačuvaj ukupan iznos i valutu dogovorenog obračuna."
+      },
+      {
+        "type": "paragraph",
+        "text": "[Klub majstora](/sr/klub) ima besplatno članstvo i 5% popusta od učlanjenja. Kada je druga dostupna tarifa povoljnija, primenjuje se ona; klupski i drugi popusti se ne sabiraju. Zato član i korisnik bez članstva za isti izbor mogu videti isti ukupan iznos. Tačan obračun proverava se za izabrane termine i uslove."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pogodnost najma bez depozita ostvaruje se posle tri plaćena i završena iznajmljivanja povezana sa nalogom, bez vremenskog ograničenja za njihovo brojanje. Za prethodne najmove depozit se dogovara pojedinačno. To je odvojeno od klupskog popusta na najam."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Dostava, preuzimanje i potrošni pribor"
+      },
+      {
+        "type": "paragraph",
+        "text": "Na [stranici dostave](/sr/dostava) proveri aktuelne opcije za Beograd. Pošalji tačnu adresu, pristup objektu i željeni termin. Mogućnost hitne dostave i konačna cena potvrđuju se unapred; izbor opcije nije obećanje dolaska bez dogovora."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za lično preuzimanje dogovori lokaciju, vreme i mogućnost transporta kompleta. Nabroj uređaje i dodatke koji su ti potrebni: burgije, diskove, abrazive, sredstva, gorivo ili odvojeni usisivač. Traži da potvrda jasno razlikuje uključeni pribor i stavke koje se dodatno obračunavaju."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kontrolna lista pre potvrde"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Alat, odgovarajući model i potvrđen sadržaj kompleta.",
+          "Datume početka i vraćanja i potrebnu količinu.",
+          "Ukupnu cenu najma, primenljivu tarifu i dinarski iznos naplate.",
+          "Preuzimanje ili dostavu, adresu, termin i povrat opreme.",
+          "Depozit i uslove polaganja i vraćanja.",
+          "Potrošni materijal, dodatne uređaje i dogovor za eventualno produženje."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Slanje upita nije automatska rezervacija. Postupak potvrde opisan je na [stranici Kako funkcioniše](/sr/kako-funkcionise). Pošalji i opis posla, da ponuda obuhvati opremu koja ti stvarno treba, a ne samo početnu cenu jednog artikla."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Alat Rent: postupak najma i potvrde](https://alatrent.rs/sr/kako-funkcionise).",
+          "[Alat Rent: aktuelne opcije dostave i preuzimanja](https://alatrent.rs/sr/dostava).",
+          "[Alat Rent: članstvo, popusti i depozit](https://alatrent.rs/sr/klub)."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Poslovni uslovi provereni su 24. oktobra 2026. Aktuelni obračun za konkretan upit ima prednost nad ranijim sačuvanim primerom."
+      }
+    ],
+    "toolIds": [
+      "crafter-30354",
+      "crafter-63590",
+      "crafter-63082",
+      "crafter-31501",
+      "tool-055"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-14T12:00:00.000Z",
+    "updatedAt": "2026-10-24T09:35:13.800588+00:00",
+    "replacesLegacy": true
   }
 ]

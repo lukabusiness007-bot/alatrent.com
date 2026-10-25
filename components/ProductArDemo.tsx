@@ -1,12 +1,15 @@
-import QRCode from 'qrcode';
-import { ProductMediaGallery, type ProductPhoto } from './ProductMediaGallery';
+import { createElement } from 'react';
+import Script from 'next/script';
 
-const viewer = 'https://www.augmenta3d.com/embed/rent-tools-embed-demo/luma-chair-demo';
-const threeDUrl = `${viewer}?ar=0&cta=hide&lang=sr`;
-const arUrl = `${viewer}?ar=1&cta=hide&lang=sr`;
+type ProductPhoto = { src: string; alt: string };
 
-/** The demo is attached only to the owner-selected product's photo gallery. */
-export async function ProductArDemo({ photos }: { photos: ProductPhoto[] }) {
-  const qr = await QRCode.toDataURL(arUrl, { width: 320, margin: 1, errorCorrectionLevel: 'M', color: { dark: '#1c211b', light: '#ffffff' } });
-  return <ProductMediaGallery photos={photos} model={{ src: threeDUrl, arUrl, qr, name: 'Luma stolica' }} />;
+/** Standard Augmenta widget. Only product IDs and image data belong to this site. */
+export function ProductArDemo({ photos }: { photos: ProductPhoto[] }) {
+  return <div id="3d-ar-demo" style={{ scrollMarginTop: 130 }}>
+    <Script src="https://www.augmenta3d.com/embed.js" strategy="afterInteractive" />
+    {createElement('augmenta-ar-viewer', {
+      merchant: 'rent-tools-embed-demo', product: 'luma-chair-demo', gallery: '', lang: 'sr',
+      'model-label': 'Demo: Luma stolica. Model ne prikazuje hoblericu.',
+    }, photos.map((photo, index) => createElement('img', { key: index, src: photo.src, alt: photo.alt, width: 600, height: 390, style: { maxWidth: '100%', objectFit: 'contain' } })))}
+  </div>;
 }

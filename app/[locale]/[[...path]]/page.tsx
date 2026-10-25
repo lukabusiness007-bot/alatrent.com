@@ -31,6 +31,7 @@ import { ToolRentalContent } from '@/components/ToolRentalContent';
 import { today } from '@/lib/validation';
 import { Home, Catalog, Steps, Delivery, Faq, Cta } from '@/components/Store';
 import ToolArt from '@/components/ToolArt';
+import { ProductArDemo } from '@/components/ProductArDemo';
 import { ContactLinks } from '@/components/ContactLinks';
 import {
   ArrowRight,
@@ -174,6 +175,7 @@ async function dbPage({ params, searchParams }: Props) {
                 />
               </div>
               {tool.image.startsWith("/images/catalog/") || tool.catalogModel ? <p className="image-caption">{t.photoNote}</p> : null}
+              {locale === 'sr' && tool.slug === 'hoblerica-za-parket' && <ProductArDemo />}
               <div className="product-copy">
                 <h2>{t.aboutTool}</h2>
                 <p>{toolDescription(tool, locale)}</p>

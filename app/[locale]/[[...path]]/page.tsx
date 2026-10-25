@@ -166,16 +166,15 @@ async function dbPage({ params, searchParams }: Props) {
             <div className="product-info">
               <span className="eyebrow">{category?.name[locale]}</span>
               <h1>{toolHeading(tool, locale)}</h1>
-              <div className="product-picture">
+              {locale === 'sr' && tool.slug === 'hoblerica-za-parket' ? <ProductArDemo photos={[{ src: tool.image, alt: tool.name[locale] }]} /> : <div className="product-picture">
                 <ToolArt
                   category={category?.icon}
                   image={tool.image}
                   name={tool.name[locale]}
                   large
                 />
-              </div>
+              </div>}
               {tool.image.startsWith("/images/catalog/") || tool.catalogModel ? <p className="image-caption">{t.photoNote}</p> : null}
-              {locale === 'sr' && tool.slug === 'hoblerica-za-parket' && <ProductArDemo />}
               <div className="product-copy">
                 <h2>{t.aboutTool}</h2>
                 <p>{toolDescription(tool, locale)}</p>

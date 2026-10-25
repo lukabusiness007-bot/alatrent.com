@@ -1,0 +1,383 @@
+{
+  "checkedAt": "2026-10-25T22:52:09.278749+00:00",
+  "scope": "Read-only recovery verification; no deployment and no Google account access.",
+  "guideCount": 21,
+  "passed": true,
+  "results": [
+    {
+      "path": "/sr/saveti",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti",
+      "xRobotsTag": ""
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/robots.txt",
+      "xRobotsTag": ""
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sitemap.xml",
+      "xRobotsTag": ""
+    },
+    {
+      "path": "/sr/saveti/udarna-busilica-ili-busilica-cekic",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/udarna-busilica-ili-busilica-cekic",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/laserski-daljinomer-ili-metar",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/laserski-daljinomer-ili-metar",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/rucni-ili-elektricni-sekac-plocica",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/rucni-ili-elektricni-sekac-plocica",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/parocistac-ili-ekstraktor",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/parocistac-ili-ekstraktor",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/higrometar-ili-merac-vlage-drveta",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/higrometar-ili-merac-vlage-drveta",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/duvac-lisca-ili-grabulje",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/duvac-lisca-ili-grabulje",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/izbor-odvlazivaca-za-najam",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/izbor-odvlazivaca-za-najam",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/dubinsko-pranje-namestaja-izbor-masine",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/dubinsko-pranje-namestaja-izbor-masine",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/vibro-ploca-ili-vibro-zaba",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/vibro-ploca-ili-vibro-zaba",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/zirafa-i-usisivac-za-zidove",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/zirafa-i-usisivac-za-zidove",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/vertikulacija-ili-aeracija-travnjaka",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/vertikulacija-ili-aeracija-travnjaka",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/kako-izabrati-merdevine",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/kako-izabrati-merdevine",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/busac-zemlje-za-ogradu-i-sadnju",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/busac-zemlje-za-ogradu-i-sadnju",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/ubodna-sabljasta-ili-kruzna-testera",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/ubodna-sabljasta-ili-kruzna-testera",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/izbor-ploce-za-ugaonu-brusilicu",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/izbor-ploce-za-ugaonu-brusilicu",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/ciscenje-behatona-perac-ili-cetka",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/ciscenje-behatona-perac-ili-cetka",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/pumpa-za-cistu-prljavu-ili-plitku-vodu",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/pumpa-za-cistu-prljavu-ili-plitku-vodu",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/hoblerica-ivicna-brusilica-polirka",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/hoblerica-ivicna-brusilica-polirka",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/trimer-ili-kosilica",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/trimer-ili-kosilica",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/sr/saveti/cena-najma-alata-i-dostave",
+      "status": 200,
+      "finalUrl": "https://alatrent.rs/sr/saveti/cena-najma-alata-i-dostave",
+      "xRobotsTag": "",
+      "checks": {
+        "http200": true,
+        "expectedTitle": true,
+        "oneH1": true,
+        "canonical": true,
+        "indexable": true,
+        "sitemap": true,
+        "hubLink": true,
+        "robotsAllowsGuides": true
+      },
+      "passed": true
+    }
+  ]
+}

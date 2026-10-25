@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "alat-rent-tri-vodi-a-dnevno",
+  "name": "Alat Rent — tri vodiča dnevno",
+  "status": "ACTIVE",
+  "kind": "heartbeat",
+  "destination": "current_thread",
+  "threadId": "01a1446c-27e6-7752-b801-34cb66df1a96",
+  "createdOn": "2026-10-16",
+  "schedule": {
+    "frequency": "daily",
+    "localTime": "08:00",
+    "timezone": "Europe/Belgrade",
+    "firstExpectedLocalDate": "2026-10-17"
+  },
+  "mode": "publish_after_checks",
+  "dailyTarget": 3,
+  "operatingPrompt": "docs/guide-system/daily-prompt.md",
+  "verification": {
+    "savedConfigurationChecked": true,
+    "publicationSupportInRepository": true,
+    "publishedInventoryVerified": 21,
+    "scheduleUpdatePending": false,
+    "notes": [
+      "Obnova nije današnja nova serija vodiča.",
+      "Sačuvani raspored proveriti posle ažuriranja kroz Codex alat.",
+      "Google indeksiranje nije provereno tokom obnove."
+    ],
+    "verifiedAt": "2026-10-25T22:55:00.531518+00:00",
+    "promptSha256": "3e8010541ddef7906c8d7400be973f0074afb02aa8d3ebb2dffd93fe0ae68ed3",
+    "sameAutomationIdPreserved": true,
+    "sameThreadPreserved": true,
+    "dailyTimePreserved": true,
+    "projectPathVerified": true
+  },
+  "projectPath": "/Users/luka/Desktop/rent tools",
+  "updatedAt": "2026-10-25T22:52:51.234510+00:00",
+  "publicationInstructions": "docs/guide-system/publishing.md",
+  "publicationAuthorizedOn": "2026-10-16"
+}

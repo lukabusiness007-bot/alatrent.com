@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-25T22:55:20.507021+00:00",
+  "passed": true,
+  "jsonFilesParsed": 12,
+  "restoredFilesChecked": 18,
+  "queueItems": 34,
+  "published": 21,
+  "pendingResearch": 3,
+  "deferred": 10,
+  "catalogMappingsValid": true,
+  "idsAndCanonicalsUnique": true,
+  "firstPublicationDatesPreserved": true,
+  "partialRecordsRemainDeferred": true,
+  "markdownLinksValid": true,
+  "publicVerificationPassed": true,
+  "applicationCodeChanged": false,
+  "publicationManifestSha256": "f8780a41fbc14746bbc6a244c6c04f02525486ea393721abed8f19cc9323c070"
+}

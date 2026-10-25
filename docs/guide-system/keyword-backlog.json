@@ -1,0 +1,1369 @@
+{
+  "schemaVersion": 1,
+  "researchedAt": null,
+  "locale": "sr-Latn",
+  "searchLocation": null,
+  "searchLanguageControl": "Srpski izrazi iz sačuvane istraživačke evidencije; tačna lokacija i uređaj nisu sačuvani.",
+  "searchMethod": "Rekonstrukcija prethodno zabeleženog istraživanja; ovo obnavljanje nije novo istraživanje tražnje.",
+  "caveat": "Prioriteti su urednički, ne izmeren obim, težina ili rang. evidenceUrls su kandidati iz istorije, ne dokaz da su danas ponovo otvoreni. Za svaki novi članak ponovo istražiti i otvoriti primarne izvore.",
+  "businessScope": "Iznajmljivanje alata u Beogradu; dostupnost modela i poslovni uslovi potvrđuju se zasebno.",
+  "catalogVerification": {
+    "checkedAt": "2026-10-25T22:52:51.234510+00:00",
+    "source": "lib/seed.json",
+    "scope": "Postojanje objavljenih ID-eva i tačnih putanja, bez potvrde stvarne flote ili zaliha."
+  },
+  "priorityMeaning": {
+    "P1": "Osnovna odluka blisko povezana sa katalogom ili dopunom postojeće stranice.",
+    "P2": "Korisno proširenje uz proveru potrebe i preklapanja.",
+    "P3": "Odloženo do dodatnih izvora, stručne procene ili opravdanja zasebne namere."
+  },
+  "items": [
+    {
+      "id": "G001",
+      "title": "Udarna bušilica ili bušilica-čekić: kako izabrati alat prema materijalu",
+      "primaryKeyword": "udarna bušilica ili bušilica čekić",
+      "variants": [
+        "bušilica za beton ili šrafilica",
+        "razlika udarna bušilica i elektro pneumatski čekić"
+      ],
+      "cluster": "busenje",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/udarna-busilica-ili-busilica-cekic",
+      "toolIds": [
+        "crafter-30354",
+        "crafter-535",
+        "crafter-63082"
+      ],
+      "toolPaths": [
+        "/sr/alat/bosch-gbh-2-28-f-sds-elektro-pneumatski-cekic-880-w-cr-30354",
+        "/sr/alat/bosch-gbh-5-40-dce-elektro-pneumatski-cekic-1150w-cr-535",
+        "/sr/alat/bosch-akumulatorska-busilica-odvrtac-gsr-18v-65-18-v-2-x-2-ah-sa-koferom-cr-63082"
+      ],
+      "priority": "P1",
+      "evidenceUrls": [
+        "https://www.reddit.com/r/AskSerbia/comments/1hk8l3c",
+        "https://www.bosch-professional.com/rs/sr/products/gbh-2-28-f-0611267601",
+        "https://www.bosch-professional.com/rs/sr/burgije-za-zidove-i-beton-2790345-ocs-ac/"
+      ],
+      "sourceStatus": "primary_and_intent_search_observed_needs_full_review",
+      "status": "published",
+      "rationale": "U srpskoj diskusiji početnici pitaju za alat za različite zidove; proizvođač izdvaja bušilicu-odvrtač i SDS čekić. To podržava objašnjenje izbora, bez tvrdnje o obimu pretrage.",
+      "distinctValue": "Tabela materijal / vrsta posla / klasa alata / šta poslati za najam. GSR 18V-65 jasno označiti kao bušilicu-odvrtač; nijedan objavljeni GSR ne nazivati udarnim. Bez uputstva za bušenje nepoznatih instalacija.",
+      "overlapWith": [
+        "/sr/saveti/cena-najma-alata-i-dostave",
+        "/sr/alat/bosch-gbh-2-28-f-sds-elektro-pneumatski-cekic-880-w-cr-30354",
+        "/sr/alat/bosch-gbh-5-40-dce-elektro-pneumatski-cekic-1150w-cr-535",
+        "/sr/alat/bosch-akumulatorska-busilica-odvrtac-gsr-18v-65-18-v-2-x-2-ah-sa-koferom-cr-63082"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G002",
+      "title": "Laserski daljinomer ili metar: šta izabrati za merenje prostorije",
+      "primaryKeyword": "laserski daljinomer ili metar",
+      "variants": [
+        "laserski metar za prostoriju",
+        "kada koristiti laserski daljinomer"
+      ],
+      "cluster": "merenje",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/laserski-daljinomer-ili-metar",
+      "toolIds": [
+        "crafter-29677"
+      ],
+      "toolPaths": [
+        "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677"
+      ],
+      "priority": "P1",
+      "evidenceUrls": [
+        "https://www.trajandecius.org/alati-za-merenje/",
+        "https://gradim.rs/blogovi/daljinomer-i-laseri-%E2%80%93-vodic-kroz-precizne-mjerne-instrumente-za-nivelaciju-21",
+        "https://www.bosch-professional.com/rs/sr/products/glm-50-27-cg-0601072U00"
+      ],
+      "sourceStatus": "primary_and_intent_search_observed_needs_full_review",
+      "status": "published",
+      "rationale": "Srpski rezultati nude izbor instrumenta za dužinu i poređenje sa metrom; konkretni GLM ima zvaničnu dokumentaciju. Nema kvantifikovanog dokaza tražnje.",
+      "distinctValue": "Poređenje kratkih mera, udaljenih tačaka, referentne ravni i ograničenja podloge. Objasniti da daljinomer ne projektuje nivelacionu liniju; dati kontrolnu listu za upit. Bez uputstva o izlaganju laserskom snopu.",
+      "overlapWith": [
+        "/sr/alat/laserski-nivelator",
+        "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677"
+      ],
+      "risk": "low"
+    },
+    {
+      "id": "G003",
+      "title": "Ručni ili električni sekač pločica: izbor prema formatu i vrsti reza",
+      "primaryKeyword": "ručni ili električni sekač pločica",
+      "variants": [
+        "mašina za sečenje pločica izbor",
+        "sekač pločica veliki format"
+      ],
+      "cluster": "keramika",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/rucni-ili-elektricni-sekac-plocica",
+      "toolIds": [
+        "crafter-32373",
+        "crafter-30788"
+      ],
+      "toolPaths": [
+        "/sr/alat/bihui-rucni-sekac-za-keramiku-velikog-formata-cr-32373",
+        "/sr/alat/einhell-te-tc-620-u-rezac-plocica-200x25-4mm-900w-cr-30788"
+      ],
+      "priority": "P1",
+      "evidenceUrls": [
+        "https://www.kerametal.rs/alati/alati-za-keramicare/masina-za-secenje-plocica",
+        "https://www.reddit.com/r/AskSerbia/comments/1qv89oy/da_li_su_korisne_ove_jeftine_masine_za_secenje/",
+        "https://www.einhell.rs/en/p/4301295-te-tc-620-1-u/"
+      ],
+      "sourceStatus": "primary_and_intent_search_observed_needs_full_review",
+      "status": "published",
+      "rationale": "Srpski prodajni rezultati razdvajaju ručne, električne i sisteme za veliki format; srpska diskusija pita za kvalitet rezača.",
+      "distinctValue": "Tabela dužina pravog/dijagonalnog reza / debljina / materijal / specijalni rez. Objavljeni Einhell i Bihui porediti samo po potvrđenim podacima konkretnog modela; dijagonalu ne izjednačiti sa stranicom pločice.",
+      "overlapWith": [
+        "/sr/alat/bihui-rucni-sekac-za-keramiku-velikog-formata-cr-32373",
+        "/sr/alat/einhell-te-tc-620-u-rezac-plocica-200x25-4mm-900w-cr-30788"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G004",
+      "title": "Kako izabrati ploču za ugaonu brusilicu prema materijalu i mašini",
+      "primaryKeyword": "koja ploča za ugaonu brusilicu",
+      "variants": [
+        "rezna ili brusna ploča",
+        "disk za brusilicu 125 ili 230"
+      ],
+      "cluster": "brusenje",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/izbor-ploce-za-ugaonu-brusilicu",
+      "toolIds": [
+        "crafter-936",
+        "crafter-632"
+      ],
+      "toolPaths": [
+        "/sr/alat/bosch-gws-14-125-s-mala-ugaona-brusilica-125mm-1400w-06017d0100-cr-936",
+        "/sr/alat/makita-ga9020-velika-ugaona-brusilica-230mm-2200w-cr-632"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://www.hoba.rs/products/brusni-disk-o125-8h",
+        "https://www.bosch-professional.com/binary/manualsmedia/o451431v21_160992A5RE_202401.pdf"
+      ],
+      "sourceStatus": "search_context_observed_exact_model_manuals_missing",
+      "status": "published",
+      "rationale": "Pretraga vraća različite vrste diskova i tvrdnje o kompatibilnosti; zvanično uputstvo razdvaja dozvoljene dimenzije po modelu.",
+      "distinctValue": "Kontrolna lista materijal / sečenje ili brušenje / prečnik / prihvat / oznaka brzine i odgovarajuća zaštita. Ne koristiti uputstvo za drugi GWS kao dokaz granica našeg modela; pre pisanja otvoriti tačno uputstvo za GWS 14-125 S i GA9020.",
+      "overlapWith": [
+        "/sr/alat/bosch-gws-14-125-s-mala-ugaona-brusilica-125mm-1400w-06017d0100-cr-936",
+        "/sr/alat/makita-ga9020-velika-ugaona-brusilica-230mm-2200w-cr-632"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G005",
+      "title": "Vibro ploča ili vibro žaba: šta izabrati za sabijanje podloge?",
+      "primaryKeyword": "vibro ploča ili vibro žaba",
+      "variants": [
+        "vibro nabijač ili ploča",
+        "mašina za tabanje podloge"
+      ],
+      "cluster": "sabijanje",
+      "intent": "informational_commercial_selection",
+      "action": "refresh",
+      "canonicalTarget": "/sr/saveti/vibro-ploca-ili-vibro-zaba",
+      "toolIds": [
+        "crafter-62855",
+        "crafter-62858"
+      ],
+      "toolPaths": [
+        "/sr/alat/scheppach-vibro-ploca-hp1800s-cr-62855",
+        "/sr/alat/scheppach-vibro-nabijac-vs1000-cr-62858"
+      ],
+      "priority": "P1",
+      "evidenceUrls": [
+        "https://bepro.rs/vibro-ploca-za-sabijanje-podloge-kako-izabrati-masinu-za-zemlju-sljunak-asfalt-i-behaton/",
+        "https://dajnadan.rs/iznajmljivanje/vibro-zaba-beograd"
+      ],
+      "sourceStatus": "search_observed_needs_primary_review",
+      "status": "published",
+      "rationale": "Postoji aktuelan srpski vodič; jedan rezultat za iznajmljivanje meša vibro žabu i reverzibilnu ploču. Jasna terminologija ima korisnu razliku.",
+      "distinctValue": "Dopuniti postojeći URL mapom tri različita posla: sabijanje podloge, obrada svežeg betona, brušenje betona. Izbor ograničiti na podlogu i dokumentaciju konkretne mašine; ne izmišljati univerzalnu debljinu sloja. Ne otvarati drugi URL za isti par sinonima.",
+      "overlapWith": [
+        "/sr/alat/scheppach-vibro-ploca-hp1800s-cr-62855",
+        "/sr/alat/scheppach-vibro-nabijac-vs1000-cr-62858"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G006",
+      "title": "Kako izabrati merdevine za najam: visina, oslonac i pristup",
+      "primaryKeyword": "kako izabrati merdevine",
+      "variants": [
+        "radna visina merdevina",
+        "dužina merdevina ili radna visina"
+      ],
+      "cluster": "visina",
+      "intent": "informational_commercial_selection",
+      "action": "refresh",
+      "canonicalTarget": "/sr/saveti/kako-izabrati-merdevine",
+      "toolIds": [
+        "crafter-20586"
+      ],
+      "toolPaths": [
+        "/sr/alat/cagsan-merdevine-aluminijumske-trodelne-3x10-pro-cr-20586"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://eshop.wurth.rs/merdevine-aluminijumske-trodelne-3x9-gazista"
+      ],
+      "sourceStatus": "search_context_observed_exact_model_manuals_missing",
+      "status": "published",
+      "rationale": "Rezultati odvojeno navode radnu visinu i fizičku visinu i položaj, što je već jezgro postojećeg vodiča.",
+      "distinctValue": "Proširiti postojeći članak skicom pojmova i pitanjima o mestu rada. Brojke drugog proizvođača ne prenositi na Cagsan 3x10; tražiti konkretno uputstvo i ne davati univerzalnu formulu dometa.",
+      "overlapWith": [
+        "/sr/alat/cagsan-merdevine-aluminijumske-trodelne-3x10-pro-cr-20586"
+      ],
+      "risk": "high"
+    },
+    {
+      "id": "G007",
+      "title": "Žirafa za zidove: kako izabrati abraziv i usisivač",
+      "primaryKeyword": "žirafa za zidove abraziv i usisivač",
+      "variants": [
+        "granulacija šmirgle za žirafu",
+        "žirafa za šmirglanje gleta"
+      ],
+      "cluster": "brusenje-zidova",
+      "intent": "informational_commercial_selection",
+      "action": "refresh",
+      "canonicalTarget": "/sr/saveti/zirafa-i-usisivac-za-zidove",
+      "toolIds": [
+        "crafter-62581",
+        "crafter-638"
+      ],
+      "toolPaths": [
+        "/sr/alat/mirka-zirafa-za-zidove-leros-950cv-225mm-cr-62581",
+        "/sr/alat/makita-usisivac-vc2512l-cr-638"
+      ],
+      "priority": "P1",
+      "evidenceUrls": [
+        "https://lagermarket.rs/blogs/predstavljamo/kako-se-koristi-zirafa-za-smirglanje",
+        "https://www.svezamajstore.rs/blog/smirgle-sta-treba-da-znate.html",
+        "https://www.bosch-professional.com/rs/sr/kontrola-prasine/usisivac/"
+      ],
+      "sourceStatus": "search_observed_needs_primary_review",
+      "status": "published",
+      "rationale": "Više srpskih rezultata već pokriva upotrebu i granulaciju; nova generička žirafa stranica bi duplirala postojeći vodič.",
+      "distinctValue": "Dodati izbor po suvom sloju i završnoj obradi, kompatibilnost diska i priključaka i jasan uslov klase usisivača za konkretnu prašinu. Granulaciju proveriti prema masi i Mirka dokumentaciji; klasa L u katalogu se ne sme automatski preporučivati za svaku prašinu.",
+      "overlapWith": [
+        "/sr/alat/mirka-zirafa-za-zidove-leros-950cv-225mm-cr-62581",
+        "/sr/alat/makita-usisivac-vc2512l-cr-638"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G008",
+      "title": "Mašina za dubinsko pranje nameštaja: šta proveriti pre najma",
+      "primaryKeyword": "mašina za dubinsko pranje nameštaja izbor",
+      "variants": [
+        "izbor ekstraktora za pranje",
+        "Puzzi najam šta ulazi u komplet"
+      ],
+      "cluster": "dubinsko-pranje",
+      "intent": "informational_commercial_selection",
+      "action": "refresh",
+      "canonicalTarget": "/sr/saveti/dubinsko-pranje-namestaja-izbor-masine",
+      "toolIds": [
+        "crafter-35551"
+      ],
+      "toolPaths": [
+        "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551"
+      ],
+      "priority": "P1",
+      "evidenceUrls": [
+        "https://cleanrent.rs/",
+        "https://puzzirent.rs/",
+        "https://www.reddit.com/r/AskSerbia/comments/1px12kc/kakva_su_vam_iskustva_sa_dubinskim_pranjem/"
+      ],
+      "sourceStatus": "search_observed_needs_primary_review",
+      "status": "published",
+      "rationale": "Komercijalni rezultati uključuju garniture, dušeke i automobile i pakete opreme. Postojeći URL već pokriva izbor; njega treba ojačati.",
+      "distinctValue": "Dodati tabelu šta korisnik proverava na oznaci održavanja, dodatke koje treba potvrditi i fotografije stvarnog kompleta. Odvojiti vodič izbora od eventualnog zasebnog vodiča sušenja; bez obećanja o dezinfekciji ili uklanjanju svake fleke.",
+      "overlapWith": [
+        "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G009",
+      "title": "Kako se računa cena najma alata i dostave u Beogradu",
+      "primaryKeyword": "kako se računa cena najma alata",
+      "variants": [
+        "vikend najam alata obračun",
+        "depozit i dostava alata"
+      ],
+      "cluster": "uslovi-najma",
+      "intent": "commercial_transactional_clarification",
+      "action": "refresh",
+      "canonicalTarget": "/sr/saveti/cena-najma-alata-i-dostave",
+      "toolIds": [
+        "crafter-30354",
+        "crafter-63590",
+        "crafter-31501"
+      ],
+      "toolPaths": [
+        "/sr/alat/bosch-gbh-2-28-f-sds-elektro-pneumatski-cekic-880-w-cr-30354",
+        "/sr/alat/bosch-elektro-pneumatski-cekic-za-rusenje-gsh-11-ev-0611316000-cr-63590",
+        "/sr/alat/karcher-hd-4-10-x-plus-classic-perac-pod-pritiskom-145-bar-400-l-h-1800-w-cr-31501"
+      ],
+      "priority": "P1",
+      "evidenceUrls": [
+        "https://www.rent-alata.rs/",
+        "https://cleanrent.rs/"
+      ],
+      "sourceStatus": "search_observed_needs_primary_review",
+      "status": "published",
+      "rationale": "Lokalni najam rezultati naglašavaju cenu, dostavu i depozit. To je važan deo odluke, ali pravila konkurencije nisu naša pravila.",
+      "distinctValue": "Proširiti postojeći članak primerima iz važeće interne tarife, kalendarskim danima i potvrdom kompleta. Sve iznose i klupske uslove pre objave očitati iz repozitorijuma; komercijalna landing stranica i dalje nosi primarni najam upit.",
+      "overlapWith": [
+        "/sr/kako-funkcionise",
+        "/sr/dostava",
+        "/sr/klub",
+        "/sr/alat/bosch-gbh-2-28-f-sds-elektro-pneumatski-cekic-880-w-cr-30354",
+        "/sr/alat/bosch-elektro-pneumatski-cekic-za-rusenje-gsh-11-ev-0611316000-cr-63590",
+        "/sr/alat/karcher-hd-4-10-x-plus-classic-perac-pod-pritiskom-145-bar-400-l-h-1800-w-cr-31501"
+      ],
+      "risk": "low"
+    },
+    {
+      "id": "G010",
+      "title": "Paročistač ili ekstraktor za dubinsko pranje: koji uređaj odgovara površini",
+      "primaryKeyword": "paročistač ili mašina za dubinsko pranje",
+      "variants": [
+        "ekstraktor i paročistač razlika",
+        "parno ili ekstrakcijsko čišćenje"
+      ],
+      "cluster": "ciscenje",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/parocistac-ili-ekstraktor",
+      "toolIds": [
+        "crafter-33379",
+        "crafter-35551"
+      ],
+      "toolPaths": [
+        "/sr/alat/karcher-sc-3-easyfix-parocistac-cr-33379",
+        "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551"
+      ],
+      "priority": "P1",
+      "evidenceUrls": [
+        "https://www.eco-steam.rs/dubinsko-pranje-ciscenje-i-dezinfekcija-duseka-uz-steam-italy-parocistace/",
+        "https://www.reddit.com/r/AskSerbia/comments/1px12kc/kakva_su_vam_iskustva_sa_dubinskim_pranjem/"
+      ],
+      "sourceStatus": "search_observed_needs_primary_review",
+      "status": "published",
+      "rationale": "Srpski rezultat ima eksplicitno poređenje, a srpska diskusija pita koja je namena ta dva uređaja.",
+      "distinctValue": "Matrica površina i dozvoljenih metoda održavanja; odvojiti tvrde površine od tekstila i uslove modela bez univerzalnih zdravstvenih tvrdnji.",
+      "overlapWith": [
+        "/sr/saveti/dubinsko-pranje-namestaja-izbor-masine",
+        "/sr/alat/karcher-sc-3-easyfix-parocistac-cr-33379",
+        "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G011",
+      "title": "Sušenje nameštaja posle dubinskog pranja: šta utiče na vreme i plan najma",
+      "primaryKeyword": "koliko se suši nameštaj posle dubinskog pranja",
+      "variants": [
+        "sušenje garniture posle pranja",
+        "nameštaj ostao vlažan posle dubinskog pranja"
+      ],
+      "cluster": "dubinsko-pranje",
+      "intent": "informational_problem_planning",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/susenje-namestaja-posle-dubinskog-pranja",
+      "toolIds": [
+        "crafter-35551",
+        "tool-085"
+      ],
+      "toolPaths": [
+        "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551",
+        "/sr/alat/ventilator"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://www.lionclean.rs/blog/koliko-se-susi-namestaj-posle-dubinskog-pranja",
+        "https://www.dubinskopranjekristal.rs/najcesce-postavljana-pitanja/"
+      ],
+      "sourceStatus": "search_observed_needs_primary_review",
+      "status": "pending_research",
+      "rationale": "Više srpskih rezultata ima isti upit, ali nude različite prosečne sate. To potvrđuje pitanje, ne pouzdano univerzalno trajanje.",
+      "distinctValue": "Model planiranja po tekstilu, punjenju, količini vode i ventilaciji; kriterijumi proveravanja prema proizvođaču nameštaja. Zaseban URL tek ako proširenje jasno prevazilazi kratak odeljak postojećeg vodiča.",
+      "overlapWith": [
+        "/sr/saveti/dubinsko-pranje-namestaja-izbor-masine",
+        "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551",
+        "/sr/alat/ventilator"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G012",
+      "title": "Iznajmiti mašinu ili naručiti dubinsko pranje: šta uporediti pre odluke",
+      "primaryKeyword": "iznajmljivanje mašine ili usluga dubinskog pranja",
+      "variants": [
+        "samostalno dubinsko pranje ili majstor",
+        "najam ekstraktora ili usluga pranja"
+      ],
+      "cluster": "dubinsko-pranje",
+      "intent": "commercial_comparison",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/najam-masine-ili-usluga-dubinskog-pranja",
+      "toolIds": [
+        "crafter-35551"
+      ],
+      "toolPaths": [
+        "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://cleanrent.rs/",
+        "https://puzzirent.rs/"
+      ],
+      "sourceStatus": "search_observed_needs_primary_review",
+      "status": "pending_research",
+      "rationale": "Rezultat Clean Rent nudi i najam i dolazak na adresu; namere se prepliću. Alat Rent ne sme iz toga izvesti da pruža tuđu uslugu.",
+      "distinctValue": "Porediti vreme, kompatibilnost materijala, dodatke, transport i ukupan konkretan obračun; navesti kriterijume kada korisnik treba da angažuje stručnu uslugu, bez predstavljanja te usluge kao naše.",
+      "overlapWith": [
+        "/sr/saveti/dubinsko-pranje-namestaja-izbor-masine",
+        "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G013",
+      "title": "Industrijski usisivač za radove: šta znače klasa prašine, filter i priključak",
+      "primaryKeyword": "industrijski usisivač klasa prašine",
+      "variants": [
+        "usisivač klasa L ili M",
+        "usisivač za građevinsku prašinu izbor"
+      ],
+      "cluster": "ciscenje-prasine",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/industrijski-usisivac-klasa-prasine",
+      "toolIds": [
+        "crafter-638"
+      ],
+      "toolPaths": [
+        "/sr/alat/makita-usisivac-vc2512l-cr-638"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://www.bosch-professional.com/rs/sr/kontrola-prasine/usisivac/"
+      ],
+      "sourceStatus": "primary_search_observed_exact_model_manual_missing",
+      "status": "pending_research",
+      "rationale": "Srpski Bosch izvor izdvaja klase L, M i H; regionalni rezultati imaju protivrečne preporuke. Potrebna je provera prema vrsti prašine i modelu.",
+      "distinctValue": "Objašnjenje etikete, odvođenja prašine, adaptera i toga šta objavljeni Makita VC2512L stvarno podržava. Ne nuditi L model kao zamenu za višu klasu i ne pisati samostalnu sanaciju azbesta ili nepoznatih premaza.",
+      "overlapWith": [
+        "/sr/saveti/zirafa-i-usisivac-za-zidove",
+        "/sr/alat/makita-usisivac-vc2512l-cr-638"
+      ],
+      "risk": "high"
+    },
+    {
+      "id": "G014",
+      "title": "Čišćenje behatona: kada izabrati perač pod pritiskom, a kada četku",
+      "primaryKeyword": "čišćenje behatona peračem pod pritiskom",
+      "variants": [
+        "mahovina na behatonu",
+        "pranje behatona bez oštećenja fuga"
+      ],
+      "cluster": "spoljne-povrsine",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/ciscenje-behatona-perac-ili-cetka",
+      "toolIds": [
+        "tool-009",
+        "crafter-31501"
+      ],
+      "toolPaths": [
+        "/sr/alat/masina-za-ciscenje-behatona",
+        "/sr/alat/karcher-hd-4-10-x-plus-classic-perac-pod-pritiskom-145-bar-400-l-h-1800-w-cr-31501"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://www.stihl.rs/sr/saveti-projekti/ciscenje-spoljnih-povrsina/oko-kuce/ciscenje-kamena-za-poplocavanje",
+        "https://www.husqvarna.com/rs/ucite-i-otkrijte/cleaning-patio-slabs/"
+      ],
+      "sourceStatus": "primary_search_observed_needs_surface_and_model_review",
+      "status": "published",
+      "rationale": "Dva proizvođača nude srpske savete za kamen i dvorišne ploče; pitanje uključuje podlogu i fuge, ne samo najveći pritisak.",
+      "distinctValue": "Tabela vrsta naslage / osetljivost obloge / stanje fuga / dodatak koji treba potvrditi. Izabrati postupak prema proizvođaču ugrađenih ploča; ne prepisivati jačinu mlaza sa tuđeg servisa.",
+      "overlapWith": [
+        "/sr/alat/masina-za-ciscenje-behatona",
+        "/sr/alat/karcher-hd-4-10-x-plus-classic-perac-pod-pritiskom-145-bar-400-l-h-1800-w-cr-31501"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G015",
+      "title": "Kako izabrati odvlaživač za najam: prostor, temperatura i odvod kondenzata",
+      "primaryKeyword": "kako izabrati odvlaživač za najam",
+      "variants": [
+        "isušivač vlage izbor",
+        "odvlaživač za stan posle renoviranja"
+      ],
+      "cluster": "vlaga",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/izbor-odvlazivaca-za-najam",
+      "toolIds": [
+        "tool-011"
+      ],
+      "toolPaths": [
+        "/sr/alat/odvlazivac-isusivac-vazduha"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://www.house.rs/odvlazivacivazduh.html",
+        "https://isusivanje-vlage.rs/"
+      ],
+      "sourceStatus": "search_observed_needs_primary_review",
+      "status": "published",
+      "rationale": "Više beogradskih najam rezultata nudi isušivače za poplave i radove; konkretno pitanje izbora je komercijalno relevantno.",
+      "distinctValue": "Upitnik za prostor, izvor vlage, temperaturu, pristup i kondenzat. Pre brojki potvrditi stvarni model i uslove merenja kapaciteta. Povezati opremu bez tvrdnje da sama rešava izvor vlage.",
+      "overlapWith": [
+        "/sr/alat/odvlazivac-isusivac-vazduha"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G016",
+      "title": "Koliko traje isušivanje zida ili košuljice: šta se proverava pre završnih radova",
+      "primaryKeyword": "koliko traje isušivanje zidova",
+      "variants": [
+        "sušenje košuljice pre parketa",
+        "trajanje najma isušivača"
+      ],
+      "cluster": "vlaga",
+      "intent": "informational_problem_planning",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/trajanje-isusivanja-zidova-i-kosuljice",
+      "toolIds": [
+        "tool-011",
+        "tool-088"
+      ],
+      "toolPaths": [
+        "/sr/alat/odvlazivac-isusivac-vazduha",
+        "/sr/alat/susilica-za-kosuljicu"
+      ],
+      "priority": "P3",
+      "evidenceUrls": [
+        "https://isusivanje-vlage.rs/",
+        "https://isusivanjezidova.rs/b2b/"
+      ],
+      "sourceStatus": "search_observed_needs_primary_review",
+      "status": "deferred",
+      "rationale": "Beogradski rezultati imaju eksplicitna pitanja o trajanju i košuljici. Ne postoji dokaz za univerzalnu procenu po kvadraturi.",
+      "distinctValue": "Samo posle stručne provere: odvojiti vlagu vazduha od preostale vlage materijala i kriterijuma podne obloge; uključiti relevantne metode merenja. Ne davati rok za polaganje parketa prema broju dana.",
+      "overlapWith": [
+        "/sr/saveti/izbor-odvlazivaca-za-najam",
+        "/sr/alat/odvlazivac-isusivac-vazduha",
+        "/sr/alat/susilica-za-kosuljicu"
+      ],
+      "risk": "high"
+    },
+    {
+      "id": "G017",
+      "title": "Higrometar za vazduh ili merač vlage drveta: različite vrednosti i namene",
+      "primaryKeyword": "higrometar ili merač vlage drveta",
+      "variants": [
+        "vlaga vazduha i vlaga drveta",
+        "merač vlage UniversalHumid namena"
+      ],
+      "cluster": "merenje-vlage",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/higrometar-ili-merac-vlage-drveta",
+      "toolIds": [
+        "crafter-60941",
+        "crafter-3085"
+      ],
+      "toolPaths": [
+        "/sr/alat/bosch-digitalni-termo-higrometar-gdh-1-17-cr-60941",
+        "/sr/alat/bosch-merac-vlage-universal-humid-cr-3085"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://www.bosch-diy.com/gb/en/p/universalhumid-0603688001",
+        "https://www.house.rs/odvlazivacivazduh.html"
+      ],
+      "sourceStatus": "primary_search_observed_query_demand_unvalidated",
+      "status": "published",
+      "rationale": "Zvanični Bosch izvor UniversalHumid izričito namenjuje drvetu; pretrage vlage često mešaju prostor i građevinski materijal. Potražnja baš za ovom dugom frazom nije potvrđena.",
+      "distinctValue": "Poređenje jedinica, merenog objekta i granica namene. Nikada ne ponuditi UniversalHumid kao potvrđen merač preostale vlage estriha; podaci o GDH zahtevaju vlastitu dokumentaciju.",
+      "overlapWith": [
+        "/sr/saveti/izbor-odvlazivaca-za-najam",
+        "/sr/alat/bosch-digitalni-termo-higrometar-gdh-1-17-cr-60941",
+        "/sr/alat/bosch-merac-vlage-universal-humid-cr-3085"
+      ],
+      "risk": "low"
+    },
+    {
+      "id": "G018",
+      "title": "Termalna kamera ili infracrveni termometar: koji podatak vam treba",
+      "primaryKeyword": "termalna kamera ili infracrveni termometar",
+      "variants": [
+        "termovizija ili tačkasto merenje temperature"
+      ],
+      "cluster": "termovizija",
+      "intent": "informational_commercial_selection",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/termalna-kamera-ili-ic-termometar",
+      "toolIds": [
+        "tool-058",
+        "crafter-3084"
+      ],
+      "toolPaths": [
+        "/sr/alat/termalna-kamera",
+        "/sr/alat/bosch-termometar-ic-universal-temp-cr-3084"
+      ],
+      "priority": "P3",
+      "evidenceUrls": [
+        "https://beodetect.com/snimanje/termovizijsko-snimanje/termovizijsko-snimanje-temalnom-kamerom-velike-koncentracije-vlage-u-zidu-beograd-beodetect",
+        "https://dcileakdetection.co.uk/thermal-imaging-vs-moisture-meter/"
+      ],
+      "sourceStatus": "context_only_query_and_primary_sources_missing",
+      "status": "deferred",
+      "rationale": "Postoji lokalni termovizijski rezultat i međunarodno objašnjenje ograničenja. Neposredna srpska tražnja za poređenjem nije potvrđena.",
+      "distinctValue": "Tek posle primarnih izvora: slika temperaturnih razlika naspram tačkastog podatka, uslovi površine i šta nijedno merenje samo ne dokazuje.",
+      "overlapWith": [
+        "/sr/alat/termalna-kamera",
+        "/sr/alat/bosch-termometar-ic-universal-temp-cr-3084"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G019",
+      "title": "Može li termalna kamera da pronađe curenje vode: mogućnosti i ograničenja",
+      "primaryKeyword": "termalna kamera curenje vode",
+      "variants": [],
+      "cluster": "termovizija",
+      "intent": "informational_problem_assessment",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/termalna-kamera-curenje-vode-ogranicenja",
+      "toolIds": [
+        "tool-058",
+        "tool-059"
+      ],
+      "toolPaths": [
+        "/sr/alat/termalna-kamera",
+        "/sr/alat/akusticni-detektor-curenja-vode"
+      ],
+      "priority": "P3",
+      "evidenceUrls": [],
+      "sourceStatus": "recovery_partial_requires_primary_research",
+      "status": "deferred",
+      "rationale": "Srpski rezultati nude usluge detekcije; engleski rezultati objašnjavaju lažne zaključke. Ne prenositi uslužnu nameru na najam bez stručnog ograničenja.",
+      "distinctValue": "Razlikovati temperaturnu anomaliju od potvrđenog curenja; bez samostalne dijagnoze ili obećanja pronalaska kvara.",
+      "overlapWith": [
+        "/sr/alat/termalna-kamera",
+        "/sr/alat/akusticni-detektor-curenja-vode"
+      ],
+      "risk": "high",
+      "recovery": {
+        "status": "partial_reconstruction",
+        "reason": "Originalni zapis u istoriji alata bio je skraćen. Stabilan ID, canonical, odlaganje, naslov i razlog su sačuvani; nedostajući izvori nisu izmišljeni.",
+        "primaryKeywordReconstructed": false,
+        "toolMappingReconstructed": false
+      }
+    },
+    {
+      "id": "G020",
+      "title": "Hoblerica, ivična brusilica i polirka: šta ulazi u komplet za parket",
+      "primaryKeyword": "hoblerica ili polirka za parket",
+      "variants": [
+        "ivična hoblerka namena",
+        "mašine za obnovu parketa komplet"
+      ],
+      "cluster": "parket",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/hoblerica-ivicna-brusilica-polirka",
+      "toolIds": [
+        "tool-037",
+        "tool-107",
+        "tool-110"
+      ],
+      "toolPaths": [
+        "/sr/alat/hoblerica-za-parket",
+        "/sr/alat/ivicna-hoblerka-za-parket",
+        "/sr/alat/jednodiskna-masina-za-pranje-i-poliranje-podova"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://www.cleanshop.rs/najam/iznajmljivanje-hoblerice-za-parket/",
+        "https://www.znam-majstora.com/blog/kako-se-hobluje-parket"
+      ],
+      "sourceStatus": "search_observed_model_and_process_primary_review_needed",
+      "status": "published",
+      "rationale": "Lokalni najam rezultat nudi komplet hoblerice, polirke i ćoškare; postojeći vodiči ne objašnjavaju tu podelu.",
+      "distinctValue": "Mapa faza i različitih zadataka mašina, šta potvrditi u kompletu i kada zahteva iskustvo. Ne pretpostaviti da svaka generička jednodiskna mašina ima dodatak za svaku završnu obradu parketa.",
+      "overlapWith": [
+        "/sr/alat/hoblerica-za-parket",
+        "/sr/alat/ivicna-hoblerka-za-parket",
+        "/sr/alat/jednodiskna-masina-za-pranje-i-poliranje-podova"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G021",
+      "title": "Može li svaki parket da se hobluje: šta proveriti pre iznajmljivanja",
+      "primaryKeyword": "kada parket može da se hobluje",
+      "variants": [],
+      "cluster": "parket",
+      "intent": "informational_problem_assessment",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/kada-parket-moze-da-se-hobluje",
+      "toolIds": [
+        "tool-037"
+      ],
+      "toolPaths": [
+        "/sr/alat/hoblerica-za-parket"
+      ],
+      "priority": "P3",
+      "evidenceUrls": [],
+      "sourceStatus": "recovery_partial_requires_primary_research",
+      "status": "deferred",
+      "rationale": "Srpski vodič razlikuje debljinu habajućeg sloja i pominje greške početnika. Treba proveriti primarnim specifikacijama podne obloge.",
+      "distinctValue": "Pre izbora mašine proveriti tip poda, proizvođača obloge i stanje habajućeg sloja; ne propisivati univerzalnu dozvoljenu dubinu brušenja.",
+      "overlapWith": [
+        "/sr/alat/hoblerica-za-parket",
+        "/sr/saveti/hoblerica-ivicna-brusilica-polirka"
+      ],
+      "risk": "medium",
+      "recovery": {
+        "status": "partial_reconstruction",
+        "reason": "Originalni zapis u istoriji alata bio je skraćen. Stabilan ID, canonical, odlaganje, naslov i razlog su sačuvani; nedostajući izvori nisu izmišljeni.",
+        "primaryKeywordReconstructed": true,
+        "toolMappingReconstructed": true
+      }
+    },
+    {
+      "id": "G022",
+      "title": "Vertikulacija ili aeracija travnjaka: koji problem rešava koji alat",
+      "primaryKeyword": "vertikulacija ili aeracija travnjaka",
+      "variants": [
+        "prozračivanje travnjaka razlika",
+        "vertikuler ili aerator"
+      ],
+      "cluster": "basta",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/vertikulacija-ili-aeracija-travnjaka",
+      "toolIds": [
+        "tool-092"
+      ],
+      "toolPaths": [
+        "/sr/alat/prozracivac-travnjaka"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://www.stihl.rs/sr/saveti-projekti/odrzavanje-baste/odrzavanje-travnjaka/prozracivanje-travnjaka",
+        "https://www.daibau.rs/clanak/2939/aeracija_travnjaka"
+      ],
+      "sourceStatus": "primary_and_intent_search_observed_exact_rental_model_needed",
+      "status": "published",
+      "rationale": "Srpski proizvođač i lokalni informativni rezultat eksplicitno razdvajaju termine; katalog ima prozračivač.",
+      "distinctValue": "Matrica filc / zbijeno zemljište / aktivan rast i potreban uređaj. Pre objave utvrditi šta konkretan objavljeni prozračivač radi; ne obećavati da isti model obavlja svaku aeraciju.",
+      "overlapWith": [
+        "/sr/alat/prozracivac-travnjaka"
+      ],
+      "risk": "low"
+    },
+    {
+      "id": "G023",
+      "title": "Bušač zemlje za ogradu ili sadnju: šta navesti pre najma",
+      "primaryKeyword": "bušač zemlje za rupe za ogradu",
+      "variants": [
+        "motorni bušač zemlje izbor",
+        "burgija za zemlju najam priprema"
+      ],
+      "cluster": "basta",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/busac-zemlje-za-ogradu-i-sadnju",
+      "toolIds": [
+        "tool-020"
+      ],
+      "toolPaths": [
+        "/sr/alat/motorni-busac-rupa-za-zemlju"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://www.beorental.com/iznajmljivanje-alata/bastenski-alat/iznajmljivanje-busaca-za-rupe-beograd-villiger-busac-rupa-svrdlo",
+        "https://beorental.com/usluge/usluga-busenja-rupa-motornim-busacima-za-rupe-beograd"
+      ],
+      "sourceStatus": "search_observed_needs_primary_review",
+      "status": "published",
+      "rationale": "Beogradski rezultati nude najam i uslugu za ograde i sadnju, pa se jasno vidi namena i razlika između najma i izvršene usluge.",
+      "distinctValue": "Upitnik tip zemljišta / broj, prečnik i dubina rupa / pristup / potvrđene instalacije / raspoloživa ekipa. Ne garantovati rad kroz korenje i kamen, ni uslugu bušenja ako nije naša ponuda.",
+      "overlapWith": [
+        "/sr/alat/motorni-busac-rupa-za-zemlju"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G024",
+      "title": "Duvač lišća ili grabulje: izbor prema površini i količini lišća",
+      "primaryKeyword": "duvač lišća ili grabulje",
+      "variants": [
+        "kada iznajmiti duvač lišća",
+        "čišćenje dvorišta od lišća alat"
+      ],
+      "cluster": "basta",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/duvac-lisca-ili-grabulje",
+      "toolIds": [
+        "crafter-35684"
+      ],
+      "toolPaths": [
+        "/sr/alat/echo-duvac-lisca-motorni-pb-770euk5-cr-35684"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://www.stihl.rs/sr/saveti-projekti/odrzavanje-baste/bastenski-otpad/odlaganje-lisca"
+      ],
+      "sourceStatus": "primary_search_observed_exact_rental_model_manual_needed",
+      "status": "published",
+      "rationale": "Srpski proizvođački članak eksplicitno poredi malu parcelu i velike količine lišća. Tema je sezonski relevantna u oktobru, bez dokaza o veličini tražnje.",
+      "distinctValue": "Tabela površina / suvo ili mokro lišće / prepreke / skupljanje posle duvanja. Proveriti konkretni Echo; ne predstavljati duvač kao usisivač ako taj model to ne podržava.",
+      "overlapWith": [
+        "/sr/alat/echo-duvac-lisca-motorni-pb-770euk5-cr-35684"
+      ],
+      "risk": "low"
+    },
+    {
+      "id": "G025",
+      "title": "Trimer ili kosilica: šta izabrati za ravnu travu, ivice i teži teren",
+      "primaryKeyword": "trimer ili kosilica",
+      "variants": [
+        "kosilica za travnjak ili motorni trimer",
+        "alat za košenje prema terenu"
+      ],
+      "cluster": "basta",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/trimer-ili-kosilica",
+      "toolIds": [
+        "crafter-32934",
+        "crafter-22401",
+        "crafter-34718"
+      ],
+      "toolPaths": [
+        "/sr/alat/stihl-fs-120-benzinski-trimer-1-3-kw-cr-32934",
+        "/sr/alat/honda-hrg466-skep-samohodna-motorna-kosilica-3-1-kw-46-cm-cr-22401",
+        "/sr/alat/honda-mio-standard-ceona-kosa-ms-m90-cr-34718"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://www.stihl.rs/sr/stihl-tehnologija/baterijska-tehnologija/ai-linija"
+      ],
+      "sourceStatus": "primary_context_observed_query_demand_unvalidated",
+      "status": "published",
+      "rationale": "Proizvođački rezultati potvrđuju odvojene namene trimera i baštenskih uređaja; tačan upit i sezonski potencijal zahtevaju dodatnu proveru.",
+      "distinctValue": "Izbor prema nagibu, visini i gustini vegetacije i pristupu. Porediti samo potvrđene namene konkretnih modela; ne uvoditi univerzalni bezbedan nagib ili sečivo.",
+      "overlapWith": [
+        "/sr/alat/stihl-fs-120-benzinski-trimer-1-3-kw-cr-32934",
+        "/sr/alat/honda-hrg466-skep-samohodna-motorna-kosilica-3-1-kw-46-cm-cr-22401",
+        "/sr/alat/honda-mio-standard-ceona-kosa-ms-m90-cr-34718"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G026",
+      "title": "Kako izabrati agregat za najam: potrošači, faze i početna opterećenja",
+      "primaryKeyword": "kako izabrati agregat za najam",
+      "variants": [
+        "monofazni ili trofazni agregat",
+        "agregat za alat potrebna snaga"
+      ],
+      "cluster": "agregati",
+      "intent": "informational_commercial_selection",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/izbor-agregata-za-najam",
+      "toolIds": [
+        "crafter-21990",
+        "crafter-22407",
+        "crafter-22013"
+      ],
+      "toolPaths": [
+        "/sr/alat/agregat-1-fazni-honda-5-5kw-eg5500cl-gw-honda-cr-21990",
+        "/sr/alat/agregat-honda-1-3-fazni-ect7500-4-7-kw-cr-22407",
+        "/sr/alat/honda-eu22ite-agregat-1-fazni-2-2kw-cr-22013"
+      ],
+      "priority": "P3",
+      "evidenceUrls": [
+        "https://iznajmljivanjeagregata.com/product/trofazno-monofazni-agregat-endress/",
+        "https://gamaizvodjaci.rs/iznajmljivanje-gradjevinskih-masina/agregat/"
+      ],
+      "sourceStatus": "search_observed_exact_model_manuals_and_expert_review_missing",
+      "status": "deferred",
+      "rationale": "Srpski rezultati razdvajaju monofaznu i trofaznu ponudu i potrošače. Tuđi iznosi kVA/kW i spiskovi uređaja nisu specifikacije naših modela.",
+      "distinctValue": "Samo posle primarnih Honda uputstava i stručnog pregleda: lista potrošača za stručni izbor. Bez uputstva za spajanje u kućnu instalaciju, bez univerzalnog procenta rezerve, bez rada motora u zatvorenom.",
+      "overlapWith": [
+        "/sr/alat/agregat-1-fazni-honda-5-5kw-eg5500cl-gw-honda-cr-21990",
+        "/sr/alat/agregat-honda-1-3-fazni-ect7500-4-7-kw-cr-22407",
+        "/sr/alat/honda-eu22ite-agregat-1-fazni-2-2kw-cr-22013"
+      ],
+      "risk": "high"
+    },
+    {
+      "id": "G027",
+      "title": "Pumpa za čistu, prljavu ili plitku vodu: šta proveriti pre najma",
+      "primaryKeyword": "pumpa za čistu ili prljavu vodu",
+      "variants": [
+        "pumpa do nultog nivoa",
+        "izbor pumpe za ispumpavanje vode"
+      ],
+      "cluster": "pumpe",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/pumpa-za-cistu-prljavu-ili-plitku-vodu",
+      "toolIds": [
+        "tool-014",
+        "crafter-21756",
+        "crafter-21755",
+        "crafter-21993"
+      ],
+      "toolPaths": [
+        "/sr/alat/pumpa-za-vodu-do-nultog-nivoa",
+        "/sr/alat/pumpa-za-prljavu-vodu-potapajuca-dm-10-pedrollo-cr-21756",
+        "/sr/alat/pumpa-za-vodu-potapajuca-top-multi-ii-pedrollo-cr-21755",
+        "/sr/alat/pumpa-za-vodu-honda-wb20xt4drx-cr-21993"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://almyshop.ba/proizvod/potopna-pumpa-za-prljavu-vodu-dwp750-scheppach/14358",
+        "https://www.beorental.com/"
+      ],
+      "sourceStatus": "regional_search_context_observed_exact_model_primary_sources_missing",
+      "status": "published",
+      "rationale": "Regionalni rezultat eksplicitno razdvaja čestice i mogućnost niskog usisa; lokalni katalog najma ima poseban klaster pumpi. Srpska tražnja za tačnim poređenjem nije merena.",
+      "distinctValue": "Kontrolna lista vrsta vode / čestice / visinska razlika / crevo / preostali nivo. Tačne kapacitete dobiti iz Pedrollo/Honda dokumentacije, ne sa tuđeg Scheppach proizvoda. Bez koraka ulaska u poplavljen prostor pod naponom.",
+      "overlapWith": [
+        "/sr/alat/pumpa-za-vodu-do-nultog-nivoa",
+        "/sr/alat/pumpa-za-prljavu-vodu-potapajuca-dm-10-pedrollo-cr-21756",
+        "/sr/alat/pumpa-za-vodu-potapajuca-top-multi-ii-pedrollo-cr-21755",
+        "/sr/alat/pumpa-za-vodu-honda-wb20xt4drx-cr-21993"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G028",
+      "title": "Kamera za kanalizaciju ili endoskopska kamera: razlika u nameni",
+      "primaryKeyword": "kamera za kanalizaciju ili endoskopska kamera",
+      "variants": [
+        "inspekciona kamera za cevi izbor",
+        "kamera za odvod najam"
+      ],
+      "cluster": "cevi",
+      "intent": "informational_commercial_selection",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/kamera-za-kanalizaciju-ili-endoskopska",
+      "toolIds": [
+        "tool-106",
+        "tool-057"
+      ],
+      "toolPaths": [
+        "/sr/alat/kamera-za-kanalizaciju",
+        "/sr/alat/endoskopska-inspekciona-kamera"
+      ],
+      "priority": "P3",
+      "evidenceUrls": [
+        "https://tabija.rs/o-nama/",
+        "https://vodoservis.rs/"
+      ],
+      "sourceStatus": "service_intent_observed_rental_model_and_query_validation_missing",
+      "status": "deferred",
+      "rationale": "Beogradski servisi koriste specijalizovane kamere i odgušenje; to nije dokaz da je mala endoskopska kamera dovoljna za isto.",
+      "distinctValue": "Porediti prečnik glave, dužinu, krivine, potiskivanje, zaštitu i snimanje samo kada su modeli potvrđeni. Ne tvrditi lociranje sonde bez podrške konkretnog kompleta.",
+      "overlapWith": [
+        "/sr/alat/kamera-za-kanalizaciju",
+        "/sr/alat/endoskopska-inspekciona-kamera"
+      ],
+      "risk": "high"
+    },
+    {
+      "id": "G029",
+      "title": "Mašina za odgušenje cevi ili stručna intervencija: kada najam ima smisla",
+      "primaryKeyword": "mašina za odgušenje cevi najam ili vodoinstalater",
+      "variants": [
+        "sajla za odgušenje izbor",
+        "ponovno začepljenje cevi kamera"
+      ],
+      "cluster": "cevi",
+      "intent": "informational_suitability",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/najam-masine-za-odgusenje-ili-intervencija",
+      "toolIds": [
+        "tool-094",
+        "tool-106"
+      ],
+      "toolPaths": [
+        "/sr/alat/masina-za-odgusenje-cevi",
+        "/sr/alat/kamera-za-kanalizaciju"
+      ],
+      "priority": "P3",
+      "evidenceUrls": [
+        "https://vodoservis.rs/",
+        "https://mrproperclean.rs/ciscenje-cevi-i-otpusavanje-kanalizacije/"
+      ],
+      "sourceStatus": "service_intent_observed_expert_and_model_review_required",
+      "status": "deferred",
+      "rationale": "Lokalni rezultati imaju snažnu uslužnu nameru i ponavljanje začepljenja. Najam ne odgovara svakoj hitnoj intervenciji.",
+      "distinctValue": "Opis granica samostalnog rada i podataka za stručnu procenu; bez koraka za rukovanje rotirajućom sajlom ili mešanja hemikalija. Ne predstavljati vodoinstalatersku intervenciju kao našu uslugu.",
+      "overlapWith": [
+        "/sr/alat/masina-za-odgusenje-cevi",
+        "/sr/alat/kamera-za-kanalizaciju"
+      ],
+      "risk": "high"
+    },
+    {
+      "id": "G030",
+      "title": "Ekscentrična, vibraciona ili tračna brusilica: izbor za drvo i završnu obradu",
+      "primaryKeyword": "ekscentrična vibraciona ili tračna brusilica",
+      "variants": [
+        "brusilica za nameštaj izbor",
+        "vrste brusilica za drvo"
+      ],
+      "cluster": "brusenje-drveta",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica",
+      "toolIds": [
+        "crafter-562",
+        "crafter-757",
+        "crafter-634"
+      ],
+      "toolPaths": [
+        "/sr/alat/makita-bo5041-ekscentricna-brusilica-300w-125mm-cr-562",
+        "/sr/alat/makita-bo3710-brusilica-vibraciona-190w-93x185mm-cr-757",
+        "/sr/alat/makita-9910-tracna-brusilica-650w-457x76mm-cr-634"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://eplaneta.rs/alati-i-masine/elektricni-alati/brusilice-slajferice-i-polirke.html?vrsta=291959",
+        "https://www.einhell.rs/fileadmin/RS/service/catalogues/pdf-rs/Saveti-i-preporuke.pdf"
+      ],
+      "sourceStatus": "primary_and_intent_search_observed_exact_model_review_needed",
+      "status": "published",
+      "rationale": "Srpski rezultati već imaju poređenje tri tipa, a proizvođački materijal objašnjava različite namene.",
+      "distinctValue": "Tabela oblik površine / uklanjanje sloja ili fina obrada / pristup uglovima / odvođenje prašine, uz tri stvarna Makita modela. Ne obećavati površinu bez tragova bez obzira na abraziv i postupak.",
+      "overlapWith": [
+        "/sr/alat/makita-bo5041-ekscentricna-brusilica-300w-125mm-cr-562",
+        "/sr/alat/makita-bo3710-brusilica-vibraciona-190w-93x185mm-cr-757",
+        "/sr/alat/makita-9910-tracna-brusilica-650w-457x76mm-cr-634"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G031",
+      "title": "Ubodna, sabljasta ili kružna testera: izbor prema obliku reza",
+      "primaryKeyword": "ubodna sabljasta ili kružna testera",
+      "variants": [
+        "razlika ubodna i sabljasta testera",
+        "testera za kriv ili prav rez"
+      ],
+      "cluster": "testerisanje",
+      "intent": "informational_commercial_selection",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/ubodna-sabljasta-ili-kruzna-testera",
+      "toolIds": [
+        "crafter-491",
+        "crafter-63074",
+        "crafter-564"
+      ],
+      "toolPaths": [
+        "/sr/alat/dewalt-ubodna-testera-dw331k-701-w-cr-491",
+        "/sr/alat/bosch-univerzalna-testera-recipro-gsa-12-30-1250-w-cr-63074",
+        "/sr/alat/makita-hs7601-rucna-kruzna-testera-cr-564"
+      ],
+      "priority": "P2",
+      "evidenceUrls": [
+        "https://lagermarket.rs/blogs/predstavljamo/sabljasta-ili-ubodna-testera",
+        "https://www.hilti.rs/c/CLS_POWER_TOOLS_7125/CLS_SAWS_7125/info/learn-more/metal-saws"
+      ],
+      "sourceStatus": "primary_and_intent_search_observed_exact_model_review_needed",
+      "status": "published",
+      "rationale": "Srpski rezultat eksplicitno poredi sabljastu i ubodnu; postoje i poređenja sa kružnom. Klaster ima jasnu selekcionu nameru.",
+      "distinctValue": "Matrica precizan prav rez / krivina / demontaža / materijal, sa uslovom odgovarajućeg lista i granica modela. Bez tutorijala za rizičan upadni rez ili rad u skrivenim instalacijama.",
+      "overlapWith": [
+        "/sr/alat/dewalt-ubodna-testera-dw331k-701-w-cr-491",
+        "/sr/alat/bosch-univerzalna-testera-recipro-gsa-12-30-1250-w-cr-63074",
+        "/sr/alat/makita-hs7601-rucna-kruzna-testera-cr-564"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "G032",
+      "title": "Airless ili HVLP mašina za krečenje: izbor prema boji i obimu radova",
+      "primaryKeyword": "airless ili HVLP mašina za krečenje",
+      "variants": [
+        "Wagner ili sistem za raspršivanje boje izbor",
+        "mašina za krečenje tip sistema"
+      ],
+      "cluster": "farbanje",
+      "intent": "informational_commercial_selection",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/airless-ili-hvlp-masina-za-krecenje",
+      "toolIds": [
+        "crafter-31662",
+        "crafter-584"
+      ],
+      "toolPaths": [
+        "/sr/alat/wagner-control-pro-250-m-masina-za-krecenje-cr-31662",
+        "/sr/alat/bosch-pfs5000e-masina-za-krecenje-1200w-cr-584"
+      ],
+      "priority": "P3",
+      "evidenceUrls": [
+        "https://www.wagnerspraytech.com/faqs/what-is-the-difference-between-an-airless-sprayer-and-an-hvlp-sprayer/",
+        "https://www.wagner-group.com/en/do-it-yourself/service-and-consulting/faqs-for-diyers/faqs-for-hvlp-sprayer/"
+      ],
+      "sourceStatus": "primary_context_observed_local_intent_and_exact_models_unvalidated",
+      "status": "deferred",
+      "rationale": "Zvanični Wagner izvori imaju poređenje, ali ova pretraga nije potvrdila srpsku tražnju niti klasifikaciju konkretnog Bosch sistema.",
+      "distinctValue": "Tek posle potvrde tehnologije za PFS5000E i Control Pro 250 M: kompatibilan premaz, obim, priprema prostora i čišćenje kao stavke odluke. Bez saveta za rad pod pritiskom ili univerzalnog razređivanja boje.",
+      "overlapWith": [
+        "/sr/alat/wagner-control-pro-250-m-masina-za-krecenje-cr-31662",
+        "/sr/alat/bosch-pfs5000e-masina-za-krecenje-1200w-cr-584"
+      ],
+      "risk": "high"
+    },
+    {
+      "id": "G033",
+      "title": "Laserski nivelator, rotacioni laser i daljinomer: tri različita zadatka",
+      "primaryKeyword": "laserski nivelator ili daljinomer",
+      "variants": [
+        "rotacioni laser ili linijski nivelator",
+        "razlika lasera za merenje i nivelaciju"
+      ],
+      "cluster": "merenje",
+      "intent": "informational_commercial_selection",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/nivelator-rotacioni-laser-ili-daljinomer",
+      "toolIds": [
+        "tool-055",
+        "crafter-39897",
+        "crafter-29677"
+      ],
+      "toolPaths": [
+        "/sr/alat/laserski-nivelator",
+        "/sr/alat/bosch-rotacioni-laser-grl-400-h-lr1-kofer-cr-39897",
+        "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677"
+      ],
+      "priority": "P3",
+      "evidenceUrls": [
+        "https://gradim.rs/blogovi/daljinomer-i-laseri-%E2%80%93-vodic-kroz-precizne-mjerne-instrumente-za-nivelaciju-21",
+        "https://www.bosch-professional.com/rs/sr/products/glm-50-27-cg-0601072U00"
+      ],
+      "sourceStatus": "search_context_observed_overlap_review_required",
+      "status": "deferred",
+      "rationale": "Srpski rezultat povezuje merenje daljine i nivelaciju, ali isti sadržaj može pokriti uvod pilot vodiča G002.",
+      "distinctValue": "Odobriti zaseban vodič samo uz jasno dokazanu nameru za nivelaciju i modele; daljinomer kao kratko razgraničenje, bez ponavljanja poređenja sa metrom.",
+      "overlapWith": [
+        "/sr/saveti/laserski-daljinomer-ili-metar",
+        "/sr/alat/laserski-nivelator",
+        "/sr/alat/bosch-rotacioni-laser-grl-400-h-lr1-kofer-cr-39897",
+        "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677"
+      ],
+      "risk": "low"
+    },
+    {
+      "id": "G034",
+      "title": "Merdevine ili pokretna skela: šta proveriti za duže radove na visini",
+      "primaryKeyword": "merdevine ili pokretna skela",
+      "variants": [
+        "skela ili merdevine za krečenje",
+        "radna platforma izbor"
+      ],
+      "cluster": "visina",
+      "intent": "informational_commercial_selection",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/merdevine-ili-pokretna-skela",
+      "toolIds": [
+        "crafter-20586",
+        "crafter-20591",
+        "tool-112"
+      ],
+      "toolPaths": [
+        "/sr/alat/cagsan-merdevine-aluminijumske-trodelne-3x10-pro-cr-20586",
+        "/sr/alat/krause-climtec-skela-osnovni-paket-3m-cr-20591",
+        "/sr/alat/radna-platforma"
+      ],
+      "priority": "P3",
+      "evidenceUrls": [
+        "https://eshop.wurth.rs/merdevine-aluminijumske-trodelne-3x9-gazista",
+        "https://lagermarket.rs/blogs/predstavljamo/kako-se-koristi-zirafa-za-smirglanje"
+      ],
+      "sourceStatus": "context_only_direct_query_and_expert_review_required",
+      "status": "deferred",
+      "rationale": "Kontekst rezultata pominje različit pristup zidovima i visini. Samostalna srpska tražnja za ovim poređenjem nije direktno potvrđena.",
+      "distinctValue": "Stručno pregledana pitanja o trajanju rada, raspoloživoj podlozi, pristupu i teretu; bez improvizovane montaže. Najpre proceniti da li je dovoljno proširenje postojećeg vodiča merdevina.",
+      "overlapWith": [
+        "/sr/saveti/kako-izabrati-merdevine",
+        "/sr/alat/cagsan-merdevine-aluminijumske-trodelne-3x10-pro-cr-20586",
+        "/sr/alat/krause-climtec-skela-osnovni-paket-3m-cr-20591",
+        "/sr/alat/radna-platforma"
+      ],
+      "risk": "high"
+    }
+  ],
+  "recovery": {
+    "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+    "exactItemSnapshotsRecovered": 32,
+    "partiallyReconstructedIds": [
+      "G019",
+      "G021"
+    ],
+    "originalAggregateMetadataNotFullyRecovered": true,
+    "source": "Istorija ovog razgovora od 16. do 25. oktobra, plus sadašnji potvrđeni javni inventar.",
+    "itemProvenance": {
+      "G001": {
+        "line": 1008,
+        "timestamp": "2026-10-18T07:50:51.041Z"
+      },
+      "G002": {
+        "line": 1008,
+        "timestamp": "2026-10-18T07:50:51.041Z"
+      },
+      "G003": {
+        "line": 1008,
+        "timestamp": "2026-10-18T07:50:51.041Z"
+      },
+      "G005": {
+        "line": 1972,
+        "timestamp": "2026-10-20T16:55:15.112Z"
+      },
+      "G007": {
+        "line": 1972,
+        "timestamp": "2026-10-20T16:55:15.112Z"
+      },
+      "G008": {
+        "line": 1413,
+        "timestamp": "2026-10-19T11:56:26.102Z"
+      },
+      "G009": {
+        "line": 3300,
+        "timestamp": "2026-10-24T09:20:58.280Z"
+      },
+      "G010": {
+        "line": 1043,
+        "timestamp": "2026-10-18T10:30:33.818Z"
+      },
+      "G017": {
+        "line": 1043,
+        "timestamp": "2026-10-18T10:30:33.818Z"
+      },
+      "G024": {
+        "line": 1043,
+        "timestamp": "2026-10-18T10:30:33.818Z"
+      },
+      "G015": {
+        "line": 1413,
+        "timestamp": "2026-10-19T11:56:26.102Z"
+      },
+      "G030": {
+        "line": 1413,
+        "timestamp": "2026-10-19T11:56:26.102Z"
+      },
+      "G022": {
+        "line": 1972,
+        "timestamp": "2026-10-20T16:55:15.112Z"
+      },
+      "G006": {
+        "line": 2844,
+        "timestamp": "2026-10-22T08:46:37.382Z"
+      },
+      "G023": {
+        "line": 2844,
+        "timestamp": "2026-10-22T08:46:37.382Z"
+      },
+      "G031": {
+        "line": 2844,
+        "timestamp": "2026-10-22T08:46:37.382Z"
+      },
+      "G004": {
+        "line": 2937,
+        "timestamp": "2026-10-23T09:30:19.718Z"
+      },
+      "G012": {
+        "line": 3646,
+        "timestamp": "2026-10-25T07:44:19.590Z"
+      },
+      "G013": {
+        "line": 3646,
+        "timestamp": "2026-10-25T07:44:19.590Z"
+      },
+      "G025": {
+        "line": 3300,
+        "timestamp": "2026-10-24T09:20:58.280Z"
+      },
+      "G026": {
+        "line": 2927,
+        "timestamp": "2026-10-23T06:13:45.164Z"
+      },
+      "G027": {
+        "line": 2937,
+        "timestamp": "2026-10-23T09:30:19.718Z"
+      },
+      "G028": {
+        "line": 2927,
+        "timestamp": "2026-10-23T06:13:45.164Z"
+      },
+      "G029": {
+        "line": 3646,
+        "timestamp": "2026-10-25T07:44:19.590Z"
+      },
+      "G032": {
+        "line": 3646,
+        "timestamp": "2026-10-25T07:44:19.590Z"
+      },
+      "G033": {
+        "line": 3646,
+        "timestamp": "2026-10-25T07:44:19.590Z"
+      },
+      "G034": {
+        "line": 3646,
+        "timestamp": "2026-10-25T07:44:19.590Z"
+      },
+      "G014": {
+        "line": 2937,
+        "timestamp": "2026-10-23T09:30:19.718Z"
+      },
+      "G011": {
+        "line": 3646,
+        "timestamp": "2026-10-25T07:44:19.590Z"
+      },
+      "G020": {
+        "line": 3300,
+        "timestamp": "2026-10-24T09:20:58.280Z"
+      },
+      "G016": {
+        "line": 3646,
+        "timestamp": "2026-10-25T07:44:19.590Z"
+      },
+      "G018": {
+        "line": 3646,
+        "timestamp": "2026-10-25T07:44:19.590Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "runId": "REPLACE_WITH_UNIQUE_RUN_ID",
+  "localDate": "YYYY-MM-DD",
+  "timezone": "Europe/Belgrade",
+  "scheduledLocalTime": "08:00",
+  "trigger": "scheduled",
+  "startedAt": null,
+  "finishedAt": null,
+  "status": "in_progress",
+  "targetPackages": 3,
+  "selectedIds": [],
+  "completedIds": [],
+  "incompleteIds": [],
+  "errors": [],
+  "recovery": null,
+  "checksPerformed": [],
+  "notes": [],
+  "new_count": 0,
+  "refresh_count": 0,
+  "published_count": 0,
+  "controlsExercised": {
+    "exclusiveLock": false,
+    "atomicQueueWrite": false,
+    "publicVerification": false
+  },
+  "googleStatus": {
+    "status": "not_checked",
+    "requestsSubmitted": 0,
+    "indexedCount": null
+  }
+}

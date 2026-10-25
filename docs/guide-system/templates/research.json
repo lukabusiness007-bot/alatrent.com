@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "REPLACE_WITH_STABLE_ID",
+  "researchedAt": null,
+  "searches": [],
+  "sources": [],
+  "claimMap": [],
+  "searchMetrics": {
+    "monthlyVolume": null,
+    "keywordDifficulty": null,
+    "googlePosition": null,
+    "source": null,
+    "period": null
+  },
+  "constraints": [],
+  "openQuestions": [],
+  "fieldDefinitions": {
+    "searches": "query, engine/tool, observedAt, language, locale, device, openedUrls, observation; unknown fields are null",
+    "sources": "id, url, title, publisher, accessedAt, kind, model, locationInSource, claims, limitations, access_status; only actually opened pages",
+    "claimMap": "id, articleClaim, articleSection, sourceIds, status, applicability, reviewerNote; status verified_primary|verified_business|needs_model_confirmation|unsupported"
+  }
+}

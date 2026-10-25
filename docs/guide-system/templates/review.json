@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "REPLACE_WITH_STABLE_ID",
+  "status": "internal_review",
+  "internalReview": {
+    "reviewedAt": null,
+    "reviewer": null,
+    "isIndependentAgent": false,
+    "score": null,
+    "rubric": {},
+    "factChecks": [],
+    "overlapCheck": null,
+    "linkChecks": [],
+    "hardFailures": [],
+    "revisionCount": 0
+  },
+  "humanReview": {
+    "status": "not_performed",
+    "name": null,
+    "reviewedAt": null,
+    "scope": null
+  },
+  "openQuestions": [],
+  "integrationGaps": [],
+  "publicationReadiness": {
+    "unresolvedCriticalQuestions": [],
+    "articleSha256": null,
+    "note": "Prazan obrazac nije prošao pregled. Pre ready_to_publish evidentirati stvarni pregled, bodove, tvrde greške i hash teksta."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "REPLACE_WITH_STABLE_ID",
+  "status": "not_published",
+  "policy": "publish_after_checks",
+  "publishedAt": null,
+  "updatedAt": null,
+  "publicUrl": null,
+  "sourceRevision": null,
+  "deploymentId": null,
+  "deploymentUrl": null,
+  "publicVerifiedAt": null,
+  "checks": [],
+  "googleDiscovery": {
+    "status": "not_checked",
+    "checkedAt": null,
+    "indexingRequestedAt": null,
+    "evidence": null
+  },
+  "blocker": null
+}

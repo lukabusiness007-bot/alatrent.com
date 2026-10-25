@@ -1,0 +1,1313 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Europe/Belgrade",
+  "dailyTarget": 3,
+  "mode": "publish_after_checks",
+  "updatedAt": "2026-10-25T22:52:51.234510+00:00",
+  "nextIdNumber": 35,
+  "statusDefinitions": {
+    "pending_research": "U operativnom redu, istraživanje nije završeno.",
+    "researching": "Istraživanje je u toku.",
+    "brief_ready": "Namera, izvori i plan su sačuvani.",
+    "drafting": "Članak se piše.",
+    "internal_review": "AI provera je u toku; nije ljudska stručna provera.",
+    "needs_human_review": "Konkretno nerešeno stručno pitanje za koje je potreban stvarni pregled.",
+    "needs_revision": "Postoje konkretni problemi za doradu.",
+    "blocked_source": "Ne postoji dovoljan provereni izvor za potreban odgovor.",
+    "blocked_overlap": "Tema ponavlja postojeću nameru; treba spajanje ili dopuna.",
+    "deferred": "Tema je odložena sa razlogom.",
+    "failed": "Najviše tri pokušaja bez uspešnog završetka.",
+    "approved_for_integration": "Stvarna urednička provera je završena; integracija tek sledi.",
+    "published": "Javni URL je provereno objavljen posle integracije.",
+    "ready_to_publish": "Najmanje 90/100, nula tvrdih grešaka i rešena ključna pitanja; još nije javna objava.",
+    "publishing": "Ciljana integracija, deploy ili javna provera je u toku.",
+    "publication_blocked": "Tehničke provere ili pristup hostingu sprečavaju potvrđenu javnu objavu."
+  },
+  "items": [
+    {
+      "id": "G001",
+      "slug": "udarna-busilica-ili-busilica-cekic",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/udarna-busilica-ili-busilica-cekic",
+      "priority": "P1",
+      "status": "published",
+      "attempts": 1,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-17T08:15:17.673682+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "internalScore": 92,
+      "humanReviewStatus": "not_performed",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": "research/guide-drafts/2026-10-16/G001-udarna-busilica-ili-busilica-cekic",
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/udarna-busilica-ili-busilica-cekic",
+      "publishedAt": "2026-10-17T08:15:17.673682+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G002",
+      "slug": "laserski-daljinomer-ili-metar",
+      "canonicalTarget": "/sr/saveti/laserski-daljinomer-ili-metar",
+      "action": "new",
+      "priority": "P1",
+      "attempts": null,
+      "createdAt": null,
+      "updatedAt": "2026-10-17T08:15:17.673682+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": false,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "status": "published",
+      "publicUrl": "https://alatrent.rs/sr/saveti/laserski-daljinomer-ili-metar",
+      "publishedAt": "2026-10-17T08:15:17.673682+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G003",
+      "slug": "rucni-ili-elektricni-sekac-plocica",
+      "canonicalTarget": "/sr/saveti/rucni-ili-elektricni-sekac-plocica",
+      "action": "new",
+      "priority": "P1",
+      "attempts": null,
+      "createdAt": null,
+      "updatedAt": "2026-10-17T08:15:17.673682+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": false,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "status": "published",
+      "publicUrl": "https://alatrent.rs/sr/saveti/rucni-ili-elektricni-sekac-plocica",
+      "publishedAt": "2026-10-17T08:15:17.673682+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G004",
+      "slug": "izbor-ploce-za-ugaonu-brusilicu",
+      "canonicalTarget": "/sr/saveti/izbor-ploce-za-ugaonu-brusilicu",
+      "action": "new",
+      "priority": "P2",
+      "attempts": null,
+      "createdAt": null,
+      "updatedAt": "2026-10-23T09:40:12.187291+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": false,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "status": "published",
+      "publicUrl": "https://alatrent.rs/sr/saveti/izbor-ploce-za-ugaonu-brusilicu",
+      "publishedAt": "2026-10-23T09:40:12.187291+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G005",
+      "slug": "vibro-ploca-ili-vibro-zaba",
+      "action": "refresh",
+      "canonicalTarget": "/sr/saveti/vibro-ploca-ili-vibro-zaba",
+      "priority": "P1",
+      "status": "published",
+      "attempts": 1,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-20T16:59:21.644Z",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": "research/guide-drafts/2026-10-20/G005-vibro-ploca-ili-vibro-zaba",
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/vibro-ploca-ili-vibro-zaba",
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G006",
+      "slug": "kako-izabrati-merdevine",
+      "action": "refresh",
+      "canonicalTarget": "/sr/saveti/kako-izabrati-merdevine",
+      "priority": "P2",
+      "status": "published",
+      "attempts": 1,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-21T15:49:22.570Z",
+      "lastError": null,
+      "blockedReason": null,
+      "sourceRevision": "2010261f2a0dd514808a26765b212b5d73ba6271",
+      "publicationFile": "research/guide-drafts/2026-10-21/G006-kako-izabrati-merdevine/publication.json",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": "research/guide-drafts/2026-10-21/G006-kako-izabrati-merdevine",
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/kako-izabrati-merdevine",
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G007",
+      "slug": "zirafa-i-usisivac-za-zidove",
+      "action": "refresh",
+      "canonicalTarget": "/sr/saveti/zirafa-i-usisivac-za-zidove",
+      "priority": "P1",
+      "status": "published",
+      "attempts": 1,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-20T16:59:21.644Z",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": "research/guide-drafts/2026-10-20/G007-zirafa-i-usisivac-za-zidove",
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/zirafa-i-usisivac-za-zidove",
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G008",
+      "slug": "dubinsko-pranje-namestaja-izbor-masine",
+      "canonicalTarget": "/sr/saveti/dubinsko-pranje-namestaja-izbor-masine",
+      "action": "refresh",
+      "priority": "P1",
+      "attempts": null,
+      "createdAt": null,
+      "updatedAt": "2026-10-19T13:01:53.410894+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": false,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "status": "published",
+      "publicUrl": "https://alatrent.rs/sr/saveti/dubinsko-pranje-namestaja-izbor-masine",
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G009",
+      "slug": "cena-najma-alata-i-dostave",
+      "action": "refresh",
+      "canonicalTarget": "/sr/saveti/cena-najma-alata-i-dostave",
+      "priority": "P1",
+      "status": "published",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-24T09:35:13.800588+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/cena-najma-alata-i-dostave",
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G010",
+      "slug": "parocistac-ili-ekstraktor",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/parocistac-ili-ekstraktor",
+      "priority": "P1",
+      "status": "published",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-18T10:38:52.024398+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/parocistac-ili-ekstraktor",
+      "publishedAt": "2026-10-18T10:38:52.024398+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G011",
+      "slug": "susenje-namestaja-posle-dubinskog-pranja",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/susenje-namestaja-posle-dubinskog-pranja",
+      "priority": "P2",
+      "status": "pending_research",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    },
+    {
+      "id": "G012",
+      "slug": "najam-masine-ili-usluga-dubinskog-pranja",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/najam-masine-ili-usluga-dubinskog-pranja",
+      "priority": "P2",
+      "status": "pending_research",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    },
+    {
+      "id": "G013",
+      "slug": "industrijski-usisivac-klasa-prasine",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/industrijski-usisivac-klasa-prasine",
+      "priority": "P2",
+      "status": "pending_research",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    },
+    {
+      "id": "G014",
+      "slug": "ciscenje-behatona-perac-ili-cetka",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/ciscenje-behatona-perac-ili-cetka",
+      "priority": "P2",
+      "status": "published",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-23T09:40:12.187291+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/ciscenje-behatona-perac-ili-cetka",
+      "publishedAt": "2026-10-23T09:40:12.187291+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G015",
+      "slug": "izbor-odvlazivaca-za-najam",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/izbor-odvlazivaca-za-najam",
+      "priority": "P2",
+      "status": "published",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-19T13:01:53.410894+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/izbor-odvlazivaca-za-najam",
+      "publishedAt": "2026-10-19T13:01:53.410894+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G016",
+      "slug": "trajanje-isusivanja-zidova-i-kosuljice",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/trajanje-isusivanja-zidova-i-kosuljice",
+      "priority": "P3",
+      "status": "deferred",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": "Beogradski rezultati imaju eksplicitna pitanja o trajanju i košuljici. Ne postoji dokaz za univerzalnu procenu po kvadraturi.",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    },
+    {
+      "id": "G017",
+      "slug": "higrometar-ili-merac-vlage-drveta",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/higrometar-ili-merac-vlage-drveta",
+      "priority": "P2",
+      "status": "published",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-18T10:38:52.024398+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/higrometar-ili-merac-vlage-drveta",
+      "publishedAt": "2026-10-18T10:38:52.024398+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G018",
+      "slug": "termalna-kamera-ili-ic-termometar",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/termalna-kamera-ili-ic-termometar",
+      "priority": "P3",
+      "status": "deferred",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": "Postoji lokalni termovizijski rezultat i međunarodno objašnjenje ograničenja. Neposredna srpska tražnja za poređenjem nije potvrđena.",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    },
+    {
+      "id": "G019",
+      "slug": "termalna-kamera-curenje-vode-ogranicenja",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/termalna-kamera-curenje-vode-ogranicenja",
+      "priority": "P3",
+      "status": "deferred",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": "Srpski rezultati nude usluge detekcije; engleski rezultati objašnjavaju lažne zaključke. Ne prenositi uslužnu nameru na najam bez stručnog ograničenja.",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    },
+    {
+      "id": "G020",
+      "slug": "hoblerica-ivicna-brusilica-polirka",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/hoblerica-ivicna-brusilica-polirka",
+      "priority": "P2",
+      "status": "published",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-24T09:35:13.800588+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/hoblerica-ivicna-brusilica-polirka",
+      "publishedAt": "2026-10-24T09:35:13.800588+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G021",
+      "slug": "kada-parket-moze-da-se-hobluje",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/kada-parket-moze-da-se-hobluje",
+      "priority": "P3",
+      "status": "deferred",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": "Srpski vodič razlikuje debljinu habajućeg sloja i pominje greške početnika. Treba proveriti primarnim specifikacijama podne obloge.",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    },
+    {
+      "id": "G022",
+      "slug": "vertikulacija-ili-aeracija-travnjaka",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/vertikulacija-ili-aeracija-travnjaka",
+      "priority": "P2",
+      "status": "published",
+      "attempts": 1,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-20T16:59:21.644Z",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": "research/guide-drafts/2026-10-20/G022-vertikulacija-ili-aeracija-travnjaka",
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/vertikulacija-ili-aeracija-travnjaka",
+      "publishedAt": "2026-10-20T16:59:21.644Z",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G023",
+      "slug": "busac-zemlje-za-ogradu-i-sadnju",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/busac-zemlje-za-ogradu-i-sadnju",
+      "priority": "P2",
+      "status": "published",
+      "attempts": 1,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-21T15:49:22.570Z",
+      "lastError": null,
+      "blockedReason": null,
+      "sourceRevision": "2010261f2a0dd514808a26765b212b5d73ba6271",
+      "publicationFile": "research/guide-drafts/2026-10-21/G023-busac-zemlje-za-ogradu-i-sadnju/publication.json",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": "research/guide-drafts/2026-10-21/G023-busac-zemlje-za-ogradu-i-sadnju",
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/busac-zemlje-za-ogradu-i-sadnju",
+      "publishedAt": "2026-10-21T15:49:22.570Z",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G024",
+      "slug": "duvac-lisca-ili-grabulje",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/duvac-lisca-ili-grabulje",
+      "priority": "P2",
+      "status": "published",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-18T10:38:52.024398+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/duvac-lisca-ili-grabulje",
+      "publishedAt": "2026-10-18T10:38:52.024398+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G025",
+      "slug": "trimer-ili-kosilica",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/trimer-ili-kosilica",
+      "priority": "P2",
+      "status": "published",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-24T09:35:13.800588+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/trimer-ili-kosilica",
+      "publishedAt": "2026-10-24T09:35:13.800588+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G026",
+      "slug": "izbor-agregata-za-najam",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/izbor-agregata-za-najam",
+      "priority": "P3",
+      "status": "deferred",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": "Srpski rezultati razdvajaju monofaznu i trofaznu ponudu i potrošače. Tuđi iznosi kVA/kW i spiskovi uređaja nisu specifikacije naših modela.",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    },
+    {
+      "id": "G027",
+      "slug": "pumpa-za-cistu-prljavu-ili-plitku-vodu",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/pumpa-za-cistu-prljavu-ili-plitku-vodu",
+      "priority": "P2",
+      "status": "published",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-23T09:40:12.187291+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/pumpa-za-cistu-prljavu-ili-plitku-vodu",
+      "publishedAt": "2026-10-23T09:40:12.187291+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G028",
+      "slug": "kamera-za-kanalizaciju-ili-endoskopska",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/kamera-za-kanalizaciju-ili-endoskopska",
+      "priority": "P3",
+      "status": "deferred",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": "Beogradski servisi koriste specijalizovane kamere i odgušenje; to nije dokaz da je mala endoskopska kamera dovoljna za isto.",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    },
+    {
+      "id": "G029",
+      "slug": "najam-masine-za-odgusenje-ili-intervencija",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/najam-masine-za-odgusenje-ili-intervencija",
+      "priority": "P3",
+      "status": "deferred",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": "Lokalni rezultati imaju snažnu uslužnu nameru i ponavljanje začepljenja. Najam ne odgovara svakoj hitnoj intervenciji.",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    },
+    {
+      "id": "G030",
+      "slug": "ekscentricna-vibraciona-ili-tracna-brusilica",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica",
+      "priority": "P2",
+      "status": "published",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-19T13:01:53.410894+00:00",
+      "lastError": null,
+      "blockedReason": null,
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica",
+      "publishedAt": "2026-10-19T13:01:53.410894+00:00",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G031",
+      "slug": "ubodna-sabljasta-ili-kruzna-testera",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/ubodna-sabljasta-ili-kruzna-testera",
+      "priority": "P2",
+      "status": "published",
+      "attempts": 1,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-21T15:49:22.570Z",
+      "lastError": null,
+      "blockedReason": null,
+      "sourceRevision": "2010261f2a0dd514808a26765b212b5d73ba6271",
+      "publicationFile": "research/guide-drafts/2026-10-21/G031-ubodna-sabljasta-ili-kruzna-testera/publication.json",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": "research/guide-drafts/2026-10-21/G031-ubodna-sabljasta-ili-kruzna-testera",
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      },
+      "publicUrl": "https://alatrent.rs/sr/saveti/ubodna-sabljasta-ili-kruzna-testera",
+      "publishedAt": "2026-10-21T15:49:22.570Z",
+      "publicVerifiedAt": "2026-10-25T22:52:09.278749+00:00",
+      "humanReviewStatus": "not_performed",
+      "googleDiscovery": {
+        "status": "not_checked",
+        "indexStatus": "unknown",
+        "checkedAt": null,
+        "indexingRequestedAt": null,
+        "note": "Obnova nije pregled Search Console-a; prethodno prihvaćeni zahtevi se ne ponavljaju bez provere istorije."
+      },
+      "publicationEvidence": {
+        "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+        "manifest": "lib/published-rental-guides.json",
+        "verification": "research/guide-system-recovery/2026-10-25/live-verification.json",
+        "checks": {
+          "http200": true,
+          "expectedTitle": true,
+          "oneH1": true,
+          "canonical": true,
+          "indexable": true,
+          "sitemap": true,
+          "hubLink": true,
+          "robotsAllowsGuides": true
+        }
+      }
+    },
+    {
+      "id": "G032",
+      "slug": "airless-ili-hvlp-masina-za-krecenje",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/airless-ili-hvlp-masina-za-krecenje",
+      "priority": "P3",
+      "status": "deferred",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": "Zvanični Wagner izvori imaju poređenje, ali ova pretraga nije potvrdila srpsku tražnju niti klasifikaciju konkretnog Bosch sistema.",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    },
+    {
+      "id": "G033",
+      "slug": "nivelator-rotacioni-laser-ili-daljinomer",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/nivelator-rotacioni-laser-ili-daljinomer",
+      "priority": "P3",
+      "status": "deferred",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": "Srpski rezultat povezuje merenje daljine i nivelaciju, ali isti sadržaj može pokriti uvod pilot vodiča G002.",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    },
+    {
+      "id": "G034",
+      "slug": "merdevine-ili-pokretna-skela",
+      "action": "hold",
+      "canonicalTarget": "/sr/saveti/merdevine-ili-pokretna-skela",
+      "priority": "P3",
+      "status": "deferred",
+      "attempts": 0,
+      "createdAt": "2026-10-16T11:25:44.666824+00:00",
+      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
+      "lastError": null,
+      "blockedReason": "Kontekst rezultata pominje različit pristup zidovima i visini. Samostalna srpska tražnja za ovim poređenjem nije direktno potvrđena.",
+      "draftDirectory": null,
+      "recovery": {
+        "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+        "queueSnapshotRecovered": true,
+        "previousDraftDirectory": null,
+        "originalPackageRestored": false,
+        "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
+      }
+    }
+  ],
+  "projectPath": "/Users/luka/Desktop/rent tools",
+  "publicationInstructions": "docs/guide-system/publishing.md",
+  "publicationAuthorizedOn": "2026-10-16",
+  "publicationPolicy": {
+    "dailyPublishedTarget": 3,
+    "routineHumanApprovalRequired": false,
+    "unresolvedCriticalClaimsBlockPublication": true,
+    "publicVerificationRequired": true,
+    "googleIndexStatusSeparate": true,
+    "missedDaysBackfill": false
+  },
+  "recovery": {
+    "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+    "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+    "report": "docs/guide-system/restoration.md",
+    "publishedInventoryVerified": 21,
+    "historicalPackagesRestored": false
+  }
+}

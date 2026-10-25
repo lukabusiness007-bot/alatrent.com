@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
+  "projectPath": "/Users/luka/Desktop/rent tools",
+  "sourceRevision": "7cc220ea0a469b20777dc0b71142f6799bb46a97",
+  "publishedGuideCount": 21,
+  "backlogCount": 34,
+  "pendingResearchIds": [
+    "G011",
+    "G012",
+    "G013"
+  ],
+  "deferredCount": 10,
+  "partiallyReconstructedIds": [
+    "G019",
+    "G021"
+  ],
+  "historicalPackagesRestored": false,
+  "applicationCodeChanged": false,
+  "newGuidesCreated": 0,
+  "googleChecked": false,
+  "publicVerificationPassed": true,
+  "source": "Recorded tool inputs and outputs of this conversation; repository publication manifest; fresh public HTTP checks.",
+  "originalCallLineReferences": [
+    176,
+    197,
+    235,
+    353,
+    456,
+    526,
+    533,
+    547,
+    2841,
+    3642
+  ]
+}

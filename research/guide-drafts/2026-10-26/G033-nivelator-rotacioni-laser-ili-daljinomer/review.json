@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "G033",
+  "status": "ready_to_publish",
+  "internalReview": {
+    "reviewedAt": "2026-10-26T10:43:59.315113+00:00",
+    "reviewer": "Codex critical second pass after drafting; same agent",
+    "isIndependentAgent": false,
+    "score": 94,
+    "rubric": {
+      "intent": {
+        "score": 19,
+        "max": 20,
+        "reason": "Nivelaciona referenca je zasebna od G002 dimenzija; interesovanje potvrđeno kvalitativno, ne obimom."
+      },
+      "accuracy": {
+        "score": 24,
+        "max": 25,
+        "reason": "GRL horizontalna namena i dokumentovan GLL primer razdvojeni od nepoznatog tool-055; nema univerzalnih brojki."
+      },
+      "practical": {
+        "score": 19,
+        "max": 20,
+        "reason": "Matrica rezultata, prijemnik/oslonac i obrazac upita; nema terenskog primera kao navodnog iskustva."
+      },
+      "safety": {
+        "score": 14,
+        "max": 15,
+        "reason": "Kratka proverena zabrana gledanja/usmeravanja snopa; tehnička kontrola projekta ostaje zasebna."
+      },
+      "clarity": {
+        "score": 9,
+        "max": 10,
+        "reason": "Glavno pitanje je rešeno u uvodu; stručni termin kota objašnjen kao horizontalna visina."
+      },
+      "siteRole": {
+        "score": 9,
+        "max": 10,
+        "reason": "Tri relevantna artikla i G002; nema sinonimskog URL-a ili lažnog prevoda."
+      }
+    },
+    "factChecks": [
+      {
+        "claimId": "G033-C1",
+        "sourceIds": [
+          "L1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G033-C2",
+        "sourceIds": [
+          "L2"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G033-C3",
+        "sourceIds": [
+          "L3"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G033-C4",
+        "sourceIds": [
+          "L2"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G033-C5",
+        "sourceIds": [
+          "L2"
+        ],
+        "result": "verified_with_stated_scope"
+      }
+    ],
+    "overlapCheck": {
+      "passed": true,
+      "reviewedPaths": [
+        "/sr/saveti/laserski-daljinomer-ili-metar",
+        "/sr/saveti/higrometar-ili-merac-vlage-drveta",
+        "/sr/alat/laserski-nivelator",
+        "/sr/alat/bosch-rotacioni-laser-grl-400-h-lr1-kofer-cr-39897",
+        "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677"
+      ],
+      "decision": "G002 odgovara kako meriti prostoriju daljinomerom ili metrom, a razgraničenje nivelacije sadrži u jednom kratkom odeljku. Novi vodič bira referentnu liniju ili horizontalnu visinsku ravan i potreban prijemnik/komplet. Daljinomer je kratko razgraničenje uz link na G002, bez ponavljanja rukovanja i referentne ravni merenja."
+    },
+    "linkChecks": [
+      {
+        "path": "/sr/alat/laserski-nivelator",
+        "status": 200,
+        "checkedAt": "2026-10-26T10:42:33.351207+00:00"
+      },
+      {
+        "path": "/sr/alat/bosch-rotacioni-laser-grl-400-h-lr1-kofer-cr-39897",
+        "status": 200,
+        "checkedAt": "2026-10-26T10:42:33.351207+00:00"
+      },
+      {
+        "path": "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677",
+        "status": 200,
+        "checkedAt": "2026-10-26T10:42:33.351207+00:00"
+      }
+    ],
+    "hardFailures": [],
+    "revisionCount": 0
+  },
+  "humanReview": {
+    "status": "not_performed",
+    "name": null,
+    "reviewedAt": null,
+    "scope": null
+  },
+  "openQuestions": [],
+  "integrationGaps": [],
+  "publicationReadiness": {
+    "unresolvedCriticalQuestions": [],
+    "articleSha256": "a1eb10afb09d79312f8d0f0b646d5b7b4415c48a45f1fbdfca0d52532f49e62a",
+    "scopeLimits": [
+      "Stvarni izdati model, pribor i raspoloživost potvrđuju se za termin; tekst ih ne garantuje."
+    ],
+    "technicalGate": "passed; deployed and verified on production"
+  }
+}

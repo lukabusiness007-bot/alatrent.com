@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-26T10:48:26.709567+00:00",
+  "typecheck": "passed",
+  "build": "passed",
+  "buildCommand": "npm run build -- --webpack",
+  "testsPassed": 18,
+  "testsFailed": 0,
+  "previewHttp": "passed",
+  "mobile": "passed",
+  "originalPublishedRecordsPreserved": 21,
+  "initialEnvironmentFailure": {
+    "status": "resolved",
+    "reason": "Sandbox denied localhost listen (EPERM) for preview and integration test servers; rerun with approved local server access passed.",
+    "evidence": "tests-initial-sandbox-denied.log"
+  },
+  "newApisOrKeys": false,
+  "businessDataChanged": false
+}

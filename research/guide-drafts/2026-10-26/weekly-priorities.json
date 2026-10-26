@@ -1,0 +1,44 @@
+{
+  "reviewedAt": "2026-10-26T10:37:53.918613+00:00",
+  "day": "Monday",
+  "gscDataAvailable": false,
+  "measuredMetrics": null,
+  "publishedCount": 21,
+  "selectedIds": [
+    "G012",
+    "G013",
+    "G033"
+  ],
+  "overlapBlocked": [
+    "G011"
+  ],
+  "heldTopicsNotPromoted": [
+    "G016",
+    "G018",
+    "G019",
+    "G021",
+    "G026",
+    "G028",
+    "G029",
+    "G032",
+    "G034"
+  ],
+  "priorityDecisions": [
+    {
+      "id": "G012",
+      "reason": "Matrica ko radi pripremu/čišćenje/vraćanje; obrazac za uporediv obuhvat dve ponude; kriterijumi za odlaganje izbora pri nepoznatom tekstilu.",
+      "demandConfidence": "qualitative_search_observation_only"
+    },
+    {
+      "id": "G013",
+      "reason": "Razdvaja oznaku cele mašine od filtera i adaptera; lista pitanja pre spajanja; suvo/mokro nisu isti sklop; odbija L kao univerzalno rešenje.",
+      "demandConfidence": "qualitative_search_observation_only"
+    },
+    {
+      "id": "G033",
+      "reason": "Matrica željeni rezultat/vrsta opreme/ograničenje; horizontalni GRL 400 H nije univerzalni vertikalni laser; primer GLL ne pripisuje se generičkom kataloškom nivelatoru.",
+      "demandConfidence": "qualitative_search_observation_only"
+    }
+  ],
+  "note": "G033 hold is resolved only for this narrowly scoped selection guide by manufacturer evidence and distinct leveling intent; other safety/model holds remain."
+}

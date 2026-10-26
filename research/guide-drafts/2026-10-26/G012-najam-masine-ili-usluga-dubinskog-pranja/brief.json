@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "G012",
+  "slug": "najam-masine-ili-usluga-dubinskog-pranja",
+  "title": "Najam mašine ili usluga dubinskog pranja: kako odlučiti",
+  "description": "Uporedi samostalno pranje i stručnu uslugu prema materijalu, vremenu, pripremi i ukupnoj ponudi. Kontrolna lista pre izbora i najma.",
+  "primaryKeyword": "iznajmljivanje mašine ili usluga dubinskog pranja",
+  "variants": [
+    "samostalno dubinsko pranje ili majstor",
+    "najam ekstraktora ili usluga pranja"
+  ],
+  "language": "sr-Latn",
+  "audience": "Osoba koja razmatra najam ekstraktora za poznat tekstil, ali nije odlučila ko obavlja rad.",
+  "intent": "commercial_comparison",
+  "readerDecision": "Da li da korisnik preuzme ceo posao ili traži ponudu stručne usluge za svoj konkretan predmet.",
+  "cluster": "dubinsko-pranje",
+  "action": "new",
+  "canonicalTarget": "/sr/saveti/najam-masine-ili-usluga-dubinskog-pranja",
+  "commercialOwnerPaths": [
+    "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551"
+  ],
+  "toolIds": [
+    "crafter-35551"
+  ],
+  "toolPaths": [
+    "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551"
+  ],
+  "catalogCheckedAt": "2026-10-26T10:37:53.918613+00:00",
+  "publicPathsCheckedAt": "2026-10-26T10:42:33.351207+00:00",
+  "reviewedInternalPaths": [
+    "/sr/saveti/parocistac-ili-ekstraktor",
+    "/sr/saveti/dubinsko-pranje-namestaja-izbor-masine",
+    "/sr/saveti/cena-najma-alata-i-dostave",
+    "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551"
+  ],
+  "overlapWith": [
+    "/sr/saveti/dubinsko-pranje-namestaja-izbor-masine",
+    "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551"
+  ],
+  "overlapDecision": "G008 bira i priprema uređaj kada je najam već odluka; G010 razdvaja metode; G009 objašnjava naš obračun. Novi vodič bira ko obavlja posao i poredi dve ponude istog obuhvata, bez ponavljanja detaljnih uputstava.",
+  "distinctValue": "Matrica ko radi pripremu/čišćenje/vraćanje; obrazac za uporediv obuhvat dve ponude; kriterijumi za odlaganje izbora pri nepoznatom tekstilu.",
+  "outline": [
+    {
+      "heading": "Najpre odluči ko obavlja ceo posao",
+      "questions": [
+        "Da li biramo uređaj ili izvođača?",
+        "Ko priprema predmet i obezbeđuje sušenje?"
+      ],
+      "purpose": "Odvojiti dve odluke i usmeriti detaljan izbor modela na G008.",
+      "sourceIds": [
+        "K1",
+        "K2"
+      ],
+      "requiredArtifact": "Direktan odgovor i vlasništvo obaveza.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Tabela: kada razmatrati najam, a kada ponudu usluge",
+      "questions": [
+        "Da li su materijal i dozvoljeni tretman poznati?",
+        "Postoje li vreme i uslovi?",
+        "Kada odložiti obe opcije do razjašnjenja?"
+      ],
+      "purpose": "Uskladiti opciju sa situacijom bez univerzalnog pobednika.",
+      "sourceIds": [
+        "K1",
+        "K2"
+      ],
+      "requiredArtifact": "Tabela situacija/opcija/šta proveriti.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Skriveni deo posla je priprema i završetak",
+      "questions": [
+        "Šta ulazi osim prolaza mašinom?",
+        "Da li je vraćanje čiste mašine deo plana?"
+      ],
+      "purpose": "Uračunati organizaciju i održavanje, bez vremenskih procena.",
+      "sourceIds": [
+        "K1"
+      ],
+      "requiredArtifact": "Lista odgovornosti.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Poredi isti obuhvat i ukupan iznos",
+      "questions": [
+        "Da li obe ponude obuhvataju iste predmete?",
+        "Šta uključuje sredstvo, transport i dodatni pribor?",
+        "Koja pitanja rešava G009?"
+      ],
+      "purpose": "Predložiti obrazac obračuna bez naših ili konkurentskih fiksnih cena.",
+      "sourceIds": [],
+      "requiredArtifact": "Kontrolna lista za ponudu.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Nepoznat tekstil nije problem koji rešava jača mašina",
+      "questions": [
+        "Da li postoji oznaka održavanja?",
+        "Šta ako voda nije dozvoljena?"
+      ],
+      "purpose": "Objasniti zašto je prvo potrebna procena, a proba ne ukida zabranu.",
+      "sourceIds": [
+        "K1",
+        "K2"
+      ],
+      "requiredArtifact": "Jasan kriterijum odlaganja.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Kako poslati uporediv upit",
+      "questions": [
+        "Koje fotografije i dimenzije?",
+        "Koji termin, pristup i uslovi sušenja?"
+      ],
+      "purpose": "Povezati katalog i kontakt bez tvrdnje da Alat Rent nudi uslugu čišćenja.",
+      "sourceIds": [],
+      "requiredArtifact": "Numerisana lista i konkretan primer.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Izvori",
+      "questions": [
+        "Da li su oba primarna izvora dostupna i citirana?"
+      ],
+      "purpose": "Sačuvati pun link do uputstva i generičkih ograničenja.",
+      "sourceIds": [
+        "K1",
+        "K2"
+      ],
+      "requiredArtifact": "Javno dostupni izvori.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    }
+  ],
+  "sourceStatus": "primary_sources_opened",
+  "unknowns": [
+    "Stvarni izdati model, pribor i raspoloživost potvrđuju se za termin; tekst ih ne garantuje."
+  ],
+  "imagePlan": {
+    "required": false,
+    "reason": "Tabela i lista rešavaju izbor; nema izmišljene terenske fotografije."
+  },
+  "createdAt": "2026-10-26T10:37:53.918613+00:00"
+}

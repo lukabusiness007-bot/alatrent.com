@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "G033",
+  "slug": "nivelator-rotacioni-laser-ili-daljinomer",
+  "title": "Laserski nivelator, rotacioni laser ili daljinomer: izbor",
+  "description": "Izaberi uređaj prema referentnoj liniji, horizontalnoj visini ili izmerenoj dužini. Proveri prijemnik, oslonac i komplet pre iznajmljivanja.",
+  "primaryKeyword": "laserski nivelator ili daljinomer",
+  "variants": [
+    "rotacioni laser ili linijski nivelator",
+    "razlika lasera za merenje i nivelaciju"
+  ],
+  "language": "sr-Latn",
+  "audience": "Korisnik koji traži „laser“ za montažu ili prenos visine i treba da opiše tačan izlaz merenja.",
+  "intent": "informational_commercial_selection",
+  "readerDecision": "Da li posao zahteva vidljivu liniju za montažu, prenos horizontalne kote preko radne površine ili brojčano rastojanje.",
+  "cluster": "merenje",
+  "action": "new",
+  "canonicalTarget": "/sr/saveti/nivelator-rotacioni-laser-ili-daljinomer",
+  "commercialOwnerPaths": [
+    "/sr/alat/laserski-nivelator",
+    "/sr/alat/bosch-rotacioni-laser-grl-400-h-lr1-kofer-cr-39897",
+    "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677"
+  ],
+  "toolIds": [
+    "tool-055",
+    "crafter-39897",
+    "crafter-29677"
+  ],
+  "toolPaths": [
+    "/sr/alat/laserski-nivelator",
+    "/sr/alat/bosch-rotacioni-laser-grl-400-h-lr1-kofer-cr-39897",
+    "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677"
+  ],
+  "catalogCheckedAt": "2026-10-26T10:37:53.918613+00:00",
+  "publicPathsCheckedAt": "2026-10-26T10:42:33.351207+00:00",
+  "reviewedInternalPaths": [
+    "/sr/saveti/laserski-daljinomer-ili-metar",
+    "/sr/saveti/higrometar-ili-merac-vlage-drveta",
+    "/sr/alat/laserski-nivelator",
+    "/sr/alat/bosch-rotacioni-laser-grl-400-h-lr1-kofer-cr-39897",
+    "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677"
+  ],
+  "overlapWith": [
+    "/sr/saveti/laserski-daljinomer-ili-metar",
+    "/sr/alat/laserski-nivelator",
+    "/sr/alat/bosch-rotacioni-laser-grl-400-h-lr1-kofer-cr-39897",
+    "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677"
+  ],
+  "overlapDecision": "G002 odgovara kako meriti prostoriju daljinomerom ili metrom, a razgraničenje nivelacije sadrži u jednom kratkom odeljku. Novi vodič bira referentnu liniju ili horizontalnu visinsku ravan i potreban prijemnik/komplet. Daljinomer je kratko razgraničenje uz link na G002, bez ponavljanja rukovanja i referentne ravni merenja.",
+  "distinctValue": "Matrica željeni rezultat/vrsta opreme/ograničenje; horizontalni GRL 400 H nije univerzalni vertikalni laser; primer GLL ne pripisuje se generičkom kataloškom nivelatoru.",
+  "outline": [
+    {
+      "heading": "Prvo opiši rezultat: linija, visina ili dužina",
+      "questions": [
+        "Da li tražimo broj ili referencu za poravnanje?",
+        "Da li je potrebna vertikala ili horizontala?"
+      ],
+      "purpose": "Razdvojiti zadatke bez ponavljanja G002.",
+      "sourceIds": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "requiredArtifact": "Direktan odgovor.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Tabela zadataka i granica izbora",
+      "questions": [
+        "Montaža police?",
+        "Horizontalna kota na više mesta?",
+        "Dimenzije prostorije?",
+        "Da li se traži pad?"
+      ],
+      "purpose": "Uskladiti funkciju sa rezultatom i odbiti univerzalne modele.",
+      "sourceIds": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "requiredArtifact": "Tabela zadatak/šta razmatrati/šta potvrditi.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Linijski nivelator: linije na radnoj površini",
+      "questions": [
+        "Koje linije uređaj mora da projektuje?",
+        "Da li naziv generičkog artikla potvrđuje model?"
+      ],
+      "purpose": "GLL koristiti samo kao proizvođački primer, ne kao naš garantovani model.",
+      "sourceIds": [
+        "L1"
+      ],
+      "requiredArtifact": "Primer montažne odluke.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Rotacioni GRL 400 H: horizontalna referenca",
+      "questions": [
+        "Da li je potrebna horizontala ili vertikala?",
+        "Koju ulogu ima prijemnik?",
+        "Zašto različiti GRL modeli nisu zamenljivi?"
+      ],
+      "purpose": "Ograničiti konkretan model na potvrđenu namenu.",
+      "sourceIds": [
+        "L2"
+      ],
+      "requiredArtifact": "Razgraničenje horizontalnog profila i prijemnika.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Samonivelisanje i provera tačnosti nisu isto",
+      "questions": [
+        "Da li se položaj promenio?",
+        "Da li uputstvo zahteva proveru?",
+        "Šta zeleni ili crveni zrak ne garantuje?"
+      ],
+      "purpose": "Bez univerzalnih dometa i tačnosti; proveru obavlja rukovalac prema uputstvu.",
+      "sourceIds": [
+        "L2"
+      ],
+      "requiredArtifact": "Kratka ograničenja, bez kalibracionog recepta.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Šta navesti u upitu za komplet",
+      "questions": [
+        "Unutra ili napolju, rastojanje i visina?",
+        "Koja referenca i dozvoljeno odstupanje projekta?",
+        "Da li trebaju prijemnik, nosač, stativ ili letva?"
+      ],
+      "purpose": "Formirati konkretan upit i linkovati odgovarajuće proizvode.",
+      "sourceIds": [],
+      "requiredArtifact": "Numerisana lista i kratak hipotetički primer.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Bezbednost i sledeći korak",
+      "questions": [
+        "Kako izbeći neprimereno obećanje bezbednosti lasera?"
+      ],
+      "purpose": "Navesti sažeto ne gledati/usmeravati snop i slediti uputstvo, bez zamene stručne nivelacije.",
+      "sourceIds": [
+        "L2"
+      ],
+      "requiredArtifact": "Kratka granica namene i izvori.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Izvori",
+      "questions": [
+        "Da li je jasno koji model podržava koju funkciju?"
+      ],
+      "purpose": "Citirati tri primarna izvora.",
+      "sourceIds": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "requiredArtifact": "Tri javna izvora.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    }
+  ],
+  "sourceStatus": "primary_sources_opened",
+  "unknowns": [
+    "Stvarni izdati model, pribor i raspoloživost potvrđuju se za termin; tekst ih ne garantuje."
+  ],
+  "imagePlan": {
+    "required": false,
+    "reason": "Tabela i lista rešavaju izbor; nema izmišljene terenske fotografije."
+  },
+  "createdAt": "2026-10-26T10:37:53.918613+00:00"
+}

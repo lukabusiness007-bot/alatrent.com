@@ -1,0 +1,26 @@
+✔ Editorial links cannot become script, credential-bearing, or protocol-relative URLs (0.668833ms)
+✔ Tables, checklists and source links survive staging as structured content (0.654833ms)
+✔ Unpublished entries stay out of public inventory; dates and unique URLs are enforced (0.847708ms)
+✔ Staged publication references existing equipment and preserves separate article dates (26.77475ms)
+✔ Explicit legacy refresh keeps one URL and its first publication date (0.226541ms)
+✔ Every seeded tool has specific search intent, useful copy and an existing category (2290.383125ms)
+✔ Home page search appearance uses the preferred business name, concise copy and crawlable icon (229.076375ms)
+✔ Search crawlers get raster favicons, a business logo and complete preview image metadata (195.516584ms)
+✔ Crawl every sitemap URL: 200, one H1, unique metadata, canonical, reciprocal hreflang and parseable JSON-LD (8794.24875ms)
+✔ Confirmed business phone is consistent in contact links and structured data (34.090667ms)
+✔ Search phrases drive the page, FAQ and catalog while the specific model stays visible (65.579875ms)
+✔ Private, filtered, empty and operational pages stay out of the index; unknown paths return 404 (168.921792ms)
+✔ Expanded catalog paginates with crawlable links, own canonical URLs and a complete result count (49.667791ms)
+✔ Rental content, Cyrillic and common aliases resolve to the right tool (63.243875ms)
+✔ Custom descriptions survive enrichment; JSON-LD escapes admin-provided markup (10.604167ms)
+✔ Missing or invalid public origins keep previews noindex; configured business contact is emitted without fabricated data (138.883708ms)
+✔ Guides publish only real Serbian pages and link to published equipment with current prices (1014.152375ms)
+✔ Priority content preserves a custom model name and custom description (16.250875ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13264.779167

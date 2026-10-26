@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "G012",
+  "researchedAt": "2026-10-26T10:37:53.918613+00:00",
+  "searches": [
+    {
+      "query": "iznajmljivanje mašine ili usluga dubinskog pranja",
+      "engine": "Codex integrated web search",
+      "observedAt": "2026-10-26",
+      "timePrecision": "day; individual search timestamps not captured",
+      "language": "sr-Latn",
+      "locale": null,
+      "device": null,
+      "openedUrls": [
+        "https://cleanrent.rs/"
+      ],
+      "observation": "Rezultati Clean Rent i Dubinsko pranje TIM nude najam i zasebnu uslugu. To podržava stvarnu odluku o obavljanju posla; njihove cene, obećanja i pribor ne preuzimamo.",
+      "observedResultUrls": [
+        "https://cleanrent.rs/",
+        "https://dubinskopranjetim.rs/iznajmljivanje-masine-za-dubinsko-pranje/"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "K1",
+      "url": "https://www.kaercher.com/documents/manuals/html/BTA-5765075-000-04/EN.html",
+      "title": "Puzzi 8/1 and Puzzi 8/1 Adv — original instructions",
+      "publisher": "Kärcher",
+      "accessedAt": "2026-10-26",
+      "accessTimePrecision": "day; exact individual request timestamp was not captured",
+      "kind": "manufacturer_original_manual",
+      "model": "Puzzi 8/1; Puzzi 8/1 Adv",
+      "locationInSource": "HTML manual: Intended use; Cleaning mode; Cleaning methods; Cleaning tips; Quick Start Guide",
+      "claims": [
+        "Ekstrakcija je mokro čišćenje odgovarajućeg tekstila.",
+        "Proveriti postojanost boje i otpornost na vodu.",
+        "Priprema, pražnjenje, ispiranje i sušenje uređaja deo su rada.",
+        "Pribor Adv varijante ne pripada automatski svakoj mašini."
+      ],
+      "limitations": [
+        "Ne potvrđuje naš komplet, cenu, raspoloživost, sve mrlje ili trajanje sušenja."
+      ],
+      "access_status": "opened"
+    },
+    {
+      "id": "K2",
+      "url": "https://www.kaercher.com/gb/en/home-and-garden/know-how/cleaning-upholstery-c2149",
+      "title": "Cleaning upholstery",
+      "publisher": "Kärcher",
+      "accessedAt": "2026-10-26",
+      "accessTimePrecision": "day; exact individual request timestamp was not captured",
+      "kind": "manufacturer_documentation",
+      "model": null,
+      "locationInSource": "For stubborn stains: Spray extraction cleaning; material testing and ventilation",
+      "claims": [
+        "Rastvor se nanosi i izvlači sa nečistoćom.",
+        "Proveriti otpornost tekstila i obezbediti vreme i provetravanje."
+      ],
+      "limitations": [
+        "Generički savet proizvođača uređaja ne zamenjuje uputstvo konkretnog nameštaja; ne prenosimo univerzalne rokove ili kućne hemijske recepte."
+      ],
+      "access_status": "opened"
+    }
+  ],
+  "claimMap": [
+    {
+      "id": "G012-C1",
+      "articleClaim": "Mokro čišćenje zavisi od dozvoljenog tretmana i provere otpornosti.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "K1",
+        "K2"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    },
+    {
+      "id": "G012-C2",
+      "articleClaim": "Priprema i završno pražnjenje/ispiranje uređaja deo su rada.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "K1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    },
+    {
+      "id": "G012-C3",
+      "articleClaim": "Sušenje i provetravanje treba planirati bez garantovanog trajanja.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "K2"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    }
+  ],
+  "searchMetrics": {
+    "monthlyVolume": null,
+    "keywordDifficulty": null,
+    "googlePosition": null,
+    "source": null,
+    "period": null
+  },
+  "constraints": [
+    "Izvori konkurenata služe samo proceni namere, bez preuzimanja cena ili tvrdnji.",
+    "Nema izmerenog obima, pozicija ili Google top-10 kontrolisanog uzorka.",
+    "Nema novog pregleda Search Console-a."
+  ],
+  "openQuestions": [],
+  "fieldDefinitions": {
+    "searches": "query, engine/tool, observedAt, language, locale, device, openedUrls, observation; unknown fields are null",
+    "sources": "id, url, title, publisher, accessedAt, kind, model, locationInSource, claims, limitations, access_status; only actually opened pages",
+    "claimMap": "id, articleClaim, articleSection, sourceIds, status, applicability, reviewerNote; status verified_primary|verified_business|needs_model_confirmation|unsupported"
+  },
+  "researchWindow": {
+    "startedNoEarlierThan": "2026-10-26T10:31:06.232195+00:00",
+    "closedAt": "2026-10-26T10:37:53.918613+00:00",
+    "individualAccessTimePrecision": "day"
+  },
+  "businessEvidence": {
+    "catalogFile": "lib/seed.json",
+    "sha256": "62e70331ebc92a84d2b321563f214e902c7f3fecf09ac48ddbc5ada6418c7e5e",
+    "publicHttpCheck": {
+      "checkedAt": "2026-10-26T10:42:33.351207+00:00",
+      "status": "passed",
+      "report": "http-before/report.json",
+      "toolPaths": [
+        "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551"
+      ]
+    }
+  },
+  "failedAccesses": []
+}

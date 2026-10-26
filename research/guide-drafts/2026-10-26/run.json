@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "runId": "guides-2026-10-26-103106Z",
+  "localDate": "2026-10-26",
+  "timezone": "Europe/Belgrade",
+  "scheduledLocalTime": "08:00",
+  "trigger": "heartbeat",
+  "startedAt": "2026-10-26T10:31:06.232195+00:00",
+  "finishedAt": "2026-10-26T10:52:07.286170+00:00",
+  "status": "complete_publication_google_not_checked",
+  "targetPackages": 3,
+  "selectedIds": [
+    "G012",
+    "G013",
+    "G033"
+  ],
+  "completedIds": [
+    "G012",
+    "G013",
+    "G033"
+  ],
+  "incompleteIds": [],
+  "errors": [],
+  "recovery": null,
+  "checksPerformed": [
+    "Current remote main matches clean source revision; isolated snapshot created.",
+    "Closest existing guides read; selected distinct equipment decision needs.",
+    "Manufacturer primary documentation opened; exact individual source request times not invented.",
+    "Separate critical pass completed; scores 94/92/94, no hard failures or unresolved critical questions.",
+    "36 baseline public URLs checked; 21 old guides preserve canonical, full visible content, dates, robots and sitemap; three new slugs are 404.",
+    "Typecheck and production webpack build passed.",
+    "18 publishing and SEO tests passed with isolated temporary databases.",
+    "Preview HTTP checks passed for 36 URLs and all 24 guides; sitemap has 1050 unique URLs.",
+    "Nine mobile screenshots inspected at 390px, all columns readable through focusable scroll regions.",
+    "Production Vercel deployment success verified for the content commit.",
+    "Production checks passed for 24 guides, 36 URLs and 1050 sitemap entries; old publication/modification dates preserved."
+  ],
+  "notes": [
+    "G033 is a provisional re-evaluation of a held topic; publication requires fresh intent evidence and resolved primary sources.",
+    "G011 remains pending due to strong overlap with existing G008 drying section; no duplicate draft.",
+    "No Search Console access attempt; signed-in Chrome restriction remains in force."
+  ],
+  "new_count": 3,
+  "refresh_count": 0,
+  "published_count": 3,
+  "controlsExercised": {
+    "exclusiveLock": true,
+    "atomicQueueWrite": true,
+    "publicVerification": true,
+    "lockReleased": true
+  },
+  "googleStatus": {
+    "status": "sitemap_available",
+    "requestsSubmitted": 0,
+    "indexedCount": null,
+    "indexStatus": "unknown",
+    "reason": "No approved Search Console session accessed; public discovery checks passed."
+  },
+  "baseRevision": "0bb0d9984b3af1be2ece1e66296c6075209aa084",
+  "sourceRevision": "330c8bd30402ba74bfb6e259406153b8eced3b7c",
+  "publishedIds": [
+    "G012",
+    "G013",
+    "G033"
+  ],
+  "nextAction": "Next scheduled run may research genuinely new needs or justified refreshes; do not recreate these guides or clear unresolved topic holds just to meet a quota."
+}

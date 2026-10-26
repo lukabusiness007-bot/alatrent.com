@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "G013",
+  "slug": "industrijski-usisivac-klasa-prasine",
+  "title": "Industrijski usisivač: klasa prašine, filter i priključak",
+  "description": "Šta proveriti kod klase L, M i H, filtera, kese i veze sa alatom. Granice Makita VC2512L i spisak podataka za upit pre iznajmljivanja.",
+  "primaryKeyword": "industrijski usisivač klasa prašine",
+  "variants": [
+    "usisivač klasa L ili M",
+    "usisivač za građevinsku prašinu izbor"
+  ],
+  "language": "sr-Latn",
+  "audience": "Korisnik koji traži usisivač za radove ili povezivanje sa alatom; sastav materijala mora prethodno biti poznat.",
+  "intent": "informational_commercial_selection",
+  "readerDecision": "Koje podatke treba proveriti da bi se izabrao usisivač za poznat materijal i odgovarajući komplet, bez biranja samo po vatima.",
+  "cluster": "ciscenje-prasine",
+  "action": "new",
+  "canonicalTarget": "/sr/saveti/industrijski-usisivac-klasa-prasine",
+  "commercialOwnerPaths": [
+    "/sr/alat/makita-usisivac-vc2512l-cr-638"
+  ],
+  "toolIds": [
+    "crafter-638"
+  ],
+  "toolPaths": [
+    "/sr/alat/makita-usisivac-vc2512l-cr-638"
+  ],
+  "catalogCheckedAt": "2026-10-26T10:37:53.918613+00:00",
+  "publicPathsCheckedAt": "2026-10-26T10:42:33.351207+00:00",
+  "reviewedInternalPaths": [
+    "/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica",
+    "/sr/saveti/zirafa-i-usisivac-za-zidove",
+    "/sr/saveti/izbor-ploce-za-ugaonu-brusilicu",
+    "/sr/alat/makita-usisivac-vc2512l-cr-638"
+  ],
+  "overlapWith": [
+    "/sr/saveti/zirafa-i-usisivac-za-zidove",
+    "/sr/alat/makita-usisivac-vc2512l-cr-638"
+  ],
+  "overlapDecision": "G007 organizuje brušenje zidova, abraziv i odsis; njegov odeljak o L je ograničenje u tom poslu. Novi vodič je provera celog usisivača za više zadataka: klasa, filter, kesa, režim i priključak, bez ponavljanja izbora žirafe.",
+  "distinctValue": "Razdvaja oznaku cele mašine od filtera i adaptera; lista pitanja pre spajanja; suvo/mokro nisu isti sklop; odbija L kao univerzalno rešenje.",
+  "outline": [
+    {
+      "heading": "Izbor počinje materijalom, a ne snagom",
+      "questions": [
+        "Šta će se usisavati i u kom procesu nastaje?",
+        "Da li sastav poznajemo ili nagađamo?"
+      ],
+      "purpose": "Tražiti naziv materijala i dokumentaciju pre izbora klase.",
+      "sourceIds": [
+        "M1",
+        "D1"
+      ],
+      "requiredArtifact": "Direktan odgovor, bez operativnog saveta za opasnu prašinu.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Klasa L, M i H opisuje uređaj i rizik",
+      "questions": [
+        "Šta oznaka znači?",
+        "Da li generički naziv građevinski rešava procenu?"
+      ],
+      "purpose": "Objasniti razliku bez davanja graničnih koncentracija ili tabele materijal→dozvola.",
+      "sourceIds": [
+        "D1",
+        "M1"
+      ],
+      "requiredArtifact": "Tabela šta proveravamo/šta ne zaključujemo.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Šta je potvrđeno za VC2512L",
+      "questions": [
+        "Da li je klasa L potvrđena tačnim priručnikom?",
+        "Da li druga kesa ili filter menjaju klasifikaciju?"
+      ],
+      "purpose": "Odvojiti dokumentovan model od potvrde izdatog kompleta.",
+      "sourceIds": [
+        "M1"
+      ],
+      "requiredArtifact": "Kratka provera oznake i granica.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Filter, kesa i suvi ili mokri režim",
+      "questions": [
+        "Da li je ugrađen odgovarajući neoštećen filter?",
+        "Ko potvrđuje pripremu za tečnosti?",
+        "Da li je mokri režim dozvola za svaku tečnost?"
+      ],
+      "purpose": "Navesti potrebu provere, bez detaljnog postupka za rizičan otpad.",
+      "sourceIds": [
+        "M1",
+        "D1"
+      ],
+      "requiredArtifact": "Lista provere kompleta i zabrana.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Crevo i utičnica su zasebne provere",
+      "questions": [
+        "Da li adapter odgovara i zaptiva?",
+        "Da li postoji automatski start na toj varijanti?",
+        "Koja uputstva proveriti za električno povezivanje?"
+      ],
+      "purpose": "Ne obećati kompatibilnost svih alata ni snagu utičnice.",
+      "sourceIds": [
+        "M1"
+      ],
+      "requiredArtifact": "Pitanja za izdavaoca; bez improvizacije spojeva.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Šta poslati za iznajmljivanje",
+      "questions": [
+        "Materijal i proces?",
+        "Model povezanog alata, priključak i termin?"
+      ],
+      "purpose": "Pripremiti kompletan upit i link na srodnu odluku o žirafi.",
+      "sourceIds": [],
+      "requiredArtifact": "Numerisana kontrolna lista i granica obima.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    },
+    {
+      "heading": "Izvori",
+      "questions": [
+        "Koje stranice modela i proizvođača stvarno podržavaju tekst?"
+      ],
+      "purpose": "Citirati modelsku dokumentaciju i objašnjenje klasa.",
+      "sourceIds": [
+        "M1",
+        "D1"
+      ],
+      "requiredArtifact": "Dva javna izvora.",
+      "claimsMustNotExceed": "Samo proverena namena; bez univerzalne bezbednosti, zaliha, cena, vremena ili stručne recenzije."
+    }
+  ],
+  "sourceStatus": "primary_sources_opened",
+  "unknowns": [
+    "Stvarni izdati model, pribor i raspoloživost potvrđuju se za termin; tekst ih ne garantuje."
+  ],
+  "imagePlan": {
+    "required": false,
+    "reason": "Tabela i lista rešavaju izbor; nema izmišljene terenske fotografije."
+  },
+  "createdAt": "2026-10-26T10:37:53.918613+00:00"
+}

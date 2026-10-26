@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "G013",
+  "status": "published",
+  "policy": "publish_after_checks",
+  "publishedAt": "2026-10-26T10:43:59.350112+00:00",
+  "updatedAt": "2026-10-26T10:43:59.350112+00:00",
+  "publicUrl": "https://alatrent.rs/sr/saveti/industrijski-usisivac-klasa-prasine",
+  "sourceRevision": "330c8bd30402ba74bfb6e259406153b8eced3b7c",
+  "deploymentId": "G9JgLo84WJ6MqMTQ4C6jzjQhu3Yv",
+  "deploymentUrl": "https://vercel.com/luka-drugi-nalog-s-projects/alatrent-com/G9JgLo84WJ6MqMTQ4C6jzjQhu3Yv",
+  "publicVerifiedAt": "2026-10-26T10:50:44.387734+00:00",
+  "checks": [
+    {
+      "name": "http200",
+      "passed": true
+    },
+    {
+      "name": "oneH1",
+      "passed": true
+    },
+    {
+      "name": "canonical",
+      "passed": true
+    },
+    {
+      "name": "indexable",
+      "passed": true
+    },
+    {
+      "name": "description",
+      "passed": true
+    },
+    {
+      "name": "title",
+      "passed": true
+    },
+    {
+      "name": "sitemap",
+      "passed": true
+    },
+    {
+      "name": "hubLink",
+      "passed": true
+    },
+    {
+      "name": "articleDates",
+      "passed": true
+    },
+    {
+      "name": "sitemapDate",
+      "passed": true
+    },
+    {
+      "name": "allContentVisible",
+      "passed": true
+    },
+    {
+      "name": "linksRendered",
+      "passed": true
+    },
+    {
+      "name": "typecheck/build/18 tests/mobile",
+      "passed": true
+    },
+    {
+      "name": "tool backlinks/homepage links/old dates preserved",
+      "passed": true
+    }
+  ],
+  "googleDiscovery": {
+    "status": "sitemap_available",
+    "indexStatus": "unknown",
+    "checkedAt": "2026-10-26T10:50:44.387734+00:00",
+    "indexingRequestedAt": null,
+    "requestsSubmitted": 0,
+    "evidence": "http-after/report.json: sitemap and internal links; no Search Console observation",
+    "reason": "Signed-in Search Console was not accessed. Earlier Chrome session restriction remains; no bypass or repeat indexing request attempted."
+  },
+  "blocker": null
+}

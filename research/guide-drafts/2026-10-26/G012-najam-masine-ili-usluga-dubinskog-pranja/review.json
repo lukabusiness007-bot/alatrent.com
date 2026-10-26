@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "G012",
+  "status": "ready_to_publish",
+  "internalReview": {
+    "reviewedAt": "2026-10-26T10:43:59.315113+00:00",
+    "reviewer": "Codex critical second pass after drafting; same agent",
+    "isIndependentAgent": false,
+    "score": 94,
+    "rubric": {
+      "intent": {
+        "score": 19,
+        "max": 20,
+        "reason": "Različita odluka ko obavlja ceo posao; generička dugorepa tražnja nije izmerena."
+      },
+      "accuracy": {
+        "score": 24,
+        "max": 25,
+        "reason": "Tehničke tvrdnje ograničene na dozvoljeni mokri tretman i dokumentaciju; konkretni tekstili zahtevaju potvrdu."
+      },
+      "practical": {
+        "score": 19,
+        "max": 20,
+        "reason": "Matrica opcija, obuhvat obe ponude, troškovi i odgovornosti; bez stvarnog cenovnog primera koji nije dostupan."
+      },
+      "safety": {
+        "score": 14,
+        "max": 15,
+        "reason": "Bez opasnog postupka i rokova sušenja; nepoznat tekstil vodi prvo u procenu."
+      },
+      "clarity": {
+        "score": 9,
+        "max": 10,
+        "reason": "Kratak direktan odgovor i konkretan hipotetički primer; neke nužne provere ponavljaju se u listi."
+      },
+      "siteRole": {
+        "score": 9,
+        "max": 10,
+        "reason": "Povezani G008/G010/G009 i alat; učinak na upite ostaje nepoznat."
+      }
+    },
+    "factChecks": [
+      {
+        "claimId": "G012-C1",
+        "sourceIds": [
+          "K1",
+          "K2"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G012-C2",
+        "sourceIds": [
+          "K1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G012-C3",
+        "sourceIds": [
+          "K2"
+        ],
+        "result": "verified_with_stated_scope"
+      }
+    ],
+    "overlapCheck": {
+      "passed": true,
+      "reviewedPaths": [
+        "/sr/saveti/parocistac-ili-ekstraktor",
+        "/sr/saveti/dubinsko-pranje-namestaja-izbor-masine",
+        "/sr/saveti/cena-najma-alata-i-dostave",
+        "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551"
+      ],
+      "decision": "G008 bira i priprema uređaj kada je najam već odluka; G010 razdvaja metode; G009 objašnjava naš obračun. Novi vodič bira ko obavlja posao i poredi dve ponude istog obuhvata, bez ponavljanja detaljnih uputstava."
+    },
+    "linkChecks": [
+      {
+        "path": "/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551",
+        "status": 200,
+        "checkedAt": "2026-10-26T10:42:33.351207+00:00"
+      }
+    ],
+    "hardFailures": [],
+    "revisionCount": 0
+  },
+  "humanReview": {
+    "status": "not_performed",
+    "name": null,
+    "reviewedAt": null,
+    "scope": null
+  },
+  "openQuestions": [],
+  "integrationGaps": [],
+  "publicationReadiness": {
+    "unresolvedCriticalQuestions": [],
+    "articleSha256": "8afbbff0e5658c15d2e76c9e5dc0ac15cbd4b7a3de00e779f5b177560177a312",
+    "scopeLimits": [
+      "Stvarni izdati model, pribor i raspoloživost potvrđuju se za termin; tekst ih ne garantuje."
+    ],
+    "technicalGate": "passed; deployed and verified on production"
+  }
+}

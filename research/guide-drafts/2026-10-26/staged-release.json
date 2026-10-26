@@ -1,0 +1,11 @@
+{
+  "releaseAt": "2026-10-26T10:43:59.350112+00:00",
+  "candidatePath": "/private/tmp/alatrent-guides-release-20261026",
+  "sourceRevision": "0bb0d9984b3af1be2ece1e66296c6075209aa084",
+  "newIds": [
+    "G012",
+    "G013",
+    "G033"
+  ],
+  "status": "staged_not_published"
+}

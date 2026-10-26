@@ -401,7 +401,7 @@
         "https://www.dubinskopranjekristal.rs/najcesce-postavljana-pitanja/"
       ],
       "sourceStatus": "search_observed_needs_primary_review",
-      "status": "pending_research",
+      "status": "blocked_overlap",
       "rationale": "Više srpskih rezultata ima isti upit, ali nude različite prosečne sate. To potvrđuje pitanje, ne pouzdano univerzalno trajanje.",
       "distinctValue": "Model planiranja po tekstilu, punjenju, količini vode i ventilaciji; kriterijumi proveravanja prema proizvođaču nameštaja. Zaseban URL tek ako proširenje jasno prevazilazi kratak odeljak postojećeg vodiča.",
       "overlapWith": [
@@ -434,8 +434,8 @@
         "https://cleanrent.rs/",
         "https://puzzirent.rs/"
       ],
-      "sourceStatus": "search_observed_needs_primary_review",
-      "status": "pending_research",
+      "sourceStatus": "primary_sources_opened",
+      "status": "published",
       "rationale": "Rezultat Clean Rent nudi i najam i dolazak na adresu; namere se prepliću. Alat Rent ne sme iz toga izvesti da pruža tuđu uslugu.",
       "distinctValue": "Porediti vreme, kompatibilnost materijala, dodatke, transport i ukupan konkretan obračun; navesti kriterijume kada korisnik treba da angažuje stručnu uslugu, bez predstavljanja te usluge kao naše.",
       "overlapWith": [
@@ -466,8 +466,8 @@
       "evidenceUrls": [
         "https://www.bosch-professional.com/rs/sr/kontrola-prasine/usisivac/"
       ],
-      "sourceStatus": "primary_search_observed_exact_model_manual_missing",
-      "status": "pending_research",
+      "sourceStatus": "primary_sources_opened",
+      "status": "published",
       "rationale": "Srpski Bosch izvor izdvaja klase L, M i H; regionalni rezultati imaju protivrečne preporuke. Potrebna je provera prema vrsti prašine i modelu.",
       "distinctValue": "Objašnjenje etikete, odvođenja prašine, adaptera i toga šta objavljeni Makita VC2512L stvarno podržava. Ne nuditi L model kao zamenu za višu klasu i ne pisati samostalnu sanaciju azbesta ili nepoznatih premaza.",
       "overlapWith": [
@@ -1157,7 +1157,7 @@
       ],
       "cluster": "merenje",
       "intent": "informational_commercial_selection",
-      "action": "hold",
+      "action": "new",
       "canonicalTarget": "/sr/saveti/nivelator-rotacioni-laser-ili-daljinomer",
       "toolIds": [
         "tool-055",
@@ -1169,14 +1169,14 @@
         "/sr/alat/bosch-rotacioni-laser-grl-400-h-lr1-kofer-cr-39897",
         "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677"
       ],
-      "priority": "P3",
+      "priority": "P2",
       "evidenceUrls": [
         "https://gradim.rs/blogovi/daljinomer-i-laseri-%E2%80%93-vodic-kroz-precizne-mjerne-instrumente-za-nivelaciju-21",
         "https://www.bosch-professional.com/rs/sr/products/glm-50-27-cg-0601072U00"
       ],
-      "sourceStatus": "search_context_observed_overlap_review_required",
-      "status": "deferred",
-      "rationale": "Srpski rezultat povezuje merenje daljine i nivelaciju, ali isti sadržaj može pokriti uvod pilot vodiča G002.",
+      "sourceStatus": "primary_sources_opened",
+      "status": "published",
+      "rationale": "Otvoreni srpski rezultat Eplaneta ima zasebna pitanja o razlici linijskog lasera i daljinomera i nameni za poravnanje. Primarni Bosch izvori razdvajaju GLL linije od horizontalnog profila GRL 400 H. To podržava nameru za nivelaciju različitu od G002; obim tražnje nije meren.",
       "distinctValue": "Odobriti zaseban vodič samo uz jasno dokazanu nameru za nivelaciju i modele; daljinomer kao kratko razgraničenje, bez ponavljanja poređenja sa metrom.",
       "overlapWith": [
         "/sr/saveti/laserski-daljinomer-ili-metar",
@@ -1365,5 +1365,6 @@
         "timestamp": "2026-10-25T07:44:19.590Z"
       }
     }
-  }
+  },
+  "lastWeeklyReviewAt": "2026-10-26T10:37:53.918613+00:00"
 }

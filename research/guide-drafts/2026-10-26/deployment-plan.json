@@ -1,0 +1,16 @@
+{
+  "createdAt": "2026-10-26T10:48:27.340168+00:00",
+  "baseRevision": "0bb0d9984b3af1be2ece1e66296c6075209aa084",
+  "files": [
+    "lib/published-rental-guides.json"
+  ],
+  "guideIds": [
+    "G012",
+    "G013",
+    "G033"
+  ],
+  "contentSha256": "1355d74db5f347efd0e677400fddbfffeb72b037c72faad5806fb79485ecba5d",
+  "originalRecordsPreserved": 21,
+  "deployment": "Existing GitHub main to Vercel project luka-drugi-nalog-s-projects/alatrent-com; no new hosting API or key.",
+  "sourceRevision": "330c8bd30402ba74bfb6e259406153b8eced3b7c"
+}

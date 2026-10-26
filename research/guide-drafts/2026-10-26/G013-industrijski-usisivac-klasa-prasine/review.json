@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "G013",
+  "status": "ready_to_publish",
+  "internalReview": {
+    "reviewedAt": "2026-10-26T10:43:59.315113+00:00",
+    "reviewer": "Codex critical second pass after drafting; same agent",
+    "isIndependentAgent": false,
+    "score": 92,
+    "rubric": {
+      "intent": {
+        "score": 19,
+        "max": 20,
+        "reason": "Novi uređaj kao celovit sistem, šire od G007; nema izmerenih GSC upita."
+      },
+      "accuracy": {
+        "score": 23,
+        "max": 25,
+        "reason": "Potvrđeni model L i režimi; regionalne varijante utičnice nisu poistovećene; vodič ne određuje klasu za konkretan posao."
+      },
+      "practical": {
+        "score": 18,
+        "max": 20,
+        "reason": "Tabela razlikuje filter/klasu/priključak; samostalno biranje klase namerno nije ponuđeno."
+      },
+      "safety": {
+        "score": 14,
+        "max": 15,
+        "reason": "Sumnjiv materijal blokira izbor; nema DIY sanacije, koncentracija, azbesta ili univerzalnog PPE recepta."
+      },
+      "clarity": {
+        "score": 9,
+        "max": 10,
+        "reason": "Jasna lista za upit; broj provera je veći zbog rizika teme."
+      },
+      "siteRole": {
+        "score": 9,
+        "max": 10,
+        "reason": "Jedan tool ID sa povratnom vezom i link na matični zidni vodič; obim potražnje nije izmeren."
+      }
+    },
+    "factChecks": [
+      {
+        "claimId": "G013-C1",
+        "sourceIds": [
+          "M1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G013-C2",
+        "sourceIds": [
+          "M1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G013-C3",
+        "sourceIds": [
+          "D1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G013-C4",
+        "sourceIds": [
+          "M1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G013-C5",
+        "sourceIds": [
+          "M1"
+        ],
+        "result": "verified_with_stated_scope"
+      }
+    ],
+    "overlapCheck": {
+      "passed": true,
+      "reviewedPaths": [
+        "/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica",
+        "/sr/saveti/zirafa-i-usisivac-za-zidove",
+        "/sr/saveti/izbor-ploce-za-ugaonu-brusilicu",
+        "/sr/alat/makita-usisivac-vc2512l-cr-638"
+      ],
+      "decision": "G007 organizuje brušenje zidova, abraziv i odsis; njegov odeljak o L je ograničenje u tom poslu. Novi vodič je provera celog usisivača za više zadataka: klasa, filter, kesa, režim i priključak, bez ponavljanja izbora žirafe."
+    },
+    "linkChecks": [
+      {
+        "path": "/sr/alat/makita-usisivac-vc2512l-cr-638",
+        "status": 200,
+        "checkedAt": "2026-10-26T10:42:33.351207+00:00"
+      }
+    ],
+    "hardFailures": [],
+    "revisionCount": 0
+  },
+  "humanReview": {
+    "status": "not_performed",
+    "name": null,
+    "reviewedAt": null,
+    "scope": null
+  },
+  "openQuestions": [],
+  "integrationGaps": [],
+  "publicationReadiness": {
+    "unresolvedCriticalQuestions": [],
+    "articleSha256": "648b987f535d850bdb70a58ef55e9d879ca9d7f65bc87241931fd972286d7190",
+    "scopeLimits": [
+      "Stvarni izdati model, pribor i raspoloživost potvrđuju se za termin; tekst ih ne garantuje."
+    ],
+    "technicalGate": "passed; deployed and verified on production"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "G033",
+  "researchedAt": "2026-10-26T10:37:53.918613+00:00",
+  "searches": [
+    {
+      "query": "laserski nivelator rotacioni laser daljinomer razlika",
+      "engine": "Codex integrated web search",
+      "observedAt": "2026-10-26",
+      "timePrecision": "day; individual search timestamps not captured",
+      "language": "sr-Latn",
+      "locale": null,
+      "device": null,
+      "openedUrls": [
+        "https://eplaneta.rs/alati-i-masine/merni-alati/laserski-merni-instrumenti.html"
+      ],
+      "observation": "Otvoreni srpski rezultat Eplaneta ima zasebna pitanja o razlici linijskog lasera i daljinomera i nameni za poravnanje. Primarni Bosch izvori razdvajaju GLL linije od horizontalnog profila GRL 400 H. To podržava nameru za nivelaciju različitu od G002; obim tražnje nije meren.",
+      "observedResultUrls": [
+        "https://eplaneta.rs/alati-i-masine/merni-alati/laserski-merni-instrumenti.html"
+      ]
+    },
+    {
+      "query": "site.bosch-professional.com rs sr GRL 400 H horizontal nivelisanje uputstvo",
+      "engine": "Codex integrated web search",
+      "observedAt": "2026-10-26",
+      "timePrecision": "day; individual search timestamps not captured",
+      "language": "mixed",
+      "locale": null,
+      "device": null,
+      "openedUrls": [],
+      "observation": "Provera primarne dokumentacije i tačnog modela; bez merenja potražnje.",
+      "observedResultUrls": []
+    },
+    {
+      "query": "site:bosch-professional.com \"GLL 2-15 G\" \"horizontal\"",
+      "engine": "Codex integrated web search",
+      "observedAt": "2026-10-26",
+      "timePrecision": "day; individual search timestamps not captured",
+      "language": "mixed",
+      "locale": null,
+      "device": null,
+      "openedUrls": [],
+      "observation": "Provera primarne dokumentacije i tačnog modela; bez merenja potražnje.",
+      "observedResultUrls": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "L1",
+      "url": "https://www.bosch-professional.com/gb/en/products/gll-2-15-g-0601063W00",
+      "title": "GLL 2-15 G — line laser",
+      "publisher": "Bosch Professional",
+      "accessedAt": "2026-10-26",
+      "accessTimePrecision": "day; exact individual request timestamp was not captured",
+      "kind": "manufacturer_documentation",
+      "model": "GLL 2-15 G",
+      "locationInSource": "Product Highlights and Equipment & Application, lines 787–797",
+      "claims": [
+        "Horizontalne i vertikalne referentne linije; primer kratkih unutrašnjih montažnih zadataka."
+      ],
+      "limitations": [
+        "Dokumentovan primer funkcije; nije tvrdnja da je GLL model u Alat Rent floti niti specifikacija generičkog tool-055."
+      ],
+      "access_status": "opened"
+    },
+    {
+      "id": "L2",
+      "url": "https://pt-pro.resource.bosch.com/media/grl-400-h-24720-original-pdf-340876.pdf",
+      "title": "GRL 400 H / LR 1 — original instructions, 1 609 92A 5S3, 2020.09",
+      "publisher": "Bosch Professional",
+      "accessedAt": "2026-10-26",
+      "accessTimePrecision": "day; exact individual request timestamp was not captured",
+      "kind": "manufacturer_original_manual",
+      "model": "GRL 400 H; LR 1",
+      "locationInSource": "PDF English printed/PDF pages 16–23: Safety; Intended Use page 18; Automatic Levelling and Accuracy Check page 23",
+      "claims": [
+        "GRL 400 H proverava horizontalne profile visine; namenjen je unutra i napolju.",
+        "LR 1 pronalazi rotirajući zrak.",
+        "Samo nivelisanje nije zamena za proveru tačnosti; potresi i temperaturni uslovi utiču na rezultat.",
+        "Ne usmeravati zrak na ljude/životinje ili gledati u direktni/odbijeni snop."
+      ],
+      "limitations": [
+        "Ne prenositi vertikalnu ravan ili funkciju nagiba sa drugih GRL varijanti.",
+        "Nema numeričkog dometa/tačnosti kao univerzalne preporuke.",
+        "PDF SHA256 c12b5cec4f153d2311c76b22b077a2fd5ad2068d48ad3b0dee0a702412bca3eb."
+      ],
+      "access_status": "opened"
+    },
+    {
+      "id": "L3",
+      "url": "https://www.bosch-professional.com/gb/en/products/glm-50-27-cg-0601072U00",
+      "title": "GLM 50-27 CG — laser measure",
+      "publisher": "Bosch Professional",
+      "accessedAt": "2026-10-26",
+      "accessTimePrecision": "day; exact individual request timestamp was not captured",
+      "kind": "manufacturer_documentation",
+      "model": "GLM 50-27 CG",
+      "locationInSource": "Equipment & Application, lines 794–804",
+      "claims": [
+        "Uređaj za merenje i dokumentovanje dimenzija/površina."
+      ],
+      "limitations": [
+        "Ne predstavlja projektor referentne horizontalne ili vertikalne linije; precizno rukovanje ostaje u G002."
+      ],
+      "access_status": "opened"
+    }
+  ],
+  "claimMap": [
+    {
+      "id": "G033-C1",
+      "articleClaim": "Linijski GLL 2-15 G projektuje horizontalne i vertikalne linije.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "L1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    },
+    {
+      "id": "G033-C2",
+      "articleClaim": "GRL 400 H je za horizontalne profile visine; LR 1 pronalazi rotirajući zrak.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "L2"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    },
+    {
+      "id": "G033-C3",
+      "articleClaim": "GLM 50-27 CG služi merenju i dokumentovanju dimenzija.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "L3"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    },
+    {
+      "id": "G033-C4",
+      "articleClaim": "Samonivelisanje ne zamenjuje proveru tačnosti; potresi i temperaturni uslovi utiču na rezultat.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "L2"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    },
+    {
+      "id": "G033-C5",
+      "articleClaim": "Ne usmeravati snop na ljude/životinje ili gledati direktan/odbijeni snop.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "L2"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    }
+  ],
+  "searchMetrics": {
+    "monthlyVolume": null,
+    "keywordDifficulty": null,
+    "googlePosition": null,
+    "source": null,
+    "period": null
+  },
+  "constraints": [
+    "Izvori konkurenata služe samo proceni namere, bez preuzimanja cena ili tvrdnji.",
+    "Nema izmerenog obima, pozicija ili Google top-10 kontrolisanog uzorka.",
+    "Nema novog pregleda Search Console-a."
+  ],
+  "openQuestions": [],
+  "fieldDefinitions": {
+    "searches": "query, engine/tool, observedAt, language, locale, device, openedUrls, observation; unknown fields are null",
+    "sources": "id, url, title, publisher, accessedAt, kind, model, locationInSource, claims, limitations, access_status; only actually opened pages",
+    "claimMap": "id, articleClaim, articleSection, sourceIds, status, applicability, reviewerNote; status verified_primary|verified_business|needs_model_confirmation|unsupported"
+  },
+  "researchWindow": {
+    "startedNoEarlierThan": "2026-10-26T10:31:06.232195+00:00",
+    "closedAt": "2026-10-26T10:37:53.918613+00:00",
+    "individualAccessTimePrecision": "day"
+  },
+  "businessEvidence": {
+    "catalogFile": "lib/seed.json",
+    "sha256": "62e70331ebc92a84d2b321563f214e902c7f3fecf09ac48ddbc5ada6418c7e5e",
+    "publicHttpCheck": {
+      "checkedAt": "2026-10-26T10:42:33.351207+00:00",
+      "status": "passed",
+      "report": "http-before/report.json",
+      "toolPaths": [
+        "/sr/alat/laserski-nivelator",
+        "/sr/alat/bosch-rotacioni-laser-grl-400-h-lr1-kofer-cr-39897",
+        "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677"
+      ]
+    }
+  },
+  "failedAccesses": [
+    {
+      "url": "https://www.bosch-professional.com/rs/sr/products/grl-400-h-06159940JY",
+      "result": "web cache miss; original manufacturer PDF used instead"
+    },
+    {
+      "url": "https://www.bosch-professional.com/rs/sr/products/grl-400-h-061599403U",
+      "result": "web cache miss; original manufacturer PDF used instead"
+    }
+  ]
+}

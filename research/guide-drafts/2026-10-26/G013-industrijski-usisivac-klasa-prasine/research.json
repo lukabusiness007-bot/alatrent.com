@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "G013",
+  "researchedAt": "2026-10-26T10:37:53.918613+00:00",
+  "searches": [
+    {
+      "query": "industrijski usisivač klasa L M VC2512L",
+      "engine": "Codex integrated web search",
+      "observedAt": "2026-10-26",
+      "timePrecision": "day; individual search timestamps not captured",
+      "language": "sr-Latn",
+      "locale": null,
+      "device": null,
+      "openedUrls": [
+        "https://www.makita.com.hk/upload/product/594/file_en/5bcd8f8e4d60a.pdf",
+        "https://www.bosch-professional.com/rs/sr/kontrola-prasine/usisivac/"
+      ],
+      "observation": "Pretraga vraća zvanični Makita opis klase L i više opisa građevinskih usisivača. Protivrečno se navode varijante i automatski start; vodič zato traži proveru stvarnog uređaja, bez univerzalnog broja za utičnicu.",
+      "observedResultUrls": [
+        "https://katalog.makita.cz/produkt/vysavani/stavebni-vysavace/trida-l/elektricke/univerzalni-vysavac-25l-1000w-trida-l-28163.htm"
+      ]
+    },
+    {
+      "query": "site.makita.co.nz VC2512L manual",
+      "engine": "Codex integrated web search",
+      "observedAt": "2026-10-26",
+      "timePrecision": "day; individual search timestamps not captured",
+      "language": "mixed",
+      "locale": null,
+      "device": null,
+      "openedUrls": [
+        "https://www.makita.com.hk/upload/product/594/file_en/5bcd8f8e4d60a.pdf",
+        "https://www.bosch-professional.com/rs/sr/kontrola-prasine/usisivac/"
+      ],
+      "observation": "Provera primarne dokumentacije i tačnog modela; bez merenja potražnje.",
+      "observedResultUrls": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "M1",
+      "url": "https://www.makita.com.hk/upload/product/594/file_en/5bcd8f8e4d60a.pdf",
+      "title": "Makita VC2012L / VC2512L / VC3011L — original instructions",
+      "publisher": "Makita",
+      "accessedAt": "2026-10-26",
+      "accessTimePrecision": "day; exact individual request timestamp was not captured",
+      "kind": "manufacturer_original_manual",
+      "model": "VC2512L; shared manual also VC2012L/VC3011L",
+      "locationInSource": "PDF pages 12–16 of downloaded 16-page English extract; printed pages 17–21: Purpose; Before start-up; Picking up liquids; Connecting electrical appliances; Technical data",
+      "claims": [
+        "VC2512L je u klasi L.",
+        "Ne raditi bez filtera ili sa oštećenim filterom.",
+        "Za tečnosti se menja priprema u odnosu na suvo usisavanje; naveden je plovak.",
+        "Postoje zabrane vrelog, zapaljivog i eksplozivnog materijala.",
+        "Priključak alata prati uputstvo i konkretnu regionalnu varijantu."
+      ],
+      "limitations": [
+        "Ne prevoditi profesionalne granične koncentracije u kućni test bezbednosti.",
+        "Brojevi utičnice i pribora razlikuju se po modelu/varijanti; ne prenosimo ih u članak.",
+        "PDF SHA256 bd18a0948f710592d0a96e9e099795fc2be1432fc9015d632463adb1c8ce8a7b."
+      ],
+      "access_status": "opened"
+    },
+    {
+      "id": "D1",
+      "url": "https://www.bosch-professional.com/rs/sr/kontrola-prasine/usisivac/",
+      "title": "Usisivači za profesionalce — klase i sistem prašine",
+      "publisher": "Bosch Professional",
+      "accessedAt": "2026-10-26",
+      "accessTimePrecision": "day; exact individual request timestamp was not captured",
+      "kind": "manufacturer_documentation",
+      "model": null,
+      "locationInSource": "Koja klasa usisavanja ti je potrebna? lines 503–550; izbor kesa i filtera lines 583–690",
+      "claims": [
+        "L/M/H razlikuju nivoe rizika.",
+        "Filter, kesa i režim suve/mokre primene biraju se prema nameni."
+      ],
+      "limitations": [
+        "Bosch pregled nije dozvola da se njegove preporuke pribora prenesu na Makitu.",
+        "Ne biramo klasu za konkretan nepoznat materijal; nema tvrdnje o univerzalnoj usaglašenosti sa lokalnim propisima."
+      ],
+      "access_status": "opened"
+    }
+  ],
+  "claimMap": [
+    {
+      "id": "G013-C1",
+      "articleClaim": "Makita VC2512L je klasa L.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "M1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    },
+    {
+      "id": "G013-C2",
+      "articleClaim": "Ne radi se bez filtera ili sa oštećenim filterom.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "M1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    },
+    {
+      "id": "G013-C3",
+      "articleClaim": "L/M/H razlikuju nivoe rizika; prikladnost se ne svodi na snagu.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "D1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    },
+    {
+      "id": "G013-C4",
+      "articleClaim": "Suvi i mokri režim imaju različitu pripremu; nisu dozvoljene sve tečnosti.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "M1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    },
+    {
+      "id": "G013-C5",
+      "articleClaim": "Priključak električnog alata i automatski start zahtevaju proveru konkretnog uređaja.",
+      "articleSection": "Povezani pasusi o nameni, granicama i kompletu; provereno u kritičnom prolazu",
+      "sourceIds": [
+        "M1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedeni model i namenu; bez garantovanog našeg kompleta.",
+      "reviewerNote": "Potvrđeno značenje, negacija i model; ne potvrđuje konkretan naš izdati komplet."
+    }
+  ],
+  "searchMetrics": {
+    "monthlyVolume": null,
+    "keywordDifficulty": null,
+    "googlePosition": null,
+    "source": null,
+    "period": null
+  },
+  "constraints": [
+    "Izvori konkurenata služe samo proceni namere, bez preuzimanja cena ili tvrdnji.",
+    "Nema izmerenog obima, pozicija ili Google top-10 kontrolisanog uzorka.",
+    "Nema novog pregleda Search Console-a."
+  ],
+  "openQuestions": [],
+  "fieldDefinitions": {
+    "searches": "query, engine/tool, observedAt, language, locale, device, openedUrls, observation; unknown fields are null",
+    "sources": "id, url, title, publisher, accessedAt, kind, model, locationInSource, claims, limitations, access_status; only actually opened pages",
+    "claimMap": "id, articleClaim, articleSection, sourceIds, status, applicability, reviewerNote; status verified_primary|verified_business|needs_model_confirmation|unsupported"
+  },
+  "researchWindow": {
+    "startedNoEarlierThan": "2026-10-26T10:31:06.232195+00:00",
+    "closedAt": "2026-10-26T10:37:53.918613+00:00",
+    "individualAccessTimePrecision": "day"
+  },
+  "businessEvidence": {
+    "catalogFile": "lib/seed.json",
+    "sha256": "62e70331ebc92a84d2b321563f214e902c7f3fecf09ac48ddbc5ada6418c7e5e",
+    "publicHttpCheck": {
+      "checkedAt": "2026-10-26T10:42:33.351207+00:00",
+      "status": "passed",
+      "report": "http-before/report.json",
+      "toolPaths": [
+        "/sr/alat/makita-usisivac-vc2512l-cr-638"
+      ]
+    }
+  },
+  "failedAccesses": [
+    {
+      "url": "https://www.makita.com.hk/upload/product/594/file_en/5bcd8f8e4d60a.pdf",
+      "tool": "web open",
+      "result": "not accessible; original PDF subsequently downloaded and English pages read using pypdf"
+    }
+  ]
+}

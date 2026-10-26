@@ -1,0 +1,10 @@
+{
+  "id": "G033",
+  "action": "new",
+  "canonicalTarget": "/sr/saveti/nivelator-rotacioni-laser-ili-daljinomer",
+  "toolPaths": [
+    "/sr/alat/laserski-nivelator",
+    "/sr/alat/bosch-rotacioni-laser-grl-400-h-lr1-kofer-cr-39897",
+    "/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-10-26T10:46:42.642376+00:00",
+  "status": "passed",
+  "session": "guides20261026",
+  "reports": [
+    {
+      "id": "G012",
+      "url": "http://127.0.0.1:3026/sr/saveti/najam-masine-ili-usluga-dubinskog-pranja",
+      "geometry": {
+        "width": 390,
+        "documentWidth": 390,
+        "h1": 1,
+        "regions": [
+          {
+            "width": 352,
+            "scrollWidth": 520,
+            "tabIndex": 0,
+            "tableWidth": 520
+          }
+        ]
+      },
+      "topScreenshot": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261026/G012-top.png",
+      "tableScreenshot": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261026/G012-table.png"
+    },
+    {
+      "id": "G013",
+      "url": "http://127.0.0.1:3026/sr/saveti/industrijski-usisivac-klasa-prasine",
+      "geometry": {
+        "width": 390,
+        "documentWidth": 390,
+        "h1": 1,
+        "regions": [
+          {
+            "width": 352,
+            "scrollWidth": 520,
+            "tabIndex": 0,
+            "tableWidth": 520
+          }
+        ]
+      },
+      "topScreenshot": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261026/G013-top.png",
+      "tableScreenshot": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261026/G013-table.png"
+    },
+    {
+      "id": "G033",
+      "url": "http://127.0.0.1:3026/sr/saveti/nivelator-rotacioni-laser-ili-daljinomer",
+      "geometry": {
+        "width": 390,
+        "documentWidth": 390,
+        "h1": 1,
+        "regions": [
+          {
+            "width": 352,
+            "scrollWidth": 520,
+            "tabIndex": 0,
+            "tableWidth": 520
+          }
+        ]
+      },
+      "topScreenshot": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261026/G033-top.png",
+      "tableScreenshot": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261026/G033-table.png"
+    }
+  ],
+  "additionalScreenshot": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261026/G033-table-right.png",
+  "visuallyReviewedAt": "2026-10-26T10:48:26.709567+00:00",
+  "review": "Nine screenshots inspected: all three headings and all table columns readable at 390px; horizontal table regions are focusable and document has no horizontal overflow.",
+  "additionalRightTableScreenshots": [
+    "/Users/luka/Desktop/rent tools/output/playwright/guides-20261026/G012-table-right.png",
+    "/Users/luka/Desktop/rent tools/output/playwright/guides-20261026/G013-table-right.png"
+  ]
+}

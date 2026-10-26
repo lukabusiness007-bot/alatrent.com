@@ -1,0 +1,223 @@
+✔ Editorial links cannot become script, credential-bearing, or protocol-relative URLs (1.460875ms)
+✔ Tables, checklists and source links survive staging as structured content (1.279ms)
+✔ Unpublished entries stay out of public inventory; dates and unique URLs are enforced (1.017833ms)
+✔ Staged publication references existing equipment and preserves separate article dates (31.224917ms)
+✔ Explicit legacy refresh keeps one URL and its first publication date (0.511625ms)
+✖ Every seeded tool has specific search intent, useful copy and an existing category (20130.977083ms)
+✖ Home page search appearance uses the preferred business name, concise copy and crawlable icon (0.590917ms)
+✖ Search crawlers get raster favicons, a business logo and complete preview image metadata (0.03875ms)
+✖ Crawl every sitemap URL: 200, one H1, unique metadata, canonical, reciprocal hreflang and parseable JSON-LD (0.03925ms)
+✖ Confirmed business phone is consistent in contact links and structured data (0.043291ms)
+✖ Search phrases drive the page, FAQ and catalog while the specific model stays visible (0.0325ms)
+✖ Private, filtered, empty and operational pages stay out of the index; unknown paths return 404 (0.03075ms)
+✖ Expanded catalog paginates with crawlable links, own canonical URLs and a complete result count (0.0295ms)
+✖ Rental content, Cyrillic and common aliases resolve to the right tool (0.037917ms)
+✖ Custom descriptions survive enrichment; JSON-LD escapes admin-provided markup (0.055166ms)
+✖ Missing or invalid public origins keep previews noindex; configured business contact is emitted without fabricated data (0.023458ms)
+✖ Guides publish only real Serbian pages and link to published equipment with current prices (0.020916ms)
+✖ Priority content preserves a custom model name and custom description (0.020625ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 5
+ℹ fail 13
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21071.92
+
+✖ failing tests:
+
+test at tests/seo.test.mjs:51:1
+✖ Every seeded tool has specific search intent, useful copy and an existing category (20130.977083ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)
+
+test at tests/seo.test.mjs:63:1
+✖ Home page search appearance uses the preferred business name, concise copy and crawlable icon (0.590917ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)
+
+test at tests/seo.test.mjs:89:1
+✖ Search crawlers get raster favicons, a business logo and complete preview image metadata (0.03875ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)
+
+test at tests/seo.test.mjs:132:1
+✖ Crawl every sitemap URL: 200, one H1, unique metadata, canonical, reciprocal hreflang and parseable JSON-LD (0.03925ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)
+
+test at tests/seo.test.mjs:179:1
+✖ Confirmed business phone is consistent in contact links and structured data (0.043291ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)
+
+test at tests/seo.test.mjs:191:1
+✖ Search phrases drive the page, FAQ and catalog while the specific model stays visible (0.0325ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)
+
+test at tests/seo.test.mjs:212:1
+✖ Private, filtered, empty and operational pages stay out of the index; unknown paths return 404 (0.03075ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)
+
+test at tests/seo.test.mjs:236:1
+✖ Expanded catalog paginates with crawlable links, own canonical URLs and a complete result count (0.0295ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)
+
+test at tests/seo.test.mjs:255:1
+✖ Rental content, Cyrillic and common aliases resolve to the right tool (0.037917ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)
+
+test at tests/seo.test.mjs:267:1
+✖ Custom descriptions survive enrichment; JSON-LD escapes admin-provided markup (0.055166ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)
+
+test at tests/seo.test.mjs:278:1
+✖ Missing or invalid public origins keep previews noindex; configured business contact is emitted without fabricated data (0.023458ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)
+
+test at tests/seo.test.mjs:301:1
+✖ Guides publish only real Serbian pages and link to published equipment with current prices (0.020916ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)
+
+test at tests/seo.test.mjs:343:1
+✖ Priority content preserves a custom model name and custom description (0.020625ms)
+  Error: ⨯ Failed to start server
+  Error: listen EPERM: operation not permitted 127.0.0.1:3014
+      at ignore-listed frames {
+    code: 'EPERM',
+    errno: -1,
+    syscall: 'listen',
+    address: '127.0.0.1',
+    port: 3014
+  }
+  
+      at TestContext.<anonymous> (file:///private/tmp/alatrent-guides-release-20261026/tests/seo.test.mjs:43:9)
+      at async TestHook.run (node:internal/test_runner/test:1208:7)

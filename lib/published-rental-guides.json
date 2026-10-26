@@ -3149,5 +3149,478 @@
     "publishedAt": "2026-10-14T12:00:00.000Z",
     "updatedAt": "2026-10-24T09:35:13.800588+00:00",
     "replacesLegacy": true
+  },
+  {
+    "id": "G012",
+    "slug": "najam-masine-ili-usluga-dubinskog-pranja",
+    "title": "Najam mašine ili usluga dubinskog pranja: kako odlučiti",
+    "description": "Uporedi samostalno pranje i stručnu uslugu prema materijalu, vremenu, pripremi i ukupnoj ponudi. Kontrolna lista pre izbora i najma.",
+    "intro": "Najam mašine razmatraj kada je dozvoljeni način čišćenja poznat i možeš da preuzmeš pripremu, pranje, sušenje predmeta i vraćanje opreme. Ponudu stručne usluge razmatraj kada želiš da posao obavi izvođač ili je potrebna procena materijala i tretmana. Odluku donesi prema celom poslu i uporedivoj ponudi; sama dnevna cena uređaja nije dovoljan kriterijum.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Da li biraš uređaj ili osobu koja obavlja posao?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pri najmu dobijaš opremu za dogovoreni period, a svoj deo posla organizuješ sam. Kod usluge ugovaraš konkretan obuhvat rada sa pružaocem usluge. Zato pitanje „šta je povoljnije?“ prvo pretvori u spisak predmeta, zadataka i odgovornosti."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ovaj vodič poredi te dve odluke. Ako si već odlučio da iznajmiš ekstraktor, detalje materijala i pribora pronaći ćeš u [vodiču za izbor mašine za dubinsko pranje](/sr/saveti/dubinsko-pranje-namestaja-izbor-masine). Za razliku u metodama koristi [poređenje paročistača i ekstraktora](/sr/saveti/parocistac-ili-ekstraktor)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela za prvu odluku"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Tvoja situacija",
+          "Šta ima smisla razmatrati",
+          "Šta prethodno razjasniti"
+        ],
+        "rows": [
+          [
+            "Poznaješ materijal i dozvoljeni tretman, imaš vreme i prostor",
+            "Najam odgovarajućeg uređaja",
+            "Komplet, sredstvo, uputstvo i ceo period rada"
+          ],
+          [
+            "Želiš da neko drugi preuzme čišćenje",
+            "Ponudu stručne usluge",
+            "Koje predmete i radnje obuhvata dogovor"
+          ],
+          [
+            "Oznaka održavanja je nečitka ili materijal nepoznat",
+            "Najpre procenu materijala i postupka",
+            "Ko može pouzdano potvrditi dozvoljeni tretman"
+          ],
+          [
+            "Predmet mora brzo ponovo da se koristi",
+            "Najpre procenu realnog rasporeda",
+            "Da li postoje uslovi i dovoljno vremena za sušenje"
+          ],
+          [
+            "Planiraš više različitih predmeta",
+            "Jedinstven spisak za obe ponude",
+            "Da li svaki materijal dopušta predloženu metodu"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Tabela nije preporuka da svaku zahtevniju mrlju rešava jača mašina. Ekstrakcija je mokar tretman: rastvor se nanosi na dozvoljeni tekstil i izvlači nazad. Uputstvo Puzzi traži proveru postojanosti boje i otpornosti na vodu. Proba na skrivenom delu ne poništava zabranu proizvođača nameštaja."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "U svoj raspored uključi pripremu i završetak"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vreme najma nemoj planirati samo prema prolazu nastavka preko sedišta. U spisak poslova uključi preuzimanje ili dostavu, pripremu prostora, čitanje uputstva, samo čišćenje i dogovorene radnje pre vraćanja uređaja."
+      },
+      {
+        "type": "paragraph",
+        "text": "Originalno Puzzi uputstvo obuhvata i pražnjenje, ispiranje i sušenje uređaja. Potvrdi šta se očekuje pri povratku, umesto da taj deo ostaviš za poslednji trenutak. Nastavak za nameštaj i oprema za tepih nisu automatski isti komplet."
+      },
+      {
+        "type": "paragraph",
+        "text": "Posebno planiraj kada će predmet ponovo biti potreban. Kärcher u smernicama za tapacirani nameštaj traži dovoljno vremena za sušenje i provetravanje. Ne pretpostavljaj da će angažovanje izvođača ili izbor određene mašine ukinuti taj korak."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Uporedi ponude za isti spisak predmeta"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za najam traži ukupan obračun za potreban period, sa dogovorenim priborom, sredstvom i transportom. Za uslugu traži iznos i obuhvat za iste predmete, uz objašnjenje šta se dodatno ugovara. Depozit i njegov povrat prikaži odvojeno od troška najma."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pre odluke proveri:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Da li su navedeni isti predmeti, dimenzije i delovi koje treba čistiti?",
+          "Ko priprema pristup i pomera stvari, ako je to potrebno?",
+          "Da li su sredstvo, dodatni nastavak i transport obuhvaćeni ponudom?",
+          "Šta je dogovoreno za termin, povrat opreme i završetak rada?",
+          "Koja ograničenja postoje za materijal, mrlje i očekivani rezultat?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Za naš način obračuna koristi [vodič o ceni najma i dostave](/sr/saveti/cena-najma-alata-i-dostave). Ne preuzimaj trajanje najma, sadržaj paketa ili depozit iz oglasa drugog ponuđača kao Alat Rent uslov. Najam nije u svakom slučaju jeftiniji, niti stručna usluga automatski uključuje sve što si zamislio."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Primer: ista garnitura, dva različita dogovora"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako, na primer, želiš čišćenje garniture i četiri stolice, taj isti spisak pošalji i za najam i za ponudu usluge. Dodaj dimenzije, fotografije oznaka održavanja i opis nečistoće. Zatim uporedi šta radiš sam, šta preuzima druga strana i koji je ukupan dogovoreni iznos."
+      },
+      {
+        "type": "paragraph",
+        "text": "To je korisnije od poređenja cene mašine za jedan dan sa cenom usluge za neodređen broj komada. Bez procene materijala i uslova nijedna opcija nije potvrda da će svaka mrlja nestati."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta poslati za najam mašine"
+      },
+      {
+        "type": "paragraph",
+        "text": "Za [mašinu Puzzi 8/1 iz kataloga](/sr/alat/masina-za-dubinsko-pranje-puzzi-8-1-cr-35551) pošalji predmete i dimenzije, oznake održavanja, termin, potreban nastavak i način preuzimanja ili dostave. Navedi i kada prostor ili sedišta moraju ponovo da se koriste."
+      },
+      {
+        "type": "paragraph",
+        "text": "Alat Rent upit odnosi se na iznajmljivanje opreme. Ako želiš čišćenje koje obavlja izvođač, proveri tu uslugu i njen obuhvat kod odgovarajućeg pružaoca; nemoj pretpostaviti da je uključena uz najam. Za potvrdu modela, kompleta i termina pošalji [upit](/sr/kontakt)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Kärcher: originalno uputstvo za Puzzi 8/1 i Puzzi 8/1 Adv](https://www.kaercher.com/documents/manuals/html/BTA-5765075-000-04/EN.html)",
+          "[Kärcher: čišćenje tapaciranog nameštaja i planiranje sušenja](https://www.kaercher.com/gb/en/home-and-garden/know-how/cleaning-upholstery-c2149)"
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-35551"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-26T10:43:59.350112+00:00",
+    "updatedAt": "2026-10-26T10:43:59.350112+00:00"
+  },
+  {
+    "id": "G013",
+    "slug": "industrijski-usisivac-klasa-prasine",
+    "title": "Industrijski usisivač: klasa prašine, filter i priključak",
+    "description": "Šta proveriti kod klase L, M i H, filtera, kese i veze sa alatom. Granice Makita VC2512L i spisak podataka za upit pre iznajmljivanja.",
+    "intro": "Usisivač za radove biraj prema materijalu koji se sakuplja, potrebnoj klasi prašine i kompletu za taj posao. Snaga motora, veličina posude ili crevo koje može da se spoji ne potvrđuju prikladnost. Ako sastav materijala nije poznat, prvo razjasni rizik; izbor ne treba početi rezervacijom bilo kog „građevinskog usisivača“.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Koji podatak je važniji od vati?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Napiši šta se obrađuje i kako prašina nastaje: brušenjem, sečenjem, bušenjem ili sakupljanjem već nastalog otpada. Naziv materijala i njegov tehnički ili bezbednosni list daju osnovu za procenu. Opis „prašina od renoviranja“ ostavlja previše nepoznanica."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kod nepoznatih starih premaza ili sumnje na opasan materijal potrebna je stručna procena pre početka rada. Ovaj vodič pomaže pripremi upita; ne određuje bezbedan postupak uklanjanja takvog materijala."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Klasa mašine, filter i adapter nisu ista stvar"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bosch u objašnjenju usisivača razlikuje klase prašine L, M i H prema nivou rizika. Oznaka klase odnosi se na usisivač i njegove predviđene uslove rada. Kesa, filter i priključak proveravaju se u tom okviru; jedan dodatak nije zamena za odgovarajuću mašinu."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Šta proveravaš",
+          "Šta time razjašnjavaš",
+          "Šta još nije potvrđeno"
+        ],
+        "rows": [
+          [
+            "Klasa L, M ili H u dokumentaciji uređaja",
+            "Za koju namenu i nivo rizika je uređaj predviđen",
+            "Da odgovara baš tvom materijalu i postupku"
+          ],
+          [
+            "Odgovarajući filter i kesa",
+            "Da li je sklop predviđen za traženu primenu",
+            "Da drugi filter sam menja klasu cele mašine"
+          ],
+          [
+            "Crevo, adapter i priključak alata",
+            "Da li se oprema pravilno povezuje",
+            "Da fizički spoj rešava rizik prašine"
+          ],
+          [
+            "Suvi ili mokri režim",
+            "Koja priprema kompleta je potrebna",
+            "Da je dozvoljeno usisavanje svake tečnosti"
+          ],
+          [
+            "Automatsko pokretanje, ako postoji",
+            "Način zajedničkog rada sa alatom",
+            "Da utičnica prihvata svako opterećenje"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Nemoj iz opšteg spiska materijala zaključiti klasu za mešavinu nepoznatih slojeva. Procena posla, uputstvo uređaja i dokumentacija materijala moraju da odgovaraju jedni drugima."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta je potvrđeno za Makita VC2512L?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Originalno Makita uputstvo za VC2012L, VC2512L i VC3011L navodi klasu L. Zbog toga [VC2512L iz kataloga](/sr/alat/makita-usisivac-vc2512l-cr-638) ne treba podrazumevati kao rešenje kada procena traži drugu klasu ili poseban postupak."
+      },
+      {
+        "type": "paragraph",
+        "text": "Veća posuda ili dodatni filter ne predstavljaju dokaz promene klase. Za konkretan najam proveri oznaku uređaja, njegovo uputstvo i sadržaj kompleta. Kataloški model nije potvrda da su svi prikazani dodaci raspoloživi za traženi termin."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pre izbora suve ili mokre primene"
+      },
+      {
+        "type": "paragraph",
+        "text": "Priručnik Makita zabranjuje rad bez filtera ili sa oštećenim filterom. Za sakupljanje tečnosti opisuje drugačiju pripremu, uključujući proveru plovka i uklanjanje filter kese. To nije dozvola da se uređajem sakuplja svaka tečnost: isto uputstvo isključuje, između ostalog, zapaljive i agresivne tečnosti, vreo materijal i zapaljivu ili eksplozivnu prašinu."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pre preuzimanja opiši tačno šta treba sakupljati i traži potvrdu odgovarajućeg sklopa. Nemoj tražiti da se nepoznata tečnost jednostavno tretira kao voda. Pražnjenje, čišćenje i vraćanje opreme takođe dogovori prema materijalu; ne planiraj proizvoljno istresanje sakupljene prašine."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Povezivanje sa brusilicom ili drugim alatom"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pošalji naziv i model alata, fotografiju izlaza za prašinu i podatke o postojećem crevu ako ga imaš. Potrebno je potvrditi adapter, spoj i dozvoljenu kombinaciju, bez improvizovanih priključaka."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako želiš zajedničko automatsko uključivanje, posebno pitaj da li ga konkretan uređaj ima i koja ograničenja važe za njegov priključak. Makita uputstvo traži poštovanje namene utičnice i uputstva povezanog električnog alata. Ne prepisuj broj dozvoljenih vati sa druge varijante ili drugog modela."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za rad na zidovima pročitaj i [vodič za izbor žirafe, abraziva i odvođenja prašine](/sr/saveti/zirafa-i-usisivac-za-zidove). On rešava izbor obrade zida; prisustvo žirafe i usisivača u katalogu samo po sebi ne potvrđuje bezbedan komplet za svaki sloj."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Kontrolna lista za potpun upit"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Navedi materijal i poznate slojeve, uz odgovarajuću dokumentaciju.",
+          "Opiši postupak kojim prašina nastaje ili vrstu otpada koju sakupljaš.",
+          "Razjasni suvu ili dozvoljenu mokru primenu i uslove prostora.",
+          "Dodaj model alata, priključak, crevo i pitanje o automatskom startu.",
+          "Potvrdi klasu uređaja, filter, kesu, pribor i način vraćanja opreme.",
+          "Pošalji termin i podatke za dogovor preuzimanja ili dostave."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Za [upit o iznajmljivanju](/sr/kontakt) pošalji ove podatke pre izbora mašine. Ako ključni podatak o materijalu ili potrebnoj zaštiti nedostaje, prvo razjasni njega; naziv „industrijski“ ne popunjava tu prazninu."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Makita: originalno uputstvo VC2012L, VC2512L i VC3011L, engleske strane 17–21](https://www.makita.com.hk/upload/product/594/file_en/5bcd8f8e4d60a.pdf)",
+          "[Bosch Professional: klase prašine, kese i filteri za usisivače](https://www.bosch-professional.com/rs/sr/kontrola-prasine/usisivac/)"
+        ]
+      }
+    ],
+    "toolIds": [
+      "crafter-638"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-26T10:43:59.350112+00:00",
+    "updatedAt": "2026-10-26T10:43:59.350112+00:00"
+  },
+  {
+    "id": "G033",
+    "slug": "nivelator-rotacioni-laser-ili-daljinomer",
+    "title": "Laserski nivelator, rotacioni laser ili daljinomer: izbor",
+    "description": "Izaberi uređaj prema referentnoj liniji, horizontalnoj visini ili izmerenoj dužini. Proveri prijemnik, oslonac i komplet pre iznajmljivanja.",
+    "intro": "Ako ti treba referentna linija za poravnanje pri montaži, razmatraj odgovarajući linijski nivelator. Ako prenosiš horizontalnu visinu na više mesta radne površine, proveri rotacioni laser i potreban prijemnik. Ako ti treba brojčano rastojanje, traži daljinomer. U upitu zato opiši rezultat koji želiš; izraz „treba mi laser“ ne određuje uređaj.",
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Da li ti treba linija, horizontalna kota ili izmerena dužina?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Poravnanje police i merenje širine zida nisu isti zadatak. Možeš da znaš dužinu zida, a da i dalje nemaš referencu za montažu. Isto tako, projektovana linija ne daje automatski brojčane dimenzije prostorije."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ovaj vodič služi izboru vrste reference i kompleta za nivelaciju. Za konkretno merenje dužina i dokumentovanje prostorije koristi [poređenje daljinomera i metra](/sr/saveti/laserski-daljinomer-ili-metar)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tabela izbora prema zadatku"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Potreban rezultat",
+          "Šta razmatrati",
+          "Šta obavezno potvrditi"
+        ],
+        "rows": [
+          [
+            "Horizontalna ili vertikalna linija za montažu na zidu",
+            "Linijski ili ukršteni nivelator odgovarajućih funkcija",
+            "Koje linije projektuje, uslove vidljivosti i nosač"
+          ],
+          [
+            "Ista horizontalna referentna visina na više mesta",
+            "Rotacioni laser za horizontalno nivelisanje",
+            "Prijemnik, oslonac i pribor za očitavanje"
+          ],
+          [
+            "Dužina između tačaka ili dimenzije prostorije",
+            "Laserski daljinomer",
+            "Potrebne funkcije merenja i uslove rada"
+          ],
+          [
+            "Vertikalna ravan, prenos tačke ili zadati pad",
+            "Model koji izričito podržava taj zadatak",
+            "Tačnu funkciju u uputstvu; naziv „rotacioni“ nije dovoljan"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Tabela razlikuje funkcije, a ne proglašava jednu klasu uređaja najboljom. Jedan posao može da zahteva i merenje dimenzija i zasebno obeležavanje reference."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Linijski nivelator za montažnu referencu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bosch GLL 2-15 G je dokumentovan primer uređaja koji projektuje horizontalne i vertikalne linije. Proizvođač ga navodi za kratke unutrašnje montažne zadatke, poput postavljanja polica ili poravnanja rasvete."
+      },
+      {
+        "type": "paragraph",
+        "text": "To objašnjava vrstu funkcije, ali ne potvrđuje da je baš GLL 2-15 G model izdat uz naš generički artikal. Na stranici [laserskog nivelatora](/sr/alat/laserski-nivelator) pošalji šta poravnavaš, na kojim površinama i na kojoj visini. Traži potvrdu tačnog modela, linija i načina postavljanja."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ako je nosač neprikladan za dostupni oslonac ili linija nije upotrebljiva u tvojim uslovima, sam naziv nivelatora ne rešava problem. Opiši prostor i prepreke pre rezervacije."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "GRL 400 H je izbor za horizontalnu referencu"
+      },
+      {
+        "type": "paragraph",
+        "text": "U originalnom uputstvu Bosch GRL 400 H namenjen je uspostavljanju i proveri horizontalnih profila visine, u zatvorenom i na otvorenom. Prijemnik LR 1 služi pronalaženju rotirajućeg zraka. Ta dva dela treba posmatrati kao funkcionalni komplet za zadatak, uz proveru potrebnog pribora."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ne pripisuj modelu GRL 400 H vertikalnu ravan ili rad sa zadatim nagibom zato što to postoji na nekom drugom laseru. Ako projekat traži pad ili vertikalu, to navedi izričito i traži model čija dokumentacija potvrđuje odgovarajuću funkciju."
+      },
+      {
+        "type": "paragraph",
+        "text": "Za [rotacioni laser GRL 400 H iz kataloga](/sr/alat/bosch-rotacioni-laser-grl-400-h-lr1-kofer-cr-39897) proveri stvarni sadržaj najma: model, prijemnik, baterije ili drugi predviđeni izvor napajanja, oslonac i potreban pribor za prenos visine. Naziv artikla i fabričko pakovanje nisu zamena za potvrdu kompleta za termin."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Samonivelisanje ne zamenjuje proveru tačnosti"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bosch uputstvo za GRL opisuje i automatsko nivelisanje i zasebnu proveru tačnosti. Na rezultat mogu uticati temperaturni uslovi, pad ili potres uređaja. Zato u pripremu posla uključi proveru prema uputstvu i zahtevu projekta; nemoj očekivati da uključivanje uređaja potvrđuje svaki rezultat."
+      },
+      {
+        "type": "paragraph",
+        "text": "Domet i tačnost se proveravaju za konkretan model, režim i uslove, uključujući rad sa prijemnikom kada je potreban. Ne poredi samo najveći broj metara iz dva oglasa, jer broj bez objašnjenja obuhvata nije dovoljan za izbor."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Šta poslati da dobiješ odgovarajući komplet"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Opiši posao i željeni rezultat: linija, horizontalna visina, vertikala ili dužina.",
+          "Navedi da li se radi unutra ili napolju, približne udaljenosti i uslove svetla.",
+          "Opiši oslonac, visinu postavljanja i prepreke između uređaja i radnih mesta.",
+          "Navedi zahtev projekta za tačnost i ko će proveravati referencu.",
+          "Pitaj za prijemnik, odgovarajući nosač, stativ ili drugi potreban pribor.",
+          "Dodaj termin i način preuzimanja ili dostave."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Na primer, „treba mi vodoravna referenca na više mesta u dvorištu, uz opis udaljenosti i oslonca“ korisnije je od „treba mi najjači laser“. Ako zapravo meriš prostor za ponudu, proveri [daljinomer GLM 50-27 CG](/sr/alat/bosch-glm-50-27-cg-laserski-daljinomer-cr-29677) i vodič za merenje prostorije."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Bezbednost i dogovor pre najma"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pročitaj uputstvo izdatog uređaja pre rada. Ne usmeravaj laserski zrak na ljude ili životinje i ne gledaj u direktni ili odbijeni snop. Izbor opreme ne zamenjuje stručnu kontrolu referenci kada je potrebna projektu."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pošalji [upit](/sr/kontakt) sa opisom zadatka, pa potvrdi model i komplet. Ne biraj prema boji zraka ili najvećem dometu dok nije jasno kakav rezultat instrument treba da pruži."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Izvori"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[Bosch Professional: GLL 2-15 G, linije i primeri namene](https://www.bosch-professional.com/gb/en/products/gll-2-15-g-0601063W00)",
+          "[Bosch Professional: originalno uputstvo GRL 400 H i LR 1, engleske strane 16–23](https://pt-pro.resource.bosch.com/media/grl-400-h-24720-original-pdf-340876.pdf)",
+          "[Bosch Professional: GLM 50-27 CG i namena daljinomera](https://www.bosch-professional.com/gb/en/products/glm-50-27-cg-0601072U00)"
+        ]
+      }
+    ],
+    "toolIds": [
+      "tool-055",
+      "crafter-39897",
+      "crafter-29677"
+    ],
+    "status": "published",
+    "publishedAt": "2026-10-26T10:43:59.350112+00:00",
+    "updatedAt": "2026-10-26T10:43:59.350112+00:00"
   }
 ]

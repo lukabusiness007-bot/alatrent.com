@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "G035",
+  "slug": "mesac-ili-mesalica-za-beton",
+  "title": "Ručni mešač ili mešalica za beton: izbor prema smeši",
+  "description": "Kako razlikovati mešač za boju i lepak od bubanj mešalice: materijal, količina po turi, nastavak i pitanja pre iznajmljivanja.",
+  "primaryKeyword": "ručni mešač ili mešalica za beton",
+  "variants": [
+    "mikser za lepak ili mešalica",
+    "mešač boje i lepka izbor"
+  ],
+  "language": "sr-Latn",
+  "audience": "Korisnik koji bira opremu za konkretan fabrički materijal ili pripremu betonske smeše.",
+  "intent": "informational_commercial_selection",
+  "readerDecision": "Odrediti koje podatke o smeši, turi i pristupu treba potvrditi za izbor opreme.",
+  "cluster": "priprema-smesa",
+  "action": "new",
+  "canonicalTarget": "/sr/saveti/mesac-ili-mesalica-za-beton",
+  "commercialOwnerPaths": [
+    "/sr/alat/makita-mesac-ut1200-cr-741",
+    "/sr/alat/magnum-mixmaster-mesalica-za-beton-125l-cr-37478"
+  ],
+  "toolIds": [
+    "crafter-741",
+    "crafter-37478"
+  ],
+  "toolPaths": [
+    "/sr/alat/makita-mesac-ut1200-cr-741",
+    "/sr/alat/magnum-mixmaster-mesalica-za-beton-125l-cr-37478"
+  ],
+  "catalogCheckedAt": "2026-10-27T10:55:45.847342+00:00",
+  "publicPathsCheckedAt": null,
+  "reviewedInternalPaths": [
+    "/sr/saveti/rucni-ili-elektricni-sekac-plocica",
+    "/sr/alat/makita-mesac-ut1200-cr-741",
+    "/sr/alat/magnum-mixmaster-mesalica-za-beton-125l-cr-37478"
+  ],
+  "overlapWith": [
+    "/sr/saveti/rucni-ili-elektricni-sekac-plocica"
+  ],
+  "overlapDecision": "Nijedan od 24 javna vodiča ne bira opremu za mešanje. Vodič za pločice bira rezanje, ne pripremu lepka. Komercijalne stranice ostaju vlasnici najma i uslova.",
+  "distinctValue": "Razdvaja dozvoljenu namenu UT1200 od naziva mešač maltera, kao i nominalni bubanj od dopuštenog radnog punjenja. Daje upit prema materijalu i turi, bez recepta.",
+  "outline": [
+    {
+      "heading": "Naziv materijala odlučuje pre snage motora",
+      "questions": [
+        "Koji tačan proizvod se priprema?",
+        "Koji način zahteva tehnički list?"
+      ],
+      "purpose": "Polazna odluka i kratak odgovor.",
+      "sourceIds": [
+        "M1"
+      ],
+      "requiredArtifact": "Polazna odluka i kratak odgovor.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Dve vrste opreme, različita pitanja",
+      "questions": [
+        "Posuda sa nastavkom ili bubanj?",
+        "Koju namenu mora potvrditi model?"
+      ],
+      "purpose": "Tabela orijentacije, ne dozvola za svaku smešu.",
+      "sourceIds": [
+        "M1",
+        "A1"
+      ],
+      "requiredArtifact": "Tabela orijentacije, ne dozvola za svaku smešu.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Šta znamo o UT1200, a šta tek proveravamo",
+      "questions": [
+        "Da li je naziv mešač maltera dovoljan?",
+        "Da li su nastavak i materijal kompatibilni?"
+      ],
+      "purpose": "Tačan model; bez prenošenja UT1400.",
+      "sourceIds": [
+        "M1"
+      ],
+      "requiredArtifact": "Tačan model; bez prenošenja UT1400.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Ukupna količina nije isto što i jedna tura",
+      "questions": [
+        "Da li broj litara znači izlaz?",
+        "Da li su jedinice i materijal uporedivi?"
+      ],
+      "purpose": "Odvojiti bubanj od radnog punjenja bez računanja nepoznate ture.",
+      "sourceIds": [
+        "A1"
+      ],
+      "requiredArtifact": "Odvojiti bubanj od radnog punjenja bez računanja nepoznate ture.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Pripremi upit i uslove rada",
+      "questions": [
+        "Koje pakovanje, ture i pristup postoje?",
+        "Ko potvrđuje čišćenje, zaštitu i komplet?"
+      ],
+      "purpose": "Lista za iznajmljivanje i granica opasnih materijala.",
+      "sourceIds": [
+        "M1"
+      ],
+      "requiredArtifact": "Lista za iznajmljivanje i granica opasnih materijala.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Izvori",
+      "questions": [
+        "Šta je primarni primer, a šta stvarni model kataloga?"
+      ],
+      "purpose": "Dva primarna izvora, jasno razgraničena.",
+      "sourceIds": [
+        "M1",
+        "A1"
+      ],
+      "requiredArtifact": "Dva primarna izvora, jasno razgraničena.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    }
+  ],
+  "sourceStatus": "primary_sources_opened",
+  "unknowns": [
+    "Dopušteno radno punjenje Magnum Mixmaster i sadržaj kompleta nisu dokazani primarnim priručnikom; vodič ih ne navodi niti izračunava.",
+    "Tačan materijal, tehnički list i termin potrebni su za potvrdu pojedinačnog najma."
+  ],
+  "imagePlan": {
+    "required": false,
+    "reason": "Tabela i kontrolna lista rešavaju odluku; nema izmišljenog iskustva/fotografija."
+  },
+  "createdAt": "2026-10-27T10:55:45.847342+00:00",
+  "sourceRevision": "5c9a9cedfdf2fd4c63201fbd3d2a5c4d3346b359",
+  "internalLinkPlan": [
+    {
+      "path": "/sr/alat/makita-mesac-ut1200-cr-741",
+      "purpose": "Odgovarajući model, uslovi i potvrda kompleta; komercijalna namera ostaje tu."
+    },
+    {
+      "path": "/sr/alat/magnum-mixmaster-mesalica-za-beton-125l-cr-37478",
+      "purpose": "Odgovarajući model, uslovi i potvrda kompleta; komercijalna namera ostaje tu."
+    }
+  ],
+  "publicPathCheckResult": "blocked: production HTTP402 DEPLOYMENT_DISABLED; verify internal links in isolated preview."
+}

@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "G018",
+  "slug": "termalna-kamera-ili-ic-termometar",
+  "title": "Termalna kamera ili IC termometar: šta treba izmeriti",
+  "description": "Kada treba termalna slika, a kada temperatura izabrane površine? Proveri mernu zonu, emisivnost i podatke koje treba poslati pre najma.",
+  "primaryKeyword": "termalna kamera ili infracrveni termometar",
+  "variants": [
+    "termovizija ili tačkasto merenje temperature",
+    "IC termometar merna površina"
+  ],
+  "language": "sr-Latn",
+  "audience": "Korisnik koji pre najma bira prikaz temperaturnih razlika ili očitavanje poznate površine.",
+  "intent": "informational_commercial_selection",
+  "readerDecision": "Odabrati vrstu podatka i proveriti model, mernu zonu i potrebnu dokumentaciju, bez dijagnoze uzroka.",
+  "cluster": "termovizija",
+  "action": "new",
+  "canonicalTarget": "/sr/saveti/termalna-kamera-ili-ic-termometar",
+  "commercialOwnerPaths": [
+    "/sr/alat/termalna-kamera",
+    "/sr/alat/bosch-termometar-ic-universal-temp-cr-3084"
+  ],
+  "toolIds": [
+    "tool-058",
+    "crafter-3084"
+  ],
+  "toolPaths": [
+    "/sr/alat/termalna-kamera",
+    "/sr/alat/bosch-termometar-ic-universal-temp-cr-3084"
+  ],
+  "catalogCheckedAt": "2026-10-27T10:55:45.847342+00:00",
+  "publicPathsCheckedAt": null,
+  "reviewedInternalPaths": [
+    "/sr/saveti/higrometar-ili-merac-vlage-drveta",
+    "/sr/saveti/termalna-kamera-curenje-vode-ogranicenja",
+    "/sr/alat/termalna-kamera",
+    "/sr/alat/bosch-termometar-ic-universal-temp-cr-3084"
+  ],
+  "overlapWith": [
+    "/sr/saveti/higrometar-ili-merac-vlage-drveta",
+    "/sr/saveti/termalna-kamera-curenje-vode-ogranicenja"
+  ],
+  "overlapDecision": "G017 bira veličinu vlažnosti; G018 bira oblik podatka o površinskoj temperaturi. Held G019 je dijagnoza curenja i ostaje odložen. G018 ne tvrdi uzrok mrlje, vlagu ili sanaciju.",
+  "distinctValue": "Dve posebne odluke: pojedinačno očitavanje naspram prostornog prikaza; slikovni izlaz naspram radiometrijskog podatka. Kontrolna lista sprečava zamenu laserske tačke mernom zonom.",
+  "outline": [
+    {
+      "heading": "Prvo izaberi podatak koji ti treba",
+      "questions": [
+        "Tražiš li jednu poznatu oblast ili raspored razlika?",
+        "Da li treba snimak ili zapis temperature?"
+      ],
+      "purpose": "Tabela odluke prema potrebnom izlazu.",
+      "sourceIds": [
+        "F1",
+        "F2"
+      ],
+      "requiredArtifact": "Tabela odluke prema potrebnom izlazu.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Laserska tačka nije cela merna površina",
+      "questions": [
+        "Kako udaljenost utiče na zonu?",
+        "Da li je predmet dovoljno velik u odnosu na zonu?"
+      ],
+      "purpose": "Objasniti proveru zone bez univerzalnog rastojanja.",
+      "sourceIds": [
+        "B1"
+      ],
+      "requiredArtifact": "Objasniti proveru zone bez univerzalnog rastojanja.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Emisivnost, odsjaj i uslovi merenja",
+      "questions": [
+        "Kakav je materijal i završna površina?",
+        "Da li su uslovi stabilni?"
+      ],
+      "purpose": "Kratka ograničenja; bez recepta za izmenu predmeta.",
+      "sourceIds": [
+        "B1"
+      ],
+      "requiredArtifact": "Kratka ograničenja; bez recepta za izmenu predmeta.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Šta termalna slika ne potvrđuje",
+      "questions": [
+        "Da li boja dokazuje uzrok?",
+        "Ko potvrđuje medicinski ili stručni zaključak?"
+      ],
+      "purpose": "Odvojiti opažanje od dijagnoze i vlažnosti.",
+      "sourceIds": [
+        "F3",
+        "B1"
+      ],
+      "requiredArtifact": "Odvojiti opažanje od dijagnoze i vlažnosti.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Šta proveriti pre najma",
+      "questions": [
+        "Koji model, podatak i izvoz su potrebni?",
+        "Koja površina, veličina, pristup i termin?"
+      ],
+      "purpose": "Numerisana lista i dva odgovarajuća kataloška linka.",
+      "sourceIds": [
+        "F2"
+      ],
+      "requiredArtifact": "Numerisana lista i dva odgovarajuća kataloška linka.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Izvori",
+      "questions": [
+        "Koji dokument podržava svaku ključnu tvrdnju?"
+      ],
+      "purpose": "Četiri primarna izvora.",
+      "sourceIds": [
+        "F1",
+        "F2",
+        "B1",
+        "F3"
+      ],
+      "requiredArtifact": "Četiri primarna izvora.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    }
+  ],
+  "sourceStatus": "primary_sources_opened",
+  "unknowns": [
+    "Model termalne kamere i format izvoza nisu potvrđeni; članak ih pretvara u pitanje za tim, ne u obećanje.",
+    "Obim srpske pretrage nije izmeren; tema opravdana jasnom odlukom i postojećom opremom."
+  ],
+  "imagePlan": {
+    "required": false,
+    "reason": "Tabela i kontrolna lista rešavaju odluku; nema izmišljenog iskustva/fotografija."
+  },
+  "createdAt": "2026-10-27T10:55:45.847342+00:00",
+  "sourceRevision": "5c9a9cedfdf2fd4c63201fbd3d2a5c4d3346b359",
+  "internalLinkPlan": [
+    {
+      "path": "/sr/alat/termalna-kamera",
+      "purpose": "Odgovarajući model, uslovi i potvrda kompleta; komercijalna namera ostaje tu."
+    },
+    {
+      "path": "/sr/alat/bosch-termometar-ic-universal-temp-cr-3084",
+      "purpose": "Odgovarajući model, uslovi i potvrda kompleta; komercijalna namera ostaje tu."
+    }
+  ],
+  "publicPathCheckResult": "blocked: production HTTP402 DEPLOYMENT_DISABLED; verify internal links in isolated preview."
+}

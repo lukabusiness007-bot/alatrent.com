@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "G036",
+  "status": "ready_to_publish",
+  "internalReview": {
+    "reviewedAt": "2026-10-27T10:59:18.669674+00:00",
+    "reviewer": "Codex separate critical second pass; same agent",
+    "isIndependentAgent": false,
+    "score": 92,
+    "rubric": {
+      "intent": {
+        "score": 19,
+        "max": 20,
+        "reason": "Posebna odluka pre izbora tipa brusilice; G030 ostaje glavni za tri brusilice."
+      },
+      "accuracy": {
+        "score": 23,
+        "max": 25,
+        "reason": "Dva originalna uputstva, bez brojčane dubine ili automatske paralelnosti."
+      },
+      "practical": {
+        "score": 18,
+        "max": 20,
+        "reason": "Tabela cilj→provera i opis upita; konkretna obrada zavisi od komada."
+      },
+      "safety": {
+        "score": 14,
+        "max": 15,
+        "reason": "Nepoznati sloj/ekseri/oslonac blokiraju izbor; nema operativnih prolaza noževima."
+      },
+      "clarity": {
+        "score": 9,
+        "max": 10,
+        "reason": "Izričito oba alata skidaju materijal; bez lažne dihotomije."
+      },
+      "siteRole": {
+        "score": 9,
+        "max": 10,
+        "reason": "Link G030 umesto ponavljanja i G013 za dust-sistem; merena tražnja nedostaje."
+      }
+    },
+    "factChecks": [
+      {
+        "claimId": "G036-C1",
+        "sourceIds": [
+          "P1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G036-C2",
+        "sourceIds": [
+          "S1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G036-C3",
+        "sourceIds": [
+          "P1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G036-C4",
+        "sourceIds": [
+          "P1",
+          "S1"
+        ],
+        "result": "verified_with_stated_scope"
+      }
+    ],
+    "overlapCheck": {
+      "passed": true,
+      "reviewedInventoryCount": 24,
+      "reviewedPaths": [
+        "/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica",
+        "/sr/saveti/industrijski-usisivac-klasa-prasine",
+        "/sr/alat/makita-kp0800-rende-cr-635",
+        "/sr/alat/makita-bo5041-ekscentricna-brusilica-300w-125mm-cr-562"
+      ],
+      "decision": "G030 polazi od već izabrane brusilice i poredi tri tipa. G036 prvo pita da li je potreban rez noževima ili abrazivna obrada; ne ponavlja izbor granulacije, tri brusilice ili klase usisivača."
+    },
+    "linkChecks": [
+      {
+        "path": "/sr/alat/makita-kp0800-rende-cr-635",
+        "status": 200,
+        "production": "402 DEPLOYMENT_DISABLED",
+        "scope": "isolated preview",
+        "checkedAt": "2026-10-27T11:01:18.723570+00:00"
+      },
+      {
+        "path": "/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica",
+        "status": 200,
+        "production": "402 DEPLOYMENT_DISABLED",
+        "scope": "isolated preview",
+        "checkedAt": "2026-10-27T11:01:18.723570+00:00"
+      },
+      {
+        "path": "/sr/alat/makita-bo5041-ekscentricna-brusilica-300w-125mm-cr-562",
+        "status": 200,
+        "production": "402 DEPLOYMENT_DISABLED",
+        "scope": "isolated preview",
+        "checkedAt": "2026-10-27T11:01:18.723570+00:00"
+      },
+      {
+        "path": "/sr/saveti/industrijski-usisivac-klasa-prasine",
+        "status": 200,
+        "production": "402 DEPLOYMENT_DISABLED",
+        "scope": "isolated preview",
+        "checkedAt": "2026-10-27T11:01:18.723570+00:00"
+      }
+    ],
+    "hardFailures": [],
+    "revisionCount": 0,
+    "corrections": [
+      "Corrected brief-only nearest-topic paths to actual backlog canonical; article links unchanged."
+    ],
+    "limits": [
+      "No human expert review or field testing claimed.",
+      "Production verification blocked by Vercel; editorial readiness is not published status."
+    ]
+  },
+  "humanReview": {
+    "status": "not_performed",
+    "name": null,
+    "reviewedAt": null,
+    "scope": null
+  },
+  "openQuestions": [],
+  "integrationGaps": [],
+  "publicationReadiness": {
+    "unresolvedCriticalQuestions": [],
+    "articleSha256": "273f750ad5b134560a048304efbef46c2b0e59eb050abc65f88d47f240fa0dbe",
+    "scopeLimits": [
+      "Sastav konkretnog komada, premaza i raspoloživog kompleta potvrđuju se za posao.",
+      "Nema terenskog testa ili numeričkog recepta za prolaz; članak to ne tvrdi."
+    ],
+    "technicalGate": "Local typecheck/build/18 tests/full HTTP preview/mobile passed; production unavailable HTTP402 DEPLOYMENT_DISABLED."
+  }
+}

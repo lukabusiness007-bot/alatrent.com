@@ -3,8 +3,8 @@
   "timezone": "Europe/Belgrade",
   "dailyTarget": 3,
   "mode": "publish_after_checks",
-  "updatedAt": "2026-10-26T10:52:07.286170+00:00",
-  "nextIdNumber": 35,
+  "updatedAt": "2026-10-27T11:03:40.660976+00:00",
+  "nextIdNumber": 37,
   "statusDefinitions": {
     "pending_research": "U operativnom redu, istraživanje nije završeno.",
     "researching": "Istraživanje je u toku.",
@@ -755,23 +755,25 @@
     {
       "id": "G018",
       "slug": "termalna-kamera-ili-ic-termometar",
-      "action": "hold",
+      "action": "new",
       "canonicalTarget": "/sr/saveti/termalna-kamera-ili-ic-termometar",
       "priority": "P3",
-      "status": "deferred",
-      "attempts": 0,
+      "status": "publication_blocked",
+      "attempts": 1,
       "createdAt": "2026-10-16T11:25:44.666824+00:00",
-      "updatedAt": "2026-10-16T11:25:44.666824+00:00",
-      "lastError": null,
-      "blockedReason": "Postoji lokalni termovizijski rezultat i međunarodno objašnjenje ograničenja. Neposredna srpska tražnja za poređenjem nije potvrđena.",
-      "draftDirectory": null,
+      "updatedAt": "2026-10-27T11:03:40.660976+00:00",
+      "lastError": "Vercel HTTP402 DEPLOYMENT_DISABLED on existing production site and sitemap.",
+      "blockedReason": "Hosting must be reactivated before deploy/public verification.",
+      "draftDirectory": "research/guide-drafts/2026-10-27/G018-termalna-kamera-ili-ic-termometar",
       "recovery": {
         "recoveredAt": "2026-10-25T22:52:51.234510+00:00",
         "queueSnapshotRecovered": true,
         "previousDraftDirectory": null,
         "originalPackageRestored": false,
         "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
-      }
+      },
+      "editorialStatus": "ready_to_publish",
+      "lastRunId": "guides-2026-10-27-104827Z"
     },
     {
       "id": "G019",
@@ -1342,6 +1344,38 @@
         "originalPackageRestored": false,
         "note": "Istorijski paketi i recenzije nisu automatski rekonstruisani; ova obnova vraća plan, red i potvrđen javni inventar."
       }
+    },
+    {
+      "id": "G035",
+      "slug": "mesac-ili-mesalica-za-beton",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/mesac-ili-mesalica-za-beton",
+      "priority": "P2",
+      "status": "publication_blocked",
+      "attempts": 1,
+      "draftDirectory": "research/guide-drafts/2026-10-27/G035-mesac-ili-mesalica-za-beton",
+      "createdAt": "2026-10-27T10:48:27.730283+00:00",
+      "updatedAt": "2026-10-27T11:03:40.660976+00:00",
+      "lastError": "Vercel HTTP402 DEPLOYMENT_DISABLED on existing production site and sitemap.",
+      "blockedReason": "Hosting must be reactivated before deploy/public verification.",
+      "editorialStatus": "ready_to_publish",
+      "lastRunId": "guides-2026-10-27-104827Z"
+    },
+    {
+      "id": "G036",
+      "slug": "elektricno-rende-ili-brusilica",
+      "action": "new",
+      "canonicalTarget": "/sr/saveti/elektricno-rende-ili-brusilica",
+      "priority": "P2",
+      "status": "publication_blocked",
+      "attempts": 1,
+      "draftDirectory": "research/guide-drafts/2026-10-27/G036-elektricno-rende-ili-brusilica",
+      "createdAt": "2026-10-27T10:48:27.730283+00:00",
+      "updatedAt": "2026-10-27T11:03:40.660976+00:00",
+      "lastError": "Vercel HTTP402 DEPLOYMENT_DISABLED on existing production site and sitemap.",
+      "blockedReason": "Hosting must be reactivated before deploy/public verification.",
+      "editorialStatus": "ready_to_publish",
+      "lastRunId": "guides-2026-10-27-104827Z"
     }
   ],
   "projectPath": "/Users/luka/Desktop/rent tools",
@@ -1361,5 +1395,18 @@
     "report": "docs/guide-system/restoration.md",
     "publishedInventoryVerified": 21,
     "historicalPackagesRestored": false
+  },
+  "publicationBlocker": {
+    "code": "VERCEL_DEPLOYMENT_DISABLED",
+    "detectedAt": "2026-10-27T10:57:58Z",
+    "lastVerifiedAt": "2026-10-27T10:58:38.000037+00:00",
+    "evidence": "research/guide-drafts/2026-10-27/http-before/report.json",
+    "affectedIds": [
+      "G018",
+      "G035",
+      "G036"
+    ],
+    "requiredAction": "Reactivate existing Vercel hosting; check account/project suspension reason. No billing change performed.",
+    "resumePolicy": "First check production recovery, then resume these exact three packages; do not create replacements/backfill. Re-stage with actual release date and recheck before publish."
   }
 }

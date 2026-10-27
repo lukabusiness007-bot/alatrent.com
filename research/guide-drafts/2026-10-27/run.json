@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "runId": "guides-2026-10-27-104827Z",
+  "localDate": "2026-10-27",
+  "timezone": "Europe/Belgrade",
+  "scheduledLocalTime": "08:00",
+  "trigger": "heartbeat",
+  "startedAt": "2026-10-27T10:48:27.730283+00:00",
+  "finishedAt": "2026-10-27T11:03:40.660976+00:00",
+  "status": "publication_blocked",
+  "targetPackages": 3,
+  "selectedIds": [
+    "G018",
+    "G035",
+    "G036"
+  ],
+  "completedIds": [],
+  "incompleteIds": [
+    "G018",
+    "G035",
+    "G036"
+  ],
+  "errors": [
+    {
+      "code": "VERCEL_DEPLOYMENT_DISABLED",
+      "httpStatus": 402,
+      "scope": "All40 production requests including24 old guide URLs and sitemap.",
+      "requiredAction": "Reactivate hosting; exact account reason not available."
+    }
+  ],
+  "recovery": {
+    "resumeExistingPackages": true,
+    "after": "Existing production HTTP200, old content/canonical/robots/sitemap restored; stage fresh release date and perform public verification.",
+    "newAppCommitCreated": false
+  },
+  "checksPerformed": [
+    "24 old inventory entries preserved",
+    "primary research and distinct intent review",
+    "three briefs before three articles",
+    "separate same-agent editorial review92/100 each",
+    "isolated typecheck",
+    "isolated webpack production build",
+    "18 guide/SEO tests",
+    "40 preview HTTP routes;27guides;1053sitemap URLs",
+    "mobile390px:9screenshots",
+    "production40requests:allHTTP402",
+    "historical GitHub Vercel success read, not treated as current availability"
+  ],
+  "notes": [
+    "Three distinct candidate needs: surface temperature visualization, mixing equipment choice, and wood dimension vs finish.",
+    "G018 is a provisional re-evaluation; old hold is not cleared until fresh primary evidence and overlap review.",
+    "G011 and other unresolved holds remain untouched. No Google private-session access attempt.",
+    "G018 narrow selection hold resolved by newly opened primary sources; G019 and all other high-risk holds unchanged.",
+    "Candidate app data exists only in isolated preview; root lib/published-rental-guides.json unchanged.",
+    "No content deployment attempted while entire existing production is disabled. Three prepared packages will be backed up to GitHub as documentation, not described as public publication."
+  ],
+  "new_count": 3,
+  "refresh_count": 0,
+  "published_count": 0,
+  "controlsExercised": {
+    "exclusiveLock": true,
+    "atomicQueueWrite": true,
+    "publicVerification": true
+  },
+  "googleStatus": {
+    "status": "not_checked",
+    "requestsSubmitted": 0,
+    "indexedCount": null,
+    "sitemapStatus": "unavailable_HTTP402",
+    "privateSessionAccessAttempted": false
+  },
+  "baseRevision": "5c9a9cedfdf2fd4c63201fbd3d2a5c4d3346b359",
+  "preparedIds": [
+    "G018",
+    "G035",
+    "G036"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "G018",
+  "status": "publication_blocked",
+  "policy": "publish_after_checks",
+  "publishedAt": null,
+  "updatedAt": null,
+  "publicUrl": null,
+  "proposedUrl": "https://alatrent.rs/sr/saveti/termalna-kamera-ili-ic-termometar",
+  "sourceRevision": null,
+  "deploymentId": null,
+  "deploymentUrl": null,
+  "publicVerifiedAt": null,
+  "checks": [
+    {
+      "name": "editorial_92_of_100",
+      "status": "passed",
+      "scope": "internal same-agent review"
+    },
+    {
+      "name": "typecheck_build",
+      "status": "passed",
+      "scope": "isolated preview"
+    },
+    {
+      "name": "guide_and_seo_tests_18",
+      "status": "passed",
+      "scope": "isolated preview"
+    },
+    {
+      "name": "full_text_canonical_robots_dates_sitemap_backlinks",
+      "status": "passed",
+      "scope": "isolated preview"
+    },
+    {
+      "name": "mobile_390px",
+      "status": "passed",
+      "scope": "isolated preview"
+    },
+    {
+      "name": "public_site_http",
+      "status": "blocked",
+      "scope": "HTTP402 DEPLOYMENT_DISABLED"
+    },
+    {
+      "name": "public_sitemap_and_google_discovery",
+      "status": "not_verified",
+      "scope": "Production unavailable; no GSC access attempted"
+    }
+  ],
+  "googleDiscovery": {
+    "status": "not_checked",
+    "checkedAt": null,
+    "indexingRequestedAt": null,
+    "indexStatus": "unknown",
+    "requestsSubmitted": 0,
+    "evidence": "No production publication; public sitemap also HTTP402. No access attempt to restricted private Google session."
+  },
+  "blocker": {
+    "code": "VERCEL_DEPLOYMENT_DISABLED",
+    "httpStatus": 402,
+    "detectedAt": "2026-10-27T10:59:18.669674+00:00",
+    "message": "Production domain, previous guides, hub, robots and sitemap return Payment required / DEPLOYMENT_DISABLED. Hosting must be reactivated; exact account cause not inspected.",
+    "requiredAction": "Check Vercel project/account suspension and restore hosting; no billing changes authorized or attempted.",
+    "evidence": "../http-before/report.json"
+  },
+  "savedAt": "2026-10-27T11:03:40.660976+00:00"
+}

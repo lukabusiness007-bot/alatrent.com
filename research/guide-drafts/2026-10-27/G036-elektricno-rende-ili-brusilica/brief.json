@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "G036",
+  "slug": "elektricno-rende-ili-brusilica",
+  "title": "Električno rende ili brusilica: mera ili završna obrada",
+  "description": "Kada razmatrati električno rende za drvo, a kada brusilicu? Razlika između promene mere i završne površine, provera materijala i kompleta.",
+  "primaryKeyword": "električno rende ili brusilica",
+  "variants": [
+    "rende ili šmirgla za drvo",
+    "rendisanje ili brušenje drveta"
+  ],
+  "language": "sr-Latn",
+  "audience": "Korisnik koji bira alat za poznat drveni komad i još nije utvrdio da li menja dimenziju ili samo površinu.",
+  "intent": "informational_commercial_selection",
+  "readerDecision": "Razlikovati planiranje mere i geometrije od pripreme površine i prepoznati kada izbor treba odložiti.",
+  "cluster": "obrada-drveta",
+  "action": "new",
+  "canonicalTarget": "/sr/saveti/elektricno-rende-ili-brusilica",
+  "commercialOwnerPaths": [
+    "/sr/alat/makita-kp0800-rende-cr-635",
+    "/sr/alat/makita-bo5041-ekscentricna-brusilica-300w-125mm-cr-562"
+  ],
+  "toolIds": [
+    "crafter-635",
+    "crafter-562"
+  ],
+  "toolPaths": [
+    "/sr/alat/makita-kp0800-rende-cr-635",
+    "/sr/alat/makita-bo5041-ekscentricna-brusilica-300w-125mm-cr-562"
+  ],
+  "catalogCheckedAt": "2026-10-27T10:55:45.847342+00:00",
+  "publicPathsCheckedAt": null,
+  "reviewedInternalPaths": [
+    "/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica",
+    "/sr/saveti/industrijski-usisivac-klasa-prasine",
+    "/sr/alat/makita-kp0800-rende-cr-635",
+    "/sr/alat/makita-bo5041-ekscentricna-brusilica-300w-125mm-cr-562"
+  ],
+  "overlapWith": [
+    "/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica",
+    "/sr/saveti/industrijski-usisivac-klasa-prasine"
+  ],
+  "overlapDecision": "G030 polazi od već izabrane brusilice i poredi tri tipa. G036 prvo pita da li je potreban rez noževima ili abrazivna obrada; ne ponavlja izbor granulacije, tri brusilice ili klase usisivača.",
+  "distinctValue": "Dve jasne razlike: promena mere naspram kvaliteta površine; noževi i oslonac naspram abraziva i njegove podloge. Ne obećava automatsku ravnost ručnog renda.",
+  "outline": [
+    {
+      "heading": "Da li menjaš meru ili pripremaš površinu",
+      "questions": [
+        "Koji rezultat treba izmeriti?",
+        "Da li problem traži rez ili ujednačavanje površine?"
+      ],
+      "purpose": "Direktan odgovor i tabela odluke.",
+      "sourceIds": [
+        "P1",
+        "S1"
+      ],
+      "requiredArtifact": "Direktan odgovor i tabela odluke.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Rende ne rešava svaku neravninu",
+      "questions": [
+        "Da li ima oslonca i poznate građe?",
+        "Da li tražiš kontrolisanu ravnost i paralelnost?"
+      ],
+      "purpose": "Objasniti ograničenja ručnog izbora, bez uputstva za dubinu.",
+      "sourceIds": [
+        "P1"
+      ],
+      "requiredArtifact": "Objasniti ograničenja ručnog izbora, bez uputstva za dubinu.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Brusilicu biraš kada je zadatak na površini",
+      "questions": [
+        "Da li je brušenje već odlučeno?",
+        "Gde dobiti detalje o tipu brusilice?"
+      ],
+      "purpose": "Kratko načelo i link G030 umesto duplikata.",
+      "sourceIds": [
+        "S1"
+      ],
+      "requiredArtifact": "Kratko načelo i link G030 umesto duplikata.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Materijal proveri pre izbora",
+      "questions": [
+        "Puno drvo ili tanki sloj?",
+        "Nepoznati premaz ili pričvršćenja?"
+      ],
+      "purpose": "Lista stop-uslova i put do procene.",
+      "sourceIds": [
+        "P1",
+        "S1"
+      ],
+      "requiredArtifact": "Lista stop-uslova i put do procene.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Šta poslati pre iznajmljivanja",
+      "questions": [
+        "Dimenzije i tražena mera?",
+        "Model, oslonac, odsis i termin?"
+      ],
+      "purpose": "Numerisana praktična lista; dva kataloška linka.",
+      "sourceIds": [
+        "P1",
+        "S1"
+      ],
+      "requiredArtifact": "Numerisana praktična lista; dva kataloška linka.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    },
+    {
+      "heading": "Izvori",
+      "questions": [
+        "Da li su oba konkretna modela pokrivena?"
+      ],
+      "purpose": "Dva originalna priručnika.",
+      "sourceIds": [
+        "P1",
+        "S1"
+      ],
+      "requiredArtifact": "Dva originalna priručnika.",
+      "claimsMustNotExceed": "Bez univerzalnih kapaciteta/režima, nepoznatog modela, cene, raspoloživosti, dijagnoze ili lažne stručne recenzije."
+    }
+  ],
+  "sourceStatus": "primary_sources_opened",
+  "unknowns": [
+    "Sastav konkretnog komada, premaza i raspoloživog kompleta potvrđuju se za posao.",
+    "Nema terenskog testa ili numeričkog recepta za prolaz; članak to ne tvrdi."
+  ],
+  "imagePlan": {
+    "required": false,
+    "reason": "Tabela i kontrolna lista rešavaju odluku; nema izmišljenog iskustva/fotografija."
+  },
+  "createdAt": "2026-10-27T10:55:45.847342+00:00",
+  "sourceRevision": "5c9a9cedfdf2fd4c63201fbd3d2a5c4d3346b359",
+  "internalLinkPlan": [
+    {
+      "path": "/sr/alat/makita-kp0800-rende-cr-635",
+      "purpose": "Odgovarajući model, uslovi i potvrda kompleta; komercijalna namera ostaje tu."
+    },
+    {
+      "path": "/sr/alat/makita-bo5041-ekscentricna-brusilica-300w-125mm-cr-562",
+      "purpose": "Odgovarajući model, uslovi i potvrda kompleta; komercijalna namera ostaje tu."
+    }
+  ],
+  "publicPathCheckResult": "blocked: production HTTP402 DEPLOYMENT_DISABLED; verify internal links in isolated preview."
+}

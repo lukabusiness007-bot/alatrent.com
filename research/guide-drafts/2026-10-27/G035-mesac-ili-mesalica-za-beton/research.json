@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "G035",
+  "researchedAt": "2026-10-27T10:55:45.847342+00:00",
+  "searches": [
+    {
+      "query": "mešač maltera ili mešalica za beton izbor",
+      "engine": "Codex built-in web search",
+      "observedAt": "2026-10-27",
+      "timestampPrecision": "day",
+      "language": "sr-Latn",
+      "locale": null,
+      "device": null,
+      "openedUrls": [],
+      "observation": "Široko pitanje izbora; nema potvrđenog volumena."
+    },
+    {
+      "query": "\"Makita UT1200\" \"mešač\" \"lepak\"",
+      "engine": "Codex built-in web search",
+      "observedAt": "2026-10-27",
+      "timestampPrecision": "day",
+      "language": "sr-Latn",
+      "locale": null,
+      "device": null,
+      "openedUrls": [
+        "https://www.alatnicentar.rs/artikal/makita-mesac-ut1200"
+      ],
+      "observation": "Otvoren srpski prodajni kontekst; nije tehnički dokaz ni Google top lista."
+    },
+    {
+      "query": "\"UT1200\" \"makita\" \"manual\"",
+      "engine": "Codex built-in web search",
+      "observedAt": "2026-10-27",
+      "timestampPrecision": "day",
+      "language": "sr-Latn",
+      "locale": null,
+      "device": null,
+      "openedUrls": [
+        "https://makita.sk/userfiles/manualy/UT1200_UT1400_navod.pdf"
+      ],
+      "observation": "Otvoren proizvođački original; različita namena UT1200/UT1400."
+    },
+    {
+      "query": "site.altrad-belle.com \"Minimix 150\" \"mix\"",
+      "engine": "Codex built-in web search",
+      "observedAt": "2026-10-27",
+      "timestampPrecision": "day",
+      "language": "mixed",
+      "locale": null,
+      "device": null,
+      "openedUrls": [
+        "https://www.altrad-belle.com/index_old.php?n=Minimix+150&p=products"
+      ],
+      "observation": "Otvoreno primarno razlikovanje drum volume/mixing output."
+    }
+  ],
+  "sources": [
+    {
+      "id": "M1",
+      "url": "https://makita.sk/userfiles/manualy/UT1200_UT1400_navod.pdf",
+      "title": "UT1200 / UT1400 Original Instructions",
+      "publisher": "Makita",
+      "accessedAt": "2026-10-27",
+      "accessPrecision": "day",
+      "kind": "primary_manufacturer",
+      "model": "UT1200; UT1400 samo za granicu prenosa",
+      "locationInSource": "English pp3–5: Intended use, Safety Instructions, Operating the machine",
+      "claims": [
+        "UT1200 namenjen boji, lepku i lepku za pločice; odobren nastavak i opterećenje po modelu."
+      ],
+      "limitations": "UT1400 namena, kg i specifikacije se ne prenose na UT1200; bez univerzalnog tempa ili recepta.",
+      "access_status": "opened"
+    },
+    {
+      "id": "A1",
+      "url": "https://www.altrad-belle.com/index_old.php?n=Minimix+150&p=products",
+      "title": "Minimix 150 product information",
+      "publisher": "Altrad Belle",
+      "accessedAt": "2026-10-27",
+      "accessPrecision": "day",
+      "kind": "primary_manufacturer",
+      "model": "Minimix 150 — dokumentovan primer, nije katalog Alat Rent",
+      "locationInSource": "Advantages and Specifications: Drum Volume vs Mixing Output",
+      "claims": [
+        "Bubanj mešalice koriste se za beton/malter; volumen bubnja i izlaz su odvojeni podaci."
+      ],
+      "limitations": "Nije Magnum; nema preuzimanja kapaciteta, pogona ili pribora na katalog.",
+      "access_status": "opened"
+    }
+  ],
+  "claimMap": [
+    {
+      "id": "G035-C1",
+      "articleClaim": "UT1200 dokumentuje boju, lepak i lepak za pločice; UT1400 je druga varijanta.",
+      "articleSection": "Šta znamo o UT1200, a šta tek proveravamo",
+      "sourceIds": [
+        "M1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedenu namenu i model; urednička odluka ne garantuje rezultat.",
+      "reviewerNote": "Pročitani relevantni odeljci primarnog izvora."
+    },
+    {
+      "id": "G035-C2",
+      "articleClaim": "Nastavak i dozvoljeno opterećenje proveravaju se za tačan model.",
+      "articleSection": "Šta znamo o UT1200, a šta tek proveravamo",
+      "sourceIds": [
+        "M1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedenu namenu i model; urednička odluka ne garantuje rezultat.",
+      "reviewerNote": "Pročitani relevantni odeljci primarnog izvora."
+    },
+    {
+      "id": "G035-C3",
+      "articleClaim": "Bubanj i izlaz mešanja nisu isti deklarisani podatak.",
+      "articleSection": "Ukupna količina nije isto što i jedna tura",
+      "sourceIds": [
+        "A1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedenu namenu i model; urednička odluka ne garantuje rezultat.",
+      "reviewerNote": "Pročitani relevantni odeljci primarnog izvora."
+    },
+    {
+      "id": "G035-C4",
+      "articleClaim": "Za UT1200 nisu dozvoljene eksplozivne/lako zapaljive smeše.",
+      "articleSection": "Pripremi upit i uslove rada",
+      "sourceIds": [
+        "M1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedenu namenu i model; urednička odluka ne garantuje rezultat.",
+      "reviewerNote": "Pročitani relevantni odeljci primarnog izvora."
+    }
+  ],
+  "searchMetrics": {
+    "monthlyVolume": null,
+    "keywordDifficulty": null,
+    "googlePosition": null,
+    "source": null,
+    "period": null
+  },
+  "constraints": [
+    "Bez potvrđene lokalizacije/device/GSC; nema tvrdnje o Google top10 ili izmerenoj tražnji.",
+    "Kataloški zapis potvrđuje naziv, ne dostupnost ili stvarni izdati komplet.",
+    "Bez pristupa privatnoj Chrome sesiji."
+  ],
+  "openQuestions": [],
+  "nonBlockingUnknowns": [
+    "Dopušteno radno punjenje Magnum Mixmaster i sadržaj kompleta nisu dokazani primarnim priručnikom; vodič ih ne navodi niti izračunava.",
+    "Tačan materijal, tehnički list i termin potrebni su za potvrdu pojedinačnog najma."
+  ]
+}

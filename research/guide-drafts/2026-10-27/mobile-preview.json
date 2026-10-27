@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-27T11:01:54.209560+00:00",
+  "status": "passed",
+  "session": "guides20261027",
+  "reports": [
+    {
+      "id": "G018",
+      "url": "http://127.0.0.1:3027/sr/saveti/termalna-kamera-ili-ic-termometar",
+      "geometry": {
+        "width": 390,
+        "documentWidth": 390,
+        "h1": 1,
+        "regions": [
+          {
+            "width": 352,
+            "scrollWidth": 520,
+            "tabIndex": 0,
+            "tableWidth": 520
+          }
+        ]
+      },
+      "screenshots": {
+        "top": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261027/G018-top.png",
+        "table": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261027/G018-table.png",
+        "table-right": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261027/G018-table-right.png"
+      },
+      "screenshotSha256": {
+        "top": "2fa85298608c87313de239e6f3260f1cbf7136ea7448deb1d1ee1e812517a942",
+        "table": "7ead2cde576f311ff9caf1acd2db624478188e250dea7845e7ce0cc0ca7c48a1",
+        "table-right": "23aaf41da519fd038beeedbd02450ca63e04031fb358dab7ab5fc046012d9b8e"
+      }
+    },
+    {
+      "id": "G035",
+      "url": "http://127.0.0.1:3027/sr/saveti/mesac-ili-mesalica-za-beton",
+      "geometry": {
+        "width": 390,
+        "documentWidth": 390,
+        "h1": 1,
+        "regions": [
+          {
+            "width": 352,
+            "scrollWidth": 520,
+            "tabIndex": 0,
+            "tableWidth": 520
+          }
+        ]
+      },
+      "screenshots": {
+        "top": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261027/G035-top.png",
+        "table": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261027/G035-table.png",
+        "table-right": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261027/G035-table-right.png"
+      },
+      "screenshotSha256": {
+        "top": "05e3fb6fb54e965b399c3e13a4b2bfc956a48fe302ae263de14686f558a4750e",
+        "table": "9084661bae72a6ac2226b7de5d452f8cc5132d7e8481bf4ff861f90d0b9c0190",
+        "table-right": "190d458c63d99940d50af3a691786f1b770f1f30d2745a2ea485c6f3c5a6aac4"
+      }
+    },
+    {
+      "id": "G036",
+      "url": "http://127.0.0.1:3027/sr/saveti/elektricno-rende-ili-brusilica",
+      "geometry": {
+        "width": 390,
+        "documentWidth": 390,
+        "h1": 1,
+        "regions": [
+          {
+            "width": 352,
+            "scrollWidth": 520,
+            "tabIndex": 0,
+            "tableWidth": 520
+          }
+        ]
+      },
+      "screenshots": {
+        "top": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261027/G036-top.png",
+        "table": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261027/G036-table.png",
+        "table-right": "/Users/luka/Desktop/rent tools/output/playwright/guides-20261027/G036-table-right.png"
+      },
+      "screenshotSha256": {
+        "top": "0317b31094ee1ebc62ede4398e62d174afd8fa843369109e20087d5cc54613ba",
+        "table": "5ea2157835a013b5758a521f8016474abd1f950f50121a40c56375e099a8fbad",
+        "table-right": "dbd712f2b4150a6604988984b1d05a78e997df1ea832bcb9f2d3b8a8f86ff3cd"
+      }
+    }
+  ],
+  "profile": "Fresh isolated Playwright session; localhost only, no Google or private Chrome access.",
+  "visuallyReviewedAt": "2026-10-27T11:03:40.660976+00:00",
+  "review": "Nine images visually inspected: H1 and introductory answers readable; each table left/right columns readable inside horizontal scroll region at390px; document itself has no horizontal overflow."
+}

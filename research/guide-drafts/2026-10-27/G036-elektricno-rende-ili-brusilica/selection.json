@@ -1,0 +1,16 @@
+{
+  "id": "G036",
+  "selectedAt": "2026-10-27T10:55:45.847342+00:00",
+  "action": "new_guide",
+  "inventoryCount": 24,
+  "readerDecision": "Razlikovati planiranje mere i geometrije od pripreme površine i prepoznati kada izbor treba odložiti.",
+  "differences": "Dve jasne razlike: promena mere naspram kvaliteta površine; noževi i oslonac naspram abraziva i njegove podloge. Ne obećava automatsku ravnost ručnog renda.",
+  "nearestExisting": [
+    "/sr/saveti/ekscentricna-vibraciona-ili-tracna-brusilica",
+    "/sr/saveti/industrijski-usisivac-klasa-prasine"
+  ],
+  "overlapDecision": "G030 polazi od već izabrane brusilice i poredi tri tipa. G036 prvo pita da li je potreban rez noževima ili abrazivna obrada; ne ponavlja izbor granulacije, tri brusilice ili klase usisivača.",
+  "demandEvidence": "Qualitative/manual-derived useful decision; measured Serbian volume unknown.",
+  "alternative": "No replacement topic forced if evidence becomes insufficient.",
+  "priorHoldResolution": null
+}

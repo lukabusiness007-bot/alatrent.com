@@ -1,0 +1,16 @@
+{
+  "id": "G018",
+  "selectedAt": "2026-10-27T10:55:45.847342+00:00",
+  "action": "new_guide",
+  "inventoryCount": 24,
+  "readerDecision": "Odabrati vrstu podatka i proveriti model, mernu zonu i potrebnu dokumentaciju, bez dijagnoze uzroka.",
+  "differences": "Dve posebne odluke: pojedinačno očitavanje naspram prostornog prikaza; slikovni izlaz naspram radiometrijskog podatka. Kontrolna lista sprečava zamenu laserske tačke mernom zonom.",
+  "nearestExisting": [
+    "/sr/saveti/higrometar-ili-merac-vlage-drveta",
+    "/sr/saveti/termalna-kamera-curenje-vode-ogranicenja"
+  ],
+  "overlapDecision": "G017 bira veličinu vlažnosti; G018 bira oblik podatka o površinskoj temperaturi. Held G019 je dijagnoza curenja i ostaje odložen. G018 ne tvrdi uzrok mrlje, vlagu ili sanaciju.",
+  "demandEvidence": "Qualitative/manual-derived useful decision; measured Serbian volume unknown.",
+  "alternative": "No replacement topic forced if evidence becomes insufficient.",
+  "priorHoldResolution": "Original manufacturer comparison, radiometry and exact thermometer manual now opened; narrow selection only, not G019 diagnosis."
+}

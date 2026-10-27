@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "G035",
+  "status": "ready_to_publish",
+  "internalReview": {
+    "reviewedAt": "2026-10-27T10:59:18.669674+00:00",
+    "reviewer": "Codex separate critical second pass; same agent",
+    "isIndependentAgent": false,
+    "score": 92,
+    "rubric": {
+      "intent": {
+        "score": 19,
+        "max": 20,
+        "reason": "Nova potreba pripreme smeše; razlikuje materijal i turu."
+      },
+      "accuracy": {
+        "score": 23,
+        "max": 25,
+        "reason": "Tačan UT1200; Altrad izričito drugi primer, bez Magnum kapaciteta."
+      },
+      "practical": {
+        "score": 18,
+        "max": 20,
+        "reason": "Tabela i upit za proizvođački list; ne može izračunati nepoznato punjenje."
+      },
+      "safety": {
+        "score": 14,
+        "max": 15,
+        "reason": "Bez recepta, operativne brzine ili univerzalnog opterećenja; zapaljivo isključeno."
+      },
+      "clarity": {
+        "score": 9,
+        "max": 10,
+        "reason": "Jasna razlika kg/l i ukupno/tura; početna tabela uslovna."
+      },
+      "siteRole": {
+        "score": 9,
+        "max": 10,
+        "reason": "Dva stvarna kataloška artikla, link uslova; nema kupovne/volumenske tvrdnje."
+      }
+    },
+    "factChecks": [
+      {
+        "claimId": "G035-C1",
+        "sourceIds": [
+          "M1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G035-C2",
+        "sourceIds": [
+          "M1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G035-C3",
+        "sourceIds": [
+          "A1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G035-C4",
+        "sourceIds": [
+          "M1"
+        ],
+        "result": "verified_with_stated_scope"
+      }
+    ],
+    "overlapCheck": {
+      "passed": true,
+      "reviewedInventoryCount": 24,
+      "reviewedPaths": [
+        "/sr/saveti/rucni-ili-elektricni-sekac-plocica",
+        "/sr/alat/makita-mesac-ut1200-cr-741",
+        "/sr/alat/magnum-mixmaster-mesalica-za-beton-125l-cr-37478"
+      ],
+      "decision": "Nijedan od 24 javna vodiča ne bira opremu za mešanje. Vodič za pločice bira rezanje, ne pripremu lepka. Komercijalne stranice ostaju vlasnici najma i uslova."
+    },
+    "linkChecks": [
+      {
+        "path": "/sr/alat/makita-mesac-ut1200-cr-741",
+        "status": 200,
+        "production": "402 DEPLOYMENT_DISABLED",
+        "scope": "isolated preview",
+        "checkedAt": "2026-10-27T11:01:18.723570+00:00"
+      },
+      {
+        "path": "/sr/alat/magnum-mixmaster-mesalica-za-beton-125l-cr-37478",
+        "status": 200,
+        "production": "402 DEPLOYMENT_DISABLED",
+        "scope": "isolated preview",
+        "checkedAt": "2026-10-27T11:01:18.723570+00:00"
+      },
+      {
+        "path": "/sr/saveti/cena-najma-alata-i-dostave",
+        "status": 200,
+        "production": "402 DEPLOYMENT_DISABLED",
+        "scope": "isolated preview",
+        "checkedAt": "2026-10-27T11:01:18.723570+00:00"
+      }
+    ],
+    "hardFailures": [],
+    "revisionCount": 0,
+    "corrections": [
+      "Corrected brief-only nearest-topic paths to actual backlog canonical; article links unchanged."
+    ],
+    "limits": [
+      "No human expert review or field testing claimed.",
+      "Production verification blocked by Vercel; editorial readiness is not published status."
+    ]
+  },
+  "humanReview": {
+    "status": "not_performed",
+    "name": null,
+    "reviewedAt": null,
+    "scope": null
+  },
+  "openQuestions": [],
+  "integrationGaps": [],
+  "publicationReadiness": {
+    "unresolvedCriticalQuestions": [],
+    "articleSha256": "cbdf8ea830574e456cba035316be65a51c013440d70d8b8142e0f356d05c388b",
+    "scopeLimits": [
+      "Dopušteno radno punjenje Magnum Mixmaster i sadržaj kompleta nisu dokazani primarnim priručnikom; vodič ih ne navodi niti izračunava.",
+      "Tačan materijal, tehnički list i termin potrebni su za potvrdu pojedinačnog najma."
+    ],
+    "technicalGate": "Local typecheck/build/18 tests/full HTTP preview/mobile passed; production unavailable HTTP402 DEPLOYMENT_DISABLED."
+  }
+}

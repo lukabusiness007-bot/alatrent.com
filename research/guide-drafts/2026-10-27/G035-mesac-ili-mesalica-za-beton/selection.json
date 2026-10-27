@@ -1,0 +1,15 @@
+{
+  "id": "G035",
+  "selectedAt": "2026-10-27T10:55:45.847342+00:00",
+  "action": "new_guide",
+  "inventoryCount": 24,
+  "readerDecision": "Odrediti koje podatke o smeši, turi i pristupu treba potvrditi za izbor opreme.",
+  "differences": "Razdvaja dozvoljenu namenu UT1200 od naziva mešač maltera, kao i nominalni bubanj od dopuštenog radnog punjenja. Daje upit prema materijalu i turi, bez recepta.",
+  "nearestExisting": [
+    "/sr/saveti/rucni-ili-elektricni-sekac-plocica"
+  ],
+  "overlapDecision": "Nijedan od 24 javna vodiča ne bira opremu za mešanje. Vodič za pločice bira rezanje, ne pripremu lepka. Komercijalne stranice ostaju vlasnici najma i uslova.",
+  "demandEvidence": "Qualitative/manual-derived useful decision; measured Serbian volume unknown.",
+  "alternative": "No replacement topic forced if evidence becomes insufficient.",
+  "priorHoldResolution": null
+}

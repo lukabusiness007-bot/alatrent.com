@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "G036",
+  "researchedAt": "2026-10-27T10:55:45.847342+00:00",
+  "searches": [
+    {
+      "query": "električno rende ili brusilica za drvo razlika",
+      "engine": "Codex built-in web search",
+      "observedAt": "2026-10-27",
+      "timestampPrecision": "day",
+      "language": "sr-Latn",
+      "locale": null,
+      "device": null,
+      "openedUrls": [],
+      "observation": "Uredničko poređenje, ne izmereni upit."
+    },
+    {
+      "query": "\"električno rende\" \"brusilica\" razlika",
+      "engine": "Codex built-in web search",
+      "observedAt": "2026-10-27",
+      "timestampPrecision": "day",
+      "language": "sr-Latn",
+      "locale": null,
+      "device": null,
+      "openedUrls": [
+        "https://www.iskustvaonline.rs/alati-za-obradu-drveta/"
+      ],
+      "observation": "Otvoren srpski kontekst obrade drveta; bez tehničkog oslanjanja na njega."
+    },
+    {
+      "query": "site.makita.co.nz KP0800 manual",
+      "engine": "Codex built-in web search",
+      "observedAt": "2026-10-27",
+      "timestampPrecision": "day",
+      "language": "mixed",
+      "locale": null,
+      "device": null,
+      "openedUrls": [
+        "https://www.makita.sk/userfiles/manualy/KP0800_navod.pdf"
+      ],
+      "observation": "Otvoren odgovarajući originalni priručnik preko proizvođača."
+    },
+    {
+      "query": "site:makita.sk \"BO5041\" \"návod\"",
+      "engine": "Codex built-in web search",
+      "observedAt": "2026-10-27",
+      "timestampPrecision": "day",
+      "language": "mixed",
+      "locale": null,
+      "device": null,
+      "openedUrls": [
+        "https://www.makita.sk/userfiles/manualy/BO5041%2C5040.pdf"
+      ],
+      "observation": "Otvoren originalni priručnik; NZ PDF vratio403, UAE webtimeout; koristi dostupan primarni SK original."
+    }
+  ],
+  "sources": [
+    {
+      "id": "P1",
+      "url": "https://www.makita.sk/userfiles/manualy/KP0800_navod.pdf",
+      "title": "KP0800 Instruction Manual",
+      "publisher": "Makita",
+      "accessedAt": "2026-10-27",
+      "accessPrecision": "day",
+      "kind": "primary_manufacturer",
+      "model": "KP0800",
+      "locationInSource": "English pp4–5: Intended use and Planer safety warnings; Operation",
+      "claims": [
+        "Alat je za rendisanje drveta; učvrstiti komad, pregledati eksere; noževi."
+      ],
+      "limitations": "Bez dubine prolaza, režima ili tvrdnje o automatskoj paralelnosti.",
+      "access_status": "opened"
+    },
+    {
+      "id": "S1",
+      "url": "https://www.makita.sk/userfiles/manualy/BO5041%2C5040.pdf",
+      "title": "BO5040 / BO5041 Instruction Manual",
+      "publisher": "Makita",
+      "accessedAt": "2026-10-27",
+      "accessPrecision": "day",
+      "kind": "primary_manufacturer",
+      "model": "BO5041",
+      "locationInSource": "English printed pp4–7: Intended use, Sander safety warnings, Sanding operation",
+      "claims": [
+        "Brušenje drvenih površina abrazivnim papirom; izbor pribora i kontrola prašine."
+      ],
+      "limitations": "Ne prenosi komplet iz regionalne varijante; namena obojenih površina nije potvrda bezbednosti nepoznatog premaza.",
+      "access_status": "opened"
+    }
+  ],
+  "claimMap": [
+    {
+      "id": "G036-C1",
+      "articleClaim": "KP0800 je za rendisanje drveta pomoću noževa.",
+      "articleSection": "Da li menjaš meru ili pripremaš površinu",
+      "sourceIds": [
+        "P1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedenu namenu i model; urednička odluka ne garantuje rezultat.",
+      "reviewerNote": "Pročitani relevantni odeljci primarnog izvora."
+    },
+    {
+      "id": "G036-C2",
+      "articleClaim": "BO5041 je alat za brušenje površine abrazivnim papirom.",
+      "articleSection": "Brusilicu biraš kada je zadatak na površini",
+      "sourceIds": [
+        "S1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedenu namenu i model; urednička odluka ne garantuje rezultat.",
+      "reviewerNote": "Pročitani relevantni odeljci primarnog izvora."
+    },
+    {
+      "id": "G036-C3",
+      "articleClaim": "Komad mora imati stabilan oslonac, a eksere treba pregledati pre rendisanja.",
+      "articleSection": "Materijal proveri pre izbora",
+      "sourceIds": [
+        "P1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedenu namenu i model; urednička odluka ne garantuje rezultat.",
+      "reviewerNote": "Pročitani relevantni odeljci primarnog izvora."
+    },
+    {
+      "id": "G036-C4",
+      "articleClaim": "Pribor i zaštita zavise od materijala i modelskog uputstva.",
+      "articleSection": "Šta poslati pre iznajmljivanja",
+      "sourceIds": [
+        "P1",
+        "S1"
+      ],
+      "status": "verified_primary",
+      "applicability": "Ograničeno na navedenu namenu i model; urednička odluka ne garantuje rezultat.",
+      "reviewerNote": "Pročitani relevantni odeljci primarnog izvora."
+    }
+  ],
+  "searchMetrics": {
+    "monthlyVolume": null,
+    "keywordDifficulty": null,
+    "googlePosition": null,
+    "source": null,
+    "period": null
+  },
+  "constraints": [
+    "Bez potvrđene lokalizacije/device/GSC; nema tvrdnje o Google top10 ili izmerenoj tražnji.",
+    "Kataloški zapis potvrđuje naziv, ne dostupnost ili stvarni izdati komplet.",
+    "Bez pristupa privatnoj Chrome sesiji."
+  ],
+  "openQuestions": [],
+  "nonBlockingUnknowns": [
+    "Sastav konkretnog komada, premaza i raspoloživog kompleta potvrđuju se za posao.",
+    "Nema terenskog testa ili numeričkog recepta za prolaz; članak to ne tvrdi."
+  ],
+  "sourceAccessNotes": [
+    {
+      "url": "https://resources.makita.co.nz/_media/user-manuals/B/BO5040-UG.pdf",
+      "result": "web fetch403; not used as verified source"
+    },
+    {
+      "url": "https://makitauae.com/wp-content/uploads/2022/06/BO5041_EN.pdf",
+      "result": "web fetch timeout; direct HTTP404; not used as verified source"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-27T11:03:40.660976+00:00",
+  "typecheck": "passed",
+  "build": "passed",
+  "buildCommand": "npm run build -- --webpack",
+  "testsPassed": 18,
+  "testsFailed": 0,
+  "previewHttp": "passed",
+  "previewRoutes": 40,
+  "previewGuideCount": 27,
+  "previewSitemapCount": 1053,
+  "mobile": "passed",
+  "originalPublishedRecordsPreserved": 24,
+  "productionVerification": "blocked",
+  "productionError": "HTTP402 DEPLOYMENT_DISABLED",
+  "sourceApplicationManifestUnchanged": true,
+  "newApisOrKeys": false,
+  "businessDataChanged": false,
+  "initialEnvironmentFailure": {
+    "status": "resolved",
+    "reason": "First initialization of isolated temporary SQLite raced across build workers; second build with same initialized temporary DB passed without code change.",
+    "evidence": "build-initial-sqlite-lock.log"
+  },
+  "logs": "Trailing whitespace normalized; substantive output preserved."
+}

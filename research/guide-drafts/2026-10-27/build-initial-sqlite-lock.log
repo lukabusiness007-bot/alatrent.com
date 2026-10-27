@@ -1,0 +1,33 @@
+
+> rent-tools@1.0.0 build
+> next build --webpack
+
+▲ Next.js 16.4.2 (webpack)
+✓ Running next.config.ts took 1439ms
+Warning: total number of custom routes exceeds 1000, this can reduce performance. Route counts:
+headers: 1
+rewrites: 0
+redirects: 1611
+See more info: https://nextjs.org/docs/messages/max-custom-routes-reached
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.9s
+  Running TypeScript ...
+  Finished TypeScript in 686ms ...
+  Collecting page data using 9 workers ...
+Error: Failed to collect configuration for /robots.txt
+    at ignore-listed frames {
+  [cause]: Error: database is locked
+      at N (.next/server/chunks/1204.js:1:35828)
+      at <unknown> (.next/server/chunks/1204.js:1:42320) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 5,
+    errstr: 'database is locked'
+  }
+}
+
+> Build error occurred
+Error: Failed to collect page data for /robots.txt
+    at ignore-listed frames {
+  type: 'Error'
+}

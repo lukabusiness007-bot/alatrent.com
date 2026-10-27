@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "G018",
+  "status": "ready_to_publish",
+  "internalReview": {
+    "reviewedAt": "2026-10-27T10:59:18.669674+00:00",
+    "reviewer": "Codex separate critical second pass; same agent",
+    "isIndependentAgent": false,
+    "score": 92,
+    "rubric": {
+      "intent": {
+        "score": 19,
+        "max": 20,
+        "reason": "Poseban izbor izlaza; nema merenog obima srpske tražnje."
+      },
+      "accuracy": {
+        "score": 23,
+        "max": 25,
+        "reason": "Primarni izvori za zonu, emisivnost i radiometriju; generički model kamere se ne pretpostavlja."
+      },
+      "practical": {
+        "score": 18,
+        "max": 20,
+        "reason": "Tabela razlikuje broj/sliku/zapis; ograničeno na pripremu jer stvarni model nije poznat."
+      },
+      "safety": {
+        "score": 14,
+        "max": 15,
+        "reason": "Nema dijagnoze ili dozvole za dodir/instalaciju; laser i granice UniversalTemp navedeni."
+      },
+      "clarity": {
+        "score": 9,
+        "max": 10,
+        "reason": "Pravilan termin merna oblast; kratko objašnjenje radiometrije."
+      },
+      "siteRole": {
+        "score": 9,
+        "max": 10,
+        "reason": "Ne preuzima G017/G019, dve komercijalne stranice čuvaju uslove najma."
+      }
+    },
+    "factChecks": [
+      {
+        "claimId": "G018-C1",
+        "sourceIds": [
+          "F1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G018-C2",
+        "sourceIds": [
+          "F2"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G018-C3",
+        "sourceIds": [
+          "B1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G018-C4",
+        "sourceIds": [
+          "B1"
+        ],
+        "result": "verified_with_stated_scope"
+      },
+      {
+        "claimId": "G018-C5",
+        "sourceIds": [
+          "F3"
+        ],
+        "result": "verified_with_stated_scope"
+      }
+    ],
+    "overlapCheck": {
+      "passed": true,
+      "reviewedInventoryCount": 24,
+      "reviewedPaths": [
+        "/sr/saveti/higrometar-ili-merac-vlage-drveta",
+        "/sr/saveti/termalna-kamera-curenje-vode-ogranicenja",
+        "/sr/alat/termalna-kamera",
+        "/sr/alat/bosch-termometar-ic-universal-temp-cr-3084"
+      ],
+      "decision": "G017 bira veličinu vlažnosti; G018 bira oblik podatka o površinskoj temperaturi. Held G019 je dijagnoza curenja i ostaje odložen. G018 ne tvrdi uzrok mrlje, vlagu ili sanaciju."
+    },
+    "linkChecks": [
+      {
+        "path": "/sr/saveti/higrometar-ili-merac-vlage-drveta",
+        "status": 200,
+        "production": "402 DEPLOYMENT_DISABLED",
+        "scope": "isolated preview",
+        "checkedAt": "2026-10-27T11:01:18.723570+00:00"
+      },
+      {
+        "path": "/sr/alat/termalna-kamera",
+        "status": 200,
+        "production": "402 DEPLOYMENT_DISABLED",
+        "scope": "isolated preview",
+        "checkedAt": "2026-10-27T11:01:18.723570+00:00"
+      },
+      {
+        "path": "/sr/alat/bosch-termometar-ic-universal-temp-cr-3084",
+        "status": 200,
+        "production": "402 DEPLOYMENT_DISABLED",
+        "scope": "isolated preview",
+        "checkedAt": "2026-10-27T11:01:18.723570+00:00"
+      }
+    ],
+    "hardFailures": [],
+    "revisionCount": 0,
+    "corrections": [
+      "Corrected brief-only nearest-topic paths to actual backlog canonical; article links unchanged."
+    ],
+    "limits": [
+      "No human expert review or field testing claimed.",
+      "Production verification blocked by Vercel; editorial readiness is not published status."
+    ]
+  },
+  "humanReview": {
+    "status": "not_performed",
+    "name": null,
+    "reviewedAt": null,
+    "scope": null
+  },
+  "openQuestions": [],
+  "integrationGaps": [],
+  "publicationReadiness": {
+    "unresolvedCriticalQuestions": [],
+    "articleSha256": "91ce860c77606571009f201c6cec912c4f6047bffdfc969fb4bcee1da496c825",
+    "scopeLimits": [
+      "Model termalne kamere i format izvoza nisu potvrđeni; članak ih pretvara u pitanje za tim, ne u obećanje.",
+      "Obim srpske pretrage nije izmeren; tema opravdana jasnom odlukom i postojećom opremom."
+    ],
+    "technicalGate": "Local typecheck/build/18 tests/full HTTP preview/mobile passed; production unavailable HTTP402 DEPLOYMENT_DISABLED."
+  }
+}

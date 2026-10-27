@@ -1,0 +1,20 @@
+{
+  "stagedAt": "2026-10-27T10:59:40.305916+00:00",
+  "status": "isolated_preview_only_production_blocked",
+  "baseRevision": "5c9a9cedfdf2fd4c63201fbd3d2a5c4d3346b359",
+  "originalCount": 24,
+  "candidateCount": 27,
+  "oldRecordsUnchanged": true,
+  "addedIds": [
+    "G018",
+    "G035",
+    "G036"
+  ],
+  "candidateSha256": "1dfd5da4dad4fd4cd5b44a001d70f3caa3fd377a839c9f40844a3541dd881ee6",
+  "note": "Preview dates are provisional, not publication evidence; regenerate real release date after hosting recovery. Main application manifest unchanged.",
+  "outputs": [
+    "Staged for deployment, not yet verified live: termalna-kamera-ili-ic-termometar\n",
+    "Staged for deployment, not yet verified live: mesac-ili-mesalica-za-beton\n",
+    "Staged for deployment, not yet verified live: elektricno-rende-ili-brusilica\n"
+  ]
+}

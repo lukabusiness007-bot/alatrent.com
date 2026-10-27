@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-10-27T11:04:23.642829+00:00",
+  "baseRevision": "5c9a9cedfdf2fd4c63201fbd3d2a5c4d3346b359",
+  "appManifestChanged": false,
+  "scope": [
+    "docs/guide-system/queue.json",
+    "docs/guide-system/keyword-backlog.json",
+    "research/guide-drafts/2026-10-27/"
+  ],
+  "purpose": "Back up reviewed guide packages and hosting incident; no content deployment claim.",
+  "checks": {
+    "allPackageJsonValid": true,
+    "allArticleHashesMatch": true,
+    "unrelatedQueueItemsPreserved": true,
+    "unrelatedBacklogItemsPreserved": true,
+    "previous24PublicRecordsUnchanged": true
+  },
+  "lastPublicChecks": [
+    {
+      "path": "/sr/saveti",
+      "status": 402,
+      "vercelError": "DEPLOYMENT_DISABLED",
+      "checkedAt": "2026-10-27T11:04:23.468777+00:00",
+      "body": "Payment required\n\nDEPLOYMENT_DISABLED\n\nfra1::fxlzk-1793099063615-9a0cc619ce46\n"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 402,
+      "vercelError": "DEPLOYMENT_DISABLED",
+      "checkedAt": "2026-10-27T11:04:23.642530+00:00",
+      "body": "Payment required\n\nDEPLOYMENT_DISABLED\n\nfra1::h6tb6-1793099063807-003f2f5d2fa8\n"
+    }
+  ],
+  "pushStatus": "pending"
+}

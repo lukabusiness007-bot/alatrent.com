@@ -27,3 +27,7 @@ Mobilni pregled na390px: devet snimaka vizuelno pregledano, nema horizontalnog p
 Google indeksiranje nije provereno i zahtevi nisu slati. Produkcioni sitemap je trenutno nedostupan zbog iste402 greške. Privatni Chrome/Google profil nije otvaran.
 
 Posle reaktivacije hostinga nastaviti **iste** pakete G018/G035/G036; ne praviti zamene ili nadoknadu propuštenih dana. Ponovo proveriti udaljeni Git, postojeći javni sadržaj, tačne modele/linkove i stanje paketa, pripremiti stvaran datum nove objave, zatim izvršiti ciljani content commit/push i sve javne provere. Tek posle očekivanog HTTP200 sadržaja, canonical/robots, sitemap-a i internih veza postaviti published. Današnji lokalni datumi iz probne integracije nisu datumi javne objave.
+
+## GitHub čuvanje
+
+Sva tri paketa, planovi i red poslati su na `main`, commit [b53e3e0](https://github.com/lukabusiness007-bot/alatrent.com/commit/b53e3e03f88e6fffade10ac3a3040964e9843af9). To čuva nacrte; novi vodiči nisu dodati u javni manifest aplikacije.

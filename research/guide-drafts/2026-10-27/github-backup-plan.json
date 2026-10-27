@@ -31,5 +31,7 @@
       "body": "Payment required\n\nDEPLOYMENT_DISABLED\n\nfra1::h6tb6-1793099063807-003f2f5d2fa8\n"
     }
   ],
-  "pushStatus": "pending"
+  "pushStatus": "confirmed",
+  "confirmedAt": "2026-10-27T11:05:05.384218+00:00",
+  "backupRevision": "b53e3e03f88e6fffade10ac3a3040964e9843af9"
 }
